@@ -1,0 +1,58 @@
+2026-07-20 20:15:30.871 | ========================================================================
+2026-07-20 20:15:30.871 | FBB Online  mode=CLIENT    identity=Mandrak           port=45380
+2026-07-20 20:15:30.872 | Session : 2026-07-20 20:15:30
+2026-07-20 20:15:30.872 | ========================================================================
+2026-07-20 20:15:30.872 | [STATE] _client none -> NetworkClient#2cd04489450 | cause=connect_client
+2026-07-20 20:15:30.872 | [STATE] _mode idle -> client | cause=connect_client
+2026-07-20 20:15:30.872 | [STATE] _my_callsign (vide) -> Mandrak | cause=connect_client
+2026-07-20 20:15:30.872 | [STATE] reset online | cause=connect_client | efface=bms_host, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, reconnecting, online_cam_path, online_brief_path, mc, session_host_callsign, pending_send, pending_recv, rtt
+2026-07-20 20:15:30.873 | [CLIENT] status → connecting
+2026-07-20 20:15:30.873 | [CLIENT] Connexion → 82.64.199.133:45380 (callsign=Mandrak)
+2026-07-20 20:15:30.973 | [PEEK] status → disconnected
+2026-07-20 20:15:31.020 | [CLIENT] status → connected
+2026-07-20 20:15:32.309 | [CAM] Bundle campagne reçu — 8 fichier(s)
+2026-07-20 20:15:32.534 | [THEATER] ✓ Théâtre vérifié — 6 fichier(s) OK
+2026-07-20 20:15:32.535 | [BA] Conteneurs BA reçus du host — 11 entrée(s)
+2026-07-20 20:15:32.563 | [LOADOUT] état reçu (pending + final)
+2026-07-20 20:15:32.631 | [CAM] Contexte rechargé → TC10.cam
+2026-07-20 20:18:26.152 | [MC] Mission Commander → Obe1
+2026-07-20 20:22:01.265 | [FPLN] fpln_secondary reçu — 1 vol(s)
+2026-07-20 20:22:08.657 | [FPLN] fpln_secondary reçu — 1 vol(s)
+2026-07-20 20:22:18.170 | [FPLN] fpln_secondary envoyé au host — 1 vol(s)
+2026-07-20 20:22:18.266 | [FPLN] fpln_secondary reçu — 1 vol(s)
+2026-07-20 20:22:26.986 | [FPLN] fpln_secondary envoyé au host — 1 vol(s)
+2026-07-20 20:22:27.067 | [FPLN] fpln_secondary reçu — 1 vol(s)
+2026-07-20 20:22:29.304 | [FPLN] fpln_secondary envoyé au host — 1 vol(s)
+2026-07-20 20:22:29.384 | [FPLN] fpln_secondary reçu — 1 vol(s)
+2026-07-20 20:22:53.187 | [FPLN] fpln_secondary envoyé au host — 1 vol(s)
+2026-07-20 20:22:53.215 | [FPLN] fpln_tle envoyé au host — 0 vol(s)
+2026-07-20 20:22:53.279 | [FPLN] fpln_secondary reçu — 0 vol(s)
+2026-07-20 20:22:53.359 | [FPLN] fpln_tle reçu — 0 vol(s)
+2026-07-20 20:24:06.593 | [MC-LAYER] v1 reçu
+2026-07-20 20:24:53.498 | [MC-LAYER] v2 reçu
+2026-07-20 20:25:20.797 | [MC-LAYER] v3 reçu
+2026-07-20 20:25:29.103 | [MC-LAYER] v4 reçu
+2026-07-20 20:26:57.896 | [MC-LAYER] proposition envoyée au MC
+2026-07-20 20:27:24.283 | [MC-LAYER] proposition envoyée au MC
+2026-07-20 20:28:26.757 | [PING] Obe1 ping position
+2026-07-20 20:28:32.733 | [PING] Obe1 ping position
+2026-07-20 20:28:35.425 | [PING] Mandrak ping position
+2026-07-20 20:28:39.507 | [PING] Mandrak ping position
+2026-07-20 20:34:27.801 | [LOADOUT] état reçu (pending + final)
+2026-07-20 20:34:29.670 | [LOADOUT] état reçu (pending + final)
+2026-07-20 20:34:30.351 | [LOADOUT] état reçu (pending + final)
+2026-07-20 20:34:55.590 | [LOADOUT] état reçu (pending + final)
+2026-07-20 20:35:03.089 | [LOADOUT] état reçu (pending + final)
+2026-07-20 20:35:27.213 | [LOADOUT] état reçu (pending + final)
+2026-07-20 20:47:22.722 | [MARKS] 1 mark(s) partagée(s) reçue(s)
+2026-07-20 20:47:49.401 | [MARKS] 1 mark(s) partagée(s) reçue(s)
+2026-07-20 20:48:00.708 | [MARKS] 2 mark(s) partagée(s) reçue(s)
+2026-07-20 20:48:11.715 | [MARKS] 2 mark(s) partagée(s) reçue(s)
+2026-07-20 20:49:13.608 | [MARKS] 3 mark(s) partagée(s) reçue(s)
+2026-07-20 20:49:15.326 | [MARKS] 4 mark(s) partagée(s) reçue(s)
+2026-07-20 20:49:20.422 | [MARKS] 5 mark(s) partagée(s) reçue(s)
+2026-07-20 20:49:21.338 | [MARKS] 6 mark(s) partagée(s) reçue(s)
+2026-07-20 20:49:22.095 | [MARKS] 7 mark(s) partagée(s) reçue(s)
+2026-07-20 20:49:22.525 | [MARKS] 8 mark(s) partagée(s) reçue(s)
+2026-07-20 20:49:26.831 | [MARKS] 7 mark(s) partagée(s) reçue(s)
+2026-07-20 20:49:27.582 | [MARKS] 8 mark(s) partagée(s) reçue(s)
