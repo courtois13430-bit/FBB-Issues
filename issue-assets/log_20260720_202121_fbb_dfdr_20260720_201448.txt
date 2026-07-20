@@ -1,0 +1,40 @@
+2026-07-20 20:14:49.557 | ========================================================================
+2026-07-20 20:14:49.557 | startup                  | FBB 1.68.0 — session 2026-07-20 20:14:49
+2026-07-20 20:14:49.557 | startup                  | Répertoire : D:\Jeux\Falcon BMS 4.38\Tools\FBB\_internal
+2026-07-20 20:14:49.557 | startup                  | Python 3.14.5
+2026-07-20 20:14:49.557 | ========================================================================
+2026-07-20 20:14:49.557 | system                   | OS : Windows 11 10.0.26200, AMD64, 32 CPU, RAM 32 GB
+2026-07-20 20:14:49.564 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-07-20 20:14:49.564 | registry                 | BMS baseDir : D:\Jeux\Falcon BMS 4.38
+2026-07-20 20:14:49.565 | registry                 | BMS theater : LKTO 4.38 - Mike  pilot : Mandrak
+2026-07-20 20:14:51.047 | parse_health             | TC11.cam: records 891/891, bytes 357999/357999, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-07-20 20:14:52.694 | telemetry                | ping OK v1.68.0 Windows 11 canal=prod → HTTP 200
+2026-07-20 20:15:24.876 | roaster.data             | fetch
+2026-07-20 20:15:29.664 | online                   | peek_roster 82.64.199.133:45380 start (suggested=Mandrak)
+2026-07-20 20:15:30.864 | online                   | peek_roster 82.64.199.133:45380 ok: 1 vol(s)
+2026-07-20 20:15:30.873 | online                   | connect_client 82.64.199.133:45380 as Mandrak
+2026-07-20 20:15:32.309 | online                   | campaign_bundle received 8 files
+2026-07-20 20:15:32.532 | parse_health             | TC10.cam: records 867/867, bytes 344980/344980, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-07-20 20:15:32.535 | online                   | theater_ok: LKTO 4.38 - Mike
+2026-07-20 20:15:32.541 | online                   | ba_containers_sync received 11
+2026-07-20 20:15:32.563 | online                   | loadout_sync_received
+2026-07-20 20:15:32.631 | online                   | campaign_bundle applied: TC10.cam
+2026-07-20 20:17:48.825 | mission_support          | tanker: cam pkg=1367 vu=25319
+2026-07-20 20:17:48.837 | mission_support          | awacs: cam pkg=1367 vu=24235
+2026-07-20 20:17:48.891 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-07-20 20:18:15.667 | roaster.data             | fetch
+2026-07-20 20:18:15.670 | roaster.roster           | roster keys=['mudhen5']
+2026-07-20 20:18:15.672 | mission_support          | tanker: cam pkg=1367 vu=25319
+2026-07-20 20:18:15.672 | mission_support          | awacs: cam pkg=1367 vu=24235
+2026-07-20 20:18:15.672 | roaster.data             | ok — 1 flights, axis=153.4°
+2026-07-20 20:18:26.153 | online                   | mc_assigned Obe1
+2026-07-20 20:19:30.294 | roaster.data             | fetch
+2026-07-20 20:19:30.297 | roaster.roster           | roster keys=['mudhen5']
+2026-07-20 20:19:30.298 | mission_support          | tanker: cam pkg=1367 vu=25319
+2026-07-20 20:19:30.298 | mission_support          | awacs: cam pkg=1367 vu=24235
+2026-07-20 20:19:30.299 | roaster.data             | ok — 1 flights, axis=153.4°
+2026-07-20 20:20:30.300 | roaster.data             | fetch
+2026-07-20 20:20:30.302 | roaster.roster           | roster keys=['mudhen5']
+2026-07-20 20:20:30.303 | mission_support          | tanker: cam pkg=1367 vu=25319
+2026-07-20 20:20:30.304 | mission_support          | awacs: cam pkg=1367 vu=24235
+2026-07-20 20:20:30.304 | roaster.data             | ok — 1 flights, axis=153.4°
