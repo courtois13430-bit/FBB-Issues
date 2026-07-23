@@ -1,0 +1,50 @@
+2026-07-23 15:27:43.342 | ========================================================================
+2026-07-23 15:27:43.342 | startup                  | FBB 1.71.0 — session 2026-07-23 15:27:43
+2026-07-23 15:27:43.343 | startup                  | Répertoire : C:\Falcon\Admin\Logiciels annexes\FBB\_internal
+2026-07-23 15:27:43.343 | startup                  | Python 3.14.5
+2026-07-23 15:27:43.343 | ========================================================================
+2026-07-23 15:27:43.343 | system                   | OS : Windows 11 10.0.26200, AMD64, 32 CPU, RAM 32 GB
+2026-07-23 15:27:43.353 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-07-23 15:27:43.353 | registry                 | BMS baseDir : C:\Falcon\Falcon BMS 4.38
+2026-07-23 15:27:43.353 | registry                 | BMS theater : LKTO 4.38 - Mike  pilot : Obe1
+2026-07-23 15:27:44.973 | parse_health             | TC09_FBB.cam: records 937/937, bytes 371023/371023, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-07-23 15:27:46.855 | telemetry                | ping OK v1.71.0 Windows 11 canal=prod → HTTP 200
+2026-07-23 15:28:28.252 | parse_health             | TC09.cam: records 934/934, bytes 369994/369994, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-07-23 15:28:52.519 | roaster.data             | fetch
+2026-07-23 15:28:52.521 | roaster.roster           | roster keys=['banshee3', 'jaguar6']
+2026-07-23 15:28:52.629 | mission_support          | tanker: cam pkg=1273 vu=26054
+2026-07-23 15:28:52.630 | mission_support          | awacs: cam pkg=1273 vu=24579
+2026-07-23 15:28:52.630 | roaster.data             | ok — 2 flights, axis=326.6°
+2026-07-23 15:28:53.903 | online                   | start_server port=45380
+2026-07-23 15:31:25.304 | online                   | set_mc Obe1
+2026-07-23 15:31:32.719 | campaign_overview        | objective_index loaded=5992
+2026-07-23 15:31:32.725 | campaign_overview        | tri conditions=1 file=save0.tri
+2026-07-23 15:31:33.340 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-07-23 15:31:33.340 | campaign_overview        | system_marks=4
+2026-07-23 15:31:33.375 | mission_support          | tanker: cam pkg=1273 vu=26054
+2026-07-23 15:31:33.402 | mission_support          | awacs: cam pkg=1273 vu=24579
+2026-07-23 15:31:33.450 | briefing_context         | package_overview flights=2 route_points=6 focus_points=2 unique_points=6
+2026-07-23 15:31:54.778 | online                   | mc_layer_publish v1 by Obe1
+2026-07-23 15:34:04.100 | mission_support          | awacs: cam pkg=1273 vu=24579
+2026-07-23 15:34:04.100 | mission_support          | tanker: cam pkg=1273 vu=26054
+2026-07-23 15:34:04.131 | fuel_plan                | avail=12194 atTurn=8217 bingo=5808 joker=6308 rtb=2290 margin=2409 GO
+2026-07-23 15:34:04.414 | dtc_render               | path=Obe1.ini mode=delta n_stpt=24 n_lines=5 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=90a76c0b
+2026-07-23 15:34:06.379 | mission_sink             | choice=source (overwrite sibling consenti)
+2026-07-23 15:34:06.588 | dtc_render               | path=Obe1.ini mode=delta n_stpt=24 n_lines=5 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=90a76c0b
+2026-07-23 15:34:07.603 | dtc_save_sibling         | path=TC09.ini n_ppt=15 n_lines=24 n_dpi=0 n_divert=0
+2026-07-23 15:34:07.603 | dtc_save_ok              | path=Obe1.ini n_stpt=24 n_lines=5 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 n_seeded=0 seeded=[] backup=Obe1_bkup_fbb_230726_153407.ini
+2026-07-23 15:34:07.621 | fuel_plan                | avail=12194 atTurn=8217 bingo=5808 joker=6308 rtb=2290 margin=2409 GO
+2026-07-23 15:34:08.023 | dtc_render               | path=Obe1.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=52046821
+2026-07-23 15:34:08.162 | dtc_render               | path=Obe1.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=52046821
+2026-07-23 15:34:25.960 | mission_support          | awacs: cam pkg=1273 vu=24579
+2026-07-23 15:34:25.961 | mission_support          | tanker: cam pkg=1273 vu=26054
+2026-07-23 15:34:25.973 | fuel_plan                | avail=12194 atTurn=8217 bingo=5808 joker=6308 rtb=2290 margin=2409 GO
+2026-07-23 15:34:26.186 | dtc_render               | path=Obe1.ini mode=delta n_stpt=24 n_lines=12 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=52046821
+2026-07-23 15:34:27.119 | dtc_render               | path=Obe1.ini mode=delta n_stpt=24 n_lines=12 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=52046821
+2026-07-23 15:34:28.312 | dtc_save_sibling         | path=TC09.ini n_ppt=15 n_lines=24 n_dpi=0 n_divert=0
+2026-07-23 15:34:28.312 | dtc_save_ok              | path=Obe1.ini n_stpt=24 n_lines=12 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 n_seeded=0 seeded=[] backup=Obe1_bkup_fbb_230726_153428.ini
+2026-07-23 15:34:28.325 | fuel_plan                | avail=12194 atTurn=8217 bingo=5808 joker=6308 rtb=2290 margin=2409 GO
+2026-07-23 15:34:28.704 | dtc_render               | path=Obe1.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=89366396
+2026-07-23 15:34:28.892 | dtc_render               | path=Obe1.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=89366396
+2026-07-23 15:35:35.643 | online                   | mc_submit_from_Vince
+2026-07-23 15:36:14.984 | online                   | mc_submit_from_Vince
