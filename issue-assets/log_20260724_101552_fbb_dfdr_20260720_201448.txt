@@ -1,0 +1,361 @@
+2026-07-20 20:14:49.557 | ========================================================================
+2026-07-20 20:14:49.557 | startup                  | FBB 1.68.0 — session 2026-07-20 20:14:49
+2026-07-20 20:14:49.557 | startup                  | Répertoire : D:\Jeux\Falcon BMS 4.38\Tools\FBB\_internal
+2026-07-20 20:14:49.557 | startup                  | Python 3.14.5
+2026-07-20 20:14:49.557 | ========================================================================
+2026-07-20 20:14:49.557 | system                   | OS : Windows 11 10.0.26200, AMD64, 32 CPU, RAM 32 GB
+2026-07-20 20:14:49.564 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-07-20 20:14:49.564 | registry                 | BMS baseDir : D:\Jeux\Falcon BMS 4.38
+2026-07-20 20:14:49.565 | registry                 | BMS theater : LKTO 4.38 - Mike  pilot : Mandrak
+2026-07-20 20:14:51.047 | parse_health             | TC11.cam: records 891/891, bytes 357999/357999, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-07-20 20:14:52.694 | telemetry                | ping OK v1.68.0 Windows 11 canal=prod → HTTP 200
+2026-07-20 20:15:24.876 | roaster.data             | fetch
+2026-07-20 20:15:29.664 | online                   | peek_roster 82.64.199.133:45380 start (suggested=Mandrak)
+2026-07-20 20:15:30.864 | online                   | peek_roster 82.64.199.133:45380 ok: 1 vol(s)
+2026-07-20 20:15:30.873 | online                   | connect_client 82.64.199.133:45380 as Mandrak
+2026-07-20 20:15:32.309 | online                   | campaign_bundle received 8 files
+2026-07-20 20:15:32.532 | parse_health             | TC10.cam: records 867/867, bytes 344980/344980, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-07-20 20:15:32.535 | online                   | theater_ok: LKTO 4.38 - Mike
+2026-07-20 20:15:32.541 | online                   | ba_containers_sync received 11
+2026-07-20 20:15:32.563 | online                   | loadout_sync_received
+2026-07-20 20:15:32.631 | online                   | campaign_bundle applied: TC10.cam
+2026-07-20 20:17:48.825 | mission_support          | tanker: cam pkg=1367 vu=25319
+2026-07-20 20:17:48.837 | mission_support          | awacs: cam pkg=1367 vu=24235
+2026-07-20 20:17:48.891 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-07-20 20:18:15.667 | roaster.data             | fetch
+2026-07-20 20:18:15.670 | roaster.roster           | roster keys=['mudhen5']
+2026-07-20 20:18:15.672 | mission_support          | tanker: cam pkg=1367 vu=25319
+2026-07-20 20:18:15.672 | mission_support          | awacs: cam pkg=1367 vu=24235
+2026-07-20 20:18:15.672 | roaster.data             | ok — 1 flights, axis=153.4°
+2026-07-20 20:18:26.153 | online                   | mc_assigned Obe1
+2026-07-20 20:19:30.294 | roaster.data             | fetch
+2026-07-20 20:19:30.297 | roaster.roster           | roster keys=['mudhen5']
+2026-07-20 20:19:30.298 | mission_support          | tanker: cam pkg=1367 vu=25319
+2026-07-20 20:19:30.298 | mission_support          | awacs: cam pkg=1367 vu=24235
+2026-07-20 20:19:30.299 | roaster.data             | ok — 1 flights, axis=153.4°
+2026-07-20 20:20:30.300 | roaster.data             | fetch
+2026-07-20 20:20:30.302 | roaster.roster           | roster keys=['mudhen5']
+2026-07-20 20:20:30.303 | mission_support          | tanker: cam pkg=1367 vu=25319
+2026-07-20 20:20:30.304 | mission_support          | awacs: cam pkg=1367 vu=24235
+2026-07-20 20:20:30.304 | roaster.data             | ok — 1 flights, axis=153.4°
+2026-07-20 20:21:30.302 | roaster.data             | fetch
+2026-07-20 20:21:30.305 | roaster.roster           | roster keys=['mudhen5']
+2026-07-20 20:21:30.306 | mission_support          | tanker: cam pkg=1367 vu=25319
+2026-07-20 20:21:30.306 | mission_support          | awacs: cam pkg=1367 vu=24235
+2026-07-20 20:21:30.307 | roaster.data             | ok — 1 flights, axis=153.4°
+2026-07-20 20:22:18.170 | online                   | send_fpln_secondary_to_host 1 vol(s)
+2026-07-20 20:22:26.986 | online                   | send_fpln_secondary_to_host 1 vol(s)
+2026-07-20 20:22:29.304 | online                   | send_fpln_secondary_to_host 1 vol(s)
+2026-07-20 20:22:53.187 | online                   | send_fpln_secondary_to_host 1 vol(s)
+2026-07-20 20:22:53.215 | timeline_edits           | vus=0 wps=0 key='C:\\Users\\mandr\\AppData\\Local\\Temp\\fbb_campaign_bundle\\TC10.cam'
+2026-07-20 20:22:53.215 | online                   | send_fpln_tle_to_host 0 vol(s)
+2026-07-20 20:22:53.362 | timeline_edits           | vus=0 wps=0 key='C:\\Users\\mandr\\AppData\\Local\\Temp\\fbb_campaign_bundle\\TC10.cam'
+2026-07-20 20:24:06.593 | online                   | mc_layer_sync_received v1
+2026-07-20 20:24:53.498 | online                   | mc_layer_sync_received v2
+2026-07-20 20:25:20.797 | online                   | mc_layer_sync_received v3
+2026-07-20 20:25:29.103 | online                   | mc_layer_sync_received v4
+2026-07-20 20:26:57.896 | online                   | relay_mc_submit
+2026-07-20 20:27:24.283 | online                   | relay_mc_submit
+2026-07-20 20:29:24.874 | mission_support          | tanker: cam pkg=1367 vu=25319
+2026-07-20 20:29:24.875 | mission_support          | awacs: cam pkg=1367 vu=24235
+2026-07-20 20:29:24.875 | briefing_context         | roster_support flights=1 tanker=True awacs=True
+2026-07-20 20:29:24.898 | briefing_context         | ordnance vu=26721 aircraft=4 pending=False
+2026-07-20 20:29:24.923 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-07-20 20:30:11.314 | mission_support          | tanker: cam pkg=1367 vu=25319
+2026-07-20 20:30:11.314 | mission_support          | awacs: cam pkg=1367 vu=24235
+2026-07-20 20:30:11.314 | briefing_context         | roster_support flights=1 tanker=True awacs=True
+2026-07-20 20:30:11.315 | briefing_context         | ordnance vu=26721 aircraft=4 pending=False
+2026-07-20 20:30:11.337 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-07-20 20:30:29.654 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-07-20 20:30:29.796 | roaster.data             | fetch
+2026-07-20 20:30:29.799 | roaster.roster           | roster keys=['mudhen5']
+2026-07-20 20:30:29.800 | mission_support          | tanker: cam pkg=1367 vu=25319
+2026-07-20 20:30:29.800 | mission_support          | awacs: cam pkg=1367 vu=24235
+2026-07-20 20:30:29.801 | roaster.data             | ok — 1 flights, axis=153.4°
+2026-07-20 20:30:37.179 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-07-20 20:31:07.722 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-07-20 20:31:07.816 | roaster.data             | fetch
+2026-07-20 20:31:07.818 | roaster.roster           | roster keys=['mudhen5']
+2026-07-20 20:31:07.819 | mission_support          | tanker: cam pkg=1367 vu=25319
+2026-07-20 20:31:07.820 | mission_support          | awacs: cam pkg=1367 vu=24235
+2026-07-20 20:31:07.820 | roaster.data             | ok — 1 flights, axis=153.4°
+2026-07-20 20:31:30.203 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-07-20 20:31:35.514 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-07-20 20:31:35.566 | roaster.data             | fetch
+2026-07-20 20:31:35.568 | roaster.roster           | roster keys=['mudhen5']
+2026-07-20 20:31:35.569 | mission_support          | tanker: cam pkg=1367 vu=25319
+2026-07-20 20:31:35.570 | mission_support          | awacs: cam pkg=1367 vu=24235
+2026-07-20 20:31:35.570 | roaster.data             | ok — 1 flights, axis=153.4°
+2026-07-20 20:31:39.472 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-07-20 20:31:39.567 | vprofile_wx              | n=225 fog=0 cb=0
+2026-07-20 20:31:46.475 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-07-20 20:31:46.708 | timeline_data            | pkgs=186 flights=189 my_pkg=1367 my_vu=26721 buddies=0
+2026-07-20 20:32:39.474 | dtc_render               | path=Mandrak.ini mode=delta n_stpt=24 n_lines=22 n_ppt=15 n_dpi=0 n_divert=1 n_sections=0 hash=a382ed62
+2026-07-20 20:32:46.250 | mission_sink             | choice=source (overwrite sibling consenti)
+2026-07-20 20:32:46.477 | dtc_render               | path=Mandrak.ini mode=delta n_stpt=24 n_lines=22 n_ppt=15 n_dpi=0 n_divert=1 n_sections=0 hash=a382ed62
+2026-07-20 20:32:48.351 | dtc_save_sibling         | path=TC10.ini n_ppt=15 n_lines=24 n_dpi=0 n_divert=0
+2026-07-20 20:32:48.351 | dtc_save_ok              | path=Mandrak.ini n_stpt=24 n_lines=22 n_ppt=15 n_dpi=0 n_divert=1 n_sections=5 n_seeded=0 seeded=[] backup=Mandrak_bkup_fbb_200726_203248.ini
+2026-07-20 20:32:48.780 | dtc_render               | path=Mandrak.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=1178dd15
+2026-07-20 20:32:48.917 | dtc_render               | path=Mandrak.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=1178dd15
+2026-07-20 20:32:52.476 | dtc_render               | path=Mandrak.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=1178dd15
+2026-07-20 20:32:55.506 | dtc_render               | path=Mandrak.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=1178dd15
+2026-07-20 20:32:56.949 | dtc_save_ok              | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=9 n_seeded=0 seeded=[] backup=Mandrak_bkup_fbb_200726_203256.ini
+2026-07-20 20:32:57.436 | dtc_render               | path=Mandrak.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b1a9e934
+2026-07-20 20:32:57.561 | dtc_render               | path=Mandrak.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b1a9e934
+2026-07-20 20:33:05.829 | dtc_render               | path=Mandrak.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b1a9e934
+2026-07-20 20:33:13.400 | dtc_render               | path=Mandrak.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b1a9e934
+2026-07-20 20:33:18.322 | dtc_render               | path=Mandrak.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b1a9e934
+2026-07-20 20:33:50.146 | loadout3d                | scene unit_ct=2645 veh_ct=2467 ac_model=1052 (F-16CM-50) slots=11 stores=11 seat=3
+2026-07-20 20:33:50.147 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-07-20 20:33:50.147 | loadout3d                |   HP 1 wid=159 model=2016 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:33:50.147 | loadout3d                |   HP 2 wid=159 model=2016 slot=[-13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:33:50.147 | loadout3d                |   HP 3 wid=159 model=2016 slot=[-10.0, -1.72720599, 0.127838001] : AIM-120C AMRAAM
+2026-07-20 20:33:50.147 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:33:50.147 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-07-20 20:33:50.147 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:33:50.147 | loadout3d                |   HP 7 wid=176 model=1369 slot=[10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-07-20 20:33:50.147 | loadout3d                |   HP 8 wid=159 model=2016 slot=[13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:33:50.147 | loadout3d                |   HP 9 wid=159 model=2016 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:33:50.147 | loadout3d                |   HP11 wid=182 model=719 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-33 SNIPER
+2026-07-20 20:33:51.121 | loadout3d                | _str_compat: aucun .str pour aircraft='F-16', fallback global
+2026-07-20 20:33:51.121 | loadout3d                | _str_compat: aircraft=F-16 C:\Users\mandr\AppData\Local\Temp\fbb_campaign_bundle → 0 WIDs, 0/0 fichiers .str
+2026-07-20 20:33:51.129 | loadout3d                | _bmsrack_stations: D:\Jeux\Falcon BMS 4.38\Data\TerrData\Objects\BmsRack.dat → 271 WIDs
+2026-07-20 20:33:51.147 | loadout3d                | _ssd_stores: D:\Jeux\Falcon BMS 4.38\Data\TerrData\Objects\Falcon4_SSD.xml → 110 SSD
+2026-07-20 20:33:51.490 | loadout3d                | weapons endpoint: sq_vu=8671 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[3] hp=11 weapons=31 (30 dispo)
+2026-07-20 20:33:51.501 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:33:51.502 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:33:51.502 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:33:55.870 | fuel_plan                | avail=12194 atTurn=8349 bingo=5472 joker=5972 rtb=1946 margin=2877 GO
+2026-07-20 20:34:00.294 | loadout3d                | scene unit_ct=2645 veh_ct=2467 ac_model=1052 (F-16CM-50) slots=11 stores=11 seat=3
+2026-07-20 20:34:00.294 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-07-20 20:34:00.294 | loadout3d                |   HP 1 wid=159 model=2016 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:34:00.295 | loadout3d                |   HP 2 wid=159 model=2016 slot=[-13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:34:00.295 | loadout3d                |   HP 3 wid=159 model=2016 slot=[-10.0, -1.72720599, 0.127838001] : AIM-120C AMRAAM
+2026-07-20 20:34:00.295 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:34:00.295 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-07-20 20:34:00.295 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:34:00.295 | loadout3d                |   HP 7 wid=176 model=1369 slot=[10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-07-20 20:34:00.295 | loadout3d                |   HP 8 wid=159 model=2016 slot=[13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:34:00.295 | loadout3d                |   HP 9 wid=159 model=2016 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:34:00.295 | loadout3d                |   HP11 wid=182 model=719 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-33 SNIPER
+2026-07-20 20:34:00.448 | loadout3d                | weapons endpoint: sq_vu=8671 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[3] hp=11 weapons=31 (30 dispo)
+2026-07-20 20:34:00.474 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:00.474 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:34:00.474 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:34:27.802 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:27.802 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:34:27.802 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:34:27.803 | loadout_weapon_dtc       | validated_fields=0 stage_sections=0
+2026-07-20 20:34:27.803 | online                   | loadout_sync_received
+2026-07-20 20:34:27.807 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:27.807 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:34:27.807 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:34:27.809 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:27.809 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:34:27.809 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:34:27.810 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:28.060 | loadout3d                | scene unit_ct=2645 veh_ct=2467 ac_model=1052 (F-16CM-50) slots=11 stores=11 seat=3
+2026-07-20 20:34:28.061 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-07-20 20:34:28.061 | loadout3d                |   HP 1 wid=159 model=2016 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:34:28.061 | loadout3d                |   HP 2 wid=159 model=2016 slot=[-13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:34:28.061 | loadout3d                |   HP 3 wid=176 model=1369 slot=[-10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-07-20 20:34:28.061 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:34:28.061 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-07-20 20:34:28.061 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:34:28.061 | loadout3d                |   HP 7 wid=176 model=1369 slot=[10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-07-20 20:34:28.061 | loadout3d                |   HP 8 wid=159 model=2016 slot=[13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:34:28.061 | loadout3d                |   HP 9 wid=159 model=2016 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:34:28.061 | loadout3d                |   HP11 wid=182 model=719 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-33 SNIPER
+2026-07-20 20:34:28.197 | loadout3d                | weapons endpoint: sq_vu=8671 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[3] hp=11 weapons=31 (30 dispo)
+2026-07-20 20:34:29.671 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:29.671 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:34:29.672 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:34:29.672 | loadout_weapon_dtc       | validated_fields=0 stage_sections=0
+2026-07-20 20:34:29.672 | online                   | loadout_sync_received
+2026-07-20 20:34:29.675 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:29.675 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:34:29.675 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:34:29.677 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:29.677 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:34:29.677 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:34:29.677 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:29.928 | loadout3d                | scene unit_ct=2645 veh_ct=2467 ac_model=1052 (F-16CM-50) slots=11 stores=10 seat=3
+2026-07-20 20:34:29.928 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-07-20 20:34:29.928 | loadout3d                |   HP 1 wid=159 model=2016 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:34:29.928 | loadout3d                |   HP 2 wid=159 model=2016 slot=[-13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:34:29.928 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:34:29.928 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-07-20 20:34:29.928 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:34:29.928 | loadout3d                |   HP 7 wid=176 model=1369 slot=[10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-07-20 20:34:29.928 | loadout3d                |   HP 8 wid=159 model=2016 slot=[13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:34:29.928 | loadout3d                |   HP 9 wid=159 model=2016 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:34:29.928 | loadout3d                |   HP11 wid=182 model=719 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-33 SNIPER
+2026-07-20 20:34:30.067 | loadout3d                | weapons endpoint: sq_vu=8671 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[3] hp=11 weapons=31 (30 dispo)
+2026-07-20 20:34:30.351 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:30.352 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:34:30.352 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:34:30.352 | loadout_weapon_dtc       | validated_fields=0 stage_sections=0
+2026-07-20 20:34:30.352 | online                   | loadout_sync_received
+2026-07-20 20:34:30.355 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:30.355 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:34:30.355 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:34:30.357 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:30.357 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:34:30.357 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:34:30.358 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:30.608 | loadout3d                | scene unit_ct=2645 veh_ct=2467 ac_model=1052 (F-16CM-50) slots=11 stores=11 seat=3
+2026-07-20 20:34:30.609 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-07-20 20:34:30.609 | loadout3d                |   HP 1 wid=159 model=2016 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:34:30.609 | loadout3d                |   HP 2 wid=159 model=2016 slot=[-13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:34:30.609 | loadout3d                |   HP 3 wid=176 model=1369 slot=[-10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-07-20 20:34:30.609 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:34:30.609 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-07-20 20:34:30.609 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:34:30.609 | loadout3d                |   HP 7 wid=176 model=1369 slot=[10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-07-20 20:34:30.609 | loadout3d                |   HP 8 wid=159 model=2016 slot=[13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:34:30.609 | loadout3d                |   HP 9 wid=159 model=2016 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:34:30.609 | loadout3d                |   HP11 wid=182 model=719 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-33 SNIPER
+2026-07-20 20:34:30.745 | loadout3d                | weapons endpoint: sq_vu=8671 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[3] hp=11 weapons=31 (30 dispo)
+2026-07-20 20:34:55.591 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:55.591 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:34:55.591 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:34:55.592 | loadout_weapon_dtc       | validated_fields=0 stage_sections=0
+2026-07-20 20:34:55.592 | online                   | loadout_sync_received
+2026-07-20 20:34:55.594 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:55.595 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:34:55.595 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:34:55.597 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:55.597 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:34:55.597 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:34:55.598 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:34:55.852 | loadout3d                | scene unit_ct=2645 veh_ct=2467 ac_model=1052 (F-16CM-50) slots=11 stores=11 seat=3
+2026-07-20 20:34:55.852 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-07-20 20:34:55.852 | loadout3d                |   HP 1 wid=159 model=2016 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:34:55.852 | loadout3d                |   HP 2 wid=159 model=2016 slot=[-13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:34:55.852 | loadout3d                |   HP 3 wid=159 model=2016 slot=[-10.0, -1.72720599, 0.127838001] : AIM-120C AMRAAM
+2026-07-20 20:34:55.852 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:34:55.852 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-07-20 20:34:55.852 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:34:55.852 | loadout3d                |   HP 7 wid=176 model=1369 slot=[10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-07-20 20:34:55.852 | loadout3d                |   HP 8 wid=159 model=2016 slot=[13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:34:55.852 | loadout3d                |   HP 9 wid=159 model=2016 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:34:55.852 | loadout3d                |   HP11 wid=182 model=719 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-33 SNIPER
+2026-07-20 20:34:55.979 | loadout3d                | weapons endpoint: sq_vu=8671 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[3] hp=11 weapons=31 (30 dispo)
+2026-07-20 20:35:03.090 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:35:03.090 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:35:03.091 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:35:03.091 | loadout_weapon_dtc       | validated_fields=0 stage_sections=0
+2026-07-20 20:35:03.091 | online                   | loadout_sync_received
+2026-07-20 20:35:03.094 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:35:03.094 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:35:03.094 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:35:03.096 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:35:03.096 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:35:03.096 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:35:03.097 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:35:03.353 | loadout3d                | scene unit_ct=2645 veh_ct=2467 ac_model=1052 (F-16CM-50) slots=11 stores=11 seat=3
+2026-07-20 20:35:03.353 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-07-20 20:35:03.353 | loadout3d                |   HP 1 wid=159 model=2016 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:35:03.353 | loadout3d                |   HP 2 wid=159 model=2016 slot=[-13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:35:03.353 | loadout3d                |   HP 3 wid=159 model=2016 slot=[-10.0, -1.72720599, 0.127838001] : AIM-120C AMRAAM
+2026-07-20 20:35:03.353 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:35:03.353 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-07-20 20:35:03.353 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:35:03.353 | loadout3d                |   HP 7 wid=176 model=1369 slot=[10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-07-20 20:35:03.353 | loadout3d                |   HP 8 wid=159 model=2016 slot=[13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:35:03.353 | loadout3d                |   HP 9 wid=159 model=2016 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:35:03.353 | loadout3d                |   HP11 wid=182 model=719 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-33 SNIPER
+2026-07-20 20:35:03.490 | loadout3d                | weapons endpoint: sq_vu=8671 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[3] hp=11 weapons=31 (30 dispo)
+2026-07-20 20:35:27.124 | loadout3d                | set_weapon: vu=26721 seats=[3] hp=7 wid=158 count=1 (PENDING, non écrit sur disque)
+2026-07-20 20:35:27.124 | online                   | relay_loadout vu=26721 hp=7
+2026-07-20 20:35:27.200 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:35:27.200 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:35:27.200 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:35:27.214 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:35:27.214 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:35:27.214 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:35:27.215 | loadout_weapon_dtc       | validated_fields=0 stage_sections=0
+2026-07-20 20:35:27.215 | online                   | loadout_sync_received
+2026-07-20 20:35:27.218 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:35:27.219 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:35:27.219 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:35:27.219 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:35:27.473 | loadout3d                | scene unit_ct=2645 veh_ct=2467 ac_model=1052 (F-16CM-50) slots=11 stores=11 seat=3
+2026-07-20 20:35:27.473 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-07-20 20:35:27.473 | loadout3d                |   HP 1 wid=159 model=2016 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:35:27.473 | loadout3d                |   HP 2 wid=159 model=2016 slot=[-13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:35:27.473 | loadout3d                |   HP 3 wid=159 model=2016 slot=[-10.0, -1.72720599, 0.127838001] : AIM-120C AMRAAM
+2026-07-20 20:35:27.473 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:35:27.473 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-07-20 20:35:27.473 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:35:27.473 | loadout3d                |   HP 7 wid=158 model=1690 slot=[10.0, -1.72720599, 0.127838001] : AIM-120B AMRAAM
+2026-07-20 20:35:27.473 | loadout3d                |   HP 8 wid=159 model=2016 slot=[13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:35:27.473 | loadout3d                |   HP 9 wid=159 model=2016 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:35:27.473 | loadout3d                |   HP11 wid=182 model=719 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-33 SNIPER
+2026-07-20 20:35:27.604 | loadout3d                | weapons endpoint: sq_vu=8671 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[3] hp=11 weapons=31 (30 dispo)
+2026-07-20 20:38:01.713 | fuel_plan                | avail=12194 atTurn=8349 bingo=5472 joker=5972 rtb=1946 margin=2877 GO
+2026-07-20 20:39:10.891 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-07-20 20:40:33.563 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-07-20 20:40:33.632 | roaster.data             | fetch
+2026-07-20 20:40:33.634 | roaster.roster           | roster keys=['mudhen5']
+2026-07-20 20:40:33.635 | mission_support          | tanker: cam pkg=1367 vu=25319
+2026-07-20 20:40:33.636 | mission_support          | awacs: cam pkg=1367 vu=24235
+2026-07-20 20:40:33.636 | roaster.data             | ok — 1 flights, axis=153.4°
+2026-07-20 20:40:34.445 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-07-20 20:40:34.455 | vprofile_wx              | n=225 fog=0 cb=0
+2026-07-20 20:40:36.395 | fuel_plan                | avail=12194 atTurn=8349 bingo=5472 joker=5972 rtb=1946 margin=2877 GO
+2026-07-20 20:40:51.092 | fuel_plan                | avail=12194 atTurn=8349 bingo=5472 joker=5972 rtb=1946 margin=2877 GO
+2026-07-20 20:40:51.345 | dtc_render               | path=Mandrak.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b1a9e934
+2026-07-20 20:41:57.427 | loadout3d                | scene unit_ct=2645 veh_ct=2467 ac_model=1052 (F-16CM-50) slots=11 stores=11 seat=3
+2026-07-20 20:41:57.427 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-07-20 20:41:57.427 | loadout3d                |   HP 1 wid=159 model=2016 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:41:57.427 | loadout3d                |   HP 2 wid=159 model=2016 slot=[-13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:41:57.427 | loadout3d                |   HP 3 wid=159 model=2016 slot=[-10.0, -1.72720599, 0.127838001] : AIM-120C AMRAAM
+2026-07-20 20:41:57.427 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:41:57.427 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-07-20 20:41:57.427 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-07-20 20:41:57.427 | loadout3d                |   HP 7 wid=158 model=1690 slot=[10.0, -1.72720599, 0.127838001] : AIM-120B AMRAAM
+2026-07-20 20:41:57.427 | loadout3d                |   HP 8 wid=159 model=2016 slot=[13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-07-20 20:41:57.427 | loadout3d                |   HP 9 wid=159 model=2016 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-07-20 20:41:57.427 | loadout3d                |   HP11 wid=182 model=719 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-33 SNIPER
+2026-07-20 20:41:57.580 | loadout3d                | weapons endpoint: sq_vu=8671 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[3] hp=11 weapons=31 (30 dispo)
+2026-07-20 20:41:57.608 | loadout_laser            | package=1367 laser_flights=0 my_code=1688
+2026-07-20 20:41:57.609 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-07-20 20:41:57.609 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-07-20 20:41:59.057 | fuel_plan                | avail=12194 atTurn=8349 bingo=5472 joker=5972 rtb=1946 margin=2877 GO
+2026-07-20 20:42:01.804 | fuel_plan                | avail=12194 atTurn=8349 bingo=5472 joker=5972 rtb=1946 margin=2877 GO
+2026-07-20 20:42:01.805 | dtc_render               | path=Mandrak.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=3 hash=b1a9e934
+2026-07-20 20:42:03.694 | fuel_plan                | avail=12194 atTurn=8349 bingo=5472 joker=5972 rtb=1946 margin=2877 GO
+2026-07-20 20:42:04.259 | dtc_save_ok              | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=3 n_seeded=0 seeded=[] backup=Mandrak_bkup_fbb_200726_204203.ini
+2026-07-20 20:42:04.593 | fuel_plan                | avail=12194 atTurn=8349 bingo=5472 joker=5972 rtb=1946 margin=2877 GO
+2026-07-20 20:42:04.593 | dtc_render               | path=Mandrak.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=2eb8b6a9
+2026-07-20 20:42:12.329 | fuel_plan                | avail=12194 atTurn=8349 bingo=5472 joker=5972 rtb=1946 margin=2877 GO
+2026-07-20 20:42:12.329 | dtc_render               | path=Mandrak.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=2eb8b6a9
+2026-07-20 20:42:17.132 | fuel_plan                | avail=12194 atTurn=8349 bingo=5472 joker=5972 rtb=1946 margin=2877 GO
+2026-07-20 20:42:17.388 | dtc_save_noop            | total=24
+2026-07-20 20:42:32.931 | fuel_plan                | avail=12194 atTurn=8349 bingo=5472 joker=5972 rtb=1946 margin=2877 GO
+2026-07-20 20:42:32.932 | dtc_render               | path=Mandrak.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=2eb8b6a9
+2026-07-20 20:43:01.739 | vprofile_wx              | n=225 fog=0 cb=0
+2026-07-20 20:43:57.325 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-07-20 20:47:22.666 | online                   | relay_marks_op add
+2026-07-20 20:47:22.722 | online                   | marks_list_received 1
+2026-07-20 20:47:49.361 | online                   | relay_marks_op update
+2026-07-20 20:47:49.401 | online                   | marks_list_received 1
+2026-07-20 20:48:00.708 | online                   | marks_list_received 2
+2026-07-20 20:48:11.715 | online                   | marks_list_received 2
+2026-07-20 20:49:13.537 | online                   | relay_marks_op update
+2026-07-20 20:49:13.608 | online                   | marks_list_received 3
+2026-07-20 20:49:15.220 | online                   | relay_marks_op update
+2026-07-20 20:49:15.326 | online                   | marks_list_received 4
+2026-07-20 20:49:20.363 | online                   | relay_marks_op update
+2026-07-20 20:49:20.422 | online                   | marks_list_received 5
+2026-07-20 20:49:21.294 | online                   | relay_marks_op update
+2026-07-20 20:49:21.338 | online                   | marks_list_received 6
+2026-07-20 20:49:22.005 | online                   | relay_marks_op update
+2026-07-20 20:49:22.095 | online                   | marks_list_received 7
+2026-07-20 20:49:22.491 | online                   | relay_marks_op update
+2026-07-20 20:49:22.525 | online                   | marks_list_received 8
+2026-07-20 20:49:26.801 | online                   | relay_marks_op remove
+2026-07-20 20:49:26.832 | online                   | marks_list_received 7
+2026-07-20 20:49:27.522 | online                   | relay_marks_op update
+2026-07-20 20:49:27.583 | online                   | marks_list_received 8
