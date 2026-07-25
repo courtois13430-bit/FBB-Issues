@@ -1,0 +1,36 @@
+2026-07-25 20:00:16.290 | ========================================================================
+2026-07-25 20:00:16.291 | startup                  | FBB 1.71.0 — session 2026-07-25 20:00:16
+2026-07-25 20:00:16.291 | startup                  | Répertoire : C:\FALCON\Admin\Logiciels annexe\FBB\_internal
+2026-07-25 20:00:16.291 | startup                  | Python 3.14.5
+2026-07-25 20:00:16.291 | ========================================================================
+2026-07-25 20:00:16.294 | system                   | OS : Windows 11 10.0.26200, AMD64, 8 CPU, RAM 16 GB
+2026-07-25 20:00:16.325 | system                   | Machine : <masqué> / Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2026-07-25 20:00:16.325 | registry                 | BMS baseDir : C:\FALCON\Falcon BMS 4.38
+2026-07-25 20:00:16.325 | registry                 | BMS theater : LKTO 4.38 - Mike  pilot : Myers
+2026-07-25 20:00:20.782 | telemetry                | ping OK v1.71.0 Windows 11 canal=prod → HTTP 200
+2026-07-25 20:03:24.560 | parse_health             | TC09_FBB.cam: records 937/937, bytes 371023/371023, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-07-25 20:03:32.108 | parse_health             | TC06.cam: records 882/882, bytes 358943/358943, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-07-25 20:03:44.110 | parse_health             | TC07.cam: records 1002/1002, bytes 403244/403244, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-07-25 20:04:00.222 | parse_health             | TC08.cam: records 1024/1024, bytes 412364/412364, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-07-25 20:04:23.507 | parse_health             | TC10.cam: records 867/867, bytes 344980/344980, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-07-25 20:04:34.603 | parse_health             | TC06.cam: records 882/882, bytes 358943/358943, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-07-25 20:04:57.713 | campaign_overview        | objective_index loaded=5992
+2026-07-25 20:04:57.735 | campaign_overview        | tri conditions=1 file=save0.tri
+2026-07-25 20:04:59.358 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-07-25 20:04:59.359 | campaign_overview        | system_marks=3
+2026-07-25 20:05:00.141 | mission_support          | tanker: cam pkg=1495 vu=23374
+2026-07-25 20:05:00.259 | mission_support          | awacs: cam pkg=1495 vu=23379
+2026-07-25 20:05:00.616 | briefing_context         | package_overview flights=2 route_points=14 focus_points=4 unique_points=14
+2026-07-25 20:12:45.336 | parse_health             | TC_test3xflights.cam: records 1036/1036, bytes 415150/415150, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-07-25 20:13:03.043 | roaster.data             | fetch
+2026-07-25 20:13:03.049 | roaster.roster           | roster keys=['jackal2', 'mudhen3', 'mako7']
+2026-07-25 20:13:04.025 | mission_support          | tanker: cam pkg=1371 vu=27808
+2026-07-25 20:13:04.029 | mission_support          | awacs: cam pkg=1371 vu=27928
+2026-07-25 20:13:04.030 | roaster.data             | ok — 3 flights, axis=16.7°
+2026-07-25 20:14:02.550 | campaign_overview        | objective_index loaded=5992
+2026-07-25 20:14:02.742 | campaign_overview        | tri conditions=1 file=save0.tri
+2026-07-25 20:14:05.515 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-07-25 20:14:05.526 | campaign_overview        | system_marks=4
+2026-07-25 20:14:06.497 | mission_support          | tanker: cam pkg=1371 vu=27808
+2026-07-25 20:14:06.874 | mission_support          | awacs: cam pkg=1371 vu=27928
+2026-07-25 20:14:07.782 | briefing_context         | package_overview flights=3 route_points=19 focus_points=3 unique_points=19
