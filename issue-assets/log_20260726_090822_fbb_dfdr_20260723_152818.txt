@@ -1,0 +1,55 @@
+2026-07-23 15:28:18.642 | ========================================================================
+2026-07-23 15:28:18.642 | startup                  | FBB 1.71.0 — session 2026-07-23 15:28:18
+2026-07-23 15:28:18.642 | startup                  | Répertoire : C:\FALCON\Admin\Logiciels annexe\FBB\_internal
+2026-07-23 15:28:18.642 | startup                  | Python 3.14.5
+2026-07-23 15:28:18.642 | ========================================================================
+2026-07-23 15:28:18.643 | system                   | OS : Windows 11 10.0.26200, AMD64, 8 CPU, RAM 16 GB
+2026-07-23 15:28:18.666 | system                   | Machine : <masqué> / Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2026-07-23 15:28:18.666 | registry                 | BMS baseDir : C:\FALCON\Falcon BMS 4.38
+2026-07-23 15:28:18.666 | registry                 | BMS theater : LKTO 4.38 - Mike  pilot : Myers
+2026-07-23 15:28:22.101 | telemetry                | ping OK v1.71.0 Windows 11 canal=prod → HTTP 200
+2026-07-23 15:29:00.630 | roaster.data             | fetch
+2026-07-23 15:29:31.881 | online                   | peek_roster 192.168.1.21:45380 start (suggested=Myers)
+2026-07-23 15:29:32.982 | online                   | peek_roster 192.168.1.21:45380 ok: 2 vol(s)
+2026-07-23 15:29:43.799 | online                   | connect_client 192.168.1.21:45380 as Vince
+2026-07-23 15:29:45.198 | online                   | campaign_bundle received 8 files
+2026-07-23 15:29:45.880 | parse_health             | TC09.cam: records 934/934, bytes 369994/369994, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-07-23 15:29:45.936 | online                   | theater_ok: LKTO 4.38 - Mike
+2026-07-23 15:29:45.937 | online                   | dpi_sync received 2
+2026-07-23 15:29:46.003 | online                   | ba_containers_sync received 12
+2026-07-23 15:29:46.125 | online                   | loadout_sync_received
+2026-07-23 15:29:46.221 | online                   | campaign_bundle applied: TC09.cam
+2026-07-23 15:30:06.166 | campaign_overview        | objective_index loaded=5992
+2026-07-23 15:30:06.184 | campaign_overview        | tri conditions=1 file=save0.tri
+2026-07-23 15:30:08.692 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-07-23 15:30:08.693 | campaign_overview        | system_marks=4
+2026-07-23 15:30:09.365 | mission_support          | tanker: cam pkg=1273 vu=26054
+2026-07-23 15:30:09.376 | mission_support          | awacs: cam pkg=1273 vu=24579
+2026-07-23 15:30:09.438 | briefing_context         | package_overview flights=2 route_points=6 focus_points=2 unique_points=6
+2026-07-23 15:31:18.556 | roaster.data             | fetch
+2026-07-23 15:31:18.562 | roaster.roster           | roster keys=['banshee3', 'jaguar6']
+2026-07-23 15:31:18.574 | mission_support          | tanker: cam pkg=1273 vu=26054
+2026-07-23 15:31:18.576 | mission_support          | awacs: cam pkg=1273 vu=24579
+2026-07-23 15:31:18.577 | roaster.data             | ok — 2 flights, axis=326.6°
+2026-07-23 15:31:25.403 | online                   | relay_mc_assign Obe1
+2026-07-23 15:31:25.426 | online                   | mc_assigned Obe1
+2026-07-23 15:31:54.897 | online                   | mc_layer_sync_received v1
+2026-07-23 15:32:21.952 | ppt_auto                 | threats_found=17 written=8
+2026-07-23 15:32:50.162 | fuel_plan                | avail=12194 atTurn=8217 bingo=5808 joker=6308 rtb=2290 margin=2409 GO
+2026-07-23 15:32:51.063 | dtc_render               | path=Myers.ini mode=delta n_stpt=24 n_lines=23 n_ppt=13 n_dpi=0 n_divert=0 n_sections=0 hash=df8b74ec
+2026-07-23 15:32:55.771 | mission_sink             | choice=source (overwrite sibling consenti)
+2026-07-23 15:32:56.527 | dtc_render               | path=Myers.ini mode=delta n_stpt=24 n_lines=23 n_ppt=13 n_dpi=0 n_divert=0 n_sections=0 hash=df8b74ec
+2026-07-23 15:32:59.697 | dtc_save_sibling         | path=TC09.ini n_ppt=15 n_lines=24 n_dpi=3 n_divert=0
+2026-07-23 15:32:59.697 | dtc_save_ok              | path=Myers.ini n_stpt=24 n_lines=23 n_ppt=13 n_dpi=0 n_divert=0 n_sections=0 n_seeded=0 seeded=[] backup=Myers_bkup_fbb_230726_153259.ini
+2026-07-23 15:32:59.731 | fuel_plan                | avail=12194 atTurn=8217 bingo=5808 joker=6308 rtb=2290 margin=2409 GO
+2026-07-23 15:33:01.356 | dtc_render               | path=Myers.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=468fd25f
+2026-07-23 15:33:01.575 | dtc_render               | path=Myers.ini mode=delta n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=468fd25f
+2026-07-23 15:35:35.729 | online                   | relay_mc_submit
+2026-07-23 15:36:15.075 | online                   | relay_mc_submit
+2026-07-23 15:42:28.538 | roaster.data             | fetch
+2026-07-23 15:42:28.550 | roaster.roster           | roster keys=['banshee3', 'jaguar6']
+2026-07-23 15:42:28.569 | mission_support          | tanker: cam pkg=1273 vu=26054
+2026-07-23 15:42:28.574 | mission_support          | awacs: cam pkg=1273 vu=24579
+2026-07-23 15:42:28.576 | roaster.data             | ok — 2 flights, axis=326.6°
+2026-07-23 15:42:29.364 | online                   | disconnect_client
+2026-07-23 15:42:30.632 | parse_health             | Auto Save.cam: records 892/892, bytes 361993/361993, rejects=0, exc=0, constr_err=0, first_desync=None
