@@ -1,0 +1,463 @@
+2026-07-28 15:15:11.961 | ========================================================================
+2026-07-28 15:15:11.961 | startup                  | FBB 1.71.0 — session 2026-07-28 15:15:11
+2026-07-28 15:15:11.961 | startup                  | Répertoire : C:\FALCON\Admin\Logiciels annexe\FBB\_internal
+2026-07-28 15:15:11.961 | startup                  | Python 3.14.5
+2026-07-28 15:15:11.962 | ========================================================================
+2026-07-28 15:15:11.963 | system                   | OS : Windows 11 10.0.26200, AMD64, 8 CPU, RAM 16 GB
+2026-07-28 15:15:12.000 | system                   | Machine : <masqué> / Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
+2026-07-28 15:15:12.000 | registry                 | BMS baseDir : C:\FALCON\Falcon BMS 4.38
+2026-07-28 15:15:12.000 | registry                 | BMS theater : LKTO 4.38 - Mike  pilot : Myers
+2026-07-28 15:15:15.945 | telemetry                | ping OK v1.71.0 Windows 11 canal=prod → HTTP 200
+2026-07-28 15:15:16.716 | parse_health             | TC06_OCA-3flights.cam: records 1057/1057, bytes 422955/422955, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-07-28 15:15:38.056 | campaign_overview        | objective_index loaded=5992
+2026-07-28 15:15:38.079 | campaign_overview        | tri conditions=1 file=save0.tri
+2026-07-28 15:15:40.461 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-07-28 15:15:40.463 | campaign_overview        | system_marks=4
+2026-07-28 15:15:41.294 | mission_support          | tanker: briefing cs='Texaco1 (TCN: 054Y)' no coalition match
+2026-07-28 15:15:41.362 | mission_support          | awacs: briefing cs='Chalice7' vu=27928
+2026-07-28 15:15:41.562 | briefing_context         | package_overview flights=3 route_points=9 focus_points=1 unique_points=9
+2026-07-28 15:16:44.639 | ato_departure            | resolved=255/282
+2026-07-28 15:16:45.609 | ato_target               | index_built names=7038
+2026-07-28 15:16:45.669 | ato_aircraft_details     | vu=20036 aircraft=2 details=2
+2026-07-28 15:16:45.670 | ato_aircraft_details     | vu=20276 aircraft=2 details=2
+2026-07-28 15:16:45.671 | ato_aircraft_details     | vu=20047 aircraft=4 details=4
+2026-07-28 15:16:45.673 | ato_aircraft_details     | vu=20031 aircraft=2 details=2
+2026-07-28 15:16:45.674 | ato_aircraft_details     | vu=20042 aircraft=2 details=2
+2026-07-28 15:16:45.675 | ato_target               | resolved id=20109 target=Fighter
+2026-07-28 15:16:45.675 | ato_target               | resolved id=20109 target=Fighter
+2026-07-28 15:16:45.675 | ato_aircraft_details     | vu=20110 aircraft=2 details=2
+2026-07-28 15:16:45.676 | ato_aircraft_details     | vu=20091 aircraft=2 details=2
+2026-07-28 15:16:45.677 | ato_target               | resolved id=20166 target=Fighter
+2026-07-28 15:16:45.677 | ato_target               | resolved id=20166 target=Fighter
+2026-07-28 15:16:45.677 | ato_aircraft_details     | vu=20167 aircraft=2 details=2
+2026-07-28 15:16:45.678 | ato_aircraft_details     | vu=27897 aircraft=2 details=2
+2026-07-28 15:16:45.680 | ato_aircraft_details     | vu=27898 aircraft=2 details=2
+2026-07-28 15:16:45.681 | ato_aircraft_details     | vu=27899 aircraft=2 details=2
+2026-07-28 15:16:45.683 | ato_aircraft_details     | vu=27902 aircraft=2 details=2
+2026-07-28 15:16:45.684 | ato_aircraft_details     | vu=20072 aircraft=2 details=2
+2026-07-28 15:16:45.684 | ato_target               | resolved id=27938 target=AWACS
+2026-07-28 15:16:45.684 | ato_target               | resolved id=27938 target=AWACS
+2026-07-28 15:16:45.685 | ato_aircraft_details     | vu=27940 aircraft=2 details=2
+2026-07-28 15:16:45.686 | ato_aircraft_details     | vu=20198 aircraft=2 details=2
+2026-07-28 15:16:45.687 | ato_target               | resolved id=8182 target=Air Defense
+2026-07-28 15:16:45.687 | ato_target               | resolved id=8182 target=Air Defense
+2026-07-28 15:16:45.688 | ato_aircraft_details     | vu=20145 aircraft=2 details=2
+2026-07-28 15:16:45.689 | ato_target               | resolved id=8182 target=Air Defense
+2026-07-28 15:16:45.689 | ato_aircraft_details     | vu=20146 aircraft=2 details=2
+2026-07-28 15:16:45.690 | ato_target               | resolved id=8171 target=Air Defense
+2026-07-28 15:16:45.690 | ato_target               | resolved id=8171 target=Air Defense
+2026-07-28 15:16:45.690 | ato_aircraft_details     | vu=20147 aircraft=2 details=2
+2026-07-28 15:16:45.691 | ato_target               | resolved id=8171 target=Air Defense
+2026-07-28 15:16:45.691 | ato_aircraft_details     | vu=20148 aircraft=2 details=2
+2026-07-28 15:16:45.692 | ato_aircraft_details     | vu=20139 aircraft=2 details=2
+2026-07-28 15:16:45.693 | ato_target               | resolved id=8212 target=AAA
+2026-07-28 15:16:45.694 | ato_target               | resolved id=8212 target=AAA
+2026-07-28 15:16:45.694 | ato_aircraft_details     | vu=20153 aircraft=2 details=2
+2026-07-28 15:16:45.695 | ato_target               | resolved id=8212 target=AAA
+2026-07-28 15:16:45.695 | ato_aircraft_details     | vu=20154 aircraft=2 details=2
+2026-07-28 15:16:45.696 | ato_aircraft_details     | vu=20029 aircraft=2 details=2
+2026-07-28 15:16:45.698 | ato_aircraft_details     | vu=20035 aircraft=2 details=2
+2026-07-28 15:16:45.699 | ato_target               | resolved id=3668 target=1 Bridge RU
+2026-07-28 15:16:45.699 | ato_target               | resolved id=3668 target=1 Bridge RU
+2026-07-28 15:16:45.699 | ato_aircraft_details     | vu=20107 aircraft=2 details=2
+2026-07-28 15:16:45.700 | ato_aircraft_details     | vu=20058 aircraft=2 details=2
+2026-07-28 15:16:45.702 | ato_aircraft_details     | vu=20059 aircraft=2 details=2
+2026-07-28 15:16:45.703 | ato_aircraft_details     | vu=20060 aircraft=2 details=2
+2026-07-28 15:16:45.704 | ato_aircraft_details     | vu=20070 aircraft=2 details=2
+2026-07-28 15:16:45.706 | ato_aircraft_details     | vu=20072 aircraft=2 details=2
+2026-07-28 15:16:45.707 | ato_aircraft_details     | vu=20099 aircraft=2 details=2
+2026-07-28 15:16:45.709 | ato_aircraft_details     | vu=27997 aircraft=2 details=2
+2026-07-28 15:16:45.710 | ato_aircraft_details     | vu=20122 aircraft=2 details=2
+2026-07-28 15:16:45.712 | ato_aircraft_details     | vu=20166 aircraft=2 details=2
+2026-07-28 15:16:45.713 | ato_aircraft_details     | vu=20294 aircraft=2 details=2
+2026-07-28 15:16:45.714 | ato_target               | resolved id=2051 target=Tajae-ri
+2026-07-28 15:16:45.715 | ato_target               | resolved id=2051 target=Tajae-ri
+2026-07-28 15:16:45.715 | ato_aircraft_details     | vu=20177 aircraft=2 details=2
+2026-07-28 15:16:45.717 | ato_aircraft_details     | vu=20070 aircraft=2 details=2
+2026-07-28 15:16:45.719 | ato_aircraft_details     | vu=20247 aircraft=2 details=2
+2026-07-28 15:16:45.720 | ato_aircraft_details     | vu=20304 aircraft=2 details=2
+2026-07-28 15:16:45.721 | ato_aircraft_details     | vu=20305 aircraft=2 details=2
+2026-07-28 15:16:45.722 | ato_aircraft_details     | vu=26568 aircraft=1 details=1
+2026-07-28 15:16:45.724 | ato_aircraft_details     | vu=26573 aircraft=1 details=1
+2026-07-28 15:16:45.726 | ato_aircraft_details     | vu=27928 aircraft=1 details=1
+2026-07-28 15:16:45.727 | ato_aircraft_details     | vu=27933 aircraft=1 details=1
+2026-07-28 15:16:45.728 | ato_aircraft_details     | vu=27938 aircraft=1 details=1
+2026-07-28 15:16:45.729 | ato_aircraft_details     | vu=20014 aircraft=2 details=2
+2026-07-28 15:16:45.730 | ato_aircraft_details     | vu=20018 aircraft=2 details=2
+2026-07-28 15:16:45.731 | ato_aircraft_details     | vu=27996 aircraft=2 details=2
+2026-07-28 15:16:45.734 | ato_aircraft_details     | vu=27880 aircraft=2 details=2
+2026-07-28 15:16:45.735 | ato_aircraft_details     | vu=27858 aircraft=2 details=2
+2026-07-28 15:16:45.736 | ato_aircraft_details     | vu=27896 aircraft=2 details=2
+2026-07-28 15:16:45.738 | ato_aircraft_details     | vu=20106 aircraft=2 details=2
+2026-07-28 15:16:45.739 | ato_target               | resolved id=2101 target=Uiju Airbase (ZKUJ)
+2026-07-28 15:16:45.740 | ato_aircraft_details     | vu=20138 aircraft=2 details=2
+2026-07-28 15:16:45.742 | ato_target               | resolved id=2101 target=Uiju Airbase (ZKUJ)
+2026-07-28 15:16:45.742 | ato_aircraft_details     | vu=20137 aircraft=2 details=2
+2026-07-28 15:16:45.744 | ato_aircraft_details     | vu=20152 aircraft=4 details=4
+2026-07-28 15:16:45.748 | ato_aircraft_details     | vu=20155 aircraft=4 details=4
+2026-07-28 15:16:45.750 | ato_target               | resolved id=2102 target=Samjiyon Airport (ZKSE)
+2026-07-28 15:16:45.750 | ato_target               | resolved id=2102 target=Samjiyon Airport (ZKSE)
+2026-07-28 15:16:45.750 | ato_aircraft_details     | vu=20174 aircraft=4 details=4
+2026-07-28 15:16:45.751 | ato_aircraft_details     | vu=20042 aircraft=2 details=2
+2026-07-28 15:16:45.752 | ato_aircraft_details     | vu=27748 aircraft=2 details=2
+2026-07-28 15:16:45.754 | ato_aircraft_details     | vu=20017 aircraft=2 details=2
+2026-07-28 15:16:45.756 | ato_aircraft_details     | vu=20109 aircraft=2 details=2
+2026-07-28 15:16:45.758 | ato_aircraft_details     | vu=27753 aircraft=2 details=2
+2026-07-28 15:16:45.759 | ato_aircraft_details     | vu=20100 aircraft=2 details=2
+2026-07-28 15:16:45.761 | ato_aircraft_details     | vu=28002 aircraft=2 details=2
+2026-07-28 15:16:45.764 | ato_aircraft_details     | vu=27886 aircraft=2 details=2
+2026-07-28 15:16:45.765 | ato_aircraft_details     | vu=20161 aircraft=2 details=2
+2026-07-28 15:16:45.766 | ato_aircraft_details     | vu=20252 aircraft=2 details=2
+2026-07-28 15:16:45.767 | ato_aircraft_details     | vu=27553 aircraft=1 details=1
+2026-07-28 15:16:45.768 | ato_aircraft_details     | vu=27636 aircraft=1 details=1
+2026-07-28 15:16:45.769 | ato_aircraft_details     | vu=27634 aircraft=1 details=1
+2026-07-28 15:16:45.770 | ato_aircraft_details     | vu=27764 aircraft=1 details=1
+2026-07-28 15:16:45.772 | ato_aircraft_details     | vu=20088 aircraft=1 details=1
+2026-07-28 15:16:45.774 | ato_aircraft_details     | vu=27096 aircraft=1 details=1
+2026-07-28 15:16:45.775 | ato_aircraft_details     | vu=27599 aircraft=1 details=1
+2026-07-28 15:16:45.776 | ato_aircraft_details     | vu=27731 aircraft=1 details=1
+2026-07-28 15:16:45.777 | ato_aircraft_details     | vu=27825 aircraft=1 details=1
+2026-07-28 15:16:45.779 | ato_aircraft_details     | vu=27527 aircraft=1 details=1
+2026-07-28 15:16:45.782 | ato_aircraft_details     | vu=20226 aircraft=1 details=1
+2026-07-28 15:16:45.783 | ato_aircraft_details     | vu=27702 aircraft=1 details=1
+2026-07-28 15:16:45.785 | ato_aircraft_details     | vu=27732 aircraft=1 details=1
+2026-07-28 15:16:45.786 | ato_aircraft_details     | vu=27590 aircraft=1 details=1
+2026-07-28 15:16:45.788 | ato_aircraft_details     | vu=27528 aircraft=1 details=1
+2026-07-28 15:16:45.790 | ato_aircraft_details     | vu=27554 aircraft=1 details=1
+2026-07-28 15:16:45.792 | ato_aircraft_details     | vu=27302 aircraft=1 details=1
+2026-07-28 15:16:45.794 | ato_aircraft_details     | vu=27865 aircraft=1 details=1
+2026-07-28 15:16:45.795 | ato_aircraft_details     | vu=27058 aircraft=1 details=1
+2026-07-28 15:16:45.796 | ato_aircraft_details     | vu=27733 aircraft=1 details=1
+2026-07-28 15:16:45.797 | ato_aircraft_details     | vu=27826 aircraft=1 details=1
+2026-07-28 15:16:45.799 | ato_aircraft_details     | vu=27555 aircraft=1 details=1
+2026-07-28 15:16:45.801 | ato_aircraft_details     | vu=20136 aircraft=1 details=1
+2026-07-28 15:16:45.802 | ato_aircraft_details     | vu=27635 aircraft=1 details=1
+2026-07-28 15:16:45.803 | ato_aircraft_details     | vu=20277 aircraft=1 details=1
+2026-07-28 15:16:45.803 | ato_aircraft_details     | vu=27704 aircraft=1 details=1
+2026-07-28 15:16:45.805 | ato_aircraft_details     | vu=27454 aircraft=1 details=1
+2026-07-28 15:16:45.806 | ato_aircraft_details     | vu=27600 aircraft=1 details=1
+2026-07-28 15:16:45.808 | ato_aircraft_details     | vu=27529 aircraft=1 details=1
+2026-07-28 15:16:45.809 | ato_aircraft_details     | vu=27974 aircraft=1 details=1
+2026-07-28 15:16:45.810 | ato_aircraft_details     | vu=27654 aircraft=1 details=1
+2026-07-28 15:16:45.811 | ato_aircraft_details     | vu=27601 aircraft=1 details=1
+2026-07-28 15:16:45.813 | ato_aircraft_details     | vu=27765 aircraft=1 details=1
+2026-07-28 15:16:45.814 | ato_aircraft_details     | vu=27650 aircraft=1 details=1
+2026-07-28 15:16:45.816 | ato_aircraft_details     | vu=20279 aircraft=1 details=1
+2026-07-28 15:16:45.818 | ato_aircraft_details     | vu=27871 aircraft=1 details=1
+2026-07-28 15:16:45.819 | ato_aircraft_details     | vu=20232 aircraft=1 details=1
+2026-07-28 15:16:45.821 | ato_aircraft_details     | vu=27734 aircraft=1 details=1
+2026-07-28 15:16:45.822 | ato_aircraft_details     | vu=27456 aircraft=1 details=1
+2026-07-28 15:16:45.823 | ato_aircraft_details     | vu=27976 aircraft=1 details=1
+2026-07-28 15:16:45.824 | ato_aircraft_details     | vu=27097 aircraft=1 details=1
+2026-07-28 15:16:45.825 | ato_aircraft_details     | vu=20090 aircraft=1 details=1
+2026-07-28 15:16:45.826 | ato_aircraft_details     | vu=27827 aircraft=1 details=1
+2026-07-28 15:16:45.827 | ato_aircraft_details     | vu=20091 aircraft=1 details=1
+2026-07-28 15:16:45.828 | ato_aircraft_details     | vu=27410 aircraft=1 details=1
+2026-07-28 15:16:45.830 | ato_aircraft_details     | vu=27638 aircraft=1 details=1
+2026-07-28 15:16:45.832 | ato_aircraft_details     | vu=27256 aircraft=1 details=1
+2026-07-28 15:16:45.834 | ato_aircraft_details     | vu=27303 aircraft=1 details=1
+2026-07-28 15:16:45.836 | ato_aircraft_details     | vu=27872 aircraft=1 details=1
+2026-07-28 15:16:45.838 | ato_aircraft_details     | vu=27639 aircraft=1 details=1
+2026-07-28 15:16:45.839 | ato_aircraft_details     | vu=27181 aircraft=1 details=1
+2026-07-28 15:16:45.840 | ato_aircraft_details     | vu=27705 aircraft=1 details=1
+2026-07-28 15:16:45.841 | ato_aircraft_details     | vu=20281 aircraft=1 details=1
+2026-07-28 15:16:45.842 | ato_aircraft_details     | vu=20021 aircraft=1 details=1
+2026-07-28 15:16:45.842 | ato_aircraft_details     | vu=20092 aircraft=1 details=1
+2026-07-28 15:16:45.843 | ato_aircraft_details     | vu=27767 aircraft=1 details=1
+2026-07-28 15:16:45.844 | ato_aircraft_details     | vu=27530 aircraft=1 details=1
+2026-07-28 15:16:45.844 | ato_aircraft_details     | vu=27457 aircraft=1 details=1
+2026-07-28 15:16:45.845 | ato_aircraft_details     | vu=27304 aircraft=1 details=1
+2026-07-28 15:16:45.846 | ato_aircraft_details     | vu=27736 aircraft=1 details=1
+2026-07-28 15:16:45.847 | ato_aircraft_details     | vu=27531 aircraft=1 details=1
+2026-07-28 15:16:45.849 | ato_aircraft_details     | vu=27099 aircraft=1 details=1
+2026-07-28 15:16:45.850 | ato_aircraft_details     | vu=20227 aircraft=1 details=1
+2026-07-28 15:16:45.850 | ato_aircraft_details     | vu=27768 aircraft=1 details=1
+2026-07-28 15:16:45.851 | ato_aircraft_details     | vu=27100 aircraft=1 details=1
+2026-07-28 15:16:45.852 | ato_aircraft_details     | vu=27556 aircraft=1 details=1
+2026-07-28 15:16:45.852 | ato_aircraft_details     | vu=20093 aircraft=1 details=1
+2026-07-28 15:16:45.853 | ato_aircraft_details     | vu=27602 aircraft=1 details=1
+2026-07-28 15:16:45.854 | ato_aircraft_details     | vu=20027 aircraft=1 details=1
+2026-07-28 15:16:45.855 | ato_aircraft_details     | vu=27182 aircraft=1 details=1
+2026-07-28 15:16:45.856 | ato_aircraft_details     | vu=27257 aircraft=1 details=1
+2026-07-28 15:16:45.857 | ato_aircraft_details     | vu=27458 aircraft=1 details=1
+2026-07-28 15:16:45.858 | ato_aircraft_details     | vu=20233 aircraft=1 details=1
+2026-07-28 15:16:45.858 | ato_aircraft_details     | vu=20028 aircraft=1 details=1
+2026-07-28 15:16:45.859 | ato_aircraft_details     | vu=20282 aircraft=1 details=1
+2026-07-28 15:16:45.860 | ato_aircraft_details     | vu=27532 aircraft=1 details=1
+2026-07-28 15:16:45.861 | ato_aircraft_details     | vu=27557 aircraft=1 details=1
+2026-07-28 15:16:45.862 | ato_aircraft_details     | vu=20029 aircraft=1 details=1
+2026-07-28 15:16:45.863 | ato_aircraft_details     | vu=27305 aircraft=1 details=1
+2026-07-28 15:16:45.864 | ato_aircraft_details     | vu=20137 aircraft=1 details=1
+2026-07-28 15:16:45.865 | ato_aircraft_details     | vu=20138 aircraft=1 details=1
+2026-07-28 15:16:45.866 | ato_aircraft_details     | vu=20311 aircraft=1 details=1
+2026-07-28 15:16:45.866 | ato_aircraft_details     | vu=27306 aircraft=1 details=1
+2026-07-28 15:16:45.867 | ato_aircraft_details     | vu=27640 aircraft=1 details=1
+2026-07-28 15:16:45.868 | ato_aircraft_details     | vu=27873 aircraft=1 details=1
+2026-07-28 15:16:45.869 | ato_aircraft_details     | vu=20139 aircraft=1 details=1
+2026-07-28 15:16:45.870 | ato_aircraft_details     | vu=20235 aircraft=1 details=1
+2026-07-28 15:16:45.871 | ato_aircraft_details     | vu=20229 aircraft=1 details=1
+2026-07-28 15:16:45.872 | ato_aircraft_details     | vu=27183 aircraft=1 details=1
+2026-07-28 15:16:45.873 | ato_aircraft_details     | vu=27345 aircraft=1 details=1
+2026-07-28 15:16:45.874 | ato_aircraft_details     | vu=20283 aircraft=1 details=1
+2026-07-28 15:16:45.875 | ato_aircraft_details     | vu=20127 aircraft=1 details=1
+2026-07-28 15:16:45.875 | ato_aircraft_details     | vu=20006 aircraft=1 details=1
+2026-07-28 15:16:45.877 | ato_aircraft_details     | vu=20030 aircraft=1 details=1
+2026-07-28 15:16:45.877 | ato_aircraft_details     | vu=20007 aircraft=1 details=1
+2026-07-28 15:16:45.878 | ato_aircraft_details     | vu=20008 aircraft=1 details=1
+2026-07-28 15:16:45.879 | ato_aircraft_details     | vu=20009 aircraft=1 details=1
+2026-07-28 15:16:45.881 | ato_aircraft_details     | vu=27701 aircraft=1 details=1
+2026-07-28 15:16:45.882 | ato_aircraft_details     | vu=27874 aircraft=1 details=1
+2026-07-28 15:16:45.883 | ato_aircraft_details     | vu=20010 aircraft=1 details=1
+2026-07-28 15:16:45.884 | ato_aircraft_details     | vu=27651 aircraft=1 details=1
+2026-07-28 15:16:45.884 | ato_aircraft_details     | vu=27184 aircraft=1 details=1
+2026-07-28 15:16:45.885 | ato_aircraft_details     | vu=27656 aircraft=1 details=1
+2026-07-28 15:16:45.886 | ato_aircraft_details     | vu=27808 aircraft=1 details=1
+2026-07-28 15:16:45.887 | ato_aircraft_details     | vu=27347 aircraft=1 details=1
+2026-07-28 15:16:45.889 | ato_aircraft_details     | vu=27707 aircraft=1 details=1
+2026-07-28 15:16:45.890 | ato_aircraft_details     | vu=27459 aircraft=1 details=1
+2026-07-28 15:16:45.891 | ato_aircraft_details     | vu=20284 aircraft=1 details=1
+2026-07-28 15:16:45.894 | ato_aircraft_details     | vu=27411 aircraft=1 details=1
+2026-07-28 15:16:45.895 | ato_aircraft_details     | vu=27348 aircraft=1 details=1
+2026-07-28 15:16:45.898 | ato_aircraft_details     | vu=27418 aircraft=1 details=1
+2026-07-28 15:16:45.899 | ato_aircraft_details     | vu=27226 aircraft=1 details=1
+2026-07-28 15:16:45.901 | ato_aircraft_details     | vu=26563 aircraft=1 details=1
+2026-07-28 15:16:45.902 | ato_aircraft_details     | vu=27227 aircraft=1 details=1
+2026-07-28 15:16:45.906 | ato_aircraft_details     | vu=27229 aircraft=1 details=1
+2026-07-28 15:16:45.908 | ato_aircraft_details     | vu=27419 aircraft=1 details=1
+2026-07-28 15:16:45.911 | ato_aircraft_details     | vu=27230 aircraft=1 details=1
+2026-07-28 15:16:45.913 | ato_aircraft_details     | vu=20078 aircraft=1 details=1
+2026-07-28 15:16:45.916 | ato_aircraft_details     | vu=27420 aircraft=1 details=1
+2026-07-28 15:16:45.918 | ato_aircraft_details     | vu=27231 aircraft=1 details=1
+2026-07-28 15:16:45.921 | ato_aircraft_details     | vu=20307 aircraft=1 details=1
+2026-07-28 15:16:45.924 | ato_aircraft_details     | vu=20263 aircraft=1 details=1
+2026-07-28 15:16:45.925 | ato_aircraft_details     | vu=20264 aircraft=1 details=1
+2026-07-28 15:16:45.927 | ato_aircraft_details     | vu=20200 aircraft=1 details=1
+2026-07-28 15:16:45.929 | ato_aircraft_details     | vu=20312 aircraft=1 details=1
+2026-07-28 15:16:45.931 | ato_target               | resolved id=2102 target=Samjiyon Airport (ZKSE)
+2026-07-28 15:16:45.931 | ato_target               | resolved id=2102 target=Samjiyon Airport (ZKSE)
+2026-07-28 15:16:45.931 | ato_aircraft_details     | vu=20175 aircraft=4 details=4
+2026-07-28 15:24:07.913 | timeline_edits           | vus=0 wps=0 key='C:\\FALCON\\Falcon BMS 4.38\\Data\\Add-On LKTO-\\Campaign\\TC06_OCA-3flights.cam'
+2026-07-28 15:24:54.592 | campaign_overview        | tri conditions=1 file=save0.tri
+2026-07-28 15:24:57.431 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-07-28 15:24:57.447 | campaign_overview        | system_marks=4
+2026-07-28 15:24:58.266 | briefing_context         | package_overview flights=3 route_points=9 focus_points=1 unique_points=9
+2026-07-28 15:26:09.440 | ato_departure            | resolved=255/282
+2026-07-28 15:26:11.099 | ato_target               | index_built names=7038
+2026-07-28 15:26:11.115 | ato_aircraft_details     | vu=20036 aircraft=2 details=2
+2026-07-28 15:26:11.117 | ato_aircraft_details     | vu=20276 aircraft=2 details=2
+2026-07-28 15:26:11.120 | ato_aircraft_details     | vu=20047 aircraft=4 details=4
+2026-07-28 15:26:11.123 | ato_aircraft_details     | vu=20031 aircraft=2 details=2
+2026-07-28 15:26:11.125 | ato_aircraft_details     | vu=20042 aircraft=2 details=2
+2026-07-28 15:26:11.127 | ato_target               | resolved id=20109 target=Fighter
+2026-07-28 15:26:11.127 | ato_target               | resolved id=20109 target=Fighter
+2026-07-28 15:26:11.127 | ato_aircraft_details     | vu=20110 aircraft=2 details=2
+2026-07-28 15:26:11.130 | ato_aircraft_details     | vu=20091 aircraft=2 details=2
+2026-07-28 15:26:11.131 | ato_target               | resolved id=20166 target=Fighter
+2026-07-28 15:26:11.132 | ato_target               | resolved id=20166 target=Fighter
+2026-07-28 15:26:11.132 | ato_aircraft_details     | vu=20167 aircraft=2 details=2
+2026-07-28 15:26:11.134 | ato_aircraft_details     | vu=27897 aircraft=2 details=2
+2026-07-28 15:26:11.136 | ato_aircraft_details     | vu=27898 aircraft=2 details=2
+2026-07-28 15:26:11.137 | ato_aircraft_details     | vu=27899 aircraft=2 details=2
+2026-07-28 15:26:11.140 | ato_aircraft_details     | vu=27902 aircraft=2 details=2
+2026-07-28 15:26:11.143 | ato_aircraft_details     | vu=20072 aircraft=2 details=2
+2026-07-28 15:26:11.144 | ato_target               | resolved id=27938 target=AWACS
+2026-07-28 15:26:11.144 | ato_target               | resolved id=27938 target=AWACS
+2026-07-28 15:26:11.145 | ato_aircraft_details     | vu=27940 aircraft=2 details=2
+2026-07-28 15:26:11.147 | ato_aircraft_details     | vu=20198 aircraft=2 details=2
+2026-07-28 15:26:11.149 | ato_target               | resolved id=8182 target=Air Defense
+2026-07-28 15:26:11.150 | ato_target               | resolved id=8182 target=Air Defense
+2026-07-28 15:26:11.150 | ato_aircraft_details     | vu=20145 aircraft=2 details=2
+2026-07-28 15:26:11.152 | ato_target               | resolved id=8182 target=Air Defense
+2026-07-28 15:26:11.152 | ato_aircraft_details     | vu=20146 aircraft=2 details=2
+2026-07-28 15:26:11.155 | ato_target               | resolved id=8171 target=Air Defense
+2026-07-28 15:26:11.156 | ato_target               | resolved id=8171 target=Air Defense
+2026-07-28 15:26:11.157 | ato_aircraft_details     | vu=20147 aircraft=2 details=2
+2026-07-28 15:26:11.159 | ato_target               | resolved id=8171 target=Air Defense
+2026-07-28 15:26:11.160 | ato_aircraft_details     | vu=20148 aircraft=2 details=2
+2026-07-28 15:26:11.162 | ato_aircraft_details     | vu=20139 aircraft=2 details=2
+2026-07-28 15:26:11.166 | ato_target               | resolved id=8212 target=AAA
+2026-07-28 15:26:11.166 | ato_target               | resolved id=8212 target=AAA
+2026-07-28 15:26:11.166 | ato_aircraft_details     | vu=20153 aircraft=2 details=2
+2026-07-28 15:26:11.168 | ato_target               | resolved id=8212 target=AAA
+2026-07-28 15:26:11.169 | ato_aircraft_details     | vu=20154 aircraft=2 details=2
+2026-07-28 15:26:11.172 | ato_aircraft_details     | vu=20029 aircraft=2 details=2
+2026-07-28 15:26:11.175 | ato_aircraft_details     | vu=20035 aircraft=2 details=2
+2026-07-28 15:26:11.177 | ato_target               | resolved id=3668 target=1 Bridge RU
+2026-07-28 15:26:11.177 | ato_target               | resolved id=3668 target=1 Bridge RU
+2026-07-28 15:26:11.177 | ato_aircraft_details     | vu=20107 aircraft=2 details=2
+2026-07-28 15:26:11.180 | ato_aircraft_details     | vu=20058 aircraft=2 details=2
+2026-07-28 15:26:11.184 | ato_aircraft_details     | vu=20059 aircraft=2 details=2
+2026-07-28 15:26:11.186 | ato_aircraft_details     | vu=20060 aircraft=2 details=2
+2026-07-28 15:26:11.189 | ato_aircraft_details     | vu=20070 aircraft=2 details=2
+2026-07-28 15:26:11.191 | ato_aircraft_details     | vu=20072 aircraft=2 details=2
+2026-07-28 15:26:11.193 | ato_aircraft_details     | vu=20099 aircraft=2 details=2
+2026-07-28 15:26:11.195 | ato_aircraft_details     | vu=27997 aircraft=2 details=2
+2026-07-28 15:26:11.197 | ato_aircraft_details     | vu=20122 aircraft=2 details=2
+2026-07-28 15:26:11.199 | ato_aircraft_details     | vu=20166 aircraft=2 details=2
+2026-07-28 15:26:11.201 | ato_aircraft_details     | vu=20294 aircraft=2 details=2
+2026-07-28 15:26:11.204 | ato_target               | resolved id=2051 target=Tajae-ri
+2026-07-28 15:26:11.204 | ato_target               | resolved id=2051 target=Tajae-ri
+2026-07-28 15:26:11.205 | ato_aircraft_details     | vu=20177 aircraft=2 details=2
+2026-07-28 15:26:11.207 | ato_aircraft_details     | vu=20070 aircraft=2 details=2
+2026-07-28 15:26:11.209 | ato_aircraft_details     | vu=20247 aircraft=2 details=2
+2026-07-28 15:26:11.212 | ato_aircraft_details     | vu=20304 aircraft=2 details=2
+2026-07-28 15:26:11.214 | ato_aircraft_details     | vu=20305 aircraft=2 details=2
+2026-07-28 15:26:11.216 | ato_aircraft_details     | vu=26568 aircraft=1 details=1
+2026-07-28 15:26:11.217 | ato_aircraft_details     | vu=26573 aircraft=1 details=1
+2026-07-28 15:26:11.219 | ato_aircraft_details     | vu=27928 aircraft=1 details=1
+2026-07-28 15:26:11.220 | ato_aircraft_details     | vu=27933 aircraft=1 details=1
+2026-07-28 15:26:11.225 | ato_aircraft_details     | vu=27938 aircraft=1 details=1
+2026-07-28 15:26:11.227 | ato_aircraft_details     | vu=20014 aircraft=2 details=2
+2026-07-28 15:26:11.228 | ato_aircraft_details     | vu=20018 aircraft=2 details=2
+2026-07-28 15:26:11.229 | ato_aircraft_details     | vu=27996 aircraft=2 details=2
+2026-07-28 15:26:11.231 | ato_aircraft_details     | vu=27880 aircraft=2 details=2
+2026-07-28 15:26:11.232 | ato_aircraft_details     | vu=27858 aircraft=2 details=2
+2026-07-28 15:26:11.234 | ato_aircraft_details     | vu=27896 aircraft=2 details=2
+2026-07-28 15:26:11.235 | ato_aircraft_details     | vu=20106 aircraft=2 details=2
+2026-07-28 15:26:11.236 | ato_target               | resolved id=2101 target=Uiju Airbase (ZKUJ)
+2026-07-28 15:26:11.238 | ato_aircraft_details     | vu=20138 aircraft=2 details=2
+2026-07-28 15:26:11.240 | ato_target               | resolved id=2101 target=Uiju Airbase (ZKUJ)
+2026-07-28 15:26:11.240 | ato_aircraft_details     | vu=20137 aircraft=2 details=2
+2026-07-28 15:26:11.243 | ato_aircraft_details     | vu=20152 aircraft=4 details=4
+2026-07-28 15:26:11.247 | ato_aircraft_details     | vu=20155 aircraft=4 details=4
+2026-07-28 15:26:11.249 | ato_target               | resolved id=2102 target=Samjiyon Airport (ZKSE)
+2026-07-28 15:26:11.250 | ato_target               | resolved id=2102 target=Samjiyon Airport (ZKSE)
+2026-07-28 15:26:11.251 | ato_aircraft_details     | vu=20174 aircraft=4 details=4
+2026-07-28 15:26:11.253 | ato_aircraft_details     | vu=20042 aircraft=2 details=2
+2026-07-28 15:26:11.255 | ato_aircraft_details     | vu=27748 aircraft=2 details=2
+2026-07-28 15:26:11.256 | ato_aircraft_details     | vu=20017 aircraft=2 details=2
+2026-07-28 15:26:11.258 | ato_aircraft_details     | vu=20109 aircraft=2 details=2
+2026-07-28 15:26:11.260 | ato_aircraft_details     | vu=27753 aircraft=2 details=2
+2026-07-28 15:26:11.261 | ato_aircraft_details     | vu=20100 aircraft=2 details=2
+2026-07-28 15:26:11.263 | ato_aircraft_details     | vu=28002 aircraft=2 details=2
+2026-07-28 15:26:11.265 | ato_aircraft_details     | vu=27886 aircraft=2 details=2
+2026-07-28 15:26:11.267 | ato_aircraft_details     | vu=20161 aircraft=2 details=2
+2026-07-28 15:26:11.269 | ato_aircraft_details     | vu=20252 aircraft=2 details=2
+2026-07-28 15:26:11.270 | ato_aircraft_details     | vu=27553 aircraft=1 details=1
+2026-07-28 15:26:11.272 | ato_aircraft_details     | vu=27636 aircraft=1 details=1
+2026-07-28 15:26:11.273 | ato_aircraft_details     | vu=27634 aircraft=1 details=1
+2026-07-28 15:26:11.275 | ato_aircraft_details     | vu=27764 aircraft=1 details=1
+2026-07-28 15:26:11.276 | ato_aircraft_details     | vu=20088 aircraft=1 details=1
+2026-07-28 15:26:11.277 | ato_aircraft_details     | vu=27096 aircraft=1 details=1
+2026-07-28 15:26:11.278 | ato_aircraft_details     | vu=27599 aircraft=1 details=1
+2026-07-28 15:26:11.279 | ato_aircraft_details     | vu=27731 aircraft=1 details=1
+2026-07-28 15:26:11.281 | ato_aircraft_details     | vu=27825 aircraft=1 details=1
+2026-07-28 15:26:11.283 | ato_aircraft_details     | vu=27527 aircraft=1 details=1
+2026-07-28 15:26:11.285 | ato_aircraft_details     | vu=20226 aircraft=1 details=1
+2026-07-28 15:26:11.286 | ato_aircraft_details     | vu=27702 aircraft=1 details=1
+2026-07-28 15:26:11.287 | ato_aircraft_details     | vu=27732 aircraft=1 details=1
+2026-07-28 15:26:11.290 | ato_aircraft_details     | vu=27590 aircraft=1 details=1
+2026-07-28 15:26:11.291 | ato_aircraft_details     | vu=27528 aircraft=1 details=1
+2026-07-28 15:26:11.292 | ato_aircraft_details     | vu=27554 aircraft=1 details=1
+2026-07-28 15:26:11.293 | ato_aircraft_details     | vu=27302 aircraft=1 details=1
+2026-07-28 15:26:11.294 | ato_aircraft_details     | vu=27865 aircraft=1 details=1
+2026-07-28 15:26:11.296 | ato_aircraft_details     | vu=27058 aircraft=1 details=1
+2026-07-28 15:26:11.298 | ato_aircraft_details     | vu=27733 aircraft=1 details=1
+2026-07-28 15:26:11.299 | ato_aircraft_details     | vu=27826 aircraft=1 details=1
+2026-07-28 15:26:11.299 | ato_aircraft_details     | vu=27555 aircraft=1 details=1
+2026-07-28 15:26:11.300 | ato_aircraft_details     | vu=20136 aircraft=1 details=1
+2026-07-28 15:26:11.301 | ato_aircraft_details     | vu=27635 aircraft=1 details=1
+2026-07-28 15:26:11.302 | ato_aircraft_details     | vu=20277 aircraft=1 details=1
+2026-07-28 15:26:11.303 | ato_aircraft_details     | vu=27704 aircraft=1 details=1
+2026-07-28 15:26:11.304 | ato_aircraft_details     | vu=27454 aircraft=1 details=1
+2026-07-28 15:26:11.307 | ato_aircraft_details     | vu=27600 aircraft=1 details=1
+2026-07-28 15:26:11.308 | ato_aircraft_details     | vu=27529 aircraft=1 details=1
+2026-07-28 15:26:11.309 | ato_aircraft_details     | vu=27974 aircraft=1 details=1
+2026-07-28 15:26:11.310 | ato_aircraft_details     | vu=27654 aircraft=1 details=1
+2026-07-28 15:26:11.312 | ato_aircraft_details     | vu=27601 aircraft=1 details=1
+2026-07-28 15:26:11.314 | ato_aircraft_details     | vu=27765 aircraft=1 details=1
+2026-07-28 15:26:11.315 | ato_aircraft_details     | vu=27650 aircraft=1 details=1
+2026-07-28 15:26:11.316 | ato_aircraft_details     | vu=20279 aircraft=1 details=1
+2026-07-28 15:26:11.317 | ato_aircraft_details     | vu=27871 aircraft=1 details=1
+2026-07-28 15:26:11.317 | ato_aircraft_details     | vu=20232 aircraft=1 details=1
+2026-07-28 15:26:11.318 | ato_aircraft_details     | vu=27734 aircraft=1 details=1
+2026-07-28 15:26:11.319 | ato_aircraft_details     | vu=27456 aircraft=1 details=1
+2026-07-28 15:26:11.319 | ato_aircraft_details     | vu=27976 aircraft=1 details=1
+2026-07-28 15:26:11.320 | ato_aircraft_details     | vu=27097 aircraft=1 details=1
+2026-07-28 15:26:11.323 | ato_aircraft_details     | vu=20090 aircraft=1 details=1
+2026-07-28 15:26:11.325 | ato_aircraft_details     | vu=27827 aircraft=1 details=1
+2026-07-28 15:26:11.327 | ato_aircraft_details     | vu=20091 aircraft=1 details=1
+2026-07-28 15:26:11.329 | ato_aircraft_details     | vu=27410 aircraft=1 details=1
+2026-07-28 15:26:11.331 | ato_aircraft_details     | vu=27638 aircraft=1 details=1
+2026-07-28 15:26:11.333 | ato_aircraft_details     | vu=27256 aircraft=1 details=1
+2026-07-28 15:26:11.335 | ato_aircraft_details     | vu=27303 aircraft=1 details=1
+2026-07-28 15:26:11.337 | ato_aircraft_details     | vu=27872 aircraft=1 details=1
+2026-07-28 15:26:11.339 | ato_aircraft_details     | vu=27639 aircraft=1 details=1
+2026-07-28 15:26:11.341 | ato_aircraft_details     | vu=27181 aircraft=1 details=1
+2026-07-28 15:26:11.343 | ato_aircraft_details     | vu=27705 aircraft=1 details=1
+2026-07-28 15:26:11.345 | ato_aircraft_details     | vu=20281 aircraft=1 details=1
+2026-07-28 15:26:11.347 | ato_aircraft_details     | vu=20021 aircraft=1 details=1
+2026-07-28 15:26:11.349 | ato_aircraft_details     | vu=20092 aircraft=1 details=1
+2026-07-28 15:26:11.350 | ato_aircraft_details     | vu=27767 aircraft=1 details=1
+2026-07-28 15:26:11.351 | ato_aircraft_details     | vu=27530 aircraft=1 details=1
+2026-07-28 15:26:11.353 | ato_aircraft_details     | vu=27457 aircraft=1 details=1
+2026-07-28 15:26:11.355 | ato_aircraft_details     | vu=27304 aircraft=1 details=1
+2026-07-28 15:26:11.357 | ato_aircraft_details     | vu=27736 aircraft=1 details=1
+2026-07-28 15:26:11.359 | ato_aircraft_details     | vu=27531 aircraft=1 details=1
+2026-07-28 15:26:11.361 | ato_aircraft_details     | vu=27099 aircraft=1 details=1
+2026-07-28 15:26:11.364 | ato_aircraft_details     | vu=20227 aircraft=1 details=1
+2026-07-28 15:26:11.366 | ato_aircraft_details     | vu=27768 aircraft=1 details=1
+2026-07-28 15:26:11.367 | ato_aircraft_details     | vu=27100 aircraft=1 details=1
+2026-07-28 15:26:11.369 | ato_aircraft_details     | vu=27556 aircraft=1 details=1
+2026-07-28 15:26:11.370 | ato_aircraft_details     | vu=20093 aircraft=1 details=1
+2026-07-28 15:26:11.374 | ato_aircraft_details     | vu=27602 aircraft=1 details=1
+2026-07-28 15:26:11.375 | ato_aircraft_details     | vu=20027 aircraft=1 details=1
+2026-07-28 15:26:11.377 | ato_aircraft_details     | vu=27182 aircraft=1 details=1
+2026-07-28 15:26:11.378 | ato_aircraft_details     | vu=27257 aircraft=1 details=1
+2026-07-28 15:26:11.380 | ato_aircraft_details     | vu=27458 aircraft=1 details=1
+2026-07-28 15:26:11.382 | ato_aircraft_details     | vu=20233 aircraft=1 details=1
+2026-07-28 15:26:11.384 | ato_aircraft_details     | vu=20028 aircraft=1 details=1
+2026-07-28 15:26:11.386 | ato_aircraft_details     | vu=20282 aircraft=1 details=1
+2026-07-28 15:26:11.389 | ato_aircraft_details     | vu=27532 aircraft=1 details=1
+2026-07-28 15:26:11.391 | ato_aircraft_details     | vu=27557 aircraft=1 details=1
+2026-07-28 15:26:11.392 | ato_aircraft_details     | vu=20029 aircraft=1 details=1
+2026-07-28 15:26:11.394 | ato_aircraft_details     | vu=27305 aircraft=1 details=1
+2026-07-28 15:26:11.395 | ato_aircraft_details     | vu=20137 aircraft=1 details=1
+2026-07-28 15:26:11.397 | ato_aircraft_details     | vu=20138 aircraft=1 details=1
+2026-07-28 15:26:11.399 | ato_aircraft_details     | vu=20311 aircraft=1 details=1
+2026-07-28 15:26:11.401 | ato_aircraft_details     | vu=27306 aircraft=1 details=1
+2026-07-28 15:26:11.403 | ato_aircraft_details     | vu=27640 aircraft=1 details=1
+2026-07-28 15:26:11.405 | ato_aircraft_details     | vu=27873 aircraft=1 details=1
+2026-07-28 15:26:11.407 | ato_aircraft_details     | vu=20139 aircraft=1 details=1
+2026-07-28 15:26:11.409 | ato_aircraft_details     | vu=20235 aircraft=1 details=1
+2026-07-28 15:26:11.410 | ato_aircraft_details     | vu=20229 aircraft=1 details=1
+2026-07-28 15:26:11.412 | ato_aircraft_details     | vu=27183 aircraft=1 details=1
+2026-07-28 15:26:11.414 | ato_aircraft_details     | vu=27345 aircraft=1 details=1
+2026-07-28 15:26:11.416 | ato_aircraft_details     | vu=20283 aircraft=1 details=1
+2026-07-28 15:26:11.418 | ato_aircraft_details     | vu=20127 aircraft=1 details=1
+2026-07-28 15:26:11.420 | ato_aircraft_details     | vu=20006 aircraft=1 details=1
+2026-07-28 15:26:11.422 | ato_aircraft_details     | vu=20030 aircraft=1 details=1
+2026-07-28 15:26:11.424 | ato_aircraft_details     | vu=20007 aircraft=1 details=1
+2026-07-28 15:26:11.426 | ato_aircraft_details     | vu=20008 aircraft=1 details=1
+2026-07-28 15:26:11.428 | ato_aircraft_details     | vu=20009 aircraft=1 details=1
+2026-07-28 15:26:11.430 | ato_aircraft_details     | vu=27701 aircraft=1 details=1
+2026-07-28 15:26:11.432 | ato_aircraft_details     | vu=27874 aircraft=1 details=1
+2026-07-28 15:26:11.434 | ato_aircraft_details     | vu=20010 aircraft=1 details=1
+2026-07-28 15:26:11.436 | ato_aircraft_details     | vu=27651 aircraft=1 details=1
+2026-07-28 15:26:11.438 | ato_aircraft_details     | vu=27184 aircraft=1 details=1
+2026-07-28 15:26:11.440 | ato_aircraft_details     | vu=27656 aircraft=1 details=1
+2026-07-28 15:26:11.442 | ato_aircraft_details     | vu=27808 aircraft=1 details=1
+2026-07-28 15:26:11.444 | ato_aircraft_details     | vu=27347 aircraft=1 details=1
+2026-07-28 15:26:11.445 | ato_aircraft_details     | vu=27707 aircraft=1 details=1
+2026-07-28 15:26:11.449 | ato_aircraft_details     | vu=27459 aircraft=1 details=1
+2026-07-28 15:26:11.451 | ato_aircraft_details     | vu=20284 aircraft=1 details=1
+2026-07-28 15:26:11.453 | ato_aircraft_details     | vu=27411 aircraft=1 details=1
+2026-07-28 15:26:11.454 | ato_aircraft_details     | vu=27348 aircraft=1 details=1
+2026-07-28 15:26:11.457 | ato_aircraft_details     | vu=27418 aircraft=1 details=1
+2026-07-28 15:26:11.458 | ato_aircraft_details     | vu=27226 aircraft=1 details=1
+2026-07-28 15:26:11.460 | ato_aircraft_details     | vu=26563 aircraft=1 details=1
+2026-07-28 15:26:11.462 | ato_aircraft_details     | vu=27227 aircraft=1 details=1
+2026-07-28 15:26:11.465 | ato_aircraft_details     | vu=27229 aircraft=1 details=1
+2026-07-28 15:26:11.467 | ato_aircraft_details     | vu=27419 aircraft=1 details=1
+2026-07-28 15:26:11.469 | ato_aircraft_details     | vu=27230 aircraft=1 details=1
+2026-07-28 15:26:11.470 | ato_aircraft_details     | vu=20078 aircraft=1 details=1
+2026-07-28 15:26:11.473 | ato_aircraft_details     | vu=27420 aircraft=1 details=1
+2026-07-28 15:26:11.475 | ato_aircraft_details     | vu=27231 aircraft=1 details=1
+2026-07-28 15:26:11.477 | ato_aircraft_details     | vu=20307 aircraft=1 details=1
+2026-07-28 15:26:11.479 | ato_aircraft_details     | vu=20263 aircraft=1 details=1
+2026-07-28 15:26:11.483 | ato_aircraft_details     | vu=20264 aircraft=1 details=1
+2026-07-28 15:26:11.485 | ato_aircraft_details     | vu=20200 aircraft=1 details=1
+2026-07-28 15:26:11.487 | ato_aircraft_details     | vu=20312 aircraft=1 details=1
+2026-07-28 15:26:11.489 | ato_target               | resolved id=2102 target=Samjiyon Airport (ZKSE)
+2026-07-28 15:26:11.489 | ato_target               | resolved id=2102 target=Samjiyon Airport (ZKSE)
+2026-07-28 15:26:11.490 | ato_aircraft_details     | vu=20175 aircraft=4 details=4
