@@ -1,0 +1,412 @@
+2026-08-11 14:28:27.411 | ========================================================================
+2026-08-11 14:28:27.411 | startup                  | FBB 1.74.0 — session 2026-08-11 14:28:27
+2026-08-11 14:28:27.411 | startup                  | Répertoire : D:\Jeux\Falcon BMS 4.38\Tools\FBB\_internal
+2026-08-11 14:28:27.411 | startup                  | Python 3.14.5
+2026-08-11 14:28:27.411 | ========================================================================
+2026-08-11 14:28:27.412 | system                   | OS : Windows 11 10.0.26200, AMD64, 32 CPU, RAM 32 GB
+2026-08-11 14:28:27.418 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-08-11 14:28:27.418 | registry                 | BMS baseDir : D:\Jeux\Falcon BMS 4.38
+2026-08-11 14:28:27.418 | registry                 | BMS theater : Korea KTO  pilot : Mandrak
+2026-08-11 14:28:28.944 | parse_health             | solokto.cam: records 1074/1074, bytes 461462/461462, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-11 14:28:30.564 | telemetry                | ping OK v1.74.0 Windows 11 canal=prod → HTTP 200
+2026-08-11 14:28:33.113 | ato_target               | index_built names=7073 memo=True
+2026-08-11 14:28:33.114 | ato_target               | resolved id=2515 target=Pyeontaek-Dangjin Port
+2026-08-11 14:28:33.114 | ato_departure            | resolved=2/2
+2026-08-11 14:28:33.742 | ato_target               | resolved id=2515 target=Pyeontaek-Dangjin Port
+2026-08-11 14:28:33.742 | ato_departure            | resolved=2/2
+2026-08-11 14:28:34.378 | fuel_plan                | avail=12194 atTurn=10088 bingo=3400 joker=3900 rtb=835 margin=6688 GO
+2026-08-11 14:28:34.379 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=1c2dfd3e
+2026-08-11 14:42:46.592 | ato_target               | index_built names=7073 memo=True
+2026-08-11 14:42:46.594 | ato_target               | resolved id=2515 target=Pyeontaek-Dangjin Port
+2026-08-11 14:42:46.596 | ato_departure            | resolved=2/2
+2026-08-11 14:42:46.753 | fuel_plan                | avail=12194 atTurn=10088 bingo=3400 joker=3900 rtb=835 margin=6688 GO
+2026-08-11 14:42:46.753 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=3c5a999b
+2026-08-11 14:42:59.093 | ato_target               | resolved id=2515 target=Pyeontaek-Dangjin Port
+2026-08-11 14:42:59.094 | ato_departure            | resolved=2/2
+2026-08-11 14:42:59.136 | fuel_plan                | avail=12194 atTurn=10088 bingo=3400 joker=3900 rtb=835 margin=6688 GO
+2026-08-11 14:42:59.136 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=3c5a999b
+2026-08-11 14:43:20.932 | dtc_render               | path=Mandrak.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=3c5a999b
+2026-08-11 14:43:20.935 | ato_departure            | resolved=0/0
+2026-08-11 14:43:20.939 | ato_departure            | resolved=0/0
+2026-08-11 14:43:21.068 | ato_departure            | resolved=0/0
+2026-08-11 14:43:21.331 | dtc_render               | path=Mandrak.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=3c5a999b
+2026-08-11 14:43:25.030 | parse_health             | solokto.cam: records 1104/1104, bytes 471859/471859, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-11 14:43:25.162 | ato_target               | resolved id=6720 target=Tank
+2026-08-11 14:43:25.162 | ato_departure            | resolved=2/2
+2026-08-11 14:43:25.168 | ato_target               | resolved id=6720 target=Tank
+2026-08-11 14:43:25.168 | ato_departure            | resolved=2/2
+2026-08-11 14:43:25.836 | fuel_plan                | avail=12194 atTurn=9835 bingo=3100 joker=3600 rtb=615 margin=6735 GO
+2026-08-11 14:43:25.837 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=3c5a999b
+2026-08-11 14:43:45.806 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:43:45.828 | mission_support          | awacs: cam pkg=2453 vu=21956
+2026-08-11 14:43:45.840 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:43:45.846 | package_comms            | tactical ch=6 primary=Plasma 7 uhf=336.475
+2026-08-11 14:43:46.194 | fuel_plan                | avail=12194 atTurn=9835 bingo=3100 joker=3600 rtb=615 margin=6735 GO
+2026-08-11 14:43:46.195 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=3c5a999b
+2026-08-11 14:43:46.723 | campaign_overview        | objective_index loaded=5992
+2026-08-11 14:43:46.727 | campaign_overview        | tri conditions=2 file=save2.tri
+2026-08-11 14:43:47.352 | campaign_overview        | built team=1 conditions=2 force_rows=7
+2026-08-11 14:43:47.352 | campaign_overview        | system_marks=4
+2026-08-11 14:43:47.438 | mission_support          | tanker: cam pkg=2453 vu=21940
+2026-08-11 14:43:47.444 | mission_support          | awacs: cam pkg=2453 vu=21956
+2026-08-11 14:43:47.698 | briefing_context         | package_overview flights=2 route_points=10 focus_points=4 unique_points=10
+2026-08-11 14:45:18.608 | ato_target               | resolved id=6720 target=Tank
+2026-08-11 14:45:18.608 | ato_departure            | resolved=2/2
+2026-08-11 14:46:37.887 | fuel_plan                | avail=12194 atTurn=9835 bingo=3100 joker=3600 rtb=615 margin=6735 GO
+2026-08-11 14:46:37.888 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=3c5a999b
+2026-08-11 14:46:43.966 | fuel_plan                | avail=12194 atTurn=9835 bingo=3100 joker=3600 rtb=615 margin=6735 GO
+2026-08-11 14:46:43.966 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=3c5a999b
+2026-08-11 14:47:33.618 | fuel_plan                | avail=12194 atTurn=9835 bingo=3100 joker=3600 rtb=615 margin=6735 GO
+2026-08-11 14:47:33.618 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=3c5a999b
+2026-08-11 14:50:51.840 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:50:51.840 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=3c5a999b
+2026-08-11 14:50:52.206 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:50:52.206 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=3c5a999b
+2026-08-11 14:50:56.608 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:50:56.608 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=3c5a999b
+2026-08-11 14:50:56.860 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:50:56.860 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=3c5a999b
+2026-08-11 14:51:23.983 | ppt_create               | slot=0 label='CAP' r=0.0km
+2026-08-11 14:51:24.614 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:51:24.614 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=6 n_ppt=1 n_dpi=0 n_divert=3 n_sections=1 hash=3c5a999b
+2026-08-11 14:51:24.844 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:51:24.844 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=6 n_ppt=1 n_dpi=0 n_divert=3 n_sections=1 hash=3c5a999b
+2026-08-11 14:52:36.893 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:52:36.893 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=1 hash=3c5a999b
+2026-08-11 14:52:37.149 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:52:37.149 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=1 hash=3c5a999b
+2026-08-11 14:52:50.876 | loadout3d                | scene unit_ct=2639 veh_ct=173 ac_model=1982 (F-16CM-40) slots=11 stores=11 seat=0
+2026-08-11 14:52:50.876 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-08-11 14:52:50.876 | loadout3d                |   HP 1 wid=158 model=1690 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-11 14:52:50.876 | loadout3d                |   HP 2 wid=176 model=1369 slot=[-13.25, -3.70681906, 0.164210007] : AIM-9X Sidewinder
+2026-08-11 14:52:50.876 | loadout3d                |   HP 3 wid=288 model=1382 slot=[-10.0, -1.72720599, 0.127838001] : GBU-12B/B /HE
+2026-08-11 14:52:50.876 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-11 14:52:50.876 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-08-11 14:52:50.876 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-11 14:52:50.876 | loadout3d                |   HP 7 wid=288 model=1382 slot=[10.0, -1.72720599, 0.127838001] : GBU-12B/B /HE
+2026-08-11 14:52:50.876 | loadout3d                |   HP 8 wid=176 model=1369 slot=[13.25, -3.70681906, 0.164210007] : AIM-9X Sidewinder
+2026-08-11 14:52:50.876 | loadout3d                |   HP 9 wid=158 model=1690 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-11 14:52:50.876 | loadout3d                |   HP11 wid=180 model=972 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-14 LANTIRN
+2026-08-11 14:52:50.876 | loadout3d                | crew_art vu=23466 seat=0 pilot=60000 patch=70060
+2026-08-11 14:52:55.148 | loadout3d                | _str_compat: aircraft=F-16 D:\Jeux\Falcon BMS 4.38\Data\Campaign → 24 WIDs, 24/24 fichiers .str
+2026-08-11 14:52:55.154 | loadout3d                | _bmsrack_stations: D:\Jeux\Falcon BMS 4.38\Data\Terrdata\objects\BmsRack.dat → 271 WIDs
+2026-08-11 14:52:55.168 | loadout3d                | _ssd_stores: D:\Jeux\Falcon BMS 4.38\Data\Terrdata\objects\Falcon4_SSD.xml → 110 SSD
+2026-08-11 14:52:55.438 | loadout3d                | weapons endpoint: sq_vu=6821 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[0] hp=11 weapons=53 (50 dispo)
+2026-08-11 14:52:55.502 | loadout_laser            | package=2453 laser_flights=1 my_code=1511
+2026-08-11 14:52:55.502 | loadout_laser_dtc        | LaserTGP=1511 staged=1
+2026-08-11 14:52:55.503 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-08-11 14:52:55.508 | loadout_laser            | package=2453 laser_flights=1 my_code=1511
+2026-08-11 14:53:00.250 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:53:00.250 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=2 hash=3c5a999b
+2026-08-11 14:53:00.605 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:53:00.605 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=2 hash=3c5a999b
+2026-08-11 14:53:11.056 | loadout3d                | scene unit_ct=2639 veh_ct=173 ac_model=1982 (F-16CM-40) slots=11 stores=11 seat=1
+2026-08-11 14:53:11.056 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-08-11 14:53:11.056 | loadout3d                |   HP 1 wid=158 model=1690 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-11 14:53:11.056 | loadout3d                |   HP 2 wid=176 model=1369 slot=[-13.25, -3.70681906, 0.164210007] : AIM-9X Sidewinder
+2026-08-11 14:53:11.056 | loadout3d                |   HP 3 wid=288 model=1382 slot=[-10.0, -1.72720599, 0.127838001] : GBU-12B/B /HE
+2026-08-11 14:53:11.056 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-11 14:53:11.056 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-08-11 14:53:11.056 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-11 14:53:11.056 | loadout3d                |   HP 7 wid=288 model=1382 slot=[10.0, -1.72720599, 0.127838001] : GBU-12B/B /HE
+2026-08-11 14:53:11.056 | loadout3d                |   HP 8 wid=176 model=1369 slot=[13.25, -3.70681906, 0.164210007] : AIM-9X Sidewinder
+2026-08-11 14:53:11.056 | loadout3d                |   HP 9 wid=158 model=1690 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-11 14:53:11.056 | loadout3d                |   HP11 wid=180 model=972 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-14 LANTIRN
+2026-08-11 14:53:11.056 | loadout3d                | crew_art vu=23466 seat=1 pilot=None patch=70060
+2026-08-11 14:53:12.474 | loadout3d                | scene unit_ct=2639 veh_ct=173 ac_model=1982 (F-16CM-40) slots=11 stores=11 seat=1
+2026-08-11 14:53:12.474 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-08-11 14:53:12.474 | loadout3d                |   HP 1 wid=158 model=1690 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-11 14:53:12.474 | loadout3d                |   HP 2 wid=176 model=1369 slot=[-13.25, -3.70681906, 0.164210007] : AIM-9X Sidewinder
+2026-08-11 14:53:12.474 | loadout3d                |   HP 3 wid=288 model=1382 slot=[-10.0, -1.72720599, 0.127838001] : GBU-12B/B /HE
+2026-08-11 14:53:12.474 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-11 14:53:12.474 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-08-11 14:53:12.474 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-11 14:53:12.474 | loadout3d                |   HP 7 wid=288 model=1382 slot=[10.0, -1.72720599, 0.127838001] : GBU-12B/B /HE
+2026-08-11 14:53:12.474 | loadout3d                |   HP 8 wid=176 model=1369 slot=[13.25, -3.70681906, 0.164210007] : AIM-9X Sidewinder
+2026-08-11 14:53:12.474 | loadout3d                |   HP 9 wid=158 model=1690 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-11 14:53:12.474 | loadout3d                |   HP11 wid=180 model=972 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-14 LANTIRN
+2026-08-11 14:53:12.474 | loadout3d                | crew_art vu=23466 seat=1 pilot=None patch=70060
+2026-08-11 14:53:12.479 | loadout3d                | scene unit_ct=2639 veh_ct=173 ac_model=1982 (F-16CM-40) slots=11 stores=11 seat=0
+2026-08-11 14:53:12.479 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-08-11 14:53:12.479 | loadout3d                |   HP 1 wid=158 model=1690 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-11 14:53:12.479 | loadout3d                |   HP 2 wid=176 model=1369 slot=[-13.25, -3.70681906, 0.164210007] : AIM-9X Sidewinder
+2026-08-11 14:53:12.479 | loadout3d                |   HP 3 wid=288 model=1382 slot=[-10.0, -1.72720599, 0.127838001] : GBU-12B/B /HE
+2026-08-11 14:53:12.479 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-11 14:53:12.479 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-08-11 14:53:12.479 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-11 14:53:12.479 | loadout3d                |   HP 7 wid=288 model=1382 slot=[10.0, -1.72720599, 0.127838001] : GBU-12B/B /HE
+2026-08-11 14:53:12.480 | loadout3d                |   HP 8 wid=176 model=1369 slot=[13.25, -3.70681906, 0.164210007] : AIM-9X Sidewinder
+2026-08-11 14:53:12.480 | loadout3d                |   HP 9 wid=158 model=1690 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-11 14:53:12.480 | loadout3d                |   HP11 wid=180 model=972 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-14 LANTIRN
+2026-08-11 14:53:12.480 | loadout3d                | crew_art vu=23466 seat=0 pilot=60000 patch=70060
+2026-08-11 14:53:12.816 | loadout3d                | weapons endpoint: sq_vu=6821 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[0] hp=11 weapons=53 (50 dispo)
+2026-08-11 14:53:12.858 | loadout3d                | scene unit_ct=2639 veh_ct=173 ac_model=1982 (F-16CM-40) slots=11 stores=11 seat=1
+2026-08-11 14:53:12.859 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-08-11 14:53:12.859 | loadout3d                |   HP 1 wid=158 model=1690 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-11 14:53:12.859 | loadout3d                |   HP 2 wid=176 model=1369 slot=[-13.25, -3.70681906, 0.164210007] : AIM-9X Sidewinder
+2026-08-11 14:53:12.859 | loadout3d                |   HP 3 wid=288 model=1382 slot=[-10.0, -1.72720599, 0.127838001] : GBU-12B/B /HE
+2026-08-11 14:53:12.859 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-11 14:53:12.859 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-08-11 14:53:12.859 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-11 14:53:12.859 | loadout3d                |   HP 7 wid=288 model=1382 slot=[10.0, -1.72720599, 0.127838001] : GBU-12B/B /HE
+2026-08-11 14:53:12.859 | loadout3d                |   HP 8 wid=176 model=1369 slot=[13.25, -3.70681906, 0.164210007] : AIM-9X Sidewinder
+2026-08-11 14:53:12.859 | loadout3d                |   HP 9 wid=158 model=1690 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-11 14:53:12.859 | loadout3d                |   HP11 wid=180 model=972 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-14 LANTIRN
+2026-08-11 14:53:12.859 | loadout3d                | crew_art vu=23466 seat=1 pilot=None patch=70060
+2026-08-11 14:53:12.886 | loadout3d                | weapons endpoint: sq_vu=6821 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[0] hp=11 weapons=53 (50 dispo)
+2026-08-11 14:53:12.915 | loadout3d                | weapons endpoint: sq_vu=6821 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[1] hp=11 weapons=53 (50 dispo)
+2026-08-11 14:53:13.394 | loadout3d                | weapons endpoint: sq_vu=6821 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[1] hp=11 weapons=53 (50 dispo)
+2026-08-11 14:53:15.484 | loadout3d                | scene unit_ct=2639 veh_ct=173 ac_model=1982 (F-16CM-40) slots=11 stores=11 seat=0
+2026-08-11 14:53:15.484 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-08-11 14:53:15.484 | loadout3d                |   HP 1 wid=158 model=1690 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-11 14:53:15.484 | loadout3d                |   HP 2 wid=176 model=1369 slot=[-13.25, -3.70681906, 0.164210007] : AIM-9X Sidewinder
+2026-08-11 14:53:15.484 | loadout3d                |   HP 3 wid=288 model=1382 slot=[-10.0, -1.72720599, 0.127838001] : GBU-12B/B /HE
+2026-08-11 14:53:15.484 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-11 14:53:15.484 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-08-11 14:53:15.484 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-11 14:53:15.484 | loadout3d                |   HP 7 wid=288 model=1382 slot=[10.0, -1.72720599, 0.127838001] : GBU-12B/B /HE
+2026-08-11 14:53:15.484 | loadout3d                |   HP 8 wid=176 model=1369 slot=[13.25, -3.70681906, 0.164210007] : AIM-9X Sidewinder
+2026-08-11 14:53:15.484 | loadout3d                |   HP 9 wid=158 model=1690 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-11 14:53:15.484 | loadout3d                |   HP11 wid=180 model=972 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-14 LANTIRN
+2026-08-11 14:53:15.484 | loadout3d                | crew_art vu=23466 seat=0 pilot=60000 patch=70060
+2026-08-11 14:53:15.769 | loadout3d                | weapons endpoint: sq_vu=6821 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[0] hp=11 weapons=53 (50 dispo)
+2026-08-11 14:53:26.313 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:53:26.313 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=2 hash=3c5a999b
+2026-08-11 14:53:32.921 | timeline_edits           | vus=0 wps=0 key='D:\\Jeux\\Falcon BMS 4.38\\Data\\Campaign\\solokto.cam'
+2026-08-11 14:53:52.628 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:53:52.628 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=2 hash=3c5a999b
+2026-08-11 14:53:52.759 | timeline_data            | pkgs=211 flights=273 my_pkg=2453 my_vu=23466 buddies=0
+2026-08-11 14:54:58.564 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:54:58.564 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=2 hash=3c5a999b
+2026-08-11 14:55:06.188 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:55:06.188 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=2 hash=3c5a999b
+2026-08-11 14:55:08.962 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:55:08.962 | mission_support          | awacs: cam pkg=2453 vu=21956
+2026-08-11 14:55:08.962 | mission_support          | tanker: cam pkg=2453 vu=21940
+2026-08-11 14:55:08.963 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:55:08.963 | package_comms            | tactical ch=6 primary=Plasma 7 uhf=336.475
+2026-08-11 14:55:09.131 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:55:09.177 | vrp_app                  | arr='RKJK' rwy='17' side='right' ok=True
+2026-08-11 14:55:09.306 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:55:09.307 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 hash=3c5a999b
+2026-08-11 14:55:09.784 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:55:09.785 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 hash=3c5a999b
+2026-08-11 14:55:10.066 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:55:10.066 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 hash=3c5a999b
+2026-08-11 14:55:13.040 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:55:13.040 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 hash=3c5a999b
+2026-08-11 14:55:17.089 | roaster.data             | fetch
+2026-08-11 14:55:17.092 | roaster.roster           | roster keys=['plasma7', 'bulldog5']
+2026-08-11 14:55:17.092 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:55:17.093 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:55:17.093 | mission_support          | tanker: cam pkg=2453 vu=21940
+2026-08-11 14:55:17.094 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:55:17.094 | mission_support          | awacs: cam pkg=2453 vu=21956
+2026-08-11 14:55:17.094 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:55:17.095 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:55:17.095 | package_comms            | tactical ch=6 primary=Plasma 7 uhf=336.475
+2026-08-11 14:55:17.095 | roaster.data             | ok — 2 flights, axis=32.4°
+2026-08-11 14:55:21.157 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:55:21.158 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 hash=3c5a999b
+2026-08-11 14:55:28.506 | ato_target               | resolved id=6720 target=Tank
+2026-08-11 14:55:28.507 | ato_departure            | resolved=2/2
+2026-08-11 14:55:28.566 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:55:28.566 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 hash=3c5a999b
+2026-08-11 14:55:28.654 | mission_support          | tanker: cam pkg=2453 vu=21940
+2026-08-11 14:55:28.654 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:55:28.654 | mission_support          | awacs: cam pkg=2453 vu=21956
+2026-08-11 14:55:28.654 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:55:28.654 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:55:28.654 | package_comms            | tactical ch=6 primary=Plasma 7 uhf=336.475
+2026-08-11 14:55:28.655 | briefing_context         | roster_support flights=2 tanker=True awacs=True
+2026-08-11 14:55:28.655 | package_relevance        | package_routes pkg=2453 flights=2 routes=2 points=13
+2026-08-11 14:55:28.655 | briefing_context         | package_route_sketch flights=2 points=13
+2026-08-11 14:55:28.655 | briefing_context         | ordnance vu=23466 aircraft=2 pending=False
+2026-08-11 14:55:28.658 | campaign_overview        | tri conditions=2 file=save2.tri
+2026-08-11 14:55:28.916 | campaign_overview        | built team=1 conditions=2 force_rows=7
+2026-08-11 14:55:29.035 | briefing_context         | package_overview flights=2 route_points=10 focus_points=4 unique_points=10
+2026-08-11 14:55:29.317 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:55:29.318 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 hash=3c5a999b
+2026-08-11 14:55:29.338 | roaster.data             | fetch
+2026-08-11 14:55:29.340 | roaster.roster           | roster keys=['plasma7', 'bulldog5']
+2026-08-11 14:55:29.341 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:55:29.341 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:55:29.342 | mission_support          | tanker: cam pkg=2453 vu=21940
+2026-08-11 14:55:29.342 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:55:29.342 | mission_support          | awacs: cam pkg=2453 vu=21956
+2026-08-11 14:55:29.342 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:55:29.343 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:55:29.343 | package_comms            | tactical ch=6 primary=Plasma 7 uhf=336.475
+2026-08-11 14:55:29.343 | roaster.data             | ok — 2 flights, axis=32.4°
+2026-08-11 14:55:47.466 | loadout3d                | scene unit_ct=2639 veh_ct=173 ac_model=1982 (F-16CM-40) slots=11 stores=11 seat=0
+2026-08-11 14:55:47.466 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-08-11 14:55:47.466 | loadout3d                |   HP 1 wid=158 model=1690 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-11 14:55:47.466 | loadout3d                |   HP 2 wid=176 model=1369 slot=[-13.25, -3.70681906, 0.164210007] : AIM-9X Sidewinder
+2026-08-11 14:55:47.466 | loadout3d                |   HP 3 wid=288 model=1382 slot=[-10.0, -1.72720599, 0.127838001] : GBU-12B/B /HE
+2026-08-11 14:55:47.466 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-11 14:55:47.466 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-08-11 14:55:47.466 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-11 14:55:47.466 | loadout3d                |   HP 7 wid=288 model=1382 slot=[10.0, -1.72720599, 0.127838001] : GBU-12B/B /HE
+2026-08-11 14:55:47.466 | loadout3d                |   HP 8 wid=176 model=1369 slot=[13.25, -3.70681906, 0.164210007] : AIM-9X Sidewinder
+2026-08-11 14:55:47.466 | loadout3d                |   HP 9 wid=158 model=1690 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-11 14:55:47.467 | loadout3d                |   HP11 wid=180 model=972 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-14 LANTIRN
+2026-08-11 14:55:47.467 | loadout3d                | crew_art vu=23466 seat=0 pilot=60000 patch=70060
+2026-08-11 14:55:47.751 | loadout3d                | weapons endpoint: sq_vu=6821 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[0] hp=11 weapons=53 (50 dispo)
+2026-08-11 14:55:47.797 | loadout_laser            | package=2453 laser_flights=1 my_code=1511
+2026-08-11 14:55:47.797 | loadout_laser_dtc        | LaserTGP=1511 staged=1
+2026-08-11 14:55:47.798 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-08-11 14:55:52.407 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:06.483 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:06.484 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 hash=3c5a999b
+2026-08-11 14:56:06.532 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:56:06.533 | mission_support          | awacs: cam pkg=2453 vu=21956
+2026-08-11 14:56:06.533 | mission_support          | tanker: cam pkg=2453 vu=21940
+2026-08-11 14:56:06.534 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:56:06.534 | package_comms            | tactical ch=6 primary=Plasma 7 uhf=336.475
+2026-08-11 14:56:06.635 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:06.759 | vrp_app                  | arr='RKJK' rwy='17' side='right' ok=True
+2026-08-11 14:56:06.925 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:06.926 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 hash=3c5a999b
+2026-08-11 14:56:07.246 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:07.247 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 hash=3c5a999b
+2026-08-11 14:56:07.488 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:07.488 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 hash=3c5a999b
+2026-08-11 14:56:11.027 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:11.027 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 hash=3c5a999b
+2026-08-11 14:56:11.293 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:11.294 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 hash=3c5a999b
+2026-08-11 14:56:11.857 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:11.857 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 hash=3c5a999b
+2026-08-11 14:56:12.122 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:12.123 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 hash=3c5a999b
+2026-08-11 14:56:21.085 | mission_sink             | choice=source (overwrite sibling consenti)
+2026-08-11 14:56:21.309 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:21.310 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 hash=3c5a999b
+2026-08-11 14:56:21.322 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:21.799 | dtc_save_sibling         | path=solokto.ini n_ppt=15 n_lines=24 n_dpi=0 n_divert=3
+2026-08-11 14:56:21.799 | dtc_save_ok              | path=Mandrak.ini n_stpt=24 n_lines=9 n_ppt=1 n_dpi=0 n_divert=3 n_sections=6 n_seeded=0 seeded=[] sink=ok backup=Mandrak_bkup_fbb_110826_145621.ini
+2026-08-11 14:56:21.804 | ato_target               | resolved id=6720 target=Tank
+2026-08-11 14:56:21.805 | ato_departure            | resolved=2/2
+2026-08-11 14:56:21.843 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:22.386 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:22.391 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=237c79d3
+2026-08-11 14:56:22.621 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:22.622 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=237c79d3
+2026-08-11 14:56:22.684 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:22.684 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=237c79d3
+2026-08-11 14:56:22.913 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:22.913 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=237c79d3
+2026-08-11 14:56:37.288 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:37.288 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=237c79d3
+2026-08-11 14:56:39.982 | ato_target               | resolved id=6720 target=Tank
+2026-08-11 14:56:39.983 | ato_departure            | resolved=2/2
+2026-08-11 14:56:40.152 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:40.152 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=237c79d3
+2026-08-11 14:56:44.091 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:44.096 | mission_support          | tanker: cam pkg=2453 vu=21940
+2026-08-11 14:56:44.096 | mission_support          | awacs: cam pkg=2453 vu=21956
+2026-08-11 14:56:44.100 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:56:44.100 | package_comms            | tactical ch=6 primary=Plasma 7 uhf=336.475
+2026-08-11 14:56:47.470 | ato_target               | resolved id=6720 target=Tank
+2026-08-11 14:56:47.471 | ato_departure            | resolved=2/2
+2026-08-11 14:56:47.564 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:47.565 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=237c79d3
+2026-08-11 14:56:51.804 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:51.805 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=237c79d3
+2026-08-11 14:56:51.826 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:51.830 | mission_support          | tanker: cam pkg=2453 vu=21940
+2026-08-11 14:56:51.830 | mission_support          | awacs: cam pkg=2453 vu=21956
+2026-08-11 14:56:51.834 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:56:51.834 | package_comms            | tactical ch=6 primary=Plasma 7 uhf=336.475
+2026-08-11 14:56:57.246 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:56:57.246 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=237c79d3
+2026-08-11 14:57:15.570 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:57:15.570 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=237c79d3
+2026-08-11 14:57:26.435 | ato_target               | resolved id=6720 target=Tank
+2026-08-11 14:57:26.445 | ato_departure            | resolved=2/2
+2026-08-11 14:57:26.455 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:57:26.455 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=237c79d3
+2026-08-11 14:57:26.517 | roaster.data             | fetch
+2026-08-11 14:57:26.523 | roaster.roster           | roster keys=['plasma7', 'bulldog5']
+2026-08-11 14:57:26.524 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:57:26.524 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:57:26.525 | mission_support          | tanker: cam pkg=2453 vu=21940
+2026-08-11 14:57:26.526 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:57:26.526 | mission_support          | awacs: cam pkg=2453 vu=21956
+2026-08-11 14:57:26.528 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:57:26.528 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:57:26.528 | package_comms            | tactical ch=6 primary=Plasma 7 uhf=336.475
+2026-08-11 14:57:26.528 | roaster.data             | ok — 2 flights, axis=32.4°
+2026-08-11 14:57:26.541 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:57:26.546 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:57:26.552 | mission_support          | tanker: cam pkg=2453 vu=21940
+2026-08-11 14:57:26.552 | mission_support          | awacs: cam pkg=2453 vu=21956
+2026-08-11 14:57:26.554 | mission_support          | tanker: cam pkg=2453 vu=21940
+2026-08-11 14:57:26.558 | mission_support          | awacs: cam pkg=2453 vu=21956
+2026-08-11 14:57:26.562 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:57:26.562 | package_comms            | tactical ch=6 primary=Plasma 7 uhf=336.475
+2026-08-11 14:57:26.563 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:57:26.563 | package_comms            | tactical ch=6 primary=Plasma 7 uhf=336.475
+2026-08-11 14:57:27.671 | charts_ondemand          | AGC rendu a la demande : RKTN (210550 o) -> C:\Users\mandr\AppData\Roaming\FBB\FBB Charts\Korea KTO\RKTN - Daegu AB\AGC_RKTN.png
+2026-08-11 14:57:28.000 | charts_ondemand          | AGC rendu a la demande : RKJJ (218750 o) -> C:\Users\mandr\AppData\Roaming\FBB\FBB Charts\Korea KTO\RKJJ - Gwangju AB\AGC_RKJJ.png
+2026-08-11 14:57:31.790 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:57:31.790 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=237c79d3
+2026-08-11 14:58:07.771 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:58:07.776 | mission_support          | tanker: cam pkg=2453 vu=21940
+2026-08-11 14:58:07.776 | mission_support          | awacs: cam pkg=2453 vu=21956
+2026-08-11 14:58:07.780 | radiomap_service         | radiomap path=D:\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-11 14:58:07.780 | package_comms            | tactical ch=6 primary=Plasma 7 uhf=336.475
+2026-08-11 14:58:16.073 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:58:16.074 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=237c79d3
+2026-08-11 14:58:43.134 | ato_target               | resolved id=6720 target=Tank
+2026-08-11 14:58:43.136 | ato_departure            | resolved=2/2
+2026-08-11 14:58:43.348 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:58:43.350 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=237c79d3
+2026-08-11 14:58:43.540 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:58:43.540 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=237c79d3
+2026-08-11 14:58:43.549 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 14:58:43.765 | dtc_save_noop            | total=24
+2026-08-11 15:00:10.863 | ato_target               | resolved id=6720 target=Tank
+2026-08-11 15:00:10.864 | ato_departure            | resolved=2/2
+2026-08-11 15:00:10.893 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 15:00:10.893 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=7 n_ppt=1 n_dpi=0 n_divert=3 n_sections=0 hash=136444a3
+2026-08-11 15:00:14.027 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 15:00:14.028 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=7 n_ppt=1 n_dpi=0 n_divert=3 n_sections=0 hash=136444a3
+2026-08-11 15:00:14.036 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 15:00:14.474 | dtc_save_sibling         | skipped=no_targets
+2026-08-11 15:00:14.475 | dtc_save_ok              | path=Mandrak.ini n_stpt=24 n_lines=7 n_ppt=1 n_dpi=0 n_divert=3 n_sections=0 n_seeded=0 seeded=[] sink=no_targets backup=Mandrak_bkup_fbb_110826_150014.ini
+2026-08-11 15:00:14.480 | ato_target               | resolved id=6720 target=Tank
+2026-08-11 15:00:14.480 | ato_departure            | resolved=2/2
+2026-08-11 15:00:15.114 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 15:00:15.114 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b2537fb8
+2026-08-11 15:00:15.353 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 15:00:15.353 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b2537fb8
+2026-08-11 15:00:25.694 | ato_target               | resolved id=6720 target=Tank
+2026-08-11 15:00:25.695 | ato_departure            | resolved=2/2
+2026-08-11 15:00:25.723 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 15:00:25.724 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=7 n_ppt=1 n_dpi=0 n_divert=3 n_sections=0 hash=cf848493
+2026-08-11 15:00:33.919 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 15:00:33.919 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=7 n_ppt=1 n_dpi=0 n_divert=3 n_sections=0 hash=cf848493
+2026-08-11 15:00:33.928 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 15:00:34.379 | dtc_save_sibling         | path=solokto.ini n_ppt=15 n_lines=24 n_dpi=0 n_divert=3
+2026-08-11 15:00:34.379 | dtc_save_ok              | path=Mandrak.ini n_stpt=24 n_lines=7 n_ppt=1 n_dpi=0 n_divert=3 n_sections=0 n_seeded=0 seeded=[] sink=ok backup=Mandrak_bkup_fbb_110826_150034.ini
+2026-08-11 15:00:34.384 | ato_target               | resolved id=6720 target=Tank
+2026-08-11 15:00:34.384 | ato_departure            | resolved=2/2
+2026-08-11 15:00:35.085 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 15:00:35.088 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b2537fb8
+2026-08-11 15:00:35.193 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 15:00:35.226 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 15:00:35.229 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b2537fb8
+2026-08-11 15:00:35.687 | dtc_save_noop            | total=24
+2026-08-11 15:00:35.783 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 15:00:35.783 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b2537fb8
+2026-08-11 15:01:25.979 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 15:01:25.980 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b2537fb8
+2026-08-11 15:01:32.066 | ato_target               | resolved id=6720 target=Tank
+2026-08-11 15:01:32.067 | ato_departure            | resolved=2/2
+2026-08-11 15:01:32.144 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 15:01:32.145 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b2537fb8
+2026-08-11 15:01:56.838 | ato_target               | resolved id=6720 target=Tank
+2026-08-11 15:01:56.839 | ato_departure            | resolved=2/2
+2026-08-11 15:01:56.864 | fuel_plan                | avail=12194 atTurn=10348 bingo=3100 joker=3600 rtb=618 margin=7248 GO
+2026-08-11 15:01:56.864 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b2537fb8
