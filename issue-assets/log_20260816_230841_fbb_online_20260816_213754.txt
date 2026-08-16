@@ -1,0 +1,545 @@
+2026-08-16 21:37:54.359 | ========================================================================
+2026-08-16 21:37:54.360 | FBB Online  mode=SERVER    identity=HOST              port=45380
+2026-08-16 21:37:54.360 | Session : 2026-08-16 21:37:54
+2026-08-16 21:37:54.360 | ========================================================================
+2026-08-16 21:37:54.360 | [STATE] _mode idle -> server | cause=start_server
+2026-08-16 21:37:54.360 | [STATE] _my_callsign (vide) -> Obe1 | cause=start_server
+2026-08-16 21:37:54.360 | [STATE] reset online | cause=start_server | efface=bms_host, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-08-16 21:37:54.360 | [SERVER] Démarré sur port 45380
+2026-08-16 21:37:54.373 | [TLS] Cert <empreinte masquée>... — host-pass=ok (machine=<masqué>) — epinglage Route B pret
+2026-08-16 21:37:54.375 | [SERVER] status → running
+2026-08-16 21:38:08.575 | [MC] Mission Commander → Obe1 (vol 20052 seat 1)
+2026-08-16 21:38:18.900 | [SERVER] Yamashita connecté depuis 192.168.1.19 — 1 client(s)
+2026-08-16 21:38:18.954 | [SERVER] campagne + état complet transmis → Yamashita
+2026-08-16 21:38:20.415 | [SERVER] Finley connecté depuis 86.194.141.253 — 2 client(s)
+2026-08-16 21:38:20.463 | [SERVER] campagne + état complet transmis → Finley
+2026-08-16 21:38:34.016 | [RTT] Yamashita 52 ms
+2026-08-16 21:38:35.489 | [RTT] Finley 25 ms
+2026-08-16 21:39:34.181 | [RTT] Yamashita 66 ms
+2026-08-16 21:39:35.774 | [RTT] Finley 77 ms
+2026-08-16 21:40:34.352 | [RTT] Yamashita 37 ms
+2026-08-16 21:40:36.085 | [RTT] Finley 69 ms
+2026-08-16 21:41:05.596 | [PING] Finley ping position
+2026-08-16 21:41:34.570 | [RTT] Yamashita 59 ms
+2026-08-16 21:41:36.337 | [RTT] Finley 26 ms
+2026-08-16 21:42:04.721 | [MC-LAYER] v1 publié par Obe1 (24 lines, 15 ppt)
+2026-08-16 21:42:34.782 | [RTT] Yamashita 29 ms
+2026-08-16 21:42:36.594 | [RTT] Finley 63 ms
+2026-08-16 21:43:35.026 | [RTT] Yamashita 79 ms
+2026-08-16 21:43:36.856 | [RTT] Finley 60 ms
+2026-08-16 21:44:35.285 | [RTT] Yamashita 44 ms
+2026-08-16 21:44:37.143 | [RTT] Finley 80 ms
+2026-08-16 21:45:35.496 | [RTT] Yamashita 67 ms
+2026-08-16 21:45:37.459 | [RTT] Finley 80 ms
+2026-08-16 21:46:35.691 | [RTT] Yamashita 46 ms
+2026-08-16 21:46:37.761 | [RTT] Finley 66 ms
+2026-08-16 21:47:35.867 | [RTT] Yamashita 25 ms
+2026-08-16 21:47:38.062 | [RTT] Finley 69 ms
+2026-08-16 21:48:35.959 | [RTT] Yamashita 17 ms
+2026-08-16 21:48:38.339 | [RTT] Finley 63 ms
+2026-08-16 21:49:36.155 | [RTT] Yamashita 61 ms
+2026-08-16 21:49:38.634 | [RTT] Finley 62 ms
+2026-08-16 21:50:36.454 | [RTT] Yamashita 78 ms
+2026-08-16 21:50:38.923 | [RTT] Finley 81 ms
+2026-08-16 21:51:36.882 | [RTT] Yamashita 42 ms
+2026-08-16 21:51:39.165 | [RTT] Finley 64 ms
+2026-08-16 21:52:37.103 | [RTT] Yamashita 61 ms
+2026-08-16 21:52:39.372 | [RTT] Finley 65 ms
+2026-08-16 21:53:37.250 | [RTT] Yamashita 11 ms
+2026-08-16 21:53:39.634 | [RTT] Finley 45 ms
+2026-08-16 21:53:45.124 | [DIVERT] broadcast — 1 vol(s)
+2026-08-16 21:54:37.433 | [RTT] Yamashita 62 ms
+2026-08-16 21:54:39.898 | [RTT] Finley 74 ms
+2026-08-16 21:55:37.711 | [RTT] Yamashita 74 ms
+2026-08-16 21:55:40.207 | [RTT] Finley 70 ms
+2026-08-16 21:56:37.995 | [RTT] Yamashita 59 ms
+2026-08-16 21:56:40.497 | [RTT] Finley 78 ms
+2026-08-16 21:57:38.256 | [RTT] Yamashita 52 ms
+2026-08-16 21:57:40.747 | [RTT] Finley 45 ms
+2026-08-16 21:58:38.373 | [RTT] Yamashita 10 ms
+2026-08-16 21:58:41.004 | [RTT] Finley 55 ms
+2026-08-16 21:59:38.500 | [RTT] Yamashita 14 ms
+2026-08-16 21:59:41.360 | [RTT] Finley 82 ms
+2026-08-16 22:00:38.610 | [RTT] Yamashita 11 ms
+2026-08-16 22:00:41.705 | [RTT] Finley 72 ms
+2026-08-16 22:01:38.876 | [RTT] Yamashita 26 ms
+2026-08-16 22:01:41.992 | [RTT] Finley 43 ms
+2026-08-16 22:02:39.087 | [RTT] Yamashita 38 ms
+2026-08-16 22:02:42.316 | [RTT] Finley 82 ms
+2026-08-16 22:03:39.281 | [RTT] Yamashita 32 ms
+2026-08-16 22:03:42.483 | [RTT] Finley 51 ms
+2026-08-16 22:04:39.402 | [RTT] Yamashita 36 ms
+2026-08-16 22:04:42.790 | [RTT] Finley 25 ms
+2026-08-16 22:05:39.685 | [RTT] Yamashita 71 ms
+2026-08-16 22:05:43.007 | [RTT] Finley 61 ms
+2026-08-16 22:06:39.836 | [RTT] Yamashita 23 ms
+2026-08-16 22:06:43.399 | [RTT] Finley 86 ms
+2026-08-16 22:07:40.114 | [RTT] Yamashita 52 ms
+2026-08-16 22:07:43.675 | [RTT] Finley 78 ms
+2026-08-16 22:08:40.280 | [RTT] Yamashita 53 ms
+2026-08-16 22:08:43.920 | [RTT] Finley 138 ms
+2026-08-16 22:09:40.502 | [RTT] Yamashita 92 ms
+2026-08-16 22:09:44.144 | [RTT] Finley 32 ms
+2026-08-16 22:10:40.700 | [RTT] Yamashita 24 ms
+2026-08-16 22:10:44.354 | [RTT] Finley 25 ms
+2026-08-16 22:11:40.844 | [RTT] Yamashita 20 ms
+2026-08-16 22:11:44.571 | [RTT] Finley 28 ms
+2026-08-16 22:12:41.008 | [RTT] Yamashita 55 ms
+2026-08-16 22:12:44.866 | [RTT] Finley 25 ms
+2026-08-16 22:13:41.156 | [RTT] Yamashita 17 ms
+2026-08-16 22:13:45.102 | [RTT] Finley 28 ms
+2026-08-16 22:14:41.279 | [RTT] Yamashita 22 ms
+2026-08-16 22:14:45.371 | [RTT] Finley 63 ms
+2026-08-16 22:15:41.420 | [RTT] Yamashita 30 ms
+2026-08-16 22:15:45.614 | [RTT] Finley 74 ms
+2026-08-16 22:16:41.639 | [RTT] Yamashita 33 ms
+2026-08-16 22:16:45.960 | [RTT] Finley 72 ms
+2026-08-16 22:17:41.791 | [RTT] Yamashita 18 ms
+2026-08-16 22:17:46.196 | [RTT] Finley 24 ms
+2026-08-16 22:18:41.987 | [RTT] Yamashita 32 ms
+2026-08-16 22:18:46.481 | [RTT] Finley 59 ms
+2026-08-16 22:19:42.192 | [RTT] Yamashita 55 ms
+2026-08-16 22:19:46.758 | [RTT] Finley 72 ms
+2026-08-16 22:20:42.418 | [RTT] Yamashita 36 ms
+2026-08-16 22:20:47.107 | [RTT] Finley 86 ms
+2026-08-16 22:21:42.550 | [RTT] Yamashita 14 ms
+2026-08-16 22:21:47.370 | [RTT] Finley 97 ms
+2026-08-16 22:22:42.731 | [RTT] Yamashita 39 ms
+2026-08-16 22:22:47.630 | [RTT] Finley 44 ms
+2026-08-16 22:22:59.671 | [LOADOUT] Finley — vu=20051 hp=3 wid=346
+2026-08-16 22:22:59.671 | [LOADOUT] broadcast — 1 entrée(s) (pending+final)
+2026-08-16 22:23:02.040 | [LOADOUT] Finley — vu=20051 hp=3 wid=0
+2026-08-16 22:23:02.041 | [LOADOUT] broadcast — 1 entrée(s) (pending+final)
+2026-08-16 22:23:02.835 | [LOADOUT] Finley — vu=20051 hp=3 wid=346
+2026-08-16 22:23:02.836 | [LOADOUT] broadcast — 1 entrée(s) (pending+final)
+2026-08-16 22:23:04.133 | [LOADOUT] Finley — vu=20051 hp=3 wid=346
+2026-08-16 22:23:04.134 | [LOADOUT] broadcast — 1 entrée(s) (pending+final)
+2026-08-16 22:23:05.059 | [LOADOUT] Finley — vu=20051 hp=3 wid=346
+2026-08-16 22:23:05.060 | [LOADOUT] broadcast — 1 entrée(s) (pending+final)
+2026-08-16 22:23:06.028 | [LOADOUT] Finley — vu=20051 hp=3 wid=346
+2026-08-16 22:23:06.028 | [LOADOUT] broadcast — 1 entrée(s) (pending+final)
+2026-08-16 22:23:42.917 | [RTT] Yamashita 16 ms
+2026-08-16 22:23:47.996 | [RTT] Finley 80 ms
+2026-08-16 22:23:48.123 | [LOADOUT] Finley — vu=20051 hp=3 wid=718
+2026-08-16 22:23:48.124 | [LOADOUT] broadcast — 1 entrée(s) (pending+final)
+2026-08-16 22:23:49.763 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:24:04.298 | [LASER] Finley — code vu=20051 siège=0
+2026-08-16 22:24:04.298 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:24:15.361 | [LASER] Finley — code vu=20051 siège=0
+2026-08-16 22:24:15.361 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:24:26.675 | [LASER] Finley — code vu=20051 siège=0
+2026-08-16 22:24:26.676 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:24:35.828 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:24:41.742 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:24:43.276 | [RTT] Yamashita 59 ms
+2026-08-16 22:24:47.629 | [LASER] Finley — code vu=20051 siège=0
+2026-08-16 22:24:47.629 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:24:48.258 | [RTT] Finley 59 ms
+2026-08-16 22:25:43.442 | [RTT] Yamashita 9 ms
+2026-08-16 22:25:48.496 | [RTT] Finley 81 ms
+2026-08-16 22:26:43.704 | [RTT] Yamashita 40 ms
+2026-08-16 22:26:48.657 | [RTT] Finley 26 ms
+2026-08-16 22:27:44.057 | [RTT] Yamashita 10 ms
+2026-08-16 22:27:48.894 | [RTT] Finley 29 ms
+2026-08-16 22:28:44.269 | [RTT] Yamashita 38 ms
+2026-08-16 22:28:49.139 | [RTT] Finley 25 ms
+2026-08-16 22:29:44.412 | [RTT] Yamashita 14 ms
+2026-08-16 22:29:44.547 | [LOADOUT] Finley — vu=20051 hp=3 wid=260
+2026-08-16 22:29:44.547 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:29:45.749 | [LOADOUT] Finley — vu=20051 hp=3 wid=260
+2026-08-16 22:29:45.749 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:29:49.358 | [RTT] Finley 46 ms
+2026-08-16 22:29:56.901 | [LOADOUT] Finley — vu=20051 hp=7 wid=256
+2026-08-16 22:29:56.902 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:29:57.415 | [LOADOUT] Finley — vu=20051 hp=7 wid=256
+2026-08-16 22:29:57.416 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:30:05.081 | [LOADOUT] Finley — vu=20051 hp=8 wid=174
+2026-08-16 22:30:05.082 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:30:13.845 | [LOADOUT] Finley — vu=20051 hp=2 wid=174
+2026-08-16 22:30:13.845 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:30:25.027 | [LOADOUT] Finley — validate vu=20051 → 1 avion(s)
+2026-08-16 22:30:25.027 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:30:36.871 | [LOADOUT] Finley — validate vu=20051 → 0 avion(s)
+2026-08-16 22:30:36.871 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:30:42.549 | [LOADOUT] Finley — validate vu=20051 → 0 avion(s)
+2026-08-16 22:30:42.550 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:30:44.743 | [RTT] Yamashita 82 ms
+2026-08-16 22:30:49.649 | [RTT] Finley 70 ms
+2026-08-16 22:30:54.318 | [LOADOUT] Finley — vu=20051 hp=2 wid=174
+2026-08-16 22:30:54.318 | [LOADOUT] broadcast — 3 entrée(s) (pending+final)
+2026-08-16 22:30:54.319 | [LOADOUT] Finley — vu=20051 hp=3 wid=260
+2026-08-16 22:30:54.320 | [LOADOUT] broadcast — 3 entrée(s) (pending+final)
+2026-08-16 22:30:54.321 | [LOADOUT] Finley — vu=20051 hp=7 wid=256
+2026-08-16 22:30:54.322 | [LOADOUT] broadcast — 3 entrée(s) (pending+final)
+2026-08-16 22:30:54.323 | [LOADOUT] Finley — vu=20051 hp=8 wid=174
+2026-08-16 22:30:54.323 | [LOADOUT] broadcast — 3 entrée(s) (pending+final)
+2026-08-16 22:31:17.273 | [LOADOUT] Finley — validate vu=20051 → 1 avion(s)
+2026-08-16 22:31:17.274 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:31:30.748 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:31:44.944 | [RTT] Yamashita 67 ms
+2026-08-16 22:31:49.968 | [RTT] Finley 57 ms
+2026-08-16 22:31:50.618 | [LOADOUT] broadcast — 3 entrée(s) (pending+final)
+2026-08-16 22:31:56.213 | [LOADOUT] broadcast — 2 entrée(s) (pending+final)
+2026-08-16 22:32:45.128 | [RTT] Yamashita 35 ms
+2026-08-16 22:32:50.203 | [RTT] Finley 26 ms
+2026-08-16 22:33:45.291 | [RTT] Yamashita 15 ms
+2026-08-16 22:33:50.418 | [RTT] Finley 59 ms
+2026-08-16 22:34:45.496 | [RTT] Yamashita 69 ms
+2026-08-16 22:34:50.703 | [RTT] Finley 25 ms
+2026-08-16 22:35:01.260 | [FPLN] Finley overrides TOS/ALT — 1 vol(s)
+2026-08-16 22:35:01.261 | [FPLN] fpln_tle broadcast — 1 vol(s)
+2026-08-16 22:35:09.715 | [FPLN] Finley overrides TOS/ALT — 0 vol(s)
+2026-08-16 22:35:09.715 | [FPLN] fpln_tle broadcast — 0 vol(s)
+2026-08-16 22:35:09.717 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:35:09.724 | [FPLN] fpln_final broadcast
+2026-08-16 22:35:09.860 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:35:09.931 | [FPLN] fpln_final broadcast
+2026-08-16 22:35:09.933 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:35:09.934 | [FPLN] fpln_final broadcast
+2026-08-16 22:35:10.225 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:35:10.227 | [FPLN] fpln_final broadcast
+2026-08-16 22:35:10.644 | [FPLN] fpln_final broadcast
+2026-08-16 22:35:38.303 | [FPLN] Finley overrides TOS/ALT — 1 vol(s)
+2026-08-16 22:35:38.303 | [FPLN] fpln_tle broadcast — 1 vol(s)
+2026-08-16 22:35:38.311 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:35:38.313 | [FPLN] fpln_final broadcast
+2026-08-16 22:35:38.313 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:35:38.314 | [FPLN] fpln_final broadcast
+2026-08-16 22:35:38.501 | [FPLN] Yamashita a activé son plan (FPLN_F)
+2026-08-16 22:35:38.504 | [FPLN] fpln_final broadcast
+2026-08-16 22:35:38.576 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:35:38.592 | [FPLN] fpln_final broadcast
+2026-08-16 22:35:38.922 | [FPLN] fpln_final broadcast
+2026-08-16 22:35:45.694 | [RTT] Yamashita 16 ms
+2026-08-16 22:35:50.932 | [RTT] Finley 43 ms
+2026-08-16 22:36:45.951 | [RTT] Yamashita 11 ms
+2026-08-16 22:36:51.185 | [RTT] Finley 44 ms
+2026-08-16 22:37:31.258 | [RTT] Yamashita 250 ms (précédent 11 ms)
+2026-08-16 22:37:51.493 | [RTT] Finley 85 ms
+2026-08-16 22:38:01.351 | [RTT] Yamashita 10 ms (précédent 250 ms)
+2026-08-16 22:38:05.085 | [FPLN] Finley overrides TOS/ALT — 1 vol(s)
+2026-08-16 22:38:05.085 | [FPLN] fpln_tle broadcast — 1 vol(s)
+2026-08-16 22:38:05.087 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:38:05.087 | [FPLN] fpln_final broadcast
+2026-08-16 22:38:05.088 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:38:05.088 | [FPLN] fpln_final broadcast
+2026-08-16 22:38:05.150 | [FPLN] Yamashita a activé son plan (FPLN_F)
+2026-08-16 22:38:05.151 | [FPLN] fpln_final broadcast
+2026-08-16 22:38:05.218 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:38:05.248 | [FPLN] fpln_final broadcast
+2026-08-16 22:38:05.669 | [FPLN] fpln_final broadcast
+2026-08-16 22:38:26.695 | [FPLN] Finley overrides TOS/ALT — 2 vol(s)
+2026-08-16 22:38:26.696 | [FPLN] fpln_tle broadcast — 2 vol(s)
+2026-08-16 22:38:26.704 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:38:26.705 | [FPLN] fpln_final broadcast
+2026-08-16 22:38:26.705 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:38:26.706 | [FPLN] fpln_final broadcast
+2026-08-16 22:38:26.832 | [FPLN] Yamashita a activé son plan (FPLN_F)
+2026-08-16 22:38:26.845 | [FPLN] fpln_final broadcast
+2026-08-16 22:38:26.856 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:38:26.917 | [FPLN] fpln_final broadcast
+2026-08-16 22:38:26.925 | [FPLN] fpln_final broadcast
+2026-08-16 22:38:51.750 | [RTT] Finley 28 ms
+2026-08-16 22:39:01.623 | [RTT] Yamashita 67 ms
+2026-08-16 22:39:16.793 | [FPLN] Finley overrides TOS/ALT — 2 vol(s)
+2026-08-16 22:39:16.793 | [FPLN] fpln_tle broadcast — 2 vol(s)
+2026-08-16 22:39:16.800 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:39:16.803 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:16.803 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:39:16.804 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:16.906 | [FPLN] Yamashita a activé son plan (FPLN_F)
+2026-08-16 22:39:16.925 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:16.933 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:16.946 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:39:16.969 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:24.137 | [FPLN] Finley overrides TOS/ALT — 2 vol(s)
+2026-08-16 22:39:24.137 | [FPLN] fpln_tle broadcast — 2 vol(s)
+2026-08-16 22:39:24.139 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:39:24.140 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:24.141 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:39:24.142 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:24.272 | [FPLN] Yamashita a activé son plan (FPLN_F)
+2026-08-16 22:39:24.284 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:24.285 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:24.293 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:39:24.304 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:29.569 | [FPLN] Finley overrides TOS/ALT — 2 vol(s)
+2026-08-16 22:39:29.569 | [FPLN] fpln_tle broadcast — 2 vol(s)
+2026-08-16 22:39:29.577 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:39:29.579 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:29.579 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:39:29.580 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:29.688 | [FPLN] Yamashita a activé son plan (FPLN_F)
+2026-08-16 22:39:29.697 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:29.706 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:29.729 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:39:29.757 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:31.952 | [FPLN] Finley overrides TOS/ALT — 2 vol(s)
+2026-08-16 22:39:31.952 | [FPLN] fpln_tle broadcast — 2 vol(s)
+2026-08-16 22:39:31.953 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:39:31.954 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:32.080 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:39:32.103 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:32.109 | [FPLN] Yamashita a activé son plan (FPLN_F)
+2026-08-16 22:39:32.122 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:32.124 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:32.147 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:39:32.160 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:52.051 | [RTT] Finley 78 ms
+2026-08-16 22:39:56.259 | [FPLN] fpln_tle broadcast — 2 vol(s)
+2026-08-16 22:39:56.281 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:56.285 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:56.401 | [FPLN] Yamashita a activé son plan (FPLN_F)
+2026-08-16 22:39:56.417 | [FPLN] fpln_final broadcast
+2026-08-16 22:39:56.424 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:39:56.455 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:00.767 | [FPLN] fpln_tle broadcast — 2 vol(s)
+2026-08-16 22:40:00.787 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:00.792 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:00.895 | [FPLN] Yamashita a activé son plan (FPLN_F)
+2026-08-16 22:40:00.917 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:00.922 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:40:01.064 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:01.920 | [RTT] Yamashita 32 ms
+2026-08-16 22:40:31.507 | [FPLN] fpln_tle broadcast — 0 vol(s)
+2026-08-16 22:40:31.510 | [FPLN] fpln_secondary broadcast — 0 vol(s)
+2026-08-16 22:40:31.512 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:31.545 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:31.556 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:31.612 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:40:31.634 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:31.664 | [FPLN] Yamashita a activé son plan (FPLN_F)
+2026-08-16 22:40:31.679 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:46.087 | [FPLN] fpln_tle broadcast — 1 vol(s)
+2026-08-16 22:40:46.109 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:46.112 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:46.160 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:40:46.177 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:46.220 | [FPLN] Yamashita a activé son plan (FPLN_F)
+2026-08-16 22:40:46.225 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:47.919 | [FPLN] fpln_tle broadcast — 1 vol(s)
+2026-08-16 22:40:47.922 | [FPLN] fpln_secondary broadcast — 0 vol(s)
+2026-08-16 22:40:47.924 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:47.954 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:47.987 | [FPLN] Yamashita a activé son plan (FPLN_F)
+2026-08-16 22:40:48.064 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:48.085 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:48.129 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:40:48.141 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:49.433 | [FPLN] fpln_tle broadcast — 0 vol(s)
+2026-08-16 22:40:49.436 | [FPLN] fpln_secondary broadcast — 0 vol(s)
+2026-08-16 22:40:49.437 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:49.465 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:49.475 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:49.534 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:40:49.552 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:49.577 | [FPLN] Yamashita a activé son plan (FPLN_F)
+2026-08-16 22:40:49.688 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:52.282 | [RTT] Finley 26 ms
+2026-08-16 22:40:59.509 | [FPLN] fpln_tle broadcast — 1 vol(s)
+2026-08-16 22:40:59.531 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:59.534 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:59.631 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:40:59.672 | [FPLN] fpln_final broadcast
+2026-08-16 22:40:59.729 | [FPLN] Yamashita a activé son plan (FPLN_F)
+2026-08-16 22:40:59.751 | [FPLN] fpln_final broadcast
+2026-08-16 22:41:03.468 | [RTT] Yamashita 1297 ms (précédent 32 ms)
+2026-08-16 22:41:18.527 | [RTT] Yamashita 57 ms (précédent 1297 ms)
+2026-08-16 22:41:52.561 | [RTT] Finley 73 ms
+2026-08-16 22:42:18.721 | [RTT] Yamashita 34 ms
+2026-08-16 22:42:42.129 | [FPLN] fpln_tle broadcast — 0 vol(s)
+2026-08-16 22:42:42.132 | [FPLN] fpln_secondary broadcast — 0 vol(s)
+2026-08-16 22:42:42.133 | [FPLN] fpln_final broadcast
+2026-08-16 22:42:42.156 | [FPLN] fpln_final broadcast
+2026-08-16 22:42:42.165 | [FPLN] fpln_final broadcast
+2026-08-16 22:42:42.210 | [FPLN] Finley a activé son plan (FPLN_F)
+2026-08-16 22:42:42.233 | [FPLN] fpln_final broadcast
+2026-08-16 22:42:42.357 | [FPLN] Yamashita a activé son plan (FPLN_F)
+2026-08-16 22:42:42.378 | [FPLN] fpln_final broadcast
+2026-08-16 22:42:52.771 | [RTT] Finley 51 ms
+2026-08-16 22:43:18.917 | [RTT] Yamashita 13 ms
+2026-08-16 22:43:53.047 | [RTT] Finley 25 ms
+2026-08-16 22:44:19.061 | [RTT] Yamashita 76 ms
+2026-08-16 22:44:33.693 | [DPI] relay dpi_add_relay de Finley — 2 DPI(s)
+2026-08-16 22:44:33.693 | [DPI] broadcast 2 DPI(s) partagé(s)
+2026-08-16 22:44:53.296 | [RTT] Finley 45 ms
+2026-08-16 22:45:19.228 | [RTT] Yamashita 10 ms
+2026-08-16 22:45:36.648 | [PING] Finley ping position
+2026-08-16 22:45:51.268 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:45:53.611 | [RTT] Finley 28 ms
+2026-08-16 22:46:00.474 | [PING] Finley ping position
+2026-08-16 22:46:19.383 | [RTT] Yamashita 33 ms
+2026-08-16 22:46:31.096 | [DPI] relay dpi_remove_relay de Finley — 2 DPI(s)
+2026-08-16 22:46:31.096 | [DPI] broadcast 2 DPI(s) partagé(s)
+2026-08-16 22:46:33.714 | [DPI] relay dpi_remove_relay de Finley — 1 DPI(s)
+2026-08-16 22:46:33.714 | [DPI] broadcast 1 DPI(s) partagé(s)
+2026-08-16 22:46:35.218 | [DPI] relay dpi_add_relay de Finley — 2 DPI(s)
+2026-08-16 22:46:35.218 | [DPI] broadcast 2 DPI(s) partagé(s)
+2026-08-16 22:46:36.031 | [DPI] relay dpi_remove_relay de Finley — 1 DPI(s)
+2026-08-16 22:46:36.032 | [DPI] broadcast 1 DPI(s) partagé(s)
+2026-08-16 22:46:47.780 | [DPI] relay dpi_add_relay de Finley — 1 DPI(s)
+2026-08-16 22:46:47.780 | [DPI] broadcast 1 DPI(s) partagé(s)
+2026-08-16 22:46:48.468 | [DPI] relay dpi_add_relay de Finley — 1 DPI(s)
+2026-08-16 22:46:48.468 | [DPI] broadcast 1 DPI(s) partagé(s)
+2026-08-16 22:46:49.026 | [DPI] relay dpi_add_relay de Finley — 1 DPI(s)
+2026-08-16 22:46:49.026 | [DPI] broadcast 1 DPI(s) partagé(s)
+2026-08-16 22:46:50.025 | [DPI] relay dpi_add_relay de Finley — 1 DPI(s)
+2026-08-16 22:46:50.025 | [DPI] broadcast 1 DPI(s) partagé(s)
+2026-08-16 22:46:50.461 | [DPI] relay dpi_add_relay de Finley — 1 DPI(s)
+2026-08-16 22:46:50.461 | [DPI] broadcast 1 DPI(s) partagé(s)
+2026-08-16 22:46:52.958 | [DPI] relay dpi_add_relay de Finley — 2 DPI(s)
+2026-08-16 22:46:52.958 | [DPI] broadcast 2 DPI(s) partagé(s)
+2026-08-16 22:46:53.834 | [RTT] Finley 52 ms
+2026-08-16 22:46:54.023 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:46:54.024 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:46:55.519 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:46:55.519 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:46:56.213 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:46:56.213 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:46:59.777 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:46:59.777 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:00.274 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:00.274 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:03.449 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:03.449 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:03.822 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:03.822 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:04.136 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:04.136 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:04.445 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:04.445 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:04.946 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:04.946 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:05.444 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:05.444 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:07.380 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:07.380 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:07.872 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:07.872 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:08.244 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:08.244 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:09.491 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:09.491 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:09.995 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:09.995 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:10.431 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:10.431 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:14.430 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:14.430 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:19.594 | [RTT] Yamashita 11 ms
+2026-08-16 22:47:20.413 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:20.413 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:21.159 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:21.159 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:22.968 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:22.968 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:34.192 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:34.192 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:34.819 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:34.819 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:35.635 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:35.635 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:36.013 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:36.013 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:36.384 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:36.385 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:38.684 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:38.684 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:39.185 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:47:39.185 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:49.879 | [RTT] Yamashita 228 ms (précédent 11 ms)
+2026-08-16 22:47:54.118 | [RTT] Finley 51 ms
+2026-08-16 22:47:55.669 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:56.646 | [DPI] broadcast 2 DPI(s) partagé(s)
+2026-08-16 22:47:57.252 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:57.797 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:58.571 | [DPI] broadcast 2 DPI(s) partagé(s)
+2026-08-16 22:47:59.200 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:47:59.864 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:48:00.572 | [DPI] broadcast 2 DPI(s) partagé(s)
+2026-08-16 22:48:01.242 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:48:01.886 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:48:14.636 | [DPI] broadcast 2 DPI(s) partagé(s)
+2026-08-16 22:48:19.957 | [RTT] Yamashita 25 ms (précédent 228 ms)
+2026-08-16 22:48:21.257 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:48:54.387 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:48:54.387 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:48:54.387 | [RTT] Finley 56 ms
+2026-08-16 22:48:55.580 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:48:55.581 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:48:56.018 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:48:56.018 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:48:58.256 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:48:58.256 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:49:00.448 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:49:00.448 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:49:20.218 | [RTT] Yamashita 37 ms
+2026-08-16 22:49:54.634 | [RTT] Finley 51 ms
+2026-08-16 22:50:20.411 | [RTT] Yamashita 56 ms
+2026-08-16 22:50:22.592 | [DPI] relay dpi_assign_relay de Finley — 3 DPI(s)
+2026-08-16 22:50:22.592 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:50:25.842 | [DPI] relay dpi_assign_relay de Finley — 3 DPI(s)
+2026-08-16 22:50:25.842 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:50:29.401 | [DPI] relay dpi_assign_relay de Finley — 3 DPI(s)
+2026-08-16 22:50:29.401 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:50:54.853 | [RTT] Finley 42 ms
+2026-08-16 22:50:56.229 | [DPI] relay dpi_assign_relay de Finley — 3 DPI(s)
+2026-08-16 22:50:56.229 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:51:20.536 | [RTT] Yamashita 39 ms
+2026-08-16 22:51:42.698 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:51:42.698 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:51:43.384 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:51:43.384 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:51:43.945 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:51:43.945 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:51:44.756 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:51:44.757 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:51:45.192 | [DPI] relay dpi_add_relay de Finley — 3 DPI(s)
+2026-08-16 22:51:45.192 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:51:53.087 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:51:53.655 | [DPI] broadcast 2 DPI(s) partagé(s)
+2026-08-16 22:51:54.171 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:51:54.739 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:51:55.039 | [RTT] Finley 26 ms
+2026-08-16 22:51:55.262 | [DPI] broadcast 2 DPI(s) partagé(s)
+2026-08-16 22:51:55.706 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:51:56.091 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:51:56.692 | [DPI] broadcast 2 DPI(s) partagé(s)
+2026-08-16 22:52:20.793 | [RTT] Yamashita 48 ms
+2026-08-16 22:52:55.244 | [RTT] Finley 65 ms
+2026-08-16 22:53:21.033 | [RTT] Yamashita 12 ms
+2026-08-16 22:53:21.182 | [DPI] relay dpi_add_relay de Finley — 4 DPI(s)
+2026-08-16 22:53:21.182 | [DPI] broadcast 3 DPI(s) partagé(s)
+2026-08-16 22:53:55.421 | [RTT] Finley 25 ms
+2026-08-16 22:54:21.188 | [RTT] Yamashita 61 ms
+2026-08-16 22:54:55.651 | [RTT] Finley 26 ms
+2026-08-16 22:55:21.416 | [RTT] Yamashita 72 ms
+2026-08-16 22:55:55.899 | [RTT] Finley 72 ms
+2026-08-16 22:56:21.659 | [RTT] Yamashita 38 ms
+2026-08-16 22:56:56.077 | [RTT] Finley 29 ms
+2026-08-16 22:57:19.599 | [MARKS] broadcast 1 mark(s) partagée(s)
+2026-08-16 22:57:21.898 | [RTT] Yamashita 56 ms
+2026-08-16 22:57:21.989 | [PING] Obe1 ping position
+2026-08-16 22:57:24.341 | [PING] Obe1 ping position
+2026-08-16 22:57:56.305 | [RTT] Finley 81 ms
+2026-08-16 22:58:22.052 | [RTT] Yamashita 12 ms
+2026-08-16 22:58:56.626 | [RTT] Finley 69 ms
+2026-08-16 22:59:22.167 | [RTT] Yamashita 10 ms
+2026-08-16 22:59:56.897 | [RTT] Finley 40 ms
+2026-08-16 23:00:22.388 | [RTT] Yamashita 48 ms
+2026-08-16 23:00:57.182 | [RTT] Finley 60 ms
+2026-08-16 23:01:22.658 | [RTT] Yamashita 53 ms
+2026-08-16 23:01:57.431 | [RTT] Finley 25 ms
+2026-08-16 23:02:22.911 | [RTT] Yamashita 72 ms
+2026-08-16 23:02:57.705 | [RTT] Finley 63 ms
+2026-08-16 23:03:23.159 | [RTT] Yamashita 55 ms
+2026-08-16 23:03:58.062 | [RTT] Finley 76 ms
+2026-08-16 23:04:23.426 | [RTT] Yamashita 55 ms
+2026-08-16 23:04:58.312 | [RTT] Finley 42 ms
+2026-08-16 23:05:23.622 | [RTT] Yamashita 52 ms
+2026-08-16 23:05:58.519 | [RTT] Finley 80 ms
+2026-08-16 23:06:23.859 | [RTT] Yamashita 56 ms
+2026-08-16 23:06:58.793 | [RTT] Finley 25 ms
+2026-08-16 23:07:24.101 | [RTT] Yamashita 50 ms
+2026-08-16 23:07:59.054 | [RTT] Finley 85 ms
+2026-08-16 23:08:24.361 | [RTT] Yamashita 78 ms
