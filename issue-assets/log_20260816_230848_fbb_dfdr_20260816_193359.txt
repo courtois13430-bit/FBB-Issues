@@ -1,0 +1,126 @@
+2026-08-16 19:33:59.337 | ========================================================================
+2026-08-16 19:33:59.337 | startup                  | FBB 1.75.0 — session 2026-08-16 19:33:59
+2026-08-16 19:33:59.337 | startup                  | Répertoire : C:\Falcon\Admin\Logiciels annexes\FBB\_internal
+2026-08-16 19:33:59.337 | startup                  | Python 3.14.5
+2026-08-16 19:33:59.337 | ========================================================================
+2026-08-16 19:33:59.337 | system                   | OS : Windows 11 10.0.26200, AMD64, 32 CPU, RAM 32 GB
+2026-08-16 19:33:59.345 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-08-16 19:33:59.345 | registry                 | BMS baseDir : C:\Falcon\Falcon BMS 4.38
+2026-08-16 19:33:59.345 | registry                 | BMS theater : LKTO 4.38 - Mike  pilot : Obe1
+2026-08-16 19:34:00.794 | parse_health             | TC09_FBB.cam: records 960/960, bytes 377987/377987, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-16 19:34:02.157 | ato_target               | index_built names=6959 memo=True
+2026-08-16 19:34:02.157 | ato_departure            | resolved=2/2
+2026-08-16 19:34:02.566 | telemetry                | ping OK v1.75.0 Windows 11 canal=prod → HTTP 200
+2026-08-16 19:34:04.457 | ato_departure            | resolved=2/2
+2026-08-16 19:34:04.589 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=-
+2026-08-16 19:34:04.806 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 19:34:08.717 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO-\Campaign\RadioMap.dat entries=1530
+2026-08-16 19:34:08.829 | mission_support          | awacs: cam pkg=1273 vu=24579
+2026-08-16 19:34:08.875 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO-\Campaign\RadioMap.dat entries=1530
+2026-08-16 19:34:08.954 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 19:34:09.003 | package_comms            | tactical ch=6 primary=Banshee 3 uhf=228.975
+2026-08-16 19:34:09.551 | campaign_overview        | objective_index loaded=5992
+2026-08-16 19:34:09.556 | campaign_overview        | tri conditions=1 file=save0.tri
+2026-08-16 19:34:10.121 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-16 19:34:10.122 | campaign_overview        | system_marks=4
+2026-08-16 19:34:10.311 | mission_support          | tanker: cam pkg=1273 vu=26054
+2026-08-16 19:34:10.325 | mission_support          | awacs: cam pkg=1273 vu=24579
+2026-08-16 19:34:10.488 | briefing_context         | package_overview flights=2 route_points=8 focus_points=2 unique_points=8
+2026-08-16 19:34:11.935 | campaign_overview        | tri conditions=1 file=save0.tri
+2026-08-16 19:34:12.189 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-16 19:34:12.189 | campaign_overview        | system_marks=4
+2026-08-16 19:34:12.563 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-16 19:34:12.563 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-16 19:34:12.563 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-16 19:34:13.341 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 19:34:13.513 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-16 19:34:13.513 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-16 19:34:13.513 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-16 19:34:14.771 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 19:35:36.222 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=-
+2026-08-16 19:35:36.538 | ato_departure            | resolved=2/2
+2026-08-16 19:35:36.542 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 19:35:36.962 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 19:35:37.688 | campaign_overview        | tri conditions=1 file=save0.tri
+2026-08-16 19:35:38.179 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-16 19:35:38.179 | campaign_overview        | system_marks=4
+2026-08-16 19:35:38.320 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-16 19:35:38.320 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-16 19:35:38.320 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-16 19:35:38.365 | briefing_context         | package_overview flights=2 route_points=8 focus_points=2 unique_points=8
+2026-08-16 19:35:39.006 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-16 19:35:39.006 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-16 19:35:39.006 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-16 19:35:39.815 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 19:35:40.234 | campaign_overview        | tri conditions=1 file=save0.tri
+2026-08-16 19:35:40.649 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-16 19:35:40.649 | campaign_overview        | system_marks=4
+2026-08-16 19:35:40.924 | briefing_context         | package_overview flights=2 route_points=8 focus_points=2 unique_points=8
+2026-08-16 19:35:41.072 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-16 19:35:41.072 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-16 19:35:41.072 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-16 19:35:41.712 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-16 19:35:41.713 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-16 19:35:41.713 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-16 19:35:42.751 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 19:35:43.163 | campaign_overview        | tri conditions=1 file=save0.tri
+2026-08-16 19:35:43.618 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-16 19:35:43.619 | campaign_overview        | system_marks=4
+2026-08-16 19:35:43.940 | briefing_context         | package_overview flights=2 route_points=8 focus_points=2 unique_points=8
+2026-08-16 19:35:44.081 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-16 19:35:44.081 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-16 19:35:44.081 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-16 19:35:44.718 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-16 19:35:44.718 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-16 19:35:44.718 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-16 19:35:45.352 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 19:35:45.633 | campaign_overview        | tri conditions=1 file=save0.tri
+2026-08-16 19:35:46.105 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-16 19:35:46.105 | campaign_overview        | system_marks=4
+2026-08-16 19:35:46.468 | briefing_context         | package_overview flights=2 route_points=8 focus_points=2 unique_points=8
+2026-08-16 19:35:46.612 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-16 19:35:46.613 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-16 19:35:46.613 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-16 19:35:47.264 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-16 19:35:47.264 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-16 19:35:47.264 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-16 19:36:32.044 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 19:37:10.049 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 19:37:15.825 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 19:44:42.064 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 19:44:46.006 | loadout3d                | scene unit_ct=2645 veh_ct=2467 ac_model=1052 (F-16CM-50) slots=11 stores=10 seat=0
+2026-08-16 19:44:46.007 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-08-16 19:44:46.007 | loadout3d                |   HP 1 wid=159 model=2016 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-08-16 19:44:46.007 | loadout3d                |   HP 2 wid=159 model=2016 slot=[-13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-08-16 19:44:46.007 | loadout3d                |   HP 3 wid=159 model=2016 slot=[-10.0, -1.72720599, 0.127838001] : AIM-120C AMRAAM
+2026-08-16 19:44:46.007 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-16 19:44:46.007 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-08-16 19:44:46.007 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-16 19:44:46.007 | loadout3d                |   HP 7 wid=176 model=1369 slot=[10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-08-16 19:44:46.007 | loadout3d                |   HP 8 wid=159 model=2016 slot=[13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-08-16 19:44:46.007 | loadout3d                |   HP 9 wid=159 model=2016 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-08-16 19:44:46.009 | loadout3d                | crew_art vu=20052 seat=0 pilot=60055 patch=70001
+2026-08-16 19:44:49.573 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 20:45:39.618 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 20:47:15.810 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 20:47:40.690 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 20:47:42.587 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=-
+2026-08-16 20:47:42.830 | ato_departure            | resolved=2/2
+2026-08-16 20:47:42.836 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 20:50:50.686 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=-
+2026-08-16 20:50:50.943 | ato_departure            | resolved=2/2
+2026-08-16 20:50:51.004 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 20:50:53.116 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 20:54:23.883 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 20:54:25.928 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=-
+2026-08-16 20:54:26.158 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 20:54:26.161 | ato_departure            | resolved=2/2
+2026-08-16 20:58:01.402 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=-
+2026-08-16 20:58:01.600 | ato_departure            | resolved=2/2
+2026-08-16 20:58:01.629 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 20:58:10.550 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=-
+2026-08-16 20:58:10.779 | ato_departure            | resolved=2/2
+2026-08-16 20:58:10.779 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-16 20:59:55.071 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=-
+2026-08-16 20:59:55.383 | ato_departure            | resolved=2/2
+2026-08-16 20:59:55.383 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
