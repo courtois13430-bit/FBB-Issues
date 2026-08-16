@@ -1,0 +1,27 @@
+2026-08-16 21:28:06.446 | ========================================================================
+2026-08-16 21:28:06.446 | FBB Online  mode=CLIENT    identity=Finley            port=45380
+2026-08-16 21:28:06.446 | Session : 2026-08-16 21:28:06
+2026-08-16 21:28:06.446 | ========================================================================
+2026-08-16 21:28:06.446 | [STATE] _client none -> NetworkClient#14102a65f90 | cause=connect_client
+2026-08-16 21:28:06.447 | [STATE] _mode idle -> client | cause=connect_client
+2026-08-16 21:28:06.447 | [STATE] _my_callsign (vide) -> Finley | cause=connect_client
+2026-08-16 21:28:06.447 | [STATE] reset online | cause=connect_client | efface=bms_host, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-08-16 21:28:06.447 | [CLIENT] status → connecting
+2026-08-16 21:28:06.447 | [CLIENT] Connexion → 82.64.199.133:45380 (callsign=Finley)
+2026-08-16 21:28:06.610 | [CLIENT] status → connected
+2026-08-16 21:28:07.653 | [CLIENT] Reconnexion — campagne déjà en contexte (pas de bundle)
+2026-08-16 21:28:07.653 | [DPI] 1 DPI(s) partagé(s) reçu(s) du host
+2026-08-16 21:28:07.655 | [BA] Conteneurs BA reçus du host — 15 entrée(s)
+2026-08-16 21:28:07.655 | [MC] Mission Commander → Obe1
+2026-08-16 21:28:07.657 | [FPLN] fpln_secondary reçu — 0 vol(s)
+2026-08-16 21:28:07.659 | [FPLN] fpln_final reçu du host (plan invalidé)
+2026-08-16 21:28:07.665 | [FPLN] fpln_tle reçu — 0 vol(s)
+2026-08-16 21:28:07.675 | [LOADOUT] état reçu (pending + final)
+2026-08-16 21:28:07.764 | [MC-LAYER] v1 reçu
+2026-08-16 21:29:33.410 | [STATE] _client NetworkClient#14102a65f90 -> none | cause=disconnect_client
+2026-08-16 21:29:33.410 | [STATE] _mode client -> idle | cause=disconnect_client
+2026-08-16 21:29:33.410 | [STATE] _my_callsign Finley -> (vide) | cause=disconnect_client
+2026-08-16 21:29:33.410 | [STATE] reset online | cause=disconnect_client | efface=bms_host, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-08-16 21:29:33.410 | [CLIENT] Déconnecté
+2026-08-16 21:29:33.410 | ========================================================================
+2026-08-16 21:29:33.410 | FBB Online — session terminée | cause=disconnect_client — déconnexion demandée par l'UI
