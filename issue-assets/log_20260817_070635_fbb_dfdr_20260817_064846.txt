@@ -1,0 +1,441 @@
+2026-08-17 06:48:47.083 | ========================================================================
+2026-08-17 06:48:47.083 | startup                  | FBB 1.75.0 — session 2026-08-17 06:48:47
+2026-08-17 06:48:47.083 | startup                  | Répertoire : C:\Falcon\Admin\Logiciels annexes\FBB\_internal
+2026-08-17 06:48:47.084 | startup                  | Python 3.14.5
+2026-08-17 06:48:47.084 | ========================================================================
+2026-08-17 06:48:47.084 | system                   | OS : Windows 11 10.0.26200, AMD64, 32 CPU, RAM 32 GB
+2026-08-17 06:48:47.094 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-08-17 06:48:47.094 | registry                 | BMS baseDir : C:\Falcon\Falcon BMS 4.38
+2026-08-17 06:48:47.094 | registry                 | BMS theater : LKTO 4.38 - Mike  pilot : Obe1
+2026-08-17 06:48:48.751 | parse_health             | TC08c.cam: records 1080/1080, bytes 429859/429859, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-17 06:48:50.267 | telemetry                | ping OK v1.75.0 Windows 11 canal=prod → HTTP 200
+2026-08-17 06:48:51.835 | dtc_render               | path=Obe1.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-17 06:48:51.838 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=-
+2026-08-17 06:48:54.238 | parse_health             | TS02.cam: records 726/726, bytes 354453/354453, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-17 06:48:54.767 | campaign_mods            | {'fpln': 4, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=<empreinte masquée>
+2026-08-17 06:48:54.769 | dtc_render               | path=Obe1.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-17 06:48:56.599 | ato_departure            | resolved=138/175
+2026-08-17 06:48:56.911 | ato_target               | index_built names=6725 memo=True
+2026-08-17 06:48:56.939 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO-\Campaign\RadioMap.dat entries=1530
+2026-08-17 06:49:10.005 | ato_departure            | resolved=1/1
+2026-08-17 06:49:10.416 | campaign_mods            | {'fpln': 4, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=<empreinte masquée>
+2026-08-17 06:49:10.966 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 06:49:11.008 | campaign_mods            | {'fpln': 4, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=<empreinte masquée>
+2026-08-17 06:49:11.272 | ato_departure            | resolved=1/1
+2026-08-17 06:49:11.276 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 06:49:19.801 | ato_departure            | resolved=1/1
+2026-08-17 06:49:19.808 | ato_departure            | resolved=1/1
+2026-08-17 06:49:20.201 | campaign_mods            | {'fpln': 4, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=<empreinte masquée>
+2026-08-17 06:49:20.402 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 06:49:23.661 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO-\Campaign\RadioMap.dat entries=1530
+2026-08-17 06:49:23.667 | mission_support          | awacs: cam pkg=2617 vu=20113
+2026-08-17 06:49:23.670 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO-\Campaign\RadioMap.dat entries=1530
+2026-08-17 06:49:23.731 | package_comms            | tactical ch=6 primary=Bulldog 2 uhf=229.875
+2026-08-17 06:49:23.946 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 06:49:24.732 | campaign_overview        | objective_index loaded=5992
+2026-08-17 06:49:24.738 | campaign_overview        | tri conditions=1 file=save1.tri
+2026-08-17 06:49:25.262 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-08-17 06:49:25.262 | campaign_overview        | system_marks=7
+2026-08-17 06:49:25.446 | mission_support          | tanker: cam pkg=2617 vu=20103
+2026-08-17 06:49:25.527 | mission_support          | awacs: cam pkg=2617 vu=20113
+2026-08-17 06:49:25.848 | briefing_context         | package_overview flights=1 route_points=3 focus_points=2 unique_points=3
+2026-08-17 06:49:27.356 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-17 06:49:27.356 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-17 06:49:27.356 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-17 06:49:42.850 | campaign_mods            | {'fpln': 4, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=<empreinte masquée>
+2026-08-17 06:49:43.086 | ato_departure            | resolved=1/1
+2026-08-17 06:49:43.100 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 06:49:43.189 | ato_departure            | resolved=138/175
+2026-08-17 06:49:43.209 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO-\Campaign\RadioMap.dat entries=1530
+2026-08-17 06:49:43.229 | ato_aircraft_details     | vu=20043 aircraft=2 details=2
+2026-08-17 06:49:43.236 | ato_target               | resolved id=20081 target=Fighter
+2026-08-17 06:49:43.236 | ato_aircraft_details     | vu=20055 aircraft=2 details=2
+2026-08-17 06:49:43.236 | ato_target               | resolved id=20081 target=Fighter
+2026-08-17 06:49:43.236 | ato_target               | resolved id=20104 target=Tanker
+2026-08-17 06:49:43.236 | ato_aircraft_details     | vu=20105 aircraft=2 details=2
+2026-08-17 06:49:43.236 | ato_target               | resolved id=20104 target=Tanker
+2026-08-17 06:49:43.236 | ato_aircraft_details     | vu=20106 aircraft=2 details=2
+2026-08-17 06:49:43.237 | ato_target               | resolved id=20104 target=Tanker
+2026-08-17 06:49:43.237 | ato_aircraft_details     | vu=20107 aircraft=2 details=2
+2026-08-17 06:49:43.237 | ato_target               | resolved id=20104 target=Tanker
+2026-08-17 06:49:43.237 | ato_target               | resolved id=20108 target=AWACS
+2026-08-17 06:49:43.237 | ato_aircraft_details     | vu=20109 aircraft=2 details=2
+2026-08-17 06:49:43.237 | ato_target               | resolved id=20108 target=AWACS
+2026-08-17 06:49:43.237 | ato_aircraft_details     | vu=20110 aircraft=2 details=2
+2026-08-17 06:49:43.238 | ato_target               | resolved id=20108 target=AWACS
+2026-08-17 06:49:43.238 | ato_aircraft_details     | vu=20111 aircraft=2 details=2
+2026-08-17 06:49:43.238 | ato_target               | resolved id=20108 target=AWACS
+2026-08-17 06:49:43.238 | ato_aircraft_details     | vu=20112 aircraft=2 details=2
+2026-08-17 06:49:43.238 | ato_target               | resolved id=20108 target=AWACS
+2026-08-17 06:49:43.238 | ato_target               | resolved id=20113 target=AWACS
+2026-08-17 06:49:43.238 | ato_aircraft_details     | vu=20114 aircraft=2 details=2
+2026-08-17 06:49:43.239 | ato_target               | resolved id=20113 target=AWACS
+2026-08-17 06:49:43.239 | ato_aircraft_details     | vu=20115 aircraft=2 details=2
+2026-08-17 06:49:43.239 | ato_target               | resolved id=20113 target=AWACS
+2026-08-17 06:49:43.239 | ato_aircraft_details     | vu=20116 aircraft=2 details=2
+2026-08-17 06:49:43.239 | ato_target               | resolved id=20113 target=AWACS
+2026-08-17 06:49:43.245 | ato_aircraft_details     | vu=20163 aircraft=2 details=2
+2026-08-17 06:49:43.256 | ato_aircraft_details     | vu=20245 aircraft=2 details=2
+2026-08-17 06:49:43.262 | ato_target               | resolved id=20288 target=Fighter
+2026-08-17 06:49:43.262 | ato_aircraft_details     | vu=20289 aircraft=2 details=2
+2026-08-17 06:49:43.262 | ato_target               | resolved id=20288 target=Fighter
+2026-08-17 06:49:43.268 | ato_aircraft_details     | vu=20519 aircraft=2 details=2
+2026-08-17 06:49:43.279 | ato_aircraft_details     | vu=20796 aircraft=2 details=2
+2026-08-17 06:49:43.290 | ato_aircraft_details     | vu=20797 aircraft=2 details=2
+2026-08-17 06:49:43.302 | ato_aircraft_details     | vu=20902 aircraft=2 details=2
+2026-08-17 06:49:43.312 | ato_aircraft_details     | vu=20903 aircraft=2 details=2
+2026-08-17 06:49:43.318 | ato_target               | resolved id=20914 target=Fighter
+2026-08-17 06:49:43.319 | ato_aircraft_details     | vu=20915 aircraft=2 details=2
+2026-08-17 06:49:43.319 | ato_target               | resolved id=20914 target=Fighter
+2026-08-17 06:49:43.325 | ato_aircraft_details     | vu=21009 aircraft=2 details=2
+2026-08-17 06:49:43.336 | ato_aircraft_details     | vu=21024 aircraft=2 details=2
+2026-08-17 06:49:43.347 | ato_aircraft_details     | vu=21042 aircraft=2 details=2
+2026-08-17 06:49:43.358 | ato_aircraft_details     | vu=21043 aircraft=2 details=2
+2026-08-17 06:49:43.364 | ato_aircraft_details     | vu=21142 aircraft=2 details=2
+2026-08-17 06:49:43.370 | ato_aircraft_details     | vu=21147 aircraft=2 details=2
+2026-08-17 06:49:43.381 | ato_aircraft_details     | vu=21157 aircraft=2 details=2
+2026-08-17 06:49:43.392 | ato_aircraft_details     | vu=21160 aircraft=2 details=2
+2026-08-17 06:49:43.398 | ato_aircraft_details     | vu=20058 aircraft=2 details=2
+2026-08-17 06:49:43.399 | ato_target               | resolved id=8388 target=Air Defense
+2026-08-17 06:49:43.399 | ato_aircraft_details     | vu=20777 aircraft=2 details=2
+2026-08-17 06:49:43.399 | ato_target               | resolved id=8388 target=Air Defense
+2026-08-17 06:49:43.399 | ato_aircraft_details     | vu=20776 aircraft=2 details=2
+2026-08-17 06:49:43.400 | ato_target               | resolved id=8388 target=Air Defense
+2026-08-17 06:49:43.400 | ato_aircraft_details     | vu=20032 aircraft=2 details=2
+2026-08-17 06:49:43.400 | ato_aircraft_details     | vu=20040 aircraft=2 details=2
+2026-08-17 06:49:43.400 | ato_aircraft_details     | vu=20042 aircraft=2 details=2
+2026-08-17 06:49:43.401 | ato_aircraft_details     | vu=20138 aircraft=2 details=2
+2026-08-17 06:49:43.401 | ato_aircraft_details     | vu=20149 aircraft=2 details=2
+2026-08-17 06:49:43.402 | ato_aircraft_details     | vu=20155 aircraft=2 details=2
+2026-08-17 06:49:43.402 | ato_aircraft_details     | vu=20288 aircraft=2 details=2
+2026-08-17 06:49:43.402 | ato_aircraft_details     | vu=20783 aircraft=2 details=2
+2026-08-17 06:49:43.403 | ato_aircraft_details     | vu=20790 aircraft=2 details=2
+2026-08-17 06:49:43.403 | ato_aircraft_details     | vu=20818 aircraft=2 details=2
+2026-08-17 06:49:43.403 | ato_aircraft_details     | vu=20897 aircraft=2 details=2
+2026-08-17 06:49:43.404 | ato_aircraft_details     | vu=20898 aircraft=2 details=2
+2026-08-17 06:49:43.404 | ato_aircraft_details     | vu=20914 aircraft=2 details=2
+2026-08-17 06:49:43.404 | ato_aircraft_details     | vu=21050 aircraft=2 details=2
+2026-08-17 06:49:43.405 | ato_aircraft_details     | vu=21062 aircraft=2 details=2
+2026-08-17 06:49:43.405 | ato_aircraft_details     | vu=21065 aircraft=2 details=2
+2026-08-17 06:49:43.406 | ato_aircraft_details     | vu=21133 aircraft=2 details=2
+2026-08-17 06:49:43.406 | ato_aircraft_details     | vu=21138 aircraft=2 details=2
+2026-08-17 06:49:43.406 | ato_aircraft_details     | vu=21162 aircraft=2 details=2
+2026-08-17 06:49:43.407 | ato_aircraft_details     | vu=21169 aircraft=2 details=2
+2026-08-17 06:49:43.407 | ato_aircraft_details     | vu=21187 aircraft=2 details=2
+2026-08-17 06:49:43.407 | ato_aircraft_details     | vu=20108 aircraft=1 details=1
+2026-08-17 06:49:43.408 | ato_aircraft_details     | vu=20113 aircraft=1 details=1
+2026-08-17 06:49:43.408 | ato_aircraft_details     | vu=20021 aircraft=2 details=2
+2026-08-17 06:49:43.408 | ato_target               | resolved id=8239 target=Armored
+2026-08-17 06:49:43.408 | ato_aircraft_details     | vu=20067 aircraft=1 details=1
+2026-08-17 06:49:43.409 | ato_target               | resolved id=8239 target=Armored
+2026-08-17 06:49:43.409 | ato_target               | resolved id=8233 target=Armored
+2026-08-17 06:49:43.409 | ato_aircraft_details     | vu=20068 aircraft=1 details=1
+2026-08-17 06:49:43.409 | ato_target               | resolved id=8233 target=Armored
+2026-08-17 06:49:43.409 | ato_target               | resolved id=8149 target=Mech
+2026-08-17 06:49:43.409 | ato_aircraft_details     | vu=20069 aircraft=1 details=1
+2026-08-17 06:49:43.409 | ato_target               | resolved id=8149 target=Mech
+2026-08-17 06:49:43.409 | ato_aircraft_details     | vu=20098 aircraft=1 details=1
+2026-08-17 06:49:43.409 | ato_aircraft_details     | vu=20103 aircraft=1 details=1
+2026-08-17 06:49:43.410 | ato_aircraft_details     | vu=20104 aircraft=1 details=1
+2026-08-17 06:49:43.410 | ato_aircraft_details     | vu=20126 aircraft=1 details=1
+2026-08-17 06:49:43.410 | ato_target               | resolved id=8450 target=Mech
+2026-08-17 06:49:43.410 | ato_aircraft_details     | vu=20168 aircraft=1 details=1
+2026-08-17 06:49:43.411 | ato_target               | resolved id=8450 target=Mech
+2026-08-17 06:49:43.411 | ato_aircraft_details     | vu=20169 aircraft=1 details=1
+2026-08-17 06:49:43.411 | ato_aircraft_details     | vu=20236 aircraft=2 details=2
+2026-08-17 06:49:43.411 | ato_aircraft_details     | vu=20800 aircraft=1 details=1
+2026-08-17 06:49:43.418 | ato_aircraft_details     | vu=20009 aircraft=4 details=4
+2026-08-17 06:49:43.429 | ato_aircraft_details     | vu=20010 aircraft=4 details=4
+2026-08-17 06:49:43.440 | ato_aircraft_details     | vu=20011 aircraft=4 details=4
+2026-08-17 06:49:43.446 | ato_aircraft_details     | vu=20053 aircraft=2 details=2
+2026-08-17 06:49:43.447 | ato_target               | resolved id=2238 target=EW Site Geumosan
+2026-08-17 06:49:43.447 | ato_aircraft_details     | vu=20052 aircraft=4 details=4
+2026-08-17 06:49:43.448 | ato_target               | resolved id=2238 target=EW Site Geumosan
+2026-08-17 06:49:43.448 | ato_aircraft_details     | vu=20059 aircraft=2 details=2
+2026-08-17 06:49:43.448 | ato_target               | resolved id=2474 target=EW Site Onchon 2 P-35
+2026-08-17 06:49:43.448 | ato_aircraft_details     | vu=20057 aircraft=4 details=4
+2026-08-17 06:49:43.448 | ato_target               | resolved id=2474 target=EW Site Onchon 2 P-35
+2026-08-17 06:49:43.449 | ato_aircraft_details     | vu=20062 aircraft=2 details=2
+2026-08-17 06:49:43.449 | ato_target               | resolved id=2305 target=EW Site Yongmunsan
+2026-08-17 06:49:43.449 | ato_aircraft_details     | vu=20060 aircraft=4 details=4
+2026-08-17 06:49:43.449 | ato_target               | resolved id=2305 target=EW Site Yongmunsan
+2026-08-17 06:49:43.449 | ato_target               | resolved id=1027 target=425th Mechanized Corps Base
+2026-08-17 06:49:43.449 | ato_aircraft_details     | vu=20165 aircraft=4 details=4
+2026-08-17 06:49:43.450 | ato_target               | resolved id=976 target=Kaechon Airbase
+2026-08-17 06:49:43.450 | ato_aircraft_details     | vu=20164 aircraft=4 details=4
+2026-08-17 06:49:43.450 | ato_target               | resolved id=976 target=Kaechon Airbase
+2026-08-17 06:50:02.109 | ato_departure            | resolved=1/1
+2026-08-17 06:50:02.535 | campaign_mods            | {'fpln': 4, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=<empreinte masquée>
+2026-08-17 06:50:02.577 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 06:50:02.876 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 06:50:03.072 | campaign_mods            | {'fpln': 4, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=<empreinte masquée>
+2026-08-17 06:50:03.298 | ato_departure            | resolved=1/1
+2026-08-17 06:50:03.312 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 06:50:03.644 | campaign_overview        | tri conditions=1 file=save1.tri
+2026-08-17 06:50:03.948 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-08-17 06:50:03.949 | campaign_overview        | system_marks=7
+2026-08-17 06:50:04.380 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-08-17 06:50:04.509 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-17 06:50:04.509 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-17 06:50:04.509 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-17 06:50:39.824 | ato_departure            | resolved=1/1
+2026-08-17 06:58:04.639 | campaign_mods            | {'fpln': 4, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=<empreinte masquée>
+2026-08-17 06:58:04.832 | ato_departure            | resolved=1/1
+2026-08-17 06:58:04.860 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 07:02:08.365 | campaign_mods            | {'fpln': 4, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=<empreinte masquée>
+2026-08-17 07:02:08.653 | ato_departure            | resolved=1/1
+2026-08-17 07:02:08.653 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 07:02:25.064 | ato_departure            | resolved=138/175
+2026-08-17 07:02:25.084 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO-\Campaign\RadioMap.dat entries=1530
+2026-08-17 07:02:25.090 | ato_aircraft_details     | vu=20043 aircraft=2 details=2
+2026-08-17 07:02:25.096 | ato_target               | resolved id=20081 target=Fighter
+2026-08-17 07:02:25.096 | ato_aircraft_details     | vu=20055 aircraft=2 details=2
+2026-08-17 07:02:25.096 | ato_target               | resolved id=20081 target=Fighter
+2026-08-17 07:02:25.097 | ato_target               | resolved id=20104 target=Tanker
+2026-08-17 07:02:25.097 | ato_aircraft_details     | vu=20105 aircraft=2 details=2
+2026-08-17 07:02:25.097 | ato_target               | resolved id=20104 target=Tanker
+2026-08-17 07:02:25.097 | ato_aircraft_details     | vu=20106 aircraft=2 details=2
+2026-08-17 07:02:25.097 | ato_target               | resolved id=20104 target=Tanker
+2026-08-17 07:02:25.097 | ato_aircraft_details     | vu=20107 aircraft=2 details=2
+2026-08-17 07:02:25.097 | ato_target               | resolved id=20104 target=Tanker
+2026-08-17 07:02:25.098 | ato_target               | resolved id=20108 target=AWACS
+2026-08-17 07:02:25.098 | ato_aircraft_details     | vu=20109 aircraft=2 details=2
+2026-08-17 07:02:25.098 | ato_target               | resolved id=20108 target=AWACS
+2026-08-17 07:02:25.098 | ato_aircraft_details     | vu=20110 aircraft=2 details=2
+2026-08-17 07:02:25.098 | ato_target               | resolved id=20108 target=AWACS
+2026-08-17 07:02:25.098 | ato_aircraft_details     | vu=20111 aircraft=2 details=2
+2026-08-17 07:02:25.098 | ato_target               | resolved id=20108 target=AWACS
+2026-08-17 07:02:25.098 | ato_aircraft_details     | vu=20112 aircraft=2 details=2
+2026-08-17 07:02:25.099 | ato_target               | resolved id=20108 target=AWACS
+2026-08-17 07:02:25.099 | ato_target               | resolved id=20113 target=AWACS
+2026-08-17 07:02:25.099 | ato_aircraft_details     | vu=20114 aircraft=2 details=2
+2026-08-17 07:02:25.099 | ato_target               | resolved id=20113 target=AWACS
+2026-08-17 07:02:25.099 | ato_aircraft_details     | vu=20115 aircraft=2 details=2
+2026-08-17 07:02:25.099 | ato_target               | resolved id=20113 target=AWACS
+2026-08-17 07:02:25.099 | ato_aircraft_details     | vu=20116 aircraft=2 details=2
+2026-08-17 07:02:25.100 | ato_target               | resolved id=20113 target=AWACS
+2026-08-17 07:02:25.105 | ato_aircraft_details     | vu=20163 aircraft=2 details=2
+2026-08-17 07:02:25.116 | ato_aircraft_details     | vu=20245 aircraft=2 details=2
+2026-08-17 07:02:25.122 | ato_target               | resolved id=20288 target=Fighter
+2026-08-17 07:02:25.123 | ato_aircraft_details     | vu=20289 aircraft=2 details=2
+2026-08-17 07:02:25.123 | ato_target               | resolved id=20288 target=Fighter
+2026-08-17 07:02:25.128 | ato_aircraft_details     | vu=20519 aircraft=2 details=2
+2026-08-17 07:02:25.140 | ato_aircraft_details     | vu=20796 aircraft=2 details=2
+2026-08-17 07:02:25.151 | ato_aircraft_details     | vu=20797 aircraft=2 details=2
+2026-08-17 07:02:25.162 | ato_aircraft_details     | vu=20902 aircraft=2 details=2
+2026-08-17 07:02:25.173 | ato_aircraft_details     | vu=20903 aircraft=2 details=2
+2026-08-17 07:02:25.179 | ato_target               | resolved id=20914 target=Fighter
+2026-08-17 07:02:25.179 | ato_aircraft_details     | vu=20915 aircraft=2 details=2
+2026-08-17 07:02:25.179 | ato_target               | resolved id=20914 target=Fighter
+2026-08-17 07:02:25.185 | ato_aircraft_details     | vu=21009 aircraft=2 details=2
+2026-08-17 07:02:25.196 | ato_aircraft_details     | vu=21024 aircraft=2 details=2
+2026-08-17 07:02:25.208 | ato_aircraft_details     | vu=21042 aircraft=2 details=2
+2026-08-17 07:02:25.218 | ato_aircraft_details     | vu=21043 aircraft=2 details=2
+2026-08-17 07:02:25.224 | ato_aircraft_details     | vu=21142 aircraft=2 details=2
+2026-08-17 07:02:25.230 | ato_aircraft_details     | vu=21147 aircraft=2 details=2
+2026-08-17 07:02:25.241 | ato_aircraft_details     | vu=21157 aircraft=2 details=2
+2026-08-17 07:02:25.252 | ato_aircraft_details     | vu=21160 aircraft=2 details=2
+2026-08-17 07:02:25.258 | ato_aircraft_details     | vu=20058 aircraft=2 details=2
+2026-08-17 07:02:25.258 | ato_target               | resolved id=8388 target=Air Defense
+2026-08-17 07:02:25.258 | ato_aircraft_details     | vu=20777 aircraft=2 details=2
+2026-08-17 07:02:25.259 | ato_target               | resolved id=8388 target=Air Defense
+2026-08-17 07:02:25.259 | ato_aircraft_details     | vu=20776 aircraft=2 details=2
+2026-08-17 07:02:25.259 | ato_target               | resolved id=8388 target=Air Defense
+2026-08-17 07:02:25.259 | ato_aircraft_details     | vu=20032 aircraft=2 details=2
+2026-08-17 07:02:25.260 | ato_aircraft_details     | vu=20040 aircraft=2 details=2
+2026-08-17 07:02:25.260 | ato_aircraft_details     | vu=20042 aircraft=2 details=2
+2026-08-17 07:02:25.260 | ato_aircraft_details     | vu=20138 aircraft=2 details=2
+2026-08-17 07:02:25.261 | ato_aircraft_details     | vu=20149 aircraft=2 details=2
+2026-08-17 07:02:25.261 | ato_aircraft_details     | vu=20155 aircraft=2 details=2
+2026-08-17 07:02:25.261 | ato_aircraft_details     | vu=20288 aircraft=2 details=2
+2026-08-17 07:02:25.262 | ato_aircraft_details     | vu=20783 aircraft=2 details=2
+2026-08-17 07:02:25.262 | ato_aircraft_details     | vu=20790 aircraft=2 details=2
+2026-08-17 07:02:25.262 | ato_aircraft_details     | vu=20818 aircraft=2 details=2
+2026-08-17 07:02:25.263 | ato_aircraft_details     | vu=20897 aircraft=2 details=2
+2026-08-17 07:02:25.263 | ato_aircraft_details     | vu=20898 aircraft=2 details=2
+2026-08-17 07:02:25.264 | ato_aircraft_details     | vu=20914 aircraft=2 details=2
+2026-08-17 07:02:25.264 | ato_aircraft_details     | vu=21050 aircraft=2 details=2
+2026-08-17 07:02:25.264 | ato_aircraft_details     | vu=21062 aircraft=2 details=2
+2026-08-17 07:02:25.265 | ato_aircraft_details     | vu=21065 aircraft=2 details=2
+2026-08-17 07:02:25.265 | ato_aircraft_details     | vu=21133 aircraft=2 details=2
+2026-08-17 07:02:25.265 | ato_aircraft_details     | vu=21138 aircraft=2 details=2
+2026-08-17 07:02:25.266 | ato_aircraft_details     | vu=21162 aircraft=2 details=2
+2026-08-17 07:02:25.266 | ato_aircraft_details     | vu=21169 aircraft=2 details=2
+2026-08-17 07:02:25.266 | ato_aircraft_details     | vu=21187 aircraft=2 details=2
+2026-08-17 07:02:25.267 | ato_aircraft_details     | vu=20108 aircraft=1 details=1
+2026-08-17 07:02:25.267 | ato_aircraft_details     | vu=20113 aircraft=1 details=1
+2026-08-17 07:02:25.267 | ato_aircraft_details     | vu=20021 aircraft=2 details=2
+2026-08-17 07:02:25.268 | ato_target               | resolved id=8239 target=Armored
+2026-08-17 07:02:25.268 | ato_aircraft_details     | vu=20067 aircraft=1 details=1
+2026-08-17 07:02:25.268 | ato_target               | resolved id=8239 target=Armored
+2026-08-17 07:02:25.268 | ato_target               | resolved id=8233 target=Armored
+2026-08-17 07:02:25.268 | ato_aircraft_details     | vu=20068 aircraft=1 details=1
+2026-08-17 07:02:25.268 | ato_target               | resolved id=8233 target=Armored
+2026-08-17 07:02:25.268 | ato_target               | resolved id=8149 target=Mech
+2026-08-17 07:02:25.268 | ato_aircraft_details     | vu=20069 aircraft=1 details=1
+2026-08-17 07:02:25.269 | ato_target               | resolved id=8149 target=Mech
+2026-08-17 07:02:25.269 | ato_aircraft_details     | vu=20098 aircraft=1 details=1
+2026-08-17 07:02:25.269 | ato_aircraft_details     | vu=20103 aircraft=1 details=1
+2026-08-17 07:02:25.269 | ato_aircraft_details     | vu=20104 aircraft=1 details=1
+2026-08-17 07:02:25.270 | ato_aircraft_details     | vu=20126 aircraft=1 details=1
+2026-08-17 07:02:25.270 | ato_target               | resolved id=8450 target=Mech
+2026-08-17 07:02:25.270 | ato_aircraft_details     | vu=20168 aircraft=1 details=1
+2026-08-17 07:02:25.270 | ato_target               | resolved id=8450 target=Mech
+2026-08-17 07:02:25.270 | ato_aircraft_details     | vu=20169 aircraft=1 details=1
+2026-08-17 07:02:25.271 | ato_aircraft_details     | vu=20236 aircraft=2 details=2
+2026-08-17 07:02:25.271 | ato_aircraft_details     | vu=20800 aircraft=1 details=1
+2026-08-17 07:02:25.277 | ato_aircraft_details     | vu=20009 aircraft=4 details=4
+2026-08-17 07:02:25.288 | ato_aircraft_details     | vu=20010 aircraft=4 details=4
+2026-08-17 07:02:25.299 | ato_aircraft_details     | vu=20011 aircraft=4 details=4
+2026-08-17 07:02:25.305 | ato_aircraft_details     | vu=20053 aircraft=2 details=2
+2026-08-17 07:02:25.305 | ato_target               | resolved id=2238 target=EW Site Geumosan
+2026-08-17 07:02:25.305 | ato_aircraft_details     | vu=20052 aircraft=4 details=4
+2026-08-17 07:02:25.306 | ato_target               | resolved id=2238 target=EW Site Geumosan
+2026-08-17 07:02:25.306 | ato_aircraft_details     | vu=20059 aircraft=2 details=2
+2026-08-17 07:02:25.306 | ato_target               | resolved id=2474 target=EW Site Onchon 2 P-35
+2026-08-17 07:02:25.306 | ato_aircraft_details     | vu=20057 aircraft=4 details=4
+2026-08-17 07:02:25.306 | ato_target               | resolved id=2474 target=EW Site Onchon 2 P-35
+2026-08-17 07:02:25.306 | ato_aircraft_details     | vu=20062 aircraft=2 details=2
+2026-08-17 07:02:25.307 | ato_target               | resolved id=2305 target=EW Site Yongmunsan
+2026-08-17 07:02:25.307 | ato_aircraft_details     | vu=20060 aircraft=4 details=4
+2026-08-17 07:02:25.307 | ato_target               | resolved id=2305 target=EW Site Yongmunsan
+2026-08-17 07:02:25.307 | ato_target               | resolved id=1027 target=425th Mechanized Corps Base
+2026-08-17 07:02:25.307 | ato_aircraft_details     | vu=20165 aircraft=4 details=4
+2026-08-17 07:02:25.308 | ato_target               | resolved id=976 target=Kaechon Airbase
+2026-08-17 07:02:25.308 | ato_aircraft_details     | vu=20164 aircraft=4 details=4
+2026-08-17 07:02:25.308 | ato_target               | resolved id=976 target=Kaechon Airbase
+2026-08-17 07:02:51.440 | campaign_mods            | {'fpln': 4, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=<empreinte masquée>
+2026-08-17 07:02:51.692 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 07:02:51.693 | ato_departure            | resolved=1/1
+2026-08-17 07:03:00.200 | ato_departure            | resolved=138/175
+2026-08-17 07:03:00.220 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO-\Campaign\RadioMap.dat entries=1530
+2026-08-17 07:03:00.227 | ato_aircraft_details     | vu=20043 aircraft=2 details=2
+2026-08-17 07:03:00.232 | ato_target               | resolved id=20081 target=Fighter
+2026-08-17 07:03:00.232 | ato_aircraft_details     | vu=20055 aircraft=2 details=2
+2026-08-17 07:03:00.233 | ato_target               | resolved id=20081 target=Fighter
+2026-08-17 07:03:00.233 | ato_target               | resolved id=20104 target=Tanker
+2026-08-17 07:03:00.233 | ato_aircraft_details     | vu=20105 aircraft=2 details=2
+2026-08-17 07:03:00.233 | ato_target               | resolved id=20104 target=Tanker
+2026-08-17 07:03:00.233 | ato_aircraft_details     | vu=20106 aircraft=2 details=2
+2026-08-17 07:03:00.233 | ato_target               | resolved id=20104 target=Tanker
+2026-08-17 07:03:00.233 | ato_aircraft_details     | vu=20107 aircraft=2 details=2
+2026-08-17 07:03:00.234 | ato_target               | resolved id=20104 target=Tanker
+2026-08-17 07:03:00.234 | ato_target               | resolved id=20108 target=AWACS
+2026-08-17 07:03:00.234 | ato_aircraft_details     | vu=20109 aircraft=2 details=2
+2026-08-17 07:03:00.234 | ato_target               | resolved id=20108 target=AWACS
+2026-08-17 07:03:00.234 | ato_aircraft_details     | vu=20110 aircraft=2 details=2
+2026-08-17 07:03:00.234 | ato_target               | resolved id=20108 target=AWACS
+2026-08-17 07:03:00.234 | ato_aircraft_details     | vu=20111 aircraft=2 details=2
+2026-08-17 07:03:00.235 | ato_target               | resolved id=20108 target=AWACS
+2026-08-17 07:03:00.235 | ato_aircraft_details     | vu=20112 aircraft=2 details=2
+2026-08-17 07:03:00.235 | ato_target               | resolved id=20108 target=AWACS
+2026-08-17 07:03:00.235 | ato_target               | resolved id=20113 target=AWACS
+2026-08-17 07:03:00.235 | ato_aircraft_details     | vu=20114 aircraft=2 details=2
+2026-08-17 07:03:00.235 | ato_target               | resolved id=20113 target=AWACS
+2026-08-17 07:03:00.235 | ato_aircraft_details     | vu=20115 aircraft=2 details=2
+2026-08-17 07:03:00.236 | ato_target               | resolved id=20113 target=AWACS
+2026-08-17 07:03:00.236 | ato_aircraft_details     | vu=20116 aircraft=2 details=2
+2026-08-17 07:03:00.236 | ato_target               | resolved id=20113 target=AWACS
+2026-08-17 07:03:00.242 | ato_aircraft_details     | vu=20163 aircraft=2 details=2
+2026-08-17 07:03:00.253 | ato_aircraft_details     | vu=20245 aircraft=2 details=2
+2026-08-17 07:03:00.259 | ato_target               | resolved id=20288 target=Fighter
+2026-08-17 07:03:00.259 | ato_aircraft_details     | vu=20289 aircraft=2 details=2
+2026-08-17 07:03:00.259 | ato_target               | resolved id=20288 target=Fighter
+2026-08-17 07:03:00.265 | ato_aircraft_details     | vu=20519 aircraft=2 details=2
+2026-08-17 07:03:00.276 | ato_aircraft_details     | vu=20796 aircraft=2 details=2
+2026-08-17 07:03:00.287 | ato_aircraft_details     | vu=20797 aircraft=2 details=2
+2026-08-17 07:03:00.298 | ato_aircraft_details     | vu=20902 aircraft=2 details=2
+2026-08-17 07:03:00.309 | ato_aircraft_details     | vu=20903 aircraft=2 details=2
+2026-08-17 07:03:00.315 | ato_target               | resolved id=20914 target=Fighter
+2026-08-17 07:03:00.315 | ato_aircraft_details     | vu=20915 aircraft=2 details=2
+2026-08-17 07:03:00.315 | ato_target               | resolved id=20914 target=Fighter
+2026-08-17 07:03:00.321 | ato_aircraft_details     | vu=21009 aircraft=2 details=2
+2026-08-17 07:03:00.332 | ato_aircraft_details     | vu=21024 aircraft=2 details=2
+2026-08-17 07:03:00.344 | ato_aircraft_details     | vu=21042 aircraft=2 details=2
+2026-08-17 07:03:00.355 | ato_aircraft_details     | vu=21043 aircraft=2 details=2
+2026-08-17 07:03:00.361 | ato_aircraft_details     | vu=21142 aircraft=2 details=2
+2026-08-17 07:03:00.366 | ato_aircraft_details     | vu=21147 aircraft=2 details=2
+2026-08-17 07:03:00.377 | ato_aircraft_details     | vu=21157 aircraft=2 details=2
+2026-08-17 07:03:00.389 | ato_aircraft_details     | vu=21160 aircraft=2 details=2
+2026-08-17 07:03:00.394 | ato_aircraft_details     | vu=20058 aircraft=2 details=2
+2026-08-17 07:03:00.395 | ato_target               | resolved id=8388 target=Air Defense
+2026-08-17 07:03:00.395 | ato_aircraft_details     | vu=20777 aircraft=2 details=2
+2026-08-17 07:03:00.395 | ato_target               | resolved id=8388 target=Air Defense
+2026-08-17 07:03:00.395 | ato_aircraft_details     | vu=20776 aircraft=2 details=2
+2026-08-17 07:03:00.396 | ato_target               | resolved id=8388 target=Air Defense
+2026-08-17 07:03:00.396 | ato_aircraft_details     | vu=20032 aircraft=2 details=2
+2026-08-17 07:03:00.396 | ato_aircraft_details     | vu=20040 aircraft=2 details=2
+2026-08-17 07:03:00.397 | ato_aircraft_details     | vu=20042 aircraft=2 details=2
+2026-08-17 07:03:00.397 | ato_aircraft_details     | vu=20138 aircraft=2 details=2
+2026-08-17 07:03:00.397 | ato_aircraft_details     | vu=20149 aircraft=2 details=2
+2026-08-17 07:03:00.398 | ato_aircraft_details     | vu=20155 aircraft=2 details=2
+2026-08-17 07:03:00.398 | ato_aircraft_details     | vu=20288 aircraft=2 details=2
+2026-08-17 07:03:00.399 | ato_aircraft_details     | vu=20783 aircraft=2 details=2
+2026-08-17 07:03:00.399 | ato_aircraft_details     | vu=20790 aircraft=2 details=2
+2026-08-17 07:03:00.399 | ato_aircraft_details     | vu=20818 aircraft=2 details=2
+2026-08-17 07:03:00.400 | ato_aircraft_details     | vu=20897 aircraft=2 details=2
+2026-08-17 07:03:00.401 | ato_aircraft_details     | vu=20898 aircraft=2 details=2
+2026-08-17 07:03:00.401 | ato_aircraft_details     | vu=20914 aircraft=2 details=2
+2026-08-17 07:03:00.402 | ato_aircraft_details     | vu=21050 aircraft=2 details=2
+2026-08-17 07:03:00.402 | ato_aircraft_details     | vu=21062 aircraft=2 details=2
+2026-08-17 07:03:00.402 | ato_aircraft_details     | vu=21065 aircraft=2 details=2
+2026-08-17 07:03:00.403 | ato_aircraft_details     | vu=21133 aircraft=2 details=2
+2026-08-17 07:03:00.403 | ato_aircraft_details     | vu=21138 aircraft=2 details=2
+2026-08-17 07:03:00.403 | ato_aircraft_details     | vu=21162 aircraft=2 details=2
+2026-08-17 07:03:00.404 | ato_aircraft_details     | vu=21169 aircraft=2 details=2
+2026-08-17 07:03:00.404 | ato_aircraft_details     | vu=21187 aircraft=2 details=2
+2026-08-17 07:03:00.405 | ato_aircraft_details     | vu=20108 aircraft=1 details=1
+2026-08-17 07:03:00.405 | ato_aircraft_details     | vu=20113 aircraft=1 details=1
+2026-08-17 07:03:00.405 | ato_aircraft_details     | vu=20021 aircraft=2 details=2
+2026-08-17 07:03:00.406 | ato_target               | resolved id=8239 target=Armored
+2026-08-17 07:03:00.406 | ato_aircraft_details     | vu=20067 aircraft=1 details=1
+2026-08-17 07:03:00.406 | ato_target               | resolved id=8239 target=Armored
+2026-08-17 07:03:00.406 | ato_target               | resolved id=8233 target=Armored
+2026-08-17 07:03:00.406 | ato_aircraft_details     | vu=20068 aircraft=1 details=1
+2026-08-17 07:03:00.406 | ato_target               | resolved id=8233 target=Armored
+2026-08-17 07:03:00.406 | ato_target               | resolved id=8149 target=Mech
+2026-08-17 07:03:00.406 | ato_aircraft_details     | vu=20069 aircraft=1 details=1
+2026-08-17 07:03:00.406 | ato_target               | resolved id=8149 target=Mech
+2026-08-17 07:03:00.407 | ato_aircraft_details     | vu=20098 aircraft=1 details=1
+2026-08-17 07:03:00.407 | ato_aircraft_details     | vu=20103 aircraft=1 details=1
+2026-08-17 07:03:00.407 | ato_aircraft_details     | vu=20104 aircraft=1 details=1
+2026-08-17 07:03:00.407 | ato_aircraft_details     | vu=20126 aircraft=1 details=1
+2026-08-17 07:03:00.408 | ato_target               | resolved id=8450 target=Mech
+2026-08-17 07:03:00.408 | ato_aircraft_details     | vu=20168 aircraft=1 details=1
+2026-08-17 07:03:00.408 | ato_target               | resolved id=8450 target=Mech
+2026-08-17 07:03:00.408 | ato_aircraft_details     | vu=20169 aircraft=1 details=1
+2026-08-17 07:03:00.408 | ato_aircraft_details     | vu=20236 aircraft=2 details=2
+2026-08-17 07:03:00.409 | ato_aircraft_details     | vu=20800 aircraft=1 details=1
+2026-08-17 07:03:00.414 | ato_aircraft_details     | vu=20009 aircraft=4 details=4
+2026-08-17 07:03:00.426 | ato_aircraft_details     | vu=20010 aircraft=4 details=4
+2026-08-17 07:03:00.437 | ato_aircraft_details     | vu=20011 aircraft=4 details=4
+2026-08-17 07:03:00.443 | ato_aircraft_details     | vu=20053 aircraft=2 details=2
+2026-08-17 07:03:00.443 | ato_target               | resolved id=2238 target=EW Site Geumosan
+2026-08-17 07:03:00.443 | ato_aircraft_details     | vu=20052 aircraft=4 details=4
+2026-08-17 07:03:00.443 | ato_target               | resolved id=2238 target=EW Site Geumosan
+2026-08-17 07:03:00.443 | ato_aircraft_details     | vu=20059 aircraft=2 details=2
+2026-08-17 07:03:00.444 | ato_target               | resolved id=2474 target=EW Site Onchon 2 P-35
+2026-08-17 07:03:00.444 | ato_aircraft_details     | vu=20057 aircraft=4 details=4
+2026-08-17 07:03:00.444 | ato_target               | resolved id=2474 target=EW Site Onchon 2 P-35
+2026-08-17 07:03:00.444 | ato_aircraft_details     | vu=20062 aircraft=2 details=2
+2026-08-17 07:03:00.445 | ato_target               | resolved id=2305 target=EW Site Yongmunsan
+2026-08-17 07:03:00.445 | ato_aircraft_details     | vu=20060 aircraft=4 details=4
+2026-08-17 07:03:00.445 | ato_target               | resolved id=2305 target=EW Site Yongmunsan
+2026-08-17 07:03:00.445 | ato_target               | resolved id=1027 target=425th Mechanized Corps Base
+2026-08-17 07:03:00.445 | ato_aircraft_details     | vu=20165 aircraft=4 details=4
+2026-08-17 07:03:00.445 | ato_target               | resolved id=976 target=Kaechon Airbase
+2026-08-17 07:03:00.446 | ato_aircraft_details     | vu=20164 aircraft=4 details=4
+2026-08-17 07:03:00.446 | ato_target               | resolved id=976 target=Kaechon Airbase
+2026-08-17 07:03:19.272 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 07:03:19.304 | campaign_overview        | tri conditions=1 file=save1.tri
+2026-08-17 07:03:19.513 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-08-17 07:03:19.514 | campaign_overview        | system_marks=7
+2026-08-17 07:03:21.833 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 07:03:32.836 | ato_departure            | resolved=1/1
+2026-08-17 07:05:03.261 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 07:05:08.567 | campaign_mods            | {'fpln': 4, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=<empreinte masquée>
+2026-08-17 07:05:08.785 | ato_departure            | resolved=1/1
+2026-08-17 07:05:08.880 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 07:06:11.933 | campaign_mods            | {'fpln': 4, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=<empreinte masquée>
+2026-08-17 07:06:12.149 | ato_departure            | resolved=1/1
+2026-08-17 07:06:12.177 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
