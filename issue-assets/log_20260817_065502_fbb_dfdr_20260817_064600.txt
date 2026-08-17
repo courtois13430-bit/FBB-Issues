@@ -1,0 +1,54 @@
+2026-08-17 06:46:01.681 | ========================================================================
+2026-08-17 06:46:01.681 | startup                  | FBB 1.75.0 — session 2026-08-17 06:46:01
+2026-08-17 06:46:01.681 | startup                  | Répertoire : C:\Falcon\Admin\Logiciels annexes\FBB\_internal
+2026-08-17 06:46:01.681 | startup                  | Python 3.14.5
+2026-08-17 06:46:01.681 | ========================================================================
+2026-08-17 06:46:01.681 | system                   | OS : Windows 11 10.0.26200, AMD64, 32 CPU, RAM 32 GB
+2026-08-17 06:46:01.690 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-08-17 06:46:01.690 | registry                 | BMS baseDir : C:\Falcon\Falcon BMS 4.38
+2026-08-17 06:46:01.691 | registry                 | BMS theater : LKTO 4.38 - Mike  pilot : Obe1
+2026-08-17 06:46:03.345 | parse_health             | TC08c.cam: records 1080/1080, bytes 429859/429859, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-17 06:46:04.907 | telemetry                | ping OK v1.75.0 Windows 11 canal=prod → HTTP 200
+2026-08-17 06:46:06.835 | dtc_render               | path=Obe1.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-17 06:46:06.844 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=-
+2026-08-17 06:46:11.278 | parse_health             | TS02.cam: records 726/726, bytes 354453/354453, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-17 06:46:11.806 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=-
+2026-08-17 06:46:11.810 | dtc_render               | path=Obe1.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-17 06:46:17.950 | ato_departure            | resolved=138/175
+2026-08-17 06:46:18.266 | ato_target               | index_built names=6725 memo=True
+2026-08-17 06:46:18.295 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO-\Campaign\RadioMap.dat entries=1530
+2026-08-17 06:46:31.897 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=-
+2026-08-17 06:46:31.897 | dtc_render               | path=Obe1.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=92ec86d4
+2026-08-17 06:47:37.065 | ato_departure            | resolved=1/1
+2026-08-17 06:47:37.467 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=-
+2026-08-17 06:47:38.007 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 06:47:38.933 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=-
+2026-08-17 06:47:39.150 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 06:47:39.151 | ato_departure            | resolved=1/1
+2026-08-17 06:47:40.136 | ato_departure            | resolved=1/1
+2026-08-17 06:47:40.142 | ato_departure            | resolved=1/1
+2026-08-17 06:47:40.550 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=-
+2026-08-17 06:47:40.821 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 06:47:48.273 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=-
+2026-08-17 06:47:48.493 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 06:47:48.494 | ato_departure            | resolved=1/1
+2026-08-17 06:47:50.036 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 06:47:50.094 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO-\Campaign\RadioMap.dat entries=1530
+2026-08-17 06:47:50.095 | mission_support          | awacs: cam pkg=2617 vu=20113
+2026-08-17 06:47:50.095 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO-\Campaign\RadioMap.dat entries=1530
+2026-08-17 06:47:50.096 | package_comms            | tactical ch=6 primary=Bulldog 2 uhf=229.875
+2026-08-17 06:47:51.248 | campaign_overview        | objective_index loaded=5992
+2026-08-17 06:47:51.251 | campaign_overview        | tri conditions=1 file=save1.tri
+2026-08-17 06:47:51.774 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-08-17 06:47:51.775 | campaign_overview        | system_marks=7
+2026-08-17 06:47:52.040 | mission_support          | tanker: cam pkg=2617 vu=20103
+2026-08-17 06:47:52.062 | mission_support          | awacs: cam pkg=2617 vu=20113
+2026-08-17 06:47:52.392 | briefing_context         | package_overview flights=1 route_points=3 focus_points=2 unique_points=3
+2026-08-17 06:47:53.767 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-17 06:47:53.767 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-17 06:47:53.767 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-17 06:48:15.601 | fpln_op                  | vus=0 wps=0 key='C:\\Falcon\\Falcon BMS 4.38\\Data\\Add-On LKTO-\\Campaign\\TS02.cam'
+2026-08-17 06:48:16.034 | campaign_mods            | {'fpln': 4, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=<empreinte masquée>
+2026-08-17 06:48:40.984 | campaign_mods            | {'fpln': 4, 'loadout': 0, 'laser': 0, 'bullseye': 0} sig=<empreinte masquée>
+2026-08-17 06:48:41.202 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=92ec86d4
+2026-08-17 06:48:41.204 | ato_departure            | resolved=1/1
