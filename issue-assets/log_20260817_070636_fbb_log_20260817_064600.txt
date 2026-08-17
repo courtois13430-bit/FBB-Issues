@@ -1,0 +1,1054 @@
+06:46:00.924 INFO     fbb.web.launcher       | Session log : C:\Falcon\Admin\Logiciels annexes\FBB\_internal\Log\fbb_log_20260817_064600.txt
+06:46:00.924 INFO     fbb.web.launcher       | FBB version : 1.75.0
+06:46:00.925 INFO     fbb.web.launcher       | Icône fenêtre : C:\Falcon\Admin\Logiciels annexes\FBB\_internal\Art\FBB.ico
+06:46:00.962 INFO     fbb.web.launcher       | TLS : truststore actif (vérification via magasin Windows)
+06:46:00.981 WARNING  fbb.license            | Licence liée à une empreinte héritée (4FD0-33FB-FE2E) — acceptée. Empreinte actuelle : CAD2-8830-D9AD. Demande une licence régénérée à Obe1 pour repasser sur la vérification rapide.
+06:46:00.982 INFO     fbb.license            | Licence valide — Obe1, expire 2030-01-01
+06:46:00.982 INFO     fbb.license_gate       | Licence OK — Obe1 (expire 2030-01-01)
+06:46:00.991 WARNING  fbb.web.launcher       | Zombie FBB détecté (PID 5360) — API muette. Arrêt forcé et reprise…
+06:46:01.678 INFO     fbb.web.launcher       | Singleton récupéré après nettoyage zombie.
+06:46:01.680 INFO     fbb.web.launcher       | Log : 1 ancien(s) fichier(s) purgé(s) (rétention 30 par famille, FBB_LOG_RETENTION pour ajuster)
+06:46:01.691 INFO     fbb.web.launcher       | Démarrage uvicorn sur 127.0.0.1:8765
+06:46:01.707 DEBUG    fbb.web.launcher       | Splash : 700x650 @ (930,395) — file:///C:/Users/ADMINI~1/AppData/Local/Temp/fbb_splash_k2ky3ds9.html
+06:46:02.840 DEBUG    asyncio                | Using proactor: IocpProactor
+06:46:02.860 INFO     uvicorn.error          | Started server process [5444]
+06:46:02.860 INFO     uvicorn.error          | Waiting for application startup.
+06:46:02.861 INFO     fbb.web                | Bootstrap AppContext…
+06:46:02.880 INFO     fbb.web.context        | Session précédente : cam=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO-\Campaign\TS02.cam html=C:\Falcon\Admin\Briefing\2026-08-06_130226_briefing.html
+06:46:03.345 DEBUG    utils.parse_health     | parse OK — TC08c.cam: records 1080/1080, bytes 429859/429859, rejects=0, exc=0, constr_err=0, first_desync=None
+06:46:03.382 INFO     fbb.web.context        | Theater objects validés (LKTO 4.38 - Mike) : 5999 objets, recouvrement noms 49/49 [objectives_LKTO_4.38_-_Mike.json]
+06:46:03.383 INFO     fbb.web.context        | INI DTC chargé : 17 sections
+06:46:03.436 INFO     fbb.web.context        | Terrain DB chargée
+06:46:03.437 INFO     fbb.web.context        | HiresTileCache initialise : C:\Falcon\Falcon BMS 4.38\Data\Terrdata\korea\NewTerrain\Photoreal\16K (calibrated=True)
+06:46:03.441 INFO     fbb.web.context        | HiresOverlayCache initialise : C:\Falcon\Falcon BMS 4.38\Data\Terrdata\korea\NewTerrain\Photoreal\Hires\Day (1643 tuiles)
+06:46:03.442 INFO     fbb.web.context        | Airports (LKTO 4.38 - Mike) : 87 aérodromes
+06:46:03.518 INFO     fbb.web.context        | UCD 609 entries, VCD 449 entries
+06:46:03.540 INFO     fbb.web.briefing_match | brief_match: AMBIGU n=3 scanned=13
+06:46:03.540 INFO     fbb.web.context        | Context chargé : 1080 units, 49 objectives depuis TC08c.cam
+06:46:03.540 INFO     fbb.web.context        | [perf] build_context 1080 unités, 49 objectifs, 5999 theater_objects en 679 ms — TC08c.cam
+06:46:03.541 INFO     fbb.web                | Génération sprites tactiques OTAN (fallback)…
+06:46:03.541 INFO     fbb.web.map            | [bg-tiles] Chargement PNG kto en mémoire…
+06:46:03.550 INFO     fbb.web.sprites        | Sprites générés : 0 nouveaux / 280 total dans C:\Falcon\Admin\Logiciels annexes\FBB\_internal\backend_api\static\sprites
+06:46:03.551 INFO     fbb.web                | Génération sprites RSC BMS (palette sig=515b6d73dc61, force=True)…
+06:46:03.570 DEBUG    utils.bms_rsc          | bms_rsc: loaded 82 icons from BluDark
+06:46:03.590 DEBUG    utils.bms_rsc          | bms_rsc: loaded 82 icons from RedDark
+06:46:03.610 DEBUG    utils.bms_rsc          | bms_rsc: loaded 82 icons from GrnDark
+06:46:03.737 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_nn
+06:46:03.789 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_ne
+06:46:03.841 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_ee
+06:46:03.891 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_se
+06:46:03.943 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_ss
+06:46:03.994 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_sw
+06:46:04.044 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_ww
+06:46:04.094 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_nw
+06:46:04.414 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_nn
+06:46:04.467 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_ne
+06:46:04.520 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_ee
+06:46:04.572 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_se
+06:46:04.624 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_ss
+06:46:04.674 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_sw
+06:46:04.740 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_ww
+06:46:04.793 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_nw
+06:46:04.847 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_nn
+06:46:04.897 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_ne
+06:46:04.949 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_ee
+06:46:05.001 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_se
+06:46:05.052 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_ss
+06:46:05.101 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_sw
+06:46:05.152 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_ww
+06:46:05.203 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_nw
+06:46:05.992 INFO     fbb.web.rsc            | Sprites RSC générés : 192 sol/naval + 6 squadron + 3752 air (0 en cache) = 3950 (rsc_dir=C:\Falcon\Falcon BMS 4.38\Data\Art\Resource)
+06:46:05.993 INFO     fbb.web                | [perf] rsc_sprites 3950 sprites (force=True) en 2442 ms
+06:46:05.993 INFO     utils.bms_rsc          | init_image_ids: 338 entrées chargées depuis C:\Falcon\Falcon BMS 4.38\Data\Art\Main\ImageIds.id
+06:46:05.993 INFO     utils.bms_rsc          | init_irc_map: 82 icônes IRC chargées depuis C:\Falcon\Falcon BMS 4.38\Data\Art\Resource\BluDark.idx
+06:46:05.993 INFO     fbb.web                | Génération sprites theater_features…
+06:46:06.016 DEBUG    utils.bms_rsc          | bms_rsc: loaded 82 icons from BluDark
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône ADDLINE_CUR absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône ADDLINE_CUR_ERROR absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône ADDLINE_CUR_SEL absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône ASSIGNED_TGT_CUR absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône ATO_ICON_1 absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône ATO_ICON_2 absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône ATO_SKULL absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BID_ATO_F16 absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BID_CHK1_OFF absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BID_CHK1_ON absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BID_DROPDOWN absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BID_SCROLL absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BID_SCROLLCAP_BOTTOM_OFF absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BID_SCROLLCAP_BOTTOM_ON absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BID_SCROLLCAP_TOP_OFF absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BID_SCROLLCAP_TOP_ON absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT1 absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT2 absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT3 absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT4 absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT5 absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT6 absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT7 absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT8 absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_EAST absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_NORTH absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_NORTHEAST absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_NORTHWEST absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_SOUTH absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_SOUTHEAST absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_SOUTHWEST absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_WEST absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT1 absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT2 absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT3 absente du RSC
+06:46:06.016 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT4 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT5 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT6 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT7 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT8 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône CAMP_FROM_SIM absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône CAMP_TO_SIM absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône CS_SMALL_PATCH absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT1 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT2 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT3 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT4 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT5 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT6 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT7 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT8 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT1 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT2 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT3 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT4 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT5 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT6 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT7 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT8 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône HOME_BASE_CUR absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône IA_MAP_TGA absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_A10 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_A50 absente du RSC
+06:46:06.017 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AH64 absente du RSC
+06:46:06.028 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AIR_ENEMY absente du RSC
+06:46:06.028 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AIR_FRIEND absente du RSC
+06:46:06.039 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AMPHIBIOUS absente du RSC
+06:46:06.039 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AMX absente du RSC
+06:46:06.039 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AN124 absente du RSC
+06:46:06.039 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AN2 absente du RSC
+06:46:06.039 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AN225 absente du RSC
+06:46:06.039 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AN24 absente du RSC
+06:46:06.117 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AV8 absente du RSC
+06:46:06.117 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_B1B absente du RSC
+06:46:06.117 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_B2A absente du RSC
+06:46:06.117 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_B52 absente du RSC
+06:46:06.117 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_B707 absente du RSC
+06:46:06.127 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_C130 absente du RSC
+06:46:06.127 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_C17 absente du RSC
+06:46:06.127 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_C5 absente du RSC
+06:46:06.130 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_CH47 absente du RSC
+06:46:06.148 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_E2C absente du RSC
+06:46:06.148 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_E3 absente du RSC
+06:46:06.148 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_EA6B absente du RSC
+06:46:06.148 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_EF2000 absente du RSC
+06:46:06.152 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F111 absente du RSC
+06:46:06.152 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F117 absente du RSC
+06:46:06.152 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F14 absente du RSC
+06:46:06.152 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F15C absente du RSC
+06:46:06.152 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F16 absente du RSC
+06:46:06.152 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F18 absente du RSC
+06:46:06.152 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F22 absente du RSC
+06:46:06.152 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F4 absente du RSC
+06:46:06.152 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F5 absente du RSC
+06:46:06.162 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_G4 absente du RSC
+06:46:06.169 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_HELI_ENEMY absente du RSC
+06:46:06.169 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_HELI_FRIEND absente du RSC
+06:46:06.182 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_IL28 absente du RSC
+06:46:06.182 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_IL76 absente du RSC
+06:46:06.189 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_JA37 absente du RSC
+06:46:06.189 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_JAGUAR absente du RSC
+06:46:06.189 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_JAS39 absente du RSC
+06:46:06.189 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_KA50 absente du RSC
+06:46:06.189 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_KC10 absente du RSC
+06:46:06.189 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_KC135 absente du RSC
+06:46:06.189 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_M2000 absente du RSC
+06:46:06.189 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MD500 absente du RSC
+06:46:06.193 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MF1 absente du RSC
+06:46:06.193 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MI24 absente du RSC
+06:46:06.193 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MI8 absente du RSC
+06:46:06.193 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG17 absente du RSC
+06:46:06.193 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG19 absente du RSC
+06:46:06.193 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG21 absente du RSC
+06:46:06.193 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG23 absente du RSC
+06:46:06.193 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG25 absente du RSC
+06:46:06.193 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG29 absente du RSC
+06:46:06.193 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIII absente du RSC
+06:46:06.193 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MISSILE_AD absente du RSC
+06:46:06.193 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MISS_ENEMY absente du RSC
+06:46:06.193 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MISS_FRIEND absente du RSC
+06:46:06.206 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MV22 absente du RSC
+06:46:06.213 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_OH58 absente du RSC
+06:46:06.223 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_Q5 absente du RSC
+06:46:06.230 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_RAFALE absente du RSC
+06:46:06.256 INFO     fbb.web.map            | [perf] bg_png_decode kto 16384x16384 en 2715 ms, résident ~768 Mo RAM
+06:46:06.259 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_RECCON absente du RSC
+06:46:06.262 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SF absente du RSC
+06:46:06.262 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SHIP_ENEMY absente du RSC
+06:46:06.262 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SHIP_FRIEND absente du RSC
+06:46:06.273 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SIGNALS absente du RSC
+06:46:06.276 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SR71 absente du RSC
+06:46:06.276 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SU25 absente du RSC
+06:46:06.276 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SU27 absente du RSC
+06:46:06.276 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SU32 absente du RSC
+06:46:06.276 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SU33 absente du RSC
+06:46:06.280 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SUB_ENEMY absente du RSC
+06:46:06.280 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SUB_FRIEND absente du RSC
+06:46:06.310 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_TU16N absente du RSC
+06:46:06.310 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_TU95 absente du RSC
+06:46:06.310 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_U2 absente du RSC
+06:46:06.310 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_UAV absente du RSC
+06:46:06.310 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_UH1H absente du RSC
+06:46:06.310 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_UH60 absente du RSC
+06:46:06.310 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_UKN absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône IP_CUR absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône IP_CUR_ERROR absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône IP_CUR_SEL absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône IP_OTR absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône IP_OTR_OTHER absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône IP_OTR_SEL absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône MAIN__FROM_SIM absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône MAIN__TO_SIM absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM0_ICONS absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM1_ICONS absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM2_ICONS absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM3_ICONS absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM4_ICONS absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM5_ICONS absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM6_ICONS absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM7_ICONS absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône MUTE_ICON absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône NULL absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BAHRAIN absente du RSC
+06:46:06.323 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BAHRAIN_DRK absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BAHRAIN_HRZ absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BELGIUM absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BELGIUM_DRK absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BELGIUM_HRZ absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BRAZIL absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BRAZIL_DRK absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BRAZIL_HRZ absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CHINA absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CHINA_DRK absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CHINA_HRZ absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CIS absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CIS_DRK absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CIS_HRZ absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_FRANCE absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_FRANCE_DRK absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_FRANCE_HRZ absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_JAPAN absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_JAPAN_DRK absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_JAPAN_HRZ absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NATO absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NATO_DRK absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NATO_HRZ absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NKOREA absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NKOREA_DRK absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NKOREA_HRZ absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SKOREA absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SKOREA_DRK absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SKOREA_HRZ absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SWISS absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SWISS_DRK absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SWISS_HRZ absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_USA absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_USA_DRK absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_USA_HRZ absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT1 absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT2 absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT3 absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT4 absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT5 absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT6 absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT7 absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT8 absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône PATCHES_RESOURCE absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône PILOTS_RESOURCE absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT1 absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT2 absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT3 absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT4 absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT5 absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT6 absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT7 absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT8 absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_EAST absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_NORTH absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_NORTHEAST absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_NORTHWEST absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_SOUTH absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_SOUTHEAST absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_SOUTHWEST absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_WEST absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_BAHRAIN absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_BELGIUM absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_BRAZIL absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_CHINA absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_CIS absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_FRANCE absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_JAPAN absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_NATO absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_NKOREA absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_SKOREA absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_SWISS absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_USA absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône STEARPOINT_ICONS absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_CUR absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_CUR_ERROR absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_CUR_SEL absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_OTR absente du RSC
+06:46:06.324 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_OTR_OTHER absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_OTR_SEL absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_CUR absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_CUR_ERROR absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_CUR_SEL absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_OTR absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_OTR_OTHER absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_OTR_SEL absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône TREE_BLANK absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône TREE_MINUS absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône TREE_PLUS absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT1 absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT2 absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT3 absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT4 absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT5 absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT6 absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT7 absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT8 absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT1 absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT2 absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT3 absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT4 absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT5 absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT6 absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT7 absente du RSC
+06:46:06.325 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT8 absente du RSC
+06:46:06.325 INFO     fbb.web.rsc            | Theater sprites générés : 656 (82 icônes × 8 teams, 267 manquantes, rsc_dir=C:\Falcon\Falcon BMS 4.38\Data\Art\Resource)
+06:46:06.325 INFO     fbb.web.online         | OnlineManager : boucle asyncio liée
+06:46:06.325 INFO     fbb.dpi                | DPI init depuis DTC : 0 items (target_83..98)
+06:46:06.327 INFO     fbb.fpln_state         | fpln_state restauré — 0 cam(s) pending, 1 cam(s) final, 0 cam(s) slots, 0 cam(s) overrides
+06:46:06.329 INFO     uvicorn.error          | Application startup complete.
+06:46:06.329 INFO     uvicorn.error          | Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+06:46:06.667 INFO     fbb.web.launcher       | [SPLASH] ── Phase 1 : pré-chargement données mission…
+06:46:06.668 DEBUG    fbb.web.launcher       | Splash update OK : Chargement des données mission… 30%
+06:46:06.676 INFO     fbb.web.briefing_match | brief_match: AMBIGU n=3 scanned=13
+06:46:06.678 INFO     uvicorn.access         | 127.0.0.1:49676 - "GET /api/dashboard HTTP/1.1" 200
+06:46:06.678 INFO     fbb.web.launcher       | [SPLASH] ── Phase 1 OK  0.01 s
+06:46:06.679 INFO     fbb.web.launcher       | [SPLASH] ── Phase 2 : pré-chargement fond carte SITAC…
+06:46:06.679 DEBUG    fbb.web.launcher       | Splash update OK : Chargement fond carte SITAC… 65%
+06:46:06.681 INFO     uvicorn.access         | 127.0.0.1:49677 - "GET /api/map/background HTTP/1.1" 200
+06:46:06.681 INFO     fbb.web.launcher       | [SPLASH] Fond carte : pré-génération 13 tuiles (z13+z14)…
+06:46:06.685 INFO     uvicorn.access         | 127.0.0.1:49678 - "GET /api/map/bg/kto_820_3358720_r2/13/4096/4095.jpg HTTP/1.1" 200
+06:46:06.685 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z13/4096/4095  0.00 s
+06:46:06.700 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=13 x=4096 y=4096 (ctx.theater_key=kto)
+06:46:06.700 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=13 x=4096 y=4096
+06:46:06.700 INFO     uvicorn.access         | 127.0.0.1:49679 - "GET /api/map/bg/kto_820_3358720_r2/13/4096/4096.jpg HTTP/1.1" 404
+06:46:06.701 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z13/4096/4096 : HTTP Error 404: Not Found
+06:46:06.702 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=13 x=4097 y=4095 (ctx.theater_key=kto)
+06:46:06.702 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=13 x=4097 y=4095
+06:46:06.702 INFO     uvicorn.access         | 127.0.0.1:49680 - "GET /api/map/bg/kto_820_3358720_r2/13/4097/4095.jpg HTTP/1.1" 404
+06:46:06.702 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z13/4097/4095 : HTTP Error 404: Not Found
+06:46:06.703 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=13 x=4097 y=4096 (ctx.theater_key=kto)
+06:46:06.704 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=13 x=4097 y=4096
+06:46:06.704 INFO     uvicorn.access         | 127.0.0.1:49681 - "GET /api/map/bg/kto_820_3358720_r2/13/4097/4096.jpg HTTP/1.1" 404
+06:46:06.704 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z13/4097/4096 : HTTP Error 404: Not Found
+06:46:06.705 INFO     uvicorn.access         | 127.0.0.1:49682 - "GET /api/map/bg/kto_820_3358720_r2/14/8192/8190.jpg HTTP/1.1" 200
+06:46:06.706 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8192/8190  0.00 s
+06:46:06.707 INFO     uvicorn.access         | 127.0.0.1:49683 - "GET /api/map/bg/kto_820_3358720_r2/14/8192/8191.jpg HTTP/1.1" 200
+06:46:06.708 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8192/8191  0.00 s
+06:46:06.716 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8192 y=8192 (ctx.theater_key=kto)
+06:46:06.716 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8192 y=8192
+06:46:06.716 INFO     uvicorn.access         | 127.0.0.1:49684 - "GET /api/map/bg/kto_820_3358720_r2/14/8192/8192.jpg HTTP/1.1" 404
+06:46:06.716 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8192/8192 : HTTP Error 404: Not Found
+06:46:06.718 INFO     uvicorn.access         | 127.0.0.1:49685 - "GET /api/map/bg/kto_820_3358720_r2/14/8193/8190.jpg HTTP/1.1" 200
+06:46:06.718 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8193/8190  0.00 s
+06:46:06.720 INFO     uvicorn.access         | 127.0.0.1:49686 - "GET /api/map/bg/kto_820_3358720_r2/14/8193/8191.jpg HTTP/1.1" 200
+06:46:06.720 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8193/8191  0.00 s
+06:46:06.721 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8193 y=8192 (ctx.theater_key=kto)
+06:46:06.721 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8193 y=8192
+06:46:06.721 INFO     uvicorn.access         | 127.0.0.1:49687 - "GET /api/map/bg/kto_820_3358720_r2/14/8193/8192.jpg HTTP/1.1" 404
+06:46:06.722 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8193/8192 : HTTP Error 404: Not Found
+06:46:06.723 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8194 y=8190 (ctx.theater_key=kto)
+06:46:06.723 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8194 y=8190
+06:46:06.723 INFO     uvicorn.access         | 127.0.0.1:49688 - "GET /api/map/bg/kto_820_3358720_r2/14/8194/8190.jpg HTTP/1.1" 404
+06:46:06.723 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8194/8190 : HTTP Error 404: Not Found
+06:46:06.724 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8194 y=8191 (ctx.theater_key=kto)
+06:46:06.725 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8194 y=8191
+06:46:06.725 INFO     uvicorn.access         | 127.0.0.1:49689 - "GET /api/map/bg/kto_820_3358720_r2/14/8194/8191.jpg HTTP/1.1" 404
+06:46:06.725 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8194/8191 : HTTP Error 404: Not Found
+06:46:06.726 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8194 y=8192 (ctx.theater_key=kto)
+06:46:06.726 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8194 y=8192
+06:46:06.726 INFO     uvicorn.access         | 127.0.0.1:49690 - "GET /api/map/bg/kto_820_3358720_r2/14/8194/8192.jpg HTTP/1.1" 404
+06:46:06.726 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8194/8192 : HTTP Error 404: Not Found
+06:46:06.727 INFO     fbb.web.launcher       | [SPLASH] Fond carte : 5/13 tuiles cachées — 0.05 s total
+06:46:06.727 INFO     fbb.web.launcher       | [SPLASH] ── Phase 2 OK  0.05 s
+06:46:06.727 INFO     fbb.web.launcher       | [SPLASH] ── Phase 3 : ouverture dashboard…
+06:46:06.727 DEBUG    fbb.web.launcher       | Splash update OK : Ouverture… 90%
+06:46:06.727 INFO     fbb.web.launcher       | Ouverture fenêtre Dashboard → http://127.0.0.1:8765/dashboard.html
+06:46:06.798 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /dashboard.html HTTP/1.1" 200
+06:46:06.807 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /fbb-tokens.css HTTP/1.1" 200
+06:46:06.812 INFO     uvicorn.access         | 127.0.0.1:58427 - "GET /fbb-buttons.css HTTP/1.1" 200
+06:46:06.813 INFO     uvicorn.access         | 127.0.0.1:65351 - "GET /utils.js HTTP/1.1" 200
+06:46:06.813 INFO     uvicorn.access         | 127.0.0.1:62578 - "GET /js/i18n.js?v=20260816b HTTP/1.1" 200
+06:46:06.814 INFO     uvicorn.access         | 127.0.0.1:64514 - "GET /js/fbb-dialog.js HTTP/1.1" 200
+06:46:06.814 INFO     uvicorn.access         | 127.0.0.1:55702 - "GET /fbb-tooltips.css HTTP/1.1" 200
+06:46:06.815 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /js/knb-print-report.js?v=20260812b HTTP/1.1" 200
+06:46:06.819 INFO     uvicorn.access         | 127.0.0.1:65351 - "GET /js/win-keys.js HTTP/1.1" 200
+06:46:06.819 INFO     uvicorn.access         | 127.0.0.1:58427 - "GET /assets/ui/FBB_Main_UI_web_v4.png?v=20260815b HTTP/1.1" 200
+06:46:06.823 INFO     uvicorn.access         | 127.0.0.1:65351 - "GET /js/fbb-tooltips.js?v=20260815a HTTP/1.1" 200
+06:46:06.826 INFO     uvicorn.error          | 127.0.0.1:56433 - "WebSocket /ws" [accepted]
+06:46:06.826 DEBUG    fbb.ws                 | WS connect — 1 clients
+06:46:06.827 INFO     uvicorn.error          | connection open
+06:46:06.838 INFO     fbb.web.briefing_match | brief_match: AMBIGU n=3 scanned=13
+06:46:06.841 INFO     uvicorn.access         | 127.0.0.1:64514 - "GET /api/dashboard HTTP/1.1" 200
+06:46:06.842 INFO     uvicorn.access         | 127.0.0.1:62578 - "GET /api/kneeboard/print_state HTTP/1.1" 200
+06:46:06.842 INFO     uvicorn.access         | 127.0.0.1:65351 - "GET /api/dtc/pending HTTP/1.1" 200
+06:46:06.844 INFO     uvicorn.access         | 127.0.0.1:55702 - "GET /api/setup/prefs HTTP/1.1" 200
+06:46:06.846 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+06:46:06.847 INFO     uvicorn.access         | 127.0.0.1:64514 - "GET /api/online/status HTTP/1.1" 200
+06:46:06.849 INFO     uvicorn.access         | 127.0.0.1:65351 - "GET /api/setup/prefs HTTP/1.1" 200
+06:46:06.850 INFO     uvicorn.access         | 127.0.0.1:55702 - "GET /api/dtc/stpt_wipe_check HTTP/1.1" 200
+06:46:06.851 INFO     fbb.web.ui             | UI »» prefetch/start         t=0ms
+06:46:06.851 INFO     uvicorn.access         | 127.0.0.1:55805 - "POST /api/debug/log HTTP/1.1" 200
+06:46:06.851 INFO     uvicorn.access         | 127.0.0.1:62578 - "GET /api/telemetry/status HTTP/1.1" 200
+06:46:06.852 INFO     uvicorn.access         | 127.0.0.1:58427 - "GET /api/map/background HTTP/1.1" 200
+06:46:06.859 INFO     fbb.web.ui             | UI »» prefetch/launched      t=12ms n=1 theater=kto
+06:46:06.860 INFO     uvicorn.access         | 127.0.0.1:62578 - "POST /api/debug/log HTTP/1.1" 200
+06:46:06.861 INFO     uvicorn.access         | 127.0.0.1:58427 - "GET /assets/theater/Korea/KoreaWhite.png HTTP/1.1" 200
+06:46:06.862 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /favicon.ico HTTP/1.1" 404
+06:46:06.866 INFO     fbb.web.ui             | UI »» prefetch/img_done      t=20ms dt=8ms url=/assets/theater/Korea/KoreaWhite.png
+06:46:06.866 INFO     uvicorn.access         | 127.0.0.1:58427 - "POST /api/debug/log HTTP/1.1" 200
+06:46:07.233 INFO     uvicorn.access         | 127.0.0.1:64514 - "GET /api/update/check HTTP/1.1" 200
+06:46:10.935 DEBUG    fbb.web.launcher       | native pywebview: read x/y (drag_start) "dashboard" tid=Thread-9 (_call) 
+06:46:11.278 DEBUG    utils.parse_health     | parse OK — TS02.cam: records 726/726, bytes 354453/354453, rejects=0, exc=0, constr_err=0, first_desync=None
+06:46:11.312 INFO     fbb.web.context        | Theater objects validés (LKTO 4.38 - Mike) : 5999 objets, recouvrement noms 49/49 [objectives_LKTO_4.38_-_Mike.json]
+06:46:11.313 INFO     fbb.web.context        | INI DTC chargé : 17 sections
+06:46:11.383 INFO     fbb.web.context        | UCD 609 entries, VCD 449 entries
+06:46:11.384 INFO     fbb.web.context        | brief_match: session persistée invalidée (tier<WEAK) — 2026-08-06_130226_briefing.html → auto_select
+06:46:11.385 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=13
+06:46:11.385 INFO     fbb.web.context        | Context chargé : 726 units, 49 objectives depuis TS02.cam
+06:46:11.385 INFO     fbb.web.context        | [perf] build_context 726 unités, 49 objectifs, 5999 theater_objects en 347 ms — TS02.cam
+06:46:11.387 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=13
+06:46:11.389 INFO     fbb.dpi                | DPI init depuis DTC : 0 items (target_83..98)
+06:46:11.389 INFO     uvicorn.access         | 127.0.0.1:64514 - "POST /api/mission/select_cam HTTP/1.1" 200
+06:46:11.393 INFO     fbb.web.ui             | UI »» prefetch/start         t=0ms
+06:46:11.393 INFO     uvicorn.access         | 127.0.0.1:64514 - "POST /api/debug/log HTTP/1.1" 200
+06:46:11.395 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=13
+06:46:11.397 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/dashboard HTTP/1.1" 200
+06:46:11.400 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=13
+06:46:11.403 INFO     uvicorn.access         | 127.0.0.1:58427 - "GET /api/map/background HTTP/1.1" 200
+06:46:11.403 INFO     uvicorn.access         | 127.0.0.1:64514 - "GET /api/dashboard HTTP/1.1" 200
+06:46:11.404 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/dtc/stpt_wipe_check HTTP/1.1" 200
+06:46:11.406 INFO     fbb.web.ui             | UI »» prefetch/launched      t=14ms n=1 theater=kto
+06:46:11.406 INFO     uvicorn.access         | 127.0.0.1:55805 - "POST /api/debug/log HTTP/1.1" 200
+06:46:11.408 INFO     fbb.web.ui             | UI »» prefetch/img_done      t=17ms dt=3ms url=/assets/theater/Korea/KoreaWhite.png
+06:46:11.408 INFO     uvicorn.access         | 127.0.0.1:55805 - "POST /api/debug/log HTTP/1.1" 200
+06:46:11.807 INFO     uvicorn.access         | 127.0.0.1:64514 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+06:46:11.811 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/dtc/pending HTTP/1.1" 200
+06:46:11.833 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/online/status HTTP/1.1" 200
+06:46:13.871 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/mission/html_files HTTP/1.1" 200
+06:46:16.835 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/online/status HTTP/1.1" 200
+06:46:17.708 DEBUG    fbb.web.launcher       | native pywebview: read x/y (drag_start) "dashboard" tid=Thread-10 (_call) 
+06:46:17.804 INFO     fbb.web.launcher       | Ouvre fenêtre "ato" → http://127.0.0.1:8765/ato.html (geom={'width': 1221, 'height': 916, 'x': 62, 'y': 472}, focus=True)
+06:46:17.837 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /ato.html HTTP/1.1" 200
+06:46:17.864 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /fbb-tooltips.css HTTP/1.1" 200
+06:46:17.868 INFO     uvicorn.access         | 127.0.0.1:55200 - "GET /app.css HTTP/1.1" 200
+06:46:17.869 INFO     uvicorn.access         | 127.0.0.1:60681 - "GET /fbb-buttons.css HTTP/1.1" 200
+06:46:17.870 INFO     uvicorn.access         | 127.0.0.1:52163 - "GET /js/fbb-tooltips.js HTTP/1.1" 200
+06:46:17.871 INFO     uvicorn.access         | 127.0.0.1:60772 - "GET /fbb-list.css HTTP/1.1" 200
+06:46:17.871 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /bundles/fbb-common.min.js HTTP/1.1" 200
+06:46:17.871 INFO     uvicorn.access         | 127.0.0.1:50481 - "GET /js/fbb-list.js HTTP/1.1" 200
+06:46:17.875 INFO     uvicorn.access         | 127.0.0.1:60681 - "GET /js/i18n.js HTTP/1.1" 200
+06:46:17.876 INFO     uvicorn.access         | 127.0.0.1:52163 - "GET /js/map-ctxmenu.js HTTP/1.1" 200
+06:46:17.876 INFO     uvicorn.access         | 127.0.0.1:55200 - "GET /js/fbb-dialog.js HTTP/1.1" 200
+06:46:17.876 INFO     uvicorn.access         | 127.0.0.1:60772 - "GET /js/win-keys.js HTTP/1.1" 200
+06:46:17.877 INFO     uvicorn.access         | 127.0.0.1:50481 - "GET /js/online-indicator.js HTTP/1.1" 200
+06:46:17.888 INFO     uvicorn.access         | 127.0.0.1:50481 - "GET /fbb-chrome.css HTTP/1.1" 200
+06:46:17.888 INFO     uvicorn.access         | 127.0.0.1:60681 - "GET /fbb-tokens.css HTTP/1.1" 200
+06:46:17.929 INFO     uvicorn.error          | 127.0.0.1:54574 - "WebSocket /ws" [accepted]
+06:46:17.930 DEBUG    fbb.ws                 | WS connect — 2 clients
+06:46:17.930 INFO     uvicorn.error          | connection open
+06:46:17.934 INFO     uvicorn.access         | 127.0.0.1:60681 - "GET /api/setup/prefs HTTP/1.1" 200
+06:46:17.935 INFO     uvicorn.access         | 127.0.0.1:50481 - "GET /api/identity HTTP/1.1" 200
+06:46:17.935 INFO     uvicorn.access         | 127.0.0.1:55200 - "GET /api/online/status HTTP/1.1" 200
+06:46:17.937 INFO     uvicorn.access         | 127.0.0.1:60772 - "GET /api/setup/prefs HTTP/1.1" 200
+06:46:17.937 INFO     uvicorn.access         | 127.0.0.1:52163 - "GET /api/health HTTP/1.1" 200
+06:46:17.938 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/setup/prefs HTTP/1.1" 200
+06:46:17.942 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/health HTTP/1.1" 200
+06:46:18.340 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/ato HTTP/1.1" 200
+06:46:20.934 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/online/status HTTP/1.1" 200
+06:46:21.835 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/online/status HTTP/1.1" 200
+06:46:23.937 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/online/status HTTP/1.1" 200
+06:46:26.835 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/online/status HTTP/1.1" 200
+06:46:26.936 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/online/status HTTP/1.1" 200
+06:46:29.934 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/online/status HTTP/1.1" 200
+06:46:31.835 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/online/status HTTP/1.1" 200
+06:46:31.898 INFO     uvicorn.access         | 127.0.0.1:62400 - "GET /api/kneeboard/print_state HTTP/1.1" 200
+06:46:31.899 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /api/dtc/pending HTTP/1.1" 200
+06:46:31.900 INFO     uvicorn.access         | 127.0.0.1:57405 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+06:46:32.119 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=13
+06:46:32.121 INFO     uvicorn.access         | 127.0.0.1:62400 - "GET /api/dashboard HTTP/1.1" 200
+06:46:32.923 INFO     uvicorn.access         | 127.0.0.1:57405 - "POST /api/report/snapshot HTTP/1.1" 200
+06:46:32.962 INFO     uvicorn.access         | 127.0.0.1:57405 - "GET /api/online/status HTTP/1.1" 200
+06:46:32.963 INFO     uvicorn.access         | 127.0.0.1:62400 - "GET /report.html?reporter=Obe1&origin_page=FBB%20%E2%80%94%20Dashboard&origin_area=dashboard HTTP/1.1" 200
+06:46:33.006 INFO     uvicorn.access         | 127.0.0.1:62400 - "GET /fbb-tokens.css HTTP/1.1" 200
+06:46:33.007 INFO     uvicorn.access         | 127.0.0.1:57405 - "GET /fbb-buttons.css HTTP/1.1" 200
+06:46:33.007 INFO     uvicorn.access         | 127.0.0.1:55805 - "GET /utils.js HTTP/1.1" 200
+06:46:33.008 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /js/i18n.js HTTP/1.1" 200
+06:46:33.028 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/setup/prefs HTTP/1.1" 200
+06:46:33.031 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/report/config HTTP/1.1" 200
+06:46:33.074 INFO     uvicorn.access         | 127.0.0.1:60986 - "POST /api/report/snapshot?reuse=1 HTTP/1.1" 200
+06:46:33.102 DEBUG    fbb.web.launcher       | native pywebview: resize "report" tid=Thread-19 (_call) w=520 h=643
+06:46:33.916 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+06:46:35.933 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:46:36.835 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:46:38.935 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:46:41.835 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:46:41.934 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:46:44.936 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:46:46.835 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:46:47.934 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:46:50.933 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:46:51.834 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:46:53.935 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:46:56.834 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:46:56.934 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:46:59.934 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:01.835 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:02.935 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:05.935 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:06.833 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:08.935 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:11.016 INFO     fbb.web.routes.report  | PR GitHub créé : #177 https://github.com/courtois13430-bit/FBB-Issues/issues/177
+06:47:11.016 INFO     uvicorn.access         | 127.0.0.1:60986 - "POST /api/report/issue HTTP/1.1" 200
+06:47:11.834 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:11.933 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:14.934 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:16.835 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:17.934 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:20.934 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:21.833 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:23.935 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:26.835 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:26.934 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:29.933 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:31.834 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:32.933 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:35.935 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:36.834 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/online/status HTTP/1.1" 200
+06:47:37.060 INFO     fbb.web.mission        | set_my_flight: override=True → vu=21009 callsign=Bulldog 2 seat=None pkg=2617
+06:47:37.060 INFO     uvicorn.access         | 127.0.0.1:60986 - "POST /api/mission/set_my_flight HTTP/1.1" 200
+06:47:37.065 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=13
+06:47:37.069 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/dashboard HTTP/1.1" 200
+06:47:37.070 INFO     uvicorn.access         | 127.0.0.1:54768 - "GET /api/health HTTP/1.1" 200
+06:47:37.072 INFO     uvicorn.access         | 127.0.0.1:54768 - "GET /api/dtc/stpt_wipe_check HTTP/1.1" 200
+06:47:37.468 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+06:47:38.002 DEBUG    fbb.web.launcher       | native pywebview: read x/y/w/h (snapshot) "ato" tid=Dummy-5 
+06:47:38.002 DEBUG    fbb.web.launcher       | Snapshot géométrie "ato" : 1206x878 @ (62,472)
+06:47:38.008 INFO     uvicorn.access         | 127.0.0.1:54768 - "GET /api/dtc/pending HTTP/1.1" 200
+06:47:38.008 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+06:47:38.009 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+06:47:38.026 DEBUG    fbb.web                | WS keepalive terminé (déconnexion client)
+06:47:38.026 DEBUG    fbb.ws                 | WS disconnect — 1 clients
+06:47:38.026 INFO     uvicorn.error          | connection closed
+06:47:38.027 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+06:47:38.929 DEBUG    fbb.web.launcher       | native pywebview: read x/y (drag_start) "dashboard" tid=Thread-26 (_call) 
+06:47:38.934 INFO     uvicorn.access         | 127.0.0.1:54521 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+06:47:38.935 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/kneeboard/print_state HTTP/1.1" 200
+06:47:39.150 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=13
+06:47:39.153 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/dashboard HTTP/1.1" 200
+06:47:39.153 INFO     uvicorn.access         | 127.0.0.1:54768 - "GET /api/dtc/pending HTTP/1.1" 200
+06:47:39.968 DEBUG    fbb.web.launcher       | native pywebview: read x/y (drag_start) "dashboard" tid=Thread-27 (_call) 
+06:47:40.130 INFO     fbb.web.routes.setup   | Seat (override) → 0
+06:47:40.130 INFO     uvicorn.access         | 127.0.0.1:54768 - "POST /api/setup/seat HTTP/1.1" 200
+06:47:40.135 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=13
+06:47:40.138 INFO     uvicorn.access         | 127.0.0.1:54768 - "GET /api/dashboard HTTP/1.1" 200
+06:47:40.141 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=13
+06:47:40.144 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/dashboard HTTP/1.1" 200
+06:47:40.145 INFO     uvicorn.access         | 127.0.0.1:54768 - "GET /api/dtc/stpt_wipe_check HTTP/1.1" 200
+06:47:40.550 INFO     uvicorn.access         | 127.0.0.1:60986 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+06:47:40.822 INFO     uvicorn.access         | 127.0.0.1:54768 - "GET /api/dtc/pending HTTP/1.1" 200
+06:47:41.831 INFO     uvicorn.access         | 127.0.0.1:54768 - "GET /api/online/status HTTP/1.1" 200
+06:47:46.832 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/online/status HTTP/1.1" 200
+06:47:48.245 DEBUG    fbb.web.launcher       | native pywebview: read x/y/w/h (snapshot) "report" tid=Dummy-5 
+06:47:48.246 DEBUG    fbb.web.launcher       | Snapshot géométrie "report" : 520x642 @ (1838,318)
+06:47:48.247 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+06:47:48.248 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+06:47:48.268 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+06:47:48.274 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/kneeboard/print_state HTTP/1.1" 200
+06:47:48.282 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+06:47:48.493 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=13
+06:47:48.496 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/dashboard HTTP/1.1" 200
+06:47:48.497 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/dtc/pending HTTP/1.1" 200
+06:47:49.306 INFO     fbb.web.launcher       | Ouvre fenêtre "map" → http://127.0.0.1:8765/map.html (geom={'width': 1676, 'height': 1036, 'x': 852, 'y': 0}, focus=True)
+06:47:49.342 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /map.html HTTP/1.1" 200
+06:47:49.370 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /app.css HTTP/1.1" 200
+06:47:49.371 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /fbb-buttons.css HTTP/1.1" 200
+06:47:49.371 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /fbb-tooltips.css HTTP/1.1" 200
+06:47:49.373 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /bundles/fbb-common.min.js HTTP/1.1" 200
+06:47:49.373 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /js/i18n.js?v=20260816b HTTP/1.1" 200
+06:47:49.374 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /js/fbb-dialog.js HTTP/1.1" 200
+06:47:49.379 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /vendor/maplibre-gl.css HTTP/1.1" 200
+06:47:49.379 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /js/fbb-stpt-numbering.js?v=20260812a HTTP/1.1" 200
+06:47:49.380 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /js/fbb-sitac-filter.js?v=20260809a HTTP/1.1" 200
+06:47:49.381 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /fbb-tokens.css HTTP/1.1" 200
+06:47:49.381 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /fbb-chrome.css HTTP/1.1" 200
+06:47:49.383 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /vendor/maplibre-gl.js HTTP/1.1" 200
+06:47:49.385 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /bundles/fbb-map.js?v=20260816a HTTP/1.1" 200
+06:47:49.386 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /js/online-indicator.js HTTP/1.1" 200
+06:47:49.390 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /js/fbb-tooltips.js HTTP/1.1" 200
+06:47:49.450 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/setup/prefs HTTP/1.1" 200
+06:47:49.450 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api.js HTTP/1.1" 200
+06:47:49.453 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/setup/prefs HTTP/1.1" 200
+06:47:49.596 INFO     uvicorn.error          | 127.0.0.1:55529 - "WebSocket /ws" [accepted]
+06:47:49.597 DEBUG    fbb.ws                 | WS connect — 2 clients
+06:47:49.597 INFO     uvicorn.error          | connection open
+06:47:49.599 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/online/status HTTP/1.1" 200
+06:47:49.603 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/health HTTP/1.1" 200
+06:47:49.603 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/setup/prefs HTTP/1.1" 200
+06:47:49.726 INFO     fbb.web.ui             | UI »» bg/map_load_start      t=5ms 06:47:49
+06:47:49.726 INFO     uvicorn.access         | 127.0.0.1:49558 - "POST /api/debug/log HTTP/1.1" 200
+06:47:49.832 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/health HTTP/1.1" 200
+06:47:49.897 INFO     fbb.web.perf           | [perf] theater_features 5950 features (cold build) en 129 ms
+06:47:49.907 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/background HTTP/1.1" 200
+06:47:49.964 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/theater_features HTTP/1.1" 200
+06:47:50.059 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /api/dtc/pending HTTP/1.1" 200
+06:47:50.065 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/prefs HTTP/1.1" 200
+06:47:50.068 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/map/airports HTTP/1.1" 200
+06:47:50.117 INFO     fbb.web.perf           | [perf] scene cold 314 features (239 u / 49 obj) en 349 ms
+06:47:50.231 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/map/scene HTTP/1.1" 200
+06:47:50.414 INFO     …b.web.overlays.damage | /obj_status: n_obd_deltas=1133, n_obj_by_vu=5999, n_objectives=5999, scene_ocd=49
+06:47:50.415 INFO     …b.web.overlays.damage | /obj_status : n_features=0 / 1133 obd_deltas (n_no_vu=0)
+06:47:50.416 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/overlay/obj_status HTTP/1.1" 200
+06:47:50.534 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/map/sprites HTTP/1.1" 200
+06:47:50.538 INFO     fbb.web.ui             | UI »» bg/promises_done       t=839ms tile_url=/api/map/bg/kto_820_3358720_r2/{z}/{x}/{y}.jpg url=null
+06:47:50.539 INFO     uvicorn.access         | 127.0.0.1:57134 - "POST /api/debug/log HTTP/1.1" 200
+06:47:50.541 INFO     fbb.web.ui             | UI »» bg/sprites_preload     t=840ms n=151/4886
+06:47:50.541 INFO     uvicorn.access         | 127.0.0.1:50108 - "POST /api/debug/log HTTP/1.1" 200
+06:47:50.549 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/u_2_gnd_armor.png?v=1786941963 HTTP/1.1" 200
+06:47:50.549 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/u_2_gnd_airdefense.png?v=1786941963 HTTP/1.1" 200
+06:47:50.549 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/u_2_gnd_artillery.png?v=1786941963 HTTP/1.1" 200
+06:47:50.550 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/sq_2.png?v=1786941963 HTTP/1.1" 200
+06:47:50.551 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/u_2_gnd_engineer.png?v=1786941963 HTTP/1.1" 200
+06:47:50.551 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/air_2_ne_ICON_AH64.png?v=1786941964 HTTP/1.1" 200
+06:47:50.559 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/air_6_ne_ICON_MIG29.png?v=1786941965 HTTP/1.1" 200
+06:47:50.559 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/u_2_gnd_mechanized.png?v=1786941963 HTTP/1.1" 200
+06:47:50.560 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/air_2_ee_ICON_KC135.png?v=1786941964 HTTP/1.1" 200
+06:47:50.560 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/air_2_ee_ICON_AH64.png?v=1786941964 HTTP/1.1" 200
+06:47:50.560 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/u_2_gnd_supply.png?v=1786941963 HTTP/1.1" 200
+06:47:50.563 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/air_6_nw_ICON_UKN.png?v=1786941965 HTTP/1.1" 200
+06:47:50.569 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/u_6_gnd_armor.png?v=1786941963 HTTP/1.1" 200
+06:47:50.570 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/u_2_gnd_hq.png?v=1786941963 HTTP/1.1" 200
+06:47:50.570 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/air_2_sw_ICON_C130.png?v=1786941964 HTTP/1.1" 200
+06:47:50.570 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/air_2_sw_ICON_F16.png?v=1786941964 HTTP/1.1" 200
+06:47:50.571 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/u_2_gnd_cavalry.png?v=1786941963 HTTP/1.1" 200
+06:47:50.573 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/u_2_gnd_towed.png?v=1786941963 HTTP/1.1" 200
+06:47:50.602 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/air_2_nn_ICON_F16.png?v=1786941964 HTTP/1.1" 200
+06:47:50.603 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/air_6_ww_ICON_MIG29.png?v=1786941965 HTTP/1.1" 200
+06:47:50.603 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/air_2_ee_ICON_F15C.png?v=1786941964 HTTP/1.1" 200
+06:47:50.604 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/air_2_ss_ICON_F16.png?v=1786941964 HTTP/1.1" 200
+06:47:50.605 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/u_6_gnd_towed.png?v=1786941963 HTTP/1.1" 200
+06:47:50.605 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/air_2_ne_ICON_F16.png?v=1786941964 HTTP/1.1" 200
+06:47:50.612 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/air_2_se_ICON_F15C.png?v=1786941964 HTTP/1.1" 200
+06:47:50.612 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/u_6_gnd_hq.png?v=1786941963 HTTP/1.1" 200
+06:47:50.613 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/air_6_nn_ICON_UKN.png?v=1786941965 HTTP/1.1" 200
+06:47:50.613 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/air_6_se_ICON_UKN.png?v=1786941965 HTTP/1.1" 200
+06:47:50.613 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/air_2_nw_ICON_F16.png?v=1786941964 HTTP/1.1" 200
+06:47:50.614 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/u_6_gnd_airdefense.png?v=1786941963 HTTP/1.1" 200
+06:47:50.619 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/air_6_sw_ICON_UKN.png?v=1786941965 HTTP/1.1" 200
+06:47:50.619 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/air_6_nw_ICON_SU27.png?v=1786941965 HTTP/1.1" 200
+06:47:50.620 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/air_6_nn_ICON_MIG29.png?v=1786941965 HTTP/1.1" 200
+06:47:50.620 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/air_2_ss_ICON_F15C.png?v=1786941964 HTTP/1.1" 200
+06:47:50.620 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/air_2_se_ICON_F16.png?v=1786941964 HTTP/1.1" 200
+06:47:50.621 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/air_6_ww_ICON_SU27.png?v=1786941965 HTTP/1.1" 200
+06:47:50.626 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/air_2_ww_ICON_C130.png?v=1786941964 HTTP/1.1" 200
+06:47:50.626 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/air_2_ww_ICON_F16.png?v=1786941964 HTTP/1.1" 200
+06:47:50.627 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/air_2_nn_ICON_AH64.png?v=1786941964 HTTP/1.1" 200
+06:47:50.628 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/sprites/_objective___t3.png?v=1786889002 HTTP/1.1" 200
+06:47:50.628 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/sprites/_objective___t6.png?v=1786889002 HTTP/1.1" 200
+06:47:50.629 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/sprites/_objective___t2.png?v=1786889002 HTTP/1.1" 200
+06:47:50.634 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/sprites/_objective___t0.png?v=1786889002 HTTP/1.1" 200
+06:47:50.634 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/sprites/_objective___t5.png?v=1786889002 HTTP/1.1" 200
+06:47:50.635 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_5_bridge_vert.png?v=1786941966 HTTP/1.1" 200
+06:47:50.636 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_5_geopoint.png?v=1786941966 HTTP/1.1" 200
+06:47:50.636 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_5_town.png?v=1786941966 HTTP/1.1" 200
+06:47:50.636 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_5_village.png?v=1786941966 HTTP/1.1" 200
+06:47:50.641 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_2_geopoint.png?v=1786941966 HTTP/1.1" 200
+06:47:50.641 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_6_depo.png?v=1786941966 HTTP/1.1" 200
+06:47:50.642 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_6_geopoint.png?v=1786941966 HTTP/1.1" 200
+06:47:50.643 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_3_bridge_vert.png?v=1786941966 HTTP/1.1" 200
+06:47:50.644 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_3_bridge_horz.png?v=1786941966 HTTP/1.1" 200
+06:47:50.644 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_5_astrip_lng_45.png?v=1786941966 HTTP/1.1" 200
+06:47:50.647 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_3_city.png?v=1786941966 HTTP/1.1" 200
+06:47:50.647 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_3_industry.png?v=1786941966 HTTP/1.1" 200
+06:47:50.650 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_3_port.png?v=1786941966 HTTP/1.1" 200
+06:47:50.651 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_3_nuclear.png?v=1786941966 HTTP/1.1" 200
+06:47:50.651 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_3_astrip_lng_135.png?v=1786941966 HTTP/1.1" 200
+06:47:50.652 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_6_industry.png?v=1786941966 HTTP/1.1" 200
+06:47:50.655 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_3_town.png?v=1786941966 HTTP/1.1" 200
+06:47:50.655 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_3_bigcity.png?v=1786941966 HTTP/1.1" 200
+06:47:50.657 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_3_village.png?v=1786941966 HTTP/1.1" 200
+06:47:50.658 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_5_bridge_horz.png?v=1786941966 HTTP/1.1" 200
+06:47:50.658 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_6_bridge_horz.png?v=1786941966 HTTP/1.1" 200
+06:47:50.658 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_4_town.png?v=1786941966 HTTP/1.1" 200
+06:47:50.660 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_4_city.png?v=1786941966 HTTP/1.1" 200
+06:47:50.663 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_2_village.png?v=1786941966 HTTP/1.1" 200
+06:47:50.665 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_2_town.png?v=1786941966 HTTP/1.1" 200
+06:47:50.665 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_6_village.png?v=1786941966 HTTP/1.1" 200
+06:47:50.665 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_2_armybase.png?v=1786941966 HTTP/1.1" 200
+06:47:50.666 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_2_fixartil.png?v=1786941966 HTTP/1.1" 200
+06:47:50.667 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_6_bridge_vert.png?v=1786941966 HTTP/1.1" 200
+06:47:50.671 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_6_armybase.png?v=1786941966 HTTP/1.1" 200
+06:47:50.672 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_2_bridge_vert.png?v=1786941966 HTTP/1.1" 200
+06:47:50.672 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_2_bridge_horz.png?v=1786941966 HTTP/1.1" 200
+06:47:50.673 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_2_port.png?v=1786941966 HTTP/1.1" 200
+06:47:50.673 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_6_port.png?v=1786941966 HTTP/1.1" 200
+06:47:50.674 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_2_com_contrl.png?v=1786941966 HTTP/1.1" 200
+06:47:50.678 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_6_fixartil.png?v=1786941966 HTTP/1.1" 200
+06:47:50.679 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_2_radar.png?v=1786941966 HTTP/1.1" 200
+06:47:50.680 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_5_city.png?v=1786941966 HTTP/1.1" 200
+06:47:50.681 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_6_town.png?v=1786941966 HTTP/1.1" 200
+06:47:50.681 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_2_depo.png?v=1786941966 HTTP/1.1" 200
+06:47:50.681 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_5_bigcity.png?v=1786941966 HTTP/1.1" 200
+06:47:50.687 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_2_bigcity.png?v=1786941966 HTTP/1.1" 200
+06:47:50.688 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_2_industry.png?v=1786941966 HTTP/1.1" 200
+06:47:50.688 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_6_city.png?v=1786941966 HTTP/1.1" 200
+06:47:50.688 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_2_city.png?v=1786941966 HTTP/1.1" 200
+06:47:50.689 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_5_industry.png?v=1786941966 HTTP/1.1" 200
+06:47:50.689 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_2_sam.png?v=1786941966 HTTP/1.1" 200
+06:47:50.693 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_6_sam.png?v=1786941966 HTTP/1.1" 200
+06:47:50.695 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_2_astrip_lng_135.png?v=1786941966 HTTP/1.1" 200
+06:47:50.695 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_5_port.png?v=1786941966 HTTP/1.1" 200
+06:47:50.695 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_6_bigcity.png?v=1786941966 HTTP/1.1" 200
+06:47:50.695 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_6_astrip_toksan.png?v=1786941966 HTTP/1.1" 200
+06:47:50.696 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_6_astrip_lng_135.png?v=1786941966 HTTP/1.1" 200
+06:47:50.702 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_6_astrip_vert.png?v=1786941966 HTTP/1.1" 200
+06:47:50.702 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_2_astrip_lng_horz.png?v=1786941966 HTTP/1.1" 200
+06:47:50.702 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_2_astrip_horz.png?v=1786941966 HTTP/1.1" 200
+06:47:50.703 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_6_astrip_vert_double.png?v=1786941966 HTTP/1.1" 200
+06:47:50.703 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_6_astrip_135.png?v=1786941966 HTTP/1.1" 200
+06:47:50.703 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_2_astrip_135.png?v=1786941966 HTTP/1.1" 200
+06:47:50.708 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_6_astrip_lng_horz.png?v=1786941966 HTTP/1.1" 200
+06:47:50.708 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_6_astrip_lng_vert.png?v=1786941966 HTTP/1.1" 200
+06:47:50.708 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_6_astrip_lng_45.png?v=1786941966 HTTP/1.1" 200
+06:47:50.710 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_6_astrip_45.png?v=1786941966 HTTP/1.1" 200
+06:47:50.711 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_2_astrip_lng_45.png?v=1786941966 HTTP/1.1" 200
+06:47:50.711 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_5_astrip_135.png?v=1786941966 HTTP/1.1" 200
+06:47:50.715 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_2_astrip_kimpoint.png?v=1786941966 HTTP/1.1" 200
+06:47:50.715 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_5_astrip_lng_135.png?v=1786941966 HTTP/1.1" 200
+06:47:50.716 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_2_astrip_lng_vert.png?v=1786941966 HTTP/1.1" 200
+06:47:50.717 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_6_com_contrl.png?v=1786941966 HTTP/1.1" 200
+06:47:50.717 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_6_astrip_kunsan.png?v=1786941966 HTTP/1.1" 200
+06:47:50.718 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_6_radar.png?v=1786941966 HTTP/1.1" 200
+06:47:50.722 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_5_armybase.png?v=1786941966 HTTP/1.1" 200
+06:47:50.723 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_3_sam.png?v=1786941966 HTTP/1.1" 200
+06:47:50.723 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_5_sam.png?v=1786941966 HTTP/1.1" 200
+06:47:50.723 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_2_nuclear.png?v=1786941966 HTTP/1.1" 200
+06:47:50.724 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_6_nuclear.png?v=1786941966 HTTP/1.1" 200
+06:47:50.725 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_6_astrip_seoul.png?v=1786941966 HTTP/1.1" 200
+06:47:50.729 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_6_astrip_kimpoint.png?v=1786941966 HTTP/1.1" 200
+06:47:50.729 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_2_astrip_vert_double.png?v=1786941966 HTTP/1.1" 200
+06:47:50.729 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_5_astrip_45.png?v=1786941966 HTTP/1.1" 200
+06:47:50.730 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_6_astrip_horz_double.png?v=1786941966 HTTP/1.1" 200
+06:47:50.731 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_2_astrip_toksan.png?v=1786941966 HTTP/1.1" 200
+06:47:50.732 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_5_astrip_lng_horz.png?v=1786941966 HTTP/1.1" 200
+06:47:50.736 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_4_industry.png?v=1786941966 HTTP/1.1" 200
+06:47:50.737 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_4_port.png?v=1786941966 HTTP/1.1" 200
+06:47:50.737 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_5_radar.png?v=1786941966 HTTP/1.1" 200
+06:47:50.737 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_5_depo.png?v=1786941966 HTTP/1.1" 200
+06:47:50.739 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_6_antenna.png?v=1786941966 HTTP/1.1" 200
+06:47:50.739 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_2_range.png?v=1786941966 HTTP/1.1" 200
+06:47:50.743 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_6_navbeacon.png?v=1786941966 HTTP/1.1" 200
+06:47:50.744 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_3_geopoint.png?v=1786941966 HTTP/1.1" 200
+06:47:50.744 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_6_range.png?v=1786941966 HTTP/1.1" 200
+06:47:50.744 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_3_astrip_lng_vert.png?v=1786941966 HTTP/1.1" 200
+06:47:50.745 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_6_windpark.png?v=1786941966 HTTP/1.1" 200
+06:47:50.745 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_2_windpark.png?v=1786941966 HTTP/1.1" 200
+06:47:50.765 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_3_astrip_lng_horz.png?v=1786941966 HTTP/1.1" 200
+06:47:50.765 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_5_astrip_lng_vert.png?v=1786941966 HTTP/1.1" 200
+06:47:50.765 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_3_astrip_lng_45.png?v=1786941966 HTTP/1.1" 200
+06:47:50.765 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_5_astrip_panghyon.png?v=1786941966 HTTP/1.1" 200
+06:47:50.765 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_3_navbeacon.png?v=1786941966 HTTP/1.1" 200
+06:47:50.765 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_5_astrip_vert_double.png?v=1786941966 HTTP/1.1" 200
+06:47:50.772 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /assets/rsc/th_5_navbeacon.png?v=1786941966 HTTP/1.1" 200
+06:47:50.772 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /assets/rsc/th_5_com_contrl.png?v=1786941966 HTTP/1.1" 200
+06:47:50.772 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /assets/rsc/th_4_bridge_horz.png?v=1786941966 HTTP/1.1" 200
+06:47:50.773 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /assets/rsc/th_2_navbeacon.png?v=1786941966 HTTP/1.1" 200
+06:47:50.773 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/rsc/th_4_geopoint.png?v=1786941966 HTTP/1.1" 200
+06:47:50.773 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /assets/rsc/th_4_bridge_vert.png?v=1786941966 HTTP/1.1" 200
+06:47:50.779 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/mission/info HTTP/1.1" 200
+06:47:50.780 INFO     fbb.web.ui             | UI »» bg/add_source          t=1079ms tile_url=/api/map/bg/kto_820_3358720_r2/{z}/{x}/{y}.jpg
+06:47:50.780 INFO     uvicorn.access         | 127.0.0.1:57134 - "POST /api/debug/log HTTP/1.1" 200
+06:47:50.781 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /assets/theater/Korea/KoreaWhite.png HTTP/1.1" 304
+06:47:50.806 INFO     fbb.web.ui             | UI »» bg/bridges_deferred    t=1090ms n=3501/5950
+06:47:50.807 INFO     uvicorn.access         | 127.0.0.1:57134 - "POST /api/debug/log HTTP/1.1" 200
+06:47:50.971 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/overlay/categories HTTP/1.1" 200
+06:47:50.972 INFO     fbb.web.ui             | UI »» bg/src_data_first      t=1272ms isSourceLoaded=false
+06:47:50.973 INFO     uvicorn.access         | 127.0.0.1:63594 - "POST /api/debug/log HTTP/1.1" 200
+06:47:50.977 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/map/airports_wx HTTP/1.1" 200
+06:47:50.982 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /api/map/bg/kto_820_3358720_r2/14/8192/8191.jpg HTTP/1.1" 200
+06:47:50.982 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/bg/kto_820_3358720_r2/14/8192/8190.jpg HTTP/1.1" 200
+06:47:50.983 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/map/bg/kto_820_3358720_r2/14/8193/8190.jpg HTTP/1.1" 200
+06:47:50.983 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/map/bg/kto_820_3358720_r2/14/8193/8191.jpg HTTP/1.1" 200
+06:47:51.003 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/map/overlay/dtc_lines HTTP/1.1" 200
+06:47:51.004 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/map/overlay/dtc_targets HTTP/1.1" 200
+06:47:51.008 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /api/map/overlay/dtc_ppt HTTP/1.1" 200
+06:47:51.011 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/map/overlay/jstars_meta HTTP/1.1" 200
+06:47:51.012 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/map/fmap_files HTTP/1.1" 200
+06:47:51.778 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/marks/list HTTP/1.1" 200
+06:47:51.780 INFO     fbb.web.ui             | UI »» bg/src_loaded          t=1624ms
+06:47:51.780 INFO     fbb.web.ui             | UI »» bg/map_idle            t=1850ms
+06:47:51.783 INFO     uvicorn.access         | 127.0.0.1:50108 - "POST /api/debug/log HTTP/1.1" 200
+06:47:51.784 INFO     uvicorn.access         | 127.0.0.1:49558 - "POST /api/debug/log HTTP/1.1" 200
+06:47:51.784 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/package/pending HTTP/1.1" 200
+06:47:51.786 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /api/map/setup_defaults HTTP/1.1" 200
+06:47:51.790 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /api/online/status HTTP/1.1" 200
+06:47:51.820 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /api/online/status HTTP/1.1" 200
+06:47:51.821 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/online/mc_layer HTTP/1.1" 200
+06:47:52.025 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/map/quickaccess HTTP/1.1" 200
+06:47:52.026 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/overlay/dtc_targets HTTP/1.1" 200
+06:47:52.028 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/map/overlay/territory HTTP/1.1" 200
+06:47:52.030 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/overlay/dtc_ppt HTTP/1.1" 200
+06:47:52.032 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /api/map/overlay/bullseye HTTP/1.1" 200
+06:47:52.035 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/online/status HTTP/1.1" 200
+06:47:52.041 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/overlay/dtc_dirty HTTP/1.1" 200
+06:47:52.063 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /api/map/tankers HTTP/1.1" 200
+06:47:52.066 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/overlay/packages HTTP/1.1" 200
+06:47:52.067 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/map/awacs HTTP/1.1" 200
+06:47:52.070 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/dpi/list HTTP/1.1" 200
+06:47:52.121 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /api/identity HTTP/1.1" 200
+06:47:52.121 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/map/overlay/flight_routes HTTP/1.1" 200
+06:47:52.121 INFO     uvicorn.access         | 127.0.0.1:57134 - "POST /api/map/prefs HTTP/1.1" 200
+06:47:52.123 INFO     uvicorn.access         | 127.0.0.1:49558 - "POST /api/map/overlay/divert_setup HTTP/1.1" 200
+06:47:52.123 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/fpln/final HTTP/1.1" 200
+06:47:52.124 INFO     fbb.web.ui             | UI »» bg/bridges_restored    t=2260ms n=3501
+06:47:52.125 INFO     uvicorn.access         | 127.0.0.1:63594 - "POST /api/debug/log HTTP/1.1" 200
+06:47:52.125 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/map/elevation?cam_e=1141489&cam_n=2279221 HTTP/1.1" 200
+06:47:52.130 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/overlay/dtc_ppt_snap HTTP/1.1" 200
+06:47:52.393 INFO     uvicorn.access         | 127.0.0.1:57134 - "PUT /api/map/fpln/final HTTP/1.1" 200
+06:47:52.393 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/overlay/my_package HTTP/1.1" 200
+06:47:52.400 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/fpln/secondary HTTP/1.1" 200
+06:47:52.497 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/timeline/edits HTTP/1.1" 200
+06:47:52.585 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/fpln/final HTTP/1.1" 200
+06:47:52.599 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/online/status HTTP/1.1" 200
+06:47:52.601 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1145246&cam_n=2279221 HTTP/1.1" 200
+06:47:52.721 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/bg/kto_820_3358720_r2/15/16385/16381.jpg HTTP/1.1" 200
+06:47:52.721 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/map/bg/kto_820_3358720_r2/15/16386/16381.jpg HTTP/1.1" 200
+06:47:52.721 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /api/map/bg/kto_820_3358720_r2/15/16385/16382.jpg HTTP/1.1" 200
+06:47:52.721 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/bg/kto_820_3358720_r2/15/16386/16382.jpg HTTP/1.1" 200
+06:47:52.722 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/map/bg/kto_820_3358720_r2/15/16385/16380.jpg HTTP/1.1" 200
+06:47:52.728 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /api/map/elevation?cam_e=1181328&cam_n=2330075 HTTP/1.1" 200
+06:47:52.728 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/map/bg/kto_820_3358720_r2/15/16386/16380.jpg HTTP/1.1" 200
+06:47:52.729 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/bg/kto_820_3358720_r2/15/16384/16382.jpg HTTP/1.1" 200
+06:47:52.729 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/map/bg/kto_820_3358720_r2/15/16384/16381.jpg HTTP/1.1" 200
+06:47:52.733 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/bg/kto_820_3358720_r2/15/16387/16381.jpg HTTP/1.1" 200
+06:47:52.734 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/map/bg/kto_820_3358720_r2/15/16384/16380.jpg HTTP/1.1" 200
+06:47:52.735 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/map/bg/kto_820_3358720_r2/15/16387/16382.jpg HTTP/1.1" 200
+06:47:52.736 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /api/map/bg/kto_820_3358720_r2/15/16387/16380.jpg HTTP/1.1" 200
+06:47:52.890 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/map/bg/kto_820_3358720_r2/16/32771/32763.jpg HTTP/1.1" 200
+06:47:52.890 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /api/map/bg/kto_820_3358720_r2/16/32771/32762.jpg HTTP/1.1" 200
+06:47:52.891 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/bg/kto_820_3358720_r2/16/32772/32763.jpg HTTP/1.1" 200
+06:47:52.891 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/map/bg/kto_820_3358720_r2/16/32772/32762.jpg HTTP/1.1" 200
+06:47:52.891 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/bg/kto_820_3358720_r2/16/32770/32762.jpg HTTP/1.1" 200
+06:47:52.908 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/bg/kto_820_3358720_r2/16/32770/32763.jpg HTTP/1.1" 200
+06:47:52.910 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/map/bg/kto_820_3358720_r2/16/32771/32764.jpg HTTP/1.1" 200
+06:47:52.910 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/map/bg/kto_820_3358720_r2/16/32771/32761.jpg HTTP/1.1" 200
+06:47:52.910 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /api/map/bg/kto_820_3358720_r2/16/32772/32761.jpg HTTP/1.1" 200
+06:47:52.914 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/bg/kto_820_3358720_r2/16/32772/32764.jpg HTTP/1.1" 200
+06:47:52.918 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/map/bg/kto_820_3358720_r2/16/32770/32761.jpg HTTP/1.1" 200
+06:47:52.919 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/map/bg/kto_820_3358720_r2/16/32773/32762.jpg HTTP/1.1" 200
+06:47:52.919 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/bg/kto_820_3358720_r2/16/32773/32763.jpg HTTP/1.1" 200
+06:47:52.934 INFO     uvicorn.access         | 127.0.0.1:57134 - "GET /api/map/bg/kto_820_3358720_r2/16/32770/32764.jpg HTTP/1.1" 200
+06:47:52.935 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/bg/kto_820_3358720_r2/16/32769/32762.jpg HTTP/1.1" 200
+06:47:52.935 INFO     uvicorn.access         | 127.0.0.1:63594 - "GET /api/map/bg/kto_820_3358720_r2/16/32773/32764.jpg HTTP/1.1" 200
+06:47:52.935 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/map/bg/kto_820_3358720_r2/16/32769/32763.jpg HTTP/1.1" 200
+06:47:52.935 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/bg/kto_820_3358720_r2/16/32773/32761.jpg HTTP/1.1" 200
+06:47:52.949 INFO     uvicorn.access         | 127.0.0.1:57695 - "GET /api/map/bg/kto_820_3358720_r2/16/32769/32761.jpg HTTP/1.1" 200
+06:47:53.170 INFO     uvicorn.access         | 127.0.0.1:57695 - "GET /api/map/elevation?cam_e=1529759&cam_n=2467602 HTTP/1.1" 200
+06:47:53.289 INFO     uvicorn.access         | 127.0.0.1:57695 - "GET /api/map/elevation?cam_e=1846870&cam_n=2347728 HTTP/1.1" 200
+06:47:53.410 INFO     uvicorn.access         | 127.0.0.1:57695 - "GET /api/map/elevation?cam_e=1983234&cam_n=2233358 HTTP/1.1" 200
+06:47:53.531 INFO     uvicorn.access         | 127.0.0.1:57695 - "GET /api/map/elevation?cam_e=1994671&cam_n=2207845 HTTP/1.1" 200
+06:47:53.654 INFO     uvicorn.access         | 127.0.0.1:57695 - "GET /api/map/elevation?cam_e=1983234&cam_n=2177933 HTTP/1.1" 200
+06:47:53.792 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/map/overlay/airport_diagrams HTTP/1.1" 200
+06:47:53.794 INFO     uvicorn.access         | 127.0.0.1:57695 - "GET /api/map/elevation?cam_e=1947163&cam_n=2143622 HTTP/1.1" 200
+06:47:53.909 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/map/elevation?cam_e=1943644&cam_n=2143622 HTTP/1.1" 200
+06:47:54.030 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/map/elevation?cam_e=1875023&cam_n=2279106 HTTP/1.1" 200
+06:47:54.151 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/map/elevation?cam_e=1856548&cam_n=2335411 HTTP/1.1" 200
+06:47:54.272 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/map/elevation?cam_e=1853908&cam_n=2337171 HTTP/1.1" 200
+06:47:54.394 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/map/elevation?cam_e=1838072&cam_n=2342449 HTTP/1.1" 200
+06:47:54.515 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/map/elevation?cam_e=1816078&cam_n=2356525 HTTP/1.1" 200
+06:47:55.118 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/map/elevation?cam_e=1816078&cam_n=2356525 HTTP/1.1" 200
+06:47:55.238 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/map/elevation?cam_e=1794964&cam_n=2356525 HTTP/1.1" 200
+06:47:55.361 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/map/elevation?cam_e=1770331&cam_n=2357405 HTTP/1.1" 200
+06:47:55.485 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/map/elevation?cam_e=1768571&cam_n=2358285 HTTP/1.1" 200
+06:47:55.605 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/map/elevation?cam_e=1759773&cam_n=2361804 HTTP/1.1" 200
+06:47:55.605 INFO     uvicorn.access         | 127.0.0.1:57695 - "GET /api/online/status HTTP/1.1" 200
+06:47:55.837 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/map/bg/kto_820_3358720_r2/17/65542/65525.jpg HTTP/1.1" 200
+06:47:55.837 INFO     uvicorn.access         | 127.0.0.1:57695 - "GET /api/map/bg/kto_820_3358720_r2/17/65543/65525.jpg HTTP/1.1" 200
+06:47:55.838 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/bg/kto_820_3358720_r2/17/65543/65526.jpg HTTP/1.1" 200
+06:47:55.839 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/bg/kto_820_3358720_r2/17/65543/65524.jpg HTTP/1.1" 200
+06:47:55.839 INFO     uvicorn.access         | 127.0.0.1:54840 - "GET /api/map/bg/kto_820_3358720_r2/17/65542/65524.jpg HTTP/1.1" 200
+06:47:55.840 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/map/bg/kto_820_3358720_r2/17/65544/65525.jpg HTTP/1.1" 200
+06:47:55.845 INFO     uvicorn.access         | 127.0.0.1:65021 - "GET /api/map/bg/kto_820_3358720_r2/17/65542/65526.jpg HTTP/1.1" 200
+06:47:55.845 INFO     uvicorn.access         | 127.0.0.1:57695 - "GET /api/map/bg/kto_820_3358720_r2/17/65544/65524.jpg HTTP/1.1" 200
+06:47:55.848 INFO     uvicorn.access         | 127.0.0.1:57671 - "GET /api/map/bg/kto_820_3358720_r2/17/65544/65526.jpg HTTP/1.1" 200
+06:47:55.850 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/bg/kto_820_3358720_r2/17/65541/65525.jpg HTTP/1.1" 200
+06:47:55.850 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/bg/kto_820_3358720_r2/17/65541/65524.jpg HTTP/1.1" 200
+06:47:55.852 INFO     uvicorn.access         | 127.0.0.1:54840 - "GET /api/map/bg/kto_820_3358720_r2/17/65541/65526.jpg HTTP/1.1" 200
+06:47:55.855 INFO     uvicorn.access         | 127.0.0.1:57695 - "GET /api/map/bg/kto_820_3358720_r2/17/65545/65525.jpg HTTP/1.1" 200
+06:47:55.856 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=17 x=65545 y=65524 (ctx.theater_key=kto)
+06:47:55.859 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/bg/kto_820_3358720_r2/17/65545/65526.jpg HTTP/1.1" 200
+06:47:55.871 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/bg/kto_820_3358720_r2/17/65545/65524.jpg HTTP/1.1" 200
+06:47:56.168 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1755092&cam_n=2362389 HTTP/1.1" 200
+06:47:56.832 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/online/status HTTP/1.1" 200
+06:47:57.519 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1754506&cam_n=2362389 HTTP/1.1" 200
+06:47:57.638 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1746898&cam_n=2361219 HTTP/1.1" 200
+06:47:57.760 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1743387&cam_n=2360634 HTTP/1.1" 200
+06:47:57.880 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1736364&cam_n=2359463 HTTP/1.1" 200
+06:47:58.000 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1731682&cam_n=2359463 HTTP/1.1" 200
+06:47:58.121 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1719977&cam_n=2357122 HTTP/1.1" 200
+06:47:58.242 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1711784&cam_n=2357122 HTTP/1.1" 200
+06:47:58.373 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1701249&cam_n=2357122 HTTP/1.1" 200
+06:47:58.493 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1676084&cam_n=2357122 HTTP/1.1" 200
+06:47:58.617 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1649748&cam_n=2358293 HTTP/1.1" 200
+06:47:58.619 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/online/status HTTP/1.1" 200
+06:47:58.751 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/elevation?cam_e=1648578&cam_n=2358293 HTTP/1.1" 200
+06:47:58.870 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/elevation?cam_e=1656186&cam_n=2331372 HTTP/1.1" 200
+06:47:58.991 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/elevation?cam_e=1656771&cam_n=2313814 HTTP/1.1" 200
+06:47:59.112 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/elevation?cam_e=1656771&cam_n=2312644 HTTP/1.1" 200
+06:47:59.234 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/elevation?cam_e=1655601&cam_n=2313814 HTTP/1.1" 200
+06:47:59.354 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/elevation?cam_e=1655601&cam_n=2320252 HTTP/1.1" 200
+06:47:59.475 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/elevation?cam_e=1659112&cam_n=2323764 HTTP/1.1" 200
+06:47:59.596 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/elevation?cam_e=1659112&cam_n=2326104 HTTP/1.1" 200
+06:47:59.718 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/elevation?cam_e=1655016&cam_n=2329616 HTTP/1.1" 200
+06:47:59.852 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/elevation?cam_e=1654430&cam_n=2330201 HTTP/1.1" 200
+06:47:59.983 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/elevation?cam_e=1656771&cam_n=2327860 HTTP/1.1" 200
+06:48:00.269 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/elevation?cam_e=1656771&cam_n=2327860 HTTP/1.1" 200
+06:48:00.389 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/elevation?cam_e=1654430&cam_n=2297428 HTTP/1.1" 200
+06:48:00.509 INFO     uvicorn.access         | 127.0.0.1:50108 - "GET /api/map/elevation?cam_e=1652089&cam_n=2277530 HTTP/1.1" 200
+06:48:00.707 INFO     uvicorn.access         | 127.0.0.1:50108 - "PUT /api/map/fpln/secondary HTTP/1.1" 200
+06:48:00.707 INFO     uvicorn.access         | 127.0.0.1:49558 - "PUT /api/map/fpln/final HTTP/1.1" 200
+06:48:00.718 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1651504&cam_n=2278700 HTTP/1.1" 200
+06:48:00.720 INFO     uvicorn.access         | 127.0.0.1:49558 - "PUT /api/map/fpln/final HTTP/1.1" 200
+06:48:00.839 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1652089&cam_n=2314400 HTTP/1.1" 200
+06:48:00.958 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1651504&cam_n=2326104 HTTP/1.1" 200
+06:48:01.079 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1649163&cam_n=2334883 HTTP/1.1" 200
+06:48:01.201 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1646822&cam_n=2337809 HTTP/1.1" 200
+06:48:01.323 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1633947&cam_n=2348929 HTTP/1.1" 200
+06:48:01.450 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1623998&cam_n=2361804 HTTP/1.1" 200
+06:48:01.584 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1623413&cam_n=2362389 HTTP/1.1" 200
+06:48:01.600 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/online/status HTTP/1.1" 200
+06:48:01.703 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1627509&cam_n=2358293 HTTP/1.1" 200
+06:48:01.824 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1628680&cam_n=2355366 HTTP/1.1" 200
+06:48:01.834 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/online/status HTTP/1.1" 200
+06:48:02.223 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1627509&cam_n=2352440 HTTP/1.1" 200
+06:48:02.341 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1618145&cam_n=2338394 HTTP/1.1" 200
+06:48:02.461 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1616975&cam_n=2335468 HTTP/1.1" 200
+06:48:02.584 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1615805&cam_n=2333713 HTTP/1.1" 200
+06:48:02.812 INFO     uvicorn.access         | 127.0.0.1:50108 - "PUT /api/map/fpln/final HTTP/1.1" 200
+06:48:02.812 INFO     uvicorn.access         | 127.0.0.1:49558 - "PUT /api/map/fpln/secondary HTTP/1.1" 200
+06:48:02.819 INFO     uvicorn.access         | 127.0.0.1:49558 - "PUT /api/map/fpln/final HTTP/1.1" 200
+06:48:02.834 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1615805&cam_n=2333713 HTTP/1.1" 200
+06:48:02.955 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1614634&cam_n=2334298 HTTP/1.1" 200
+06:48:03.076 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1601759&cam_n=2339565 HTTP/1.1" 200
+06:48:03.197 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1348935&cam_n=2503432 HTTP/1.1" 200
+06:48:03.318 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/elevation?cam_e=1212575&cam_n=2557859 HTTP/1.1" 200
+06:48:04.600 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/online/status HTTP/1.1" 200
+06:48:06.836 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/online/status HTTP/1.1" 200
+06:48:07.601 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/online/status HTTP/1.1" 200
+06:48:10.600 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/online/status HTTP/1.1" 200
+06:48:11.103 INFO     fbb.web.launcher       | Ouvre fenêtre "pending-fpln" → http://127.0.0.1:8765/pending-fpln.html (geom={'width': 955, 'height': 482, 'x': 48, 'y': 538}, focus=False)
+06:48:11.139 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /pending-fpln.html HTTP/1.1" 200
+06:48:11.165 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /fbb-tooltips.css HTTP/1.1" 200
+06:48:11.169 INFO     uvicorn.access         | 127.0.0.1:58282 - "GET /fbb-tokens.css HTTP/1.1" 200
+06:48:11.169 INFO     uvicorn.access         | 127.0.0.1:60862 - "GET /fbb-chrome.css HTTP/1.1" 200
+06:48:11.171 INFO     uvicorn.access         | 127.0.0.1:62075 - "GET /js/fbb-tooltips.js HTTP/1.1" 200
+06:48:11.171 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /js/i18n.js HTTP/1.1" 200
+06:48:11.171 INFO     uvicorn.access         | 127.0.0.1:61060 - "GET /fbb-buttons.css HTTP/1.1" 200
+06:48:11.174 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /js/wp-overrides.js HTTP/1.1" 200
+06:48:11.177 INFO     uvicorn.access         | 127.0.0.1:60862 - "GET /js/fbb-dialog.js?v=20260814a HTTP/1.1" 200
+06:48:11.177 INFO     uvicorn.access         | 127.0.0.1:62075 - "GET /js/fpln-interp.js?v=20260814b HTTP/1.1" 200
+06:48:11.177 INFO     uvicorn.access         | 127.0.0.1:61060 - "GET /js/pending-fpln.js?v=20260815a HTTP/1.1" 200
+06:48:11.177 INFO     uvicorn.access         | 127.0.0.1:58282 - "GET /js/wp-locks.js?v=20260813d HTTP/1.1" 200
+06:48:11.179 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /utils.js HTTP/1.1" 200
+06:48:11.180 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /js/win-keys.js HTTP/1.1" 200
+06:48:11.202 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/setup/prefs HTTP/1.1" 200
+06:48:11.202 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/health HTTP/1.1" 200
+06:48:11.203 INFO     uvicorn.access         | 127.0.0.1:58282 - "GET /api/setup/prefs HTTP/1.1" 200
+06:48:11.204 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/health HTTP/1.1" 200
+06:48:11.206 INFO     uvicorn.error          | 127.0.0.1:59774 - "WebSocket /ws" [accepted]
+06:48:11.206 DEBUG    fbb.ws                 | WS connect — 3 clients
+06:48:11.206 INFO     uvicorn.error          | connection open
+06:48:11.212 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/fpln/snapshot HTTP/1.1" 200
+06:48:11.213 DEBUG    fbb.web.launcher       | native pywebview: resize "pending-fpln" tid=Thread-37 (_call) w=940 h=520
+06:48:11.833 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/online/status HTTP/1.1" 200
+06:48:12.031 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+06:48:13.601 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/online/status HTTP/1.1" 200
+06:48:14.099 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+06:48:15.605 INFO     uvicorn.access         | 127.0.0.1:49558 - "POST /api/map/fpln/op HTTP/1.1" 200
+06:48:15.611 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/map/fpln/snapshot HTTP/1.1" 200
+06:48:15.611 INFO     uvicorn.access         | 127.0.0.1:58282 - "GET /api/timeline/edits HTTP/1.1" 200
+06:48:15.612 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/fpln/final HTTP/1.1" 200
+06:48:15.617 INFO     uvicorn.access         | 127.0.0.1:60862 - "GET /api/timeline/edits HTTP/1.1" 200
+06:48:15.617 INFO     uvicorn.access         | 127.0.0.1:62075 - "GET /api/map/fpln/snapshot HTTP/1.1" 200
+06:48:15.621 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/fpln/secondary HTTP/1.1" 200
+06:48:15.623 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/map/fpln/snapshot HTTP/1.1" 200
+06:48:15.627 INFO     uvicorn.access         | 127.0.0.1:62075 - "GET /api/map/fpln/secondary HTTP/1.1" 200
+06:48:15.629 INFO     uvicorn.access         | 127.0.0.1:49558 - "GET /api/map/fpln/snapshot HTTP/1.1" 200
+06:48:15.631 INFO     uvicorn.access         | 127.0.0.1:56770 - "PUT /api/map/fpln/final HTTP/1.1" 200
+06:48:15.634 INFO     uvicorn.access         | 127.0.0.1:49558 - "PUT /api/map/fpln/final HTTP/1.1" 200
+06:48:15.638 INFO     uvicorn.access         | 127.0.0.1:62075 - "GET /api/map/fpln/snapshot HTTP/1.1" 200
+06:48:15.639 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/map/fpln/final HTTP/1.1" 200
+06:48:15.756 INFO     uvicorn.access         | 127.0.0.1:62075 - "GET /api/map/fpln/snapshot HTTP/1.1" 200
+06:48:15.761 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/map/fpln/snapshot HTTP/1.1" 200
+06:48:16.035 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+06:48:16.600 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/online/status HTTP/1.1" 200
+06:48:16.833 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/online/status HTTP/1.1" 200
+06:48:19.600 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/online/status HTTP/1.1" 200
+06:48:21.833 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/online/status HTTP/1.1" 200
+06:48:22.603 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/online/status HTTP/1.1" 200
+06:48:25.599 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/online/status HTTP/1.1" 200
+06:48:26.833 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/online/status HTTP/1.1" 200
+06:48:28.598 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/online/status HTTP/1.1" 200
+06:48:31.599 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/online/status HTTP/1.1" 200
+06:48:31.834 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/online/status HTTP/1.1" 200
+06:48:34.600 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/online/status HTTP/1.1" 200
+06:48:36.831 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/online/status HTTP/1.1" 200
+06:48:37.599 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/online/status HTTP/1.1" 200
+06:48:40.600 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/online/status HTTP/1.1" 200
+06:48:40.994 INFO     uvicorn.access         | 127.0.0.1:53458 - "GET /api/kneeboard/print_state HTTP/1.1" 200
+06:48:41.000 INFO     uvicorn.access         | 127.0.0.1:59804 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+06:48:41.203 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=13
+06:48:41.206 INFO     uvicorn.access         | 127.0.0.1:59804 - "GET /api/dashboard HTTP/1.1" 200
+06:48:41.206 INFO     uvicorn.access         | 127.0.0.1:56770 - "GET /api/dtc/pending HTTP/1.1" 200
+06:48:41.777 INFO     fbb.web.launcher       | quit_app : fermeture de FBB demandée
+06:48:41.778 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+06:48:41.778 DEBUG    fbb.web.launcher       | native pywebview: read x/y/w/h (snapshot) "map" tid=Dummy-5 
+06:48:41.779 DEBUG    fbb.web.launcher       | Snapshot géométrie "map" : 1661x998 @ (852,0)
+06:48:41.779 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+06:48:41.781 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+06:48:41.795 DEBUG    fbb.web.launcher       | native pywebview: read x/y/w/h (snapshot) "pending-fpln" tid=Dummy-5 
+06:48:41.795 DEBUG    fbb.web.launcher       | Snapshot géométrie "pending-fpln" : 940x520 @ (42,760)
+06:48:41.795 DEBUG    fbb.web                | WS keepalive terminé (déconnexion client)
+06:48:41.796 DEBUG    fbb.ws                 | WS disconnect — 2 clients
+06:48:41.796 INFO     uvicorn.error          | connection closed
+06:48:41.796 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+06:48:41.797 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+06:48:41.805 DEBUG    fbb.web                | WS keepalive terminé (déconnexion client)
+06:48:41.805 DEBUG    fbb.ws                 | WS disconnect — 1 clients
+06:48:41.805 INFO     uvicorn.error          | connection closed
+06:48:41.809 DEBUG    fbb.web.launcher       | native pywebview: read x/y/w/h (snapshot) "dashboard" tid=Dummy-5 
+06:48:41.809 DEBUG    fbb.web.launcher       | Snapshot géométrie "dashboard" : 675x908 @ (48,0)
+06:48:41.810 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+06:48:41.832 DEBUG    fbb.web                | WS keepalive terminé (déconnexion client)
+06:48:41.832 DEBUG    fbb.ws                 | WS disconnect — 0 clients
+06:48:41.832 INFO     uvicorn.error          | connection closed
+06:48:42.118 INFO     fbb.web.launcher       | Dashboard fermé. Bye.
