@@ -1,0 +1,381 @@
+2026-08-23 21:47:59.460 | ========================================================================
+2026-08-23 21:47:59.460 | startup                  | FBB 1.80.0 — session 2026-08-23 21:47:59
+2026-08-23 21:47:59.460 | startup                  | Répertoire : C:\Falcon\Admin\Logiciels annexes\FBB\_internal
+2026-08-23 21:47:59.460 | startup                  | Python 3.14.5
+2026-08-23 21:47:59.460 | ========================================================================
+2026-08-23 21:47:59.461 | system                   | OS : Windows 11 10.0.26200, AMD64, 32 CPU, RAM 32 GB
+2026-08-23 21:47:59.472 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-08-23 21:47:59.472 | registry                 | BMS baseDir : C:\Falcon\Falcon BMS 4.38
+2026-08-23 21:47:59.472 | registry                 | BMS theater : Korea KTO  pilot : Obe1
+2026-08-23 21:48:01.305 | parse_health             | soloTest2.cam: records 1290/1290, bytes 522748/522748, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-23 21:48:02.736 | ato_target               | index_built names=7287 memo=True
+2026-08-23 21:48:02.737 | ato_departure            | resolved=1/1
+2026-08-23 21:48:02.880 | telemetry                | ping OK v1.80.0 Windows 11 canal=prod → HTTP 200
+2026-08-23 21:48:04.780 | dtc_render               | path=Obe1.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=6 hash=bb69a68d
+2026-08-23 21:48:04.789 | ato_departure            | resolved=1/1
+2026-08-23 21:48:04.812 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:48:08.144 | roaster.data             | fetch
+2026-08-23 21:48:08.147 | roaster.roster           | roster keys=['banshee2', 'panther5']
+2026-08-23 21:48:08.159 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 21:48:08.253 | mission_support          | awacs: briefing cs='Chalice2' no coalition match
+2026-08-23 21:48:08.253 | roaster.data             | ok — 1 flights, axis=None°
+2026-08-23 21:48:11.848 | online                   | peek_roster 86.194.141.253:45380 start (suggested=Obe1)
+2026-08-23 21:48:12.053 | online                   | peek_roster 86.194.141.253:45380 rejet_rejected: Host non autorisé — host-pass absent ou signé par une autre autorité côté host.
+2026-08-23 21:48:30.787 | online                   | connect_client 86.194.141.253:45380 as Obe1
+2026-08-23 21:48:30.794 | ato_departure            | resolved=1/1
+2026-08-23 21:48:31.061 | ato_departure            | resolved=1/1
+2026-08-23 21:48:31.364 | parse_health             | TS02.cam: records 1193/1193, bytes 553587/553587, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-23 21:48:31.477 | swap_context             | origin=select_cam:previous cam='ts02.cam' loaded=True err=''
+2026-08-23 21:48:31.881 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:48:31.883 | dtc_render               | path=Obe1.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=bb69a68d
+2026-08-23 21:48:43.576 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:48:43.577 | dtc_render               | path=Obe1.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=bb69a68d
+2026-08-23 21:50:09.325 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:50:09.325 | dtc_render               | path=Obe1.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=bb69a68d
+2026-08-23 21:50:28.313 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:50:28.313 | dtc_render               | path=Obe1.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=bb69a68d
+2026-08-23 21:50:31.858 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:50:31.861 | dtc_render               | path=Obe1.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=bb69a68d
+2026-08-23 21:53:48.743 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:53:48.746 | dtc_render               | path=Obe1.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=dffe23ac
+2026-08-23 21:53:49.227 | ato_target               | index_built names=7192 memo=True
+2026-08-23 21:53:49.228 | ato_departure            | resolved=1/1
+2026-08-23 21:53:49.247 | ato_departure            | resolved=1/1
+2026-08-23 21:53:49.310 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:53:49.930 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:53:52.429 | parse_health             | soloktomandrak.cam: records 1297/1297, bytes 475812/475812, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-23 21:53:52.560 | swap_context             | origin=select_cam:latest cam='soloktomandrak.cam' loaded=True err=''
+2026-08-23 21:53:52.884 | ato_target               | index_built names=7288 memo=True
+2026-08-23 21:53:52.885 | ato_departure            | resolved=1/1
+2026-08-23 21:53:52.897 | ato_departure            | resolved=1/1
+2026-08-23 21:53:52.977 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:53:53.314 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:53:59.564 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:53:59.577 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:53:59.608 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 21:53:59.715 | mission_support          | awacs: cam pkg=7167 vu=24133
+2026-08-23 21:53:59.716 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 21:53:59.724 | package_comms            | tactical ch=6 primary=Cyborg 3 uhf=316.775
+2026-08-23 21:54:00.777 | campaign_overview        | objective_index loaded=5992
+2026-08-23 21:54:00.782 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-08-23 21:54:01.102 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-23 21:54:01.102 | campaign_overview        | system_marks=3
+2026-08-23 21:54:01.163 | mission_support          | tanker: cam pkg=7167 vu=23862
+2026-08-23 21:54:01.187 | mission_support          | awacs: cam pkg=7167 vu=24133
+2026-08-23 21:54:01.326 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-08-23 21:54:01.747 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:54:04.110 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-23 21:54:04.110 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-23 21:54:04.110 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-23 21:54:10.986 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:54:10.997 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:54:19.169 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=12 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:54:19.181 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=12 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:54:27.036 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:54:27.047 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:54:52.053 | ppt_auto                 | threats_found=9 written=9 in_wez=4
+2026-08-23 21:54:52.053 | ppt_auto_slot            | 10 dist=12.5NM wez_pen=-72.5NM
+2026-08-23 21:54:52.053 | ppt_auto_slot            | 10 dist=12.5NM wez_pen=-72.5NM
+2026-08-23 21:54:52.053 | ppt_auto_slot            | SA5 dist=49.1NM wez_pen=-49.9NM
+2026-08-23 21:54:52.053 | ppt_auto_slot            | 10 dist=79.7NM wez_pen=-5.3NM
+2026-08-23 21:54:52.053 | ppt_auto_slot            | KS1 dist=31.6NM wez_pen=+21.6NM
+2026-08-23 21:54:52.053 | ppt_auto_slot            | KS1 dist=31.6NM wez_pen=+21.6NM
+2026-08-23 21:54:52.053 | ppt_auto_slot            | KS1 dist=33.1NM wez_pen=+23.1NM
+2026-08-23 21:54:52.053 | ppt_auto_slot            | SA3 dist=51.7NM wez_pen=+34.7NM
+2026-08-23 21:54:52.053 | ppt_auto_slot            | KS1 dist=75.7NM wez_pen=+65.7NM
+2026-08-23 21:54:52.469 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:54:52.480 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:55:20.214 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:55:20.224 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:55:20.364 | ato_departure            | resolved=1/1
+2026-08-23 21:55:20.476 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 21:55:20.501 | mission_support          | tanker: cam pkg=7167 vu=23862
+2026-08-23 21:55:20.501 | mission_support          | awacs: cam pkg=7167 vu=24133
+2026-08-23 21:55:20.506 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 21:55:20.506 | package_comms            | tactical ch=6 primary=Cyborg 3 uhf=316.775
+2026-08-23 21:55:20.509 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-08-23 21:55:20.512 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-23 21:55:20.513 | package_relevance        | package_routes pkg=7167 flights=1 routes=1 points=6
+2026-08-23 21:55:27.589 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:55:27.598 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:55:27.733 | ato_departure            | resolved=1/1
+2026-08-23 21:55:31.624 | loadout3d                | scene unit_ct=2645 veh_ct=2467 ac_model=1052 (F-16CM-50) slots=11 stores=10 seat=1
+2026-08-23 21:55:31.624 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-08-23 21:55:31.624 | loadout3d                |   HP 1 wid=158 model=1690 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-23 21:55:31.624 | loadout3d                |   HP 2 wid=158 model=1690 slot=[-13.25, -3.70681906, 0.164210007] : AIM-120B AMRAAM
+2026-08-23 21:55:31.624 | loadout3d                |   HP 3 wid=176 model=1369 slot=[-10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-08-23 21:55:31.624 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-23 21:55:31.624 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-08-23 21:55:31.624 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-23 21:55:31.624 | loadout3d                |   HP 7 wid=176 model=1369 slot=[10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-08-23 21:55:31.624 | loadout3d                |   HP 8 wid=158 model=1690 slot=[13.25, -3.70681906, 0.164210007] : AIM-120B AMRAAM
+2026-08-23 21:55:31.624 | loadout3d                |   HP 9 wid=158 model=1690 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-23 21:55:31.630 | loadout3d                | crew_art vu=20110 seat=1 pilot=60006 patch=70111
+2026-08-23 21:55:35.780 | loadout3d                | _str_compat: aircraft=F-16 C:\Falcon\Falcon BMS 4.38\Data\Campaign → 24 WIDs, 24/24 fichiers .str
+2026-08-23 21:55:35.786 | loadout3d                | _bmsrack_stations: C:\Falcon\Falcon BMS 4.38\Data\Terrdata\objects\BmsRack.dat → 271 WIDs
+2026-08-23 21:55:35.789 | loadout3d                | _ssd_stores: C:\Falcon\Falcon BMS 4.38\Data\Terrdata\objects\Falcon4_SSD.xml → 110 SSD
+2026-08-23 21:55:36.208 | loadout3d                | weapons endpoint: sq_vu=8687 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[1] hp=11 weapons=53 (50 dispo)
+2026-08-23 21:55:36.263 | loadout_laser            | package=7167 laser_flights=0 my_code=1688
+2026-08-23 21:55:36.264 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-08-23 21:55:36.264 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-08-23 21:55:43.534 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:55:43.545 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:55:43.680 | ato_departure            | resolved=1/1
+2026-08-23 21:55:46.453 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 21:55:46.460 | mission_support          | tanker: cam pkg=7167 vu=23862
+2026-08-23 21:55:46.461 | mission_support          | awacs: cam pkg=7167 vu=24133
+2026-08-23 21:55:46.466 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 21:55:46.466 | package_comms            | tactical ch=6 primary=Cyborg 3 uhf=316.775
+2026-08-23 21:55:46.469 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-08-23 21:55:46.472 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-23 21:55:46.473 | package_relevance        | package_routes pkg=7167 flights=1 routes=1 points=6
+2026-08-23 21:55:58.262 | ato_departure            | resolved=1/1
+2026-08-23 21:57:15.244 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:57:15.253 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:57:15.381 | ato_departure            | resolved=1/1
+2026-08-23 21:57:22.229 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 21:58:04.406 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:58:04.415 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:58:04.546 | ato_departure            | resolved=1/1
+2026-08-23 21:58:08.148 | loadout3d                | scene unit_ct=2645 veh_ct=2467 ac_model=1052 (F-16CM-50) slots=11 stores=10 seat=1
+2026-08-23 21:58:08.148 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-08-23 21:58:08.148 | loadout3d                |   HP 1 wid=158 model=1690 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-23 21:58:08.149 | loadout3d                |   HP 2 wid=158 model=1690 slot=[-13.25, -3.70681906, 0.164210007] : AIM-120B AMRAAM
+2026-08-23 21:58:08.149 | loadout3d                |   HP 3 wid=176 model=1369 slot=[-10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-08-23 21:58:08.149 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-23 21:58:08.149 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-08-23 21:58:08.149 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-23 21:58:08.149 | loadout3d                |   HP 7 wid=176 model=1369 slot=[10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-08-23 21:58:08.149 | loadout3d                |   HP 8 wid=158 model=1690 slot=[13.25, -3.70681906, 0.164210007] : AIM-120B AMRAAM
+2026-08-23 21:58:08.149 | loadout3d                |   HP 9 wid=158 model=1690 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-23 21:58:08.150 | loadout3d                | crew_art vu=20110 seat=1 pilot=60006 patch=70111
+2026-08-23 21:58:08.281 | loadout3d                | weapons endpoint: sq_vu=8687 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[1] hp=11 weapons=53 (50 dispo)
+2026-08-23 21:58:08.319 | loadout_laser            | package=7167 laser_flights=0 my_code=1688
+2026-08-23 21:58:08.319 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-08-23 21:58:08.319 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-08-23 21:58:24.542 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 21:58:24.552 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 21:58:24.711 | ato_departure            | resolved=1/1
+2026-08-23 21:58:29.515 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 21:58:32.041 | ato_departure            | resolved=1/1
+2026-08-23 22:00:19.708 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 22:00:19.717 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 22:00:19.844 | ato_departure            | resolved=1/1
+2026-08-23 22:00:24.325 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 22:00:24.326 | mission_support          | awacs: cam pkg=7167 vu=24133
+2026-08-23 22:00:24.327 | mission_support          | tanker: cam pkg=7167 vu=23862
+2026-08-23 22:00:24.329 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 22:00:24.329 | package_comms            | tactical ch=6 primary=Cyborg 3 uhf=316.775
+2026-08-23 22:00:24.348 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=0 hash=dffe23ac
+2026-08-23 22:00:24.370 | vrp_app                  | arr='RKJK' rwy='17' side='right' ok=True
+2026-08-23 22:00:24.374 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:24.377 | loadout_laser            | package=7167 laser_flights=0 my_code=1688
+2026-08-23 22:00:24.784 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=2 hash=dffe23ac
+2026-08-23 22:00:24.797 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=2 hash=dffe23ac
+2026-08-23 22:00:36.345 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:36.841 | loadout_laser            | package=7167 laser_flights=0 my_code=1688
+2026-08-23 22:00:37.270 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:37.271 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=3 hash=dffe23ac
+2026-08-23 22:00:37.287 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:37.287 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=3 hash=dffe23ac
+2026-08-23 22:00:37.928 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:38.425 | loadout_laser            | package=7167 laser_flights=0 my_code=1688
+2026-08-23 22:00:38.853 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:38.853 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=4 hash=dffe23ac
+2026-08-23 22:00:38.869 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:38.870 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=4 hash=dffe23ac
+2026-08-23 22:00:43.045 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:43.541 | loadout_laser            | package=7167 laser_flights=0 my_code=1688
+2026-08-23 22:00:43.711 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:43.970 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:43.971 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=4 hash=dffe23ac
+2026-08-23 22:00:43.987 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:43.987 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=4 hash=dffe23ac
+2026-08-23 22:00:44.209 | loadout_laser            | package=7167 laser_flights=0 my_code=1688
+2026-08-23 22:00:44.635 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:44.635 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=4 hash=dffe23ac
+2026-08-23 22:00:44.652 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:44.652 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=4 hash=dffe23ac
+2026-08-23 22:00:44.929 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:45.412 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:45.908 | loadout_laser            | package=7167 laser_flights=0 my_code=1688
+2026-08-23 22:00:46.336 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:46.336 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=4 hash=dffe23ac
+2026-08-23 22:00:46.353 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:00:46.353 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=4 hash=dffe23ac
+2026-08-23 22:02:24.701 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 22:02:24.715 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:02:24.716 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=4 hash=dffe23ac
+2026-08-23 22:02:24.842 | ato_departure            | resolved=1/1
+2026-08-23 22:02:29.901 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:02:29.902 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=4 hash=dffe23ac
+2026-08-23 22:02:29.912 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:02:29.926 | dtc_backup_rotate        | ini=Obe1.ini pruned=1 keep=5
+2026-08-23 22:02:29.939 | dtc_save_sibling         | path=soloktomandrak.ini n_ppt=15 n_lines=24 n_dpi=0 n_divert=3
+2026-08-23 22:02:29.939 | dtc_save_ok              | path=Obe1.ini n_stpt=24 n_lines=18 n_ppt=9 n_dpi=0 n_divert=3 n_sections=4 n_seeded=0 seeded=[] sink=ok backup=_FBB_Backups/Obe1_bkup_fbb_230826_220229.ini migrated=0 pruned=1
+2026-08-23 22:02:29.947 | ato_departure            | resolved=1/1
+2026-08-23 22:02:30.366 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:02:30.367 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=5d4dd9dd
+2026-08-23 22:02:30.383 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:02:30.383 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=5d4dd9dd
+2026-08-23 22:02:33.248 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:02:33.256 | mission_support          | tanker: cam pkg=7167 vu=23862
+2026-08-23 22:02:33.256 | mission_support          | awacs: cam pkg=7167 vu=24133
+2026-08-23 22:02:33.261 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 22:02:33.261 | package_comms            | tactical ch=6 primary=Cyborg 3 uhf=316.775
+2026-08-23 22:02:33.264 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-08-23 22:02:33.268 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-23 22:02:33.269 | package_relevance        | package_routes pkg=7167 flights=1 routes=1 points=6
+2026-08-23 22:02:34.369 | roaster.data             | fetch
+2026-08-23 22:02:34.371 | roaster.roster           | roster keys=['cyborg3']
+2026-08-23 22:02:34.372 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 22:02:34.373 | mission_support          | tanker: cam pkg=7167 vu=23862
+2026-08-23 22:02:34.373 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 22:02:34.373 | mission_support          | awacs: cam pkg=7167 vu=24133
+2026-08-23 22:02:34.374 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 22:02:34.374 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 22:02:34.374 | package_comms            | tactical ch=6 primary=Cyborg 3 uhf=316.775
+2026-08-23 22:02:34.374 | roaster.data             | ok — 1 flights, axis=89.6°
+2026-08-23 22:02:34.376 | roaster_pil              | render start — 1 flights
+2026-08-23 22:02:34.386 | roaster_pil              | render done
+2026-08-23 22:02:35.919 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 22:02:35.934 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:02:35.934 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=5d4dd9dd
+2026-08-23 22:02:35.942 | knb_print_state          | print grave cam=c:\falcon\falcon bms 4.38\data\campaign\soloktomandrak.cam dirs=1
+2026-08-23 22:02:36.075 | ato_departure            | resolved=1/1
+2026-08-23 22:02:41.429 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 22:02:50.390 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 22:02:50.678 | bms_lzss.compress        | 26518 o -> 5409 o (ratio 4.90) en 281 ms
+2026-08-23 22:02:50.724 | campaign_save            | mark_saved sig=-
+2026-08-23 22:02:51.010 | parse_health             | soloktomandrak_saveclient.cam: records 1297/1297, bytes 475812/475812, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-23 22:02:51.141 | swap_context             | origin=save_campaign cam='soloktomandrak_saveclient.cam' loaded=True err=''
+2026-08-23 22:02:51.475 | ato_target               | index_built names=7288 memo=True
+2026-08-23 22:02:51.476 | ato_departure            | resolved=1/1
+2026-08-23 22:02:51.490 | ato_departure            | resolved=1/1
+2026-08-23 22:02:51.551 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 22:02:51.907 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:02:51.907 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=5d4dd9dd
+2026-08-23 22:02:51.907 | loadout3d                | scene unit_ct=2645 veh_ct=2467 ac_model=1052 (F-16CM-50) slots=11 stores=10 seat=1
+2026-08-23 22:02:51.907 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-08-23 22:02:51.907 | loadout3d                |   HP 1 wid=158 model=1690 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-23 22:02:51.908 | loadout3d                |   HP 2 wid=158 model=1690 slot=[-13.25, -3.70681906, 0.164210007] : AIM-120B AMRAAM
+2026-08-23 22:02:51.908 | loadout3d                |   HP 3 wid=176 model=1369 slot=[-10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-08-23 22:02:51.908 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-23 22:02:51.908 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-08-23 22:02:51.908 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-23 22:02:51.908 | loadout3d                |   HP 7 wid=176 model=1369 slot=[10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-08-23 22:02:51.908 | loadout3d                |   HP 8 wid=158 model=1690 slot=[13.25, -3.70681906, 0.164210007] : AIM-120B AMRAAM
+2026-08-23 22:02:51.908 | loadout3d                |   HP 9 wid=158 model=1690 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-23 22:02:51.909 | loadout3d                | crew_art vu=20110 seat=1 pilot=60006 patch=70111
+2026-08-23 22:02:52.012 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 22:02:52.068 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 22:02:52.138 | mission_support          | awacs: cam pkg=7167 vu=24133
+2026-08-23 22:02:52.145 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 22:02:52.145 | package_comms            | tactical ch=6 primary=Cyborg 3 uhf=316.775
+2026-08-23 22:02:52.178 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:02:52.179 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=5d4dd9dd
+2026-08-23 22:02:52.249 | loadout3d                | weapons endpoint: sq_vu=8687 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[1] hp=11 weapons=53 (50 dispo)
+2026-08-23 22:02:52.292 | loadout_laser            | package=7167 laser_flights=0 my_code=1688
+2026-08-23 22:02:52.292 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-08-23 22:02:52.292 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-08-23 22:02:53.161 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-23 22:02:53.161 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-23 22:02:53.161 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-23 22:02:53.265 | campaign_overview        | objective_index loaded=5992
+2026-08-23 22:02:53.272 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-08-23 22:02:53.598 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-23 22:02:53.599 | campaign_overview        | system_marks=3
+2026-08-23 22:02:53.633 | mission_support          | tanker: cam pkg=7167 vu=23862
+2026-08-23 22:02:53.664 | mission_support          | awacs: cam pkg=7167 vu=24133
+2026-08-23 22:02:53.792 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-08-23 22:02:54.207 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 22:02:54.228 | ppt_auto                 | threats_found=9 written=6 in_wez=4
+2026-08-23 22:02:54.228 | ppt_auto_slot            | 10 dist=12.5NM wez_pen=-72.5NM
+2026-08-23 22:02:54.228 | ppt_auto_slot            | 10 dist=12.5NM wez_pen=-72.5NM
+2026-08-23 22:02:54.228 | ppt_auto_slot            | SA5 dist=49.1NM wez_pen=-49.9NM
+2026-08-23 22:02:54.228 | ppt_auto_slot            | 10 dist=79.7NM wez_pen=-5.3NM
+2026-08-23 22:02:54.228 | ppt_auto_slot            | KS1 dist=31.6NM wez_pen=+21.6NM
+2026-08-23 22:02:54.228 | ppt_auto_slot            | KS1 dist=31.6NM wez_pen=+21.6NM
+2026-08-23 22:02:54.651 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:02:54.651 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=5d4dd9dd
+2026-08-23 22:02:54.667 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:02:54.667 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=5d4dd9dd
+2026-08-23 22:03:04.442 | parse_health             | soloktomandrak.cam: records 1297/1297, bytes 475812/475812, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-23 22:03:04.481 | swap_context             | origin=load_cam cam='soloktomandrak.cam' loaded=True err=''
+2026-08-23 22:03:04.498 | ato_departure            | resolved=1/1
+2026-08-23 22:03:04.513 | ato_departure            | resolved=1/1
+2026-08-23 22:03:04.607 | loadout3d                | scene unit_ct=2645 veh_ct=2467 ac_model=1052 (F-16CM-50) slots=11 stores=10 seat=1
+2026-08-23 22:03:04.607 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-08-23 22:03:04.607 | loadout3d                |   HP 1 wid=158 model=1690 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-23 22:03:04.607 | loadout3d                |   HP 2 wid=158 model=1690 slot=[-13.25, -3.70681906, 0.164210007] : AIM-120B AMRAAM
+2026-08-23 22:03:04.607 | loadout3d                |   HP 3 wid=176 model=1369 slot=[-10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-08-23 22:03:04.607 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-23 22:03:04.607 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-08-23 22:03:04.607 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-08-23 22:03:04.607 | loadout3d                |   HP 7 wid=176 model=1369 slot=[10.0, -1.72720599, 0.127838001] : AIM-9X Sidewinder
+2026-08-23 22:03:04.607 | loadout3d                |   HP 8 wid=158 model=1690 slot=[13.25, -3.70681906, 0.164210007] : AIM-120B AMRAAM
+2026-08-23 22:03:04.607 | loadout3d                |   HP 9 wid=158 model=1690 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-23 22:03:04.609 | loadout3d                | crew_art vu=20110 seat=1 pilot=60006 patch=70111
+2026-08-23 22:03:04.611 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 22:03:04.714 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 22:03:04.715 | mission_support          | awacs: cam pkg=7167 vu=24133
+2026-08-23 22:03:04.715 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 22:03:04.716 | package_comms            | tactical ch=6 primary=Cyborg 3 uhf=316.775
+2026-08-23 22:03:04.854 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:03:04.854 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=5d4dd9dd
+2026-08-23 22:03:04.892 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 22:03:04.926 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:03:04.926 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=5d4dd9dd
+2026-08-23 22:03:05.169 | loadout3d                | weapons endpoint: sq_vu=8687 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[1] hp=11 weapons=53 (50 dispo)
+2026-08-23 22:03:05.218 | loadout_laser            | package=7167 laser_flights=0 my_code=1688
+2026-08-23 22:03:05.218 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-08-23 22:03:05.218 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-08-23 22:03:05.776 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-23 22:03:05.776 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-23 22:03:05.777 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-23 22:03:05.900 | campaign_overview        | objective_index loaded=5992
+2026-08-23 22:03:05.904 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-08-23 22:03:06.288 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-23 22:03:06.289 | campaign_overview        | system_marks=3
+2026-08-23 22:03:06.350 | mission_support          | awacs: cam pkg=7167 vu=24133
+2026-08-23 22:03:06.378 | mission_support          | tanker: cam pkg=7167 vu=23862
+2026-08-23 22:03:06.492 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-08-23 22:03:06.796 | ppt_auto                 | threats_found=9 written=6 in_wez=4
+2026-08-23 22:03:06.797 | ppt_auto_slot            | 10 dist=12.5NM wez_pen=-72.5NM
+2026-08-23 22:03:06.797 | ppt_auto_slot            | 10 dist=12.5NM wez_pen=-72.5NM
+2026-08-23 22:03:06.797 | ppt_auto_slot            | SA5 dist=49.1NM wez_pen=-49.9NM
+2026-08-23 22:03:06.797 | ppt_auto_slot            | 10 dist=79.7NM wez_pen=-5.3NM
+2026-08-23 22:03:06.797 | ppt_auto_slot            | KS1 dist=31.6NM wez_pen=+21.6NM
+2026-08-23 22:03:06.797 | ppt_auto_slot            | KS1 dist=31.6NM wez_pen=+21.6NM
+2026-08-23 22:03:06.901 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 22:03:07.214 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:03:07.214 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=5d4dd9dd
+2026-08-23 22:03:07.231 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:03:07.231 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=5d4dd9dd
+2026-08-23 22:03:11.335 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:03:13.926 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 22:03:13.943 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:03:13.943 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=5d4dd9dd
+2026-08-23 22:03:14.074 | ato_departure            | resolved=1/1
+2026-08-23 22:03:15.670 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 22:03:15.688 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:03:15.688 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=5d4dd9dd
+2026-08-23 22:03:15.809 | ato_departure            | resolved=1/1
+2026-08-23 22:03:17.000 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:03:17.000 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=5d4dd9dd
+2026-08-23 22:03:17.009 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:03:17.019 | dtc_backup_rotate        | ini=Obe1.ini pruned=1 keep=5
+2026-08-23 22:03:17.031 | dtc_save_sibling         | path=soloktomandrak.ini n_ppt=15 n_lines=24 n_dpi=0 n_divert=0
+2026-08-23 22:03:17.031 | dtc_save_ok              | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 n_seeded=0 seeded=[] sink=ok backup=_FBB_Backups/Obe1_bkup_fbb_230826_220317.ini migrated=0 pruned=1
+2026-08-23 22:03:17.039 | ato_departure            | resolved=1/1
+2026-08-23 22:03:17.451 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:03:17.451 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=162775fb
+2026-08-23 22:03:17.467 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:03:17.468 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=162775fb
+2026-08-23 22:03:23.546 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 22:03:23.562 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:03:23.562 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=162775fb
+2026-08-23 22:03:26.804 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 22:03:26.808 | fuel_plan                | avail=7162 atTurn=4688 bingo=3300 joker=3800 rtb=759 margin=1388 GO
+2026-08-23 22:03:26.809 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=162775fb
+2026-08-23 22:03:26.958 | ato_departure            | resolved=1/1
