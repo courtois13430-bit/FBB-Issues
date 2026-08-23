@@ -1,0 +1,22 @@
+2026-08-23 21:36:28.858 | ========================================================================
+2026-08-23 21:36:28.858 | FBB Online  mode=CLIENT    identity=Obe1              port=45380
+2026-08-23 21:36:28.858 | Session : 2026-08-23 21:36:28
+2026-08-23 21:36:28.858 | ========================================================================
+2026-08-23 21:36:28.858 | [STATE] _client none -> NetworkClient#19285382fd0 | cause=connect_client
+2026-08-23 21:36:28.858 | [STATE] _mode idle -> client | cause=connect_client
+2026-08-23 21:36:28.858 | [STATE] _my_callsign (vide) -> Obe1 | cause=connect_client
+2026-08-23 21:36:28.858 | [STATE] reset online | cause=connect_client | efface=bms_host, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-08-23 21:36:28.859 | [CLIENT] Connexion → 86.194.141.253:45380 (callsign=Obe1)
+2026-08-23 21:36:28.859 | [CLIENT] status → connecting
+2026-08-23 21:36:38.867 | [CLIENT] status → error:
+2026-08-23 21:36:38.867 | [CLIENT] status → reconnecting:1
+2026-08-23 21:36:38.867 | [STATE] _reconnecting false -> true | cause=client_status:reconnecting#1
+2026-08-23 21:36:50.885 | [CLIENT] status → reconnecting:2
+2026-08-23 21:37:04.916 | [CLIENT] status → reconnecting:3
+2026-08-23 21:37:22.919 | [CLIENT] status → reconnecting:4
+2026-08-23 21:37:48.936 | [CLIENT] status → reconnecting:5
+2026-08-23 21:38:28.950 | [CLIENT] status → reconnecting:6
+2026-08-23 21:39:08.967 | [CLIENT] status → reconnecting:7
+2026-08-23 21:39:48.983 | [CLIENT] status → reconnecting:8
+2026-08-23 21:40:28.999 | [CLIENT] status → reconnecting:9
+2026-08-23 21:41:09.017 | [CLIENT] status → reconnecting:10
