@@ -1,0 +1,17 @@
+2026-08-23 21:34:53.525 | ========================================================================
+2026-08-23 21:34:53.526 | FBB Online  mode=SERVER    identity=HOST              port=45380
+2026-08-23 21:34:53.526 | Session : 2026-08-23 21:34:53
+2026-08-23 21:34:53.526 | ========================================================================
+2026-08-23 21:34:53.542 | [TLS] Cert <empreinte masquée>... — host-pass=ok (machine=<masqué>) — epinglage Route B pret
+2026-08-23 21:34:53.545 | [SERVER] status → running
+2026-08-23 21:34:53.546 | [STATE] _mode idle -> server | cause=start_server
+2026-08-23 21:34:53.546 | [STATE] _my_callsign (vide) -> Obe1 | cause=start_server
+2026-08-23 21:34:53.546 | [STATE] reset online | cause=start_server | efface=bms_host, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-08-23 21:34:53.546 | [SERVER] Démarré sur port 45380
+2026-08-23 21:34:56.191 | [SERVER] status → stopped
+2026-08-23 21:34:56.191 | [STATE] _mode server -> idle | cause=stop_server
+2026-08-23 21:34:56.191 | [STATE] _my_callsign Obe1 -> (vide) | cause=stop_server
+2026-08-23 21:34:56.191 | [STATE] reset online | cause=stop_server | efface=bms_host, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-08-23 21:34:56.191 | [SERVER] Arrêté
+2026-08-23 21:34:56.192 | ========================================================================
+2026-08-23 21:34:56.192 | FBB Online — session terminée | cause=stop_server — arrêt du serveur demandé par l'UI
