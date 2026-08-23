@@ -1,0 +1,25 @@
+2026-08-23 21:31:35.911 | ========================================================================
+2026-08-23 21:31:35.911 | FBB Online  mode=CLIENT    identity=Obe1              port=45380
+2026-08-23 21:31:35.911 | Session : 2026-08-23 21:31:35
+2026-08-23 21:31:35.911 | ========================================================================
+2026-08-23 21:31:35.911 | [STATE] _client none -> NetworkClient#21204f18b90 | cause=connect_client
+2026-08-23 21:31:35.911 | [STATE] _mode idle -> client | cause=connect_client
+2026-08-23 21:31:35.911 | [STATE] _my_callsign (vide) -> Obe1 | cause=connect_client
+2026-08-23 21:31:35.912 | [STATE] reset online | cause=connect_client | efface=bms_host, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-08-23 21:31:35.912 | [CLIENT] Connexion → 86.194.141.253:45380 (callsign=Obe1)
+2026-08-23 21:31:35.912 | [CLIENT] status → connecting
+2026-08-23 21:31:45.923 | [CLIENT] status → error:
+2026-08-23 21:31:45.923 | [CLIENT] status → reconnecting:1
+2026-08-23 21:31:45.923 | [STATE] _reconnecting false -> true | cause=client_status:reconnecting#1
+2026-08-23 21:31:57.939 | [CLIENT] status → reconnecting:2
+2026-08-23 21:32:11.954 | [CLIENT] status → reconnecting:3
+2026-08-23 21:32:29.972 | [CLIENT] status → reconnecting:4
+2026-08-23 21:32:55.989 | [CLIENT] status → reconnecting:5
+2026-08-23 21:33:22.717 | [STATE] _client NetworkClient#21204f18b90 -> none | cause=disconnect_client
+2026-08-23 21:33:22.717 | [STATE] _mode client -> idle | cause=disconnect_client
+2026-08-23 21:33:22.717 | [STATE] _my_callsign Obe1 -> (vide) | cause=disconnect_client
+2026-08-23 21:33:22.717 | [STATE] _reconnecting true -> false | cause=disconnect_client
+2026-08-23 21:33:22.717 | [STATE] reset online | cause=disconnect_client | efface=bms_host, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-08-23 21:33:22.717 | [CLIENT] Déconnecté
+2026-08-23 21:33:22.717 | ========================================================================
+2026-08-23 21:33:22.717 | FBB Online — session terminée | cause=disconnect_client — déconnexion demandée par l'UI
