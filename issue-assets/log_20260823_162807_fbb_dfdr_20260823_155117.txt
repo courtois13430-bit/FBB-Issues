@@ -1,0 +1,234 @@
+2026-08-23 15:51:18.000 | ========================================================================
+2026-08-23 15:51:18.000 | startup                  | FBB 1.80.0 — session 2026-08-23 15:51:18
+2026-08-23 15:51:18.000 | startup                  | Répertoire : C:\Users\thcab\AppData\Local\Programs\FBB\_internal
+2026-08-23 15:51:18.001 | startup                  | Python 3.14.5
+2026-08-23 15:51:18.001 | ========================================================================
+2026-08-23 15:51:18.001 | system                   | OS : Windows 11 10.0.26200, AMD64, 12 CPU, RAM 32 GB
+2026-08-23 15:51:18.017 | system                   | Machine : <masqué> / Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+2026-08-23 15:51:18.017 | registry                 | BMS baseDir : C:\Falcon BMS 4.38
+2026-08-23 15:51:18.017 | registry                 | BMS theater : Korea KTO  pilot : Rouge
+2026-08-23 15:51:20.705 | parse_health             | !1vs1.tac: records 15/15, bytes 14824/14824, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-23 15:51:21.369 | telemetry                | ping OK v1.80.0 Windows 11 canal=prod → HTTP 200
+2026-08-23 15:51:25.984 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=7956299c
+2026-08-23 15:51:26.015 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:51:38.113 | parse_health             | EntrainementSA10_GBU39.tac: records 8/8, bytes 5429/5429, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-23 15:51:38.337 | swap_context             | origin=select_cam:previous cam='entrainementsa10_gbu39.tac' loaded=True err=''
+2026-08-23 15:51:38.933 | ato_target               | index_built names=6007 memo=True
+2026-08-23 15:51:38.935 | ato_target               | resolved id=8005 target=Air Defense
+2026-08-23 15:51:38.935 | ato_departure            | resolved=1/1
+2026-08-23 15:51:38.948 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:51:38.956 | ato_target               | resolved id=8005 target=Air Defense
+2026-08-23 15:51:38.956 | ato_departure            | resolved=1/1
+2026-08-23 15:51:40.252 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=7956299c
+2026-08-23 15:51:40.326 | swap_context             | origin=select_cam:previous cam='entrainementsa10_gbu39.tac' loaded=True err=''
+2026-08-23 15:51:40.334 | ato_target               | resolved id=8005 target=Air Defense
+2026-08-23 15:51:40.334 | ato_departure            | resolved=1/1
+2026-08-23 15:51:40.347 | ato_target               | resolved id=8005 target=Air Defense
+2026-08-23 15:51:40.348 | ato_departure            | resolved=1/1
+2026-08-23 15:51:40.742 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:51:40.774 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=7956299c
+2026-08-23 15:51:40.791 | swap_context             | origin=select_cam:previous cam='entrainementsa10_gbu39.tac' loaded=True err=''
+2026-08-23 15:51:40.800 | ato_target               | resolved id=8005 target=Air Defense
+2026-08-23 15:51:40.800 | ato_departure            | resolved=1/1
+2026-08-23 15:51:40.815 | ato_target               | resolved id=8005 target=Air Defense
+2026-08-23 15:51:40.815 | ato_departure            | resolved=1/1
+2026-08-23 15:51:41.028 | swap_context             | origin=select_cam:previous cam='entrainementsa10_gbu39.tac' loaded=True err=''
+2026-08-23 15:51:41.035 | ato_target               | resolved id=8005 target=Air Defense
+2026-08-23 15:51:41.035 | ato_departure            | resolved=1/1
+2026-08-23 15:51:41.048 | ato_target               | resolved id=8005 target=Air Defense
+2026-08-23 15:51:41.048 | ato_departure            | resolved=1/1
+2026-08-23 15:51:41.434 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:51:41.461 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=7956299c
+2026-08-23 15:51:54.142 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:51:54.173 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=7956299c
+2026-08-23 15:51:54.647 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 15:51:54.648 | mission_support          | awacs: cam pkg=1190 vu=20007
+2026-08-23 15:51:54.649 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 15:51:54.650 | package_comms            | tactical ch=6 primary=Jackal 1 uhf=330.525
+2026-08-23 15:51:56.185 | campaign_overview        | objective_index loaded=5992
+2026-08-23 15:51:56.795 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-08-23 15:51:56.796 | campaign_overview        | system_marks=0
+2026-08-23 15:51:56.977 | mission_support          | awacs: cam pkg=1190 vu=20007
+2026-08-23 15:51:56.999 | briefing_context         | package_overview flights=1 route_points=21 focus_points=1 unique_points=21
+2026-08-23 15:51:57.476 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:51:58.706 | wx_legend                | grid=6x6 codes=AMB,BLU,GRN,RED,WHT,YLO
+2026-08-23 15:52:00.702 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-23 15:52:00.702 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-23 15:52:00.702 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-23 15:52:14.128 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:52:14.153 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=7956299c
+2026-08-23 15:52:16.619 | loadout3d                | scene unit_ct=294 veh_ct=2464 ac_model=1909 (F-16CM-52) slots=11 stores=10 seat=0
+2026-08-23 15:52:16.619 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-08-23 15:52:16.619 | loadout3d                |   HP 1 wid=159 model=2016 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-08-23 15:52:16.619 | loadout3d                |   HP 2 wid=176 model=1369 slot=[-13.25, -3.70681906, 0.164210007] : AIM-9X Sidewinder
+2026-08-23 15:52:16.619 | loadout3d                |   HP 3 wid=305 model=705 slot=[-10.0, -1.72720599, 0.127838001] : GBU-39/B SDB /HE
+2026-08-23 15:52:16.619 | loadout3d                |   HP 4 wid=103 model=1988 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 600gal
+2026-08-23 15:52:16.619 | loadout3d                |   HP 6 wid=103 model=1988 slot=[6.0, 1.10453105, 0.0865229964] : Tank 600gal
+2026-08-23 15:52:16.619 | loadout3d                |   HP 7 wid=296 model=1448 slot=[10.0, -1.72720599, 0.127838001] : GBU-31(v)1/B /HE
+2026-08-23 15:52:16.619 | loadout3d                |   HP 8 wid=176 model=1369 slot=[13.25, -3.70681906, 0.164210007] : AIM-9X Sidewinder
+2026-08-23 15:52:16.619 | loadout3d                |   HP 9 wid=159 model=2016 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-08-23 15:52:16.619 | loadout3d                |   HP11 wid=182 model=719 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-33 SNIPER
+2026-08-23 15:52:16.623 | loadout3d                | crew_art vu=20006 seat=0 pilot=60000 patch=70001
+2026-08-23 15:52:24.048 | loadout3d                | _str_compat: aircraft=F-16 C:\Falcon BMS 4.38\Data\Campaign → 24 WIDs, 24/26 fichiers .str
+2026-08-23 15:52:24.059 | loadout3d                | _bmsrack_stations: C:\Falcon BMS 4.38\Data\Terrdata\objects\BmsRack.dat → 271 WIDs
+2026-08-23 15:52:24.091 | loadout3d                | _ssd_stores: C:\Falcon BMS 4.38\Data\Terrdata\objects\Falcon4_SSD.xml → 110 SSD
+2026-08-23 15:52:24.626 | loadout3d                | weapons endpoint: sq_vu=8006 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[0] hp=11 weapons=53 (50 dispo)
+2026-08-23 15:52:24.724 | loadout_laser            | package=1190 laser_flights=0 my_code=1688
+2026-08-23 15:52:24.726 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-08-23 15:52:24.726 | loadout_laser_dtc        | LaserST=40 staged=1
+2026-08-23 15:52:33.132 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:52:33.169 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=7956299c
+2026-08-23 15:52:35.293 | timeline_data            | pkgs=2 flights=2 my_pkg=1190 my_vu=20006 buddies=0
+2026-08-23 15:52:51.165 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:52:51.191 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=7956299c
+2026-08-23 15:52:56.493 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:52:56.520 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=7956299c
+2026-08-23 15:53:01.739 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:53:01.741 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=7956299c
+2026-08-23 15:53:01.859 | ato_target               | resolved id=8005 target=Air Defense
+2026-08-23 15:53:01.859 | ato_departure            | resolved=1/1
+2026-08-23 15:54:12.726 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:54:12.728 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=13 n_ppt=8 n_dpi=1 n_divert=3 n_sections=0 hash=cace20b7
+2026-08-23 15:54:12.852 | ato_target               | resolved id=8005 target=Air Defense
+2026-08-23 15:54:12.853 | ato_departure            | resolved=1/1
+2026-08-23 15:54:17.302 | parse_health             | Test_campagne.cam: records 1008/1008, bytes 557008/557008, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-23 15:54:17.557 | swap_context             | origin=load_cam cam='test_campagne.cam' loaded=True err=''
+2026-08-23 15:54:17.961 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:54:17.965 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=cace20b7
+2026-08-23 15:54:49.863 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=3524d085
+2026-08-23 15:54:49.866 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:54:50.631 | ato_target               | index_built names=7006 memo=True
+2026-08-23 15:54:50.632 | ato_departure            | resolved=4/4
+2026-08-23 15:54:50.645 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:54:50.659 | ato_departure            | resolved=4/4
+2026-08-23 15:54:51.287 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 15:55:02.137 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:55:02.164 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 15:55:02.186 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 15:55:02.371 | mission_support          | awacs: cam pkg=2001 vu=20987
+2026-08-23 15:55:02.373 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 15:55:02.374 | package_comms            | tactical ch=6 primary=Jackal 7 uhf=290.650
+2026-08-23 15:55:04.165 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-23 15:55:04.165 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-23 15:55:04.165 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-23 15:55:04.467 | campaign_overview        | objective_index loaded=5992
+2026-08-23 15:55:04.476 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-08-23 15:55:05.160 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-23 15:55:05.161 | campaign_overview        | system_marks=2
+2026-08-23 15:55:05.351 | mission_support          | tanker: cam pkg=2001 vu=22788
+2026-08-23 15:55:05.369 | mission_support          | awacs: cam pkg=2001 vu=20987
+2026-08-23 15:55:05.645 | briefing_context         | package_overview flights=4 route_points=30 focus_points=8 unique_points=30
+2026-08-23 15:55:06.022 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:55:37.548 | wx_legend                | grid=6x6 codes=AMB,BLU,GRN,RED,WHT,YLO
+2026-08-23 15:55:42.782 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:55:42.796 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 15:55:42.896 | ato_departure            | resolved=4/4
+2026-08-23 15:57:43.573 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:57:43.583 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 15:57:43.707 | ato_departure            | resolved=4/4
+2026-08-23 15:57:59.841 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:57:59.867 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 15:58:01.061 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-23 15:58:01.061 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-23 15:58:01.063 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-23 15:58:01.158 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-08-23 15:58:01.168 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-23 15:58:01.169 | campaign_overview        | system_marks=2
+2026-08-23 15:58:01.480 | briefing_context         | package_overview flights=4 route_points=30 focus_points=8 unique_points=30
+2026-08-23 15:58:01.946 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:58:13.956 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:58:13.970 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 15:58:14.073 | ato_departure            | resolved=4/4
+2026-08-23 15:58:16.867 | swap_context             | origin=select_cam:latest cam='test_campagne.cam' loaded=True err=''
+2026-08-23 15:58:16.885 | ato_departure            | resolved=4/4
+2026-08-23 15:58:16.906 | ato_departure            | resolved=4/4
+2026-08-23 15:58:17.274 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:58:17.295 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 15:58:18.418 | swap_context             | origin=select_cam:latest cam='test_campagne.cam' loaded=True err=''
+2026-08-23 15:58:18.434 | ato_departure            | resolved=4/4
+2026-08-23 15:58:18.455 | ato_departure            | resolved=4/4
+2026-08-23 15:58:18.695 | swap_context             | origin=select_cam:latest cam='test_campagne.cam' loaded=True err=''
+2026-08-23 15:58:18.709 | ato_departure            | resolved=4/4
+2026-08-23 15:58:18.731 | ato_departure            | resolved=4/4
+2026-08-23 15:58:19.101 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:58:19.122 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 15:58:22.294 | swap_context             | origin=load_cam cam='test_campagne.cam' loaded=True err=''
+2026-08-23 15:58:22.310 | ato_departure            | resolved=4/4
+2026-08-23 15:58:22.331 | ato_departure            | resolved=4/4
+2026-08-23 15:58:22.701 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:58:22.722 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 15:58:29.546 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:58:29.572 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 15:58:29.617 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 15:58:29.648 | mission_support          | awacs: cam pkg=2001 vu=20987
+2026-08-23 15:58:29.694 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 15:58:29.696 | package_comms            | tactical ch=6 primary=Jackal 7 uhf=290.650
+2026-08-23 15:58:30.915 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-23 15:58:30.916 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-23 15:58:30.916 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-23 15:58:31.023 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-08-23 15:58:31.689 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-23 15:58:31.690 | campaign_overview        | system_marks=2
+2026-08-23 15:58:31.826 | mission_support          | tanker: cam pkg=2001 vu=22788
+2026-08-23 15:58:31.879 | mission_support          | awacs: cam pkg=2001 vu=20987
+2026-08-23 15:58:32.121 | briefing_context         | package_overview flights=4 route_points=30 focus_points=8 unique_points=30
+2026-08-23 15:58:32.132 | wx_legend                | grid=6x6 codes=AMB,BLU,GRN,RED,WHT,YLO
+2026-08-23 15:58:32.547 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:58:49.837 | roaster.data             | fetch
+2026-08-23 15:58:49.841 | roaster.roster           | roster keys=['jackal7', 'hawkeye6', 'banshee4', 'eagle6']
+2026-08-23 15:58:49.842 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 15:58:49.843 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 15:58:49.844 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 15:58:49.844 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 15:58:49.845 | mission_support          | tanker: cam pkg=2001 vu=22788
+2026-08-23 15:58:49.845 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 15:58:49.846 | mission_support          | awacs: cam pkg=2001 vu=20987
+2026-08-23 15:58:49.846 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 15:58:49.846 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-23 15:58:49.847 | package_comms            | tactical ch=6 primary=Jackal 7 uhf=290.650
+2026-08-23 15:58:49.847 | roaster.data             | ok — 4 flights, axis=96.9°
+2026-08-23 15:59:10.640 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 15:59:10.657 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:01:55.506 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:01:55.523 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:03:28.083 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:03:28.100 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:05:44.138 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:05:44.157 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:05:50.638 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:05:50.656 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:06:21.562 | timeline_data            | pkgs=198 flights=218 my_pkg=2001 my_vu=21999 buddies=0
+2026-08-23 16:06:33.770 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:06:33.792 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:10:55.879 | timeline_edits           | vus=1 wps=1 key='C:\\Falcon BMS 4.38\\Data\\Campaign\\Test_campagne.cam'
+2026-08-23 16:10:56.209 | timeline_data            | pkgs=198 flights=218 my_pkg=2001 my_vu=21999 buddies=0
+2026-08-23 16:10:56.306 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:11:07.890 | timeline_edits           | vus=1 wps=1 key='C:\\Falcon BMS 4.38\\Data\\Campaign\\Test_campagne.cam'
+2026-08-23 16:11:08.228 | timeline_data            | pkgs=198 flights=218 my_pkg=2001 my_vu=21999 buddies=0
+2026-08-23 16:11:08.328 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:13:55.800 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:13:55.822 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:14:44.355 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:14:44.372 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:17:00.376 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:17:00.510 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:17:40.401 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:17:40.442 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:18:20.027 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:18:20.029 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:18:20.158 | ato_departure            | resolved=4/4
+2026-08-23 16:18:22.611 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:18:22.635 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:18:24.852 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:18:24.875 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:18:25.006 | ato_departure            | resolved=4/4
+2026-08-23 16:18:27.010 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:18:27.035 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:18:57.967 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:18:57.976 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:18:58.104 | ato_departure            | resolved=4/4
+2026-08-23 16:20:48.478 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:20:48.497 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:20:51.133 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-23 16:20:51.154 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=3524d085
+2026-08-23 16:20:51.248 | ato_departure            | resolved=4/4
