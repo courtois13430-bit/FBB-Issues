@@ -1,0 +1,18 @@
+2026-08-23 21:48:30.785 | ========================================================================
+2026-08-23 21:48:30.785 | FBB Online  mode=CLIENT    identity=Obe1              port=45380
+2026-08-23 21:48:30.785 | Session : 2026-08-23 21:48:30
+2026-08-23 21:48:30.786 | ========================================================================
+2026-08-23 21:48:30.786 | [STATE] _client none -> NetworkClient#26184055f90 | cause=connect_client
+2026-08-23 21:48:30.786 | [STATE] _mode idle -> client | cause=connect_client
+2026-08-23 21:48:30.786 | [STATE] _my_callsign (vide) -> Obe1 | cause=connect_client
+2026-08-23 21:48:30.787 | [STATE] reset online | cause=connect_client | efface=bms_host, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-08-23 21:48:30.787 | [CLIENT] Connexion → 86.194.141.253:45380 (callsign=Obe1)
+2026-08-23 21:48:30.787 | [CLIENT] status → connecting
+2026-08-23 21:48:30.955 | [CLIENT] status → error:host non autorise
+2026-08-23 21:48:31.054 | [CLIENT] status → disconnected
+2026-08-23 21:48:31.054 | [STATE] _client NetworkClient#26184055f90 -> none | cause=resync_client_thread_dead
+2026-08-23 21:48:31.054 | [STATE] _mode client -> idle | cause=resync_client_thread_dead
+2026-08-23 21:48:31.055 | [STATE] _my_callsign Obe1 -> (vide) | cause=resync_client_thread_dead
+2026-08-23 21:48:31.055 | [STATE] reset online | cause=resync_client_thread_dead | efface=bms_host, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-08-23 21:48:31.055 | ========================================================================
+2026-08-23 21:48:31.055 | FBB Online — session terminée | cause=resync client — thread réseau du client de session arrêté hors disconnect_client
