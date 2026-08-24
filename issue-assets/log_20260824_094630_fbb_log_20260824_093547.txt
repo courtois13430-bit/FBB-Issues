@@ -1,0 +1,440 @@
+09:35:47.808 INFO     fbb.web.launcher       | Session log : C:\Users\thcab\AppData\Local\Programs\FBB\_internal\Log\fbb_log_20260824_093547.txt
+09:35:47.809 INFO     fbb.web.launcher       | FBB version : 1.80.0
+09:35:47.812 INFO     fbb.web.launcher       | Icône fenêtre : C:\Users\thcab\AppData\Local\Programs\FBB\_internal\Art\FBB.ico
+09:35:47.863 INFO     fbb.web.launcher       | TLS : truststore actif (vérification via magasin Windows)
+09:35:47.885 INFO     fbb.license            | Licence valide — Rouge, expire 2027-09-30
+09:35:47.885 INFO     fbb.license_gate       | Licence OK — Rouge (expire 2027-09-30)
+09:35:47.903 INFO     fbb.web.launcher       | Démarrage uvicorn sur 127.0.0.1:8765
+09:35:47.944 DEBUG    fbb.web.launcher       | Splash : 700x650 @ (930,395) — file:///C:/Users/thcab/AppData/Local/Temp/fbb_splash_22lgz5wd.html
+09:35:49.833 DEBUG    asyncio                | Using proactor: IocpProactor
+09:35:49.863 INFO     uvicorn.error          | Started server process [17856]
+09:35:49.863 INFO     uvicorn.error          | Waiting for application startup.
+09:35:49.865 INFO     fbb.web                | Bootstrap AppContext…
+09:35:49.933 INFO     fbb.web.context        | Session précédente : cam=C:\Falcon BMS 4.38\Data\Campaign\Test_campagne.cam html=C:\Falcon BMS 4.38\User\Briefings\2026-08-23_155446_briefing.html
+09:35:51.145 DEBUG    utils.parse_health     | parse OK — Test_campagne.cam: records 1008/1008, bytes 557008/557008, rejects=0, exc=0, constr_err=0, first_desync=None
+09:35:51.272 INFO     fbb.web.context        | Theater objects validés (Korea KTO) : 5999 objets, recouvrement noms 49/49 [objectives_Korea_KTO.json]
+09:35:51.274 INFO     fbb.web.context        | INI DTC chargé : 16 sections
+09:35:51.371 INFO     fbb.web.context        | Terrain DB chargée
+09:35:51.373 INFO     fbb.web.context        | HiresTileCache initialise : C:\Falcon BMS 4.38\Data\TerrData\Korea\NewTerrain\Photoreal\16K (calibrated=True)
+09:35:51.380 INFO     fbb.web.context        | HiresOverlayCache initialise : C:\Falcon BMS 4.38\Data\TerrData\Korea\NewTerrain\Photoreal\Hires\Day (1643 tuiles)
+09:35:51.382 INFO     fbb.web.context        | Airports (Korea KTO) : 87 aérodromes
+09:35:51.523 INFO     fbb.web.context        | UCD 609 entries, VCD 449 entries
+09:35:51.542 INFO     fbb.web.context        | resolve_my_flight: pkg=2001 flight=Eagle6 seat=0 vu=21999 ini_cam=red unresolved=False (brief=2026-08-23_155446_briefing.html)
+09:35:51.542 INFO     fbb.web.context        | Context chargé : 1008 units, 49 objectives depuis Test_campagne.cam
+09:35:51.542 INFO     fbb.web.context        | [perf] build_context 1008 unités, 49 objectifs, 5999 theater_objects en 1676 ms — Test_campagne.cam
+09:35:51.542 INFO     fbb.web.context        | Palette équipes teintée par camp (Korea KTO) : {0: '#9ca3af', 1: '#1d4ed8', 2: '#3b82f6', 3: '#93c5fd', 4: '#f97316', 5: '#f59e0b', 6: '#ef4444', 7: '#22d3ee'}
+09:35:51.543 INFO     fbb.web                | Génération sprites tactiques OTAN (fallback)…
+09:35:51.544 INFO     fbb.web.map            | [bg-tiles] Chargement PNG kto en mémoire…
+09:35:51.554 INFO     fbb.web.sprites        | Sprites générés : 0 nouveaux / 280 total dans C:\Users\thcab\AppData\Local\Programs\FBB\_internal\backend_api\static\sprites
+09:35:51.555 INFO     fbb.web                | Génération sprites RSC BMS (palette sig=0166ee9884f4, force=True)…
+09:35:51.588 DEBUG    utils.bms_rsc          | bms_rsc: loaded 82 icons from BluDark
+09:35:51.621 DEBUG    utils.bms_rsc          | bms_rsc: loaded 82 icons from RedDark
+09:35:51.654 DEBUG    utils.bms_rsc          | bms_rsc: loaded 82 icons from GrnDark
+09:35:52.498 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_nn
+09:35:52.789 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_ne
+09:35:53.055 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_ee
+09:35:53.312 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_se
+09:35:53.578 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_ss
+09:35:53.835 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_sw
+09:35:54.099 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_ww
+09:35:54.364 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_nw
+09:35:55.308 INFO     fbb.web.map            | [perf] bg_png_decode kto 16384x16384 en 3765 ms, résident ~768 Mo RAM
+09:35:56.662 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_nn
+09:35:56.928 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_ne
+09:35:57.195 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_ee
+09:35:57.467 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_se
+09:35:57.735 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_ss
+09:35:58.004 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_sw
+09:35:58.286 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_ww
+09:35:58.559 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_nw
+09:35:58.844 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_nn
+09:35:59.137 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_ne
+09:35:59.418 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_ee
+09:35:59.700 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_se
+09:35:59.982 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_ss
+09:36:00.243 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_sw
+09:36:00.511 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_ww
+09:36:00.772 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_nw
+09:36:06.637 INFO     fbb.web.rsc            | Sprites RSC générés : 192 sol/naval + 6 squadron + 3752 air (0 en cache) = 3950 (rsc_dir=C:\Falcon BMS 4.38\Data\Art\Resource)
+09:36:06.639 INFO     fbb.web                | [perf] rsc_sprites 3950 sprites (force=True) en 15084 ms
+09:36:06.639 INFO     utils.bms_rsc          | init_image_ids: 338 entrées chargées depuis C:\Falcon BMS 4.38\Data\Art\Main\ImageIds.id
+09:36:06.640 INFO     utils.bms_rsc          | init_irc_map: 82 icônes IRC chargées depuis C:\Falcon BMS 4.38\Data\Art\Resource\BluDark.idx
+09:36:06.640 INFO     fbb.web                | Génération sprites theater_features…
+09:36:06.677 DEBUG    utils.bms_rsc          | bms_rsc: loaded 82 icons from BluDark
+09:36:06.677 DEBUG    fbb.web.rsc            | theater sprite: icône ADDLINE_CUR absente du RSC
+09:36:06.678 DEBUG    fbb.web.rsc            | theater sprite: icône ADDLINE_CUR_ERROR absente du RSC
+09:36:06.678 DEBUG    fbb.web.rsc            | theater sprite: icône ADDLINE_CUR_SEL absente du RSC
+09:36:06.678 DEBUG    fbb.web.rsc            | theater sprite: icône ASSIGNED_TGT_CUR absente du RSC
+09:36:06.678 DEBUG    fbb.web.rsc            | theater sprite: icône ATO_ICON_1 absente du RSC
+09:36:06.678 DEBUG    fbb.web.rsc            | theater sprite: icône ATO_ICON_2 absente du RSC
+09:36:06.678 DEBUG    fbb.web.rsc            | theater sprite: icône ATO_SKULL absente du RSC
+09:36:06.678 DEBUG    fbb.web.rsc            | theater sprite: icône BID_ATO_F16 absente du RSC
+09:36:06.678 DEBUG    fbb.web.rsc            | theater sprite: icône BID_CHK1_OFF absente du RSC
+09:36:06.678 DEBUG    fbb.web.rsc            | theater sprite: icône BID_CHK1_ON absente du RSC
+09:36:06.678 DEBUG    fbb.web.rsc            | theater sprite: icône BID_DROPDOWN absente du RSC
+09:36:06.678 DEBUG    fbb.web.rsc            | theater sprite: icône BID_SCROLL absente du RSC
+09:36:06.678 DEBUG    fbb.web.rsc            | theater sprite: icône BID_SCROLLCAP_BOTTOM_OFF absente du RSC
+09:36:06.678 DEBUG    fbb.web.rsc            | theater sprite: icône BID_SCROLLCAP_BOTTOM_ON absente du RSC
+09:36:06.678 DEBUG    fbb.web.rsc            | theater sprite: icône BID_SCROLLCAP_TOP_OFF absente du RSC
+09:36:06.678 DEBUG    fbb.web.rsc            | theater sprite: icône BID_SCROLLCAP_TOP_ON absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT1 absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT2 absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT3 absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT4 absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT5 absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT6 absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT7 absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT8 absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_EAST absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_NORTH absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_NORTHEAST absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_NORTHWEST absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_SOUTH absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_SOUTHEAST absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_SOUTHWEST absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_WEST absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT1 absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT2 absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT3 absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT4 absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT5 absente du RSC
+09:36:06.679 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT6 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT7 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT8 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône CAMP_FROM_SIM absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône CAMP_TO_SIM absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône CS_SMALL_PATCH absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT1 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT2 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT3 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT4 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT5 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT6 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT7 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT8 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT1 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT2 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT3 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT4 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT5 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT6 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT7 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT8 absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône HOME_BASE_CUR absente du RSC
+09:36:06.680 DEBUG    fbb.web.rsc            | theater sprite: icône IA_MAP_TGA absente du RSC
+09:36:06.681 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_A10 absente du RSC
+09:36:06.681 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_A50 absente du RSC
+09:36:06.681 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AH64 absente du RSC
+09:36:06.759 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AIR_ENEMY absente du RSC
+09:36:06.759 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AIR_FRIEND absente du RSC
+09:36:06.848 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AMPHIBIOUS absente du RSC
+09:36:06.848 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AMX absente du RSC
+09:36:06.848 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AN124 absente du RSC
+09:36:06.848 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AN2 absente du RSC
+09:36:06.848 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AN225 absente du RSC
+09:36:06.848 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AN24 absente du RSC
+09:36:07.489 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AV8 absente du RSC
+09:36:07.489 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_B1B absente du RSC
+09:36:07.489 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_B2A absente du RSC
+09:36:07.489 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_B52 absente du RSC
+09:36:07.489 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_B707 absente du RSC
+09:36:07.570 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_C130 absente du RSC
+09:36:07.570 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_C17 absente du RSC
+09:36:07.570 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_C5 absente du RSC
+09:36:07.594 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_CH47 absente du RSC
+09:36:07.728 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_E2C absente du RSC
+09:36:07.728 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_E3 absente du RSC
+09:36:07.728 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_EA6B absente du RSC
+09:36:07.728 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_EF2000 absente du RSC
+09:36:07.752 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F111 absente du RSC
+09:36:07.752 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F117 absente du RSC
+09:36:07.753 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F14 absente du RSC
+09:36:07.753 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F15C absente du RSC
+09:36:07.753 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F16 absente du RSC
+09:36:07.753 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F18 absente du RSC
+09:36:07.753 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F22 absente du RSC
+09:36:07.753 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F4 absente du RSC
+09:36:07.753 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F5 absente du RSC
+09:36:07.830 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_G4 absente du RSC
+09:36:07.882 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_HELI_ENEMY absente du RSC
+09:36:07.882 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_HELI_FRIEND absente du RSC
+09:36:07.991 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_IL28 absente du RSC
+09:36:07.991 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_IL76 absente du RSC
+09:36:08.043 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_JA37 absente du RSC
+09:36:08.044 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_JAGUAR absente du RSC
+09:36:08.044 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_JAS39 absente du RSC
+09:36:08.044 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_KA50 absente du RSC
+09:36:08.044 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_KC10 absente du RSC
+09:36:08.044 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_KC135 absente du RSC
+09:36:08.044 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_M2000 absente du RSC
+09:36:08.044 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MD500 absente du RSC
+09:36:08.069 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MF1 absente du RSC
+09:36:08.069 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MI24 absente du RSC
+09:36:08.069 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MI8 absente du RSC
+09:36:08.069 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG17 absente du RSC
+09:36:08.069 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG19 absente du RSC
+09:36:08.069 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG21 absente du RSC
+09:36:08.069 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG23 absente du RSC
+09:36:08.069 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG25 absente du RSC
+09:36:08.069 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG29 absente du RSC
+09:36:08.069 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIII absente du RSC
+09:36:08.069 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MISSILE_AD absente du RSC
+09:36:08.069 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MISS_ENEMY absente du RSC
+09:36:08.069 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MISS_FRIEND absente du RSC
+09:36:08.172 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MV22 absente du RSC
+09:36:08.225 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_OH58 absente du RSC
+09:36:08.301 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_Q5 absente du RSC
+09:36:08.353 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_RAFALE absente du RSC
+09:36:08.380 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_RECCON absente du RSC
+09:36:08.405 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SF absente du RSC
+09:36:08.405 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SHIP_ENEMY absente du RSC
+09:36:08.405 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SHIP_FRIEND absente du RSC
+09:36:08.485 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SIGNALS absente du RSC
+09:36:08.510 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SR71 absente du RSC
+09:36:08.511 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SU25 absente du RSC
+09:36:08.511 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SU27 absente du RSC
+09:36:08.511 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SU32 absente du RSC
+09:36:08.511 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SU33 absente du RSC
+09:36:08.536 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SUB_ENEMY absente du RSC
+09:36:08.536 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SUB_FRIEND absente du RSC
+09:36:08.780 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_TU16N absente du RSC
+09:36:08.780 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_TU95 absente du RSC
+09:36:08.780 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_U2 absente du RSC
+09:36:08.780 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_UAV absente du RSC
+09:36:08.780 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_UH1H absente du RSC
+09:36:08.780 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_UH60 absente du RSC
+09:36:08.780 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_UKN absente du RSC
+09:36:08.886 DEBUG    fbb.web.rsc            | theater sprite: icône IP_CUR absente du RSC
+09:36:08.886 DEBUG    fbb.web.rsc            | theater sprite: icône IP_CUR_ERROR absente du RSC
+09:36:08.886 DEBUG    fbb.web.rsc            | theater sprite: icône IP_CUR_SEL absente du RSC
+09:36:08.886 DEBUG    fbb.web.rsc            | theater sprite: icône IP_OTR absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône IP_OTR_OTHER absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône IP_OTR_SEL absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône MAIN__FROM_SIM absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône MAIN__TO_SIM absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM0_ICONS absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM1_ICONS absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM2_ICONS absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM3_ICONS absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM4_ICONS absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM5_ICONS absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM6_ICONS absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM7_ICONS absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône MUTE_ICON absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône NULL absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BAHRAIN absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BAHRAIN_DRK absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BAHRAIN_HRZ absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BELGIUM absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BELGIUM_DRK absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BELGIUM_HRZ absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BRAZIL absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BRAZIL_DRK absente du RSC
+09:36:08.887 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BRAZIL_HRZ absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CHINA absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CHINA_DRK absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CHINA_HRZ absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CIS absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CIS_DRK absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CIS_HRZ absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_FRANCE absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_FRANCE_DRK absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_FRANCE_HRZ absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_JAPAN absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_JAPAN_DRK absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_JAPAN_HRZ absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NATO absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NATO_DRK absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NATO_HRZ absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NKOREA absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NKOREA_DRK absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NKOREA_HRZ absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SKOREA absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SKOREA_DRK absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SKOREA_HRZ absente du RSC
+09:36:08.888 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SWISS absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SWISS_DRK absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SWISS_HRZ absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_USA absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_USA_DRK absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_USA_HRZ absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT1 absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT2 absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT3 absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT4 absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT5 absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT6 absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT7 absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT8 absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône PATCHES_RESOURCE absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône PILOTS_RESOURCE absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT1 absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT2 absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT3 absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT4 absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT5 absente du RSC
+09:36:08.889 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT6 absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT7 absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT8 absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_EAST absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_NORTH absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_NORTHEAST absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_NORTHWEST absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_SOUTH absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_SOUTHEAST absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_SOUTHWEST absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_WEST absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_BAHRAIN absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_BELGIUM absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_BRAZIL absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_CHINA absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_CIS absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_FRANCE absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_JAPAN absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_NATO absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_NKOREA absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_SKOREA absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_SWISS absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_USA absente du RSC
+09:36:08.890 DEBUG    fbb.web.rsc            | theater sprite: icône STEARPOINT_ICONS absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_CUR absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_CUR_ERROR absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_CUR_SEL absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_OTR absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_OTR_OTHER absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_OTR_SEL absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_CUR absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_CUR_ERROR absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_CUR_SEL absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_OTR absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_OTR_OTHER absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_OTR_SEL absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône TREE_BLANK absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône TREE_MINUS absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône TREE_PLUS absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT1 absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT2 absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT3 absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT4 absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT5 absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT6 absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT7 absente du RSC
+09:36:08.891 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT8 absente du RSC
+09:36:08.892 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT1 absente du RSC
+09:36:08.892 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT2 absente du RSC
+09:36:08.892 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT3 absente du RSC
+09:36:08.892 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT4 absente du RSC
+09:36:08.892 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT5 absente du RSC
+09:36:08.892 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT6 absente du RSC
+09:36:08.892 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT7 absente du RSC
+09:36:08.892 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT8 absente du RSC
+09:36:08.892 INFO     fbb.web.rsc            | Theater sprites générés : 656 (82 icônes × 8 teams, 267 manquantes, rsc_dir=C:\Falcon BMS 4.38\Data\Art\Resource)
+09:36:08.893 INFO     fbb.web.online         | OnlineManager : boucle asyncio liée
+09:36:08.894 INFO     fbb.dpi                | DPI init depuis DTC : 0 items (target_83..98)
+09:36:08.895 INFO     fbb.fpln_state         | fpln_state restauré — 0 cam(s) pending, 0 cam(s) final, 0 cam(s) slots, 1 cam(s) overrides
+09:36:08.900 INFO     fbb.web.briefing       | BA sidecar restauré : 16 container(s)
+09:36:08.903 INFO     fbb.fpln_state         | FPLN sidecar restauré (v2) : 0 pending, 0 final, 1 overrides, 0 mémoire(s)
+09:36:08.903 INFO     fbb.mission_sidecar    | Sidecar restauré : C:\Falcon BMS 4.38\Data\Campaign\Test_campagne.fbbmiss
+09:36:08.904 INFO     uvicorn.error          | Application startup complete.
+09:36:08.906 INFO     uvicorn.error          | Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+09:36:09.181 INFO     fbb.web.launcher       | [SPLASH] ── Phase 1 : pré-chargement données mission…
+09:36:09.182 DEBUG    fbb.web.launcher       | Splash update OK : Chargement des données mission… 30%
+09:36:09.225 INFO     fbb.web.briefing_match | brief_match: AUTO 2026-08-23_155446_briefing.html tier=STRONG reasons={pkg:OK roster:4/4 tko:— legs:ok osb2:OK} scanned=11
+09:36:09.821 INFO     uvicorn.access         | 127.0.0.1:48913 - "GET /api/dashboard HTTP/1.1" 200
+09:36:09.822 INFO     fbb.web.launcher       | [SPLASH] ── Phase 1 OK  0.64 s
+09:36:09.822 INFO     fbb.web.launcher       | [SPLASH] ── Phase 2 : pré-chargement fond carte SITAC…
+09:36:09.823 DEBUG    fbb.web.launcher       | Splash update OK : Chargement fond carte SITAC… 65%
+09:36:09.828 INFO     uvicorn.access         | 127.0.0.1:48914 - "GET /api/map/background HTTP/1.1" 200
+09:36:09.829 INFO     fbb.web.launcher       | [SPLASH] Fond carte : pré-génération 13 tuiles (z13+z14)…
+09:36:09.834 INFO     uvicorn.access         | 127.0.0.1:48915 - "GET /api/map/bg/kto_820_3358720_r2/13/4096/4095.jpg HTTP/1.1" 200
+09:36:09.835 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z13/4096/4095  0.01 s
+09:36:09.839 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=13 x=4096 y=4096 (ctx.theater_key=kto)
+09:36:09.840 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=13 x=4096 y=4096
+09:36:09.840 INFO     uvicorn.access         | 127.0.0.1:48916 - "GET /api/map/bg/kto_820_3358720_r2/13/4096/4096.jpg HTTP/1.1" 404
+09:36:09.840 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z13/4096/4096 : HTTP Error 404: Not Found
+09:36:09.844 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=13 x=4097 y=4095 (ctx.theater_key=kto)
+09:36:09.845 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=13 x=4097 y=4095
+09:36:09.845 INFO     uvicorn.access         | 127.0.0.1:48917 - "GET /api/map/bg/kto_820_3358720_r2/13/4097/4095.jpg HTTP/1.1" 404
+09:36:09.845 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z13/4097/4095 : HTTP Error 404: Not Found
+09:36:09.849 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=13 x=4097 y=4096 (ctx.theater_key=kto)
+09:36:09.850 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=13 x=4097 y=4096
+09:36:09.850 INFO     uvicorn.access         | 127.0.0.1:48918 - "GET /api/map/bg/kto_820_3358720_r2/13/4097/4096.jpg HTTP/1.1" 404
+09:36:09.850 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z13/4097/4096 : HTTP Error 404: Not Found
+09:36:09.855 INFO     uvicorn.access         | 127.0.0.1:48919 - "GET /api/map/bg/kto_820_3358720_r2/14/8192/8190.jpg HTTP/1.1" 200
+09:36:09.856 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8192/8190  0.01 s
+09:36:09.861 INFO     uvicorn.access         | 127.0.0.1:48920 - "GET /api/map/bg/kto_820_3358720_r2/14/8192/8191.jpg HTTP/1.1" 200
+09:36:09.862 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8192/8191  0.01 s
+09:36:09.866 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8192 y=8192 (ctx.theater_key=kto)
+09:36:09.867 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8192 y=8192
+09:36:09.867 INFO     uvicorn.access         | 127.0.0.1:48921 - "GET /api/map/bg/kto_820_3358720_r2/14/8192/8192.jpg HTTP/1.1" 404
+09:36:09.867 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8192/8192 : HTTP Error 404: Not Found
+09:36:09.871 INFO     uvicorn.access         | 127.0.0.1:48922 - "GET /api/map/bg/kto_820_3358720_r2/14/8193/8190.jpg HTTP/1.1" 200
+09:36:09.873 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8193/8190  0.01 s
+09:36:09.877 INFO     uvicorn.access         | 127.0.0.1:48923 - "GET /api/map/bg/kto_820_3358720_r2/14/8193/8191.jpg HTTP/1.1" 200
+09:36:09.879 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8193/8191  0.01 s
+09:36:09.883 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8193 y=8192 (ctx.theater_key=kto)
+09:36:09.883 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8193 y=8192
+09:36:09.883 INFO     uvicorn.access         | 127.0.0.1:48924 - "GET /api/map/bg/kto_820_3358720_r2/14/8193/8192.jpg HTTP/1.1" 404
+09:36:09.884 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8193/8192 : HTTP Error 404: Not Found
+09:36:09.887 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8194 y=8190 (ctx.theater_key=kto)
+09:36:09.888 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8194 y=8190
+09:36:09.888 INFO     uvicorn.access         | 127.0.0.1:48925 - "GET /api/map/bg/kto_820_3358720_r2/14/8194/8190.jpg HTTP/1.1" 404
+09:36:09.888 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8194/8190 : HTTP Error 404: Not Found
+09:36:09.892 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8194 y=8191 (ctx.theater_key=kto)
+09:36:09.892 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8194 y=8191
+09:36:09.893 INFO     uvicorn.access         | 127.0.0.1:48926 - "GET /api/map/bg/kto_820_3358720_r2/14/8194/8191.jpg HTTP/1.1" 404
+09:36:09.893 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8194/8191 : HTTP Error 404: Not Found
+09:36:09.897 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8194 y=8192 (ctx.theater_key=kto)
+09:36:09.897 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8194 y=8192
+09:36:09.897 INFO     uvicorn.access         | 127.0.0.1:48927 - "GET /api/map/bg/kto_820_3358720_r2/14/8194/8192.jpg HTTP/1.1" 404
+09:36:09.898 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8194/8192 : HTTP Error 404: Not Found
+09:36:09.898 INFO     fbb.web.launcher       | [SPLASH] Fond carte : 5/13 tuiles cachées — 0.07 s total
+09:36:09.898 INFO     fbb.web.launcher       | [SPLASH] ── Phase 2 OK  0.08 s
+09:36:09.898 INFO     fbb.web.launcher       | [SPLASH] ── Phase 3 : ouverture dashboard…
+09:36:09.899 DEBUG    fbb.web.launcher       | Splash update OK : Ouverture… 90%
+09:36:09.899 INFO     fbb.web.launcher       | Ouverture fenêtre Dashboard → http://127.0.0.1:8765/dashboard.html
+09:36:10.010 INFO     uvicorn.access         | 127.0.0.1:64519 - "GET /dashboard.html HTTP/1.1" 200
+09:36:10.024 INFO     uvicorn.access         | 127.0.0.1:64519 - "GET /fbb-tokens.css HTTP/1.1" 200
+09:36:10.037 INFO     uvicorn.access         | 127.0.0.1:64519 - "GET /fbb-buttons.css HTTP/1.1" 200
+09:36:10.038 INFO     uvicorn.access         | 127.0.0.1:55701 - "GET /utils.js HTTP/1.1" 200
+09:36:10.039 INFO     uvicorn.access         | 127.0.0.1:52321 - "GET /js/i18n.js?v=20260822a HTTP/1.1" 200
+09:36:10.040 INFO     uvicorn.access         | 127.0.0.1:17460 - "GET /fbb-tooltips.css HTTP/1.1" 200
+09:36:10.041 INFO     uvicorn.access         | 127.0.0.1:57498 - "GET /js/fbb-dialog.js HTTP/1.1" 200
+09:36:10.042 INFO     uvicorn.access         | 127.0.0.1:1768 - "GET /js/knb-print-report.js?v=20260812b HTTP/1.1" 200
+09:36:10.047 INFO     uvicorn.access         | 127.0.0.1:55701 - "GET /js/win-keys.js HTTP/1.1" 200
+09:36:10.049 INFO     uvicorn.access         | 127.0.0.1:64519 - "GET /assets/ui/FBB_Main_UI_web_v4.png?v=20260815b HTTP/1.1" 200
+09:36:10.055 INFO     uvicorn.access         | 127.0.0.1:55701 - "GET /js/fbb-tooltips.js?v=20260818b HTTP/1.1" 200
+09:36:10.075 INFO     uvicorn.error          | 127.0.0.1:17136 - "WebSocket /ws" [accepted]
+09:36:10.075 DEBUG    fbb.ws                 | WS connect — 1 clients
+09:36:10.076 INFO     uvicorn.error          | connection open
+09:36:10.114 INFO     fbb.web.briefing_match | brief_match: AUTO 2026-08-23_155446_briefing.html tier=STRONG reasons={pkg:OK roster:4/4 tko:— legs:ok osb2:OK} scanned=11
+09:36:11.102 INFO     uvicorn.access         | 127.0.0.1:57498 - "GET /api/dashboard HTTP/1.1" 200
+09:36:11.102 INFO     uvicorn.access         | 127.0.0.1:52321 - "GET /api/kneeboard/print_state HTTP/1.1" 200
+09:36:11.103 INFO     uvicorn.access         | 127.0.0.1:55701 - "GET /api/dtc/pending HTTP/1.1" 200
+09:36:11.104 INFO     uvicorn.access         | 127.0.0.1:17460 - "GET /api/setup/prefs HTTP/1.1" 200
+09:36:11.104 INFO     uvicorn.access         | 127.0.0.1:1768 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+09:36:11.119 INFO     uvicorn.access         | 127.0.0.1:57498 - "GET /api/online/status HTTP/1.1" 200
+09:36:11.120 INFO     uvicorn.access         | 127.0.0.1:55701 - "GET /api/setup/prefs HTTP/1.1" 200
+09:36:11.120 INFO     uvicorn.access         | 127.0.0.1:1768 - "GET /api/dtc/stpt_wipe_check HTTP/1.1" 200
+09:36:11.121 INFO     fbb.web.ui             | UI »» prefetch/start         t=0ms
+09:36:11.123 INFO     uvicorn.access         | 127.0.0.1:52321 - "GET /api/telemetry/status HTTP/1.1" 200
+09:36:11.124 INFO     uvicorn.access         | 127.0.0.1:64519 - "POST /api/debug/log HTTP/1.1" 200
+09:36:11.124 INFO     uvicorn.access         | 127.0.0.1:17460 - "GET /api/map/background HTTP/1.1" 200
+09:36:11.145 INFO     fbb.web.ui             | UI »» prefetch/launched      t=24ms n=1 theater=kto
+09:36:11.146 INFO     uvicorn.access         | 127.0.0.1:64519 - "POST /api/debug/log HTTP/1.1" 200
+09:36:11.147 INFO     uvicorn.access         | 127.0.0.1:17460 - "GET /assets/theater/Korea/KoreaWhite.png HTTP/1.1" 200
+09:36:11.149 INFO     uvicorn.access         | 127.0.0.1:52321 - "GET /favicon.ico HTTP/1.1" 404
+09:36:11.156 INFO     fbb.web.ui             | UI »» prefetch/img_done      t=44ms dt=19ms url=/assets/theater/Korea/KoreaWhite.png
+09:36:11.156 INFO     uvicorn.access         | 127.0.0.1:17460 - "POST /api/debug/log HTTP/1.1" 200
+09:36:11.462 INFO     uvicorn.access         | 127.0.0.1:57498 - "GET /api/update/check HTTP/1.1" 200
+09:36:15.061 INFO     uvicorn.access         | 127.0.0.1:57498 - "GET /api/online/status HTTP/1.1" 200
+09:36:18.913 INFO     fbb.web.launcher       | quit_app : fermeture de FBB demandée
+09:36:18.920 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (21 fenêtres)
+09:36:18.920 DEBUG    fbb.web.launcher       | native pywebview: read x/y/w/h (snapshot) "dashboard" tid=Dummy-5 
+09:36:18.921 DEBUG    fbb.web.launcher       | Snapshot géométrie "dashboard" : 674x907 @ (41,163)
+09:36:18.924 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (21 fenêtres)
+09:36:18.954 DEBUG    fbb.web                | WS keepalive terminé (déconnexion client)
+09:36:18.954 DEBUG    fbb.ws                 | WS disconnect — 0 clients
+09:36:18.954 INFO     uvicorn.error          | connection closed
+09:36:19.278 INFO     fbb.web.launcher       | Dashboard fermé. Bye.
+09:36:24.011 WARNING  fbb.web.launcher       | quit_app : process vivant après 3 s → os._exit(0)
