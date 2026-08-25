@@ -1,0 +1,17 @@
+2026-08-25 21:34:59.562 | ========================================================================
+2026-08-25 21:34:59.563 | FBB Online  mode=SERVER    identity=HOST              port=45380
+2026-08-25 21:34:59.563 | Session : 2026-08-25 21:34:59
+2026-08-25 21:34:59.563 | ========================================================================
+2026-08-25 21:34:59.570 | [TLS] Cert <empreinte masquée>... — host-pass=ok (machine=<masqué>) — epinglage Route B pret
+2026-08-25 21:34:59.571 | [SERVER] status → running
+2026-08-25 21:34:59.571 | [STATE] _mode idle -> server | cause=start_server
+2026-08-25 21:34:59.572 | [STATE] _my_callsign (vide) -> Mandrak | cause=start_server
+2026-08-25 21:34:59.581 | [STATE] reset online | cause=start_server | efface=bms_host(+auto), session_roles, session_seats, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-08-25 21:34:59.588 | [SERVER] Démarré sur port 45380
+2026-08-25 21:35:13.046 | [SERVER] status → stopped
+2026-08-25 21:35:13.046 | [STATE] _mode server -> idle | cause=stop_server
+2026-08-25 21:35:13.046 | [STATE] _my_callsign Mandrak -> (vide) | cause=stop_server
+2026-08-25 21:35:13.047 | [STATE] reset online | cause=stop_server | efface=bms_host(+auto), session_roles, session_seats, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-08-25 21:35:13.047 | [SERVER] Arrêté
+2026-08-25 21:35:13.047 | ========================================================================
+2026-08-25 21:35:13.047 | FBB Online — session terminée | cause=stop_server — arrêt du serveur demandé par l'UI
