@@ -1,0 +1,411 @@
+2026-08-26 20:53:06.428 | ========================================================================
+2026-08-26 20:53:06.428 | startup                  | FBB 1.82.4 — session 2026-08-26 20:53:06
+2026-08-26 20:53:06.428 | startup                  | Répertoire : C:\Falcon\Admin\Logiciels annexes\FBB\_internal
+2026-08-26 20:53:06.428 | startup                  | Python 3.14.5
+2026-08-26 20:53:06.428 | ========================================================================
+2026-08-26 20:53:06.428 | system                   | OS : Windows 11 10.0.26200, AMD64, 32 CPU, RAM 32 GB
+2026-08-26 20:53:06.436 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-08-26 20:53:06.436 | registry                 | BMS baseDir : C:\Falcon\Falcon BMS 4.38
+2026-08-26 20:53:06.436 | registry                 | BMS theater : Korea KTO  pilot : Obe1
+2026-08-26 20:53:08.498 | parse_health             | TS01_7366-jaguar12.cam: records 1332/1332, bytes 599933/599933, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-26 20:53:10.104 | telemetry                | ping OK v1.82.4 Windows 11 canal=prod → HTTP 200
+2026-08-26 20:53:12.571 | ato_target               | index_built names=7320 memo=True
+2026-08-26 20:53:12.571 | ato_target               | resolved id=6110 target=AAA
+2026-08-26 20:53:12.572 | ato_departure            | resolved=4/4
+2026-08-26 20:53:12.771 | ato_target               | resolved id=6110 target=AAA
+2026-08-26 20:53:12.771 | ato_departure            | resolved=4/4
+2026-08-26 20:53:12.927 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 20:53:13.417 | fuel_plan                | avail=12194 atTurn=9098 bingo=4100 joker=4600 rtb=1744 margin=4998 GO
+2026-08-26 20:53:13.420 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=13 hash=af7557ca
+2026-08-26 20:55:07.967 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 20:55:07.983 | fuel_plan                | avail=12194 atTurn=9098 bingo=4100 joker=4600 rtb=1744 margin=4998 GO
+2026-08-26 20:55:07.984 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=13 hash=af7557ca
+2026-08-26 20:55:08.113 | ato_target               | resolved id=6110 target=AAA
+2026-08-26 20:55:08.113 | ato_departure            | resolved=4/4
+2026-08-26 20:55:12.713 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 20:55:12.734 | fuel_plan                | avail=12194 atTurn=9098 bingo=4100 joker=4600 rtb=1744 margin=4998 GO
+2026-08-26 20:55:12.734 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=13 hash=af7557ca
+2026-08-26 20:55:13.182 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-26 20:55:13.368 | mission_support          | awacs: cam pkg=7366 vu=20151
+2026-08-26 20:55:13.430 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-26 20:55:13.449 | package_comms            | tactical ch=6 primary=Mudhen 4 uhf=270.625
+2026-08-26 20:55:14.470 | campaign_overview        | objective_index loaded=5992
+2026-08-26 20:55:14.475 | campaign_overview        | tri conditions=1 file=save1.tri
+2026-08-26 20:55:14.799 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-08-26 20:55:14.799 | campaign_overview        | system_marks=2
+2026-08-26 20:55:15.007 | mission_support          | tanker: cam pkg=7366 vu=20137
+2026-08-26 20:55:15.111 | mission_support          | awacs: cam pkg=7366 vu=20151
+2026-08-26 20:55:15.230 | briefing_context         | package_overview flights=4 route_points=26 focus_points=3 unique_points=26
+2026-08-26 20:55:15.637 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 20:55:15.823 | ppt_auto                 | threats_found=79 written=10 ecrases=0 sans_type=0 in_wez=8
+2026-08-26 20:55:15.823 | ppt_auto_slot            | SA5 dist=41.7NM wez_pen=-57.3NM
+2026-08-26 20:55:15.823 | ppt_auto_slot            | SA5 dist=65.6NM wez_pen=-33.4NM
+2026-08-26 20:55:15.823 | ppt_auto_slot            | SA2 dist=3.8NM wez_pen=-26.2NM
+2026-08-26 20:55:15.823 | ppt_auto_slot            | SA2 dist=12.1NM wez_pen=-17.9NM
+2026-08-26 20:55:15.824 | ppt_auto_slot            | AAA dist=0.0NM wez_pen=-6.0NM
+2026-08-26 20:55:15.824 | ppt_auto_slot            | SA2 dist=25.3NM wez_pen=-4.7NM
+2026-08-26 20:55:15.824 | ppt_auto_slot            | SA2 dist=27.6NM wez_pen=-2.4NM
+2026-08-26 20:55:15.824 | ppt_auto_slot            | AAA dist=3.8NM wez_pen=-2.2NM
+2026-08-26 20:55:15.824 | ppt_auto_slot            | SA2 dist=32.5NM wez_pen=+2.5NM
+2026-08-26 20:55:15.824 | ppt_auto_slot            | SA2 dist=33.2NM wez_pen=+3.2NM
+2026-08-26 20:55:16.257 | fuel_plan                | avail=12194 atTurn=9098 bingo=4100 joker=4600 rtb=1744 margin=4998 GO
+2026-08-26 20:55:16.257 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=17 n_ppt=10 n_dpi=0 n_divert=3 n_sections=13 hash=af7557ca
+2026-08-26 20:55:16.280 | fuel_plan                | avail=12194 atTurn=9098 bingo=4100 joker=4600 rtb=1744 margin=4998 GO
+2026-08-26 20:55:16.280 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=17 n_ppt=10 n_dpi=0 n_divert=3 n_sections=13 hash=af7557ca
+2026-08-26 20:55:17.148 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-26 20:55:17.148 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-26 20:55:17.148 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-26 20:55:34.621 | boxes_remove             | BOX01
+2026-08-26 20:55:39.209 | ppt_clear_all            | cleared=15
+2026-08-26 20:55:39.641 | fuel_plan                | avail=12194 atTurn=9098 bingo=4100 joker=4600 rtb=1744 margin=4998 GO
+2026-08-26 20:55:39.641 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=17 n_ppt=3 n_dpi=0 n_divert=3 n_sections=13 hash=af7557ca
+2026-08-26 20:55:39.659 | fuel_plan                | avail=12194 atTurn=9098 bingo=4100 joker=4600 rtb=1744 margin=4998 GO
+2026-08-26 20:55:39.659 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=17 n_ppt=3 n_dpi=0 n_divert=3 n_sections=13 hash=af7557ca
+2026-08-26 20:56:25.515 | wx_legend                | grid=6x6 codes=AMB,BLU,GRN,RED,WHT,YLO
+2026-08-26 21:00:41.020 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:00:41.039 | fuel_plan                | avail=12194 atTurn=9098 bingo=4100 joker=4600 rtb=1744 margin=4998 GO
+2026-08-26 21:00:41.040 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=17 n_ppt=3 n_dpi=0 n_divert=3 n_sections=13 hash=af7557ca
+2026-08-26 21:01:45.216 | vprofile_wx              | n=153 fog=0 cb=0
+2026-08-26 21:02:40.172 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:02:40.188 | fuel_plan                | avail=12194 atTurn=9098 bingo=4100 joker=4600 rtb=1744 margin=4998 GO
+2026-08-26 21:02:40.188 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=17 n_ppt=3 n_dpi=0 n_divert=3 n_sections=13 hash=af7557ca
+2026-08-26 21:02:40.319 | ato_target               | resolved id=6110 target=AAA
+2026-08-26 21:02:40.319 | ato_departure            | resolved=4/4
+2026-08-26 21:10:01.824 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:10:01.841 | fuel_plan                | avail=12194 atTurn=9098 bingo=4100 joker=4600 rtb=1744 margin=4998 GO
+2026-08-26 21:10:01.841 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=17 n_ppt=3 n_dpi=0 n_divert=3 n_sections=13 hash=af7557ca
+2026-08-26 21:10:01.965 | ato_target               | resolved id=6110 target=AAA
+2026-08-26 21:10:01.965 | ato_departure            | resolved=4/4
+2026-08-26 21:10:10.877 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:10:10.894 | fuel_plan                | avail=12194 atTurn=9098 bingo=4100 joker=4600 rtb=1744 margin=4998 GO
+2026-08-26 21:10:10.894 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=17 n_ppt=3 n_dpi=0 n_divert=3 n_sections=13 hash=af7557ca
+2026-08-26 21:10:11.004 | ato_target               | resolved id=6110 target=AAA
+2026-08-26 21:10:11.004 | ato_departure            | resolved=4/4
+2026-08-26 21:12:38.161 | online                   | peek_roster 86.194.141.253:45380 start (suggested=Obe1)
+2026-08-26 21:12:39.373 | online                   | peek_roster 86.194.141.253:45380 ok: 1 vol(s)
+2026-08-26 21:13:32.586 | online                   | connect_client 86.194.141.253:45380 as Obe1
+2026-08-26 21:13:32.592 | ato_target               | resolved id=6110 target=AAA
+2026-08-26 21:13:32.592 | ato_departure            | resolved=4/4
+2026-08-26 21:13:32.745 | online                   | flight_occupancy flights=4 connected=1
+2026-08-26 21:13:33.712 | online                   | flight_occupancy flights=4 connected=1
+2026-08-26 21:13:33.911 | online                   | seats_import n=1
+2026-08-26 21:13:34.102 | online                   | campaign_bundle received 8 files
+2026-08-26 21:13:34.115 | online                   | theater_ok: Korea KTO
+2026-08-26 21:13:34.115 | online                   | dpi_sync received 4
+2026-08-26 21:13:34.144 | online                   | ba_containers_sync received 16
+2026-08-26 21:13:34.159 | online                   | seats_import n=1
+2026-08-26 21:13:34.411 | parse_health             | SoloBT.cam: records 1234/1234, bytes 462393/462393, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-26 21:13:34.562 | loadout_laser            | package=7366 laser_flights=0 my_code=1688
+2026-08-26 21:13:34.563 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-08-26 21:13:34.564 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-08-26 21:13:34.568 | loadout_weapon_dtc       | validated_fields=0 stage_sections=11
+2026-08-26 21:13:34.570 | online                   | loadout_sync_received
+2026-08-26 21:13:34.631 | online                   | campaign_bundle applied: SoloBT.cam
+2026-08-26 21:13:34.648 | ato_target               | index_built names=1230 memo=True
+2026-08-26 21:13:34.649 | ato_departure            | resolved=1/1
+2026-08-26 21:13:34.659 | ato_departure            | resolved=1/1
+2026-08-26 21:13:34.752 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:13:34.753 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:13:35.205 | mission_support          | awacs: cam pkg=7580 vu=24133
+2026-08-26 21:13:35.217 | package_comms            | tactical ch=6 primary=Lancer 2 uhf=?
+2026-08-26 21:13:35.245 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:13:35.375 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:13:35.405 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=2 hash=af7557ca
+2026-08-26 21:13:35.659 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:13:35.659 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=2 hash=af7557ca
+2026-08-26 21:13:36.372 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-26 21:13:36.372 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-26 21:13:36.372 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-26 21:13:36.462 | campaign_overview        | objective_index loaded=5992
+2026-08-26 21:13:36.468 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-08-26 21:13:36.786 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-26 21:13:36.786 | campaign_overview        | system_marks=3
+2026-08-26 21:13:36.799 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:13:36.803 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:13:37.067 | mission_support          | awacs: cam pkg=7580 vu=24133
+2026-08-26 21:13:37.069 | mission_support          | tanker: cam pkg=7580 vu=23862
+2026-08-26 21:13:37.187 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-08-26 21:13:37.191 | vprofile_wx              | n=298 fog=0 cb=0
+2026-08-26 21:13:37.246 | vprofile_wx              | n=298 fog=0 cb=0
+2026-08-26 21:13:37.436 | ppt_auto                 | threats_found=5 written=5 ecrases=0 sans_type=0 in_wez=0
+2026-08-26 21:13:37.436 | ppt_auto_slot            | 17 dist=30.2NM wez_pen=+0.2NM
+2026-08-26 21:13:37.437 | ppt_auto_slot            | AAA dist=38.2NM wez_pen=+28.2NM
+2026-08-26 21:13:37.437 | ppt_auto_slot            | AAA dist=39.8NM wez_pen=+29.8NM
+2026-08-26 21:13:37.437 | ppt_auto_slot            | SA3 dist=53.1NM wez_pen=+36.1NM
+2026-08-26 21:13:37.437 | ppt_auto_slot            | AAA dist=85.8NM wez_pen=+75.8NM
+2026-08-26 21:13:37.592 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:13:37.745 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:13:37.750 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:13:37.856 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:13:37.856 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=15 n_ppt=5 n_dpi=0 n_divert=3 n_sections=2 hash=af7557ca
+2026-08-26 21:13:37.872 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:13:37.873 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=15 n_ppt=5 n_dpi=0 n_divert=3 n_sections=2 hash=af7557ca
+2026-08-26 21:13:40.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:13:42.745 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:13:43.763 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:13:46.761 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:13:47.745 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:13:49.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:13:52.745 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:13:52.762 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:13:55.750 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:13:57.745 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:13:58.762 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:01.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:02.744 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:04.762 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:07.745 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:07.750 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:10.755 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:12.136 | ato_departure            | resolved=1/1
+2026-08-26 21:14:12.744 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:13.761 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:16.751 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:17.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:19.755 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:22.745 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:22.761 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:25.756 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:27.741 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:28.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:31.755 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:32.744 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:34.762 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:37.746 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:37.762 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:40.754 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:42.745 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:43.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:46.761 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:47.744 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:49.752 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:52.744 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:52.753 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:55.761 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:57.745 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:14:58.761 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:01.761 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:02.745 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:04.749 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:07.744 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:07.750 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:10.753 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:12.744 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:13.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:16.760 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:17.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:19.760 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:22.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:22.761 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:25.760 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:27.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:28.760 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:31.754 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:32.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:34.760 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:37.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:37.750 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:40.756 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:42.747 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:43.761 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:46.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:47.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:49.760 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:52.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:52.750 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:55.760 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:57.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:15:58.756 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:01.760 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:02.745 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:04.754 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:07.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:07.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:10.760 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:12.744 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:13.751 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:16.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:17.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:19.760 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:22.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:22.750 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:25.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:27.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:28.753 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:31.755 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:32.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:34.756 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:37.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:37.753 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:40.760 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:42.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:43.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:46.750 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:47.744 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:49.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:52.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:52.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:55.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:57.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:16:58.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:01.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:02.742 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:04.750 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:07.742 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:07.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:10.751 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:12.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:13.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:16.755 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:17.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:19.751 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:22.744 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:22.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:25.752 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:27.542 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:27.742 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:28.751 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:31.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:32.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:34.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:37.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:37.760 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:40.751 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:42.742 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:43.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:46.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:47.741 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:49.754 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:51.142 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:17:51.158 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:17:51.159 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=15 n_ppt=5 n_dpi=0 n_divert=3 n_sections=2 hash=af7557ca
+2026-08-26 21:17:51.290 | ato_departure            | resolved=1/1
+2026-08-26 21:17:52.742 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:52.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:55.751 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:57.742 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:17:58.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:01.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:02.741 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:04.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:07.741 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:07.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:10.753 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:12.742 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:13.753 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:16.756 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:17.741 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:19.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:22.332 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:18:22.347 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:18:22.347 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=15 n_ppt=5 n_dpi=0 n_divert=3 n_sections=2 hash=af7557ca
+2026-08-26 21:18:22.481 | ato_departure            | resolved=1/1
+2026-08-26 21:18:22.741 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:22.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:25.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:27.741 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:28.754 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:31.750 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:32.741 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:34.760 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:37.742 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:37.753 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:40.750 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:42.742 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:43.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:46.753 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:47.742 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:49.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:52.745 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:52.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:55.752 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:57.720 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:18:57.736 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:18:57.736 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=15 n_ppt=5 n_dpi=0 n_divert=3 n_sections=2 hash=af7557ca
+2026-08-26 21:18:57.742 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:18:57.867 | ato_departure            | resolved=1/1
+2026-08-26 21:18:58.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:01.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:02.755 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:04.752 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:07.742 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:07.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:10.753 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:12.747 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:13.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:16.750 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:17.748 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:19.753 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:22.746 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:22.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:25.759 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:27.750 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:28.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:31.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:32.742 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:34.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:37.744 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:37.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:40.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:42.747 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:43.751 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:46.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:47.748 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:49.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:52.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:52.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:55.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:57.742 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:19:58.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:01.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:02.742 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:04.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:07.755 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:07.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:10.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:12.753 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:13.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:16.755 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:17.746 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:19.755 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:22.746 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:22.756 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:25.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:27.745 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:28.750 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:31.752 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:32.743 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:34.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:37.750 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:37.752 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:40.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:42.742 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:43.752 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:46.756 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:47.754 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:49.756 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:52.747 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:52.756 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:55.756 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:57.753 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:20:58.756 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:01.755 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:02.749 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:04.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:07.750 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:07.753 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:10.757 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:12.755 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:13.758 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:16.756 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:17.745 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:19.756 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:22.749 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:22.752 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:25.754 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:27.756 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:28.755 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:30.930 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:31.754 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:32.745 | online                   | flight_occupancy flights=4 connected=2
+2026-08-26 21:21:34.755 | online                   | flight_occupancy flights=4 connected=2
