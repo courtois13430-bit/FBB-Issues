@@ -1,0 +1,179 @@
+2026-08-26 21:00:34.168 | ========================================================================
+2026-08-26 21:00:34.168 | startup                  | FBB 1.82.4 — session 2026-08-26 21:00:34
+2026-08-26 21:00:34.168 | startup                  | Répertoire : D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Tools\FBB\_internal
+2026-08-26 21:00:34.168 | startup                  | Python 3.14.5
+2026-08-26 21:00:34.168 | ========================================================================
+2026-08-26 21:00:34.168 | system                   | OS : Windows 11 10.0.26200, AMD64, 32 CPU, RAM 32 GB
+2026-08-26 21:00:34.176 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-08-26 21:00:34.185 | registry                 | BMS baseDir : D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38
+2026-08-26 21:00:34.185 | registry                 | BMS theater : Korea KTO  pilot : Mandrak
+2026-08-26 21:00:35.912 | parse_health             | SoloBT.cam: records 1232/1232, bytes 461700/461700, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-26 21:00:37.615 | ato_target               | index_built names=7227 memo=True
+2026-08-26 21:00:37.615 | ato_target               | resolved id=8163 target=SHORAD
+2026-08-26 21:00:37.615 | ato_departure            | resolved=2/2
+2026-08-26 21:00:38.105 | telemetry                | ping OK v1.82.4 Windows 11 canal=prod → HTTP 200
+2026-08-26 21:00:39.956 | ato_target               | resolved id=8163 target=SHORAD
+2026-08-26 21:00:39.956 | ato_departure            | resolved=2/2
+2026-08-26 21:00:40.573 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:00:40.662 | fuel_plan                | avail=7162 atTurn=4997 bingo=2900 joker=3400 rtb=747 margin=2097 GO
+2026-08-26 21:00:40.664 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:02:28.915 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:02:28.934 | fuel_plan                | avail=7162 atTurn=4997 bingo=2900 joker=3400 rtb=747 margin=2097 GO
+2026-08-26 21:02:28.934 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:02:29.097 | swap_context             | origin=select_cam:latest cam='solobt.cam' loaded=True err=''
+2026-08-26 21:02:29.183 | ato_target               | resolved id=8163 target=SHORAD
+2026-08-26 21:02:29.183 | ato_departure            | resolved=2/2
+2026-08-26 21:02:29.222 | ato_target               | resolved id=8163 target=SHORAD
+2026-08-26 21:02:29.222 | ato_departure            | resolved=2/2
+2026-08-26 21:02:29.252 | ato_target               | resolved id=8163 target=SHORAD
+2026-08-26 21:02:29.252 | ato_departure            | resolved=2/2
+2026-08-26 21:02:29.505 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:02:29.525 | fuel_plan                | avail=7162 atTurn=4997 bingo=2900 joker=3400 rtb=747 margin=2097 GO
+2026-08-26 21:02:29.525 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:02:40.106 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:02:40.128 | fuel_plan                | avail=7162 atTurn=4997 bingo=2900 joker=3400 rtb=747 margin=2097 GO
+2026-08-26 21:02:40.128 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:02:40.448 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-26 21:02:40.451 | mission_support          | awacs: cam pkg=7246 vu=24133
+2026-08-26 21:02:40.452 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-26 21:02:40.452 | package_comms            | tactical ch=6 primary=Weasel 6 uhf=388.850
+2026-08-26 21:02:41.254 | campaign_overview        | objective_index loaded=5992
+2026-08-26 21:02:41.258 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-08-26 21:02:41.588 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-08-26 21:02:41.588 | campaign_overview        | system_marks=3
+2026-08-26 21:02:41.780 | mission_support          | tanker: cam pkg=7246 vu=23862
+2026-08-26 21:02:41.812 | mission_support          | awacs: cam pkg=7246 vu=24133
+2026-08-26 21:02:41.987 | briefing_context         | package_overview flights=2 route_points=8 focus_points=3 unique_points=8
+2026-08-26 21:02:42.412 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:02:43.544 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-26 21:02:43.544 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-26 21:02:43.544 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-26 21:03:04.965 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:03:04.982 | fuel_plan                | avail=7162 atTurn=4997 bingo=2900 joker=3400 rtb=747 margin=2097 GO
+2026-08-26 21:03:04.982 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:03:05.120 | ato_target               | resolved id=8163 target=SHORAD
+2026-08-26 21:03:05.120 | ato_departure            | resolved=2/2
+2026-08-26 21:05:10.551 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:05:10.553 | dtc_render               | path=Mandrak.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=3 hash=da675ee1
+2026-08-26 21:05:11.062 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-26 21:05:11.063 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-26 21:05:11.063 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-26 21:05:11.091 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:05:11.096 | dtc_render               | path=Mandrak.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=3 hash=da675ee1
+2026-08-26 21:05:11.138 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-08-26 21:05:11.140 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-26 21:05:11.141 | campaign_overview        | system_marks=3
+2026-08-26 21:05:11.930 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:05:14.999 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:05:15.002 | dtc_render               | path=Mandrak.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=3 hash=da675ee1
+2026-08-26 21:08:04.889 | bms_lzss.compress        | 462393 o -> 192226 o (ratio 2.41) en 5088 ms
+2026-08-26 21:08:05.285 | parse_health             | SoloBT.cam: records 1234/1234, bytes 462393/462393, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-26 21:08:05.425 | swap_context             | origin=pkg_commit cam='solobt.cam' loaded=True err=''
+2026-08-26 21:08:05.829 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:08:05.832 | dtc_render               | path=Mandrak.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=3 hash=da675ee1
+2026-08-26 21:08:05.834 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:08:21.065 | ato_target               | index_built names=7229 memo=True
+2026-08-26 21:08:21.065 | ato_departure            | resolved=1/1
+2026-08-26 21:08:21.142 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:08:21.487 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:08:21.521 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-26 21:08:21.524 | mission_support          | awacs: cam pkg=7580 vu=24133
+2026-08-26 21:08:21.525 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-26 21:08:21.525 | package_comms            | tactical ch=6 primary=Lancer 2 uhf=352.625
+2026-08-26 21:08:21.753 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:08:21.753 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:08:21.771 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:08:21.772 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:08:22.261 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-26 21:08:22.261 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-26 21:08:22.262 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-26 21:08:22.353 | campaign_overview        | objective_index loaded=5992
+2026-08-26 21:08:22.359 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-08-26 21:08:22.690 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-26 21:08:22.691 | campaign_overview        | system_marks=3
+2026-08-26 21:08:22.987 | mission_support          | tanker: cam pkg=7580 vu=23862
+2026-08-26 21:08:23.059 | mission_support          | awacs: cam pkg=7580 vu=24133
+2026-08-26 21:08:23.095 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-08-26 21:08:23.538 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:08:44.117 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:08:44.131 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:08:44.131 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:08:44.268 | ato_departure            | resolved=1/1
+2026-08-26 21:08:51.672 | ato_departure            | resolved=1/1
+2026-08-26 21:08:51.678 | ato_departure            | resolved=1/1
+2026-08-26 21:08:52.072 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:08:52.076 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:08:52.089 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:08:52.089 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:08:52.105 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:08:52.106 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:09:04.193 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:09:04.209 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:09:04.209 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:09:08.595 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:09:08.611 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:09:08.612 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:09:08.745 | ato_departure            | resolved=1/1
+2026-08-26 21:09:10.367 | loadout3d                | scene unit_ct=2645 veh_ct=2467 ac_model=1052 (F-16CM-50) slots=11 stores=7 seat=0
+2026-08-26 21:09:10.367 | loadout3d                |   HP 1 wid=158 model=1690 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-26 21:09:10.367 | loadout3d                |   HP 2 wid=174 model=1691 slot=[-13.25, -3.70681906, 0.164210007] : AIM-9M Sidewinder
+2026-08-26 21:09:10.367 | loadout3d                |   HP 3 wid=158 model=1690 slot=[-10.0, -1.72720599, 0.127838001] : AIM-120B AMRAAM
+2026-08-26 21:09:10.367 | loadout3d                |   HP 5 wid=85 model=918 slot=[0.0, 1.08500099, -2.62065101] : Tank 300gal
+2026-08-26 21:09:10.367 | loadout3d                |   HP 7 wid=158 model=1690 slot=[10.0, -1.72720599, 0.127838001] : AIM-120B AMRAAM
+2026-08-26 21:09:10.367 | loadout3d                |   HP 8 wid=174 model=1691 slot=[13.25, -3.70681906, 0.164210007] : AIM-9M Sidewinder
+2026-08-26 21:09:10.367 | loadout3d                |   HP 9 wid=158 model=1690 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120B AMRAAM
+2026-08-26 21:09:10.369 | loadout3d                | crew_art vu=20006 seat=0 pilot=60113 patch=70111
+2026-08-26 21:09:14.082 | loadout3d                | _str_compat: aircraft=F-16 D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign → 24 WIDs, 24/24 fichiers .str
+2026-08-26 21:09:14.088 | loadout3d                | _bmsrack_stations: D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Terrdata\objects\BmsRack.dat → 271 WIDs
+2026-08-26 21:09:14.102 | loadout3d                | _ssd_stores: D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Terrdata\objects\Falcon4_SSD.xml → 110 SSD
+2026-08-26 21:09:14.427 | loadout3d                | weapons endpoint: sq_vu=8687 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=50 rack_wids=271 seats=[0] hp=11 weapons=52 (50 dispo)
+2026-08-26 21:09:14.448 | loadout_laser            | package=7580 laser_flights=0 my_code=1688
+2026-08-26 21:09:14.449 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-08-26 21:09:14.449 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-08-26 21:09:31.659 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:09:31.673 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:09:31.673 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:09:31.795 | ato_departure            | resolved=1/1
+2026-08-26 21:09:43.623 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:09:43.638 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:09:43.639 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:09:51.406 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:09:51.422 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:09:51.422 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:09:51.556 | ato_departure            | resolved=1/1
+2026-08-26 21:09:55.242 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:09:58.520 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:09:58.900 | campaign_save            | mark_saved sig=- ecrit=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\SoloBT.cam
+2026-08-26 21:09:59.209 | parse_health             | SoloBT.cam: records 1234/1234, bytes 462393/462393, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-26 21:09:59.359 | swap_context             | origin=save_campaign cam='solobt.cam' loaded=True err=''
+2026-08-26 21:09:59.714 | ato_target               | index_built names=7229 memo=True
+2026-08-26 21:09:59.714 | ato_departure            | resolved=1/1
+2026-08-26 21:09:59.730 | ato_departure            | resolved=1/1
+2026-08-26 21:09:59.804 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:09:59.818 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:09:59.819 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:09:59.843 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:09:59.962 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-26 21:09:59.963 | mission_support          | awacs: cam pkg=7580 vu=24133
+2026-08-26 21:09:59.966 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-26 21:09:59.967 | package_comms            | tactical ch=6 primary=Lancer 2 uhf=352.625
+2026-08-26 21:10:00.128 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:10:00.129 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:10:00.874 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-26 21:10:00.875 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-26 21:10:00.875 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-26 21:10:00.974 | campaign_overview        | objective_index loaded=5992
+2026-08-26 21:10:00.979 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-08-26 21:10:01.408 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-26 21:10:01.408 | campaign_overview        | system_marks=3
+2026-08-26 21:10:01.625 | mission_support          | tanker: cam pkg=7580 vu=23862
+2026-08-26 21:10:01.697 | mission_support          | awacs: cam pkg=7580 vu=24133
+2026-08-26 21:10:01.744 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-08-26 21:10:02.162 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:10:09.828 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:10:09.843 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:10:09.843 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:10:25.026 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0} sig=-
+2026-08-26 21:10:25.043 | fuel_plan                | avail=15495 atTurn=12975 bingo=3100 joker=3600 rtb=542 margin=9875 GO
+2026-08-26 21:10:25.043 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=4 hash=da675ee1
+2026-08-26 21:10:25.178 | ato_departure            | resolved=1/1
