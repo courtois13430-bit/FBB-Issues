@@ -1,0 +1,25 @@
+2026-08-25 21:03:31.944 | ========================================================================
+2026-08-25 21:03:31.944 | FBB Online  mode=CLIENT    identity=Mandrak           port=45380
+2026-08-25 21:03:31.944 | Session : 2026-08-25 21:03:31
+2026-08-25 21:03:31.944 | ========================================================================
+2026-08-25 21:03:31.944 | [STATE] _client none -> NetworkClient#16485307c50 | cause=connect_client
+2026-08-25 21:03:31.945 | [STATE] _mode idle -> client | cause=connect_client
+2026-08-25 21:03:31.945 | [STATE] _my_callsign (vide) -> Mandrak | cause=connect_client
+2026-08-25 21:03:31.945 | [STATE] reset online | cause=connect_client | efface=bms_host(+auto), session_roles, session_seats, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-08-25 21:03:31.945 | [CLIENT] status → connecting
+2026-08-25 21:03:31.954 | [CLIENT] Connexion → 82.64.199.133:45380 (callsign=Mandrak)
+2026-08-25 21:03:32.098 | [CLIENT] status → connected
+2026-08-25 21:03:33.299 | [CAM] Bundle campagne reçu — 8 fichier(s)
+2026-08-25 21:03:33.650 | [THEATER] ✓ Théâtre vérifié — 6 fichier(s) OK
+2026-08-25 21:03:33.655 | [DPI] 1 DPI(s) partagé(s) reçu(s) du host
+2026-08-25 21:03:33.657 | [BA] Conteneurs BA reçus du host — 16 entrée(s)
+2026-08-25 21:03:33.665 | [BOXES] 1 box(es) partagée(s) reçue(s)
+2026-08-25 21:03:33.776 | [LOADOUT] état reçu (pending + final)
+2026-08-25 21:03:33.967 | [CAM] Contexte rechargé → TS01_7366-jaguar12.cam
+2026-08-25 21:34:21.010 | [STATE] _client NetworkClient#16485307c50 -> none | cause=disconnect_client
+2026-08-25 21:34:21.010 | [STATE] _mode client -> idle | cause=disconnect_client
+2026-08-25 21:34:21.010 | [STATE] _my_callsign Mandrak -> (vide) | cause=disconnect_client
+2026-08-25 21:34:21.010 | [STATE] reset online | cause=disconnect_client | efface=bms_host(+auto), session_roles, session_seats, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-08-25 21:34:21.010 | [CLIENT] Déconnecté
+2026-08-25 21:34:21.010 | ========================================================================
+2026-08-25 21:34:21.010 | FBB Online — session terminée | cause=disconnect_client — déconnexion demandée par l'UI
