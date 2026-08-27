@@ -1,0 +1,169 @@
+2026-08-27 21:49:27.229 | ========================================================================
+2026-08-27 21:49:27.229 | startup                  | FBB 1.82.36 — session 2026-08-27 21:49:27
+2026-08-27 21:49:27.229 | startup                  | Répertoire : D:\Developpeur\DTC BMS
+2026-08-27 21:49:27.229 | startup                  | Python 3.14.5
+2026-08-27 21:49:27.229 | ========================================================================
+2026-08-27 21:49:27.229 | system                   | OS : Windows 11 10.0.26200, AMD64, 32 CPU, RAM 32 GB
+2026-08-27 21:49:27.241 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-08-27 21:49:27.241 | registry                 | BMS baseDir : C:\Falcon\Falcon BMS 4.38
+2026-08-27 21:49:27.241 | registry                 | BMS theater : Israel  pilot : Obe1
+2026-08-27 21:49:27.726 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-08-27 21:49:29.278 | parse_health             | OS02.cam: records 1093/1093, bytes 498975/498975, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-27 21:49:30.243 | telemetry                | ping ignoré (dev (build non gelé))
+2026-08-27 21:49:32.362 | ato_target               | index_built names=3827 memo=True
+2026-08-27 21:49:32.362 | ato_target               | resolved id=464 target=El Tal El Kabeer Base
+2026-08-27 21:49:32.362 | ato_departure            | resolved=4/5
+2026-08-27 21:49:32.652 | ato_target               | resolved id=464 target=El Tal El Kabeer Base
+2026-08-27 21:49:32.652 | ato_departure            | resolved=4/5
+2026-08-27 21:49:32.850 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 21:49:33.134 | fuel_plan                | avail=12194 atTurn=7127 bingo=4500 joker=5000 rtb=2289 margin=2627 GO
+2026-08-27 21:49:33.135 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=3 hash=6f378da6
+2026-08-27 21:49:37.101 | swap_context             | origin=select_cam:latest cam='os02.cam' loaded=True err=''
+2026-08-27 21:49:37.110 | ato_target               | resolved id=464 target=El Tal El Kabeer Base
+2026-08-27 21:49:37.110 | ato_departure            | resolved=4/5
+2026-08-27 21:49:37.130 | ato_target               | resolved id=464 target=El Tal El Kabeer Base
+2026-08-27 21:49:37.130 | ato_departure            | resolved=4/5
+2026-08-27 21:49:37.511 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 21:49:37.518 | fuel_plan                | avail=12194 atTurn=7127 bingo=4500 joker=5000 rtb=2289 margin=2627 GO
+2026-08-27 21:49:37.518 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=3 hash=6f378da6
+2026-08-27 21:49:38.398 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 21:49:38.408 | fuel_plan                | avail=12194 atTurn=7127 bingo=4500 joker=5000 rtb=2289 margin=2627 GO
+2026-08-27 21:49:38.408 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=3 hash=6f378da6
+2026-08-27 21:49:38.737 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On Israel\Campaign\RadioMap.dat entries=1530
+2026-08-27 21:49:38.738 | mission_support          | awacs: cam pkg=2874 vu=20363
+2026-08-27 21:49:38.739 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On Israel\Campaign\RadioMap.dat entries=1530
+2026-08-27 21:49:38.739 | package_comms            | tactical ch=6 primary=Stud 6 uhf=384.450
+2026-08-27 21:49:39.424 | campaign_overview        | objective_index loaded=2781
+2026-08-27 21:49:39.427 | campaign_overview        | tri conditions=2 file=save4.tri
+2026-08-27 21:49:39.532 | campaign_overview        | built team=2 conditions=2 force_rows=7
+2026-08-27 21:49:39.532 | campaign_overview        | system_marks=4
+2026-08-27 21:49:39.654 | mission_support          | awacs: cam pkg=2874 vu=20363
+2026-08-27 21:49:40.006 | briefing_context         | package_overview flights=5 route_points=27 focus_points=2 unique_points=27
+2026-08-27 21:49:40.572 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 21:49:40.599 | ppt_auto                 | threats_found=5 written=5 ecrases=0 sans_type=0 in_wez=1
+2026-08-27 21:49:40.599 | ppt_auto_slot            | SA2 dist=28.1NM wez_pen=-1.9NM
+2026-08-27 21:49:40.599 | ppt_auto_slot            | SA2 dist=37.7NM wez_pen=+7.7NM
+2026-08-27 21:49:40.599 | ppt_auto_slot            | SA2 dist=44.3NM wez_pen=+14.3NM
+2026-08-27 21:49:40.599 | ppt_auto_slot            | SA2 dist=46.6NM wez_pen=+16.6NM
+2026-08-27 21:49:40.599 | ppt_auto_slot            | SA2 dist=77.8NM wez_pen=+47.8NM
+2026-08-27 21:49:40.623 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-08-27 21:49:40.920 | airport_diagrams         | taxi surfaces=19 terrains en raster | repli K-NN : 69 sans mesh CT30, 2 sous-couvrants
+2026-08-27 21:49:40.920 | airport_diagrams         |   sans CT30 : Abu Rudies Airport, Abu Suwayr Airbase, Al Bir Highway Strip, Al Jouf Airforce Base, Al Mansurha Airbase, Al Nouza Airfield, Al Qusayr Airbase, Al Rhamaniya Airbase, Al-Muzabin Airstrip, Alismaylia Airbase, Amman Civil Airport, Aqaba INT Airport, As Salihiya Airbase, Ben Gurion INT Airport, Bilbays 2 Airbase, Bilbays Airbase, Borg El Arab Airbase, Cairo Almaza Airbase, Cairo INT Airfield, Cairo West Airbase, Eilat old Airport, Ein Shemer Airstrip, El Arish Airbase, El Gora Airbase, El Tor Airfield, Faid Airbase, Gebeil El Seikh Airbase, Gurayat Domestic Airport, H4 Airbase, Haifa Airport, Hamah Airbase, Herzeliya Airstrip, Hulwan Airbase, Inshas Airbase, Jinkalis New Airbase, King Abdullah II Airbase, King Faisal Bin Abdulaziz Airbase, King Hussein Airbase, Kirban Airbase, Kiryat Shmona Airstrip, Lattakia AirBase, Mediddo Airfield, Negev Airbase, Neom Bay INTL Airport, Palmachim Airbase, Palmyra Airbase, Port Said Airport, Prince Hassan Airbase, Quaswyina Airfield, Queen Alia INT Airport, Rafic Hariri Intl Airport, Ramon-Eilat Airport, Rene Mouawad Airport, Riyaq Airbase, Rosh Pina Airstrip, Sde Teiman Airstrip, Shaheed Mwaffaq Airbase, Sharm El Sheikh INTL Airfield, Shayrat Airbase, Sphinx INTL Airport, Tabe INT Airport, Tanta Airbase, Tiran Airstrip, Tiyas T4 Airbase, Turaif Airport, Wadi Al Asalah Airstrip, Wujah Al Hajar Airstrip, Zamlat Alsaeada Highstrip, Zarqa Airport
+2026-08-27 21:49:40.920 | airport_diagrams         |   CT30 sous-couvrant : An Nasariyah Airbase, Kalhalhak Airbase
+2026-08-27 21:49:41.010 | fuel_plan                | avail=12194 atTurn=7127 bingo=4500 joker=5000 rtb=2289 margin=2627 GO
+2026-08-27 21:49:41.010 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=5 n_dpi=0 n_divert=3 n_sections=3 hash=6f378da6
+2026-08-27 21:49:41.048 | fuel_plan                | avail=12194 atTurn=7127 bingo=4500 joker=5000 rtb=2289 margin=2627 GO
+2026-08-27 21:49:41.048 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=5 n_dpi=0 n_divert=3 n_sections=3 hash=6f378da6
+2026-08-27 21:49:50.531 | boxes_grid               | move rotate resize half=296015 hdg=230.0
+2026-08-27 21:49:55.618 | boxes_grid               | move rotate resize half=296015 hdg=230.0
+2026-08-27 21:50:01.959 | boxes_grid               | move rotate resize half=296015 hdg=225.0
+2026-08-27 21:50:05.173 | boxes_grid               | move rotate resize half=140695 hdg=225.0
+2026-08-27 21:50:12.369 | boxes_grid               | move rotate resize half=140695 hdg=180.0
+2026-08-27 21:50:16.437 | boxes_add                | BOX02 '' vis=package
+2026-08-27 21:50:25.178 | boxes_corners            | BOX02 déplacée
+2026-08-27 21:50:27.297 | boxes_corners            | BOX02 déplacée
+2026-08-27 21:50:29.383 | boxes_corners            | BOX02 déplacée
+2026-08-27 21:50:32.124 | boxes_corners            | BOX02 déplacée
+2026-08-27 21:50:36.747 | boxes_meta               | BOX02 label='' color=#a3e635
+2026-08-27 21:50:42.757 | boxes_corners            | BOX02 déplacée
+2026-08-27 21:52:55.646 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 21:52:55.657 | fuel_plan                | avail=12194 atTurn=7130 bingo=4500 joker=5000 rtb=2289 margin=2630 GO
+2026-08-27 21:52:55.658 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=5 n_dpi=0 n_divert=3 n_sections=3 hash=6f378da6
+2026-08-27 21:53:04.442 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 21:53:04.453 | fuel_plan                | avail=12194 atTurn=7130 bingo=4500 joker=5000 rtb=2289 margin=2630 GO
+2026-08-27 21:53:04.453 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=5 n_dpi=0 n_divert=3 n_sections=3 hash=6f378da6
+2026-08-27 21:53:04.600 | ato_target               | resolved id=464 target=El Tal El Kabeer Base
+2026-08-27 21:53:04.600 | ato_departure            | resolved=4/5
+2026-08-27 21:53:04.789 | parse_health             | OS01.cam: records 951/951, bytes 437629/437629, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-27 21:53:04.894 | swap_context             | origin=select_cam:previous cam='os01.cam' loaded=True err=''
+2026-08-27 21:53:05.022 | ato_target               | index_built names=3685 memo=True
+2026-08-27 21:53:05.023 | ato_target               | resolved id=20054 target=Fighter
+2026-08-27 21:53:05.023 | ato_departure            | resolved=2/2
+2026-08-27 21:53:05.042 | ato_target               | resolved id=20054 target=Fighter
+2026-08-27 21:53:05.042 | ato_departure            | resolved=2/2
+2026-08-27 21:53:05.235 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 21:53:05.376 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On Israel\Campaign\RadioMap.dat entries=1530
+2026-08-27 21:53:05.391 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On Israel\Campaign\RadioMap.dat entries=1530
+2026-08-27 21:53:05.391 | package_comms            | tactical ch=6 primary=Spade 4 uhf=375.850
+2026-08-27 21:53:05.408 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 21:53:05.421 | fuel_plan                | avail=12194 atTurn=10212 bingo=2500 joker=3000 rtb=299 margin=7712 GO
+2026-08-27 21:53:05.421 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=2 hash=6f378da6
+2026-08-27 21:53:05.443 | fuel_plan                | avail=12194 atTurn=10212 bingo=2500 joker=3000 rtb=299 margin=7712 GO
+2026-08-27 21:53:05.446 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=2 hash=6f378da6
+2026-08-27 21:53:06.015 | airport_diagrams         | taxi surfaces=19 terrains en raster | repli K-NN : 69 sans mesh CT30, 2 sous-couvrants
+2026-08-27 21:53:06.015 | airport_diagrams         |   sans CT30 : Abu Rudies Airport, Abu Suwayr Airbase, Al Bir Highway Strip, Al Jouf Airforce Base, Al Mansurha Airbase, Al Nouza Airfield, Al Qusayr Airbase, Al Rhamaniya Airbase, Al-Muzabin Airstrip, Alismaylia Airbase, Amman Civil Airport, Aqaba INT Airport, As Salihiya Airbase, Ben Gurion INT Airport, Bilbays 2 Airbase, Bilbays Airbase, Borg El Arab Airbase, Cairo Almaza Airbase, Cairo INT Airfield, Cairo West Airbase, Eilat old Airport, Ein Shemer Airstrip, El Arish Airbase, El Gora Airbase, El Tor Airfield, Faid Airbase, Gebeil El Seikh Airbase, Gurayat Domestic Airport, H4 Airbase, Haifa Airport, Hamah Airbase, Herzeliya Airstrip, Hulwan Airbase, Inshas Airbase, Jinkalis New Airbase, King Abdullah II Airbase, King Faisal Bin Abdulaziz Airbase, King Hussein Airbase, Kirban Airbase, Kiryat Shmona Airstrip, Lattakia AirBase, Mediddo Airfield, Negev Airbase, Neom Bay INTL Airport, Palmachim Airbase, Palmyra Airbase, Port Said Airport, Prince Hassan Airbase, Quaswyina Airfield, Queen Alia INT Airport, Rafic Hariri Intl Airport, Ramon-Eilat Airport, Rene Mouawad Airport, Riyaq Airbase, Rosh Pina Airstrip, Sde Teiman Airstrip, Shaheed Mwaffaq Airbase, Sharm El Sheikh INTL Airfield, Shayrat Airbase, Sphinx INTL Airport, Tabe INT Airport, Tanta Airbase, Tiran Airstrip, Tiyas T4 Airbase, Turaif Airport, Wadi Al Asalah Airstrip, Wujah Al Hajar Airstrip, Zamlat Alsaeada Highstrip, Zarqa Airport
+2026-08-27 21:53:06.015 | airport_diagrams         |   CT30 sous-couvrant : An Nasariyah Airbase, Kalhalhak Airbase
+2026-08-27 21:53:06.356 | campaign_overview        | objective_index loaded=2781
+2026-08-27 21:53:06.358 | campaign_overview        | tri conditions=2 file=save4.tri
+2026-08-27 21:53:06.464 | campaign_overview        | built team=2 conditions=2 force_rows=7
+2026-08-27 21:53:06.465 | campaign_overview        | system_marks=4
+2026-08-27 21:53:06.756 | briefing_context         | package_overview flights=2 route_points=11 focus_points=2 unique_points=11
+2026-08-27 21:53:07.302 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 21:53:07.321 | ppt_auto                 | threats_found=6 written=5 ecrases=0 sans_type=0 in_wez=0
+2026-08-27 21:53:07.321 | ppt_auto_slot            | SA2 dist=115.3NM wez_pen=+85.3NM
+2026-08-27 21:53:07.321 | ppt_auto_slot            | SA2 dist=145.6NM wez_pen=+115.6NM
+2026-08-27 21:53:07.321 | ppt_auto_slot            | SA2 dist=183.6NM wez_pen=+153.6NM
+2026-08-27 21:53:07.321 | ppt_auto_slot            | SA2 dist=189.0NM wez_pen=+159.0NM
+2026-08-27 21:53:07.321 | ppt_auto_slot            | SA2 dist=193.3NM wez_pen=+163.3NM
+2026-08-27 21:53:07.337 | link16_fill              | package=1 (-0) buddies=0 (-0)
+2026-08-27 21:53:07.337 | link16_fill_apply        | 1 STN posés au stage LINK16
+2026-08-27 21:53:07.746 | fuel_plan                | avail=12194 atTurn=10212 bingo=2500 joker=3000 rtb=299 margin=7712 GO
+2026-08-27 21:53:07.747 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=5 n_dpi=0 n_divert=3 n_sections=3 hash=6f378da6
+2026-08-27 21:53:07.756 | fuel_plan                | avail=12194 atTurn=10212 bingo=2500 joker=3000 rtb=299 margin=7712 GO
+2026-08-27 21:53:07.756 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=5 n_dpi=0 n_divert=3 n_sections=3 hash=6f378da6
+2026-08-27 21:53:13.074 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 21:53:13.080 | fuel_plan                | avail=12194 atTurn=10212 bingo=2500 joker=3000 rtb=299 margin=7712 GO
+2026-08-27 21:53:13.081 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=5 n_dpi=0 n_divert=3 n_sections=3 hash=6f378da6
+2026-08-27 21:53:27.679 | wx_legend                | grid=6x6 codes=AMB,BLU,GRN,RED,WHT,YLO
+2026-08-27 22:28:48.677 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 22:28:48.684 | fuel_plan                | avail=12194 atTurn=10212 bingo=2500 joker=3000 rtb=299 margin=7712 GO
+2026-08-27 22:28:48.684 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=5 n_dpi=0 n_divert=3 n_sections=3 hash=6f378da6
+2026-08-27 22:28:51.638 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 22:28:51.644 | fuel_plan                | avail=12194 atTurn=10212 bingo=2500 joker=3000 rtb=299 margin=7712 GO
+2026-08-27 22:28:51.644 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=5 n_dpi=0 n_divert=3 n_sections=3 hash=6f378da6
+2026-08-27 22:28:51.795 | ato_target               | resolved id=20054 target=Fighter
+2026-08-27 22:28:51.795 | ato_departure            | resolved=2/2
+2026-08-27 22:28:53.917 | parse_health             | SoloBT_SEATG.cam: records 1234/1234, bytes 462411/462411, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-08-27 22:28:54.174 | swap_context             | origin=set_theater cam='solobt_seatg.cam' loaded=True err=''
+2026-08-27 22:28:54.442 | ato_target               | index_built names=7229 memo=True
+2026-08-27 22:28:54.442 | ato_departure            | resolved=1/1
+2026-08-27 22:28:54.464 | ato_departure            | resolved=1/1
+2026-08-27 22:28:54.579 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 22:28:54.608 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 22:28:55.114 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-27 22:28:55.146 | mission_support          | awacs: cam pkg=7580 vu=24133
+2026-08-27 22:28:55.151 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-08-27 22:28:55.151 | package_comms            | tactical ch=6 primary=Lancer 2 uhf=352.625
+2026-08-27 22:28:55.479 | fuel_plan                | avail=15495 atTurn=12993 bingo=3200 joker=3700 rtb=543 margin=9793 GO
+2026-08-27 22:28:55.479 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=6f378da6
+2026-08-27 22:28:55.495 | fuel_plan                | avail=15495 atTurn=12993 bingo=3200 joker=3700 rtb=543 margin=9793 GO
+2026-08-27 22:28:55.495 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=6f378da6
+2026-08-27 22:28:56.385 | campaign_overview        | objective_index loaded=5992
+2026-08-27 22:28:56.391 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-08-27 22:28:56.577 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-08-27 22:28:56.578 | campaign_overview        | system_marks=3
+2026-08-27 22:28:56.653 | mission_support          | tanker: cam pkg=7580 vu=23862
+2026-08-27 22:28:56.679 | mission_support          | awacs: cam pkg=7580 vu=24133
+2026-08-27 22:28:56.766 | briefing_context         | package_overview flights=1 route_points=6 focus_points=2 unique_points=6
+2026-08-27 22:28:57.428 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 22:28:57.480 | ppt_auto                 | threats_found=5 written=5 ecrases=0 sans_type=0 in_wez=0
+2026-08-27 22:28:57.480 | ppt_auto_slot            | 17 dist=30.5NM wez_pen=+0.5NM
+2026-08-27 22:28:57.480 | ppt_auto_slot            | AAA dist=41.1NM wez_pen=+31.1NM
+2026-08-27 22:28:57.480 | ppt_auto_slot            | AAA dist=42.7NM wez_pen=+32.7NM
+2026-08-27 22:28:57.480 | ppt_auto_slot            | SA3 dist=53.3NM wez_pen=+36.3NM
+2026-08-27 22:28:57.481 | ppt_auto_slot            | AAA dist=84.2NM wez_pen=+74.2NM
+2026-08-27 22:28:57.535 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-08-27 22:28:57.915 | fuel_plan                | avail=15495 atTurn=12993 bingo=3200 joker=3700 rtb=543 margin=9793 GO
+2026-08-27 22:28:57.915 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=5 n_dpi=0 n_divert=3 n_sections=1 hash=6f378da6
+2026-08-27 22:28:57.941 | fuel_plan                | avail=15495 atTurn=12993 bingo=3200 joker=3700 rtb=543 margin=9793 GO
+2026-08-27 22:28:57.941 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=5 n_dpi=0 n_divert=3 n_sections=1 hash=6f378da6
+2026-08-27 22:28:58.079 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-08-27 22:28:58.079 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-08-27 22:28:58.079 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-08-27 22:29:00.756 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 22:29:00.765 | fuel_plan                | avail=15495 atTurn=12993 bingo=3200 joker=3700 rtb=543 margin=9793 GO
+2026-08-27 22:29:00.766 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=5 n_dpi=0 n_divert=3 n_sections=1 hash=6f378da6
+2026-08-27 22:29:21.431 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-08-27 22:29:21.440 | fuel_plan                | avail=15495 atTurn=12993 bingo=3200 joker=3700 rtb=543 margin=9793 GO
+2026-08-27 22:29:21.440 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=5 n_dpi=0 n_divert=3 n_sections=1 hash=6f378da6
+2026-08-27 22:29:21.586 | ato_departure            | resolved=1/1
