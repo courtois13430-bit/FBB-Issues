@@ -1,0 +1,33 @@
+2026-08-27 22:39:08.650 | ========================================================================
+2026-08-27 22:39:08.650 | FBB Online  mode=SERVER    identity=HOST              port=45380
+2026-08-27 22:39:08.650 | Session : 2026-08-27 22:39:08
+2026-08-27 22:39:08.650 | ========================================================================
+2026-08-27 22:39:08.678 | [TLS] Cert <empreinte masquée>... — host-pass=ok (machine=<masqué>) — epinglage Route B pret
+2026-08-27 22:39:08.680 | [SERVER] status → running
+2026-08-27 22:39:08.680 | [STATE] _mode idle -> server | cause=start_server
+2026-08-27 22:39:08.680 | [STATE] _my_callsign (vide) -> Obe1 | cause=start_server
+2026-08-27 22:39:08.682 | [STATE] reset online | cause=start_server | efface=bms_host(+auto), session_roles, session_seats, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-08-27 22:39:08.682 | [SERVER] Obe1 tient Lancer 2 — Wingman
+2026-08-27 22:39:08.721 | [SERVER] Démarré sur port 45380
+2026-08-27 22:39:19.067 | [MC] Mission Commander → Obe1 (vol 20006 siège 2)
+2026-08-27 22:39:58.169 | [SERVER] Mandrak connecté depuis 192.168.1.37 — 1 client(s)
+2026-08-27 22:39:58.219 | [SERVER] campagne + état complet transmis → Mandrak
+2026-08-27 22:40:13.290 | [RTT] Mandrak 71 ms
+2026-08-27 22:40:58.788 | [SERVER] Mandrak déconnecté — 0 client(s) restant(s)
+2026-08-27 22:41:17.086 | [SERVER] ↻ Mandrak reconnecté depuis 192.168.1.37 — 1 client(s)
+2026-08-27 22:41:17.088 | [SERVER] état renvoyé (reconnexion) → Mandrak
+2026-08-27 22:41:32.181 | [RTT] Mandrak 79 ms
+2026-08-27 22:42:32.466 | [RTT] Mandrak 48 ms
+2026-08-27 22:43:01.997 | [KICK] Mandrak expulsé
+2026-08-27 22:43:01.997 | [SERVER] Mandrak expulsé
+2026-08-27 22:43:02.490 | [SERVER] keepalive Mandrak arrêté — socket remplacée par une reconnexion
+2026-08-27 22:43:05.782 | [SERVER] ↻ Mandrak reconnecté depuis 192.168.1.37 — 1 client(s)
+2026-08-27 22:43:05.787 | [SERVER] état renvoyé (reconnexion) → Mandrak
+2026-08-27 22:43:18.963 | [SERVER] Mandrak déconnecté — 0 client(s) restant(s)
+2026-08-27 22:43:51.568 | [SERVER] status → stopped
+2026-08-27 22:43:51.569 | [STATE] _mode server -> idle | cause=stop_server
+2026-08-27 22:43:51.569 | [STATE] _my_callsign Obe1 -> (vide) | cause=stop_server
+2026-08-27 22:43:51.571 | [STATE] reset online | cause=stop_server | efface=bms_host(+auto), session_roles, session_seats, theater_ok, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-08-27 22:43:51.571 | [SERVER] Arrêté
+2026-08-27 22:43:51.571 | ========================================================================
+2026-08-27 22:43:51.571 | FBB Online — session terminée | cause=stop_server — arrêt du serveur demandé par l'UI
