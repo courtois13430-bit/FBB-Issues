@@ -1,0 +1,792 @@
+21:48:05.937 INFO     fbb.web.launcher       | Session log : D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Tools\FBB\_internal\Log\fbb_log_20260829_214805.txt
+21:48:05.937 INFO     fbb.web.launcher       | FBB version : 1.83.0
+21:48:05.939 INFO     fbb.web.launcher       | Icône fenêtre : D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Tools\FBB\_internal\Art\FBB.ico
+21:48:05.969 INFO     fbb.web.launcher       | TLS : truststore actif (vérification via magasin Windows)
+21:48:05.993 INFO     fbb.license            | Licence valide — Mandrak 2, expire 2027-08-20
+21:48:05.993 INFO     fbb.license_gate       | Licence OK — Mandrak 2 (expire 2027-08-20)
+21:48:05.994 INFO     fbb.web.launcher       | Log : 2 ancien(s) fichier(s) purgé(s) (rétention 30 par famille, FBB_LOG_RETENTION pour ajuster)
+21:48:06.009 INFO     fbb.web.launcher       | Démarrage uvicorn sur 127.0.0.1:8765
+21:48:06.035 DEBUG    fbb.web.launcher       | Splash : 700x650 @ (930,395) — file:///C:/Users/mandrak/AppData/Local/Temp/fbb_splash_0gtlxvq3.html
+21:48:06.911 DEBUG    fbb.web.launcher       | Taille de naissance "splash" : 685x612 → 700x650 (bordure pywebview)
+21:48:07.564 DEBUG    asyncio                | Using proactor: IocpProactor
+21:48:07.580 INFO     uvicorn.error          | Started server process [17456]
+21:48:07.580 INFO     uvicorn.error          | Waiting for application startup.
+21:48:07.580 INFO     fbb.web                | Bootstrap AppContext…
+21:48:07.611 INFO     fbb.web.context        | Session précédente : cam=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\SoloBT.cam html=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\User\Briefings\2026-08-23_212934_briefing.html
+21:48:08.222 DEBUG    utils.parse_health     | parse OK — SoloBT.cam: records 1222/1222, bytes 453293/453293, rejects=0, exc=0, constr_err=0, first_desync=None
+21:48:08.259 INFO     fbb.web.context        | Theater objects validés (Korea KTO) : 5999 objets, recouvrement noms 49/49 [objectives_Korea_KTO.json]
+21:48:08.261 INFO     fbb.web.context        | INI DTC chargé : 17 sections
+21:48:08.318 INFO     fbb.web.context        | Terrain DB chargée
+21:48:08.318 INFO     fbb.web.context        | HiresTileCache initialise : D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\TerrData\Korea\NewTerrain\Photoreal\16K (calibrated=True)
+21:48:08.322 INFO     fbb.web.context        | HiresOverlayCache initialise : D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\TerrData\Korea\NewTerrain\Photoreal\Hires\Day (1643 tuiles)
+21:48:08.325 INFO     fbb.web.context        | Airports (Korea KTO) : 87 aérodromes
+21:48:08.398 INFO     fbb.web.context        | UCD 609 entries, VCD 449 entries
+21:48:08.403 INFO     fbb.web.context        | Context chargé : 1222 units, 49 objectives depuis SoloBT.cam
+21:48:08.403 INFO     fbb.web.context        | [perf] build_context 1222 unités, 49 objectifs, 5999 theater_objects en 822 ms — SoloBT.cam
+21:48:08.403 INFO     services.flight_route  | Camp joueur résolu SANS siège : escadron vu_num=8687 → équipe 1 (pas de briefing ni de picker ★ ; le vol joueur reste non désigné).
+21:48:08.403 INFO     fbb.web.context        | Palette équipes teintée par camp (Korea KTO) : {0: '#9ca3af', 1: '#1d4ed8', 2: '#3b82f6', 3: '#93c5fd', 4: '#f97316', 5: '#f59e0b', 6: '#ef4444', 7: '#22d3ee'}
+21:48:08.404 INFO     fbb.web                | Génération sprites tactiques OTAN (fallback)…
+21:48:08.404 INFO     fbb.web.map            | [bg-tiles] Chargement PNG kto en mémoire…
+21:48:08.416 INFO     fbb.web.sprites        | Sprites générés : 0 nouveaux / 280 total dans D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Tools\FBB\_internal\backend_api\static\sprites
+21:48:08.417 INFO     fbb.web                | Génération sprites RSC BMS (palette sig=0166ee9884f4, force=False)…
+21:48:08.439 DEBUG    utils.bms_rsc          | bms_rsc: loaded 82 icons from BluDark
+21:48:08.461 DEBUG    utils.bms_rsc          | bms_rsc: loaded 82 icons from RedDark
+21:48:08.484 DEBUG    utils.bms_rsc          | bms_rsc: loaded 82 icons from GrnDark
+21:48:08.517 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_nn
+21:48:08.542 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_ne
+21:48:08.567 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_ee
+21:48:08.593 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_se
+21:48:08.617 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_ss
+21:48:08.642 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_sw
+21:48:08.668 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_ww
+21:48:08.693 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from BlAir_nw
+21:48:08.736 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_nn
+21:48:08.762 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_ne
+21:48:08.787 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_ee
+21:48:08.812 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_se
+21:48:08.838 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_ss
+21:48:08.862 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_sw
+21:48:08.887 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_ww
+21:48:08.913 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from GnAir_nw
+21:48:08.938 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_nn
+21:48:08.963 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_ne
+21:48:08.989 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_ee
+21:48:09.015 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_se
+21:48:09.040 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_ss
+21:48:09.066 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_sw
+21:48:09.107 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_ww
+21:48:09.132 DEBUG    utils.bms_rsc          | bms_rsc: loaded 67 icons from RdAir_nw
+21:48:09.179 INFO     fbb.web.rsc            | Sprites RSC générés : 0 sol/naval + 0 squadron + 0 air (3950 en cache) = 3950 (rsc_dir=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Art\Resource)
+21:48:09.179 INFO     fbb.web                | [perf] rsc_sprites 3950 sprites (force=False) en 763 ms
+21:48:09.180 INFO     utils.bms_rsc          | init_image_ids: 338 entrées chargées depuis D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Art\Main\ImageIds.id
+21:48:09.180 INFO     utils.bms_rsc          | init_irc_map: 82 icônes IRC chargées depuis D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Art\Resource\BluDark.idx
+21:48:09.180 INFO     fbb.web                | Génération sprites theater_features…
+21:48:09.235 DEBUG    utils.bms_rsc          | bms_rsc: loaded 82 icons from BluDark
+21:48:09.235 DEBUG    fbb.web.rsc            | theater sprite: icône ADDLINE_CUR absente du RSC
+21:48:09.235 DEBUG    fbb.web.rsc            | theater sprite: icône ADDLINE_CUR_ERROR absente du RSC
+21:48:09.235 DEBUG    fbb.web.rsc            | theater sprite: icône ADDLINE_CUR_SEL absente du RSC
+21:48:09.235 DEBUG    fbb.web.rsc            | theater sprite: icône ASSIGNED_TGT_CUR absente du RSC
+21:48:09.235 DEBUG    fbb.web.rsc            | theater sprite: icône ATO_ICON_1 absente du RSC
+21:48:09.235 DEBUG    fbb.web.rsc            | theater sprite: icône ATO_ICON_2 absente du RSC
+21:48:09.235 DEBUG    fbb.web.rsc            | theater sprite: icône ATO_SKULL absente du RSC
+21:48:09.235 DEBUG    fbb.web.rsc            | theater sprite: icône BID_ATO_F16 absente du RSC
+21:48:09.235 DEBUG    fbb.web.rsc            | theater sprite: icône BID_CHK1_OFF absente du RSC
+21:48:09.235 DEBUG    fbb.web.rsc            | theater sprite: icône BID_CHK1_ON absente du RSC
+21:48:09.235 DEBUG    fbb.web.rsc            | theater sprite: icône BID_DROPDOWN absente du RSC
+21:48:09.235 DEBUG    fbb.web.rsc            | theater sprite: icône BID_SCROLL absente du RSC
+21:48:09.235 DEBUG    fbb.web.rsc            | theater sprite: icône BID_SCROLLCAP_BOTTOM_OFF absente du RSC
+21:48:09.236 DEBUG    fbb.web.rsc            | theater sprite: icône BID_SCROLLCAP_BOTTOM_ON absente du RSC
+21:48:09.236 DEBUG    fbb.web.rsc            | theater sprite: icône BID_SCROLLCAP_TOP_OFF absente du RSC
+21:48:09.236 DEBUG    fbb.web.rsc            | theater sprite: icône BID_SCROLLCAP_TOP_ON absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT1 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT2 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT3 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT4 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT5 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT6 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT7 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BLUEDOT8 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_EAST absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_NORTH absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_NORTHEAST absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_NORTHWEST absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_SOUTH absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_SOUTHEAST absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_SOUTHWEST absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BLUE_AIRCRAFT_WEST absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT1 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT2 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT3 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT4 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT5 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT6 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT7 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône BROWNDOT8 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône CAMP_FROM_SIM absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône CAMP_TO_SIM absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône CS_SMALL_PATCH absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT1 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT2 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT3 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT4 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT5 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT6 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT7 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône GREENDOT8 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT1 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT2 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT3 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT4 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT5 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT6 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT7 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône GREYDOT8 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône HOME_BASE_CUR absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône IA_MAP_TGA absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_A10 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_A50 absente du RSC
+21:48:09.237 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AH64 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AIR_ENEMY absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AIR_FRIEND absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AMPHIBIOUS absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AMX absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AN124 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AN2 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AN225 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AN24 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_AV8 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_B1B absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_B2A absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_B52 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_B707 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_C130 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_C17 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_C5 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_CH47 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_E2C absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_E3 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_EA6B absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_EF2000 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F111 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F117 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F14 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F15C absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F16 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F18 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F22 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F4 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_F5 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_G4 absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_HELI_ENEMY absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_HELI_FRIEND absente du RSC
+21:48:09.238 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_IL28 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_IL76 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_JA37 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_JAGUAR absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_JAS39 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_KA50 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_KC10 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_KC135 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_M2000 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MD500 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MF1 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MI24 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MI8 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG17 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG19 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG21 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG23 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG25 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIG29 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MIII absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MISSILE_AD absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MISS_ENEMY absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MISS_FRIEND absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_MV22 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_OH58 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_Q5 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_RAFALE absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_RECCON absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SF absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SHIP_ENEMY absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SHIP_FRIEND absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SIGNALS absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SR71 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SU25 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SU27 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SU32 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SU33 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SUB_ENEMY absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_SUB_FRIEND absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_TU16N absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_TU95 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_U2 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_UAV absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_UH1H absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_UH60 absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône ICON_UKN absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône IP_CUR absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône IP_CUR_ERROR absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône IP_CUR_SEL absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône IP_OTR absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône IP_OTR_OTHER absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône IP_OTR_SEL absente du RSC
+21:48:09.239 DEBUG    fbb.web.rsc            | theater sprite: icône MAIN__FROM_SIM absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône MAIN__TO_SIM absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM0_ICONS absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM1_ICONS absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM2_ICONS absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM3_ICONS absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM4_ICONS absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM5_ICONS absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM6_ICONS absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône MAP_TEAM7_ICONS absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône MUTE_ICON absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône NULL absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BAHRAIN absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BAHRAIN_DRK absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BAHRAIN_HRZ absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BELGIUM absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BELGIUM_DRK absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BELGIUM_HRZ absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BRAZIL absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BRAZIL_DRK absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_BRAZIL_HRZ absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CHINA absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CHINA_DRK absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CHINA_HRZ absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CIS absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CIS_DRK absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_CIS_HRZ absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_FRANCE absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_FRANCE_DRK absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_FRANCE_HRZ absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_JAPAN absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_JAPAN_DRK absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_JAPAN_HRZ absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NATO absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NATO_DRK absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NATO_HRZ absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NKOREA absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NKOREA_DRK absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_NKOREA_HRZ absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SKOREA absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SKOREA_DRK absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SKOREA_HRZ absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SWISS absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SWISS_DRK absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_SWISS_HRZ absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_USA absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_USA_DRK absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône OOB_FLAGS_USA_HRZ absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT1 absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT2 absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT3 absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT4 absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT5 absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT6 absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT7 absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône ORANGEDOT8 absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône PATCHES_RESOURCE absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône PILOTS_RESOURCE absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT1 absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT2 absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT3 absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT4 absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT5 absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT6 absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT7 absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône REDDOT8 absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_EAST absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_NORTH absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_NORTHEAST absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_NORTHWEST absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_SOUTH absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_SOUTHEAST absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_SOUTHWEST absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône RED_AIRCRAFT_WEST absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_BAHRAIN absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_BELGIUM absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_BRAZIL absente du RSC
+21:48:09.240 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_CHINA absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_CIS absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_FRANCE absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_JAPAN absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_NATO absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_NKOREA absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_SKOREA absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_SWISS absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône SMFLGS_USA absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône STEARPOINT_ICONS absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_CUR absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_CUR_ERROR absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_CUR_SEL absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_OTR absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_OTR_OTHER absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône STPT_OTR_SEL absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_CUR absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_CUR_ERROR absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_CUR_SEL absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_OTR absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_OTR_OTHER absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône TGT_OTR_SEL absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône TREE_BLANK absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône TREE_MINUS absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône TREE_PLUS absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT1 absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT2 absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT3 absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT4 absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT5 absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT6 absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT7 absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône WHITEDOT8 absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT1 absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT2 absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT3 absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT4 absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT5 absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT6 absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT7 absente du RSC
+21:48:09.241 DEBUG    fbb.web.rsc            | theater sprite: icône YELLOWDOT8 absente du RSC
+21:48:09.241 INFO     fbb.web.rsc            | Theater sprites générés : 656 (82 icônes × 8 teams, 267 manquantes, rsc_dir=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Art\Resource)
+21:48:09.241 INFO     fbb.web.online         | OnlineManager : boucle asyncio liée
+21:48:09.242 INFO     fbb.dpi                | DPI init depuis DTC : 7 items (target_83..98)
+21:48:09.254 INFO     fbb.loadout_state      | loadout_state restauré — 0 cam(s) pending, 1 cam(s) final
+21:48:09.256 INFO     fbb.web.briefing       | BA sidecar restauré : 16 container(s)
+21:48:09.257 WARNING  fbb.fpln_state         | FPLN sidecar écarté : D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\SoloBT.cam a été re-sauvé depuis (le plan portait sur les vols de la génération précédente)
+21:48:09.258 INFO     fbb.mission_sidecar    | Sidecar restauré : D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\SoloBT.fbbmiss
+21:48:09.259 INFO     uvicorn.error          | Application startup complete.
+21:48:09.260 INFO     uvicorn.error          | Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+21:48:09.456 INFO     fbb.recon.cache        | RECON prewarm : Korea KTO déjà chauds
+21:48:09.480 INFO     fbb.web.launcher       | [SPLASH] ── Phase 1 : pré-chargement données mission…
+21:48:09.481 DEBUG    fbb.web.launcher       | Splash update OK : Chargement des données mission… 30%
+21:48:09.496 INFO     uvicorn.access         | 127.0.0.1:61639 - "GET /api/dashboard HTTP/1.1" 200
+21:48:09.496 INFO     fbb.web.launcher       | [SPLASH] ── Phase 1 OK  0.02 s
+21:48:09.496 INFO     fbb.web.launcher       | [SPLASH] ── Phase 2 : pré-chargement fond carte SITAC…
+21:48:09.497 DEBUG    fbb.web.launcher       | Splash update OK : Chargement fond carte SITAC… 65%
+21:48:09.499 INFO     uvicorn.access         | 127.0.0.1:61640 - "GET /api/map/background HTTP/1.1" 200
+21:48:09.500 INFO     fbb.web.launcher       | [SPLASH] Fond carte : pré-génération 13 tuiles (z13+z14)…
+21:48:09.502 INFO     uvicorn.access         | 127.0.0.1:61641 - "GET /api/map/bg/kto_820_3358720_r2/13/4096/4095.jpg HTTP/1.1" 200
+21:48:09.504 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z13/4096/4095  0.00 s
+21:48:09.505 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=13 x=4096 y=4096 (ctx.theater_key=kto)
+21:48:11.367 INFO     fbb.web.map            | [perf] bg_png_decode kto 16384x16384 en 2963 ms, résident ~768 Mo RAM
+21:48:11.368 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=13 x=4096 y=4096
+21:48:11.368 INFO     uvicorn.access         | 127.0.0.1:61642 - "GET /api/map/bg/kto_820_3358720_r2/13/4096/4096.jpg HTTP/1.1" 404
+21:48:11.369 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z13/4096/4096 : HTTP Error 404: Not Found
+21:48:11.370 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=13 x=4097 y=4095 (ctx.theater_key=kto)
+21:48:11.371 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=13 x=4097 y=4095
+21:48:11.371 INFO     uvicorn.access         | 127.0.0.1:61643 - "GET /api/map/bg/kto_820_3358720_r2/13/4097/4095.jpg HTTP/1.1" 404
+21:48:11.371 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z13/4097/4095 : HTTP Error 404: Not Found
+21:48:11.372 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=13 x=4097 y=4096 (ctx.theater_key=kto)
+21:48:11.372 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=13 x=4097 y=4096
+21:48:11.372 INFO     uvicorn.access         | 127.0.0.1:61644 - "GET /api/map/bg/kto_820_3358720_r2/13/4097/4096.jpg HTTP/1.1" 404
+21:48:11.372 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z13/4097/4096 : HTTP Error 404: Not Found
+21:48:11.374 INFO     uvicorn.access         | 127.0.0.1:61645 - "GET /api/map/bg/kto_820_3358720_r2/14/8192/8190.jpg HTTP/1.1" 200
+21:48:11.375 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8192/8190  0.00 s
+21:48:11.401 INFO     uvicorn.access         | 127.0.0.1:61646 - "GET /api/map/bg/kto_820_3358720_r2/14/8192/8191.jpg HTTP/1.1" 200
+21:48:11.402 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8192/8191  0.03 s
+21:48:11.403 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8192 y=8192 (ctx.theater_key=kto)
+21:48:11.403 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8192 y=8192
+21:48:11.403 INFO     uvicorn.access         | 127.0.0.1:61647 - "GET /api/map/bg/kto_820_3358720_r2/14/8192/8192.jpg HTTP/1.1" 404
+21:48:11.403 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8192/8192 : HTTP Error 404: Not Found
+21:48:11.405 INFO     uvicorn.access         | 127.0.0.1:61648 - "GET /api/map/bg/kto_820_3358720_r2/14/8193/8190.jpg HTTP/1.1" 200
+21:48:11.406 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8193/8190  0.00 s
+21:48:11.407 INFO     uvicorn.access         | 127.0.0.1:61649 - "GET /api/map/bg/kto_820_3358720_r2/14/8193/8191.jpg HTTP/1.1" 200
+21:48:11.408 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8193/8191  0.00 s
+21:48:11.409 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8193 y=8192 (ctx.theater_key=kto)
+21:48:11.409 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8193 y=8192
+21:48:11.409 INFO     uvicorn.access         | 127.0.0.1:61650 - "GET /api/map/bg/kto_820_3358720_r2/14/8193/8192.jpg HTTP/1.1" 404
+21:48:11.410 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8193/8192 : HTTP Error 404: Not Found
+21:48:11.411 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8194 y=8190 (ctx.theater_key=kto)
+21:48:11.411 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8194 y=8190
+21:48:11.411 INFO     uvicorn.access         | 127.0.0.1:61651 - "GET /api/map/bg/kto_820_3358720_r2/14/8194/8190.jpg HTTP/1.1" 404
+21:48:11.411 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8194/8190 : HTTP Error 404: Not Found
+21:48:11.412 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8194 y=8191 (ctx.theater_key=kto)
+21:48:11.412 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8194 y=8191
+21:48:11.413 INFO     uvicorn.access         | 127.0.0.1:61652 - "GET /api/map/bg/kto_820_3358720_r2/14/8194/8191.jpg HTTP/1.1" 404
+21:48:11.413 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8194/8191 : HTTP Error 404: Not Found
+21:48:11.414 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8194 y=8192 (ctx.theater_key=kto)
+21:48:11.414 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8194 y=8192
+21:48:11.414 INFO     uvicorn.access         | 127.0.0.1:61653 - "GET /api/map/bg/kto_820_3358720_r2/14/8194/8192.jpg HTTP/1.1" 404
+21:48:11.414 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8194/8192 : HTTP Error 404: Not Found
+21:48:11.414 INFO     fbb.web.launcher       | [SPLASH] Fond carte : 5/13 tuiles cachées — 1.91 s total
+21:48:11.414 INFO     fbb.web.launcher       | [SPLASH] ── Phase 2 OK  1.92 s
+21:48:11.414 INFO     fbb.web.launcher       | [SPLASH] ── Phase 3 : ouverture dashboard…
+21:48:11.415 DEBUG    fbb.web.launcher       | Splash update OK : Ouverture… 90%
+21:48:11.415 INFO     fbb.web.launcher       | Ouverture fenêtre Dashboard → http://127.0.0.1:8765/dashboard.html
+21:48:11.433 DEBUG    fbb.web.launcher       | Taille de naissance "dashboard" : 675x908 → 690x946 (bordure pywebview)
+21:48:11.480 INFO     uvicorn.access         | 127.0.0.1:54859 - "GET /dashboard.html HTTP/1.1" 200
+21:48:11.493 INFO     uvicorn.access         | 127.0.0.1:54859 - "GET /fbb-tokens.css HTTP/1.1" 200
+21:48:11.493 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /fbb-buttons.css HTTP/1.1" 200
+21:48:11.494 INFO     uvicorn.access         | 127.0.0.1:62828 - "GET /utils.js HTTP/1.1" 200
+21:48:11.495 INFO     uvicorn.access         | 127.0.0.1:60339 - "GET /js/i18n.js?v=20260828a HTTP/1.1" 200
+21:48:11.495 INFO     uvicorn.access         | 127.0.0.1:63236 - "GET /js/fbb-dialog.js HTTP/1.1" 200
+21:48:11.496 INFO     uvicorn.access         | 127.0.0.1:57868 - "GET /fbb-tooltips.css HTTP/1.1" 200
+21:48:11.499 INFO     uvicorn.access         | 127.0.0.1:54859 - "GET /js/knb-print-report.js?v=20260827a HTTP/1.1" 200
+21:48:11.500 INFO     uvicorn.access         | 127.0.0.1:62828 - "GET /js/win-keys.js HTTP/1.1" 200
+21:48:11.501 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /assets/ui/FBB_Main_UI_web_v4.png?v=20260815b HTTP/1.1" 200
+21:48:11.505 INFO     uvicorn.access         | 127.0.0.1:62828 - "GET /js/fbb-tooltips.js?v=20260828a HTTP/1.1" 200
+21:48:11.512 INFO     uvicorn.error          | 127.0.0.1:61886 - "WebSocket /ws" [accepted]
+21:48:11.512 DEBUG    fbb.ws                 | WS connect — 1 clients
+21:48:11.513 INFO     uvicorn.error          | connection open
+21:48:11.534 INFO     uvicorn.access         | 127.0.0.1:63236 - "GET /api/dashboard HTTP/1.1" 200
+21:48:11.535 INFO     uvicorn.access         | 127.0.0.1:62828 - "GET /api/dtc/pending HTTP/1.1" 200
+21:48:11.535 INFO     uvicorn.access         | 127.0.0.1:54859 - "GET /api/kneeboard/print_state HTTP/1.1" 200
+21:48:11.539 INFO     uvicorn.access         | 127.0.0.1:57868 - "GET /api/setup/prefs HTTP/1.1" 200
+21:48:11.543 INFO     uvicorn.access         | 127.0.0.1:60339 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+21:48:11.545 INFO     fbb.web.ui             | UI »» prefetch/start         t=0ms
+21:48:11.545 INFO     uvicorn.access         | 127.0.0.1:54859 - "GET /api/setup/prefs HTTP/1.1" 200
+21:48:11.546 INFO     uvicorn.access         | 127.0.0.1:57868 - "POST /api/debug/log HTTP/1.1" 200
+21:48:11.546 INFO     uvicorn.access         | 127.0.0.1:63236 - "GET /api/online/status HTTP/1.1" 200
+21:48:11.548 INFO     uvicorn.access         | 127.0.0.1:62828 - "GET /api/telemetry/status HTTP/1.1" 200
+21:48:11.549 INFO     uvicorn.access         | 127.0.0.1:54859 - "GET /api/identity HTTP/1.1" 200
+21:48:11.550 INFO     uvicorn.access         | 127.0.0.1:60339 - "GET /api/map/background HTTP/1.1" 200
+21:48:11.567 INFO     fbb.web.ui             | UI »» prefetch/launched      t=25ms n=1 theater=kto
+21:48:11.567 INFO     uvicorn.access         | 127.0.0.1:62828 - "POST /api/debug/log HTTP/1.1" 200
+21:48:11.568 INFO     uvicorn.access         | 127.0.0.1:60339 - "GET /api/setup/auto_rules HTTP/1.1" 200
+21:48:11.568 INFO     uvicorn.access         | 127.0.0.1:54859 - "GET /assets/theater/Korea/KoreaWhite.png HTTP/1.1" 200
+21:48:11.569 INFO     uvicorn.access         | 127.0.0.1:63236 - "GET /favicon.ico HTTP/1.1" 404
+21:48:11.575 INFO     fbb.web.ui             | UI »» prefetch/img_done      t=36ms dt=11ms url=/assets/theater/Korea/KoreaWhite.png
+21:48:11.575 INFO     uvicorn.access         | 127.0.0.1:54859 - "POST /api/debug/log HTTP/1.1" 200
+21:48:11.941 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/check HTTP/1.1" 200
+21:48:12.238 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+21:48:15.213 INFO     uvicorn.access         | 127.0.0.1:57756 - "POST /api/update/download HTTP/1.1" 200
+21:48:15.219 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:15.926 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:16.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:48:16.630 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:17.336 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:18.044 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:18.752 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:19.461 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:20.168 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:20.873 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:21.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:48:21.578 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:22.287 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:22.996 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:23.699 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:24.402 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:25.107 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:25.815 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:26.515 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:48:26.523 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:27.231 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:27.940 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:28.649 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:29.352 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:30.058 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:30.767 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:31.475 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:31.515 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:48:32.183 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:32.892 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:33.599 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:34.302 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:35.010 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:35.719 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:36.424 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:36.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:48:37.128 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:37.836 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:38.545 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:39.253 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:39.959 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:40.663 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:41.371 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:41.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:48:42.078 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:42.787 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:43.493 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:44.197 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:44.906 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:45.613 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:46.322 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:46.516 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:48:47.028 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:47.732 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:48.440 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:49.149 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:49.857 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:50.565 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:51.274 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:51.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:48:51.982 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:52.691 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:53.398 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:54.107 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:54.816 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:55.523 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:56.232 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:56.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:48:56.940 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:57.649 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:58.357 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:59.060 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:48:59.767 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:00.475 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:01.180 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:01.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:49:01.885 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:02.593 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:03.301 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:04.010 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:04.718 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:05.426 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:06.131 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:06.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:49:06.836 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:07.545 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:08.253 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:08.959 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:09.663 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:10.371 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:11.079 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:11.514 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:49:11.787 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:12.492 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:13.197 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:13.906 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:14.614 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:15.322 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:16.025 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:16.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:49:16.732 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:17.441 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:18.148 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:18.857 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:19.565 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:20.273 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:20.982 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:21.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:49:21.686 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:22.392 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:23.100 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:23.808 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:24.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:25.225 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:25.932 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:26.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:49:26.642 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:27.346 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:28.051 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:28.760 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:29.466 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:30.170 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:30.878 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:31.518 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:49:31.584 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:32.288 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:32.996 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:33.704 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:34.412 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:35.116 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:35.824 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:36.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:49:36.530 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:37.239 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:37.948 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:38.653 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:39.357 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:40.064 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:40.774 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:41.478 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:41.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:49:42.183 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:42.889 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:43.593 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:44.302 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:45.006 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:45.711 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:46.420 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:46.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:49:47.124 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:47.829 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:48.538 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:49.246 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:49.952 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:50.655 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:51.363 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:51.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:49:52.072 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:52.780 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:53.489 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:54.197 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:54.905 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:55.614 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:56.322 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:56.516 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:49:57.030 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:57.738 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:58.447 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:59.155 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:49:59.864 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:00.572 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:01.280 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:01.516 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:50:01.989 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:02.693 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:03.398 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:04.107 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:04.811 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:05.516 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:06.225 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:06.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:50:06.933 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:07.642 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:08.354 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:09.059 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:09.763 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:10.468 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:11.177 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:11.516 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:50:11.884 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:12.593 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:13.301 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:14.011 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:14.717 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:15.427 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:16.134 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:16.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:50:16.843 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:17.551 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:18.260 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:18.968 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:19.677 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:20.383 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:21.087 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:21.518 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:50:21.795 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:22.504 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:23.211 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:23.919 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:24.623 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:25.330 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:26.038 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:26.518 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:50:26.745 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:27.455 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:28.163 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:28.872 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:29.579 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:30.287 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:30.996 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:31.514 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:50:31.701 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:32.406 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:33.114 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:33.823 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:34.530 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:35.240 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:35.946 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:36.518 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:50:36.656 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:37.361 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:38.065 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:38.774 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:39.479 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:40.183 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:40.892 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:41.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:50:41.597 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:42.301 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:43.010 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:43.719 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:44.426 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:45.135 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:45.843 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:46.515 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:50:46.551 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:47.261 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:47.968 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:48.673 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:49.378 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:50.087 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:50.794 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:51.503 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:51.516 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:50:52.212 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:52.921 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:53.629 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:54.336 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:55.045 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:55.753 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:56.461 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:56.518 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:50:57.167 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:57.871 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:58.580 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:59.287 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:50:59.992 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:00.698 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:01.407 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:01.518 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:51:02.115 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:02.823 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:03.531 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:04.247 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:04.952 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:05.656 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:06.364 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:06.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:51:07.073 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:07.781 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:08.488 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:09.197 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:09.905 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:10.614 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:11.322 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:11.516 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:51:12.038 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:12.746 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:13.455 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:14.164 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:14.869 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:15.579 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:16.287 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:16.515 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:51:16.996 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:17.701 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:18.406 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:19.114 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:19.821 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:20.525 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:21.232 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:21.517 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/online/status HTTP/1.1" 200
+21:51:21.941 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:22.649 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:23.357 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:24.065 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:24.774 INFO     uvicorn.access         | 127.0.0.1:57756 - "GET /api/update/progress HTTP/1.1" 200
+21:51:25.481 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:26.192 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:26.517 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/online/status HTTP/1.1" 200
+21:51:26.899 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:27.603 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:28.308 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:29.016 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:29.726 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:30.434 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:31.141 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:31.518 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/online/status HTTP/1.1" 200
+21:51:31.846 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:32.550 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:33.254 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:33.961 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:34.670 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:35.378 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:36.086 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:36.517 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/online/status HTTP/1.1" 200
+21:51:36.795 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:37.501 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:38.205 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:38.912 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:39.621 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:40.327 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:41.031 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:41.514 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/online/status HTTP/1.1" 200
+21:51:41.739 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:42.448 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:43.155 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:43.863 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:44.572 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:45.281 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:45.989 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:46.515 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/online/status HTTP/1.1" 200
+21:51:46.697 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:47.285 INFO     fbb.web.routes.update  | MAJ téléchargée : C:\Users\mandrak\AppData\Local\Temp\FBB_Setup_v1.84.7.exe (156283675 o)
+21:51:47.405 INFO     uvicorn.access         | 127.0.0.1:56024 - "GET /api/update/progress HTTP/1.1" 200
+21:51:47.515 INFO     fbb.web.routes.update  | Veilleur MAJ démarré (trace : C:\Users\mandrak\AppData\Local\Temp\fbb_update_watcher.log)
+21:51:47.516 INFO     fbb.web.routes.update  | Installateur MAJ programmé (démarrage après fermeture de FBB) : C:\Users\mandrak\AppData\Local\Temp\FBB_Setup_v1.84.7.exe
+21:51:47.516 INFO     uvicorn.access         | 127.0.0.1:56024 - "POST /api/update/install HTTP/1.1" 200
+21:51:48.722 INFO     fbb.web.launcher       | quit_app : fermeture de FBB demandée
+21:51:48.723 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+21:51:48.724 DEBUG    fbb.web.launcher       | native pywebview: read x/y/w/h (snapshot) "dashboard" tid=Dummy-5 
+21:51:48.724 DEBUG    fbb.web.launcher       | Snapshot géométrie "dashboard" : 690x946 @ (650,242)
+21:51:48.725 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (19 fenêtres)
+21:51:48.735 DEBUG    fbb.web                | WS keepalive terminé (déconnexion client)
+21:51:48.735 DEBUG    fbb.ws                 | WS disconnect — 0 clients
+21:51:48.735 INFO     uvicorn.error          | connection closed
+21:51:49.042 INFO     fbb.web.launcher       | Dashboard fermé. Bye.
+21:51:55.537 WARNING  fbb.web.launcher       | quit_app : process vivant après 3 s → os._exit(0)
