@@ -1,0 +1,18 @@
+2026-09-03 21:19:52.332 | ========================================================================
+2026-09-03 21:19:52.333 | FBB Online  mode=SERVER    identity=HOST              port=45380
+2026-09-03 21:19:52.333 | Session : 2026-09-03 21:19:52
+2026-09-03 21:19:52.333 | ========================================================================
+2026-09-03 21:19:52.334 | [TLS] Cert <empreinte masquée>... — host-pass=ok (machine=<masqué>) — epinglage Route B pret
+2026-09-03 21:19:52.336 | [SERVER] status → running
+2026-09-03 21:19:52.336 | [STATE] _mode idle -> server | cause=start_server
+2026-09-03 21:19:52.336 | [STATE] _my_callsign (vide) -> Mandrak | cause=start_server
+2026-09-03 21:19:52.337 | [STATE] reset online | cause=start_server | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-09-03 21:19:52.337 | [SERVER] Mandrak tient Bulldog 1 — Flight Lead
+2026-09-03 21:19:52.354 | [SERVER] Démarré sur port 45380
+2026-09-03 21:22:51.851 | [SERVER] status → stopped
+2026-09-03 21:22:51.851 | [STATE] _mode server -> idle | cause=stop_server
+2026-09-03 21:22:51.851 | [STATE] _my_callsign Mandrak -> (vide) | cause=stop_server
+2026-09-03 21:22:51.853 | [STATE] reset online | cause=stop_server | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-09-03 21:22:51.854 | [SERVER] Arrêté
+2026-09-03 21:22:51.854 | ========================================================================
+2026-09-03 21:22:51.854 | FBB Online — session terminée | cause=stop_server — arrêt du serveur demandé par l'UI
