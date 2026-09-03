@@ -1,0 +1,278 @@
+{
+  "fbb_sidecar_version": 1,
+  "app_version": "1.85.3",
+  "saved_utc": "2026-09-01T17:10:51Z",
+  "cam": {
+    "stem": "CI01m",
+    "theater_key": "kto",
+    "campaign_name": "CI01",
+    "saved": "day 1 03:10:46"
+  },
+  "identity": {
+    "seat_override": 0
+  },
+  "briefing": {
+    "v": 1,
+    "schema_version": 4,
+    "containers": [
+      {
+        "id": "f02908f3-2861-45d5-9290-c34e7653f2e0",
+        "ctype": "mission_step",
+        "title": "Campaign Overview",
+        "visible": true,
+        "section_key": "campaign_overview",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "campaign_objectives",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "e314d3a0-a732-41d1-99d4-ddac284e8651",
+        "ctype": "mission_step",
+        "title": "Mission / Friendly OOB",
+        "visible": true,
+        "section_key": "package_overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "roaster",
+          "context_lifecycle": "while_active"
+        },
+        "alr": 0
+      },
+      {
+        "id": "4e8b3b64-0044-4ef2-97e9-a6d17884105d",
+        "ctype": "mission_step",
+        "title": "FPLN / TIMELINE",
+        "visible": true,
+        "section_key": "steerpoints",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "fpln-asst",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "a5f8b0ea-cd72-4d5c-84f5-7263566ab521",
+        "ctype": "mission_step",
+        "title": "Weather / Forecast",
+        "visible": true,
+        "section_key": "weather",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "weather_overview"
+        }
+      },
+      {
+        "id": "a9666bae-6be5-4756-84b5-ec15cd2c890f",
+        "ctype": "mission_step",
+        "title": "Threat Estimate",
+        "visible": true,
+        "section_key": "threat_analysis",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "0ac111cf-cdbe-4804-990d-d908267c211e",
+        "ctype": "mission_step",
+        "title": "Contracts",
+        "visible": true,
+        "section_key": "contracts",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "e93c83d4-7681-4d25-a110-24b21c774f2e",
+        "ctype": "mission_step",
+        "title": "ROE (Rules of Engagement)",
+        "visible": true,
+        "section_key": "roe",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "1f696126-4c17-42e6-991a-f7cb372bda4d",
+        "ctype": "mission_step",
+        "title": "Emergency Procedures",
+        "visible": true,
+        "section_key": "emerg",
+        "source": "cam",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "7db0f78e-c4ee-454e-b3a4-f5d0382437f7",
+        "ctype": "mission_step",
+        "title": "Flight Task",
+        "visible": true,
+        "section_key": "overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_flight",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "634d57d4-9b20-4350-a429-d78944de77c5",
+        "ctype": "mission_step",
+        "title": "Targeting",
+        "visible": true,
+        "section_key": "targeting",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "dpi",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "5473a832-7481-4511-9d05-8f9f1b75f599",
+        "ctype": "mission_step",
+        "title": "Ordnance",
+        "visible": true,
+        "section_key": "ordnance",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "loadout",
+          "context_tab": "session-aircraft",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "aabd83b7-c37c-41d6-8931-053de685877b",
+        "ctype": "mission_step",
+        "title": "Comm Ladder",
+        "visible": true,
+        "section_key": "comms",
+        "source": "html",
+        "text": "",
+        "rule": {
+          "context_window": "dtc",
+          "context_tab": "uhfvhf-bms",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "ae2eef07-d7cf-4fac-8851-332437f9b9e8",
+        "ctype": "mission_step",
+        "title": "Link 16",
+        "visible": true,
+        "section_key": "link16",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "context_window": "dtc",
+          "context_tab": "link16-bms",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "49d203d8-95b9-42ef-815e-319a85632d1d",
+        "ctype": "mission_step",
+        "title": "IFF",
+        "visible": true,
+        "section_key": "iff",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "context_window": "dtc",
+          "context_tab": "iff",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "06d32451-8cbf-4244-8292-c297fac34601",
+        "ctype": "mission_step",
+        "title": "Performance",
+        "visible": true,
+        "section_key": "performance",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "perfo",
+          "context_tab": "fuel",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "bdd16ffa-4983-4908-acc8-6f28daa638e2",
+        "ctype": "mission_step",
+        "title": "Plan Synch & deconflict",
+        "visible": true,
+        "section_key": "plan_synch",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      }
+    ]
+  },
+  "ppt": {
+    "entries": [
+      {
+        "label": "SA2",
+        "x_n": 2316169.43578814,
+        "y_e": 1060467.2497304364,
+        "origin": "manual",
+        "author": ""
+      }
+    ]
+  },
+  "lines": {
+    "entries": [
+      {
+        "pts": [
+          [
+            2089741.4330418454,
+            1134941.1730418457
+          ],
+          [
+            2124113.13,
+            1169312.87
+          ],
+          [
+            1759546.23,
+            1169312.87
+          ],
+          [
+            1881068.53,
+            1169312.87
+          ],
+          [
+            1881068.53,
+            1047790.5700000001
+          ],
+          [
+            1881068.53,
+            1290835.1700000002
+          ]
+        ],
+        "origin": "auto",
+        "author": "",
+        "label": "Bullseye"
+      }
+    ]
+  }
+}
