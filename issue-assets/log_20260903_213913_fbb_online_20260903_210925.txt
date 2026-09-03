@@ -1,0 +1,35 @@
+2026-09-03 21:09:25.596 | ========================================================================
+2026-09-03 21:09:25.596 | FBB Online  mode=CLIENT    identity=Obe1              port=45380
+2026-09-03 21:09:25.596 | Session : 2026-09-03 21:09:25
+2026-09-03 21:09:25.596 | ========================================================================
+2026-09-03 21:09:25.596 | [STATE] _client none -> NetworkClient#253cce3f250 | cause=connect_client
+2026-09-03 21:09:25.597 | [STATE] _mode idle -> client | cause=connect_client
+2026-09-03 21:09:25.597 | [STATE] _my_callsign (vide) -> Obe1 | cause=connect_client
+2026-09-03 21:09:25.597 | [CLIENT] status → connecting
+2026-09-03 21:09:25.602 | [STATE] reset online | cause=connect_client | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-09-03 21:09:25.602 | [CLIENT] Connexion → 86.194.141.253:45380 (callsign=Obe1)
+2026-09-03 21:09:25.744 | [CLIENT] status → connected
+2026-09-03 21:09:26.772 | [SESSION] rejointe — hôte Mandrak, aucun autre pilote connecté
+2026-09-03 21:09:26.772 | [THEATER] Théâtre de session → « LKTO 4.38 + Papa » (annoncé par le host ; le tien était « Korea KTO »)
+2026-09-03 21:09:26.975 | [CAM] Bundle campagne reçu — 9 fichier(s)
+2026-09-03 21:09:26.997 | [THEATER] ⚠ Théâtre différent du host : LKTO+.tdf: absent localement; Falcon4_UCD.xml: SHA mismatch
+2026-09-03 21:09:26.999 | [BA] Conteneurs BA reçus du host — 16 entrée(s)
+2026-09-03 21:09:27.179 | [LOADOUT] état reçu (pending + final)
+2026-09-03 21:09:27.518 | [CAM] Contexte rechargé → FBB01.cam
+2026-09-03 21:09:27.519 | [CAM] Campagne « FBB01 » — ton BMS ne l'a pas encore reçue (normal avant l'entrée en session).
+2026-09-03 21:09:27.519 | [CAM] Rappel — ne change pas le nom de la campagne dans BMS pendant la session : ta DTC serait écrite à côté, et tu décollerais sans tes cibles.
+2026-09-03 21:11:09.767 | [MC] Mission Commander → Mandrak (vol 20028 siège 1)
+2026-09-03 21:12:33.039 | [FPLN] fpln_secondary reçu — 0 vol(s)
+2026-09-03 21:17:29.406 | [CLIENT] Connexion perdue — code=1001 (pair parti (going away)) | last_seq=2 | session tenue 484 s
+2026-09-03 21:17:29.407 | [CLIENT] status → reconnecting:1
+2026-09-03 21:17:29.407 | [STATE] _reconnecting false -> true | cause=client_status:reconnecting#1
+2026-09-03 21:17:41.429 | [CLIENT] status → reconnecting:2
+2026-09-03 21:17:55.446 | [CLIENT] status → reconnecting:3
+2026-09-03 21:18:00.999 | [STATE] _client NetworkClient#253cce3f250 -> none | cause=disconnect_client
+2026-09-03 21:18:00.999 | [STATE] _mode client -> idle | cause=disconnect_client
+2026-09-03 21:18:01.000 | [STATE] _my_callsign Obe1 -> (vide) | cause=disconnect_client
+2026-09-03 21:18:01.000 | [STATE] _reconnecting true -> false | cause=disconnect_client
+2026-09-03 21:18:01.000 | [STATE] reset online | cause=disconnect_client | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-09-03 21:18:01.001 | [CLIENT] Déconnecté
+2026-09-03 21:18:01.001 | ========================================================================
+2026-09-03 21:18:01.001 | FBB Online — session terminée | cause=disconnect_client — déconnexion demandée par l'UI
