@@ -1,0 +1,320 @@
+{
+  "fbb_sidecar_version": 1,
+  "app_version": "1.87.0",
+  "saved_utc": "2026-09-03T19:15:50Z",
+  "cam": {
+    "stem": "FBB01",
+    "theater_key": "kto",
+    "campaign_name": "FBB01",
+    "saved": "day 1 01:00:04"
+  },
+  "identity": {
+    "seat_override": 0
+  },
+  "briefing": {
+    "v": 1,
+    "schema_version": 4,
+    "containers": [
+      {
+        "id": "b6bc1a64-6ba2-495c-9f54-b4e7a4ee31b9",
+        "ctype": "mission_step",
+        "title": "Campaign Overview",
+        "visible": true,
+        "section_key": "campaign_overview",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "campaign_objectives",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "9cfd4740-f8d7-482e-b0b1-f1ec838fbc98",
+        "ctype": "mission_step",
+        "title": "Mission / Friendly OOB",
+        "visible": true,
+        "section_key": "package_overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "roaster",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "0a7c76d5-13f2-4a9e-b234-26987412728a",
+        "ctype": "mission_step",
+        "title": "FPLN / TIMELINE",
+        "visible": true,
+        "section_key": "steerpoints",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "fpln-asst",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "ce576ae1-1104-433d-8b23-ade9e2348019",
+        "ctype": "mission_step",
+        "title": "Weather / Forecast",
+        "visible": true,
+        "section_key": "weather",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "weather_overview"
+        }
+      },
+      {
+        "id": "9b1ac5db-dac3-4e88-88c8-4eeefed0265c",
+        "ctype": "mission_step",
+        "title": "Threat Estimate",
+        "visible": true,
+        "section_key": "threat_analysis",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "6d8abb9a-195c-4085-901b-2cfe24d3379e",
+        "ctype": "mission_step",
+        "title": "Contracts",
+        "visible": true,
+        "section_key": "contracts",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "25ff94cc-c423-4e6f-8633-6bf0909f931e",
+        "ctype": "mission_step",
+        "title": "ROE (Rules of Engagement)",
+        "visible": true,
+        "section_key": "roe",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "16eb19b3-8c18-4855-ab39-cf8f36f3df71",
+        "ctype": "mission_step",
+        "title": "Emergency Procedures",
+        "visible": true,
+        "section_key": "emerg",
+        "source": "cam",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "9195e8c3-8467-4368-b1e0-129e0a644882",
+        "ctype": "mission_step",
+        "title": "Flight Task",
+        "visible": true,
+        "section_key": "overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_flight",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "74245277-3446-4d7b-840f-c5a9a6f20192",
+        "ctype": "mission_step",
+        "title": "Targeting",
+        "visible": true,
+        "section_key": "targeting",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "dpi",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "5915122f-b65d-4541-8e4f-bd792ba4f0ef",
+        "ctype": "mission_step",
+        "title": "Ordnance",
+        "visible": true,
+        "section_key": "ordnance",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "loadout",
+          "context_tab": "session-aircraft",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "48c94d55-f217-4470-98f0-c62dbd60ee72",
+        "ctype": "mission_step",
+        "title": "Comm Ladder",
+        "visible": true,
+        "section_key": "comms",
+        "source": "html",
+        "text": "",
+        "rule": {
+          "context_window": "dtc",
+          "context_tab": "uhfvhf-bms",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "e14b4fcb-d1cc-4ad0-8be9-477604e838ac",
+        "ctype": "mission_step",
+        "title": "Link 16",
+        "visible": true,
+        "section_key": "link16",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "context_window": "dtc",
+          "context_tab": "link16-bms",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "fc892eca-5f47-44b3-8bca-69f865585e7b",
+        "ctype": "mission_step",
+        "title": "IFF",
+        "visible": true,
+        "section_key": "iff",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "context_window": "dtc",
+          "context_tab": "iff",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "2afa69d3-20b9-4a50-994d-4e631de3eb52",
+        "ctype": "mission_step",
+        "title": "Performance",
+        "visible": true,
+        "section_key": "performance",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "perfo",
+          "context_tab": "fuel",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "b7872af7-feec-471d-b3a1-e65e98ee13fd",
+        "ctype": "mission_step",
+        "title": "Plan Synch & deconflict",
+        "visible": true,
+        "section_key": "plan_synch",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      }
+    ]
+  },
+  "lines": {
+    "entries": [
+      {
+        "pts": [
+          [
+            1870078.7401574804,
+            1023622.0472440945
+          ],
+          [
+            1909448.8188976375,
+            1358267.716535433
+          ],
+          [
+            1948818.8976377952,
+            1377952.755905512
+          ],
+          [
+            1889763.779527559,
+            1496062.9921259845
+          ],
+          [
+            1889763.779527559,
+            1751968.5039370079
+          ]
+        ],
+        "origin": "auto",
+        "author": "",
+        "label": "FLOT"
+      },
+      {
+        "pts": [
+          [
+            2506298.893041846,
+            1302220.1530418457
+          ],
+          [
+            2540670.5900000003,
+            1336591.85
+          ],
+          [
+            2176103.6900000004,
+            1336591.85
+          ],
+          [
+            2297625.99,
+            1336591.85
+          ],
+          [
+            2297625.99,
+            1215069.55
+          ],
+          [
+            2297625.99,
+            1458114.1500000001
+          ]
+        ],
+        "origin": "auto",
+        "author": "",
+        "label": "Bullseye"
+      },
+      {
+        "pts": [
+          [
+            1369727.4827153394,
+            1424372.8146243994
+          ],
+          [
+            1081531.9053756008,
+            1766605.0627153395
+          ],
+          [
+            988578.1372846612,
+            1688328.2053756006
+          ],
+          [
+            1276773.7146243996,
+            1346095.9572846608
+          ],
+          [
+            1369727.4827153394,
+            1424372.8146243994
+          ]
+        ],
+        "origin": "auto",
+        "author": "",
+        "label": "Tanker Copper 2"
+      }
+    ]
+  }
+}
