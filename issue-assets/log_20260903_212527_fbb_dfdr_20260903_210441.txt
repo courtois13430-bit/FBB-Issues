@@ -1,0 +1,810 @@
+2026-09-03 21:04:41.481 | ========================================================================
+2026-09-03 21:04:41.481 | startup                  | FBB 1.87.0 — session 2026-09-03 21:04:41
+2026-09-03 21:04:41.481 | startup                  | Répertoire : D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Tools\FBB\_internal
+2026-09-03 21:04:41.481 | startup                  | Python 3.14.5
+2026-09-03 21:04:41.481 | ========================================================================
+2026-09-03 21:04:41.482 | system                   | OS : Windows 11 10.0.26200, AMD64, 32 CPU, RAM 32 GB
+2026-09-03 21:04:41.489 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-09-03 21:04:41.489 | registry                 | BMS baseDir : D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38
+2026-09-03 21:04:41.489 | registry                 | BMS theater : LKTO 4.38 + Papa  pilot : Mandrak
+2026-09-03 21:04:41.861 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-09-03 21:04:43.128 | parse_health             | Save-Day  1 01 00 04.cam: records 823/823, bytes 300417/300417, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-09-03 21:04:44.798 | ato_target               | index_built names=6822 memo=True
+2026-09-03 21:04:44.799 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:04:44.799 | ato_departure            | resolved=1/2
+2026-09-03 21:04:44.939 | telemetry                | ping OK v1.87.0 Windows 11 canal=prod → HTTP 200
+2026-09-03 21:04:47.492 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:04:47.492 | ato_departure            | resolved=1/2
+2026-09-03 21:04:47.650 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:04:47.880 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:04:47.881 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:06:33.130 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:06:33.145 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:06:33.145 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:06:33.280 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:06:33.280 | ato_departure            | resolved=1/2
+2026-09-03 21:06:38.151 | parse_health             | FBB01.cam: records 823/823, bytes 300417/300417, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-09-03 21:06:38.369 | swap_context             | origin=select_cam:latest cam='fbb01.cam' loaded=True err=''
+2026-09-03 21:06:38.714 | ato_target               | index_built names=6822 memo=True
+2026-09-03 21:06:38.715 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:06:38.715 | ato_departure            | resolved=1/2
+2026-09-03 21:06:38.740 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:06:38.742 | ato_departure            | resolved=1/2
+2026-09-03 21:06:38.772 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:06:39.150 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:06:39.150 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:06:39.209 | swap_context             | origin=select_cam:latest cam='fbb01.cam' loaded=True err=''
+2026-09-03 21:06:39.222 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:06:39.222 | ato_departure            | resolved=1/2
+2026-09-03 21:06:39.259 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:06:39.260 | ato_departure            | resolved=1/2
+2026-09-03 21:06:39.611 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:06:39.630 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:06:39.630 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:06:46.940 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:06:46.940 | ato_departure            | resolved=1/2
+2026-09-03 21:06:46.946 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:06:46.947 | ato_departure            | resolved=1/2
+2026-09-03 21:06:47.341 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:06:47.356 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:06:47.356 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:06:58.326 | roaster.data             | fetch
+2026-09-03 21:06:58.337 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:06:58.428 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:06:58.428 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:06:58.428 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:06:58.428 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:06:58.429 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:06:58.429 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:06:58.430 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:06:58.430 | roaster.data             | ok — 2 flights, axis=309.2°, noms=session
+2026-09-03 21:07:18.875 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:07:18.891 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:07:18.891 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:07:19.029 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:07:19.029 | ato_departure            | resolved=1/2
+2026-09-03 21:07:19.033 | roaster.data             | fetch
+2026-09-03 21:07:19.033 | roaster.roster           | roster keys=['jolly3', 'cajun7']
+2026-09-03 21:07:19.036 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:07:19.036 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:07:19.037 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:07:19.037 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:07:19.037 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:07:19.037 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:07:19.037 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:07:19.037 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:07:19.038 | roaster.data             | ok — 2 flights, axis=309.2°, noms=briefing
+2026-09-03 21:07:19.039 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:07:19.039 | ato_departure            | resolved=1/2
+2026-09-03 21:07:19.437 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:07:19.454 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:07:19.455 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:07:58.332 | roaster.data             | fetch
+2026-09-03 21:07:58.332 | roaster.roster           | roster keys=['jolly3', 'cajun7']
+2026-09-03 21:07:58.333 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:07:58.333 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:07:58.334 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:07:58.334 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:07:58.334 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:07:58.334 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:07:58.334 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:07:58.334 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:07:58.334 | roaster.data             | ok — 2 flights, axis=309.2°, noms=briefing
+2026-09-03 21:08:13.189 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:08:13.204 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:08:13.205 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:08:13.358 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:08:13.358 | ato_departure            | resolved=1/2
+2026-09-03 21:08:20.684 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:08:20.687 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:08:20.687 | ato_departure            | resolved=1/2
+2026-09-03 21:08:20.690 | online                   | seat Mandrak=vu20028/s0
+2026-09-03 21:08:20.691 | online                   | seat_the_host Mandrak vu=20028 seat=0
+2026-09-03 21:08:20.707 | session_base             | freeze FBB01.cam -> C:\Users\mandrak\AppData\Roaming\FBB\session_base\FBB01.cam
+2026-09-03 21:08:20.707 | online                   | start_server port=45380
+2026-09-03 21:08:20.713 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:08:22.148 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:08:27.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:08:32.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:08:37.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:08:42.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:08:47.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:08:52.151 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:08:57.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:08:58.328 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:08:58.332 | roaster.data             | fetch
+2026-09-03 21:08:58.332 | roaster.roster           | roster keys=['jolly3', 'cajun7']
+2026-09-03 21:08:58.333 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:08:58.333 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:08:58.333 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:08:58.334 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:08:58.334 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:08:58.334 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:08:58.334 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:08:58.334 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:08:58.334 | roaster.data             | ok — 2 flights, axis=309.2°, noms=briefing
+2026-09-03 21:09:02.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:09:07.150 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:09:12.151 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:09:17.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:09:22.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:09:27.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:09:32.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:09:37.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:09:42.176 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:09:47.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2551
+2026-09-03 21:09:48.005 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:09:52.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:09:57.148 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:09:58.330 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:09:58.333 | roaster.data             | fetch
+2026-09-03 21:09:58.334 | roaster.roster           | roster keys=['jolly3', 'cajun7']
+2026-09-03 21:09:58.335 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:09:58.335 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:09:58.335 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:09:58.336 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:09:58.336 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:09:58.336 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:09:58.336 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:09:58.336 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:09:58.336 | roaster.data             | ok — 2 flights, axis=309.2°, noms=briefing
+2026-09-03 21:10:02.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:10:07.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:10:12.150 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:10:17.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:10:22.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:10:27.151 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:10:32.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:10:37.150 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:10:42.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:10:47.150 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:10:52.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:10:57.151 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:10:58.328 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:10:58.331 | roaster.data             | fetch
+2026-09-03 21:10:58.332 | roaster.roster           | roster keys=['jolly3', 'cajun7']
+2026-09-03 21:10:58.332 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:10:58.333 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:10:58.334 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:10:58.334 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:10:58.334 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:10:58.334 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:10:58.334 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:10:58.334 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:10:58.334 | roaster.data             | ok — 2 flights, axis=309.2°, noms=briefing
+2026-09-03 21:11:02.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:07.151 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:12.150 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:17.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:18.936 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:11:18.954 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:11:18.954 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:11:19.079 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:11:19.079 | ato_departure            | resolved=1/2
+2026-09-03 21:11:22.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:23.756 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:11:23.773 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:11:23.773 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:11:23.904 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:11:23.904 | ato_departure            | resolved=1/2
+2026-09-03 21:11:25.892 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:11:25.912 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:11:25.912 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:11:26.045 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:11:26.045 | ato_departure            | resolved=1/2
+2026-09-03 21:11:27.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:28.670 | roaster.data             | fetch
+2026-09-03 21:11:28.670 | roaster.roster           | roster keys=['jolly3', 'cajun7']
+2026-09-03 21:11:28.671 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:11:28.671 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:11:28.672 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:11:28.672 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:11:28.672 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:11:28.672 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:11:28.673 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:11:28.673 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:11:28.673 | roaster.data             | ok — 2 flights, axis=309.2°, noms=briefing
+2026-09-03 21:11:28.686 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:30.995 | online                   | set_mc Mandrak (vol 20028 siège 1)
+2026-09-03 21:11:32.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:37.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:42.148 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:47.147 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:48.177 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:11:48.191 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:11:48.192 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:11:48.323 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:11:48.323 | ato_departure            | resolved=1/2
+2026-09-03 21:11:48.538 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:48.540 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:11:48.559 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:11:48.559 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:11:48.591 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:11:48.591 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:11:48.594 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:11:48.594 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:11:49.474 | campaign_overview        | objective_index loaded=5992
+2026-09-03 21:11:49.480 | campaign_overview        | tri conditions=1 file=save0.tri
+2026-09-03 21:11:49.807 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-09-03 21:11:49.807 | campaign_overview        | system_marks=3
+2026-09-03 21:11:49.818 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:49.823 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:50.039 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:11:50.085 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:11:50.172 | briefing_context         | package_overview flights=2 route_points=11 focus_points=3 unique_points=11
+2026-09-03 21:11:50.603 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:11:51.559 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:51.767 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-09-03 21:11:51.767 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-09-03 21:11:51.767 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-09-03 21:11:52.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:54.542 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:57.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:11:57.539 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:00.542 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:02.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:03.539 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:06.537 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:07.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:09.542 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:11.099 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:12:11.099 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=5 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:12:11.117 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:12:11.117 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=5 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:12:12.149 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:12.542 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:15.536 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:17.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:18.542 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:21.536 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:21.716 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:12:21.717 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=11 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:12:21.735 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:12:21.735 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=11 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:12:22.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:24.542 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:25.206 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:12:25.206 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:12:25.226 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:12:25.226 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:12:27.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:27.537 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:28.672 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:28.676 | roaster.data             | fetch
+2026-09-03 21:12:28.676 | roaster.roster           | roster keys=['jolly3', 'cajun7']
+2026-09-03 21:12:28.677 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:12:28.677 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:12:28.677 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:12:28.678 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:12:28.678 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:12:28.679 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:12:28.679 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:12:28.679 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:12:28.679 | roaster.data             | ok — 2 flights, axis=309.2°, noms=briefing
+2026-09-03 21:12:30.542 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:32.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:33.544 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:36.542 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:37.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:39.537 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:42.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:42.539 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:45.536 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:47.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:48.540 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:51.536 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:52.148 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:54.266 | fpln_secondary           | REFUS airborne vu='20028' : vol 20028 déjà décollé (T/O J1 00:56, horloge J1 01:00)
+2026-09-03 21:12:54.268 | online                   | broadcast_fpln_secondary 0 vol(s)
+2026-09-03 21:12:54.536 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:54.702 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:12:57.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:12:57.537 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:00.537 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:02.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:03.547 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:04.117 | fpln_secondary           | REFUS airborne vu='20028' : vol 20028 déjà décollé (T/O J1 00:56, horloge J1 01:00)
+2026-09-03 21:13:04.538 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:13:06.536 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:07.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:09.538 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:12.154 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:12.540 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:15.543 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:17.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:18.547 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:21.536 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:22.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:24.541 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:24.713 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:13:24.728 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:13:24.728 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:13:24.864 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:13:24.864 | ato_departure            | resolved=1/2
+2026-09-03 21:13:27.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:27.540 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:28.665 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:28.668 | roaster.data             | fetch
+2026-09-03 21:13:28.669 | roaster.roster           | roster keys=['jolly3', 'cajun7']
+2026-09-03 21:13:28.669 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:13:28.670 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:13:28.670 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:13:28.670 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:13:28.670 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:13:28.671 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:13:28.671 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:13:28.671 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:13:28.671 | roaster.data             | ok — 2 flights, axis=309.2°, noms=briefing
+2026-09-03 21:13:30.541 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:32.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:33.537 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:36.541 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:37.147 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:39.542 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:42.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:42.541 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:45.540 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:47.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:48.538 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:51.541 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:52.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:54.541 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:57.150 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:13:57.541 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:00.542 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:02.150 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:03.541 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:06.542 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:07.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:09.542 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:12.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:12.537 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:15.542 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:17.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:18.541 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:21.546 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:22.147 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:22.993 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:14:23.009 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:14:23.009 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:14:23.135 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:14:23.135 | ato_departure            | resolved=1/2
+2026-09-03 21:14:24.541 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:25.385 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:25.386 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:14:25.405 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:14:25.406 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:14:26.008 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-09-03 21:14:26.008 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-09-03 21:14:26.009 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-09-03 21:14:26.065 | campaign_overview        | tri conditions=1 file=save0.tri
+2026-09-03 21:14:26.066 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-09-03 21:14:26.067 | campaign_overview        | system_marks=3
+2026-09-03 21:14:26.131 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:26.146 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:26.372 | briefing_context         | package_overview flights=2 route_points=11 focus_points=3 unique_points=11
+2026-09-03 21:14:26.783 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:14:27.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:27.757 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:14:27.758 | ato_departure            | resolved=1/2
+2026-09-03 21:14:28.388 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:28.674 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:28.677 | roaster.data             | fetch
+2026-09-03 21:14:28.678 | roaster.roster           | roster keys=['jolly3', 'cajun7']
+2026-09-03 21:14:28.680 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:14:28.680 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:14:28.680 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:14:28.681 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:14:28.681 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:14:28.682 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:14:28.684 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:14:28.684 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:14:28.684 | roaster.data             | ok — 2 flights, axis=309.2°, noms=briefing
+2026-09-03 21:14:31.388 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:32.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:34.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:37.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:37.388 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:40.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:42.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:43.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:46.388 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:47.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:49.388 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:52.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:52.388 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:55.390 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:57.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:14:58.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:01.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:02.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:04.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:07.148 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:07.388 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:10.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:12.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:13.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:16.388 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:17.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:19.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:22.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:22.388 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:25.387 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:27.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:28.388 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:28.661 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:28.664 | roaster.data             | fetch
+2026-09-03 21:15:28.665 | roaster.roster           | roster keys=['jolly3', 'cajun7']
+2026-09-03 21:15:28.665 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:15:28.666 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:15:28.666 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:15:28.666 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:15:28.666 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:15:28.667 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:15:28.667 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:15:28.667 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:15:28.667 | roaster.data             | ok — 2 flights, axis=309.2°, noms=briefing
+2026-09-03 21:15:31.386 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:32.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:34.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:37.151 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:37.388 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:40.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:42.148 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:43.388 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:43.620 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:15:43.638 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:15:43.639 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:15:46.400 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:47.154 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:49.388 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:50.905 | fpln_secondary           | REFUS airborne vu='20028' : vol 20028 déjà décollé (T/O J1 00:56, horloge J1 01:00)
+2026-09-03 21:15:51.339 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:15:52.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:52.385 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:55.390 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:57.151 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:58.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:15:59.154 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:15:59.167 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:15:59.168 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:15:59.302 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:15:59.302 | ato_departure            | resolved=1/2
+2026-09-03 21:16:01.386 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:02.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:04.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:07.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:07.388 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:10.387 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:12.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:13.385 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:16.385 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:17.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:18.148 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:19.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:22.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:22.388 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:25.387 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:27.151 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:28.384 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:28.670 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:28.674 | roaster.data             | fetch
+2026-09-03 21:16:28.675 | roaster.roster           | roster keys=['jolly3', 'cajun7']
+2026-09-03 21:16:28.675 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:16:28.676 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:16:28.676 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:16:28.676 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:16:28.676 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:16:28.676 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:16:28.677 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:16:28.677 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:16:28.677 | roaster.data             | ok — 2 flights, axis=309.2°, noms=briefing
+2026-09-03 21:16:31.386 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:32.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:34.385 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:37.156 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:37.384 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:40.386 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:42.155 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:43.385 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:46.384 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:47.153 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:49.385 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:52.150 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:52.385 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:55.384 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:57.150 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:16:58.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:01.386 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:02.156 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:04.385 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:07.148 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:07.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:10.386 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:12.158 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:13.393 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:16.385 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:17.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:19.390 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:22.148 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:22.387 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:25.387 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:27.150 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:28.392 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:28.675 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:28.679 | roaster.data             | fetch
+2026-09-03 21:17:28.679 | roaster.roster           | roster keys=['jolly3', 'cajun7']
+2026-09-03 21:17:28.680 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:17:28.680 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:17:28.681 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:17:28.681 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:17:28.681 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:17:28.682 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:17:28.682 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:17:28.682 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:17:28.682 | roaster.data             | ok — 2 flights, axis=309.2°, noms=briefing
+2026-09-03 21:17:31.389 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:32.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:34.385 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:37.156 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:37.386 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:40.388 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:42.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:42.435 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:17:42.453 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:17:42.454 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:17:42.586 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:17:42.586 | ato_departure            | resolved=1/2
+2026-09-03 21:17:43.387 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:46.386 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:47.152 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:48.723 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:49.386 | online                   | flight_occupancy flights=2 connected=2 pkg=2551
+2026-09-03 21:17:50.669 | online                   | stop_server
+2026-09-03 21:17:52.158 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:17:52.158 | ato_departure            | resolved=1/2
+2026-09-03 21:17:56.919 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:17:56.936 | fuel_plan                | avail=14234 atTurn=11611 bingo=3100 joker=3600 rtb=1062 margin=8511 GO
+2026-09-03 21:17:56.937 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:17:57.072 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:17:57.072 | ato_departure            | resolved=1/2
+2026-09-03 21:18:28.506 | parse_health             | FBB02.cam: records 823/823, bytes 300498/300498, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-09-03 21:18:28.643 | swap_context             | origin=select_cam:latest cam='fbb02.cam' loaded=True err=''
+2026-09-03 21:18:28.657 | roaster.data             | fetch
+2026-09-03 21:18:28.658 | roaster.roster           | roster keys=['jolly3', 'cajun7']
+2026-09-03 21:18:28.660 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:18:28.661 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:18:28.661 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:18:28.662 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:18:28.662 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:18:28.662 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:18:28.663 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:18:28.664 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:18:28.664 | roaster.data             | ok — 2 flights, axis=309.2°, noms=briefing
+2026-09-03 21:18:28.997 | ato_target               | index_built names=6822 memo=True
+2026-09-03 21:18:28.998 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:18:28.998 | ato_departure            | resolved=1/2
+2026-09-03 21:18:29.020 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:18:29.020 | ato_departure            | resolved=1/2
+2026-09-03 21:18:29.070 | roaster.data             | fetch
+2026-09-03 21:18:29.072 | roaster.roster           | roster keys=['jolly3', 'cajun7']
+2026-09-03 21:18:29.074 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:18:29.075 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:18:29.075 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:18:29.076 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:18:29.077 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:18:29.078 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:18:29.079 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:18:29.081 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:18:29.082 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:18:29.082 | roaster.data             | ok — 2 flights, axis=309.2°, noms=briefing
+2026-09-03 21:18:29.083 | dtc_render               | path=Mandrak.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=7361f4d5
+2026-09-03 21:18:29.127 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:18:29.132 | dtc_render               | path=Mandrak.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=7361f4d5
+2026-09-03 21:18:29.147 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:18:29.147 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:18:29.148 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:18:29.151 | package_comms            | tactical ch=6 primary=Jolly 3 uhf=295.525
+2026-09-03 21:18:30.274 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-09-03 21:18:30.275 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-09-03 21:18:30.275 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-09-03 21:18:30.473 | campaign_overview        | objective_index loaded=5992
+2026-09-03 21:18:30.478 | campaign_overview        | tri conditions=1 file=save0.tri
+2026-09-03 21:18:30.821 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-09-03 21:18:30.821 | campaign_overview        | system_marks=3
+2026-09-03 21:18:31.054 | mission_support          | awacs: cam pkg=2551 vu=20142
+2026-09-03 21:18:31.185 | mission_support          | tanker: cam pkg=2551 vu=20124
+2026-09-03 21:18:31.203 | briefing_context         | package_overview flights=2 route_points=11 focus_points=3 unique_points=11
+2026-09-03 21:18:31.634 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:19:13.141 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:19:13.145 | dtc_render               | path=Mandrak.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=7361f4d5
+2026-09-03 21:19:13.291 | ato_target               | resolved id=20027 target=Attack Heli
+2026-09-03 21:19:13.291 | ato_departure            | resolved=1/2
+2026-09-03 21:19:25.183 | roaster.data             | fetch
+2026-09-03 21:19:25.184 | roaster.roster           | roster keys=['blackhawk7', 'bulldog1']
+2026-09-03 21:19:25.185 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:19:25.186 | ato_target               | resolved id=20037 target=Attack Heli
+2026-09-03 21:19:25.186 | ato_departure            | resolved=1/2
+2026-09-03 21:19:25.186 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:19:25.187 | mission_support          | tanker: cam pkg=2571 vu=20124
+2026-09-03 21:19:25.187 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:19:25.187 | mission_support          | awacs: cam pkg=2571 vu=20142
+2026-09-03 21:19:25.187 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:19:25.188 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:19:25.188 | package_comms            | tactical ch=6 primary=Blackhawk 7 uhf=368.900
+2026-09-03 21:19:25.188 | roaster.data             | ok — 2 flights, axis=277.9°, noms=briefing
+2026-09-03 21:19:25.193 | ato_target               | resolved id=20037 target=Attack Heli
+2026-09-03 21:19:25.193 | ato_departure            | resolved=1/2
+2026-09-03 21:19:25.273 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:19:25.291 | fuel_plan                | avail=14234 atTurn=12092 bingo=3000 joker=3500 rtb=954 margin=9092 GO
+2026-09-03 21:19:25.292 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:19:25.789 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-09-03 21:19:25.789 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-09-03 21:19:25.789 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-09-03 21:19:25.819 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:19:25.837 | fuel_plan                | avail=14234 atTurn=12092 bingo=3000 joker=3500 rtb=954 margin=9092 GO
+2026-09-03 21:19:25.837 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:19:25.887 | campaign_overview        | tri conditions=1 file=save0.tri
+2026-09-03 21:19:25.887 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-09-03 21:19:25.888 | campaign_overview        | system_marks=3
+2026-09-03 21:19:26.174 | mission_support          | awacs: cam pkg=2571 vu=20142
+2026-09-03 21:19:26.175 | mission_support          | tanker: cam pkg=2571 vu=20124
+2026-09-03 21:19:26.191 | briefing_context         | package_overview flights=2 route_points=12 focus_points=4 unique_points=12
+2026-09-03 21:19:26.638 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:19:28.674 | roaster.data             | fetch
+2026-09-03 21:19:28.675 | roaster.roster           | roster keys=['blackhawk7', 'bulldog1']
+2026-09-03 21:19:28.675 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:19:28.675 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:19:28.676 | mission_support          | tanker: cam pkg=2571 vu=20124
+2026-09-03 21:19:28.676 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:19:28.676 | mission_support          | awacs: cam pkg=2571 vu=20142
+2026-09-03 21:19:28.677 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:19:28.677 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:19:28.677 | package_comms            | tactical ch=6 primary=Blackhawk 7 uhf=368.900
+2026-09-03 21:19:28.677 | roaster.data             | ok — 2 flights, axis=277.9°, noms=briefing
+2026-09-03 21:19:52.337 | online                   | seat Mandrak=vu20038/s0
+2026-09-03 21:19:52.337 | online                   | seat_the_host Mandrak vu=20038 seat=0
+2026-09-03 21:19:52.342 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:19:52.343 | ato_target               | resolved id=20037 target=Attack Heli
+2026-09-03 21:19:52.343 | ato_departure            | resolved=1/2
+2026-09-03 21:19:52.354 | session_base             | freeze FBB02.cam -> C:\Users\mandrak\AppData\Roaming\FBB\session_base\FBB02.cam
+2026-09-03 21:19:52.354 | online                   | start_server port=45380
+2026-09-03 21:19:52.360 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:19:55.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:19:57.149 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:19:58.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:01.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:02.149 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:04.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:07.149 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:07.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:10.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:12.149 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:13.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:16.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:17.149 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:19.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:22.149 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:22.270 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:25.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:27.149 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:28.273 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:28.665 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:28.669 | roaster.data             | fetch
+2026-09-03 21:20:28.670 | roaster.roster           | roster keys=['blackhawk7', 'bulldog1']
+2026-09-03 21:20:28.670 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:20:28.671 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:20:28.671 | mission_support          | tanker: cam pkg=2571 vu=20124
+2026-09-03 21:20:28.671 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:20:28.672 | mission_support          | awacs: cam pkg=2571 vu=20142
+2026-09-03 21:20:28.672 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:20:28.672 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:20:28.672 | package_comms            | tactical ch=6 primary=Blackhawk 7 uhf=368.900
+2026-09-03 21:20:28.672 | roaster.data             | ok — 2 flights, axis=277.9°, noms=briefing
+2026-09-03 21:20:31.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:32.149 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:34.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:37.149 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:37.273 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:40.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:42.149 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:43.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:46.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:47.148 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:49.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:52.150 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:52.277 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:55.270 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:57.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:20:58.279 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:01.275 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:02.156 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:04.271 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:07.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:07.276 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:10.270 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:12.147 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:13.273 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:16.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:17.149 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:19.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:22.153 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:22.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:25.271 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:27.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:28.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:28.673 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:28.676 | roaster.data             | fetch
+2026-09-03 21:21:28.676 | roaster.roster           | roster keys=['blackhawk7', 'bulldog1']
+2026-09-03 21:21:28.677 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:21:28.678 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:21:28.678 | mission_support          | tanker: cam pkg=2571 vu=20124
+2026-09-03 21:21:28.679 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:21:28.679 | mission_support          | awacs: cam pkg=2571 vu=20142
+2026-09-03 21:21:28.679 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:21:28.679 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:21:28.679 | package_comms            | tactical ch=6 primary=Blackhawk 7 uhf=368.900
+2026-09-03 21:21:28.680 | roaster.data             | ok — 2 flights, axis=277.9°, noms=briefing
+2026-09-03 21:21:31.271 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:32.153 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:34.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:37.148 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:37.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:40.271 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:42.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:43.269 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:46.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:47.154 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:49.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:52.154 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:52.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:55.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:57.154 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:21:58.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:01.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:02.154 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:04.271 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:07.147 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:07.274 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:10.271 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:12.153 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:13.271 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:16.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:17.153 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:19.271 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:22.154 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:22.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:25.271 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:27.152 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:28.269 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:28.677 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:28.680 | roaster.data             | fetch
+2026-09-03 21:22:28.680 | roaster.roster           | roster keys=['blackhawk7', 'bulldog1']
+2026-09-03 21:22:28.681 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:22:28.681 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:22:28.682 | mission_support          | tanker: cam pkg=2571 vu=20124
+2026-09-03 21:22:28.682 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:22:28.682 | mission_support          | awacs: cam pkg=2571 vu=20142
+2026-09-03 21:22:28.682 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:22:28.683 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-03 21:22:28.683 | package_comms            | tactical ch=6 primary=Blackhawk 7 uhf=368.900
+2026-09-03 21:22:28.683 | roaster.data             | ok — 2 flights, axis=277.9°, noms=briefing
+2026-09-03 21:22:31.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:32.149 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:34.271 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:37.151 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:37.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:40.270 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:42.148 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:43.271 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:46.272 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:47.154 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:49.271 | online                   | flight_occupancy flights=2 connected=1 pkg=2571
+2026-09-03 21:22:51.854 | online                   | stop_server
+2026-09-03 21:22:52.154 | ato_target               | resolved id=20037 target=Attack Heli
+2026-09-03 21:22:52.155 | ato_departure            | resolved=1/2
+2026-09-03 21:22:55.321 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-03 21:22:55.339 | fuel_plan                | avail=14234 atTurn=12092 bingo=3000 joker=3500 rtb=954 margin=9092 GO
+2026-09-03 21:22:55.339 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=7361f4d5
+2026-09-03 21:22:55.468 | ato_target               | resolved id=20037 target=Attack Heli
+2026-09-03 21:22:55.468 | ato_departure            | resolved=1/2
