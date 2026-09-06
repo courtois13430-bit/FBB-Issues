@@ -1,0 +1,96 @@
+2026-09-06 21:15:11.653 | ========================================================================
+2026-09-06 21:15:11.653 | FBB Online  mode=SERVER    identity=HOST              port=45380
+2026-09-06 21:15:11.653 | Session : 2026-09-06 21:15:11
+2026-09-06 21:15:11.653 | ========================================================================
+2026-09-06 21:15:11.655 | [TLS] Cert <empreinte masquée>... — host-pass=ok (machine=<masqué>) — epinglage Route B pret
+2026-09-06 21:15:11.657 | [SERVER] status → running
+2026-09-06 21:15:11.657 | [STATE] _mode idle -> server | cause=start_server
+2026-09-06 21:15:11.658 | [STATE] _my_callsign (vide) -> Obe1 | cause=start_server
+2026-09-06 21:15:11.658 | [STATE] reset online | cause=start_server | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-09-06 21:15:11.659 | [SERVER] Obe1 tient Spade 5 — Flight Lead
+2026-09-06 21:15:11.690 | [SERVER] Démarré sur port 45380
+2026-09-06 21:15:20.574 | [SERVER] Vince connecté depuis 82.67.122.32 — 1 client(s)
+2026-09-06 21:15:20.611 | [SERVER] campagne + état complet transmis → Vince
+2026-09-06 21:15:33.192 | [SERVER] Mandrak connecté depuis 86.194.141.253 — 2 client(s)
+2026-09-06 21:15:33.230 | [SERVER] campagne + état complet transmis → Mandrak
+2026-09-06 21:15:35.653 | [RTT] Vince 32 ms
+2026-09-06 21:15:48.288 | [RTT] Mandrak 49 ms
+2026-09-06 21:16:13.021 | [SERVER] LorikServer connecté depuis 86.198.145.172 — 3 client(s)
+2026-09-06 21:16:13.022 | [ROLE] F4 BMS Host → LorikServer
+2026-09-06 21:16:13.062 | [SERVER] campagne + état complet transmis → LorikServer
+2026-09-06 21:16:28.121 | [RTT] LorikServer 55 ms
+2026-09-06 21:16:30.457 | [SERVER] x Connexion refusee : le siege 3 n'est pas libre — il est a Mandrak
+2026-09-06 21:16:33.771 | [SERVER] x Connexion refusee : le siege 3 n'est pas libre — il est a Mandrak
+2026-09-06 21:16:35.835 | [RTT] Vince 55 ms
+2026-09-06 21:16:37.062 | [SERVER] x Connexion refusee : le siege 3 n'est pas libre — il est a Mandrak
+2026-09-06 21:16:43.962 | [SERVER] LorikEolmin connecté depuis 86.198.145.172 — 4 client(s)
+2026-09-06 21:16:44.000 | [SERVER] campagne + état complet transmis → LorikEolmin
+2026-09-06 21:16:48.577 | [RTT] Mandrak 70 ms
+2026-09-06 21:16:59.101 | [RTT] LorikEolmin 87 ms
+2026-09-06 21:17:00.946 | [SERVER] LorikEolmin déconnecté — 3 client(s) restant(s)
+2026-09-06 21:17:04.953 | [SERVER] ↻ LorikEolmin reconnecté depuis 86.198.145.172 — 4 client(s)
+2026-09-06 21:17:04.956 | [SERVER] état renvoyé (reconnexion) → LorikEolmin
+2026-09-06 21:17:20.031 | [RTT] LorikEolmin 69 ms
+2026-09-06 21:17:20.132 | [MC] Mission Commander → Obe1 (vol 20172 siège 1)
+2026-09-06 21:17:28.331 | [RTT] LorikServer 31 ms
+2026-09-06 21:17:36.026 | [RTT] Vince 66 ms
+2026-09-06 21:17:48.849 | [RTT] Mandrak 71 ms
+2026-09-06 21:18:20.329 | [RTT] LorikEolmin 81 ms
+2026-09-06 21:18:28.649 | [RTT] LorikServer 48 ms
+2026-09-06 21:18:36.178 | [RTT] Vince 12 ms
+2026-09-06 21:18:49.106 | [RTT] Mandrak 79 ms
+2026-09-06 21:19:09.954 | [MC-LAYER] v1 publié par Obe1 (24 lines, 15 ppt)
+2026-09-06 21:19:20.566 | [RTT] LorikEolmin 86 ms
+2026-09-06 21:19:28.855 | [RTT] LorikServer 64 ms
+2026-09-06 21:19:36.351 | [RTT] Vince 12 ms
+2026-09-06 21:19:49.403 | [RTT] Mandrak 62 ms
+2026-09-06 21:20:20.904 | [RTT] LorikEolmin 88 ms
+2026-09-06 21:20:29.080 | [RTT] LorikServer 47 ms
+2026-09-06 21:20:36.524 | [RTT] Vince 34 ms
+2026-09-06 21:20:42.856 | [SERVER] LorikEolmin déconnecté — 3 client(s) restant(s)
+2026-09-06 21:20:49.641 | [RTT] Mandrak 25 ms
+2026-09-06 21:21:15.513 | [SERVER] ↻ LorikEolmin reconnecté depuis 86.198.145.172 — 4 client(s)
+2026-09-06 21:21:15.517 | [SERVER] état renvoyé (reconnexion) → LorikEolmin
+2026-09-06 21:21:29.288 | [RTT] LorikServer 29 ms
+2026-09-06 21:21:30.591 | [RTT] LorikEolmin 68 ms
+2026-09-06 21:21:36.752 | [RTT] Vince 53 ms
+2026-09-06 21:21:50.017 | [RTT] Mandrak 78 ms
+2026-09-06 21:22:25.321 | [PING] Obe1 ping position
+2026-09-06 21:22:29.462 | [PING] Obe1 ping position
+2026-09-06 21:22:29.614 | [RTT] LorikServer 115 ms
+2026-09-06 21:22:30.881 | [RTT] LorikEolmin 43 ms
+2026-09-06 21:22:36.986 | [RTT] Vince 48 ms
+2026-09-06 21:22:50.317 | [RTT] Mandrak 81 ms
+2026-09-06 21:23:29.945 | [RTT] LorikServer 76 ms
+2026-09-06 21:23:31.134 | [RTT] LorikEolmin 28 ms
+2026-09-06 21:23:37.095 | [RTT] Vince 14 ms
+2026-09-06 21:23:50.632 | [RTT] Mandrak 51 ms
+2026-09-06 21:23:54.898 | [PING] Obe1 ping position
+2026-09-06 21:24:30.250 | [RTT] LorikServer 76 ms
+2026-09-06 21:24:31.406 | [RTT] LorikEolmin 81 ms
+2026-09-06 21:24:37.283 | [RTT] Vince 54 ms
+2026-09-06 21:24:50.943 | [RTT] Mandrak 70 ms
+2026-09-06 21:25:30.473 | [RTT] LorikServer 28 ms
+2026-09-06 21:25:31.638 | [RTT] LorikEolmin 40 ms
+2026-09-06 21:25:37.502 | [RTT] Vince 55 ms
+2026-09-06 21:25:51.205 | [RTT] Mandrak 47 ms
+2026-09-06 21:26:30.703 | [RTT] LorikServer 68 ms
+2026-09-06 21:26:31.910 | [RTT] LorikEolmin 25 ms
+2026-09-06 21:26:37.753 | [RTT] Vince 62 ms
+2026-09-06 21:26:51.430 | [RTT] Mandrak 81 ms
+2026-09-06 21:27:30.954 | [RTT] LorikServer 64 ms
+2026-09-06 21:27:32.120 | [RTT] LorikEolmin 27 ms
+2026-09-06 21:27:37.971 | [RTT] Vince 30 ms
+2026-09-06 21:27:51.734 | [RTT] Mandrak 71 ms
+2026-09-06 21:27:58.696 | [SERVER] Vince déconnecté — 3 client(s) restant(s)
+2026-09-06 21:27:58.697 | [SERVER] Mandrak déconnecté — 2 client(s) restant(s)
+2026-09-06 21:27:58.698 | [SERVER] LorikEolmin déconnecté — 1 client(s) restant(s)
+2026-09-06 21:27:58.698 | [ROLE] F4 BMS Host → (aucun)
+2026-09-06 21:27:58.699 | [SERVER] LorikServer déconnecté — 0 client(s) restant(s)
+2026-09-06 21:27:58.699 | [SERVER] status → stopped
+2026-09-06 21:27:58.700 | [STATE] _mode server -> idle | cause=stop_server
+2026-09-06 21:27:58.700 | [STATE] _my_callsign Obe1 -> (vide) | cause=stop_server
+2026-09-06 21:27:58.702 | [STATE] reset online | cause=stop_server | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-09-06 21:27:58.703 | [SERVER] Arrêté
+2026-09-06 21:27:58.704 | ========================================================================
+2026-09-06 21:27:58.704 | FBB Online — session terminée | cause=stop_server — arrêt du serveur demandé par l'UI
