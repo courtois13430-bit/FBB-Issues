@@ -1,0 +1,188 @@
+2026-09-06 23:53:26.573 | ========================================================================
+2026-09-06 23:53:26.573 | startup                  | FBB 1.88.0 — session 2026-09-06 23:53:26
+2026-09-06 23:53:26.573 | startup                  | Répertoire : C:\Falcon\Admin\Logiciels annexes\FBB\_internal
+2026-09-06 23:53:26.573 | startup                  | Python 3.14.5
+2026-09-06 23:53:26.573 | ========================================================================
+2026-09-06 23:53:26.573 | system                   | OS : Windows 11 10.0.26200, AMD64, 32 CPU, RAM 32 GB
+2026-09-06 23:53:26.582 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-09-06 23:53:26.582 | registry                 | BMS baseDir : C:\Falcon\Falcon BMS 4.38
+2026-09-06 23:53:26.582 | registry                 | BMS theater : LKTO 4.38 + Papa  pilot : Obe1
+2026-09-06 23:53:26.935 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-09-06 23:53:28.358 | parse_health             | CI02.cam: records 560/560, bytes 261523/261523, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-09-06 23:53:29.765 | telemetry                | ping OK v1.88.0 Windows 11 canal=prod → HTTP 200
+2026-09-06 23:53:32.288 | ato_target               | index_built names=6559 memo=True
+2026-09-06 23:53:32.288 | ato_departure            | resolved=1/1
+2026-09-06 23:53:32.555 | ato_departure            | resolved=1/1
+2026-09-06 23:53:32.897 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 23:53:33.087 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=211)
+2026-09-06 23:53:33.104 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=605daf70
+2026-09-06 23:53:39.148 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 23:53:39.163 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=211)
+2026-09-06 23:53:39.165 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=605daf70
+2026-09-06 23:53:39.501 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 23:53:39.503 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 23:53:39.512 | package_comms            | tactical ch=6 primary=Jumbo 7 uhf=389.850
+2026-09-06 23:53:40.609 | campaign_overview        | objective_index loaded=5992
+2026-09-06 23:53:40.614 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-06 23:53:40.934 | campaign_overview        | built team=3 conditions=1 force_rows=7
+2026-09-06 23:53:40.934 | campaign_overview        | system_marks=1
+2026-09-06 23:53:41.084 | package_relevance        | package_routes pkg=1439 flights=1 routes=1 points=9
+2026-09-06 23:53:41.267 | friendly_air_defense     | pkg=1439 ref=aoo sites=13 combat_wp=0 aoo_wp=0 covering=0 nearby=0 shown=0 blocked_cov=no_aoo_mission sans_type=0 ppt_types=242 alt_ft=32000
+2026-09-06 23:53:41.508 | briefing_context         | package_overview flights=1 route_points=8 focus_points=0 unique_points=8
+2026-09-06 23:53:41.945 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 23:53:42.934 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-09-06 23:53:42.934 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-09-06 23:53:42.934 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-09-06 23:53:44.425 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=211)
+2026-09-06 23:53:44.428 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=605daf70
+2026-09-06 23:53:44.441 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=211)
+2026-09-06 23:53:44.443 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=605daf70
+2026-09-06 23:53:51.176 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 23:53:51.192 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=211)
+2026-09-06 23:53:51.194 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=605daf70
+2026-09-06 23:53:51.331 | ato_departure            | resolved=1/1
+2026-09-06 23:53:51.504 | parse_health             | CI01.cam: records 580/580, bytes 263785/263785, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-09-06 23:53:51.628 | swap_context             | origin=select_cam:previous cam='ci01.cam' loaded=True err=''
+2026-09-06 23:53:51.951 | ato_target               | index_built names=6579 memo=True
+2026-09-06 23:53:51.952 | ato_departure            | resolved=1/1
+2026-09-06 23:53:52.078 | campaign_overview        | objective_index loaded=5992
+2026-09-06 23:53:52.413 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-06 23:53:52.724 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-06 23:53:52.725 | campaign_overview        | system_marks=1
+2026-09-06 23:53:52.732 | ato_departure            | resolved=1/1
+2026-09-06 23:53:52.750 | campaign_mods            | package non composable : package vide : ajouter au moins un vol
+2026-09-06 23:53:52.752 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 1} sig=-
+2026-09-06 23:53:52.762 | campaign_mods            | package non composable : package vide : ajouter au moins un vol
+2026-09-06 23:53:52.763 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 1} sig=-
+2026-09-06 23:53:52.835 | fuel_plan                | avail=12194 atTurn=9504 bingo=3200 joker=3700 rtb=1043 margin=6304 GO
+2026-09-06 23:53:52.835 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=605daf70
+2026-09-06 23:53:52.922 | campaign_mods            | package non composable : package vide : ajouter au moins un vol
+2026-09-06 23:53:52.922 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 1} sig=-
+2026-09-06 23:53:52.938 | fuel_plan                | avail=12194 atTurn=9504 bingo=3200 joker=3700 rtb=1043 margin=6304 GO
+2026-09-06 23:53:52.938 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=605daf70
+2026-09-06 23:53:52.993 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 23:53:53.054 | mission_support          | awacs: cam pkg=1617 vu=20061
+2026-09-06 23:53:53.056 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 23:53:53.056 | package_comms            | tactical ch=6 primary=Hawkeye 7 uhf=351.000
+2026-09-06 23:53:53.904 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-09-06 23:53:53.904 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-09-06 23:53:53.904 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-09-06 23:53:54.083 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-06 23:53:54.090 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-06 23:53:54.091 | campaign_overview        | system_marks=1
+2026-09-06 23:53:54.180 | package_relevance        | package_routes pkg=1617 flights=1 routes=1 points=5
+2026-09-06 23:53:54.347 | friendly_ad_zone         | wps=2 buffer_nm=20.0 hull=26
+2026-09-06 23:53:54.441 | friendly_air_defense     | pkg=1617 ref=aoo sites=13 combat_wp=0 aoo_wp=2 covering=11 nearby=1 shown=1 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=21000
+2026-09-06 23:53:54.445 | mission_support          | awacs: cam pkg=1617 vu=20061
+2026-09-06 23:53:54.967 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-09-06 23:53:55.734 | campaign_mods            | package non composable : package vide : ajouter au moins un vol
+2026-09-06 23:53:55.734 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 1} sig=-
+2026-09-06 23:53:58.986 | campaign_mods            | package non composable : package vide : ajouter au moins un vol
+2026-09-06 23:53:58.986 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 1} sig=-
+2026-09-06 23:53:59.002 | fuel_plan                | avail=12194 atTurn=9504 bingo=3200 joker=3700 rtb=1043 margin=6304 GO
+2026-09-06 23:53:59.003 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=605daf70
+2026-09-06 23:54:16.563 | ato_departure            | resolved=1/1
+2026-09-06 23:54:23.882 | campaign_mods            | package non composable : package vide : ajouter au moins un vol
+2026-09-06 23:54:23.883 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 1} sig=-
+2026-09-06 23:54:23.897 | fuel_plan                | avail=12194 atTurn=9504 bingo=3200 joker=3700 rtb=1043 margin=6304 GO
+2026-09-06 23:54:23.898 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=605daf70
+2026-09-06 23:54:42.278 | campaign_mods            | package non composable : package vide : ajouter au moins un vol
+2026-09-06 23:54:42.278 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 1} sig=-
+2026-09-06 23:54:42.293 | fuel_plan                | avail=12194 atTurn=9504 bingo=3200 joker=3700 rtb=1043 margin=6304 GO
+2026-09-06 23:54:42.293 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=605daf70
+2026-09-06 23:54:44.515 | ato_departure            | resolved=1/1
+2026-09-06 23:56:53.170 | campaign_mods            | package non composable : package vide : ajouter au moins un vol
+2026-09-06 23:56:53.170 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 1} sig=-
+2026-09-06 23:56:53.183 | fuel_plan                | avail=12194 atTurn=9504 bingo=3200 joker=3700 rtb=1043 margin=6304 GO
+2026-09-06 23:56:53.183 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=605daf70
+2026-09-06 23:56:53.331 | ato_departure            | resolved=1/1
+2026-09-06 23:56:53.429 | mission_support          | awacs: cam pkg=1617 vu=20061
+2026-09-06 23:56:53.429 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 23:56:53.430 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 23:56:53.430 | package_comms            | tactical ch=6 primary=Hawkeye 7 uhf=351.000
+2026-09-06 23:56:53.430 | mission_support          | awacs: cam pkg=1617 vu=20061
+2026-09-06 23:56:53.434 | package_relevance        | package_routes pkg=1617 flights=1 routes=1 points=5
+2026-09-06 23:56:53.523 | friendly_air_defense     | pkg=1617 ref=stpt sites=13 combat_wp=2 aoo_wp=0 covering=8 nearby=1 shown=1 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=21000
+2026-09-06 23:56:53.523 | briefing_context         | roster_support flights=1 tanker=False awacs=True friendly_ad=ok
+2026-09-06 23:56:53.524 | package_relevance        | package_routes pkg=1617 flights=1 routes=1 points=5
+2026-09-06 23:56:53.524 | briefing_context         | package_route_sketch flights=1 points=5
+2026-09-06 23:56:53.524 | briefing_context         | ordnance vu=20690 aircraft=4 pending=False
+2026-09-06 23:56:53.527 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-06 23:56:53.529 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-06 23:56:53.530 | mission_support          | awacs: cam pkg=1617 vu=20061
+2026-09-06 23:56:53.567 | campaign_mods            | package non composable : package vide : ajouter au moins un vol
+2026-09-06 23:56:53.567 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 1} sig=-
+2026-09-06 23:56:53.575 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-06 23:56:53.584 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-06 23:56:53.589 | fuel_plan                | avail=12194 atTurn=9504 bingo=3200 joker=3700 rtb=1043 margin=6304 GO
+2026-09-06 23:56:53.590 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=605daf70
+2026-09-06 23:57:10.995 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 23:57:10.996 | mission_support          | awacs: cam pkg=1617 vu=20061
+2026-09-06 23:57:10.996 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 23:57:10.996 | package_comms            | tactical ch=6 primary=Hawkeye 7 uhf=351.000
+2026-09-06 23:57:10.998 | package_comm_plan        | build_package_comm_plan: nets=4 intras=1
+2026-09-06 23:57:15.182 | campaign_mods            | package non composable : package vide : ajouter au moins un vol
+2026-09-06 23:57:15.183 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 1} sig=-
+2026-09-06 23:57:15.196 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-09-06 23:57:15.200 | fuel_plan                | avail=12194 atTurn=9504 bingo=3200 joker=3700 rtb=1043 margin=6304 GO
+2026-09-06 23:57:15.200 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=605daf70
+2026-09-06 23:57:15.440 | vprofile_wx              | n=198 fog=0 cb=1
+2026-09-06 23:57:16.419 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-09-06 23:57:16.616 | timeline_data            | pkgs=137 flights=175 my_pkg=1617 my_vu=20690 buddies=0
+2026-09-06 23:57:16.630 | timeline_support         | tanker: aucun désigné (source=none)
+2026-09-06 23:57:16.631 | mission_support          | awacs: cam pkg=1617 vu=20061
+2026-09-06 23:57:16.631 | timeline_support         | awacs: vu=20061 source=cam in_payload=True
+2026-09-06 23:57:23.409 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-09-06 23:57:23.477 | roaster.data             | fetch
+2026-09-06 23:57:23.478 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 23:57:23.479 | mission_support          | awacs: cam pkg=1617 vu=20061
+2026-09-06 23:57:23.479 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 23:57:23.480 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 23:57:23.480 | package_comms            | tactical ch=6 primary=Hawkeye 7 uhf=351.000
+2026-09-06 23:57:23.480 | roaster.data             | ok — 1 flights, axis=155.6°, noms=session
+2026-09-06 23:57:46.976 | campaign_mods            | package non composable : package vide : ajouter au moins un vol
+2026-09-06 23:57:46.976 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 1} sig=-
+2026-09-06 23:57:46.992 | fuel_plan                | avail=12194 atTurn=9504 bingo=3200 joker=3700 rtb=1043 margin=6304 GO
+2026-09-06 23:57:46.992 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=605daf70
+2026-09-06 23:57:47.330 | timeline_data            | pkgs=137 flights=175 my_pkg=1617 my_vu=20690 buddies=0
+2026-09-06 23:57:47.332 | timeline_support         | tanker: aucun désigné (source=none)
+2026-09-06 23:57:47.332 | mission_support          | awacs: cam pkg=1617 vu=20061
+2026-09-06 23:57:47.332 | timeline_support         | awacs: vu=20061 source=cam in_payload=True
+2026-09-06 23:58:08.704 | campaign_mods            | package non composable : package vide : ajouter au moins un vol
+2026-09-06 23:58:08.704 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 1} sig=-
+2026-09-06 23:58:08.719 | fuel_plan                | avail=12194 atTurn=9504 bingo=3200 joker=3700 rtb=1043 margin=6304 GO
+2026-09-06 23:58:08.719 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=605daf70
+2026-09-06 23:58:46.603 | ato_departure            | resolved=1/1
+2026-09-06 23:58:51.607 | campaign_mods            | package non composable : package vide : ajouter au moins un vol
+2026-09-06 23:58:51.608 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 1} sig=-
+2026-09-06 23:58:51.622 | fuel_plan                | avail=12194 atTurn=9504 bingo=3200 joker=3700 rtb=1043 margin=6304 GO
+2026-09-06 23:58:51.622 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=605daf70
+2026-09-06 23:58:52.610 | ato_departure            | resolved=1/1
+2026-09-07 00:02:20.226 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-09-07 00:02:20.361 | timeline_data            | pkgs=137 flights=175 my_pkg=1617 my_vu=20690 buddies=0
+2026-09-07 00:02:20.365 | timeline_support         | tanker: aucun désigné (source=none)
+2026-09-07 00:02:20.365 | mission_support          | awacs: cam pkg=1617 vu=20061
+2026-09-07 00:02:20.365 | timeline_support         | awacs: vu=20061 source=cam in_payload=True
+2026-09-07 00:02:20.872 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-09-07 00:02:20.996 | vprofile_wx              | n=198 fog=0 cb=1
+2026-09-07 00:03:04.522 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-07 00:03:04.524 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-07 00:03:04.525 | campaign_overview        | system_marks=1
+2026-09-07 00:03:04.529 | package_relevance        | package_routes pkg=1617 flights=1 routes=1 points=5
+2026-09-07 00:03:04.533 | package_relevance        | package_routes pkg=1617 flights=1 routes=1 points=5
+2026-09-07 00:03:04.533 | package_relevance        | package_routes pkg=1617 flights=1 routes=1 points=5
+2026-09-07 00:03:04.537 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-07 00:03:04.540 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-07 00:03:04.540 | campaign_overview        | system_marks=1
+2026-09-07 00:03:04.622 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-07 00:03:04.624 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-07 00:03:04.625 | campaign_overview        | system_marks=1
+2026-09-07 00:03:04.629 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-07 00:03:04.631 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-07 00:03:04.631 | campaign_overview        | system_marks=1
+2026-09-07 00:03:04.632 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-09-07 00:03:04.636 | package_relevance        | package_routes pkg=1617 flights=1 routes=1 points=5
+2026-09-07 00:03:19.297 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-07 00:03:19.299 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-07 00:03:25.855 | ato_departure            | resolved=1/1
+2026-09-07 00:03:31.495 | ato_departure            | resolved=1/1
