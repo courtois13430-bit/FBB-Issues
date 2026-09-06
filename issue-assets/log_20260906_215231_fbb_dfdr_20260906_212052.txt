@@ -1,0 +1,463 @@
+2026-09-06 21:20:54.979 | ========================================================================
+2026-09-06 21:20:54.980 | startup                  | FBB 1.87.0 — session 2026-09-06 21:20:54
+2026-09-06 21:20:54.980 | startup                  | Répertoire : C:\Users\gaeri\AppData\Local\Programs\FBB\_internal
+2026-09-06 21:20:54.980 | startup                  | Python 3.14.5
+2026-09-06 21:20:54.980 | ========================================================================
+2026-09-06 21:20:54.980 | system                   | OS : Windows 11 10.0.26200, AMD64, 28 CPU, RAM 32 GB
+2026-09-06 21:20:54.997 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-09-06 21:20:54.997 | registry                 | BMS baseDir : F:\Falcon BMS 4.38
+2026-09-06 21:20:54.997 | registry                 | BMS theater : LKTO 4.38 + Papa  pilot : LorikEolmin
+2026-09-06 21:20:55.371 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-09-06 21:20:56.620 | parse_health             | CI01.cam: records 575/575, bytes 262178/262178, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-09-06 21:20:58.229 | ato_target               | index_built names=6574 memo=True
+2026-09-06 21:20:58.230 | ato_departure            | resolved=1/1
+2026-09-06 21:20:58.481 | telemetry                | ping OK v1.87.0 Windows 11 canal=prod → HTTP 200
+2026-09-06 21:21:00.908 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 21:21:01.005 | ato_departure            | resolved=1/1
+2026-09-06 21:21:01.162 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=c4a095cf
+2026-09-06 21:21:11.493 | online                   | peek_roster 82.64.199.133:45380 start (suggested=LorikEolmin)
+2026-09-06 21:21:12.683 | online                   | peek_roster 82.64.199.133:45380 ok: 1 vol(s)
+2026-09-06 21:21:13.988 | online                   | connect_client 82.64.199.133:45380 as LorikEolmin
+2026-09-06 21:21:13.995 | ato_departure            | resolved=1/1
+2026-09-06 21:21:15.189 | online                   | host_theater=LKTO 4.38 + Papa local=LKTO 4.38 + Papa
+2026-09-06 21:21:15.189 | online                   | reconnected: campaign kept, _campaign_received restored
+2026-09-06 21:21:15.192 | online                   | seats_import n=4
+2026-09-06 21:21:15.193 | online                   | dpi_sync received 1
+2026-09-06 21:21:15.194 | online                   | ba_containers_sync received 19
+2026-09-06 21:21:15.195 | online                   | mc_assigned Obe1 (vol 20172 siège 1)
+2026-09-06 21:21:15.200 | ato_departure            | resolved=1/1
+2026-09-06 21:21:15.325 | loadout_laser            | package=1747 laser_flights=0 my_code=1688
+2026-09-06 21:21:15.326 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-09-06 21:21:15.326 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-09-06 21:21:15.326 | loadout_weapon_dtc       | validated_fields=0 stage_sections=0
+2026-09-06 21:21:15.326 | online                   | loadout_sync_received
+2026-09-06 21:21:15.327 | online                   | mc_layer_sync_received v1
+2026-09-06 21:21:15.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:15.728 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 21:21:15.740 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=c4a095cf
+2026-09-06 21:21:19.336 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 21:21:19.344 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=c4a095cf
+2026-09-06 21:21:19.478 | ato_departure            | resolved=1/1
+2026-09-06 21:21:20.481 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:22.792 | mission_support          | tanker: cam pkg=1747 vu=20035
+2026-09-06 21:21:22.801 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 21:21:22.802 | mission_support          | awacs: cam pkg=1747 vu=20061
+2026-09-06 21:21:22.802 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 21:21:22.803 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 21:21:22.803 | package_comms            | tactical ch=None primary=Spade 5 uhf=385.850
+2026-09-06 21:21:22.808 | package_relevance        | package_routes pkg=1747 flights=1 routes=1 points=5
+2026-09-06 21:21:22.901 | friendly_air_defense     | pkg=1747 ref=stpt sites=13 combat_wp=2 aoo_wp=0 covering=6 nearby=2 shown=2 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=21000
+2026-09-06 21:21:22.901 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok
+2026-09-06 21:21:22.901 | package_relevance        | package_routes pkg=1747 flights=1 routes=1 points=5
+2026-09-06 21:21:22.901 | briefing_context         | package_route_sketch flights=1 points=5
+2026-09-06 21:21:22.901 | briefing_context         | ordnance vu=20172 aircraft=4 pending=False
+2026-09-06 21:21:22.981 | campaign_overview        | objective_index loaded=5992
+2026-09-06 21:21:22.984 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-06 21:21:23.306 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-06 21:21:23.355 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-06 21:21:23.357 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-06 21:21:23.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:23.569 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 21:21:23.581 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=c4a095cf
+2026-09-06 21:21:23.841 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 21:21:23.982 | mission_support          | awacs: cam pkg=1747 vu=20061
+2026-09-06 21:21:24.076 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 21:21:24.092 | package_comms            | tactical ch=None primary=Spade 5 uhf=385.850
+2026-09-06 21:21:24.613 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-06 21:21:24.615 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-06 21:21:24.616 | campaign_overview        | system_marks=1
+2026-09-06 21:21:24.672 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:24.679 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:24.690 | package_relevance        | package_routes pkg=1747 flights=1 routes=1 points=5
+2026-09-06 21:21:24.702 | friendly_ad_zone         | wps=2 buffer_nm=20.0 hull=26
+2026-09-06 21:21:25.023 | friendly_air_defense     | pkg=1747 ref=aoo sites=13 combat_wp=0 aoo_wp=2 covering=8 nearby=1 shown=1 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=21000
+2026-09-06 21:21:25.027 | mission_support          | tanker: cam pkg=1747 vu=20035
+2026-09-06 21:21:25.030 | mission_support          | awacs: cam pkg=1747 vu=20061
+2026-09-06 21:21:25.058 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-09-06 21:21:25.483 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:25.634 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 21:21:26.627 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:26.634 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-09-06 21:21:26.635 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-09-06 21:21:26.635 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-09-06 21:21:29.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:30.481 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:32.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:35.481 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:35.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:38.573 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:40.481 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:41.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:44.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:45.481 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:47.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:50.481 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:50.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:53.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:55.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:56.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:21:58.539 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-06 21:21:58.541 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-06 21:21:58.542 | campaign_overview        | system_marks=1
+2026-09-06 21:21:58.546 | package_relevance        | package_routes pkg=1747 flights=1 routes=1 points=5
+2026-09-06 21:21:58.549 | package_relevance        | package_routes pkg=1747 flights=1 routes=1 points=5
+2026-09-06 21:21:58.550 | package_relevance        | package_routes pkg=1747 flights=1 routes=1 points=5
+2026-09-06 21:21:58.554 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-06 21:21:58.557 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-06 21:21:58.558 | campaign_overview        | system_marks=1
+2026-09-06 21:21:58.562 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-06 21:21:58.564 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-06 21:21:58.565 | campaign_overview        | system_marks=1
+2026-09-06 21:21:58.566 | briefing_context         | package_overview flights=1 route_points=4 focus_points=2 unique_points=4
+2026-09-06 21:21:58.571 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-06 21:21:58.573 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-06 21:21:58.573 | campaign_overview        | system_marks=1
+2026-09-06 21:21:58.579 | package_relevance        | package_routes pkg=1747 flights=1 routes=1 points=5
+2026-09-06 21:21:59.572 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:00.481 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:02.085 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 21:22:02.095 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=c4a095cf
+2026-09-06 21:22:02.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:05.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:05.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:08.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:10.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:11.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:14.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:15.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:17.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:20.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:20.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:23.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:25.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:26.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:29.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:30.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:32.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:35.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:35.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:38.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:40.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:41.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:44.566 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:45.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:47.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:50.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:50.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:53.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:55.481 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:56.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:22:59.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:00.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:02.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:05.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:05.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:08.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:10.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:11.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:14.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:15.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:17.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:20.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:20.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:23.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:25.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:26.572 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:29.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:30.109 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 21:23:30.119 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=c4a095cf
+2026-09-06 21:23:30.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:32.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:35.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:35.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:38.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:40.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:41.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:44.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:45.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:47.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:50.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:50.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:53.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:55.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:56.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:23:59.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:00.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:02.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:05.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:05.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:08.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:10.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:11.566 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:14.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:15.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:17.573 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:20.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:20.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:23.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:25.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:26.573 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:29.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:30.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:32.566 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:35.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:35.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:38.566 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:40.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:41.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:44.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:45.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:47.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:50.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:50.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:53.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:55.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:56.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:24:59.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:00.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:02.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:05.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:05.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:08.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:10.486 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:11.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:14.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:15.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:17.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:20.481 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:20.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:23.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:25.486 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:26.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:29.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:30.486 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:32.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:35.486 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:35.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:38.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:40.485 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:41.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:44.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:45.486 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:47.571 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:50.486 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:50.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:53.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:55.482 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:56.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:25:59.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:00.485 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:02.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:04.675 | roaster.data             | fetch
+2026-09-06 21:26:04.676 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 21:26:04.676 | mission_support          | tanker: cam pkg=1747 vu=20035
+2026-09-06 21:26:04.677 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 21:26:04.677 | mission_support          | awacs: cam pkg=1747 vu=20061
+2026-09-06 21:26:04.677 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 21:26:04.678 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 21:26:04.678 | package_comms            | tactical ch=None primary=Spade 5 uhf=385.850
+2026-09-06 21:26:04.678 | roaster.data             | ok — 1 flights, axis=16.9°, noms=session
+2026-09-06 21:26:04.691 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:05.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:05.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:07.820 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 21:26:07.830 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=c4a095cf
+2026-09-06 21:26:08.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:10.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:11.570 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:14.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:15.481 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:17.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:20.485 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:20.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:23.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:25.485 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:26.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:29.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:30.479 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:32.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:35.485 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:35.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:38.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:40.485 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:41.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:44.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:45.485 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:47.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:50.482 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:50.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:53.569 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:55.486 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:56.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:26:59.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:00.485 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:02.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:05.485 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:05.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:08.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:10.485 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:11.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:14.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:15.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:17.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:20.485 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:20.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:23.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:25.485 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:26.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:29.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:30.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:32.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:35.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:35.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:38.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:40.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:41.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:44.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:45.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:47.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:50.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:50.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:53.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:55.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:56.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:27:59.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:00.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:02.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:05.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:05.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:08.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:10.483 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:11.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:14.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:15.481 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:17.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:20.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:20.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:23.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:25.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:26.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:29.566 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:30.481 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:32.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:35.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:35.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:38.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:40.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:41.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:44.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:45.480 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:47.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:50.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:50.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:53.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:55.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:56.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:28:59.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:00.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:02.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:05.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:05.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:08.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:10.483 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:11.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:14.509 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 21:29:14.521 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=c4a095cf
+2026-09-06 21:29:14.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:14.661 | ato_departure            | resolved=1/1
+2026-09-06 21:29:15.481 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:17.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:20.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:20.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:23.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:25.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:26.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:29.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:30.483 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:32.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:35.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:35.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:38.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:40.125 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 21:29:40.493 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=c4a095cf
+2026-09-06 21:29:40.823 | ato_target               | index_built names=6574 memo=True
+2026-09-06 21:29:40.824 | ato_departure            | resolved=1/1
+2026-09-06 21:29:40.837 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:41.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:44.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:45.481 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:47.566 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:50.167 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:50.483 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:50.566 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:52.707 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 21:29:52.718 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=c4a095cf
+2026-09-06 21:29:52.859 | ato_departure            | resolved=1/1
+2026-09-06 21:29:53.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:55.489 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:56.465 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 21:29:56.475 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=c4a095cf
+2026-09-06 21:29:56.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:29:56.611 | ato_departure            | resolved=1/1
+2026-09-06 21:29:59.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:30:00.483 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:30:02.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:30:05.169 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 21:30:05.178 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=c4a095cf
+2026-09-06 21:30:05.321 | ato_departure            | resolved=1/1
+2026-09-06 21:30:05.483 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:30:05.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:30:06.872 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:30:06.888 | ato_departure            | resolved=90/173
+2026-09-06 21:30:06.908 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530
+2026-09-06 21:30:06.915 | ato_aircraft_details     | vu=20173 aircraft=2 details=2
+2026-09-06 21:30:06.926 | ato_aircraft_details     | vu=20346 aircraft=2 details=2
+2026-09-06 21:30:06.938 | ato_aircraft_details     | vu=20409 aircraft=2 details=2
+2026-09-06 21:30:06.949 | ato_aircraft_details     | vu=20428 aircraft=2 details=2
+2026-09-06 21:30:06.961 | ato_aircraft_details     | vu=20508 aircraft=2 details=2
+2026-09-06 21:30:06.973 | ato_aircraft_details     | vu=20510 aircraft=2 details=2
+2026-09-06 21:30:06.984 | ato_aircraft_details     | vu=20584 aircraft=2 details=2
+2026-09-06 21:30:06.996 | ato_aircraft_details     | vu=20624 aircraft=2 details=2
+2026-09-06 21:30:07.002 | ato_aircraft_details     | vu=20243 aircraft=2 details=2
+2026-09-06 21:30:07.003 | ato_aircraft_details     | vu=20450 aircraft=2 details=2
+2026-09-06 21:30:07.004 | ato_aircraft_details     | vu=20460 aircraft=2 details=2
+2026-09-06 21:30:07.004 | ato_aircraft_details     | vu=20036 aircraft=1 details=1
+2026-09-06 21:30:07.005 | ato_aircraft_details     | vu=20061 aircraft=1 details=1
+2026-09-06 21:30:07.005 | ato_aircraft_details     | vu=20514 aircraft=1 details=1
+2026-09-06 21:30:07.006 | ato_aircraft_details     | vu=20034 aircraft=1 details=1
+2026-09-06 21:30:07.006 | ato_aircraft_details     | vu=20035 aircraft=1 details=1
+2026-09-06 21:30:07.007 | ato_aircraft_details     | vu=20088 aircraft=1 details=1
+2026-09-06 21:30:07.007 | ato_aircraft_details     | vu=20359 aircraft=1 details=1
+2026-09-06 21:30:07.007 | ato_aircraft_details     | vu=20512 aircraft=1 details=1
+2026-09-06 21:30:07.008 | ato_aircraft_details     | vu=20675 aircraft=1 details=1
+2026-09-06 21:30:07.014 | ato_aircraft_details     | vu=20044 aircraft=2 details=2
+2026-09-06 21:30:07.025 | ato_aircraft_details     | vu=20087 aircraft=2 details=2
+2026-09-06 21:30:07.031 | ato_target               | resolved id=20112 target=Attack
+2026-09-06 21:30:07.031 | ato_aircraft_details     | vu=20113 aircraft=2 details=2
+2026-09-06 21:30:07.032 | ato_target               | resolved id=20112 target=Attack
+2026-09-06 21:30:07.037 | ato_aircraft_details     | vu=20172 aircraft=4 details=4
+2026-09-06 21:30:07.043 | ato_target               | resolved id=20260 target=Attack
+2026-09-06 21:30:07.043 | ato_aircraft_details     | vu=20261 aircraft=2 details=2
+2026-09-06 21:30:07.044 | ato_target               | resolved id=20260 target=Attack
+2026-09-06 21:30:07.044 | ato_target               | resolved id=20463 target=Attack
+2026-09-06 21:30:07.045 | ato_aircraft_details     | vu=20464 aircraft=2 details=2
+2026-09-06 21:30:07.045 | ato_target               | resolved id=20463 target=Attack
+2026-09-06 21:30:07.051 | ato_aircraft_details     | vu=20623 aircraft=2 details=2
+2026-09-06 21:30:07.062 | ato_aircraft_details     | vu=20625 aircraft=2 details=2
+2026-09-06 21:30:07.074 | ato_aircraft_details     | vu=20649 aircraft=2 details=2
+2026-09-06 21:30:07.080 | ato_aircraft_details     | vu=20112 aircraft=2 details=2
+2026-09-06 21:30:07.081 | ato_aircraft_details     | vu=20134 aircraft=2 details=2
+2026-09-06 21:30:07.081 | ato_aircraft_details     | vu=20247 aircraft=2 details=2
+2026-09-06 21:30:07.082 | ato_aircraft_details     | vu=20260 aircraft=2 details=2
+2026-09-06 21:30:07.083 | ato_aircraft_details     | vu=20269 aircraft=2 details=2
+2026-09-06 21:30:07.083 | ato_aircraft_details     | vu=20453 aircraft=2 details=2
+2026-09-06 21:30:07.083 | ato_aircraft_details     | vu=20463 aircraft=2 details=2
+2026-09-06 21:30:07.084 | ato_aircraft_details     | vu=20517 aircraft=2 details=2
+2026-09-06 21:30:07.084 | ato_aircraft_details     | vu=20627 aircraft=2 details=2
+2026-09-06 21:30:07.085 | ato_aircraft_details     | vu=20658 aircraft=2 details=2
+2026-09-06 21:30:07.085 | ato_aircraft_details     | vu=20174 aircraft=1 details=1
+2026-09-06 21:30:08.567 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
+2026-09-06 21:30:09.863 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-06 21:30:09.876 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=c4a095cf
+2026-09-06 21:30:10.010 | ato_departure            | resolved=1/1
+2026-09-06 21:30:10.484 | online                   | flight_occupancy flights=1 connected=5 pkg=1747
