@@ -1,0 +1,48 @@
+2026-09-06 21:31:24.973 | ========================================================================
+2026-09-06 21:31:24.973 | FBB Online  mode=SERVER    identity=HOST              port=45380
+2026-09-06 21:31:24.973 | Session : 2026-09-06 21:31:24
+2026-09-06 21:31:24.973 | ========================================================================
+2026-09-06 21:31:24.975 | [TLS] Cert <empreinte masquée>... — host-pass=ok (machine=<masqué>) — epinglage Route B pret
+2026-09-06 21:31:24.977 | [SERVER] status → running
+2026-09-06 21:31:24.977 | [STATE] _mode idle -> server | cause=start_server
+2026-09-06 21:31:24.977 | [STATE] _my_callsign (vide) -> Obe1 | cause=start_server
+2026-09-06 21:31:24.978 | [STATE] reset online | cause=start_server | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-09-06 21:31:24.978 | [SERVER] Obe1 tient Spade 5 — Flight Lead
+2026-09-06 21:31:25.010 | [SERVER] Démarré sur port 45380
+2026-09-06 21:31:29.037 | [SERVER] LorikEolmin connecté depuis 86.198.145.172 — 1 client(s)
+2026-09-06 21:31:29.074 | [SERVER] campagne + état complet transmis → LorikEolmin
+2026-09-06 21:31:40.859 | [SERVER] Mandrak connecté depuis 86.194.141.253 — 2 client(s)
+2026-09-06 21:31:40.896 | [SERVER] campagne + état complet transmis → Mandrak
+2026-09-06 21:31:44.162 | [RTT] LorikEolmin 74 ms
+2026-09-06 21:31:49.470 | [SERVER] LorikServer connecté depuis 86.198.145.172 — 3 client(s)
+2026-09-06 21:31:49.471 | [ROLE] F4 BMS Host → LorikServer
+2026-09-06 21:31:49.509 | [SERVER] campagne + état complet transmis → LorikServer
+2026-09-06 21:31:51.130 | [ROLE] F4 BMS Host → (aucun)
+2026-09-06 21:31:51.130 | [SERVER] LorikServer déconnecté — 2 client(s) restant(s)
+2026-09-06 21:31:51.451 | [SERVER] Vince connecté depuis 82.67.122.32 — 3 client(s)
+2026-09-06 21:31:51.488 | [SERVER] campagne + état complet transmis → Vince
+2026-09-06 21:31:55.958 | [RTT] Mandrak 57 ms
+2026-09-06 21:32:06.559 | [RTT] Vince 58 ms
+2026-09-06 21:32:11.149 | [SERVER] ↻ LorikServer reconnecté depuis 86.198.145.172 — 4 client(s)
+2026-09-06 21:32:11.261 | [ROLE] F4 BMS Host → LorikServer
+2026-09-06 21:32:11.312 | [SERVER] état renvoyé (reconnexion) → LorikServer
+2026-09-06 21:32:11.465 | [RTT] Mandrak 472 ms (précédent 57 ms)
+2026-09-06 21:32:13.482 | [MC] Mission Commander → Obe1 (vol 20172 siège 1)
+2026-09-06 21:32:26.495 | [RTT] LorikServer 73 ms
+2026-09-06 21:32:26.551 | [RTT] Mandrak 82 ms (précédent 472 ms)
+2026-09-06 21:32:44.387 | [RTT] LorikEolmin 46 ms
+2026-09-06 21:33:06.742 | [RTT] Vince 10 ms
+2026-09-06 21:33:26.712 | [RTT] LorikServer 47 ms
+2026-09-06 21:33:26.848 | [RTT] Mandrak 43 ms
+2026-09-06 21:33:29.999 | [SERVER] Vince déconnecté — 2 client(s) restant(s)
+2026-09-06 21:33:30.000 | [SERVER] Mandrak déconnecté — 2 client(s) restant(s)
+2026-09-06 21:33:30.001 | [ROLE] F4 BMS Host → (aucun)
+2026-09-06 21:33:30.001 | [SERVER] LorikServer déconnecté — 1 client(s) restant(s)
+2026-09-06 21:33:30.002 | [SERVER] LorikEolmin déconnecté — 0 client(s) restant(s)
+2026-09-06 21:33:30.003 | [SERVER] status → stopped
+2026-09-06 21:33:30.003 | [STATE] _mode server -> idle | cause=stop_server
+2026-09-06 21:33:30.003 | [STATE] _my_callsign Obe1 -> (vide) | cause=stop_server
+2026-09-06 21:33:30.006 | [STATE] reset online | cause=stop_server | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-09-06 21:33:30.006 | [SERVER] Arrêté
+2026-09-06 21:33:30.007 | ========================================================================
+2026-09-06 21:33:30.007 | FBB Online — session terminée | cause=stop_server — arrêt du serveur demandé par l'UI
