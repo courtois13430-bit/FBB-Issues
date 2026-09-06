@@ -1,0 +1,414 @@
+{
+  "fbb_sidecar_version": 1,
+  "app_version": "1.87.0",
+  "saved_utc": "2026-09-06T19:50:56Z",
+  "cam": {
+    "stem": "D-AntiChamber-Backup",
+    "theater_key": "kto",
+    "campaign_name": "D-AntiChamber-Backup",
+    "saved": "day 6 03:08:56"
+  },
+  "identity": {
+    "seat_override": 0
+  },
+  "dpi": {
+    "v": 1,
+    "items": [
+      {
+        "id": "DPI-01",
+        "created_by": "",
+        "name": "Somewhere-1",
+        "ct_type": 0,
+        "ct_name": "Terrain",
+        "lat": 39.35463352351933,
+        "lon": 125.09525118358697,
+        "z_msl": 0.0,
+        "height_ft": null,
+        "airport": "",
+        "model": null,
+        "bear_bull": 304,
+        "dist_bull": 34.0,
+        "cam_e": 1000000.0,
+        "cam_n": 2000000.0,
+        "visibility": "package",
+        "owner_vu": 0,
+        "target_role": "primary",
+        "assigned": [],
+        "assigned_by_flight": {},
+        "tgt_slots": []
+      }
+    ]
+  },
+  "briefing": {
+    "v": 1,
+    "schema_version": 4,
+    "containers": [
+      {
+        "id": "f02908f3-2861-45d5-9290-c34e7653f2e0",
+        "ctype": "mission_step",
+        "title": "Campaign Overview",
+        "visible": true,
+        "section_key": "campaign_overview",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "campaign_objectives",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "e314d3a0-a732-41d1-99d4-ddac284e8651",
+        "ctype": "mission_step",
+        "title": "Mission / Friendly OOB",
+        "visible": true,
+        "section_key": "package_overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "roaster",
+          "context_lifecycle": "while_active"
+        },
+        "mission_name": "CI01",
+        "intent": "Tenir la position sans perte",
+        "alr": 0
+      },
+      {
+        "id": "4e8b3b64-0044-4ef2-97e9-a6d17884105d",
+        "ctype": "mission_step",
+        "title": "FPLN / TIMELINE",
+        "visible": true,
+        "section_key": "steerpoints",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "fpln-asst",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "a5f8b0ea-cd72-4d5c-84f5-7263566ab521",
+        "ctype": "mission_step",
+        "title": "Weather / Forecast",
+        "visible": true,
+        "section_key": "weather",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "weather_overview"
+        }
+      },
+      {
+        "id": "a9666bae-6be5-4756-84b5-ec15cd2c890f",
+        "ctype": "mission_step",
+        "title": "Threat Estimate",
+        "visible": true,
+        "section_key": "threat_analysis",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        },
+        "mar": {
+          "Su-27": "20",
+          "J-11B": "20"
+        }
+      },
+      {
+        "id": "0ac111cf-cdbe-4804-990d-d908267c211e",
+        "ctype": "mission_step",
+        "title": "Contracts",
+        "visible": true,
+        "section_key": "contracts",
+        "source": "static",
+        "text": "",
+        "rule": {},
+        "rows": [
+          {
+            "trigger": "All ___ objectives complete",
+            "authority": "MC",
+            "comm": "\"MILLER TIME\"",
+            "action": "Retrograde STP4, climb _FL300 RTB as a package — CAPs come off station last."
+          },
+          {
+            "trigger": "Overwhelmed — heavily defensive",
+            "authority": "MC",
+            "comm": "\"ALAMO\"",
+            "action": "Drag Sud Est"
+          }
+        ]
+      },
+      {
+        "id": "e93c83d4-7681-4d25-a110-24b21c774f2e",
+        "ctype": "mission_step",
+        "title": "ROE (Rules of Engagement)",
+        "visible": true,
+        "section_key": "roe",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "1f696126-4c17-42e6-991a-f7cb372bda4d",
+        "ctype": "mission_step",
+        "title": "Recovery & Emergency",
+        "visible": true,
+        "section_key": "emerg",
+        "source": "cam",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "bd77e3cc-6eeb-4655-b75a-a157e062e58a",
+        "ctype": "mission_step",
+        "title": "Package Timeline",
+        "visible": true,
+        "section_key": "pkg_timing",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        },
+        "level": "flight"
+      },
+      {
+        "id": "8b8a31f7-f780-48d0-8ae8-fa3290c030b5",
+        "ctype": "mission_step",
+        "title": "Package Comm Plan",
+        "visible": true,
+        "section_key": "comm_plan",
+        "source": "effective",
+        "text": "",
+        "rule": {},
+        "level": "flight"
+      },
+      {
+        "id": "7db0f78e-c4ee-454e-b3a4-f5d0382437f7",
+        "ctype": "mission_step",
+        "title": "Flight Task",
+        "visible": true,
+        "section_key": "overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_flight",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "634d57d4-9b20-4350-a429-d78944de77c5",
+        "ctype": "mission_step",
+        "title": "Targeting",
+        "visible": true,
+        "section_key": "targeting",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "dpi",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "5473a832-7481-4511-9d05-8f9f1b75f599",
+        "ctype": "mission_step",
+        "title": "Ordnance",
+        "visible": true,
+        "section_key": "ordnance",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "loadout",
+          "context_tab": "session-aircraft",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "ed25771f-a3bb-4ce2-9d0f-8886711ebb2b",
+        "ctype": "mission_step",
+        "title": "Domestics",
+        "visible": true,
+        "section_key": "domestics",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "dep_airfield",
+          "range_nm": 2,
+          "map_auto_open": true
+        },
+        "level": "flight"
+      },
+      {
+        "id": "43c073b2-dfdb-4814-b78a-4698ace70bf0",
+        "ctype": "mission_step",
+        "title": "Comm Ladder",
+        "visible": true,
+        "section_key": "comms",
+        "source": "html",
+        "text": "",
+        "rule": {
+          "context_window": "dtc",
+          "context_tab": "uhfvhf-bms",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "b0ef9502-116f-424a-a25d-b93ebac64d1a",
+        "ctype": "mission_step",
+        "title": "Link 16",
+        "visible": true,
+        "section_key": "link16",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "context_window": "dtc",
+          "context_tab": "link16-bms",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "7c3990e5-cdc0-4a3f-808b-fb6a5e020be4",
+        "ctype": "mission_step",
+        "title": "IFF",
+        "visible": true,
+        "section_key": "iff",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "context_window": "dtc",
+          "context_tab": "iff",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "7385489d-7360-43b8-9c1d-50957f63ece4",
+        "ctype": "mission_step",
+        "title": "Performance",
+        "visible": true,
+        "section_key": "performance",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "perfo",
+          "context_tab": "fuel",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "bdd16ffa-4983-4908-acc8-6f28daa638e2",
+        "ctype": "mission_step",
+        "title": "Plan Synch & deconflict",
+        "visible": true,
+        "section_key": "plan_synch",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      }
+    ]
+  },
+  "lines": {
+    "entries": [
+      {
+        "pts": [
+          [
+            1426024.875,
+            1503624.3749999998
+          ],
+          [
+            1038360.25,
+            1724503.0000000002
+          ],
+          [
+            978200.5,
+            1618916.625
+          ],
+          [
+            1365865.1250000005,
+            1398038.0
+          ],
+          [
+            1426024.875,
+            1503624.3749999998
+          ]
+        ],
+        "origin": "mc_layer",
+        "author": "Obe1",
+        "label": ""
+      },
+      {
+        "pts": [
+          [
+            2089741.3750000002,
+            1134941.125
+          ],
+          [
+            2124113.25,
+            1169312.875
+          ],
+          [
+            1759546.25,
+            1169312.875
+          ],
+          [
+            1881068.4999999998,
+            1169312.875
+          ],
+          [
+            1881068.4999999998,
+            1047790.5624999999
+          ],
+          [
+            1881068.4999999998,
+            1290835.1250000002
+          ]
+        ],
+        "origin": "mc_layer",
+        "author": "Obe1",
+        "label": ""
+      },
+      {
+        "pts": [
+          [
+            2027559.0,
+            1318897.625
+          ],
+          [
+            1948818.875,
+            1377952.75
+          ],
+          [
+            1633858.2500000002,
+            1338582.625
+          ],
+          [
+            1653543.25,
+            1259842.5
+          ],
+          [
+            1555118.1250000002,
+            1220472.5
+          ],
+          [
+            1574803.125,
+            1102362.25
+          ]
+        ],
+        "origin": "mc_layer",
+        "author": "Obe1",
+        "label": ""
+      }
+    ]
+  }
+}
