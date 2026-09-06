@@ -1,0 +1,41 @@
+2026-09-06 21:31:27.512 | ========================================================================
+2026-09-06 21:31:27.512 | FBB Online  mode=CLIENT    identity=LorikEolmin       port=45380
+2026-09-06 21:31:27.512 | Session : 2026-09-06 21:31:27
+2026-09-06 21:31:27.512 | ========================================================================
+2026-09-06 21:31:27.512 | [STATE] _client none -> NetworkClient#262040f4550 | cause=connect_client
+2026-09-06 21:31:27.513 | [STATE] _mode idle -> client | cause=connect_client
+2026-09-06 21:31:27.513 | [STATE] _my_callsign (vide) -> LorikEolmin | cause=connect_client
+2026-09-06 21:31:27.513 | [CLIENT] status → connecting
+2026-09-06 21:31:27.523 | [STATE] reset online | cause=connect_client | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-09-06 21:31:27.524 | [CLIENT] Connexion → 82.64.199.133:45380 (callsign=LorikEolmin)
+2026-09-06 21:31:27.676 | [CLIENT] status → connected
+2026-09-06 21:31:28.716 | [SESSION] rejointe — hôte Obe1, aucun autre pilote connecté
+2026-09-06 21:31:28.716 | [THEATER] Théâtre de session → « LKTO 4.38 + Papa »
+2026-09-06 21:31:28.969 | [CAM] Bundle campagne reçu — 7 fichier(s)
+2026-09-06 21:31:29.142 | [THEATER] ✓ Théâtre vérifié — 6 fichier(s) OK
+2026-09-06 21:31:29.146 | [DPI] 1 DPI(s) partagé(s) reçu(s) du host
+2026-09-06 21:31:29.164 | [BA] Conteneurs BA reçus du host — 19 entrée(s)
+2026-09-06 21:31:29.216 | [LOADOUT] état reçu (pending + final)
+2026-09-06 21:31:29.448 | [CAM] Contexte rechargé → CI01.cam
+2026-09-06 21:31:29.449 | [CAM] Campagne « CI01 » — ton BMS la connaît sous ce nom, ta DTC tombera au bon endroit.
+2026-09-06 21:31:29.449 | [CAM] Rappel — ne change pas le nom de la campagne dans BMS pendant la session : ta DTC serait écrite à côté, et tu décollerais sans tes cibles.
+2026-09-06 21:31:40.538 | [JOIN] Mandrak a rejoint la session
+2026-09-06 21:31:49.149 | [JOIN] LorikServer a rejoint la session
+2026-09-06 21:31:49.232 | [ROLE] F4 BMS Host → LorikServer
+2026-09-06 21:31:50.809 | [LEAVE] LorikServer a quitté la session
+2026-09-06 21:31:50.889 | [ROLE] F4 BMS Host → (aucun)
+2026-09-06 21:31:51.131 | [JOIN] Vince a rejoint la session
+2026-09-06 21:32:10.904 | [JOIN] LorikServer a rejoint la session
+2026-09-06 21:32:11.156 | [ROLE] F4 BMS Host → LorikServer
+2026-09-06 21:32:13.161 | [MC] Mission Commander → Obe1 (vol 20172 siège 1)
+2026-09-06 21:33:29.651 | [CLIENT] Connexion perdue — code=1001 (pair parti (going away)) | last_seq=4 | session tenue 122 s
+2026-09-06 21:33:29.652 | [CLIENT] status → reconnecting:1
+2026-09-06 21:33:29.652 | [STATE] _reconnecting false -> true | cause=client_status:reconnecting#1
+2026-09-06 21:33:29.715 | [STATE] _client NetworkClient#262040f4550 -> none | cause=disconnect_client
+2026-09-06 21:33:29.715 | [STATE] _mode client -> idle | cause=disconnect_client
+2026-09-06 21:33:29.715 | [STATE] _my_callsign LorikEolmin -> (vide) | cause=disconnect_client
+2026-09-06 21:33:29.716 | [STATE] _reconnecting true -> false | cause=disconnect_client
+2026-09-06 21:33:29.716 | [STATE] reset online | cause=disconnect_client | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, version_mismatch, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-09-06 21:33:29.716 | [CLIENT] Déconnecté
+2026-09-06 21:33:29.716 | ========================================================================
+2026-09-06 21:33:29.716 | FBB Online — session terminée | cause=disconnect_client — déconnexion demandée par l'UI
