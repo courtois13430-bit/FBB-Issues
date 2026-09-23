@@ -1,0 +1,45 @@
+2026-09-23 21:14:21.719 | ========================================================================
+2026-09-23 21:14:21.720 | FBB Online  mode=SERVER    identity=HOST              port=45380
+2026-09-23 21:14:21.720 | Session : 2026-09-23 21:14:21
+2026-09-23 21:14:21.720 | ========================================================================
+2026-09-23 21:14:21.738 | [TLS] Cert <empreinte masquée>... — host-pass=ok (machine=<masqué>) — epinglage Route B pret
+2026-09-23 21:14:21.742 | [SERVER] status → running
+2026-09-23 21:14:21.742 | [STATE] _mode idle -> server | cause=start_server
+2026-09-23 21:14:21.742 | [STATE] _my_callsign (vide) -> Obe1 | cause=start_server
+2026-09-23 21:14:21.747 | [STATE] reset online | cause=start_server | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-09-23 21:14:21.748 | [SERVER] Obe1 tient Falcon 5 — Flight Lead
+2026-09-23 21:14:21.797 | [SERVER] Démarré sur port 45380
+2026-09-23 21:14:48.343 | [SERVER] Mandrak connecté depuis 86.194.141.253 — 1 client(s)
+2026-09-23 21:14:48.385 | [SERVER] campagne + état complet transmis → Mandrak
+2026-09-23 21:15:03.417 | [RTT] Mandrak 26 ms
+2026-09-23 21:15:15.556 | [MC] Mission Commander → Obe1 (vol 20801 siège 1)
+2026-09-23 21:16:03.838 | [RTT] Mandrak 70 ms
+2026-09-23 21:16:09.989 | [PING] Obe1 ping position
+2026-09-23 21:17:04.079 | [RTT] Mandrak 41 ms
+2026-09-23 21:17:23.703 | [PING] Obe1 ping position
+2026-09-23 21:17:38.367 | [MC-LAYER] v1 publié par Obe1 (24 lines, 15 ppt)
+2026-09-23 21:18:02.982 | [PING] Obe1 ping position
+2026-09-23 21:18:04.310 | [RTT] Mandrak 52 ms
+2026-09-23 21:18:05.452 | [PING] Obe1 ping position
+2026-09-23 21:18:18.133 | [DPI] broadcast 1 DPI(s) partagé(s)
+2026-09-23 21:19:04.597 | [RTT] Mandrak 65 ms
+2026-09-23 21:19:35.043 | [SERVER] Obe1 tient Plasma 1 — Flight Lead
+2026-09-23 21:19:35.043 | [SEAT] Place du host ré-inscrite (désignation ★ Mon Vol) — Plasma 1
+2026-09-23 21:19:35.133 | [SERVER] Obe1 tient Plasma 1 — Flight Lead
+2026-09-23 21:19:57.355 | [SERVER] Obe1 tient Plasma 1 — Flight Lead
+2026-09-23 21:20:04.802 | [RTT] Mandrak 29 ms
+2026-09-23 21:20:22.423 | [SERVER] Mandrak déconnecté — 0 client(s) restant(s)
+2026-09-23 21:20:25.610 | [SERVER] x Connexion refusee : le vol 20801 ne fait pas partie des vols proposes par le host
+2026-09-23 21:20:28.907 | [SERVER] x Connexion refusee : le vol 20801 ne fait pas partie des vols proposes par le host
+2026-09-23 21:20:32.212 | [SERVER] x Connexion refusee : le vol 20801 ne fait pas partie des vols proposes par le host
+2026-09-23 21:20:35.497 | [SERVER] x Connexion refusee : le vol 20801 ne fait pas partie des vols proposes par le host
+2026-09-23 21:20:38.795 | [SERVER] x Connexion refusee : le vol 20801 ne fait pas partie des vols proposes par le host
+2026-09-23 21:20:42.070 | [SERVER] x Connexion refusee : le vol 20801 ne fait pas partie des vols proposes par le host
+2026-09-23 21:20:45.369 | [SERVER] x Connexion refusee : le vol 20801 ne fait pas partie des vols proposes par le host
+2026-09-23 21:20:46.782 | [SERVER] status → stopped
+2026-09-23 21:20:46.782 | [STATE] _mode server -> idle | cause=stop_server
+2026-09-23 21:20:46.782 | [STATE] _my_callsign Obe1 -> (vide) | cause=stop_server
+2026-09-23 21:20:46.784 | [STATE] reset online | cause=stop_server | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-09-23 21:20:46.784 | [SERVER] Arrêté
+2026-09-23 21:20:46.784 | ========================================================================
+2026-09-23 21:20:46.784 | FBB Online — session terminée | cause=stop_server — arrêt du serveur demandé par l'UI
