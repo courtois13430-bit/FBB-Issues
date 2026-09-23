@@ -1,0 +1,92 @@
+2026-09-23 21:15:36.877 | ========================================================================
+2026-09-23 21:15:36.877 | FBB Online  mode=CLIENT    identity=Mandrak           port=45380
+2026-09-23 21:15:36.877 | Session : 2026-09-23 21:15:36
+2026-09-23 21:15:36.877 | ========================================================================
+2026-09-23 21:15:36.877 | [STATE] _client none -> NetworkClient#22982f4efd0 | cause=connect_client
+2026-09-23 21:15:36.878 | [STATE] _mode idle -> client | cause=connect_client
+2026-09-23 21:15:36.878 | [STATE] _my_callsign (vide) -> Mandrak | cause=connect_client
+2026-09-23 21:15:36.879 | [CLIENT] status → connecting
+2026-09-23 21:15:36.881 | [STATE] reset online | cause=connect_client | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-09-23 21:15:36.891 | [CLIENT] Connexion → 82.64.199.133:45380 (callsign=Mandrak)
+2026-09-23 21:15:37.038 | [CLIENT] status → connected
+2026-09-23 21:15:38.086 | [SESSION] rejointe — hôte Obe1, aucun autre pilote connecté
+2026-09-23 21:15:38.086 | [THEATER] Théâtre de session → « LKTO 4.38 + Papa »
+2026-09-23 21:15:38.283 | [CAM] Bundle campagne reçu — 7 fichier(s)
+2026-09-23 21:15:38.349 | [THEATER] ✓ Théâtre vérifié — 6 fichier(s) OK
+2026-09-23 21:15:38.351 | [BA] Conteneurs BA reçus du host — 15 entrée(s)
+2026-09-23 21:15:38.355 | [FRAGG] état reçu et appliqué
+2026-09-23 21:15:38.491 | [LOADOUT] état reçu (pending + final)
+2026-09-23 21:15:39.016 | [CAM] Contexte rechargé → CI03.cam
+2026-09-23 21:15:39.016 | [CAM] Campagne « CI03 » — ton BMS la connaît sous ce nom, ta DTC tombera au bon endroit.
+2026-09-23 21:15:39.016 | [CAM] Rappel — ne change pas le nom de la campagne dans BMS pendant la session : ta DTC serait écrite à côté, et tu décollerais sans tes cibles.
+2026-09-23 21:16:05.462 | [MC] Mission Commander → Obe1 (vol 20801 siège 1)
+2026-09-23 21:16:59.733 | [PING] Obe1 ping position
+2026-09-23 21:18:13.447 | [PING] Obe1 ping position
+2026-09-23 21:18:28.112 | [MC-LAYER] v1 reçu — publié par Obe1
+2026-09-23 21:18:52.726 | [PING] Obe1 ping position
+2026-09-23 21:18:55.195 | [PING] Obe1 ping position
+2026-09-23 21:19:07.877 | [DPI] 1 DPI(s) partagé(s) reçu(s) du host
+2026-09-23 21:19:21.313 | [FRAGG] état reçu et appliqué
+2026-09-23 21:19:57.098 | [FRAGG] état reçu et appliqué
+2026-09-23 21:20:15.800 | [FRAGG] état reçu et appliqué
+2026-09-23 21:20:46.308 | [FRAGG] état reçu et appliqué
+2026-09-23 21:20:47.519 | [CAM] Bundle campagne reçu — 7 fichier(s)
+2026-09-23 21:20:47.520 | [CAM] Campagne republiee par l hote — nouvelle place proposee
+2026-09-23 21:20:48.206 | [CAM] Contexte rechargé → CI03.cam
+2026-09-23 21:20:48.207 | [CAM] Campagne « CI03 » — ton BMS la connaît sous ce nom, ta DTC tombera au bon endroit.
+2026-09-23 21:20:48.207 | [CAM] Rappel — ne change pas le nom de la campagne dans BMS pendant la session : ta DTC serait écrite à côté, et tu décollerais sans tes cibles.
+2026-09-23 21:21:12.142 | [CLIENT] Connexion perdue — code=1000 (fermeture normale (bye de part et d'autre)) | last_seq=3 | session tenue 335 s
+2026-09-23 21:21:12.143 | [CLIENT] status → reconnecting:1
+2026-09-23 21:21:12.143 | [STATE] _reconnecting false -> true | cause=client_status:reconnecting#1
+2026-09-23 21:21:14.320 | [CLIENT] status → reconnected
+2026-09-23 21:21:14.321 | [STATE] _reconnecting true -> false | cause=client_status:reconnected
+2026-09-23 21:21:15.355 | [CLIENT] status → error:le vol 20801 ne fait pas partie des vols proposes par le host
+2026-09-23 21:21:15.457 | [CLIENT] Connexion perdue — code=1000 (fermeture normale (bye de part et d'autre)) | last_seq=3 | session tenue 1 s
+2026-09-23 21:21:15.458 | [CLIENT] status → reconnecting:1
+2026-09-23 21:21:15.458 | [STATE] _reconnecting false -> true | cause=client_status:reconnecting#1
+2026-09-23 21:21:17.612 | [CLIENT] status → reconnected
+2026-09-23 21:21:17.612 | [STATE] _reconnecting true -> false | cause=client_status:reconnected
+2026-09-23 21:21:18.651 | [CLIENT] status → error:le vol 20801 ne fait pas partie des vols proposes par le host
+2026-09-23 21:21:18.753 | [CLIENT] Connexion perdue — code=1000 (fermeture normale (bye de part et d'autre)) | last_seq=3 | session tenue 1 s
+2026-09-23 21:21:18.753 | [CLIENT] status → reconnecting:1
+2026-09-23 21:21:18.753 | [STATE] _reconnecting false -> true | cause=client_status:reconnecting#1
+2026-09-23 21:21:20.921 | [CLIENT] status → reconnected
+2026-09-23 21:21:20.921 | [STATE] _reconnecting true -> false | cause=client_status:reconnected
+2026-09-23 21:21:21.955 | [CLIENT] status → error:le vol 20801 ne fait pas partie des vols proposes par le host
+2026-09-23 21:21:22.047 | [CLIENT] Connexion perdue — code=1000 (fermeture normale (bye de part et d'autre)) | last_seq=3 | session tenue 1 s
+2026-09-23 21:21:22.047 | [CLIENT] status → reconnecting:1
+2026-09-23 21:21:22.047 | [STATE] _reconnecting false -> true | cause=client_status:reconnecting#1
+2026-09-23 21:21:24.204 | [CLIENT] status → reconnected
+2026-09-23 21:21:24.204 | [STATE] _reconnecting true -> false | cause=client_status:reconnected
+2026-09-23 21:21:25.241 | [CLIENT] status → error:le vol 20801 ne fait pas partie des vols proposes par le host
+2026-09-23 21:21:25.335 | [CLIENT] Connexion perdue — code=1000 (fermeture normale (bye de part et d'autre)) | last_seq=3 | session tenue 1 s
+2026-09-23 21:21:25.335 | [CLIENT] status → reconnecting:1
+2026-09-23 21:21:25.335 | [STATE] _reconnecting false -> true | cause=client_status:reconnecting#1
+2026-09-23 21:21:27.501 | [CLIENT] status → reconnected
+2026-09-23 21:21:27.501 | [STATE] _reconnecting true -> false | cause=client_status:reconnected
+2026-09-23 21:21:28.539 | [CLIENT] status → error:le vol 20801 ne fait pas partie des vols proposes par le host
+2026-09-23 21:21:28.631 | [CLIENT] Connexion perdue — code=1000 (fermeture normale (bye de part et d'autre)) | last_seq=3 | session tenue 1 s
+2026-09-23 21:21:28.631 | [CLIENT] status → reconnecting:1
+2026-09-23 21:21:28.631 | [STATE] _reconnecting false -> true | cause=client_status:reconnecting#1
+2026-09-23 21:21:30.784 | [CLIENT] status → reconnected
+2026-09-23 21:21:30.784 | [STATE] _reconnecting true -> false | cause=client_status:reconnected
+2026-09-23 21:21:31.814 | [CLIENT] status → error:le vol 20801 ne fait pas partie des vols proposes par le host
+2026-09-23 21:21:31.919 | [CLIENT] Connexion perdue — code=1000 (fermeture normale (bye de part et d'autre)) | last_seq=3 | session tenue 1 s
+2026-09-23 21:21:31.919 | [CLIENT] status → reconnecting:1
+2026-09-23 21:21:31.919 | [STATE] _reconnecting false -> true | cause=client_status:reconnecting#1
+2026-09-23 21:21:34.081 | [CLIENT] status → reconnected
+2026-09-23 21:21:34.081 | [STATE] _reconnecting true -> false | cause=client_status:reconnected
+2026-09-23 21:21:35.113 | [CLIENT] status → error:le vol 20801 ne fait pas partie des vols proposes par le host
+2026-09-23 21:21:35.207 | [CLIENT] Connexion perdue — code=1000 (fermeture normale (bye de part et d'autre)) | last_seq=3 | session tenue 1 s
+2026-09-23 21:21:35.207 | [CLIENT] status → reconnecting:1
+2026-09-23 21:21:35.208 | [STATE] _reconnecting false -> true | cause=client_status:reconnecting#1
+2026-09-23 21:21:39.391 | [CLIENT] status → reconnecting:2
+2026-09-23 21:21:45.545 | [CLIENT] status → reconnecting:3
+2026-09-23 21:21:52.819 | [STATE] _client NetworkClient#22982f4efd0 -> none | cause=disconnect_client
+2026-09-23 21:21:52.819 | [STATE] _mode client -> idle | cause=disconnect_client
+2026-09-23 21:21:52.819 | [STATE] _my_callsign Mandrak -> (vide) | cause=disconnect_client
+2026-09-23 21:21:52.820 | [STATE] _reconnecting true -> false | cause=disconnect_client
+2026-09-23 21:21:52.820 | [STATE] reset online | cause=disconnect_client | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-09-23 21:21:52.820 | [CLIENT] Déconnecté
+2026-09-23 21:21:52.820 | ========================================================================
+2026-09-23 21:21:52.820 | FBB Online — session terminée | cause=disconnect_client — déconnexion demandée par l'UI
