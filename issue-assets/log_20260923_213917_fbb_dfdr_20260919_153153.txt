@@ -1,0 +1,84 @@
+2026-09-19 15:31:53.089 | ========================================================================
+2026-09-19 15:31:53.089 | startup                  | FBB 1.90.150 — session 2026-09-19 15:31:53
+2026-09-19 15:31:53.089 | startup                  | Répertoire : E:\HD Program files\FBB\_internal
+2026-09-19 15:31:53.089 | startup                  | Python 3.14.5
+2026-09-19 15:31:53.089 | ========================================================================
+2026-09-19 15:31:53.090 | system                   | OS : Windows 11 10.0.26200, AMD64, 20 CPU, RAM 32 GB
+2026-09-19 15:31:53.101 | system                   | Machine : <masqué> / Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+2026-09-19 15:31:53.102 | registry                 | BMS baseDir : C:\M2 Program files\Falcon BMS 4.38
+2026-09-19 15:31:53.102 | registry                 | BMS theater : Korea KTO  pilot : Vince
+2026-09-19 15:31:53.706 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-09-19 15:31:56.458 | telemetry                | ping OK v1.90.150 Windows 11 canal=prod → HTTP 200
+2026-09-19 15:31:57.270 | parse_health             | TE_TRNG_MANDRAK.tac: records 9/9, bytes 7196/7196, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-09-19 15:32:04.218 | ato_target               | index_built names=6008 memo=True
+2026-09-19 15:32:04.219 | ato_departure            | resolved=1/1
+2026-09-19 15:32:04.514 | ato_departure            | resolved=1/1
+2026-09-19 15:32:04.806 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-19 15:32:05.583 | fuel_plan                | avail=12194 atTurn=9063 bingo=3300 joker=3800 rtb=1046 margin=5763 GO
+2026-09-19 15:32:05.585 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=667e724f
+2026-09-19 15:32:05.633 | ppt_clear_all            | cleared=15
+2026-09-19 15:32:06.064 | fuel_plan                | avail=12194 atTurn=9063 bingo=3300 joker=3800 rtb=1046 margin=5763 GO
+2026-09-19 15:32:06.064 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=22 n_ppt=2 n_dpi=0 n_divert=0 n_sections=0 hash=667e724f
+2026-09-19 15:32:15.288 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-19 15:32:15.289 | mission_support          | awacs: cam pkg=13 vu=20008
+2026-09-19 15:32:15.289 | mission_support          | tanker: cam pkg=13 vu=20007
+2026-09-19 15:32:15.290 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-19 15:32:15.290 | package_comms            | tactical ch=6 primary=Mustang 5 uhf=309.700
+2026-09-19 15:32:15.311 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-09-19 15:32:15.329 | fuel_plan                | avail=12194 atTurn=9063 bingo=3300 joker=3800 rtb=1046 margin=5763 GO
+2026-09-19 15:32:15.329 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=22 n_ppt=2 n_dpi=0 n_divert=0 n_sections=0 hash=667e724f
+2026-09-19 15:32:15.341 | takeoff                  | dep='RKSS' rwy='14L' stpt=1 ok=True
+2026-09-19 15:32:15.368 | fuel_plan                | avail=12194 atTurn=9063 bingo=3300 joker=3800 rtb=1046 margin=5763 GO
+2026-09-19 15:32:15.371 | vrp_app                  | arr='RKSS' rwy='14L' side='right' ok=True
+2026-09-19 15:32:15.782 | fuel_plan                | avail=12194 atTurn=9063 bingo=3300 joker=3800 rtb=1046 margin=5763 GO
+2026-09-19 15:32:15.783 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=22 n_ppt=2 n_dpi=0 n_divert=0 n_sections=2 hash=667e724f
+2026-09-19 15:32:19.375 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-19 15:32:19.395 | fuel_plan                | avail=12194 atTurn=9063 bingo=3300 joker=3800 rtb=1046 margin=5763 GO
+2026-09-19 15:32:19.395 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=22 n_ppt=2 n_dpi=0 n_divert=0 n_sections=2 hash=667e724f
+2026-09-19 15:32:19.508 | ato_departure            | resolved=1/1
+2026-09-19 15:32:21.466 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-19 15:32:21.472 | fuel_plan                | avail=12194 atTurn=9063 bingo=3300 joker=3800 rtb=1046 margin=5763 GO
+2026-09-19 15:32:21.490 | mission_support          | tanker: cam pkg=13 vu=20007
+2026-09-19 15:32:21.490 | mission_support          | awacs: cam pkg=13 vu=20008
+2026-09-19 15:32:21.491 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-19 15:32:21.492 | package_comms            | tactical ch=6 primary=Mustang 5 uhf=309.700
+2026-09-19 15:32:21.544 | campaign_overview        | objective_index loaded=5992
+2026-09-19 15:32:22.074 | campaign_overview        | built team=1 conditions=0 force_rows=7
+2026-09-19 15:32:22.077 | package_relevance        | package_routes pkg=13 flights=1 routes=1 points=6
+2026-09-19 15:32:26.011 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-19 15:32:26.031 | fuel_plan                | avail=12194 atTurn=9063 bingo=3300 joker=3800 rtb=1046 margin=5763 GO
+2026-09-19 15:32:26.031 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=22 n_ppt=2 n_dpi=0 n_divert=0 n_sections=2 hash=667e724f
+2026-09-19 15:32:26.169 | ato_departure            | resolved=1/1
+2026-09-19 15:32:27.420 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-19 15:32:27.427 | fuel_plan                | avail=12194 atTurn=9063 bingo=3300 joker=3800 rtb=1046 margin=5763 GO
+2026-09-19 15:32:27.436 | mission_support          | tanker: cam pkg=13 vu=20007
+2026-09-19 15:32:27.436 | mission_support          | awacs: cam pkg=13 vu=20008
+2026-09-19 15:32:27.437 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-19 15:32:27.438 | package_comms            | tactical ch=6 primary=Mustang 5 uhf=309.700
+2026-09-19 15:32:27.452 | campaign_overview        | built team=1 conditions=0 force_rows=7
+2026-09-19 15:32:27.453 | package_relevance        | package_routes pkg=13 flights=1 routes=1 points=6
+2026-09-19 15:32:59.244 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-19 15:32:59.262 | fuel_plan                | avail=12194 atTurn=9063 bingo=3300 joker=3800 rtb=1046 margin=5763 GO
+2026-09-19 15:32:59.263 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=22 n_ppt=2 n_dpi=0 n_divert=0 n_sections=2 hash=667e724f
+2026-09-19 15:32:59.376 | ato_departure            | resolved=1/1
+2026-09-19 15:33:00.089 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-19 15:33:00.089 | mission_support          | awacs: cam pkg=13 vu=20008
+2026-09-19 15:33:00.089 | mission_support          | tanker: cam pkg=13 vu=20007
+2026-09-19 15:33:00.090 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-19 15:33:00.091 | package_comms            | tactical ch=6 primary=Mustang 5 uhf=309.700
+2026-09-19 15:33:00.105 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-09-19 15:33:00.128 | fuel_plan                | avail=12194 atTurn=9063 bingo=3300 joker=3800 rtb=1046 margin=5763 GO
+2026-09-19 15:33:00.129 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=22 n_ppt=2 n_dpi=0 n_divert=0 n_sections=2 hash=667e724f
+2026-09-19 15:33:00.130 | takeoff                  | dep='RKSS' rwy='14L' stpt=1 ok=True
+2026-09-19 15:33:00.162 | vrp_app                  | arr='RKSS' rwy='14L' side='right' ok=True
+2026-09-19 15:33:00.166 | fuel_plan                | avail=12194 atTurn=9063 bingo=3300 joker=3800 rtb=1046 margin=5763 GO
+2026-09-19 15:33:00.579 | fuel_plan                | avail=12194 atTurn=9063 bingo=3300 joker=3800 rtb=1046 margin=5763 GO
+2026-09-19 15:33:00.579 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=22 n_ppt=2 n_dpi=0 n_divert=0 n_sections=2 hash=667e724f
+2026-09-19 15:33:07.075 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-19 15:33:07.091 | fuel_plan                | avail=12194 atTurn=9063 bingo=3300 joker=3800 rtb=1046 margin=5763 GO
+2026-09-19 15:33:07.092 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=22 n_ppt=2 n_dpi=0 n_divert=0 n_sections=2 hash=667e724f
+2026-09-19 15:33:07.206 | ato_departure            | resolved=1/1
+2026-09-19 15:33:15.134 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-19 15:33:15.149 | fuel_plan                | avail=12194 atTurn=9063 bingo=3300 joker=3800 rtb=1046 margin=5763 GO
+2026-09-19 15:33:15.150 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=22 n_ppt=2 n_dpi=0 n_divert=0 n_sections=2 hash=667e724f
+2026-09-19 15:33:15.282 | ato_departure            | resolved=1/1
