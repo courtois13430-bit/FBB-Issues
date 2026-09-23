@@ -1,0 +1,809 @@
+2026-09-23 21:14:13.839 | ========================================================================
+2026-09-23 21:14:13.839 | startup                  | FBB 1.91.0 — session 2026-09-23 21:14:13
+2026-09-23 21:14:13.839 | startup                  | Répertoire : D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Tools\FBB\_internal
+2026-09-23 21:14:13.839 | startup                  | Python 3.14.5
+2026-09-23 21:14:13.839 | ========================================================================
+2026-09-23 21:14:13.840 | system                   | OS : Windows 11 10.0.26200, AMD64, 32 CPU, RAM 32 GB
+2026-09-23 21:14:13.847 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-09-23 21:14:13.857 | registry                 | BMS baseDir : D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38
+2026-09-23 21:14:13.857 | registry                 | BMS theater : LKTO 4.38 + Papa  pilot : Mandrak
+2026-09-23 21:14:14.240 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-09-23 21:14:15.617 | parse_health             | CI03.cam: records 614/614, bytes 292232/292232, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-09-23 21:14:17.116 | telemetry                | ping OK v1.91.0 Windows 11 canal=prod → HTTP 200
+2026-09-23 21:14:19.241 | dtc_render               | path=Mandrak.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=006f17d2
+2026-09-23 21:14:19.258 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:14:21.831 | swap_context             | origin=select_cam:latest cam='ci03.cam' loaded=True err=''
+2026-09-23 21:14:22.240 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:14:22.243 | dtc_render               | path=Mandrak.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=006f17d2
+2026-09-23 21:14:41.089 | swap_context             | origin=select_cam:latest cam='ci03.cam' loaded=True err=''
+2026-09-23 21:14:41.496 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:14:41.499 | dtc_render               | path=Mandrak.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=006f17d2
+2026-09-23 21:15:16.162 | online                   | peek_roster 82.64.199.133:45380 start (suggested=Mandrak)
+2026-09-23 21:15:17.789 | online                   | peek_roster 82.64.199.133:45380 ok: 2 vol(s)
+2026-09-23 21:15:36.891 | online                   | connect_client 82.64.199.133:45380 as Mandrak
+2026-09-23 21:15:38.087 | online                   | host_theater=LKTO 4.38 + Papa local=LKTO 4.38 + Papa
+2026-09-23 21:15:38.191 | online                   | seats_import n=2
+2026-09-23 21:15:38.283 | online                   | campaign_bundle received 7 files
+2026-09-23 21:15:38.349 | online                   | theater_ok: LKTO 4.38 + Papa
+2026-09-23 21:15:38.351 | online                   | ba_containers_sync received 15
+2026-09-23 21:15:38.351 | online                   | seats_import n=2
+2026-09-23 21:15:38.517 | online                   | loadout_sync_received
+2026-09-23 21:15:38.646 | parse_health             | CI03.cam: records 614/614, bytes 292232/292232, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-09-23 21:15:39.016 | online                   | campaign_bundle applied: CI03.cam
+2026-09-23 21:15:39.016 | online                   | campaign_stem aligned host=CI03 local=-
+2026-09-23 21:15:39.364 | ato_target               | index_built names=6613 memo=True
+2026-09-23 21:15:39.366 | ato_target               | resolved id=20801 target=Fighter
+2026-09-23 21:15:39.366 | ato_departure            | resolved=2/2
+2026-09-23 21:15:39.373 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:15:39.378 | ato_target               | resolved id=20801 target=Fighter
+2026-09-23 21:15:39.379 | ato_departure            | resolved=2/2
+2026-09-23 21:15:39.421 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:15:40.086 | fuel_plan                | avail=12194 atTurn=9036 bingo=3900 joker=4400 rtb=1694 margin=5136 GO
+2026-09-23 21:15:40.086 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:15:44.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:15:44.864 | online                   | stem_confirm host=CI03 chosen=CI03
+2026-09-23 21:15:49.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:15:54.231 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:15:59.228 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:03.496 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:16:03.515 | fuel_plan                | avail=12194 atTurn=9036 bingo=3900 joker=4400 rtb=1694 margin=5136 GO
+2026-09-23 21:16:03.516 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:16:03.648 | ato_target               | resolved id=20801 target=Fighter
+2026-09-23 21:16:03.648 | ato_departure            | resolved=2/2
+2026-09-23 21:16:03.828 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:03.829 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:16:03.852 | fuel_plan                | avail=12194 atTurn=9036 bingo=3900 joker=4400 rtb=1694 margin=5136 GO
+2026-09-23 21:16:03.853 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:16:04.214 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-23 21:16:04.278 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:04.385 | mission_support          | awacs: cam pkg=2367 vu=20851
+2026-09-23 21:16:04.532 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-23 21:16:04.535 | package_comms            | tactical ch=6 primary=Falcon 5 uhf=392.425
+2026-09-23 21:16:05.073 | campaign_overview        | objective_index loaded=5992
+2026-09-23 21:16:05.082 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-23 21:16:05.488 | online                   | mc_assigned Obe1 (vol 20801 siège 1)
+2026-09-23 21:16:05.492 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-09-23 21:16:05.493 | campaign_overview        | system_marks=2
+2026-09-23 21:16:05.511 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:05.515 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:05.724 | package_relevance        | package_routes pkg=2367 flights=2 routes=2 points=18
+2026-09-23 21:16:05.787 | mission_support          | tanker: cam pkg=2367 vu=23546
+2026-09-23 21:16:05.795 | friendly_ad_zone         | wps=2 buffer_nm=20.0 hull=26
+2026-09-23 21:16:05.938 | friendly_air_defense     | pkg=2367 ref=aoo sites=11 combat_wp=0 aoo_wp=2 covering=3 nearby=1 shown=1 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=24000
+2026-09-23 21:16:05.957 | mission_support          | awacs: cam pkg=2367 vu=20851
+2026-09-23 21:16:06.504 | briefing_context         | package_overview flights=2 route_points=11 focus_points=4 unique_points=11
+2026-09-23 21:16:06.514 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:16:06.842 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:08.683 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-09-23 21:16:08.683 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-09-23 21:16:08.683 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-09-23 21:16:09.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:09.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:12.833 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:14.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:15.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:18.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:19.231 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:21.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:24.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:24.833 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:27.828 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:29.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:30.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:33.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:34.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:36.829 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:39.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:39.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:42.828 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:44.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:45.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:48.829 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:49.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:51.828 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:54.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:54.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:57.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:16:59.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:00.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:03.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:04.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:06.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:09.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:09.829 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:12.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:14.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:15.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:18.829 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:19.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:21.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:24.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:24.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:27.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:29.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:30.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:33.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:34.230 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:36.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:39.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:39.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:42.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:44.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:45.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:48.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:49.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:51.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:54.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:54.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:57.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:17:59.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:00.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:03.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:04.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:06.827 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:09.230 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:09.836 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:12.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:14.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:15.831 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:18.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:19.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:21.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:24.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:24.833 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:27.842 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:28.112 | online                   | mc_layer_sync_received v1
+2026-09-23 21:18:29.229 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:30.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:33.832 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:34.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:36.828 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:39.229 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:39.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:42.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:44.228 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:45.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:47.405 | fuel_plan                | avail=12194 atTurn=9036 bingo=3900 joker=4400 rtb=1694 margin=5136 GO
+2026-09-23 21:18:47.406 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:18:47.431 | fuel_plan                | avail=12194 atTurn=9036 bingo=3900 joker=4400 rtb=1694 margin=5136 GO
+2026-09-23 21:18:47.431 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:18:48.831 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:49.231 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:51.829 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:54.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:54.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:57.828 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:18:59.229 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:00.832 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:03.827 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:04.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:06.828 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:07.877 | online                   | dpi_sync received 1
+2026-09-23 21:19:09.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:09.827 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:12.831 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:14.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:15.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:18.828 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:19.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:21.828 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:24.230 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:24.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:27.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:29.227 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:30.829 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:33.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:34.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:36.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:39.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:39.836 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:42.829 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:44.126 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:19:44.149 | fuel_plan                | avail=12194 atTurn=9036 bingo=3900 joker=4400 rtb=1694 margin=5136 GO
+2026-09-23 21:19:44.149 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:19:44.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:45.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:47.639 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:19:47.657 | fuel_plan                | avail=12194 atTurn=9036 bingo=3900 joker=4400 rtb=1694 margin=5136 GO
+2026-09-23 21:19:47.658 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:19:47.791 | ato_target               | resolved id=20801 target=Fighter
+2026-09-23 21:19:47.792 | ato_departure            | resolved=2/2
+2026-09-23 21:19:48.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:49.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:50.594 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:19:50.613 | fuel_plan                | avail=12194 atTurn=9036 bingo=3900 joker=4400 rtb=1694 margin=5136 GO
+2026-09-23 21:19:50.613 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:19:51.847 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:54.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:54.828 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:57.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:19:59.227 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:20:00.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:20:03.836 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:20:04.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:20:06.833 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:20:09.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:20:09.828 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:20:12.831 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:20:14.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:20:15.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:20:15.968 | online                   | seats_import n=2
+2026-09-23 21:20:18.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:20:19.232 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:20:21.830 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:20:24.233 | online                   | flight_occupancy flights=2 connected=2 pkg=2367
+2026-09-23 21:20:24.788 | online                   | seats_import n=2
+2026-09-23 21:20:24.831 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:27.830 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:29.232 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:30.833 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:33.830 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:34.232 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:36.828 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:39.232 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:39.830 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:42.831 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:44.233 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:45.829 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:47.520 | online                   | campaign_bundle received 7 files
+2026-09-23 21:20:47.520 | online                   | seats_import n=2
+2026-09-23 21:20:47.822 | parse_health             | CI03.cam: records 616/616, bytes 293028/293028, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-09-23 21:20:48.206 | online                   | campaign_bundle applied: CI03.cam
+2026-09-23 21:20:48.207 | online                   | campaign_stem aligned host=CI03 local=-
+2026-09-23 21:20:48.557 | ato_target               | index_built names=6615 memo=True
+2026-09-23 21:20:48.558 | ato_target               | resolved id=20801 target=Fighter
+2026-09-23 21:20:48.558 | ato_departure            | resolved=2/2
+2026-09-23 21:20:48.570 | ato_target               | resolved id=20801 target=Fighter
+2026-09-23 21:20:48.570 | ato_departure            | resolved=2/2
+2026-09-23 21:20:48.615 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:20:49.095 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:49.095 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:20:49.103 | fuel_plan                | avail=12194 atTurn=9036 bingo=3900 joker=4400 rtb=1694 margin=5136 GO
+2026-09-23 21:20:49.104 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:20:49.252 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-23 21:20:49.254 | mission_support          | awacs: cam pkg=2367 vu=20851
+2026-09-23 21:20:49.264 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:49.272 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-23 21:20:49.273 | package_comms            | tactical ch=6 primary=Falcon 5 uhf=392.425
+2026-09-23 21:20:49.273 | fuel_plan                | avail=12194 atTurn=9036 bingo=3900 joker=4400 rtb=1694 margin=5136 GO
+2026-09-23 21:20:49.281 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:20:49.830 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-09-23 21:20:49.830 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-09-23 21:20:49.831 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-09-23 21:20:49.939 | campaign_overview        | objective_index loaded=5992
+2026-09-23 21:20:49.950 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-23 21:20:50.290 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-09-23 21:20:50.291 | campaign_overview        | system_marks=2
+2026-09-23 21:20:50.307 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:50.311 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:50.352 | package_relevance        | package_routes pkg=2367 flights=2 routes=2 points=18
+2026-09-23 21:20:50.353 | friendly_ad_zone         | wps=2 buffer_nm=20.0 hull=26
+2026-09-23 21:20:50.740 | friendly_air_defense     | pkg=2367 ref=aoo sites=11 combat_wp=0 aoo_wp=2 covering=3 nearby=1 shown=1 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=24000
+2026-09-23 21:20:50.747 | mission_support          | awacs: cam pkg=2367 vu=20851
+2026-09-23 21:20:50.788 | mission_support          | tanker: cam pkg=2367 vu=23546
+2026-09-23 21:20:51.362 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:20:51.371 | briefing_context         | package_overview flights=2 route_points=11 focus_points=4 unique_points=11
+2026-09-23 21:20:52.101 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:54.232 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:55.106 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:56.469 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:20:56.489 | fuel_plan                | avail=12194 atTurn=9036 bingo=3900 joker=4400 rtb=1694 margin=5136 GO
+2026-09-23 21:20:56.489 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:20:56.618 | ato_target               | resolved id=20801 target=Fighter
+2026-09-23 21:20:56.618 | ato_departure            | resolved=2/2
+2026-09-23 21:20:57.513 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:58.094 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:20:59.232 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:01.101 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:02.412 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:04.091 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:04.233 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:07.094 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:09.233 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:10.094 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:12.033 | online                   | seat_change_request vu=23582 seat=1
+2026-09-23 21:21:12.033 | online                   | seat_change_request vu=23582 seat=1
+2026-09-23 21:21:13.094 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:14.233 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:16.094 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:19.094 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:19.232 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:22.091 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:24.228 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:25.094 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:28.094 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:29.232 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:31.093 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:34.094 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:34.227 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:37.094 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:37.917 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:39.228 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:40.094 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:43.094 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:44.229 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:46.094 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:49.094 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:49.229 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:52.093 | online                   | flight_occupancy flights=3 connected=2 pkg=2367
+2026-09-23 21:21:52.820 | online                   | disconnect_client
+2026-09-23 21:21:53.204 | ato_target               | resolved id=20801 target=Fighter
+2026-09-23 21:21:53.204 | ato_departure            | resolved=2/2
+2026-09-23 21:21:53.508 | parse_health             | CI02.cam: records 582/582, bytes 281923/281923, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-09-23 21:21:53.906 | swap_context             | origin=select_cam:previous cam='ci02.cam' loaded=True err=''
+2026-09-23 21:21:54.041 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:21:54.048 | dtc_render               | path=Mandrak.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=006f17d2
+2026-09-23 21:21:54.110 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-23 21:21:54.111 | package_comms            | tactical ch=6 primary=? uhf=?
+2026-09-23 21:21:54.580 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:21:54.593 | dtc_render               | path=Mandrak.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=006f17d2
+2026-09-23 21:21:54.742 | online                   | peek_roster 82.64.199.133:45380 start (suggested=Mandrak)
+2026-09-23 21:21:55.339 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-09-23 21:21:55.339 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-09-23 21:21:55.339 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-09-23 21:21:55.473 | campaign_overview        | objective_index loaded=5992
+2026-09-23 21:21:55.483 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-23 21:21:55.817 | campaign_overview        | built team=3 conditions=1 force_rows=7
+2026-09-23 21:21:55.818 | campaign_overview        | system_marks=1
+2026-09-23 21:21:56.372 | online                   | peek_roster 82.64.199.133:45380 ok: 1 vol(s)
+2026-09-23 21:21:56.801 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:21:57.832 | online                   | connect_client 82.64.199.133:45380 as Mandrak
+2026-09-23 21:21:59.015 | online                   | host_theater=LKTO 4.38 + Papa local=LKTO 4.38 + Papa
+2026-09-23 21:21:59.114 | online                   | seats_import n=2
+2026-09-23 21:21:59.206 | online                   | campaign_bundle received 7 files
+2026-09-23 21:21:59.238 | online                   | flight_occupancy flights=1 connected=2 pkg=None
+2026-09-23 21:21:59.275 | online                   | theater_ok: LKTO 4.38 + Papa
+2026-09-23 21:21:59.277 | online                   | ba_containers_sync received 15
+2026-09-23 21:21:59.277 | online                   | seats_import n=2
+2026-09-23 21:21:59.356 | online                   | loadout_sync_received
+2026-09-23 21:21:59.528 | parse_health             | CI03.cam: records 616/616, bytes 293028/293028, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-09-23 21:21:59.908 | online                   | campaign_bundle applied: CI03.cam
+2026-09-23 21:21:59.908 | online                   | campaign_stem aligned host=CI03 local=-
+2026-09-23 21:22:00.255 | ato_target               | index_built names=6615 memo=True
+2026-09-23 21:22:00.257 | ato_target               | resolved id=8409 target=Tank
+2026-09-23 21:22:00.257 | ato_departure            | resolved=1/1
+2026-09-23 21:22:00.266 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:00.270 | ato_target               | resolved id=8409 target=Tank
+2026-09-23 21:22:00.270 | ato_departure            | resolved=1/1
+2026-09-23 21:22:00.318 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:22:00.716 | fuel_plan                | avail=12194 atTurn=9021 bingo=3400 joker=3900 rtb=1237 margin=5621 GO
+2026-09-23 21:22:00.716 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=006f17d2
+2026-09-23 21:22:00.725 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:00.727 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:22:00.870 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-23 21:22:00.873 | mission_support          | awacs: cam pkg=1735 vu=20851
+2026-09-23 21:22:00.889 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-23 21:22:00.891 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-23 21:22:00.891 | fuel_plan                | avail=12194 atTurn=9021 bingo=3400 joker=3900 rtb=1237 margin=5621 GO
+2026-09-23 21:22:00.899 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=006f17d2
+2026-09-23 21:22:01.607 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-09-23 21:22:01.607 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-09-23 21:22:01.608 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-09-23 21:22:01.700 | campaign_overview        | objective_index loaded=5992
+2026-09-23 21:22:01.713 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-23 21:22:02.050 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-23 21:22:02.052 | campaign_overview        | system_marks=2
+2026-09-23 21:22:02.066 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:02.069 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:02.092 | package_relevance        | package_routes pkg=1735 flights=1 routes=1 points=9
+2026-09-23 21:22:02.093 | friendly_ad_zone         | wps=2 buffer_nm=20.0 hull=26
+2026-09-23 21:22:02.409 | friendly_air_defense     | pkg=1735 ref=aoo sites=11 combat_wp=0 aoo_wp=2 covering=7 nearby=1 shown=1 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=22000
+2026-09-23 21:22:02.419 | mission_support          | tanker: cam pkg=1735 vu=21389
+2026-09-23 21:22:02.493 | mission_support          | awacs: cam pkg=1735 vu=20851
+2026-09-23 21:22:03.029 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:22:03.044 | briefing_context         | package_overview flights=1 route_points=8 focus_points=2 unique_points=8
+2026-09-23 21:22:03.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:04.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:06.725 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:06.772 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:22:06.790 | fuel_plan                | avail=12194 atTurn=9021 bingo=3400 joker=3900 rtb=1237 margin=5621 GO
+2026-09-23 21:22:06.790 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=006f17d2
+2026-09-23 21:22:09.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:09.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:11.266 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:22:11.283 | fuel_plan                | avail=12194 atTurn=9021 bingo=3400 joker=3900 rtb=1237 margin=5621 GO
+2026-09-23 21:22:11.283 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=006f17d2
+2026-09-23 21:22:12.725 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:14.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:15.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:18.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:19.228 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:21.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:24.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:24.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:27.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:28.303 | fpln_wp                  | pending vu=23582 ARRIVE 11 wp  src=peer  WS fpln_secondary du host
+2026-09-23 21:22:28.727 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:22:29.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:30.724 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:33.137 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:22:33.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:34.231 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:36.727 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:38.939 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-23 21:22:38.959 | fuel_plan                | avail=12194 atTurn=9021 bingo=3400 joker=3900 rtb=1237 margin=5621 GO
+2026-09-23 21:22:38.959 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=006f17d2
+2026-09-23 21:22:39.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:39.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:42.725 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:44.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:45.725 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:48.723 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:49.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:50.876 | timeline_edits           | vus=0 wps=0 key='C:\\Users\\mandrak\\AppData\\Local\\Temp\\fbb_campaign_bundle\\CI03.cam'
+2026-09-23 21:22:50.880 | fpln_wp                  | pending vu=23582 wp=oi:6 #6 MOVE 0.0182,0.0188 -> 0.0181,0.0179 (0.05 NM S) src=peer  WS fpln_secondary du host
+2026-09-23 21:22:50.957 | fpln_wp                  | pending vu=23582 RETIRE 11 wp  src=peer  WS fpln_secondary du host
+2026-09-23 21:22:50.959 | fpln_wp                  | final vu=23582 ARRIVE 11 wp  src=peer  WS fpln_final du host
+2026-09-23 21:22:50.967 | fpln_wp                  | final vu=23582 RETIRE 11 wp  src=replication  PUT /final sync=false
+2026-09-23 21:22:50.975 | fpln_wp                  | final vu=23582 ARRIVE 11 wp  src=replication  PUT /final sync=false
+2026-09-23 21:22:51.386 | campaign_mods            | {'fpln': 7, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:22:51.394 | campaign_mods            | {'fpln': 7, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:22:51.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:54.230 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:54.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:57.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:22:58.374 | online                   | mc_assigned Obe1 (vol 23582 siège 1)
+2026-09-23 21:22:59.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:00.390 | online                   | mc_layer_sync_received v1
+2026-09-23 21:23:00.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:03.719 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:04.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:04.924 | fuel_plan                | avail=12194 atTurn=9183 bingo=3600 joker=4100 rtb=1406 margin=5583 GO
+2026-09-23 21:23:04.924 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:23:04.947 | fuel_plan                | avail=12194 atTurn=9183 bingo=3600 joker=4100 rtb=1406 margin=5583 GO
+2026-09-23 21:23:04.947 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:23:06.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:09.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:09.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:12.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:14.228 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:15.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:16.941 | online                   | boxes_list_received 1
+2026-09-23 21:23:18.721 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:19.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:20.185 | online                   | boxes_list_received 1
+2026-09-23 21:23:21.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:23.057 | online                   | boxes_list_received 1
+2026-09-23 21:23:24.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:24.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:26.047 | online                   | boxes_list_received 1
+2026-09-23 21:23:27.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:29.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:30.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:31.004 | online                   | boxes_list_received 1
+2026-09-23 21:23:33.724 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:34.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:34.948 | online                   | boxes_list_received 1
+2026-09-23 21:23:36.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:39.229 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:39.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:42.725 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:44.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:44.656 | online                   | boxes_list_received 1
+2026-09-23 21:23:45.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:48.219 | online                   | boxes_list_received 1
+2026-09-23 21:23:48.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:49.231 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:51.723 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:54.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:54.668 | online                   | boxes_list_received 1
+2026-09-23 21:23:54.721 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:56.779 | online                   | boxes_list_received 1
+2026-09-23 21:23:57.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:23:59.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:00.670 | online                   | marks_list_received 1
+2026-09-23 21:24:00.777 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-23 21:24:00.781 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-23 21:24:00.782 | campaign_overview        | system_marks=2
+2026-09-23 21:24:00.784 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:03.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:04.231 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:06.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:09.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:09.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:12.719 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:12.834 | online                   | boxes_list_received 2
+2026-09-23 21:24:14.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:15.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:18.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:19.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:21.721 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:22.676 | online                   | boxes_list_received 2
+2026-09-23 21:24:24.229 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:24.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:27.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:29.227 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:30.725 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:31.734 | online                   | boxes_list_received 2
+2026-09-23 21:24:33.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:34.229 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:34.773 | online                   | boxes_list_received 3
+2026-09-23 21:24:36.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:37.882 | online                   | boxes_list_received 3
+2026-09-23 21:24:39.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:39.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:41.029 | online                   | boxes_list_received 3
+2026-09-23 21:24:42.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:44.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:45.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:46.874 | online                   | boxes_list_received 3
+2026-09-23 21:24:48.723 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:49.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:51.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:53.050 | online                   | boxes_list_received 3
+2026-09-23 21:24:54.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:54.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:56.185 | online                   | boxes_list_received 3
+2026-09-23 21:24:57.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:59.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:24:59.334 | online                   | boxes_list_received 3
+2026-09-23 21:25:00.719 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:01.646 | online                   | boxes_list_received 3
+2026-09-23 21:25:03.725 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:04.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:06.724 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:09.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:09.719 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:11.122 | online                   | boxes_list_received 3
+2026-09-23 21:25:12.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:12.806 | online                   | boxes_list_received 3
+2026-09-23 21:25:14.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:15.725 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:18.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:19.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:19.594 | online                   | boxes_list_received 3
+2026-09-23 21:25:21.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:23.950 | online                   | boxes_list_received 2
+2026-09-23 21:25:24.229 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:24.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:27.723 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:29.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:30.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:33.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:34.229 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:36.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:39.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:39.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:42.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:44.229 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:45.723 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:48.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:49.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:51.721 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:54.230 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:54.719 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:57.723 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:25:59.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:00.723 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:03.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:04.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:06.724 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:09.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:09.719 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:12.723 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:14.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:15.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:18.732 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:19.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:21.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:24.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:24.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:27.725 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:29.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:30.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:33.725 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:34.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:36.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:39.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:39.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:42.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:44.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:45.724 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:48.719 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:49.231 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:51.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:54.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:54.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:57.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:26:59.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:00.725 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:03.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:04.231 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:06.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:09.230 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:09.719 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:11.878 | online                   | mc_layer_sync_received v2
+2026-09-23 21:27:12.719 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:14.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:15.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:16.389 | fuel_plan                | avail=12194 atTurn=9183 bingo=3600 joker=4100 rtb=1406 margin=5583 GO
+2026-09-23 21:27:16.389 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:27:16.412 | fuel_plan                | avail=12194 atTurn=9183 bingo=3600 joker=4100 rtb=1406 margin=5583 GO
+2026-09-23 21:27:16.413 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:27:18.721 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:19.231 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:21.723 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:24.228 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:24.730 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:27.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:29.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:30.660 | fpln_wp                  | pending vu=23582 ARRIVE 12 wp  src=peer  WS fpln_secondary du host
+2026-09-23 21:27:30.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:30.991 | campaign_mods            | {'fpln': 7, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:27:31.076 | campaign_mods            | {'fpln': 7, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:27:33.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:34.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:36.724 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:39.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:39.721 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:42.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:44.230 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:44.505 | campaign_mods            | {'fpln': 7, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:27:45.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:48.724 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:49.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:51.704 | fpln_wp                  | pending vu=23582 wp=oi:6 #7 MOVE 0.0181,0.0179 -> 0.0166,0.0175 (0.10 NM W) src=peer  WS fpln_secondary du host
+2026-09-23 21:27:51.704 | fpln_wp                  | pending vu=23582 RETIRE 12 wp  src=peer  WS fpln_secondary du host
+2026-09-23 21:27:51.724 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:51.779 | fpln_wp                  | final vu=23582 wp=ins:8443a576-cd74-4acb-9c18-ab7c47d31c9e #4 ADD 0.0155,0.0178  src=peer  WS fpln_final du host
+2026-09-23 21:27:52.199 | campaign_mods            | {'fpln': 8, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:27:52.202 | campaign_mods            | {'fpln': 8, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:27:54.228 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:54.719 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:57.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:27:59.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:00.719 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:03.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:04.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:06.723 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:09.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:09.719 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:12.719 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:14.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:15.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:18.725 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:19.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:21.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:24.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:24.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:27.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:29.231 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:30.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:33.724 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:34.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:36.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:39.232 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:39.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:42.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:43.693 | vprofile_wx              | n=226 fog=10 cb=4
+2026-09-23 21:28:44.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:45.723 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:45.834 | wx_legend                | grid=6x6 codes=AMB,BLU,GRN,RED,WHT,YLO
+2026-09-23 21:28:48.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:49.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:51.725 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:54.228 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:54.724 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:57.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:28:59.227 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:00.719 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:02.460 | vprofile_wx              | n=226 fog=10 cb=4
+2026-09-23 21:29:03.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:04.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:06.720 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:09.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:09.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:12.721 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:13.725 | ato_target               | resolved id=8409 target=Tank
+2026-09-23 21:29:13.725 | ato_departure            | resolved=1/1
+2026-09-23 21:29:14.230 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:15.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:18.721 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:19.234 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:21.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:24.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:24.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:27.719 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:29.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:30.721 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:33.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:34.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:34.826 | loadout_laser            | package=1735 laser_flights=1 my_code=1688
+2026-09-23 21:29:34.826 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-09-23 21:29:34.826 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-09-23 21:29:34.826 | loadout_weapon_dtc       | validated_fields=0 stage_sections=0
+2026-09-23 21:29:34.827 | online                   | loadout_sync_received
+2026-09-23 21:29:35.150 | campaign_mods            | {'fpln': 8, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:29:35.154 | campaign_mods            | {'fpln': 8, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:29:35.249 | fuel_plan                | avail=12194 atTurn=9155 bingo=3600 joker=4100 rtb=1427 margin=5555 GO
+2026-09-23 21:29:35.249 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:29:35.272 | fuel_plan                | avail=12194 atTurn=9155 bingo=3600 joker=4100 rtb=1427 margin=5555 GO
+2026-09-23 21:29:35.272 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:29:35.353 | loadout_laser            | package=1735 laser_flights=1 my_code=1688
+2026-09-23 21:29:35.353 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-09-23 21:29:35.353 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-09-23 21:29:35.354 | loadout_weapon_dtc       | validated_fields=0 stage_sections=0
+2026-09-23 21:29:35.354 | online                   | loadout_sync_received
+2026-09-23 21:29:35.763 | campaign_mods            | {'fpln': 8, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:29:35.769 | campaign_mods            | {'fpln': 8, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:29:35.784 | fuel_plan                | avail=12194 atTurn=9155 bingo=3600 joker=4100 rtb=1427 margin=5555 GO
+2026-09-23 21:29:35.784 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:29:35.808 | fuel_plan                | avail=12194 atTurn=9155 bingo=3600 joker=4100 rtb=1427 margin=5555 GO
+2026-09-23 21:29:35.808 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:29:36.028 | loadout_laser            | package=1735 laser_flights=1 my_code=1688
+2026-09-23 21:29:36.029 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-09-23 21:29:36.029 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-09-23 21:29:36.029 | loadout_weapon_dtc       | validated_fields=0 stage_sections=0
+2026-09-23 21:29:36.029 | online                   | loadout_sync_received
+2026-09-23 21:29:36.436 | campaign_mods            | {'fpln': 8, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:29:36.441 | campaign_mods            | {'fpln': 8, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:29:36.457 | fuel_plan                | avail=12194 atTurn=9155 bingo=3600 joker=4100 rtb=1427 margin=5555 GO
+2026-09-23 21:29:36.457 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:29:36.480 | fuel_plan                | avail=12194 atTurn=9155 bingo=3600 joker=4100 rtb=1427 margin=5555 GO
+2026-09-23 21:29:36.480 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:29:36.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:39.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:39.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:42.215 | loadout_laser            | package=1735 laser_flights=1 my_code=1688
+2026-09-23 21:29:42.215 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-09-23 21:29:42.215 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-09-23 21:29:42.215 | loadout_weapon_dtc       | validated_fields=0 stage_sections=0
+2026-09-23 21:29:42.215 | online                   | loadout_sync_received
+2026-09-23 21:29:42.479 | loadout_laser            | package=1735 laser_flights=1 my_code=1688
+2026-09-23 21:29:42.480 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-09-23 21:29:42.480 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-09-23 21:29:42.480 | loadout_weapon_dtc       | validated_fields=0 stage_sections=0
+2026-09-23 21:29:42.480 | online                   | loadout_sync_received
+2026-09-23 21:29:42.725 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:42.888 | campaign_mods            | {'fpln': 8, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:29:42.893 | campaign_mods            | {'fpln': 8, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:29:42.909 | fuel_plan                | avail=12194 atTurn=9155 bingo=3600 joker=4100 rtb=1427 margin=5555 GO
+2026-09-23 21:29:42.909 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:29:42.932 | fuel_plan                | avail=12194 atTurn=9155 bingo=3600 joker=4100 rtb=1427 margin=5555 GO
+2026-09-23 21:29:42.933 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:29:43.131 | loadout_laser            | package=1735 laser_flights=1 my_code=1688
+2026-09-23 21:29:43.132 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-09-23 21:29:43.132 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-09-23 21:29:43.132 | loadout_weapon_dtc       | validated_fields=0 stage_sections=0
+2026-09-23 21:29:43.132 | online                   | loadout_sync_received
+2026-09-23 21:29:43.538 | campaign_mods            | {'fpln': 8, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:29:43.544 | campaign_mods            | {'fpln': 8, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:29:43.560 | fuel_plan                | avail=12194 atTurn=9155 bingo=3600 joker=4100 rtb=1427 margin=5555 GO
+2026-09-23 21:29:43.560 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:29:43.583 | fuel_plan                | avail=12194 atTurn=9155 bingo=3600 joker=4100 rtb=1427 margin=5555 GO
+2026-09-23 21:29:43.583 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:29:44.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:45.722 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:48.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:49.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:49.540 | loadout_laser            | package=1735 laser_flights=1 my_code=1688
+2026-09-23 21:29:49.540 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-09-23 21:29:49.541 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-09-23 21:29:49.541 | loadout_weapon_dtc       | validated_fields=0 stage_sections=0
+2026-09-23 21:29:49.541 | online                   | loadout_sync_received
+2026-09-23 21:29:49.950 | loadout3d                | _build_loadout_grow_mods: Plasma 1 vu=23582 1→4 entrée(s) d'emport (4 avion(s) au vol ; 3 de préservation)
+2026-09-23 21:29:49.950 | campaign_mods            | {'fpln': 8, 'loadout': 3, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:29:49.957 | loadout3d                | _build_loadout_grow_mods: Plasma 1 vu=23582 1→4 entrée(s) d'emport (4 avion(s) au vol ; 3 de préservation)
+2026-09-23 21:29:49.957 | campaign_mods            | {'fpln': 8, 'loadout': 3, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:29:49.973 | fuel_plan                | avail=12194 atTurn=9155 bingo=3600 joker=4100 rtb=1427 margin=5555 GO
+2026-09-23 21:29:49.974 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:29:49.997 | fuel_plan                | avail=12194 atTurn=9155 bingo=3600 joker=4100 rtb=1427 margin=5555 GO
+2026-09-23 21:29:49.998 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:29:51.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:51.874 | loadout_laser            | package=1735 laser_flights=1 my_code=1688
+2026-09-23 21:29:51.875 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-09-23 21:29:51.875 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-09-23 21:29:51.875 | loadout_weapon_dtc       | validated_fields=0 stage_sections=0
+2026-09-23 21:29:51.875 | online                   | loadout_sync_received
+2026-09-23 21:29:52.283 | loadout3d                | _build_loadout_grow_mods: Plasma 1 vu=23582 1→4 entrée(s) d'emport (4 avion(s) au vol ; 3 de préservation)
+2026-09-23 21:29:52.284 | campaign_mods            | {'fpln': 8, 'loadout': 3, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:29:52.290 | loadout3d                | _build_loadout_grow_mods: Plasma 1 vu=23582 1→4 entrée(s) d'emport (4 avion(s) au vol ; 3 de préservation)
+2026-09-23 21:29:52.290 | campaign_mods            | {'fpln': 8, 'loadout': 3, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-09-23 21:29:52.305 | fuel_plan                | avail=12194 atTurn=9155 bingo=3600 joker=4100 rtb=1427 margin=5555 GO
+2026-09-23 21:29:52.305 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:29:52.328 | fuel_plan                | avail=12194 atTurn=9155 bingo=3600 joker=4100 rtb=1427 margin=5555 GO
+2026-09-23 21:29:52.329 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=21 n_ppt=2 n_dpi=0 n_divert=3 n_sections=1 hash=006f17d2
+2026-09-23 21:29:53.398 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:54.233 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:54.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
+2026-09-23 21:29:57.726 | online                   | flight_occupancy flights=1 connected=2 pkg=1735
