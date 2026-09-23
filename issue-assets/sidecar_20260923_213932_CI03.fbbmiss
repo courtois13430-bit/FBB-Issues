@@ -1,0 +1,691 @@
+{
+  "fbb_sidecar_version": 1,
+  "app_version": "1.91.0",
+  "saved_utc": "2026-09-23T19:36:14Z",
+  "cam": {
+    "stem": "CI03",
+    "theater_key": "kto",
+    "campaign_name": "CI03",
+    "saved": "day 2 01:14:19"
+  },
+  "identity": {
+    "flight_override": {
+      "vu_num": 23582,
+      "camp_id": 1749,
+      "callsign": "Plasma 1"
+    },
+    "seat_override": 0,
+    "forged_pkg_camp_id": 1735
+  },
+  "dpi": {
+    "v": 1,
+    "items": [
+      {
+        "id": "Obe1·DPI-01",
+        "created_by": "Obe1",
+        "name": "SA-13 (9K35) #1",
+        "ct_type": 61,
+        "ct_name": "42nd Tank Battalion",
+        "lat": 37.9629557375013,
+        "lon": 125.8794165101938,
+        "z_msl": 86,
+        "height_ft": 14,
+        "airport": "",
+        "model": 133,
+        "bear_bull": 173,
+        "dist_bull": 65.1,
+        "cam_e": 1212732.59,
+        "cam_n": 1488250.91,
+        "visibility": "package",
+        "owner_vu": 0,
+        "target_role": "primary",
+        "assigned": [],
+        "assigned_by_flight": {},
+        "tgt_slots": []
+      },
+      {
+        "id": "Obe1·DPI-02",
+        "created_by": "Obe1",
+        "name": "SA-13 (9K35) #2",
+        "ct_type": 61,
+        "ct_name": "42nd Tank Battalion",
+        "lat": 37.96258555291114,
+        "lon": 125.87896493522337,
+        "z_msl": 72,
+        "height_ft": 14,
+        "airport": "",
+        "model": 133,
+        "bear_bull": 173,
+        "dist_bull": 65.1,
+        "cam_e": 1212600.09,
+        "cam_n": 1488118.41,
+        "visibility": "package",
+        "owner_vu": 0,
+        "target_role": "primary",
+        "assigned": [],
+        "assigned_by_flight": {},
+        "tgt_slots": []
+      },
+      {
+        "id": "Obe1·DPI-03",
+        "created_by": "Obe1",
+        "name": "Somewhere-1",
+        "ct_type": 0,
+        "ct_name": "Terrain",
+        "lat": 37.96112155092083,
+        "lon": 125.89902735332271,
+        "z_msl": 24.0,
+        "height_ft": null,
+        "airport": "",
+        "model": null,
+        "bear_bull": 172,
+        "dist_bull": 65.3,
+        "cam_e": 1218373.3820374506,
+        "cam_n": 1487485.4006646893,
+        "visibility": "package",
+        "owner_vu": 0,
+        "target_role": "primary",
+        "assigned": [],
+        "assigned_by_flight": {},
+        "tgt_slots": []
+      }
+    ]
+  },
+  "marks": {
+    "v": 1,
+    "items": [
+      {
+        "id": "Obe1·MK-01",
+        "label": "2126th Air Defense Battalion",
+        "mtype": "point",
+        "author": "Obe1",
+        "lat": 37.971284436859044,
+        "lon": 125.94288109474834,
+        "z_msl": 38.0,
+        "bear_bull": 170,
+        "dist_bull": 65.1,
+        "cam_e": 1231075.12490742,
+        "cam_n": 1490970.8343984392,
+        "visibility": "package",
+        "owner_vu": 0
+      }
+    ]
+  },
+  "boxes": {
+    "v": 1,
+    "items": [
+      {
+        "uid": "68e133250fd2",
+        "id": "BOX01",
+        "owner_name": "Obe1",
+        "label": "",
+        "color": "#1e1b4b",
+        "corners": [
+          {
+            "cam_e": 1188696.3230470542,
+            "cam_n": 1556496.2876614742
+          },
+          {
+            "cam_e": 1245658.127311207,
+            "cam_n": 1532952.7381389516
+          },
+          {
+            "cam_e": 1204475.0830345827,
+            "cam_n": 1456520.828355634
+          },
+          {
+            "cam_e": 1150796.5208128006,
+            "cam_n": 1479747.4559144482
+          }
+        ],
+        "visibility": "package",
+        "owner_vu": 0,
+        "author": "Obe1"
+      },
+      {
+        "uid": "c6c1119cdbf4",
+        "id": "CAP01",
+        "kind": "racetrack",
+        "owner_name": "Obe1",
+        "label": "",
+        "color": "#1e1b4b",
+        "cam_e": 1234514.0682692202,
+        "cam_n": 1466557.892884765,
+        "half_len_ft": 30143.22273219483,
+        "half_w_ft": 12115.19895787779,
+        "heading_deg": 300.0,
+        "turn": "L",
+        "visibility": "package",
+        "owner_vu": 0,
+        "author": "Obe1"
+      }
+    ]
+  },
+  "briefing": {
+    "v": 1,
+    "schema_version": 4,
+    "containers": [
+      {
+        "id": "5a4bd57f-d53e-4108-8ead-e9a623e8ecee",
+        "ctype": "mission_step",
+        "title": "Campaign Overview",
+        "visible": true,
+        "section_key": "campaign_overview",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "campaign_objectives",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "40cc1077-dd48-4087-98b6-20fde3afec8c",
+        "ctype": "mission_step",
+        "title": "Mission / Friendly OOB",
+        "visible": true,
+        "section_key": "package_overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "roaster",
+          "context_lifecycle": "while_active"
+        },
+        "intent": "Attrition T72",
+        "alr": 0
+      },
+      {
+        "id": "6592011d-19c8-4cfd-a628-477f0baef6f5",
+        "ctype": "mission_step",
+        "title": "Package Timeline",
+        "visible": true,
+        "section_key": "pkg_timing",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "f6229a9c-3821-44c5-9055-76bd10ab3eca",
+        "ctype": "mission_step",
+        "title": "FPLN / Routes",
+        "visible": true,
+        "section_key": "steerpoints",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "fpln-asst",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "c6705648-6dd5-4b9e-8f6d-bdf9ca12ea95",
+        "ctype": "mission_step",
+        "title": "Weather / Forecast",
+        "visible": true,
+        "section_key": "weather",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "weather_overview"
+        }
+      },
+      {
+        "id": "d1b45234-e59a-4867-9db1-8a33d27c9731",
+        "ctype": "mission_step",
+        "title": "Threat Estimate",
+        "visible": true,
+        "section_key": "threat_analysis",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "199dc75e-f8f6-46d0-99a8-022ec87df32f",
+        "ctype": "mission_step",
+        "title": "Package Comm Plan",
+        "visible": true,
+        "section_key": "comm_plan",
+        "source": "effective",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "48c197a9-c1a9-42fe-8a14-bdd475684685",
+        "ctype": "mission_step",
+        "title": "Contracts",
+        "visible": true,
+        "section_key": "contracts",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "250c9933-419b-4745-b1eb-9fcb5366167d",
+        "ctype": "mission_step",
+        "title": "ROE (Rules of Engagement)",
+        "visible": true,
+        "section_key": "roe",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "ec4dbfd5-e02f-41b3-a88d-52d49623e512",
+        "ctype": "mission_step",
+        "title": "Recovery & Emergency",
+        "visible": true,
+        "section_key": "emerg",
+        "source": "cam",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "af0f0c51-027d-4ffd-9bf7-6332f36e8d94",
+        "ctype": "mission_step",
+        "title": "Flight Task",
+        "visible": true,
+        "section_key": "overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_flight",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "4b139bc5-78dd-4bf2-8b2f-413a268fab73",
+        "ctype": "mission_step",
+        "title": "Targeting",
+        "visible": true,
+        "section_key": "targeting",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "dpi",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "1f608be2-575e-49a7-8f99-19124a713578",
+        "ctype": "mission_step",
+        "title": "Ordnance",
+        "visible": true,
+        "section_key": "ordnance",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "loadout",
+          "context_tab": "session-aircraft",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "aa168682-0e98-4e75-acd0-6dfdcc400fec",
+        "ctype": "mission_step",
+        "title": "Domestics",
+        "visible": true,
+        "section_key": "domestics",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "dep_airfield",
+          "range_nm": 2,
+          "map_auto_open": true
+        }
+      },
+      {
+        "id": "88033992-6371-4b67-a4e7-5748842c3c61",
+        "ctype": "mission_step",
+        "title": "Plan Synch & deconflict",
+        "visible": true,
+        "section_key": "plan_synch",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      }
+    ]
+  },
+  "fpln": {
+    "v": 2,
+    "secondary": {},
+    "final": {
+      "sec": {
+        "23582": {
+          "coords": [
+            [
+              0.024579850121951217,
+              0.018579886707317073
+            ],
+            [
+              0.021139871097560978,
+              0.01841988768292683
+            ],
+            [
+              0.01849988719512195,
+              0.018339888170731712
+            ],
+            [
+              0.017779891585365856,
+              0.018299888414634147
+            ],
+            [
+              0.015452983180580304,
+              0.017834078206448112
+            ],
+            [
+              0.014819909634146342,
+              0.01817988914634146
+            ],
+            [
+              0.014678223888182629,
+              0.017945787782593925
+            ],
+            [
+              0.016569456813954275,
+              0.017458158980645067
+            ],
+            [
+              0.022379863536585366,
+              0.018659886219512197
+            ],
+            [
+              0.024579850121951217,
+              0.018579886707317073
+            ],
+            [
+              0.021139871097560978,
+              0.023179858658536587
+            ],
+            [
+              0.025579844024390244,
+              0.017219894999999995
+            ]
+          ],
+          "wps": [
+            {
+              "action": 1,
+              "_new": false,
+              "wp_key": "oi:0"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:1"
+            },
+            {
+              "action": 8,
+              "_new": false,
+              "wp_key": "oi:2"
+            },
+            {
+              "action": 2,
+              "_new": false,
+              "wp_key": "oi:3"
+            },
+            {
+              "action": 0,
+              "_new": true,
+              "wp_key": "ins:8443a576-cd74-4acb-9c18-ab7c47d31c9e"
+            },
+            {
+              "action": 16,
+              "_new": false,
+              "wp_key": "oi:4"
+            },
+            {
+              "action": 16,
+              "_new": false,
+              "wp_key": "oi:5",
+              "_posOverride": true
+            },
+            {
+              "action": 3,
+              "_new": false,
+              "wp_key": "oi:6",
+              "_posOverride": true
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:7"
+            },
+            {
+              "action": 7,
+              "_new": false,
+              "wp_key": "oi:8"
+            },
+            {
+              "action": 4,
+              "_new": false,
+              "wp_key": "oi:9"
+            },
+            {
+              "action": 7,
+              "_new": false,
+              "wp_key": "oi:10"
+            }
+          ]
+        }
+      },
+      "tle": {},
+      "ts": 1790191953016,
+      "ts_vu": {
+        "23582": 1790191953016
+      }
+    },
+    "edits": {},
+    "slots": {},
+    "cam_gen": "218874cafcfd3a74"
+  },
+  "loadout": {
+    "final": {
+      "23582": {
+        "0": {
+          "3": [
+            148,
+            2
+          ],
+          "7": [
+            148,
+            2
+          ]
+        },
+        "1": {
+          "3": [
+            148,
+            2
+          ],
+          "7": [
+            148,
+            2
+          ]
+        },
+        "2": {
+          "3": [
+            148,
+            2
+          ],
+          "7": [
+            148,
+            2
+          ]
+        },
+        "3": {
+          "3": [
+            148,
+            2
+          ],
+          "7": [
+            148,
+            2
+          ]
+        }
+      }
+    }
+  },
+  "ppt": {
+    "entries": [
+      {
+        "label": "10",
+        "x_n": 1707167.5475355673,
+        "y_e": 1169202.6912690296,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "10",
+        "x_n": 1736979.895399631,
+        "y_e": 1182639.3231967138,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "10",
+        "x_n": 1775877.565628406,
+        "y_e": 1212941.8329799364,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "SA9",
+        "x_n": 1497225.8423875645,
+        "y_e": 1208866.8734894553,
+        "origin": "manual",
+        "author": ""
+      }
+    ]
+  },
+  "lines": {
+    "entries": [
+      {
+        "pts": [
+          [
+            1751509.3199999998,
+            1338231.84
+          ],
+          [
+            1495670.8800000004,
+            1200472.6800000002
+          ],
+          [
+            1495670.8800000004,
+            1062713.52
+          ],
+          [
+            1574390.4,
+            1062713.52
+          ],
+          [
+            1535030.6400000001,
+            944634.24
+          ]
+        ],
+        "origin": "auto",
+        "author": "",
+        "label": "FLOT"
+      },
+      {
+        "pts": [
+          [
+            1424171.002528451,
+            1509541.8124724596
+          ],
+          [
+            1019322.7675275397,
+            1702969.3025284512
+          ],
+          [
+            966934.4174715485,
+            1593319.2675275402
+          ],
+          [
+            1371782.65247246,
+            1399891.7774715489
+          ],
+          [
+            1424171.002528451,
+            1509541.8124724596
+          ]
+        ],
+        "origin": "auto",
+        "author": "",
+        "label": "Tanker Copper 3"
+      },
+      {
+        "pts": [
+          [
+            2125427.04,
+            1357911.72
+          ],
+          [
+            1987667.8800000001,
+            1456311.1199999999
+          ],
+          [
+            1928628.2399999998,
+            1357911.72
+          ],
+          [
+            1633430.04,
+            1338231.84
+          ],
+          [
+            1495670.8800000004,
+            1200472.6800000002
+          ],
+          [
+            1574390.4,
+            983994.0
+          ]
+        ],
+        "origin": "auto",
+        "author": "",
+        "label": "FLOT"
+      },
+      {
+        "pts": [
+          [
+            1923872.3589770035,
+            1650710.0336612526
+          ],
+          [
+            2144226.8263387475,
+            2041951.6389770035
+          ],
+          [
+            2038343.4810229966,
+            2101587.0863387478
+          ],
+          [
+            1817989.0136612526,
+            1710345.481022997
+          ],
+          [
+            1923872.3589770035,
+            1650710.0336612526
+          ]
+        ],
+        "origin": "auto",
+        "author": "",
+        "label": "Tanker Texaco 1"
+      }
+    ]
+  }
+}
