@@ -1,0 +1,33 @@
+2026-09-23 21:32:13.354 | ========================================================================
+2026-09-23 21:32:13.354 | FBB Online  mode=CLIENT    identity=Vince             port=45380
+2026-09-23 21:32:13.354 | Session : 2026-09-23 21:32:13
+2026-09-23 21:32:13.354 | ========================================================================
+2026-09-23 21:32:13.354 | [STATE] _client none -> NetworkClient#1aab7c7ec10 | cause=connect_client
+2026-09-23 21:32:13.355 | [STATE] _mode idle -> client | cause=connect_client
+2026-09-23 21:32:13.355 | [STATE] _my_callsign (vide) -> Vince | cause=connect_client
+2026-09-23 21:32:13.356 | [CLIENT] status → connecting
+2026-09-23 21:32:13.358 | [STATE] reset online | cause=connect_client | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-09-23 21:32:13.359 | [CLIENT] Connexion → 82.64.199.133:45380 (callsign=Vince)
+2026-09-23 21:32:13.443 | [CLIENT] status → connected
+2026-09-23 21:32:14.458 | [SESSION] rejointe — hôte Obe1, déjà présent(s) : Mandrak
+2026-09-23 21:32:14.458 | [THEATER] Théâtre de session → « LKTO 4.38 + Papa » (annoncé par le host ; le tien était « Korea KTO »)
+2026-09-23 21:32:14.585 | [CAM] Bundle campagne reçu — 7 fichier(s)
+2026-09-23 21:32:14.705 | [THEATER] ⚠ Théâtre différent du host : LKTO+.tdf: absent localement; Falcon4_UCD.xml: SHA mismatch
+2026-09-23 21:32:14.727 | [BA] Conteneurs BA reçus du host — 15 entrée(s)
+2026-09-23 21:32:14.755 | [MC] Mission Commander → Obe1 (vol 23582 siège 1)
+2026-09-23 21:32:14.762 | [MARKS] 1 mark(s) partagée(s) reçue(s)
+2026-09-23 21:32:14.762 | [BOXES] 2 box(es) partagée(s) reçue(s)
+2026-09-23 21:32:14.926 | [LOADOUT] état reçu (pending + final)
+2026-09-23 21:32:15.350 | [MC-LAYER] v2 reçu — publié par Obe1
+2026-09-23 21:32:15.952 | [CAM] Contexte rechargé → CI03.cam
+2026-09-23 21:32:15.957 | [CAM] Campagne « CI03 » — ton BMS ne l'a pas encore reçue (normal avant l'entrée en session).
+2026-09-23 21:32:15.958 | [CAM] Rappel — ne change pas le nom de la campagne dans BMS pendant la session : ta DTC serait écrite à côté, et tu décollerais sans tes cibles.
+2026-09-23 21:32:22.053 | [MC-LAYER] v3 reçu — publié par Obe1
+2026-09-23 21:32:31.827 | [FPLN] fpln_final envoyé au host
+2026-09-23 21:32:31.889 | [FPLN] fpln_final reçu du host
+2026-09-23 21:33:27.991 | [PING] Obe1 ping position
+2026-09-23 21:34:22.497 | [PING] Obe1 ping position
+2026-09-23 21:34:28.400 | [PING] Obe1 ping position
+2026-09-23 21:35:36.153 | [DPI] 1 DPI(s) partagé(s) reçu(s) du host
+2026-09-23 21:35:39.506 | [DPI] 2 DPI(s) partagé(s) reçu(s) du host
+2026-09-23 21:36:13.547 | [DPI] 3 DPI(s) partagé(s) reçu(s) du host
