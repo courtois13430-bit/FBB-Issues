@@ -1,0 +1,846 @@
+2026-09-25 19:53:43.734 | ========================================================================
+2026-09-25 19:53:43.734 | startup                  | FBB 1.91.0 — session 2026-09-25 19:53:43
+2026-09-25 19:53:43.734 | startup                  | Répertoire : D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Tools\FBB\_internal
+2026-09-25 19:53:43.734 | startup                  | Python 3.14.5
+2026-09-25 19:53:43.734 | ========================================================================
+2026-09-25 19:53:43.735 | system                   | OS : Windows 11 10.0.26200, AMD64, 32 CPU, RAM 32 GB
+2026-09-25 19:53:43.742 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-09-25 19:53:43.742 | registry                 | BMS baseDir : D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38
+2026-09-25 19:53:43.742 | registry                 | BMS theater : Korea KTO  pilot : Mandrak
+2026-09-25 19:53:43.893 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-09-25 19:53:46.003 | parse_health             | SoloBT.cam: records 1202/1202, bytes 452825/452825, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-09-25 19:53:47.342 | telemetry                | ping OK v1.91.0 Windows 11 canal=prod → HTTP 200
+2026-09-25 19:53:48.017 | ato_target               | index_built names=7200 memo=True
+2026-09-25 19:53:48.018 | ato_departure            | resolved=1/1
+2026-09-25 19:53:50.876 | ato_departure            | resolved=1/1
+2026-09-25 19:53:51.007 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:53:51.242 | fuel_plan                | avail=12194 atTurn=9546 bingo=3400 joker=3900 rtb=809 margin=6146 GO
+2026-09-25 19:53:51.244 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:53:57.078 | swap_context             | origin=select_cam:latest cam='solobt.cam' loaded=True err=''
+2026-09-25 19:53:57.101 | ato_departure            | resolved=1/1
+2026-09-25 19:53:57.132 | ato_departure            | resolved=1/1
+2026-09-25 19:53:57.484 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:53:57.501 | fuel_plan                | avail=12194 atTurn=9546 bingo=3400 joker=3900 rtb=809 margin=6146 GO
+2026-09-25 19:53:57.502 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:53:58.399 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:53:58.416 | fuel_plan                | avail=12194 atTurn=9546 bingo=3400 joker=3900 rtb=809 margin=6146 GO
+2026-09-25 19:53:58.416 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:53:58.782 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:53:58.969 | mission_support          | awacs: cam pkg=1255 vu=24133
+2026-09-25 19:53:59.059 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:53:59.059 | package_comms            | tactical ch=6 primary=Gamble 1 uhf=390.925
+2026-09-25 19:53:59.571 | campaign_overview        | objective_index loaded=5992
+2026-09-25 19:53:59.583 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-25 19:53:59.913 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-09-25 19:53:59.914 | campaign_overview        | system_marks=3
+2026-09-25 19:54:00.030 | package_relevance        | package_routes pkg=1255 flights=1 routes=1 points=6
+2026-09-25 19:54:00.229 | friendly_ad_zone         | wps=2 buffer_nm=20.0 hull=26
+2026-09-25 19:54:00.252 | mission_support          | tanker: cam pkg=1255 vu=23830
+2026-09-25 19:54:00.366 | friendly_air_defense     | pkg=1255 ref=aoo sites=11 combat_wp=0 aoo_wp=2 covering=0 nearby=2 shown=2 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=22000
+2026-09-25 19:54:00.394 | mission_support          | awacs: cam pkg=1255 vu=24133
+2026-09-25 19:54:01.101 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:54:01.111 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-09-25 19:54:02.497 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-09-25 19:54:02.497 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-09-25 19:54:02.497 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-09-25 19:54:13.633 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:54:13.648 | fuel_plan                | avail=12194 atTurn=9546 bingo=3400 joker=3900 rtb=809 margin=6146 GO
+2026-09-25 19:54:13.649 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:54:13.785 | ato_departure            | resolved=1/1
+2026-09-25 19:54:15.684 | ato_departure            | resolved=226/321
+2026-09-25 19:54:15.704 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:54:15.712 | ato_aircraft_details     | vu=25234 aircraft=2 details=2
+2026-09-25 19:54:15.724 | ato_aircraft_details     | vu=25912 aircraft=2 details=2
+2026-09-25 19:54:15.730 | ato_aircraft_details     | vu=25903 aircraft=2 details=2
+2026-09-25 19:54:15.730 | ato_target               | resolved id=20263 target=Fighter
+2026-09-25 19:54:15.730 | ato_aircraft_details     | vu=20264 aircraft=2 details=2
+2026-09-25 19:54:15.730 | ato_target               | resolved id=20263 target=Fighter
+2026-09-25 19:54:15.736 | ato_aircraft_details     | vu=25845 aircraft=2 details=2
+2026-09-25 19:54:15.742 | ato_target               | resolved id=20338 target=Fighter
+2026-09-25 19:54:15.742 | ato_aircraft_details     | vu=20339 aircraft=2 details=2
+2026-09-25 19:54:15.742 | ato_target               | resolved id=20338 target=Fighter
+2026-09-25 19:54:15.748 | ato_aircraft_details     | vu=25471 aircraft=2 details=2
+2026-09-25 19:54:15.759 | ato_aircraft_details     | vu=25872 aircraft=2 details=2
+2026-09-25 19:54:15.771 | ato_aircraft_details     | vu=25542 aircraft=2 details=2
+2026-09-25 19:54:15.777 | ato_target               | resolved id=23830 target=Tanker
+2026-09-25 19:54:15.777 | ato_aircraft_details     | vu=23832 aircraft=2 details=2
+2026-09-25 19:54:15.777 | ato_target               | resolved id=23830 target=Tanker
+2026-09-25 19:54:15.783 | ato_aircraft_details     | vu=25592 aircraft=2 details=2
+2026-09-25 19:54:15.789 | ato_target               | resolved id=24460 target=SIGINT
+2026-09-25 19:54:15.789 | ato_aircraft_details     | vu=24462 aircraft=2 details=2
+2026-09-25 19:54:15.789 | ato_target               | resolved id=24460 target=SIGINT
+2026-09-25 19:54:15.789 | ato_aircraft_details     | vu=24463 aircraft=2 details=2
+2026-09-25 19:54:15.790 | ato_target               | resolved id=24460 target=SIGINT
+2026-09-25 19:54:15.790 | ato_target               | resolved id=20790 target=Fighter
+2026-09-25 19:54:15.790 | ato_aircraft_details     | vu=20791 aircraft=2 details=2
+2026-09-25 19:54:15.790 | ato_target               | resolved id=20790 target=Fighter
+2026-09-25 19:54:15.791 | ato_target               | resolved id=20797 target=SIGINT
+2026-09-25 19:54:15.791 | ato_aircraft_details     | vu=20799 aircraft=2 details=2
+2026-09-25 19:54:15.791 | ato_target               | resolved id=20797 target=SIGINT
+2026-09-25 19:54:15.791 | ato_target               | resolved id=25136 target=Fighter
+2026-09-25 19:54:15.791 | ato_aircraft_details     | vu=25137 aircraft=2 details=2
+2026-09-25 19:54:15.792 | ato_target               | resolved id=25136 target=Fighter
+2026-09-25 19:54:15.797 | ato_aircraft_details     | vu=25228 aircraft=2 details=2
+2026-09-25 19:54:15.803 | ato_target               | resolved id=987 target=Camp Carroll
+2026-09-25 19:54:15.803 | ato_aircraft_details     | vu=20006 aircraft=2 details=2
+2026-09-25 19:54:15.804 | ato_target               | resolved id=987 target=Camp Carroll
+2026-09-25 19:54:15.804 | ato_aircraft_details     | vu=25668 aircraft=2 details=2
+2026-09-25 19:54:15.804 | ato_aircraft_details     | vu=20233 aircraft=2 details=2
+2026-09-25 19:54:15.805 | ato_aircraft_details     | vu=20245 aircraft=2 details=2
+2026-09-25 19:54:15.805 | ato_aircraft_details     | vu=25692 aircraft=2 details=2
+2026-09-25 19:54:15.806 | ato_aircraft_details     | vu=25406 aircraft=2 details=2
+2026-09-25 19:54:15.806 | ato_aircraft_details     | vu=25727 aircraft=2 details=2
+2026-09-25 19:54:15.807 | ato_aircraft_details     | vu=25729 aircraft=2 details=2
+2026-09-25 19:54:15.807 | ato_aircraft_details     | vu=25741 aircraft=2 details=2
+2026-09-25 19:54:15.807 | ato_target               | resolved id=8240 target=Motor Rifle
+2026-09-25 19:54:15.807 | ato_aircraft_details     | vu=20431 aircraft=2 details=2
+2026-09-25 19:54:15.808 | ato_target               | resolved id=8240 target=Motor Rifle
+2026-09-25 19:54:15.808 | ato_aircraft_details     | vu=20434 aircraft=2 details=2
+2026-09-25 19:54:15.808 | ato_aircraft_details     | vu=25528 aircraft=2 details=2
+2026-09-25 19:54:15.809 | ato_aircraft_details     | vu=25561 aircraft=2 details=2
+2026-09-25 19:54:15.809 | ato_aircraft_details     | vu=25624 aircraft=2 details=2
+2026-09-25 19:54:15.810 | ato_aircraft_details     | vu=25794 aircraft=2 details=2
+2026-09-25 19:54:15.810 | ato_aircraft_details     | vu=20523 aircraft=2 details=2
+2026-09-25 19:54:15.811 | ato_aircraft_details     | vu=20616 aircraft=2 details=2
+2026-09-25 19:54:15.811 | ato_aircraft_details     | vu=20702 aircraft=2 details=2
+2026-09-25 19:54:15.812 | ato_aircraft_details     | vu=25446 aircraft=1 details=1
+2026-09-25 19:54:15.812 | ato_aircraft_details     | vu=25447 aircraft=1 details=1
+2026-09-25 19:54:15.812 | ato_aircraft_details     | vu=25449 aircraft=1 details=1
+2026-09-25 19:54:15.812 | ato_aircraft_details     | vu=25747 aircraft=1 details=1
+2026-09-25 19:54:15.813 | ato_aircraft_details     | vu=25748 aircraft=1 details=1
+2026-09-25 19:54:15.813 | ato_aircraft_details     | vu=25749 aircraft=1 details=1
+2026-09-25 19:54:15.813 | ato_aircraft_details     | vu=25593 aircraft=1 details=1
+2026-09-25 19:54:15.814 | ato_aircraft_details     | vu=20649 aircraft=1 details=1
+2026-09-25 19:54:15.814 | ato_aircraft_details     | vu=20651 aircraft=1 details=1
+2026-09-25 19:54:15.814 | ato_aircraft_details     | vu=20674 aircraft=1 details=1
+2026-09-25 19:54:15.815 | ato_aircraft_details     | vu=20738 aircraft=1 details=1
+2026-09-25 19:54:15.815 | ato_aircraft_details     | vu=20739 aircraft=1 details=1
+2026-09-25 19:54:15.815 | ato_aircraft_details     | vu=25124 aircraft=2 details=2
+2026-09-25 19:54:15.816 | ato_aircraft_details     | vu=25125 aircraft=2 details=2
+2026-09-25 19:54:15.822 | ato_aircraft_details     | vu=25640 aircraft=2 details=2
+2026-09-25 19:54:15.834 | ato_aircraft_details     | vu=20184 aircraft=2 details=2
+2026-09-25 19:54:15.845 | ato_aircraft_details     | vu=20185 aircraft=2 details=2
+2026-09-25 19:54:15.857 | ato_aircraft_details     | vu=25826 aircraft=2 details=2
+2026-09-25 19:54:15.869 | ato_aircraft_details     | vu=25828 aircraft=2 details=2
+2026-09-25 19:54:15.880 | ato_aircraft_details     | vu=25672 aircraft=2 details=2
+2026-09-25 19:54:15.892 | ato_aircraft_details     | vu=25673 aircraft=2 details=2
+2026-09-25 19:54:15.904 | ato_aircraft_details     | vu=25348 aircraft=2 details=2
+2026-09-25 19:54:15.916 | ato_aircraft_details     | vu=25674 aircraft=2 details=2
+2026-09-25 19:54:15.927 | ato_aircraft_details     | vu=25365 aircraft=2 details=2
+2026-09-25 19:54:15.939 | ato_aircraft_details     | vu=20207 aircraft=2 details=2
+2026-09-25 19:54:15.950 | ato_aircraft_details     | vu=20218 aircraft=2 details=2
+2026-09-25 19:54:15.962 | ato_aircraft_details     | vu=20219 aircraft=2 details=2
+2026-09-25 19:54:15.973 | ato_aircraft_details     | vu=20221 aircraft=2 details=2
+2026-09-25 19:54:15.985 | ato_aircraft_details     | vu=25381 aircraft=2 details=2
+2026-09-25 19:54:15.997 | ato_aircraft_details     | vu=25678 aircraft=2 details=2
+2026-09-25 19:54:16.003 | ato_target               | resolved id=20270 target=Tanker
+2026-09-25 19:54:16.003 | ato_aircraft_details     | vu=20271 aircraft=2 details=2
+2026-09-25 19:54:16.004 | ato_target               | resolved id=20270 target=Tanker
+2026-09-25 19:54:16.004 | ato_target               | resolved id=20276 target=Tanker
+2026-09-25 19:54:16.004 | ato_aircraft_details     | vu=20277 aircraft=2 details=2
+2026-09-25 19:54:16.005 | ato_target               | resolved id=20276 target=Tanker
+2026-09-25 19:54:16.010 | ato_aircraft_details     | vu=25383 aircraft=2 details=2
+2026-09-25 19:54:16.022 | ato_aircraft_details     | vu=25384 aircraft=2 details=2
+2026-09-25 19:54:16.034 | ato_aircraft_details     | vu=25388 aircraft=2 details=2
+2026-09-25 19:54:16.046 | ato_aircraft_details     | vu=25844 aircraft=2 details=2
+2026-09-25 19:54:16.052 | ato_target               | resolved id=25690 target=Fighter
+2026-09-25 19:54:16.052 | ato_aircraft_details     | vu=25691 aircraft=2 details=2
+2026-09-25 19:54:16.052 | ato_target               | resolved id=25690 target=Fighter
+2026-09-25 19:54:16.058 | ato_aircraft_details     | vu=20303 aircraft=2 details=2
+2026-09-25 19:54:16.064 | ato_target               | resolved id=25413 target=Fighter
+2026-09-25 19:54:16.064 | ato_aircraft_details     | vu=25414 aircraft=2 details=2
+2026-09-25 19:54:16.064 | ato_target               | resolved id=25413 target=Fighter
+2026-09-25 19:54:16.064 | ato_target               | resolved id=25415 target=Fighter
+2026-09-25 19:54:16.065 | ato_aircraft_details     | vu=25416 aircraft=2 details=2
+2026-09-25 19:54:16.065 | ato_target               | resolved id=25415 target=Fighter
+2026-09-25 19:54:16.070 | ato_aircraft_details     | vu=25846 aircraft=2 details=2
+2026-09-25 19:54:16.082 | ato_aircraft_details     | vu=25470 aircraft=2 details=2
+2026-09-25 19:54:16.094 | ato_aircraft_details     | vu=25483 aircraft=2 details=2
+2026-09-25 19:54:16.105 | ato_aircraft_details     | vu=25484 aircraft=2 details=2
+2026-09-25 19:54:16.117 | ato_aircraft_details     | vu=20428 aircraft=2 details=2
+2026-09-25 19:54:16.124 | ato_target               | resolved id=20431 target=Attack
+2026-09-25 19:54:16.124 | ato_aircraft_details     | vu=20432 aircraft=2 details=2
+2026-09-25 19:54:16.124 | ato_target               | resolved id=20431 target=Attack
+2026-09-25 19:54:16.130 | ato_aircraft_details     | vu=25543 aircraft=2 details=2
+2026-09-25 19:54:16.137 | ato_target               | resolved id=20437 target=Fighter
+2026-09-25 19:54:16.143 | ato_aircraft_details     | vu=20438 aircraft=2 details=2
+2026-09-25 19:54:16.143 | ato_target               | resolved id=20437 target=Fighter
+2026-09-25 19:54:16.149 | ato_aircraft_details     | vu=25884 aircraft=2 details=2
+2026-09-25 19:54:16.161 | ato_aircraft_details     | vu=25545 aircraft=2 details=2
+2026-09-25 19:54:16.174 | ato_aircraft_details     | vu=25553 aircraft=2 details=2
+2026-09-25 19:54:16.180 | ato_target               | resolved id=25568 target=Fighter
+2026-09-25 19:54:16.180 | ato_aircraft_details     | vu=25569 aircraft=2 details=2
+2026-09-25 19:54:16.181 | ato_target               | resolved id=25568 target=Fighter
+2026-09-25 19:54:16.181 | ato_target               | resolved id=23862 target=Tanker
+2026-09-25 19:54:16.181 | ato_aircraft_details     | vu=23864 aircraft=2 details=2
+2026-09-25 19:54:16.181 | ato_target               | resolved id=23862 target=Tanker
+2026-09-25 19:54:16.181 | ato_aircraft_details     | vu=23865 aircraft=2 details=2
+2026-09-25 19:54:16.182 | ato_target               | resolved id=23862 target=Tanker
+2026-09-25 19:54:16.187 | ato_aircraft_details     | vu=25591 aircraft=2 details=2
+2026-09-25 19:54:16.199 | ato_aircraft_details     | vu=25628 aircraft=2 details=2
+2026-09-25 19:54:16.210 | ato_aircraft_details     | vu=25631 aircraft=2 details=2
+2026-09-25 19:54:16.216 | ato_target               | resolved id=25634 target=Fighter
+2026-09-25 19:54:16.216 | ato_aircraft_details     | vu=25635 aircraft=2 details=2
+2026-09-25 19:54:16.216 | ato_target               | resolved id=25634 target=Fighter
+2026-09-25 19:54:16.222 | ato_aircraft_details     | vu=25636 aircraft=2 details=2
+2026-09-25 19:54:16.229 | ato_target               | resolved id=20521 target=Fighter
+2026-09-25 19:54:16.229 | ato_aircraft_details     | vu=20522 aircraft=2 details=2
+2026-09-25 19:54:16.229 | ato_target               | resolved id=20521 target=Fighter
+2026-09-25 19:54:16.229 | ato_target               | resolved id=20529 target=AWACS
+2026-09-25 19:54:16.229 | ato_aircraft_details     | vu=20531 aircraft=2 details=2
+2026-09-25 19:54:16.229 | ato_target               | resolved id=20529 target=AWACS
+2026-09-25 19:54:16.230 | ato_aircraft_details     | vu=20532 aircraft=2 details=2
+2026-09-25 19:54:16.230 | ato_target               | resolved id=20529 target=AWACS
+2026-09-25 19:54:16.230 | ato_target               | resolved id=24133 target=AWACS
+2026-09-25 19:54:16.230 | ato_aircraft_details     | vu=24135 aircraft=2 details=2
+2026-09-25 19:54:16.230 | ato_target               | resolved id=24133 target=AWACS
+2026-09-25 19:54:16.230 | ato_aircraft_details     | vu=24136 aircraft=2 details=2
+2026-09-25 19:54:16.230 | ato_target               | resolved id=24133 target=AWACS
+2026-09-25 19:54:16.236 | ato_aircraft_details     | vu=20596 aircraft=2 details=2
+2026-09-25 19:54:16.248 | ato_aircraft_details     | vu=20608 aircraft=2 details=2
+2026-09-25 19:54:16.259 | ato_aircraft_details     | vu=20613 aircraft=2 details=2
+2026-09-25 19:54:16.265 | ato_target               | resolved id=20692 target=Fighter
+2026-09-25 19:54:16.265 | ato_aircraft_details     | vu=20693 aircraft=2 details=2
+2026-09-25 19:54:16.265 | ato_target               | resolved id=20692 target=Fighter
+2026-09-25 19:54:16.265 | ato_target               | resolved id=20700 target=Fighter
+2026-09-25 19:54:16.265 | ato_aircraft_details     | vu=20701 aircraft=2 details=2
+2026-09-25 19:54:16.266 | ato_target               | resolved id=20700 target=Fighter
+2026-09-25 19:54:16.266 | ato_target               | resolved id=20797 target=SIGINT
+2026-09-25 19:54:16.266 | ato_aircraft_details     | vu=20798 aircraft=2 details=2
+2026-09-25 19:54:16.266 | ato_target               | resolved id=20797 target=SIGINT
+2026-09-25 19:54:16.266 | ato_target               | resolved id=25178 target=Fighter
+2026-09-25 19:54:16.266 | ato_aircraft_details     | vu=25179 aircraft=2 details=2
+2026-09-25 19:54:16.267 | ato_target               | resolved id=25178 target=Fighter
+2026-09-25 19:54:16.272 | ato_aircraft_details     | vu=25221 aircraft=2 details=2
+2026-09-25 19:54:16.284 | ato_aircraft_details     | vu=25224 aircraft=2 details=2
+2026-09-25 19:54:16.290 | ato_target               | resolved id=8012 target=Air Defense
+2026-09-25 19:54:16.290 | ato_aircraft_details     | vu=20172 aircraft=2 details=2
+2026-09-25 19:54:16.291 | ato_target               | resolved id=8012 target=Air Defense
+2026-09-25 19:54:16.291 | ato_aircraft_details     | vu=20171 aircraft=2 details=2
+2026-09-25 19:54:16.291 | ato_target               | resolved id=8012 target=Air Defense
+2026-09-25 19:54:16.291 | ato_target               | resolved id=8032 target=AAA
+2026-09-25 19:54:16.291 | ato_aircraft_details     | vu=20198 aircraft=2 details=2
+2026-09-25 19:54:16.292 | ato_target               | resolved id=8032 target=AAA
+2026-09-25 19:54:16.292 | ato_aircraft_details     | vu=20197 aircraft=2 details=2
+2026-09-25 19:54:16.292 | ato_target               | resolved id=8032 target=AAA
+2026-09-25 19:54:16.292 | ato_target               | resolved id=8045 target=AAA
+2026-09-25 19:54:16.293 | ato_aircraft_details     | vu=25441 aircraft=2 details=2
+2026-09-25 19:54:16.293 | ato_target               | resolved id=8045 target=AAA
+2026-09-25 19:54:16.293 | ato_target               | resolved id=8045 target=AAA
+2026-09-25 19:54:16.293 | ato_aircraft_details     | vu=20357 aircraft=2 details=2
+2026-09-25 19:54:16.293 | ato_target               | resolved id=8045 target=AAA
+2026-09-25 19:54:16.294 | ato_aircraft_details     | vu=20358 aircraft=2 details=2
+2026-09-25 19:54:16.294 | ato_target               | resolved id=8045 target=AAA
+2026-09-25 19:54:16.294 | ato_target               | resolved id=8028 target=AAA
+2026-09-25 19:54:16.294 | ato_aircraft_details     | vu=20359 aircraft=2 details=2
+2026-09-25 19:54:16.294 | ato_target               | resolved id=8028 target=AAA
+2026-09-25 19:54:16.295 | ato_target               | resolved id=8053 target=AAA
+2026-09-25 19:54:16.295 | ato_aircraft_details     | vu=20362 aircraft=2 details=2
+2026-09-25 19:54:16.295 | ato_target               | resolved id=8053 target=AAA
+2026-09-25 19:54:16.295 | ato_aircraft_details     | vu=20361 aircraft=2 details=2
+2026-09-25 19:54:16.295 | ato_target               | resolved id=8053 target=AAA
+2026-09-25 19:54:16.296 | ato_target               | resolved id=8052 target=AAA
+2026-09-25 19:54:16.296 | ato_aircraft_details     | vu=20527 aircraft=2 details=2
+2026-09-25 19:54:16.296 | ato_target               | resolved id=8052 target=AAA
+2026-09-25 19:54:16.296 | ato_aircraft_details     | vu=20528 aircraft=2 details=2
+2026-09-25 19:54:16.297 | ato_target               | resolved id=8052 target=AAA
+2026-09-25 19:54:16.297 | ato_target               | resolved id=8164 target=SHORAD
+2026-09-25 19:54:16.297 | ato_aircraft_details     | vu=20629 aircraft=2 details=2
+2026-09-25 19:54:16.297 | ato_target               | resolved id=8164 target=SHORAD
+2026-09-25 19:54:16.297 | ato_aircraft_details     | vu=20628 aircraft=2 details=2
+2026-09-25 19:54:16.298 | ato_target               | resolved id=8164 target=SHORAD
+2026-09-25 19:54:16.298 | ato_target               | resolved id=8045 target=AAA
+2026-09-25 19:54:16.298 | ato_aircraft_details     | vu=20726 aircraft=2 details=2
+2026-09-25 19:54:16.298 | ato_target               | resolved id=8045 target=AAA
+2026-09-25 19:54:16.298 | ato_aircraft_details     | vu=25002 aircraft=2 details=2
+2026-09-25 19:54:16.299 | ato_target               | resolved id=8013 target=Air Defense
+2026-09-25 19:54:16.299 | ato_aircraft_details     | vu=25001 aircraft=2 details=2
+2026-09-25 19:54:16.299 | ato_target               | resolved id=8013 target=Air Defense
+2026-09-25 19:54:16.299 | ato_aircraft_details     | vu=25000 aircraft=2 details=2
+2026-09-25 19:54:16.300 | ato_target               | resolved id=8013 target=Air Defense
+2026-09-25 19:54:16.300 | ato_aircraft_details     | vu=25896 aircraft=2 details=2
+2026-09-25 19:54:16.300 | ato_aircraft_details     | vu=25899 aircraft=2 details=2
+2026-09-25 19:54:16.301 | ato_aircraft_details     | vu=25819 aircraft=2 details=2
+2026-09-25 19:54:16.301 | ato_target               | resolved id=8344 target=Motor Rifle
+2026-09-25 19:54:16.301 | ato_aircraft_details     | vu=20216 aircraft=2 details=2
+2026-09-25 19:54:16.302 | ato_target               | resolved id=8344 target=Motor Rifle
+2026-09-25 19:54:16.302 | ato_aircraft_details     | vu=25676 aircraft=2 details=2
+2026-09-25 19:54:16.302 | ato_aircraft_details     | vu=20232 aircraft=2 details=2
+2026-09-25 19:54:16.303 | ato_target               | resolved id=8344 target=Motor Rifle
+2026-09-25 19:54:16.303 | ato_aircraft_details     | vu=20234 aircraft=2 details=2
+2026-09-25 19:54:16.303 | ato_target               | resolved id=8344 target=Motor Rifle
+2026-09-25 19:54:16.303 | ato_target               | resolved id=8111 target=HQ
+2026-09-25 19:54:16.303 | ato_aircraft_details     | vu=20247 aircraft=2 details=2
+2026-09-25 19:54:16.303 | ato_target               | resolved id=8111 target=HQ
+2026-09-25 19:54:16.304 | ato_target               | resolved id=8344 target=Motor Rifle
+2026-09-25 19:54:16.304 | ato_aircraft_details     | vu=20257 aircraft=2 details=2
+2026-09-25 19:54:16.304 | ato_target               | resolved id=8344 target=Motor Rifle
+2026-09-25 19:54:16.304 | ato_aircraft_details     | vu=20263 aircraft=2 details=2
+2026-09-25 19:54:16.305 | ato_target               | resolved id=8255 target=Tank
+2026-09-25 19:54:16.305 | ato_aircraft_details     | vu=25690 aircraft=2 details=2
+2026-09-25 19:54:16.305 | ato_target               | resolved id=8255 target=Tank
+2026-09-25 19:54:16.305 | ato_aircraft_details     | vu=25725 aircraft=2 details=2
+2026-09-25 19:54:16.306 | ato_target               | resolved id=8254 target=Tank
+2026-09-25 19:54:16.306 | ato_aircraft_details     | vu=25413 aircraft=2 details=2
+2026-09-25 19:54:16.306 | ato_target               | resolved id=8254 target=Tank
+2026-09-25 19:54:16.306 | ato_target               | resolved id=8531 target=Infantry
+2026-09-25 19:54:16.306 | ato_aircraft_details     | vu=25415 aircraft=2 details=2
+2026-09-25 19:54:16.307 | ato_target               | resolved id=8531 target=Infantry
+2026-09-25 19:54:16.307 | ato_aircraft_details     | vu=25730 aircraft=2 details=2
+2026-09-25 19:54:16.307 | ato_target               | resolved id=8111 target=HQ
+2026-09-25 19:54:16.307 | ato_aircraft_details     | vu=20338 aircraft=2 details=2
+2026-09-25 19:54:16.307 | ato_target               | resolved id=8111 target=HQ
+2026-09-25 19:54:16.308 | ato_target               | resolved id=8289 target=Tank
+2026-09-25 19:54:16.308 | ato_aircraft_details     | vu=20344 aircraft=2 details=2
+2026-09-25 19:54:16.308 | ato_target               | resolved id=8289 target=Tank
+2026-09-25 19:54:16.308 | ato_aircraft_details     | vu=20419 aircraft=2 details=2
+2026-09-25 19:54:16.309 | ato_aircraft_details     | vu=20424 aircraft=2 details=2
+2026-09-25 19:54:16.309 | ato_target               | resolved id=8516 target=Motor Rifle
+2026-09-25 19:54:16.309 | ato_aircraft_details     | vu=25527 aircraft=2 details=2
+2026-09-25 19:54:16.309 | ato_target               | resolved id=8516 target=Motor Rifle
+2026-09-25 19:54:16.309 | ato_aircraft_details     | vu=25529 aircraft=2 details=2
+2026-09-25 19:54:16.310 | ato_aircraft_details     | vu=20437 aircraft=2 details=2
+2026-09-25 19:54:16.310 | ato_target               | resolved id=8289 target=Tank
+2026-09-25 19:54:16.310 | ato_aircraft_details     | vu=25892 aircraft=2 details=2
+2026-09-25 19:54:16.311 | ato_target               | resolved id=8289 target=Tank
+2026-09-25 19:54:16.311 | ato_aircraft_details     | vu=25565 aircraft=2 details=2
+2026-09-25 19:54:16.311 | ato_target               | resolved id=8184 target=Motor Rifle
+2026-09-25 19:54:16.311 | ato_aircraft_details     | vu=25568 aircraft=2 details=2
+2026-09-25 19:54:16.311 | ato_target               | resolved id=8184 target=Motor Rifle
+2026-09-25 19:54:16.312 | ato_aircraft_details     | vu=25619 aircraft=2 details=2
+2026-09-25 19:54:16.312 | ato_aircraft_details     | vu=20516 aircraft=2 details=2
+2026-09-25 19:54:16.312 | ato_target               | resolved id=8032 target=AAA
+2026-09-25 19:54:16.312 | ato_aircraft_details     | vu=25634 aircraft=2 details=2
+2026-09-25 19:54:16.313 | ato_target               | resolved id=8032 target=AAA
+2026-09-25 19:54:16.313 | ato_aircraft_details     | vu=20518 aircraft=2 details=2
+2026-09-25 19:54:16.313 | ato_aircraft_details     | vu=20521 aircraft=2 details=2
+2026-09-25 19:54:16.314 | ato_aircraft_details     | vu=20525 aircraft=2 details=2
+2026-09-25 19:54:16.314 | ato_target               | resolved id=8300 target=Infantry
+2026-09-25 19:54:16.314 | ato_aircraft_details     | vu=20692 aircraft=2 details=2
+2026-09-25 19:54:16.315 | ato_target               | resolved id=8300 target=Infantry
+2026-09-25 19:54:16.315 | ato_aircraft_details     | vu=20699 aircraft=2 details=2
+2026-09-25 19:54:16.315 | ato_target               | resolved id=8256 target=Motor Rifle
+2026-09-25 19:54:16.315 | ato_aircraft_details     | vu=20700 aircraft=2 details=2
+2026-09-25 19:54:16.315 | ato_target               | resolved id=8256 target=Motor Rifle
+2026-09-25 19:54:16.315 | ato_aircraft_details     | vu=20703 aircraft=2 details=2
+2026-09-25 19:54:16.316 | ato_aircraft_details     | vu=20776 aircraft=2 details=2
+2026-09-25 19:54:16.316 | ato_target               | resolved id=8537 target=Motor Rifle
+2026-09-25 19:54:16.316 | ato_aircraft_details     | vu=20790 aircraft=2 details=2
+2026-09-25 19:54:16.317 | ato_target               | resolved id=8537 target=Motor Rifle
+2026-09-25 19:54:16.317 | ato_target               | resolved id=8344 target=Motor Rifle
+2026-09-25 19:54:16.317 | ato_aircraft_details     | vu=25136 aircraft=2 details=2
+2026-09-25 19:54:16.317 | ato_target               | resolved id=8344 target=Motor Rifle
+2026-09-25 19:54:16.317 | ato_aircraft_details     | vu=25153 aircraft=2 details=2
+2026-09-25 19:54:16.318 | ato_target               | resolved id=8517 target=Motor Rifle
+2026-09-25 19:54:16.318 | ato_aircraft_details     | vu=25178 aircraft=2 details=2
+2026-09-25 19:54:16.318 | ato_target               | resolved id=8517 target=Motor Rifle
+2026-09-25 19:54:16.318 | ato_aircraft_details     | vu=24322 aircraft=1 details=1
+2026-09-25 19:54:16.319 | ato_aircraft_details     | vu=20529 aircraft=1 details=1
+2026-09-25 19:54:16.319 | ato_aircraft_details     | vu=24133 aircraft=1 details=1
+2026-09-25 19:54:16.319 | ato_aircraft_details     | vu=24460 aircraft=1 details=1
+2026-09-25 19:54:16.320 | ato_aircraft_details     | vu=20797 aircraft=1 details=1
+2026-09-25 19:54:16.320 | ato_aircraft_details     | vu=20270 aircraft=1 details=1
+2026-09-25 19:54:16.321 | ato_aircraft_details     | vu=20276 aircraft=1 details=1
+2026-09-25 19:54:16.321 | ato_aircraft_details     | vu=25704 aircraft=1 details=1
+2026-09-25 19:54:16.321 | ato_aircraft_details     | vu=25443 aircraft=1 details=1
+2026-09-25 19:54:16.322 | ato_aircraft_details     | vu=25444 aircraft=1 details=1
+2026-09-25 19:54:16.322 | ato_aircraft_details     | vu=25445 aircraft=1 details=1
+2026-09-25 19:54:16.322 | ato_aircraft_details     | vu=25448 aircraft=1 details=1
+2026-09-25 19:54:16.323 | ato_aircraft_details     | vu=25485 aircraft=1 details=1
+2026-09-25 19:54:16.323 | ato_aircraft_details     | vu=25873 aircraft=1 details=1
+2026-09-25 19:54:16.324 | ato_aircraft_details     | vu=25743 aircraft=1 details=1
+2026-09-25 19:54:16.324 | ato_aircraft_details     | vu=25745 aircraft=1 details=1
+2026-09-25 19:54:16.324 | ato_aircraft_details     | vu=25746 aircraft=1 details=1
+2026-09-25 19:54:16.325 | ato_aircraft_details     | vu=25547 aircraft=1 details=1
+2026-09-25 19:54:16.325 | ato_aircraft_details     | vu=23830 aircraft=1 details=1
+2026-09-25 19:54:16.325 | ato_aircraft_details     | vu=23862 aircraft=1 details=1
+2026-09-25 19:54:16.326 | ato_aircraft_details     | vu=25750 aircraft=1 details=1
+2026-09-25 19:54:16.326 | ato_target               | resolved id=24820 target=Fighter
+2026-09-25 19:54:16.326 | ato_aircraft_details     | vu=24821 aircraft=2 details=2
+2026-09-25 19:54:16.327 | ato_target               | resolved id=8292 target=Tank
+2026-09-25 19:54:16.327 | ato_aircraft_details     | vu=24820 aircraft=2 details=2
+2026-09-25 19:54:16.327 | ato_target               | resolved id=8292 target=Tank
+2026-09-25 19:54:16.333 | ato_aircraft_details     | vu=20170 aircraft=4 details=4
+2026-09-25 19:54:16.344 | ato_aircraft_details     | vu=20199 aircraft=4 details=4
+2026-09-25 19:54:16.357 | ato_aircraft_details     | vu=20200 aircraft=4 details=4
+2026-09-25 19:55:09.993 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:55:10.008 | fuel_plan                | avail=12194 atTurn=9546 bingo=3400 joker=3900 rtb=809 margin=6146 GO
+2026-09-25 19:55:10.008 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:55:10.128 | ato_departure            | resolved=1/1
+2026-09-25 19:55:16.758 | ato_departure            | resolved=226/321
+2026-09-25 19:55:16.778 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:55:16.785 | ato_aircraft_details     | vu=25234 aircraft=2 details=2
+2026-09-25 19:55:16.797 | ato_aircraft_details     | vu=25912 aircraft=2 details=2
+2026-09-25 19:55:16.803 | ato_aircraft_details     | vu=25903 aircraft=2 details=2
+2026-09-25 19:55:16.803 | ato_target               | resolved id=20263 target=Fighter
+2026-09-25 19:55:16.803 | ato_aircraft_details     | vu=20264 aircraft=2 details=2
+2026-09-25 19:55:16.804 | ato_target               | resolved id=20263 target=Fighter
+2026-09-25 19:55:16.809 | ato_aircraft_details     | vu=25845 aircraft=2 details=2
+2026-09-25 19:55:16.815 | ato_target               | resolved id=20338 target=Fighter
+2026-09-25 19:55:16.815 | ato_aircraft_details     | vu=20339 aircraft=2 details=2
+2026-09-25 19:55:16.816 | ato_target               | resolved id=20338 target=Fighter
+2026-09-25 19:55:16.821 | ato_aircraft_details     | vu=25471 aircraft=2 details=2
+2026-09-25 19:55:16.832 | ato_aircraft_details     | vu=25872 aircraft=2 details=2
+2026-09-25 19:55:16.844 | ato_aircraft_details     | vu=25542 aircraft=2 details=2
+2026-09-25 19:55:16.850 | ato_target               | resolved id=23830 target=Tanker
+2026-09-25 19:55:16.850 | ato_aircraft_details     | vu=23832 aircraft=2 details=2
+2026-09-25 19:55:16.851 | ato_target               | resolved id=23830 target=Tanker
+2026-09-25 19:55:16.856 | ato_aircraft_details     | vu=25592 aircraft=2 details=2
+2026-09-25 19:55:16.862 | ato_target               | resolved id=24460 target=SIGINT
+2026-09-25 19:55:16.862 | ato_aircraft_details     | vu=24462 aircraft=2 details=2
+2026-09-25 19:55:16.863 | ato_target               | resolved id=24460 target=SIGINT
+2026-09-25 19:55:16.863 | ato_aircraft_details     | vu=24463 aircraft=2 details=2
+2026-09-25 19:55:16.863 | ato_target               | resolved id=24460 target=SIGINT
+2026-09-25 19:55:16.863 | ato_target               | resolved id=20790 target=Fighter
+2026-09-25 19:55:16.863 | ato_aircraft_details     | vu=20791 aircraft=2 details=2
+2026-09-25 19:55:16.864 | ato_target               | resolved id=20790 target=Fighter
+2026-09-25 19:55:16.864 | ato_target               | resolved id=20797 target=SIGINT
+2026-09-25 19:55:16.864 | ato_aircraft_details     | vu=20799 aircraft=2 details=2
+2026-09-25 19:55:16.864 | ato_target               | resolved id=20797 target=SIGINT
+2026-09-25 19:55:16.864 | ato_target               | resolved id=25136 target=Fighter
+2026-09-25 19:55:16.864 | ato_aircraft_details     | vu=25137 aircraft=2 details=2
+2026-09-25 19:55:16.864 | ato_target               | resolved id=25136 target=Fighter
+2026-09-25 19:55:16.870 | ato_aircraft_details     | vu=25228 aircraft=2 details=2
+2026-09-25 19:55:16.876 | ato_target               | resolved id=987 target=Camp Carroll
+2026-09-25 19:55:16.877 | ato_aircraft_details     | vu=20006 aircraft=2 details=2
+2026-09-25 19:55:16.877 | ato_target               | resolved id=987 target=Camp Carroll
+2026-09-25 19:55:16.877 | ato_aircraft_details     | vu=25668 aircraft=2 details=2
+2026-09-25 19:55:16.878 | ato_aircraft_details     | vu=20233 aircraft=2 details=2
+2026-09-25 19:55:16.878 | ato_aircraft_details     | vu=20245 aircraft=2 details=2
+2026-09-25 19:55:16.879 | ato_aircraft_details     | vu=25692 aircraft=2 details=2
+2026-09-25 19:55:16.879 | ato_aircraft_details     | vu=25406 aircraft=2 details=2
+2026-09-25 19:55:16.880 | ato_aircraft_details     | vu=25727 aircraft=2 details=2
+2026-09-25 19:55:16.880 | ato_aircraft_details     | vu=25729 aircraft=2 details=2
+2026-09-25 19:55:16.881 | ato_aircraft_details     | vu=25741 aircraft=2 details=2
+2026-09-25 19:55:16.881 | ato_target               | resolved id=8240 target=Motor Rifle
+2026-09-25 19:55:16.881 | ato_aircraft_details     | vu=20431 aircraft=2 details=2
+2026-09-25 19:55:16.881 | ato_target               | resolved id=8240 target=Motor Rifle
+2026-09-25 19:55:16.882 | ato_aircraft_details     | vu=20434 aircraft=2 details=2
+2026-09-25 19:55:16.882 | ato_aircraft_details     | vu=25528 aircraft=2 details=2
+2026-09-25 19:55:16.882 | ato_aircraft_details     | vu=25561 aircraft=2 details=2
+2026-09-25 19:55:16.883 | ato_aircraft_details     | vu=25624 aircraft=2 details=2
+2026-09-25 19:55:16.883 | ato_aircraft_details     | vu=25794 aircraft=2 details=2
+2026-09-25 19:55:16.884 | ato_aircraft_details     | vu=20523 aircraft=2 details=2
+2026-09-25 19:55:16.884 | ato_aircraft_details     | vu=20616 aircraft=2 details=2
+2026-09-25 19:55:16.885 | ato_aircraft_details     | vu=20702 aircraft=2 details=2
+2026-09-25 19:55:16.885 | ato_aircraft_details     | vu=25446 aircraft=1 details=1
+2026-09-25 19:55:16.886 | ato_aircraft_details     | vu=25447 aircraft=1 details=1
+2026-09-25 19:55:16.886 | ato_aircraft_details     | vu=25449 aircraft=1 details=1
+2026-09-25 19:55:16.886 | ato_aircraft_details     | vu=25747 aircraft=1 details=1
+2026-09-25 19:55:16.886 | ato_aircraft_details     | vu=25748 aircraft=1 details=1
+2026-09-25 19:55:16.887 | ato_aircraft_details     | vu=25749 aircraft=1 details=1
+2026-09-25 19:55:16.887 | ato_aircraft_details     | vu=25593 aircraft=1 details=1
+2026-09-25 19:55:16.887 | ato_aircraft_details     | vu=20649 aircraft=1 details=1
+2026-09-25 19:55:16.888 | ato_aircraft_details     | vu=20651 aircraft=1 details=1
+2026-09-25 19:55:16.888 | ato_aircraft_details     | vu=20674 aircraft=1 details=1
+2026-09-25 19:55:16.888 | ato_aircraft_details     | vu=20738 aircraft=1 details=1
+2026-09-25 19:55:16.888 | ato_aircraft_details     | vu=20739 aircraft=1 details=1
+2026-09-25 19:55:16.889 | ato_aircraft_details     | vu=25124 aircraft=2 details=2
+2026-09-25 19:55:16.889 | ato_aircraft_details     | vu=25125 aircraft=2 details=2
+2026-09-25 19:55:16.895 | ato_aircraft_details     | vu=25640 aircraft=2 details=2
+2026-09-25 19:55:16.907 | ato_aircraft_details     | vu=20184 aircraft=2 details=2
+2026-09-25 19:55:16.919 | ato_aircraft_details     | vu=20185 aircraft=2 details=2
+2026-09-25 19:55:16.930 | ato_aircraft_details     | vu=25826 aircraft=2 details=2
+2026-09-25 19:55:16.942 | ato_aircraft_details     | vu=25828 aircraft=2 details=2
+2026-09-25 19:55:16.953 | ato_aircraft_details     | vu=25672 aircraft=2 details=2
+2026-09-25 19:55:16.965 | ato_aircraft_details     | vu=25673 aircraft=2 details=2
+2026-09-25 19:55:16.976 | ato_aircraft_details     | vu=25348 aircraft=2 details=2
+2026-09-25 19:55:16.988 | ato_aircraft_details     | vu=25674 aircraft=2 details=2
+2026-09-25 19:55:17.000 | ato_aircraft_details     | vu=25365 aircraft=2 details=2
+2026-09-25 19:55:17.011 | ato_aircraft_details     | vu=20207 aircraft=2 details=2
+2026-09-25 19:55:17.023 | ato_aircraft_details     | vu=20218 aircraft=2 details=2
+2026-09-25 19:55:17.034 | ato_aircraft_details     | vu=20219 aircraft=2 details=2
+2026-09-25 19:55:17.046 | ato_aircraft_details     | vu=20221 aircraft=2 details=2
+2026-09-25 19:55:17.057 | ato_aircraft_details     | vu=25381 aircraft=2 details=2
+2026-09-25 19:55:17.069 | ato_aircraft_details     | vu=25678 aircraft=2 details=2
+2026-09-25 19:55:17.075 | ato_target               | resolved id=20270 target=Tanker
+2026-09-25 19:55:17.075 | ato_aircraft_details     | vu=20271 aircraft=2 details=2
+2026-09-25 19:55:17.076 | ato_target               | resolved id=20270 target=Tanker
+2026-09-25 19:55:17.076 | ato_target               | resolved id=20276 target=Tanker
+2026-09-25 19:55:17.076 | ato_aircraft_details     | vu=20277 aircraft=2 details=2
+2026-09-25 19:55:17.076 | ato_target               | resolved id=20276 target=Tanker
+2026-09-25 19:55:17.082 | ato_aircraft_details     | vu=25383 aircraft=2 details=2
+2026-09-25 19:55:17.094 | ato_aircraft_details     | vu=25384 aircraft=2 details=2
+2026-09-25 19:55:17.105 | ato_aircraft_details     | vu=25388 aircraft=2 details=2
+2026-09-25 19:55:17.117 | ato_aircraft_details     | vu=25844 aircraft=2 details=2
+2026-09-25 19:55:17.123 | ato_target               | resolved id=25690 target=Fighter
+2026-09-25 19:55:17.123 | ato_aircraft_details     | vu=25691 aircraft=2 details=2
+2026-09-25 19:55:17.123 | ato_target               | resolved id=25690 target=Fighter
+2026-09-25 19:55:17.129 | ato_aircraft_details     | vu=20303 aircraft=2 details=2
+2026-09-25 19:55:17.135 | ato_target               | resolved id=25413 target=Fighter
+2026-09-25 19:55:17.135 | ato_aircraft_details     | vu=25414 aircraft=2 details=2
+2026-09-25 19:55:17.136 | ato_target               | resolved id=25413 target=Fighter
+2026-09-25 19:55:17.136 | ato_target               | resolved id=25415 target=Fighter
+2026-09-25 19:55:17.136 | ato_aircraft_details     | vu=25416 aircraft=2 details=2
+2026-09-25 19:55:17.136 | ato_target               | resolved id=25415 target=Fighter
+2026-09-25 19:55:17.142 | ato_aircraft_details     | vu=25846 aircraft=2 details=2
+2026-09-25 19:55:17.154 | ato_aircraft_details     | vu=25470 aircraft=2 details=2
+2026-09-25 19:55:17.165 | ato_aircraft_details     | vu=25483 aircraft=2 details=2
+2026-09-25 19:55:17.177 | ato_aircraft_details     | vu=25484 aircraft=2 details=2
+2026-09-25 19:55:17.188 | ato_aircraft_details     | vu=20428 aircraft=2 details=2
+2026-09-25 19:55:17.195 | ato_target               | resolved id=20431 target=Attack
+2026-09-25 19:55:17.195 | ato_aircraft_details     | vu=20432 aircraft=2 details=2
+2026-09-25 19:55:17.195 | ato_target               | resolved id=20431 target=Attack
+2026-09-25 19:55:17.201 | ato_aircraft_details     | vu=25543 aircraft=2 details=2
+2026-09-25 19:55:17.207 | ato_target               | resolved id=20437 target=Fighter
+2026-09-25 19:55:17.207 | ato_aircraft_details     | vu=20438 aircraft=2 details=2
+2026-09-25 19:55:17.207 | ato_target               | resolved id=20437 target=Fighter
+2026-09-25 19:55:17.213 | ato_aircraft_details     | vu=25884 aircraft=2 details=2
+2026-09-25 19:55:17.224 | ato_aircraft_details     | vu=25545 aircraft=2 details=2
+2026-09-25 19:55:17.236 | ato_aircraft_details     | vu=25553 aircraft=2 details=2
+2026-09-25 19:55:17.242 | ato_target               | resolved id=25568 target=Fighter
+2026-09-25 19:55:17.242 | ato_aircraft_details     | vu=25569 aircraft=2 details=2
+2026-09-25 19:55:17.243 | ato_target               | resolved id=25568 target=Fighter
+2026-09-25 19:55:17.243 | ato_target               | resolved id=23862 target=Tanker
+2026-09-25 19:55:17.243 | ato_aircraft_details     | vu=23864 aircraft=2 details=2
+2026-09-25 19:55:17.243 | ato_target               | resolved id=23862 target=Tanker
+2026-09-25 19:55:17.243 | ato_aircraft_details     | vu=23865 aircraft=2 details=2
+2026-09-25 19:55:17.243 | ato_target               | resolved id=23862 target=Tanker
+2026-09-25 19:55:17.249 | ato_aircraft_details     | vu=25591 aircraft=2 details=2
+2026-09-25 19:55:17.261 | ato_aircraft_details     | vu=25628 aircraft=2 details=2
+2026-09-25 19:55:17.273 | ato_aircraft_details     | vu=25631 aircraft=2 details=2
+2026-09-25 19:55:17.279 | ato_target               | resolved id=25634 target=Fighter
+2026-09-25 19:55:17.279 | ato_aircraft_details     | vu=25635 aircraft=2 details=2
+2026-09-25 19:55:17.279 | ato_target               | resolved id=25634 target=Fighter
+2026-09-25 19:55:17.285 | ato_aircraft_details     | vu=25636 aircraft=2 details=2
+2026-09-25 19:55:17.291 | ato_target               | resolved id=20521 target=Fighter
+2026-09-25 19:55:17.291 | ato_aircraft_details     | vu=20522 aircraft=2 details=2
+2026-09-25 19:55:17.292 | ato_target               | resolved id=20521 target=Fighter
+2026-09-25 19:55:17.292 | ato_target               | resolved id=20529 target=AWACS
+2026-09-25 19:55:17.292 | ato_aircraft_details     | vu=20531 aircraft=2 details=2
+2026-09-25 19:55:17.292 | ato_target               | resolved id=20529 target=AWACS
+2026-09-25 19:55:17.292 | ato_aircraft_details     | vu=20532 aircraft=2 details=2
+2026-09-25 19:55:17.292 | ato_target               | resolved id=20529 target=AWACS
+2026-09-25 19:55:17.292 | ato_target               | resolved id=24133 target=AWACS
+2026-09-25 19:55:17.292 | ato_aircraft_details     | vu=24135 aircraft=2 details=2
+2026-09-25 19:55:17.293 | ato_target               | resolved id=24133 target=AWACS
+2026-09-25 19:55:17.293 | ato_aircraft_details     | vu=24136 aircraft=2 details=2
+2026-09-25 19:55:17.293 | ato_target               | resolved id=24133 target=AWACS
+2026-09-25 19:55:17.299 | ato_aircraft_details     | vu=20596 aircraft=2 details=2
+2026-09-25 19:55:17.310 | ato_aircraft_details     | vu=20608 aircraft=2 details=2
+2026-09-25 19:55:17.322 | ato_aircraft_details     | vu=20613 aircraft=2 details=2
+2026-09-25 19:55:17.328 | ato_target               | resolved id=20692 target=Fighter
+2026-09-25 19:55:17.328 | ato_aircraft_details     | vu=20693 aircraft=2 details=2
+2026-09-25 19:55:17.328 | ato_target               | resolved id=20692 target=Fighter
+2026-09-25 19:55:17.328 | ato_target               | resolved id=20700 target=Fighter
+2026-09-25 19:55:17.328 | ato_aircraft_details     | vu=20701 aircraft=2 details=2
+2026-09-25 19:55:17.329 | ato_target               | resolved id=20700 target=Fighter
+2026-09-25 19:55:17.329 | ato_target               | resolved id=20797 target=SIGINT
+2026-09-25 19:55:17.329 | ato_aircraft_details     | vu=20798 aircraft=2 details=2
+2026-09-25 19:55:17.329 | ato_target               | resolved id=20797 target=SIGINT
+2026-09-25 19:55:17.329 | ato_target               | resolved id=25178 target=Fighter
+2026-09-25 19:55:17.329 | ato_aircraft_details     | vu=25179 aircraft=2 details=2
+2026-09-25 19:55:17.329 | ato_target               | resolved id=25178 target=Fighter
+2026-09-25 19:55:17.335 | ato_aircraft_details     | vu=25221 aircraft=2 details=2
+2026-09-25 19:55:17.347 | ato_aircraft_details     | vu=25224 aircraft=2 details=2
+2026-09-25 19:55:17.353 | ato_target               | resolved id=8012 target=Air Defense
+2026-09-25 19:55:17.353 | ato_aircraft_details     | vu=20172 aircraft=2 details=2
+2026-09-25 19:55:17.353 | ato_target               | resolved id=8012 target=Air Defense
+2026-09-25 19:55:17.353 | ato_aircraft_details     | vu=20171 aircraft=2 details=2
+2026-09-25 19:55:17.354 | ato_target               | resolved id=8012 target=Air Defense
+2026-09-25 19:55:17.354 | ato_target               | resolved id=8032 target=AAA
+2026-09-25 19:55:17.354 | ato_aircraft_details     | vu=20198 aircraft=2 details=2
+2026-09-25 19:55:17.354 | ato_target               | resolved id=8032 target=AAA
+2026-09-25 19:55:17.354 | ato_aircraft_details     | vu=20197 aircraft=2 details=2
+2026-09-25 19:55:17.355 | ato_target               | resolved id=8032 target=AAA
+2026-09-25 19:55:17.355 | ato_target               | resolved id=8045 target=AAA
+2026-09-25 19:55:17.355 | ato_aircraft_details     | vu=25441 aircraft=2 details=2
+2026-09-25 19:55:17.355 | ato_target               | resolved id=8045 target=AAA
+2026-09-25 19:55:17.356 | ato_target               | resolved id=8045 target=AAA
+2026-09-25 19:55:17.356 | ato_aircraft_details     | vu=20357 aircraft=2 details=2
+2026-09-25 19:55:17.356 | ato_target               | resolved id=8045 target=AAA
+2026-09-25 19:55:17.356 | ato_aircraft_details     | vu=20358 aircraft=2 details=2
+2026-09-25 19:55:17.356 | ato_target               | resolved id=8045 target=AAA
+2026-09-25 19:55:17.356 | ato_target               | resolved id=8028 target=AAA
+2026-09-25 19:55:17.357 | ato_aircraft_details     | vu=20359 aircraft=2 details=2
+2026-09-25 19:55:17.357 | ato_target               | resolved id=8028 target=AAA
+2026-09-25 19:55:17.357 | ato_target               | resolved id=8053 target=AAA
+2026-09-25 19:55:17.357 | ato_aircraft_details     | vu=20362 aircraft=2 details=2
+2026-09-25 19:55:17.357 | ato_target               | resolved id=8053 target=AAA
+2026-09-25 19:55:17.357 | ato_aircraft_details     | vu=20361 aircraft=2 details=2
+2026-09-25 19:55:17.358 | ato_target               | resolved id=8053 target=AAA
+2026-09-25 19:55:17.358 | ato_target               | resolved id=8052 target=AAA
+2026-09-25 19:55:17.358 | ato_aircraft_details     | vu=20527 aircraft=2 details=2
+2026-09-25 19:55:17.358 | ato_target               | resolved id=8052 target=AAA
+2026-09-25 19:55:17.358 | ato_aircraft_details     | vu=20528 aircraft=2 details=2
+2026-09-25 19:55:17.359 | ato_target               | resolved id=8052 target=AAA
+2026-09-25 19:55:17.359 | ato_target               | resolved id=8164 target=SHORAD
+2026-09-25 19:55:17.359 | ato_aircraft_details     | vu=20629 aircraft=2 details=2
+2026-09-25 19:55:17.359 | ato_target               | resolved id=8164 target=SHORAD
+2026-09-25 19:55:17.359 | ato_aircraft_details     | vu=20628 aircraft=2 details=2
+2026-09-25 19:55:17.360 | ato_target               | resolved id=8164 target=SHORAD
+2026-09-25 19:55:17.360 | ato_target               | resolved id=8045 target=AAA
+2026-09-25 19:55:17.360 | ato_aircraft_details     | vu=20726 aircraft=2 details=2
+2026-09-25 19:55:17.360 | ato_target               | resolved id=8045 target=AAA
+2026-09-25 19:55:17.360 | ato_aircraft_details     | vu=25002 aircraft=2 details=2
+2026-09-25 19:55:17.361 | ato_target               | resolved id=8013 target=Air Defense
+2026-09-25 19:55:17.361 | ato_aircraft_details     | vu=25001 aircraft=2 details=2
+2026-09-25 19:55:17.361 | ato_target               | resolved id=8013 target=Air Defense
+2026-09-25 19:55:17.361 | ato_aircraft_details     | vu=25000 aircraft=2 details=2
+2026-09-25 19:55:17.361 | ato_target               | resolved id=8013 target=Air Defense
+2026-09-25 19:55:17.362 | ato_aircraft_details     | vu=25896 aircraft=2 details=2
+2026-09-25 19:55:17.362 | ato_aircraft_details     | vu=25899 aircraft=2 details=2
+2026-09-25 19:55:17.362 | ato_aircraft_details     | vu=25819 aircraft=2 details=2
+2026-09-25 19:55:17.363 | ato_target               | resolved id=8344 target=Motor Rifle
+2026-09-25 19:55:17.363 | ato_aircraft_details     | vu=20216 aircraft=2 details=2
+2026-09-25 19:55:17.363 | ato_target               | resolved id=8344 target=Motor Rifle
+2026-09-25 19:55:17.363 | ato_aircraft_details     | vu=25676 aircraft=2 details=2
+2026-09-25 19:55:17.364 | ato_aircraft_details     | vu=20232 aircraft=2 details=2
+2026-09-25 19:55:17.364 | ato_target               | resolved id=8344 target=Motor Rifle
+2026-09-25 19:55:17.364 | ato_aircraft_details     | vu=20234 aircraft=2 details=2
+2026-09-25 19:55:17.365 | ato_target               | resolved id=8344 target=Motor Rifle
+2026-09-25 19:55:17.365 | ato_target               | resolved id=8111 target=HQ
+2026-09-25 19:55:17.365 | ato_aircraft_details     | vu=20247 aircraft=2 details=2
+2026-09-25 19:55:17.365 | ato_target               | resolved id=8111 target=HQ
+2026-09-25 19:55:17.365 | ato_target               | resolved id=8344 target=Motor Rifle
+2026-09-25 19:55:17.365 | ato_aircraft_details     | vu=20257 aircraft=2 details=2
+2026-09-25 19:55:17.365 | ato_target               | resolved id=8344 target=Motor Rifle
+2026-09-25 19:55:17.366 | ato_aircraft_details     | vu=20263 aircraft=2 details=2
+2026-09-25 19:55:17.366 | ato_target               | resolved id=8255 target=Tank
+2026-09-25 19:55:17.366 | ato_aircraft_details     | vu=25690 aircraft=2 details=2
+2026-09-25 19:55:17.366 | ato_target               | resolved id=8255 target=Tank
+2026-09-25 19:55:17.367 | ato_aircraft_details     | vu=25725 aircraft=2 details=2
+2026-09-25 19:55:17.367 | ato_target               | resolved id=8254 target=Tank
+2026-09-25 19:55:17.367 | ato_aircraft_details     | vu=25413 aircraft=2 details=2
+2026-09-25 19:55:17.367 | ato_target               | resolved id=8254 target=Tank
+2026-09-25 19:55:17.367 | ato_target               | resolved id=8531 target=Infantry
+2026-09-25 19:55:17.368 | ato_aircraft_details     | vu=25415 aircraft=2 details=2
+2026-09-25 19:55:17.368 | ato_target               | resolved id=8531 target=Infantry
+2026-09-25 19:55:17.368 | ato_aircraft_details     | vu=25730 aircraft=2 details=2
+2026-09-25 19:55:17.368 | ato_target               | resolved id=8111 target=HQ
+2026-09-25 19:55:17.368 | ato_aircraft_details     | vu=20338 aircraft=2 details=2
+2026-09-25 19:55:17.369 | ato_target               | resolved id=8111 target=HQ
+2026-09-25 19:55:17.369 | ato_target               | resolved id=8289 target=Tank
+2026-09-25 19:55:17.369 | ato_aircraft_details     | vu=20344 aircraft=2 details=2
+2026-09-25 19:55:17.369 | ato_target               | resolved id=8289 target=Tank
+2026-09-25 19:55:17.369 | ato_aircraft_details     | vu=20419 aircraft=2 details=2
+2026-09-25 19:55:17.370 | ato_aircraft_details     | vu=20424 aircraft=2 details=2
+2026-09-25 19:55:17.370 | ato_target               | resolved id=8516 target=Motor Rifle
+2026-09-25 19:55:17.370 | ato_aircraft_details     | vu=25527 aircraft=2 details=2
+2026-09-25 19:55:17.370 | ato_target               | resolved id=8516 target=Motor Rifle
+2026-09-25 19:55:17.370 | ato_aircraft_details     | vu=25529 aircraft=2 details=2
+2026-09-25 19:55:17.371 | ato_aircraft_details     | vu=20437 aircraft=2 details=2
+2026-09-25 19:55:17.371 | ato_target               | resolved id=8289 target=Tank
+2026-09-25 19:55:17.371 | ato_aircraft_details     | vu=25892 aircraft=2 details=2
+2026-09-25 19:55:17.371 | ato_target               | resolved id=8289 target=Tank
+2026-09-25 19:55:17.372 | ato_aircraft_details     | vu=25565 aircraft=2 details=2
+2026-09-25 19:55:17.372 | ato_target               | resolved id=8184 target=Motor Rifle
+2026-09-25 19:55:17.372 | ato_aircraft_details     | vu=25568 aircraft=2 details=2
+2026-09-25 19:55:17.372 | ato_target               | resolved id=8184 target=Motor Rifle
+2026-09-25 19:55:17.372 | ato_aircraft_details     | vu=25619 aircraft=2 details=2
+2026-09-25 19:55:17.373 | ato_aircraft_details     | vu=20516 aircraft=2 details=2
+2026-09-25 19:55:17.373 | ato_target               | resolved id=8032 target=AAA
+2026-09-25 19:55:17.373 | ato_aircraft_details     | vu=25634 aircraft=2 details=2
+2026-09-25 19:55:17.374 | ato_target               | resolved id=8032 target=AAA
+2026-09-25 19:55:17.374 | ato_aircraft_details     | vu=20518 aircraft=2 details=2
+2026-09-25 19:55:17.374 | ato_aircraft_details     | vu=20521 aircraft=2 details=2
+2026-09-25 19:55:17.375 | ato_aircraft_details     | vu=20525 aircraft=2 details=2
+2026-09-25 19:55:17.375 | ato_target               | resolved id=8300 target=Infantry
+2026-09-25 19:55:17.375 | ato_aircraft_details     | vu=20692 aircraft=2 details=2
+2026-09-25 19:55:17.375 | ato_target               | resolved id=8300 target=Infantry
+2026-09-25 19:55:17.376 | ato_aircraft_details     | vu=20699 aircraft=2 details=2
+2026-09-25 19:55:17.376 | ato_target               | resolved id=8256 target=Motor Rifle
+2026-09-25 19:55:17.376 | ato_aircraft_details     | vu=20700 aircraft=2 details=2
+2026-09-25 19:55:17.377 | ato_target               | resolved id=8256 target=Motor Rifle
+2026-09-25 19:55:17.377 | ato_aircraft_details     | vu=20703 aircraft=2 details=2
+2026-09-25 19:55:17.377 | ato_aircraft_details     | vu=20776 aircraft=2 details=2
+2026-09-25 19:55:17.378 | ato_target               | resolved id=8537 target=Motor Rifle
+2026-09-25 19:55:17.378 | ato_aircraft_details     | vu=20790 aircraft=2 details=2
+2026-09-25 19:55:17.378 | ato_target               | resolved id=8537 target=Motor Rifle
+2026-09-25 19:55:17.378 | ato_target               | resolved id=8344 target=Motor Rifle
+2026-09-25 19:55:17.378 | ato_aircraft_details     | vu=25136 aircraft=2 details=2
+2026-09-25 19:55:17.378 | ato_target               | resolved id=8344 target=Motor Rifle
+2026-09-25 19:55:17.379 | ato_aircraft_details     | vu=25153 aircraft=2 details=2
+2026-09-25 19:55:17.379 | ato_target               | resolved id=8517 target=Motor Rifle
+2026-09-25 19:55:17.379 | ato_aircraft_details     | vu=25178 aircraft=2 details=2
+2026-09-25 19:55:17.379 | ato_target               | resolved id=8517 target=Motor Rifle
+2026-09-25 19:55:17.380 | ato_aircraft_details     | vu=24322 aircraft=1 details=1
+2026-09-25 19:55:17.380 | ato_aircraft_details     | vu=20529 aircraft=1 details=1
+2026-09-25 19:55:17.380 | ato_aircraft_details     | vu=24133 aircraft=1 details=1
+2026-09-25 19:55:17.381 | ato_aircraft_details     | vu=24460 aircraft=1 details=1
+2026-09-25 19:55:17.381 | ato_aircraft_details     | vu=20797 aircraft=1 details=1
+2026-09-25 19:55:17.382 | ato_aircraft_details     | vu=20270 aircraft=1 details=1
+2026-09-25 19:55:17.382 | ato_aircraft_details     | vu=20276 aircraft=1 details=1
+2026-09-25 19:55:17.382 | ato_aircraft_details     | vu=25704 aircraft=1 details=1
+2026-09-25 19:55:17.383 | ato_aircraft_details     | vu=25443 aircraft=1 details=1
+2026-09-25 19:55:17.383 | ato_aircraft_details     | vu=25444 aircraft=1 details=1
+2026-09-25 19:55:17.383 | ato_aircraft_details     | vu=25445 aircraft=1 details=1
+2026-09-25 19:55:17.384 | ato_aircraft_details     | vu=25448 aircraft=1 details=1
+2026-09-25 19:55:17.384 | ato_aircraft_details     | vu=25485 aircraft=1 details=1
+2026-09-25 19:55:17.384 | ato_aircraft_details     | vu=25873 aircraft=1 details=1
+2026-09-25 19:55:17.385 | ato_aircraft_details     | vu=25743 aircraft=1 details=1
+2026-09-25 19:55:17.385 | ato_aircraft_details     | vu=25745 aircraft=1 details=1
+2026-09-25 19:55:17.385 | ato_aircraft_details     | vu=25746 aircraft=1 details=1
+2026-09-25 19:55:17.386 | ato_aircraft_details     | vu=25547 aircraft=1 details=1
+2026-09-25 19:55:17.386 | ato_aircraft_details     | vu=23830 aircraft=1 details=1
+2026-09-25 19:55:17.387 | ato_aircraft_details     | vu=23862 aircraft=1 details=1
+2026-09-25 19:55:17.387 | ato_aircraft_details     | vu=25750 aircraft=1 details=1
+2026-09-25 19:55:17.387 | ato_target               | resolved id=24820 target=Fighter
+2026-09-25 19:55:17.387 | ato_aircraft_details     | vu=24821 aircraft=2 details=2
+2026-09-25 19:55:17.388 | ato_target               | resolved id=8292 target=Tank
+2026-09-25 19:55:17.388 | ato_aircraft_details     | vu=24820 aircraft=2 details=2
+2026-09-25 19:55:17.388 | ato_target               | resolved id=8292 target=Tank
+2026-09-25 19:55:17.394 | ato_aircraft_details     | vu=20170 aircraft=4 details=4
+2026-09-25 19:55:17.406 | ato_aircraft_details     | vu=20199 aircraft=4 details=4
+2026-09-25 19:55:17.418 | ato_aircraft_details     | vu=20200 aircraft=4 details=4
+2026-09-25 19:55:55.774 | ato_target               | resolved id=987 target=Camp Carroll
+2026-09-25 19:55:55.775 | ato_departure            | resolved=1/1
+2026-09-25 19:55:55.879 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:55:55.930 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:55:55.930 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:55:56.570 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-09-25 19:55:56.571 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-09-25 19:55:56.571 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-09-25 19:55:56.601 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:55:56.665 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-25 19:55:56.672 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-09-25 19:55:56.673 | campaign_overview        | system_marks=3
+2026-09-25 19:55:56.681 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:55:56.682 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:55:56.743 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:55:56.803 | package_relevance        | package_routes pkg=7580 flights=1 routes=1 points=6
+2026-09-25 19:55:56.804 | friendly_ad_zone         | wps=2 buffer_nm=20.0 hull=26
+2026-09-25 19:55:57.117 | friendly_air_defense     | pkg=7580 ref=aoo sites=11 combat_wp=0 aoo_wp=2 covering=1 nearby=1 shown=1 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=22000
+2026-09-25 19:55:57.121 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:55:57.121 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:55:57.142 | ato_target               | resolved id=987 target=Camp Carroll
+2026-09-25 19:55:57.142 | ato_departure            | resolved=1/1
+2026-09-25 19:55:57.178 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-09-25 19:55:57.620 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:56:01.544 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:56:01.563 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:56:01.563 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:56:02.129 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-09-25 19:56:02.130 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-09-25 19:56:02.130 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-09-25 19:56:02.301 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-25 19:56:02.306 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-09-25 19:56:02.307 | campaign_overview        | system_marks=3
+2026-09-25 19:56:02.405 | package_relevance        | package_routes pkg=7580 flights=1 routes=1 points=6
+2026-09-25 19:56:02.428 | friendly_ad_zone         | wps=2 buffer_nm=20.0 hull=26
+2026-09-25 19:56:02.699 | friendly_air_defense     | pkg=7580 ref=aoo sites=11 combat_wp=0 aoo_wp=2 covering=1 nearby=1 shown=1 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=22000
+2026-09-25 19:56:02.756 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-09-25 19:56:03.172 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:56:22.954 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:56:22.954 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:56:22.975 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:56:22.975 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:56:48.890 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:56:48.905 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:56:48.905 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:56:49.036 | ato_target               | resolved id=987 target=Camp Carroll
+2026-09-25 19:56:49.036 | ato_departure            | resolved=1/1
+2026-09-25 19:56:54.153 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:56:59.837 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:56:59.853 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:56:59.853 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:56:59.980 | ato_target               | resolved id=987 target=Camp Carroll
+2026-09-25 19:56:59.980 | ato_departure            | resolved=1/1
+2026-09-25 19:57:01.378 | roaster.data             | fetch
+2026-09-25 19:57:01.381 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:57:01.381 | mission_support          | tanker: cam pkg=7580 vu=23830
+2026-09-25 19:57:01.385 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:57:01.385 | mission_support          | awacs: cam pkg=7580 vu=24322
+2026-09-25 19:57:01.387 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:57:01.388 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:57:01.388 | package_comms            | tactical ch=6 primary=Falcon 2 uhf=243.575
+2026-09-25 19:57:01.388 | roaster.data             | ok — 1 flights, axis=90.3°, noms=session
+2026-09-25 19:57:01.398 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:57:01.399 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:57:01.411 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:57:01.420 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:57:01.461 | mission_support          | tanker: cam pkg=7580 vu=23830
+2026-09-25 19:57:01.462 | mission_support          | awacs: cam pkg=7580 vu=24322
+2026-09-25 19:57:01.468 | mission_support          | tanker: cam pkg=7580 vu=23830
+2026-09-25 19:57:01.469 | mission_support          | awacs: cam pkg=7580 vu=24322
+2026-09-25 19:57:01.473 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:57:01.473 | package_comms            | tactical ch=6 primary=Falcon 2 uhf=243.575
+2026-09-25 19:57:01.475 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:57:01.475 | package_comms            | tactical ch=6 primary=Falcon 2 uhf=243.575
+2026-09-25 19:57:01.494 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-25 19:57:01.494 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-25 19:57:01.499 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-09-25 19:57:01.501 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-09-25 19:57:01.502 | package_relevance        | package_routes pkg=7580 flights=1 routes=1 points=6
+2026-09-25 19:57:01.503 | package_relevance        | package_routes pkg=7580 flights=1 routes=1 points=6
+2026-09-25 19:57:02.913 | charts_ondemand          | AGC rendu a la demande : Yeongju Highway Strip (1040068 o) -> C:\Users\mandrak\AppData\Roaming\FBB\FBB Charts\Korea KTO\Yeongju Highway Strip\AGC_Yeongju Highway Strip.png
+2026-09-25 19:57:03.857 | charts_ondemand          | AGC rendu a la demande : RKTU (1360269 o) -> C:\Users\mandrak\AppData\Roaming\FBB\FBB Charts\Korea KTO\RKTU - Cheongju Intl Airport\AGC_RKTU.png
+2026-09-25 19:57:05.659 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:57:05.675 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:57:05.675 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:58:00.798 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:58:00.803 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:58:00.810 | mission_support          | tanker: cam pkg=7580 vu=23830
+2026-09-25 19:58:00.811 | mission_support          | awacs: cam pkg=7580 vu=24322
+2026-09-25 19:58:00.815 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:58:00.815 | package_comms            | tactical ch=6 primary=Falcon 2 uhf=243.575
+2026-09-25 19:58:00.824 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-25 19:58:00.827 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-09-25 19:58:00.828 | package_relevance        | package_routes pkg=7580 flights=1 routes=1 points=6
+2026-09-25 19:58:02.116 | charts_ondemand          | AGC rendu a la demande : RKJK (1472913 o) -> C:\Users\mandrak\AppData\Roaming\FBB\FBB Charts\Korea KTO\RKJK - Gunsan AB\AGC_RKJK.png
+2026-09-25 19:58:07.631 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:58:07.636 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:58:07.643 | mission_support          | tanker: cam pkg=7580 vu=23830
+2026-09-25 19:58:07.643 | mission_support          | awacs: cam pkg=7580 vu=24322
+2026-09-25 19:58:07.647 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:58:07.647 | package_comms            | tactical ch=6 primary=Falcon 2 uhf=243.575
+2026-09-25 19:58:07.654 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-25 19:58:07.657 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-09-25 19:58:07.658 | package_relevance        | package_routes pkg=7580 flights=1 routes=1 points=6
+2026-09-25 19:58:08.484 | charts_ondemand          | AGC rendu a la demande : RKJJ (1578126 o) -> C:\Users\mandrak\AppData\Roaming\FBB\FBB Charts\Korea KTO\RKJJ - Gwangju AB\AGC_RKJJ.png
+2026-09-25 19:58:12.151 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:58:12.156 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:58:12.164 | mission_support          | tanker: cam pkg=7580 vu=23830
+2026-09-25 19:58:12.164 | mission_support          | awacs: cam pkg=7580 vu=24322
+2026-09-25 19:58:12.168 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:58:12.168 | package_comms            | tactical ch=6 primary=Falcon 2 uhf=243.575
+2026-09-25 19:58:12.175 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-25 19:58:12.179 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-09-25 19:58:12.180 | package_relevance        | package_routes pkg=7580 flights=1 routes=1 points=6
+2026-09-25 19:58:13.447 | charts_ondemand          | AGC rendu a la demande : RKTY (1622509 o) -> C:\Users\mandrak\AppData\Roaming\FBB\FBB Charts\Korea KTO\RKTY - Yecheon AB\AGC_RKTY.png
+2026-09-25 19:58:32.280 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:58:32.296 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:58:32.297 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:58:32.429 | ato_target               | resolved id=987 target=Camp Carroll
+2026-09-25 19:58:32.429 | ato_departure            | resolved=1/1
+2026-09-25 19:58:34.859 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:58:34.864 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:58:34.871 | mission_support          | tanker: cam pkg=7580 vu=23830
+2026-09-25 19:58:34.872 | mission_support          | awacs: cam pkg=7580 vu=24322
+2026-09-25 19:58:34.875 | radiomap_service         | radiomap path=D:\Jeux_Utilitaires\Jeux\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-09-25 19:58:34.875 | package_comms            | tactical ch=6 primary=Falcon 2 uhf=243.575
+2026-09-25 19:58:34.883 | campaign_overview        | tri conditions=1 file=save3.tri
+2026-09-25 19:58:34.886 | campaign_overview        | built team=1 conditions=1 force_rows=7
+2026-09-25 19:58:34.887 | package_relevance        | package_routes pkg=7580 flights=1 routes=1 points=6
+2026-09-25 19:58:35.081 | datacard_pil             | truncate page=Notes block='MISSION BRIEFING' avail=128 need=128.5 full='F-16CM-50'
+2026-09-25 19:58:35.461 | datacard_pil             | truncate page=NOTES block='TGT / DMPI' avail=228 need=237.5 full='SA-17 (9K37M2) #3'
+2026-09-25 19:58:35.462 | datacard_pil             | truncate page=NOTES block='TGT / DMPI' avail=228 need=278.5 full='Korea Military Academy'
+2026-09-25 19:58:35.462 | datacard_pil             | truncate page=NOTES block='TGT / DMPI' avail=228 need=237.5 full='SA-17 (9K37M2) #2'
+2026-09-25 19:58:35.462 | datacard_pil             | truncate page=NOTES block='TGT / DMPI' avail=228 need=237.5 full='SA-17 (9K37M2) #5'
+2026-09-25 19:58:35.462 | datacard_pil             | truncate page=NOTES block='TGT / DMPI' avail=228 need=237.5 full='SA-17 (9K37M2) #6'
+2026-09-25 19:58:35.622 | datacard_pil             | truncate page=FLIGHTPLAN block='PKG' avail=148 need=150.5 full='2 F-16CM-50'
+2026-09-25 19:58:38.150 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:58:38.167 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:58:38.168 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:58:38.180 | knb_print_state          | print grave cam=d:\jeux_utilitaires\jeux\falcon bms 4.38\data\campaign\solobt.cam dirs=1
+2026-09-25 19:58:38.297 | ato_target               | resolved id=987 target=Camp Carroll
+2026-09-25 19:58:38.297 | ato_departure            | resolved=1/1
+2026-09-25 19:58:40.181 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:58:40.181 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 hash=c8cc465c
+2026-09-25 19:58:41.694 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:58:41.706 | dtc_backup_rotate        | ini=Mandrak.ini pruned=1 keep=5
+2026-09-25 19:58:41.718 | dtc_backup_rotate        | ini=SoloBT.ini pruned=1 keep=5
+2026-09-25 19:58:41.718 | dtc_save_sibling         | path=SoloBT.ini n_ppt=15 n_lines=24 n_dpi=0 n_divert=3
+2026-09-25 19:58:41.719 | dtc_autosave_ini         | copied source=SoloBT.ini
+2026-09-25 19:58:41.719 | dtc_save_ok              | path=Mandrak.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=3 n_sections=1 n_seeded=0 seeded=[] sink=ok backup=_FBB_Backups/Mandrak_bkup_fbb_250926_195841.ini migrated=0 pruned=1
+2026-09-25 19:58:41.726 | ato_target               | resolved id=987 target=Camp Carroll
+2026-09-25 19:58:41.726 | ato_departure            | resolved=1/1
+2026-09-25 19:58:42.136 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:58:42.137 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=55a66b3c
+2026-09-25 19:58:42.156 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:58:42.156 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=55a66b3c
+2026-09-25 19:59:01.799 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-25 19:59:01.814 | fuel_plan                | avail=12194 atTurn=9634 bingo=3300 joker=3800 rtb=783 margin=6334 GO
+2026-09-25 19:59:01.814 | dtc_render               | path=Mandrak.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=458d2883
+2026-09-25 19:59:01.945 | ato_target               | resolved id=987 target=Camp Carroll
+2026-09-25 19:59:01.945 | ato_departure            | resolved=1/1
