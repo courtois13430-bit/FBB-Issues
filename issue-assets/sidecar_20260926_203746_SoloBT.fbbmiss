@@ -1,0 +1,1134 @@
+{
+  "fbb_sidecar_version": 1,
+  "app_version": "1.91.0",
+  "saved_utc": "2026-09-26T18:34:16Z",
+  "cam": {
+    "stem": "SoloBT",
+    "theater_key": "kto",
+    "campaign_name": "SoloBT",
+    "saved": "day 1 14:45:51"
+  },
+  "identity": {
+    "flight_override": {
+      "vu_num": 26423,
+      "camp_id": 1227,
+      "callsign": "Hawkeye 1"
+    },
+    "seat_override": 0,
+    "forged_pkg_camp_id": 1225
+  },
+  "dpi": {
+    "v": 1,
+    "items": [
+      {
+        "id": "DPI-01",
+        "created_by": "",
+        "name": "Dog Ear",
+        "ct_type": 2511,
+        "ct_name": "144th SHORAD Battalion",
+        "lat": 35.88479794412902,
+        "lon": 128.69803452810206,
+        "z_msl": 274,
+        "height_ft": 14,
+        "airport": "",
+        "model": 140,
+        "bear_bull": 160,
+        "dist_bull": 33.5,
+        "cam_e": 2034564.6773926376,
+        "cam_n": 730016.5208691208,
+        "visibility": "package",
+        "owner_vu": 0,
+        "target_role": "primary",
+        "assigned": [
+          0,
+          1
+        ],
+        "assigned_by_flight": {
+          "26423": {
+            "callsign": "Hawkeye 1",
+            "ships": [
+              0,
+              1
+            ]
+          }
+        },
+        "tgt_slots": [
+          98
+        ]
+      },
+      {
+        "id": "DPI-02",
+        "created_by": "",
+        "name": "SA-10 (S-300P) #2",
+        "ct_type": 799,
+        "ct_name": "15th Air Defense Battalion",
+        "lat": 35.87512250232741,
+        "lon": 128.7064503260943,
+        "z_msl": 169,
+        "height_ft": 14,
+        "airport": "",
+        "model": 1400,
+        "bear_bull": 160,
+        "dist_bull": 34.1,
+        "cam_e": 2037100.427505439,
+        "cam_n": 726526.1766017177,
+        "visibility": "package",
+        "owner_vu": 0,
+        "target_role": "primary",
+        "assigned": [
+          0,
+          1
+        ],
+        "assigned_by_flight": {
+          "26423": {
+            "callsign": "Hawkeye 1",
+            "ships": [
+              0,
+              1
+            ]
+          }
+        },
+        "tgt_slots": [
+          97
+        ]
+      },
+      {
+        "id": "DPI-03",
+        "created_by": "",
+        "name": "SA-9 (9K31)",
+        "ct_type": 2511,
+        "ct_name": "186th SHORAD Battalion",
+        "lat": 35.87504555329361,
+        "lon": 128.7112001156641,
+        "z_msl": 209,
+        "height_ft": 14,
+        "airport": "",
+        "model": 1401,
+        "bear_bull": 159,
+        "dist_bull": 34.2,
+        "cam_e": 2038507.57,
+        "cam_n": 726515.57,
+        "visibility": "package",
+        "owner_vu": 0,
+        "target_role": "primary",
+        "assigned": [
+          0,
+          1
+        ],
+        "assigned_by_flight": {
+          "26423": {
+            "callsign": "Hawkeye 1",
+            "ships": [
+              0,
+              1
+            ]
+          }
+        },
+        "tgt_slots": [
+          96
+        ]
+      },
+      {
+        "id": "DPI-04",
+        "created_by": "",
+        "name": "SA-8 (9K33)",
+        "ct_type": 2510,
+        "ct_name": "116th SHORAD Battalion",
+        "lat": 35.87627482443893,
+        "lon": 128.7097266724743,
+        "z_msl": 189,
+        "height_ft": 14,
+        "airport": "",
+        "model": 239,
+        "bear_bull": 159,
+        "dist_bull": 34.1,
+        "cam_e": 2038065.6282617585,
+        "cam_n": 726957.5117382415,
+        "visibility": "package",
+        "owner_vu": 0,
+        "target_role": "primary",
+        "assigned": [
+          0,
+          1
+        ],
+        "assigned_by_flight": {
+          "26423": {
+            "callsign": "Hawkeye 1",
+            "ships": [
+              0,
+              1
+            ]
+          }
+        },
+        "tgt_slots": [
+          95
+        ]
+      }
+    ]
+  },
+  "briefing": {
+    "v": 1,
+    "schema_version": 4,
+    "containers": [
+      {
+        "id": "5af34dbc-d25f-4a5e-be18-944822560506",
+        "ctype": "mission_step",
+        "title": "Campaign Overview",
+        "visible": true,
+        "section_key": "campaign_overview",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "campaign_objectives",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "a7fca707-d670-4b14-82bd-c9ea220a3709",
+        "ctype": "mission_step",
+        "title": "Mission / Friendly OOB",
+        "visible": true,
+        "section_key": "package_overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "roaster",
+          "context_lifecycle": "while_active"
+        },
+        "mission_name": "Mandrak mission",
+        "intent": "personne ",
+        "alr": 2
+      },
+      {
+        "id": "1cc183e6-007b-4a3a-9927-450f61273586",
+        "ctype": "mission_step",
+        "title": "Package Timeline",
+        "visible": true,
+        "section_key": "pkg_timing",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "4f6946fd-8b0e-46ec-9f4a-5c9698fce45a",
+        "ctype": "mission_step",
+        "title": "FPLN / Routes",
+        "visible": true,
+        "section_key": "steerpoints",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "fpln-asst",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "002994bd-32d2-47cc-896b-f331ee3d8005",
+        "ctype": "mission_step",
+        "title": "Weather / Forecast",
+        "visible": true,
+        "section_key": "weather",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "weather_overview"
+        }
+      },
+      {
+        "id": "f983385b-8415-47c3-847b-e745b089e039",
+        "ctype": "mission_step",
+        "title": "Threat Estimate",
+        "visible": true,
+        "section_key": "threat_analysis",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "1c83280f-c3ab-44de-96fe-18a730b030fb",
+        "ctype": "mission_step",
+        "title": "Package Comm Plan",
+        "visible": true,
+        "section_key": "comm_plan",
+        "source": "effective",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "74d46d3d-e79f-4ee9-bc38-41629d6cffaa",
+        "ctype": "mission_step",
+        "title": "Contracts",
+        "visible": true,
+        "section_key": "contracts",
+        "source": "static",
+        "text": "",
+        "rule": {},
+        "rows": [
+          {
+            "trigger": "gorilla ennemie",
+            "authority": "MC",
+            "comm": "alamo",
+            "action": "retrait stpt4"
+          }
+        ]
+      },
+      {
+        "id": "18e8c09a-ca6a-4d41-b694-f36623fa2c22",
+        "ctype": "mission_step",
+        "title": "ROE (Rules of Engagement)",
+        "visible": true,
+        "section_key": "roe",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "313359dc-26ad-4a74-8401-dd439f89d7c3",
+        "ctype": "mission_step",
+        "title": "Recovery & Emergency",
+        "visible": true,
+        "section_key": "emerg",
+        "source": "cam",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "a6a5b54d-208d-4b4a-9568-9683f0e7a03a",
+        "ctype": "mission_step",
+        "title": "Flight Task",
+        "visible": true,
+        "section_key": "overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_flight",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "ae403a3a-d9d9-4ce9-8170-ac26bc479da2",
+        "ctype": "mission_step",
+        "title": "Targeting",
+        "visible": true,
+        "section_key": "targeting",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "dpi",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "fd21dd69-8bab-4d15-8169-b4ce5a8d23b8",
+        "ctype": "mission_step",
+        "title": "Ordnance",
+        "visible": true,
+        "section_key": "ordnance",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "loadout",
+          "context_tab": "session-aircraft",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "fbea16e7-b19d-4e4c-bad0-8f43464a4af8",
+        "ctype": "mission_step",
+        "title": "Domestics",
+        "visible": true,
+        "section_key": "domestics",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "dep_airfield",
+          "range_nm": 2,
+          "map_auto_open": true
+        }
+      },
+      {
+        "id": "a80c64c8-8ad2-4dd3-97d1-dff75cddf166",
+        "ctype": "mission_step",
+        "title": "Plan Synch & deconflict",
+        "visible": true,
+        "section_key": "plan_synch",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      }
+    ]
+  },
+  "loadout": {
+    "final": {
+      "20008": {
+        "0": {
+          "8": [
+            176,
+            1
+          ]
+        },
+        "1": {
+          "8": [
+            176,
+            1
+          ]
+        }
+      },
+      "23340": {
+        "0": {
+          "3": [
+            305,
+            4
+          ],
+          "7": [
+            305,
+            4
+          ],
+          "11": [
+            182,
+            1
+          ],
+          "2": [
+            159,
+            1
+          ]
+        },
+        "1": {
+          "3": [
+            305,
+            4
+          ],
+          "7": [
+            305,
+            4
+          ],
+          "11": [
+            182,
+            1
+          ],
+          "2": [
+            159,
+            1
+          ]
+        }
+      },
+      "23818": {
+        "0": {
+          "3": [
+            298,
+            1
+          ],
+          "7": [
+            298,
+            1
+          ],
+          "2": [
+            159,
+            1
+          ],
+          "8": [
+            159,
+            1
+          ]
+        },
+        "1": {
+          "3": [
+            298,
+            1
+          ],
+          "7": [
+            298,
+            1
+          ],
+          "2": [
+            159,
+            1
+          ],
+          "8": [
+            159,
+            1
+          ]
+        }
+      },
+      "24332": {
+        "0": {
+          "3": [
+            140,
+            2
+          ],
+          "7": [
+            140,
+            2
+          ],
+          "11": [
+            180,
+            1
+          ]
+        },
+        "1": {
+          "3": [
+            140,
+            2
+          ],
+          "7": [
+            140,
+            2
+          ],
+          "11": [
+            180,
+            1
+          ]
+        }
+      },
+      "20110": {
+        "0": {
+          "11": [
+            180,
+            1
+          ],
+          "3": [
+            159,
+            1
+          ],
+          "7": [
+            159,
+            1
+          ]
+        },
+        "1": {
+          "11": [
+            180,
+            1
+          ],
+          "7": [
+            159,
+            1
+          ],
+          "3": [
+            159,
+            1
+          ],
+          "4": [
+            288,
+            2
+          ],
+          "6": [
+            287,
+            1
+          ]
+        }
+      },
+      "20006": {
+        "0": {
+          "1": [
+            159,
+            1
+          ],
+          "2": [
+            159,
+            1
+          ],
+          "3": [
+            159,
+            1
+          ],
+          "4": [
+            93,
+            1
+          ],
+          "5": [
+            189,
+            1
+          ],
+          "6": [
+            93,
+            1
+          ],
+          "7": [
+            176,
+            1
+          ],
+          "8": [
+            159,
+            1
+          ],
+          "9": [
+            159,
+            1
+          ],
+          "11": [
+            180,
+            1
+          ]
+        },
+        "1": {
+          "9": [
+            159,
+            1
+          ],
+          "1": [
+            159,
+            1
+          ],
+          "2": [
+            159,
+            1
+          ],
+          "3": [
+            159,
+            1
+          ],
+          "7": [
+            176,
+            1
+          ],
+          "8": [
+            159,
+            1
+          ],
+          "6": [
+            93,
+            1
+          ],
+          "4": [
+            93,
+            1
+          ],
+          "5": [
+            189,
+            1
+          ],
+          "11": [
+            0,
+            0
+          ],
+          "10": [
+            191,
+            1
+          ]
+        }
+      },
+      "25912": {
+        "0": {
+          "6": [
+            93,
+            1
+          ],
+          "4": [
+            93,
+            1
+          ],
+          "5": [
+            189,
+            1
+          ],
+          "11": [
+            182,
+            1
+          ],
+          "2": [
+            158,
+            1
+          ]
+        },
+        "1": {
+          "6": [
+            93,
+            1
+          ],
+          "4": [
+            93,
+            1
+          ],
+          "5": [
+            189,
+            1
+          ]
+        }
+      },
+      "26423": {
+        "0": {
+          "7": [
+            140,
+            2
+          ],
+          "3": [
+            140,
+            2
+          ],
+          "11": [
+            182,
+            1
+          ]
+        },
+        "1": {
+          "3": [
+            140,
+            2
+          ],
+          "7": [
+            140,
+            2
+          ],
+          "11": [
+            182,
+            1
+          ]
+        }
+      }
+    },
+    "laser_final": {
+      "20008": {
+        "0": 1511
+      }
+    }
+  },
+  "bullseye": {
+    "e": 1962509.6155128859,
+    "n": 920739.1051292857
+  },
+  "ppt": {
+    "entries": [
+      {
+        "label": "17",
+        "x_n": 769750.6110884435,
+        "y_e": 2120507.0,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "17",
+        "x_n": 799518.6788651547,
+        "y_e": 2135391.0270817345,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "17",
+        "x_n": 896562.5430587805,
+        "y_e": 2105622.9457013574,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "17",
+        "x_n": 769155.2921833899,
+        "y_e": 2120507.0271493215,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "17",
+        "x_n": 807853.7823923244,
+        "y_e": 2118720.9167055376,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "17",
+        "x_n": 798923.3963632933,
+        "y_e": 2099074.084189744,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "17",
+        "x_n": 769750.6822104701,
+        "y_e": 2121102.360140723,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "10",
+        "x_n": 726515.57,
+        "y_e": 2038507.57,
+        "origin": "auto",
+        "author": ""
+      },
+      {
+        "label": "10",
+        "x_n": 670755.91,
+        "y_e": 2264826.1900000004,
+        "origin": "auto",
+        "author": ""
+      },
+      {
+        "label": "10",
+        "x_n": 477237.08999999997,
+        "y_e": 2107387.1500000004,
+        "origin": "auto",
+        "author": ""
+      },
+      {
+        "label": "10",
+        "x_n": 487077.02999999997,
+        "y_e": 2166426.79,
+        "origin": "auto",
+        "author": ""
+      }
+    ]
+  },
+  "lines": {
+    "entries": [
+      {
+        "pts": [
+          [
+            413277.48,
+            2086067.28
+          ],
+          [
+            747835.44,
+            1987667.8800000001
+          ],
+          [
+            767515.3200000003,
+            2125427.04
+          ],
+          [
+            885594.6000000001,
+            2105747.16
+          ],
+          [
+            806875.0800000001,
+            2164786.8000000003
+          ],
+          [
+            1003673.8799999999,
+            2223826.44
+          ]
+        ],
+        "origin": "auto",
+        "author": "",
+        "label": "FLOT"
+      },
+      {
+        "pts": [
+          [
+            800906.0,
+            1914644.625
+          ],
+          [
+            976817.1610619999,
+            1939944.481859
+          ],
+          [
+            727645.0,
+            1980970.8749999998
+          ],
+          [
+            718809.0,
+            1962963.2500000002
+          ],
+          [
+            800794.0,
+            1914868.3749999998
+          ],
+          [
+            800794.0,
+            1914868.3749999998
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": ""
+      },
+      {
+        "pts": [
+          [
+            800906.0,
+            1914644.625
+          ],
+          [
+            976817.1610619999,
+            1939944.481859
+          ],
+          [
+            727645.0,
+            1980970.8749999998
+          ],
+          [
+            718809.0,
+            1962963.2500000002
+          ],
+          [
+            800794.0,
+            1914868.3749999998
+          ],
+          [
+            973510.4768019998,
+            1899972.6361689998
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": ""
+      },
+      {
+        "pts": [
+          [
+            800906.0,
+            1914644.625
+          ],
+          [
+            976817.1610619999,
+            1939944.481859
+          ],
+          [
+            727645.0,
+            1980970.8749999998
+          ],
+          [
+            718809.0,
+            1962963.2500000002
+          ],
+          [
+            972319.7546959999,
+            1900567.9972679997
+          ],
+          [
+            973510.4768019998,
+            1899972.6361689998
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": ""
+      },
+      {
+        "pts": [
+          [
+            971129.0325230001,
+            1898781.914037
+          ],
+          [
+            976817.1610619999,
+            1939944.481859
+          ],
+          [
+            727645.0,
+            1980970.8749999998
+          ],
+          [
+            718809.0,
+            1962963.2500000002
+          ],
+          [
+            972319.7546959999,
+            1900567.9972679997
+          ],
+          [
+            973510.4768019998,
+            1899972.6361689998
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": ""
+      },
+      {
+        "pts": [
+          [
+            971129.0325230001,
+            1898781.914037
+          ],
+          [
+            976817.1610619999,
+            1939944.481859
+          ],
+          [
+            727645.0,
+            1980970.8749999998
+          ],
+          [
+            849675.373344,
+            1930931.4126030002
+          ],
+          [
+            972319.7546959999,
+            1900567.9972679997
+          ],
+          [
+            973510.4768019998,
+            1899972.6361689998
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": ""
+      },
+      {
+        "pts": [
+          [
+            971129.0325230001,
+            1898781.914037
+          ],
+          [
+            976817.1610619999,
+            1939944.481859
+          ],
+          [
+            756203.684254,
+            1994635.04876
+          ],
+          [
+            849675.373344,
+            1930931.4126030002
+          ],
+          [
+            972319.7546959999,
+            1900567.9972679997
+          ],
+          [
+            973510.4768019998,
+            1899972.6361689998
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": ""
+      },
+      {
+        "pts": [
+          [
+            971129.0325230001,
+            1898781.914037
+          ],
+          [
+            976817.1610619999,
+            1939944.481859
+          ],
+          [
+            853842.901565,
+            1967248.4390149997
+          ],
+          [
+            849675.373344,
+            1930931.4126030002
+          ],
+          [
+            972319.7546959999,
+            1900567.9972679997
+          ],
+          [
+            973510.4768019998,
+            1899972.6361689998
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": ""
+      },
+      {
+        "pts": [
+          [
+            971129.0325230001,
+            1898781.914037
+          ],
+          [
+            976817.1610619999,
+            1939944.481859
+          ],
+          [
+            830623.8195970003,
+            1991062.8824509997
+          ],
+          [
+            849675.373344,
+            1930931.4126030002
+          ],
+          [
+            972319.7546959999,
+            1900567.9972679997
+          ],
+          [
+            973510.4768019998,
+            1899972.6361689998
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": ""
+      },
+      {
+        "pts": [
+          [
+            971129.0325230001,
+            1898781.914037
+          ],
+          [
+            976817.1610619999,
+            1939944.481859
+          ],
+          [
+            869322.2894890001,
+            1989276.799156
+          ],
+          [
+            849675.373344,
+            1930931.4126030002
+          ],
+          [
+            972319.7546959999,
+            1900567.9972679997
+          ],
+          [
+            973510.4768019998,
+            1899972.6361689998
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": ""
+      },
+      {
+        "pts": [
+          [
+            971129.0325230001,
+            1898781.914037
+          ],
+          [
+            976817.1610619999,
+            1939944.481859
+          ],
+          [
+            860391.8733529998,
+            1969629.883346
+          ],
+          [
+            849675.373344,
+            1930931.4126030002
+          ],
+          [
+            972319.7546959999,
+            1900567.9972679997
+          ],
+          [
+            973510.4768019998,
+            1899972.6361689998
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": ""
+      }
+    ]
+  }
+}
