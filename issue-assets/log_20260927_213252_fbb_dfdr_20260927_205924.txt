@@ -1,0 +1,1802 @@
+2026-09-27 20:59:24.209 | ========================================================================
+2026-09-27 20:59:24.209 | startup                  | FBB 1.92.0 — session 2026-09-27 20:59:24
+2026-09-27 20:59:24.209 | startup                  | Répertoire : E:\HD Program files\FBB\_internal
+2026-09-27 20:59:24.209 | startup                  | Python 3.14.5
+2026-09-27 20:59:24.209 | ========================================================================
+2026-09-27 20:59:24.210 | system                   | OS : Windows 11 10.0.26200, AMD64, 20 CPU, RAM 32 GB
+2026-09-27 20:59:24.223 | system                   | Machine : <masqué> / Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+2026-09-27 20:59:24.223 | registry                 | BMS baseDir : C:\M2 Program files\Falcon BMS 4.38
+2026-09-27 20:59:24.223 | registry                 | BMS theater : LKTO 4.38 + Papa  pilot : Vince
+2026-09-27 20:59:24.825 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-09-27 20:59:27.511 | parse_health             | ci01.cam: records 602/602, bytes 268536/268536, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-09-27 20:59:27.715 | telemetry                | ping OK v1.92.0 Windows 11 canal=prod → HTTP 200
+2026-09-27 20:59:34.994 | ato_target               | index_built names=6598 memo=True
+2026-09-27 20:59:34.994 | ato_departure            | resolved=1/1
+2026-09-27 20:59:35.497 | ato_departure            | resolved=1/1
+2026-09-27 20:59:35.620 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 20:59:35.856 | fuel_plan                | avail=12194 atTurn=9538 bingo=3100 joker=3600 rtb=1014 margin=6438 GO
+2026-09-27 20:59:36.063 | ppt_clear_all            | cleared=15
+2026-09-27 20:59:36.401 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 20:59:36.402 | mission_support          | awacs: cam pkg=1617 vu=20061
+2026-09-27 20:59:36.402 | mission_support          | tanker: cam pkg=1617 vu=20034
+2026-09-27 20:59:36.403 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 20:59:36.404 | package_comms            | tactical ch=6 primary=Hawkeye 7 uhf=351.000
+2026-09-27 20:59:36.419 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=46 hash=5db0889d
+2026-09-27 20:59:36.562 | fuel_plan                | avail=12194 atTurn=9538 bingo=3100 joker=3600 rtb=1014 margin=6438 GO
+2026-09-27 20:59:36.568 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 20:59:36.569 | mission_support          | awacs: cam pkg=1617 vu=20061
+2026-09-27 20:59:36.569 | mission_support          | tanker: cam pkg=1617 vu=20034
+2026-09-27 20:59:36.570 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 20:59:36.570 | package_comms            | tactical ch=6 primary=Hawkeye 7 uhf=351.000
+2026-09-27 20:59:36.580 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=21 n_ppt=3 n_dpi=3 n_divert=3 n_sections=46 hash=5db0889d
+2026-09-27 21:00:49.907 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:00:49.928 | fuel_plan                | avail=12194 atTurn=9538 bingo=3100 joker=3600 rtb=1014 margin=6438 GO
+2026-09-27 21:00:49.934 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:00:49.935 | mission_support          | awacs: cam pkg=1617 vu=20061
+2026-09-27 21:00:49.935 | mission_support          | tanker: cam pkg=1617 vu=20034
+2026-09-27 21:00:49.936 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:00:49.936 | package_comms            | tactical ch=6 primary=Hawkeye 7 uhf=351.000
+2026-09-27 21:00:49.946 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=21 n_ppt=3 n_dpi=3 n_divert=3 n_sections=46 hash=5db0889d
+2026-09-27 21:00:50.059 | ato_departure            | resolved=1/1
+2026-09-27 21:03:44.411 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:03:44.432 | fuel_plan                | avail=12194 atTurn=9538 bingo=3100 joker=3600 rtb=1014 margin=6438 GO
+2026-09-27 21:03:44.437 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:03:44.438 | mission_support          | awacs: cam pkg=1617 vu=20061
+2026-09-27 21:03:44.439 | mission_support          | tanker: cam pkg=1617 vu=20034
+2026-09-27 21:03:44.439 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:03:44.440 | package_comms            | tactical ch=6 primary=Hawkeye 7 uhf=351.000
+2026-09-27 21:03:44.449 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=21 n_ppt=3 n_dpi=3 n_divert=3 n_sections=46 hash=5db0889d
+2026-09-27 21:03:44.561 | ato_departure            | resolved=1/1
+2026-09-27 21:03:57.403 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:03:57.423 | fuel_plan                | avail=12194 atTurn=9538 bingo=3100 joker=3600 rtb=1014 margin=6438 GO
+2026-09-27 21:03:57.430 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:03:57.431 | mission_support          | awacs: cam pkg=1617 vu=20061
+2026-09-27 21:03:57.432 | mission_support          | tanker: cam pkg=1617 vu=20034
+2026-09-27 21:03:57.432 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:03:57.432 | package_comms            | tactical ch=6 primary=Hawkeye 7 uhf=351.000
+2026-09-27 21:03:57.443 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=21 n_ppt=3 n_dpi=3 n_divert=3 n_sections=46 hash=5db0889d
+2026-09-27 21:03:57.558 | ato_departure            | resolved=1/1
+2026-09-27 21:04:03.382 | online                   | peek_roster 82.64.199.133:45380 start (suggested=Vince)
+2026-09-27 21:04:04.479 | online                   | peek_roster 82.64.199.133:45380 ok: 1 vol(s)
+2026-09-27 21:04:05.779 | online                   | connect_client 82.64.199.133:45380 as Vince
+2026-09-27 21:04:05.791 | ato_departure            | resolved=1/1
+2026-09-27 21:04:06.868 | online                   | host_theater=LKTO 4.38 + Papa local=LKTO 4.38 + Papa
+2026-09-27 21:04:06.926 | online                   | seats_import n=3
+2026-09-27 21:04:06.980 | online                   | campaign_bundle received 8 files
+2026-09-27 21:04:07.265 | online                   | theater_ok: LKTO 4.38 + Papa
+2026-09-27 21:04:07.286 | parse_health             | CI04.cam: records 652/652, bytes 314022/314022, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-09-27 21:04:07.286 | online                   | dpi_sync received 8
+2026-09-27 21:04:07.316 | online                   | ba_containers_sync received 14
+2026-09-27 21:04:07.323 | online                   | mc_assigned Obe1 (vol 23944 siège 1)
+2026-09-27 21:04:07.327 | online                   | seats_import n=3
+2026-09-27 21:04:07.392 | online                   | boxes_list_received 3
+2026-09-27 21:04:07.416 | online                   | campaign_bundle applied: CI04.cam
+2026-09-27 21:04:07.583 | loadout_laser            | package=1273 laser_flights=0 my_code=1688
+2026-09-27 21:04:07.583 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-09-27 21:04:07.583 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-09-27 21:04:07.584 | loadout_weapon_dtc       | validated_fields=0 stage_sections=0
+2026-09-27 21:04:07.583 | online                   | campaign_stem pending host=CI04 local=-
+2026-09-27 21:04:07.584 | online                   | loadout_sync_received
+2026-09-27 21:04:07.616 | ato_target               | index_built names=6649 memo=True
+2026-09-27 21:04:07.617 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:04:07.617 | ato_departure            | resolved=1/1
+2026-09-27 21:04:07.636 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:04:07.636 | ato_departure            | resolved=1/1
+2026-09-27 21:04:07.655 | ppt_clear_all            | cleared=15
+2026-09-27 21:04:07.988 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:04:08.170 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:04:08.329 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:04:08.330 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:04:09.824 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:04:09.824 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:04:09.825 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:04:09.832 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=21 n_ppt=3 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:04:09.873 | online                   | stem_confirm host=CI04 chosen=CI04
+2026-09-27 21:04:10.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:04:15.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:04:20.006 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:04:20.030 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:04:20.031 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:04:20.032 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:04:20.034 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:04:20.034 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:04:20.035 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:04:20.041 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=21 n_ppt=3 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:04:20.157 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:04:20.157 | ato_departure            | resolved=1/1
+2026-09-27 21:04:20.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:04:25.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:04:30.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:04:31.311 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:04:31.335 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:04:31.336 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:04:31.337 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:04:31.339 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:04:31.339 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:04:31.340 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:04:31.345 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=21 n_ppt=3 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:04:31.463 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:04:31.463 | ato_departure            | resolved=1/1
+2026-09-27 21:04:35.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:04:40.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:04:45.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:04:50.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:04:55.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:05:00.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:05:05.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:05:10.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:05:15.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:05:20.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:05:22.109 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:05:22.135 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:05:22.136 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:05:22.137 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:05:22.139 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:05:22.139 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:05:22.140 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:05:22.146 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=21 n_ppt=3 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:05:22.259 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:05:22.259 | ato_departure            | resolved=1/1
+2026-09-27 21:05:25.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:05:30.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:05:34.146 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:05:34.170 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:05:34.171 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:05:34.172 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:05:34.174 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:05:34.174 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:05:34.175 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:05:34.181 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=21 n_ppt=3 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:05:34.296 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:05:34.296 | ato_departure            | resolved=1/1
+2026-09-27 21:05:35.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:05:40.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:05:42.040 | fpln_wp                  | pending vu=23944 ARRIVE 12 wp  src=peer  WS fpln_secondary du host
+2026-09-27 21:05:45.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:05:50.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:05:53.221 | fpln_wp                  | pending vu=23944 RETIRE 12 wp  src=peer  WS fpln_secondary du host
+2026-09-27 21:05:55.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:06:00.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:06:05.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:06:10.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:06:15.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:06:20.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:06:25.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:06:30.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:06:35.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:06:40.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:06:45.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:06:50.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:06:55.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:07:00.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:07:05.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:07:10.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:07:15.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:07:20.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:07:25.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:07:30.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:07:35.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:07:35.340 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:07:35.366 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:07:35.368 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:07:35.369 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:07:35.370 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:07:35.371 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:07:35.371 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:07:35.377 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=21 n_ppt=3 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:07:35.493 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:07:35.493 | ato_departure            | resolved=1/1
+2026-09-27 21:07:40.265 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:07:45.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:07:48.266 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:07:48.293 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:07:48.295 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:07:48.297 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:07:48.298 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:07:48.299 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:07:48.299 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:07:48.305 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=21 n_ppt=3 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:07:48.424 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:07:48.424 | ato_departure            | resolved=1/1
+2026-09-27 21:07:50.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:07:55.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:08:00.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:08:05.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:08:10.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:08:15.272 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:08:20.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:08:25.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:08:26.650 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:08:26.685 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:08:26.688 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:08:26.690 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:08:26.692 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:08:26.693 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:08:26.693 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:08:26.702 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=21 n_ppt=3 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:08:26.799 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:08:26.799 | ato_departure            | resolved=1/1
+2026-09-27 21:08:30.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:08:35.273 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:08:40.265 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:08:45.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:08:50.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:08:55.228 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:08:55.253 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:08:55.255 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:08:55.256 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:08:55.258 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:08:55.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:08:55.261 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:08:55.261 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:08:55.268 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=21 n_ppt=3 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:08:55.379 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:08:55.380 | ato_departure            | resolved=1/1
+2026-09-27 21:08:56.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:08:56.967 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:08:57.001 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:08:57.003 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:08:57.004 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:08:57.005 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:08:57.006 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:08:57.006 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:08:57.012 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=21 n_ppt=3 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:08:57.399 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:08:57.401 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:08:57.413 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:08:57.413 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:08:58.344 | campaign_overview        | objective_index loaded=5992
+2026-09-27 21:08:58.402 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:08:58.403 | campaign_overview        | system_marks=2
+2026-09-27 21:08:58.417 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:08:58.432 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:08:58.494 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:08:58.559 | friendly_ad_zone         | wps=2 buffer_nm=20.0 hull=26
+2026-09-27 21:08:59.046 | friendly_air_defense     | pkg=1273 ref=aoo sites=11 combat_wp=0 aoo_wp=2 covering=7 nearby=2 shown=2 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=22000
+2026-09-27 21:08:59.076 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:08:59.102 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:08:59.415 | briefing_context         | package_overview flights=1 route_points=9 focus_points=2 unique_points=9
+2026-09-27 21:09:00.066 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:00.078 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:09:00.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:00.407 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:09:00.882 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:09:00.886 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:09:00.887 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:09:00.889 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:09:00.894 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:09:00.894 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:09:00.902 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=22 n_ppt=3 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:09:00.946 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:09:00.953 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:09:00.955 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:09:00.958 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:09:00.970 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:09:00.970 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:09:00.979 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=22 n_ppt=3 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:09:02.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:03.145 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-09-27 21:09:03.145 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-09-27 21:09:03.145 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-09-27 21:09:05.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:05.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:08.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:10.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:11.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:14.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:15.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:17.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:20.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:20.970 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:23.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:25.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:26.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:29.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:30.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:32.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:35.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:35.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:38.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:40.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:41.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:44.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:45.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:47.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:50.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:50.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:53.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:55.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:56.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:09:59.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:00.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:02.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:04.276 | online                   | mc_layer_sync_received v1
+2026-09-27 21:10:05.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:05.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:08.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:09.933 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:10:09.935 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:10:09.936 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:10:09.937 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:10:09.938 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:10:09.938 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:10:09.945 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:10:09.979 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:10:09.981 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:10:09.981 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:10:09.983 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:10:09.984 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:10:09.984 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:10:09.990 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:10:10.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:11.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:14.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:15.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:17.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:20.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:20.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:23.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:25.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:26.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:29.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:30.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:32.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:35.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:35.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:38.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:40.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:41.970 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:44.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:45.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:47.975 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:50.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:50.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:53.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:55.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:56.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:10:59.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:00.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:02.970 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:04.746 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:11:04.774 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:11:04.776 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:11:04.777 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:11:04.778 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:11:04.779 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:11:04.779 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:11:04.787 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:11:04.900 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:11:04.900 | ato_departure            | resolved=1/1
+2026-09-27 21:11:05.252 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:11:05.255 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:11:05.256 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:11:05.257 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:11:05.258 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:11:05.259 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:11:05.259 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:11:05.260 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:11:05.294 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:11:05.323 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:05.411 | friendly_air_defense     | pkg=1273 ref=stpt sites=11 combat_wp=2 aoo_wp=0 covering=2 nearby=2 shown=2 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=22000
+2026-09-27 21:11:05.414 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok buddies=13
+2026-09-27 21:11:05.414 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:11:05.414 | briefing_context         | package_route_sketch flights=1 points=10
+2026-09-27 21:11:05.415 | briefing_context         | ordnance vu=23944 aircraft=4 pending=False
+2026-09-27 21:11:05.431 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:11:05.433 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:11:05.435 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:11:05.506 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:11:05.542 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:11:05.552 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:11:05.554 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:11:05.555 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:11:05.557 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:11:05.557 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:11:05.557 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:11:05.564 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:11:05.973 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:08.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:10.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:11.972 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:14.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:15.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:17.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:20.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:20.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:23.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:25.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:26.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:29.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:30.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:32.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:35.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:35.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:36.896 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:11:36.925 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:11:36.928 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:11:36.929 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:11:36.930 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:11:36.931 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:11:36.931 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:11:36.937 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:11:38.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:40.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:41.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:44.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:45.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:47.741 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:11:47.768 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:11:47.769 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:11:47.770 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:11:47.772 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:11:47.772 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:11:47.773 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:11:47.779 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:11:47.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:50.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:50.738 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:11:50.765 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:11:50.767 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:11:50.768 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:11:50.769 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:11:50.770 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:11:50.770 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:11:50.777 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:11:50.890 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:11:50.890 | ato_departure            | resolved=1/1
+2026-09-27 21:11:50.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:53.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:55.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:56.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:11:57.768 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:11:57.797 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:11:57.798 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:11:57.800 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:11:57.801 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:11:57.802 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:11:57.802 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:11:57.808 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:11:57.904 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:11:57.904 | ato_departure            | resolved=1/1
+2026-09-27 21:11:59.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:00.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:02.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:05.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:05.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:08.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:10.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:10.618 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:12:10.663 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:12:10.667 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:10.669 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:12:10.671 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:12:10.672 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:10.672 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:12:10.682 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:12:11.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:12.490 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:12:12.516 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:12:12.518 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:12.519 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:12:12.520 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:12:12.521 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:12.521 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:12:12.527 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:12:12.641 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:12:12.641 | ato_departure            | resolved=1/1
+2026-09-27 21:12:14.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:15.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:17.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:20.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:20.970 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:23.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:25.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:26.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:27.572 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:12:27.595 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:12:27.597 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:27.598 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:12:27.600 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:12:27.600 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:27.601 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:12:27.607 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:12:27.719 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:12:27.719 | ato_departure            | resolved=1/1
+2026-09-27 21:12:29.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:30.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:30.647 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:12:30.676 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:12:30.677 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:30.678 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:12:30.680 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:12:30.681 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:30.681 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:12:30.687 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:12:30.784 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:12:30.784 | ato_departure            | resolved=1/1
+2026-09-27 21:12:32.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:33.551 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:12:33.581 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:12:33.583 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:33.584 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:12:33.585 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:12:33.586 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:33.586 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:12:33.592 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:12:35.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:35.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:38.313 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:12:38.339 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:12:38.341 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:38.342 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:12:38.343 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:12:38.344 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:38.344 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:12:38.350 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:12:38.467 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:12:38.467 | ato_departure            | resolved=1/1
+2026-09-27 21:12:38.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:40.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:41.335 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:12:41.337 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:41.339 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:12:41.340 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:12:41.340 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:41.341 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:41.341 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:12:41.342 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:12:41.375 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:12:41.486 | friendly_air_defense     | pkg=1273 ref=stpt sites=11 combat_wp=2 aoo_wp=0 covering=2 nearby=2 shown=2 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=22000
+2026-09-27 21:12:41.488 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok buddies=13
+2026-09-27 21:12:41.489 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:12:41.489 | briefing_context         | package_route_sketch flights=1 points=10
+2026-09-27 21:12:41.489 | briefing_context         | ordnance vu=23944 aircraft=4 pending=False
+2026-09-27 21:12:41.507 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:12:41.509 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:12:41.510 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:12:41.573 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:12:41.615 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:12:41.624 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:12:41.626 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:41.627 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:12:41.629 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:12:41.630 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:41.630 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:12:41.636 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:12:41.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:44.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:45.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:47.970 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:50.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:50.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:53.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:55.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:56.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:57.468 | briefing_context         | package_overview flights=1 route_points=9 focus_points=2 unique_points=9
+2026-09-27 21:12:57.559 | roaster.data             | fetch
+2026-09-27 21:12:57.563 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:57.566 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:12:57.567 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:57.568 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:12:57.569 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:57.570 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:12:57.570 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:12:57.570 | roaster.data             | ok — 1 flights, axis=285.9°, noms=session
+2026-09-27 21:12:57.593 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:12:59.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:00.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:00.953 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:13:02.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:05.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:05.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:07.667 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:13:07.669 | campaign_overview        | system_marks=2
+2026-09-27 21:13:07.680 | briefing_context         | package_overview flights=1 route_points=9 focus_points=2 unique_points=9
+2026-09-27 21:13:07.687 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:13:07.696 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:13:07.722 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:13:07.749 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:13:07.750 | campaign_overview        | system_marks=2
+2026-09-27 21:13:07.774 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:13:07.775 | campaign_overview        | system_marks=2
+2026-09-27 21:13:07.793 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:13:07.857 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:13:07.859 | campaign_overview        | system_marks=2
+2026-09-27 21:13:07.890 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:13:08.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:10.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:10.386 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:13:11.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:14.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:15.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:17.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:20.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:20.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:23.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:25.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:26.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:29.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:30.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:32.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:35.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:35.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:38.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:40.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:41.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:44.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:45.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:47.972 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:50.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:50.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:53.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:55.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:56.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:13:59.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:00.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:02.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:05.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:05.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:07.181 | briefing_context         | package_overview flights=1 route_points=9 focus_points=2 unique_points=9
+2026-09-27 21:14:07.317 | roaster.data             | fetch
+2026-09-27 21:14:07.321 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:14:07.323 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:14:07.324 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:14:07.325 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:14:07.326 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:14:07.327 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:14:07.327 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:14:07.327 | roaster.data             | ok — 1 flights, axis=285.9°, noms=session
+2026-09-27 21:14:07.348 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:08.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:10.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:11.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:14.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:15.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:17.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:20.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:20.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:23.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:25.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:26.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:29.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:30.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:32.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:35.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:35.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:38.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:40.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:41.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:44.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:45.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:47.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:50.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:50.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:53.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:55.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:56.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:14:59.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:00.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:02.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:05.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:05.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:07.306 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:07.310 | roaster.data             | fetch
+2026-09-27 21:15:07.314 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:15:07.316 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:15:07.316 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:15:07.317 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:15:07.318 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:15:07.319 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:15:07.319 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:15:07.319 | roaster.data             | ok — 1 flights, axis=285.9°, noms=session
+2026-09-27 21:15:08.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:10.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:11.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:14.970 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:15.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:17.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:20.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:20.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:23.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:25.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:26.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:29.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:30.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:32.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:35.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:35.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:38.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:40.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:41.534 | briefing_context         | package_overview flights=1 route_points=9 focus_points=2 unique_points=9
+2026-09-27 21:15:41.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:44.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:45.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:47.970 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:50.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:50.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:53.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:55.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:56.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:15:59.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:00.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:02.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:05.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:05.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:08.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:10.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:11.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:14.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:15.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:17.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:20.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:20.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:23.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:25.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:26.293 | briefing_context         | package_overview flights=1 route_points=9 focus_points=2 unique_points=9
+2026-09-27 21:16:26.585 | timeline_data            | pkgs=177 flights=213 my_pkg=1273 my_vu=23944 buddies=3
+2026-09-27 21:16:26.652 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:16:26.652 | timeline_support         | tanker: vu=20843 source=bms in_payload=True
+2026-09-27 21:16:26.653 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:16:26.653 | timeline_support         | awacs: vu=20851 source=cam in_payload=True
+2026-09-27 21:16:26.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:29.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:30.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:31.244 | briefing_context         | package_overview flights=1 route_points=9 focus_points=2 unique_points=9
+2026-09-27 21:16:31.500 | vprofile_wx              | n=215 fog=3 cb=3
+2026-09-27 21:16:32.971 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:35.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:35.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:38.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:40.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:41.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:44.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:45.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:47.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:50.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:50.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:53.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:55.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:56.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:16:59.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:00.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:02.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:05.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:05.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:08.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:10.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:11.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:12.449 | briefing_context         | package_overview flights=1 route_points=9 focus_points=2 unique_points=9
+2026-09-27 21:17:14.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:15.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:17.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:20.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:20.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:23.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:25.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:26.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:29.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:30.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:32.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:35.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:35.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:38.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:40.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:41.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:44.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:45.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:47.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:50.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:50.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:53.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:55.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:56.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:17:59.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:00.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:02.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:04.055 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:18:04.084 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:18:04.086 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:18:04.087 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:18:04.088 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:18:04.089 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:18:04.090 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:18:04.096 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:18:05.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:05.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:08.979 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:09.574 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:18:09.602 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:18:09.604 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:18:09.605 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:18:09.606 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:18:09.607 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:18:09.607 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:18:09.614 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:18:10.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:11.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:14.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:15.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:17.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:20.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:20.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:23.970 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:25.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:26.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:29.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:30.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:32.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:33.657 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:18:33.659 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:18:33.661 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:18:33.663 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:18:33.663 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:18:33.665 | package_comm_plan        | build_package_comm_plan: nets=5 intras=1
+2026-09-27 21:18:35.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:35.663 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:18:35.665 | briefing_context         | package_overview flights=1 route_points=9 focus_points=2 unique_points=9
+2026-09-27 21:18:35.694 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:18:35.696 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:18:35.697 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:18:35.699 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:18:35.699 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:18:35.699 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:18:35.708 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:18:35.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:38.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:40.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:41.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:44.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:45.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:47.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:50.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:50.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:53.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:55.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:56.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:18:58.897 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:18:58.921 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:18:58.924 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:18:58.925 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:18:58.926 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:18:58.927 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:18:58.927 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:18:58.933 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:18:59.047 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:18:59.047 | ato_departure            | resolved=1/1
+2026-09-27 21:18:59.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:00.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:02.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:05.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:05.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:08.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:10.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:11.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:14.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:15.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:17.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:20.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:20.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:23.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:25.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:26.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:29.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:30.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:32.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:35.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:35.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:38.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:40.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:41.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:44.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:45.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:47.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:50.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:50.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:53.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:55.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:56.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:19:59.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:00.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:02.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:05.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:05.970 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:08.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:10.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:11.676 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:20:11.678 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:20:11.680 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:20:11.681 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:20:11.681 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:20:11.682 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:20:11.682 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:20:11.683 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:20:11.716 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:20:11.826 | friendly_air_defense     | pkg=1273 ref=stpt sites=11 combat_wp=2 aoo_wp=0 covering=2 nearby=2 shown=2 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=22000
+2026-09-27 21:20:11.828 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok buddies=13
+2026-09-27 21:20:11.829 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:20:11.829 | briefing_context         | package_route_sketch flights=1 points=10
+2026-09-27 21:20:11.829 | briefing_context         | ordnance vu=23944 aircraft=4 pending=False
+2026-09-27 21:20:11.848 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:20:11.850 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:20:11.851 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:20:11.894 | vprofile_wx              | n=215 fog=3 cb=3
+2026-09-27 21:20:11.906 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:20:11.907 | campaign_overview        | system_marks=2
+2026-09-27 21:20:11.920 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:20:11.941 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:20:11.946 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:20:11.960 | briefing_context         | package_overview flights=1 route_points=9 focus_points=2 unique_points=9
+2026-09-27 21:20:11.990 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:11.996 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:20:11.998 | campaign_overview        | system_marks=2
+2026-09-27 21:20:12.022 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:20:12.057 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:20:12.089 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:20:12.090 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:20:12.093 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:20:12.098 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:20:12.099 | campaign_overview        | system_marks=2
+2026-09-27 21:20:12.101 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:20:12.102 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:20:12.105 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:20:12.114 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:20:14.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:15.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:17.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:20.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:20.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:23.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:25.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:26.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:29.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:30.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:31.522 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:20:31.548 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:20:31.550 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:20:31.551 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:20:31.553 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:20:31.553 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:20:31.553 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:20:31.560 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:20:31.681 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:20:31.681 | ato_departure            | resolved=1/1
+2026-09-27 21:20:32.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:35.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:35.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:37.635 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:20:37.685 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:20:37.688 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:20:37.690 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:20:37.692 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:20:37.693 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:20:37.694 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:20:37.704 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:20:37.753 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:20:37.753 | ato_departure            | resolved=1/1
+2026-09-27 21:20:38.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:39.531 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:20:39.533 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:20:39.535 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:20:39.536 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:20:39.536 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:20:39.537 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:20:39.537 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:20:39.538 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:20:39.571 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:20:39.680 | friendly_air_defense     | pkg=1273 ref=stpt sites=11 combat_wp=2 aoo_wp=0 covering=2 nearby=2 shown=2 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=22000
+2026-09-27 21:20:39.683 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok buddies=13
+2026-09-27 21:20:39.684 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:20:39.684 | briefing_context         | package_route_sketch flights=1 points=10
+2026-09-27 21:20:39.684 | briefing_context         | ordnance vu=23944 aircraft=4 pending=False
+2026-09-27 21:20:39.701 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:20:39.704 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:20:39.705 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:20:39.750 | vprofile_wx              | n=215 fog=3 cb=3
+2026-09-27 21:20:39.758 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:20:39.760 | campaign_overview        | system_marks=2
+2026-09-27 21:20:39.772 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:20:39.794 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:20:39.802 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:20:39.803 | briefing_context         | package_overview flights=1 route_points=9 focus_points=2 unique_points=9
+2026-09-27 21:20:39.848 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:20:39.850 | campaign_overview        | system_marks=2
+2026-09-27 21:20:39.868 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:20:39.904 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:20:39.939 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:20:39.940 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:20:39.943 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:20:39.945 | campaign_overview        | system_marks=2
+2026-09-27 21:20:39.944 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:20:39.950 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:20:39.950 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:20:39.953 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:20:39.960 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:20:40.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:41.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:44.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:45.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:47.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:50.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:50.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:53.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:55.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:56.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:20:59.970 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:00.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:02.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:05.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:05.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:06.359 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:21:06.360 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:21:06.362 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:21:06.365 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:21:06.365 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:21:06.366 | package_comm_plan        | build_package_comm_plan: nets=5 intras=1
+2026-09-27 21:21:06.419 | vprofile_wx              | n=215 fog=3 cb=3
+2026-09-27 21:21:08.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:10.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:11.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:14.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:15.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:17.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:20.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:20.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:23.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:25.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:26.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:29.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:30.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:32.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:35.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:35.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:38.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:40.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:41.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:44.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:45.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:47.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:49.694 | vprofile_wx              | n=215 fog=3 cb=3
+2026-09-27 21:21:50.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:50.449 | vprofile_wx              | n=215 fog=3 cb=3
+2026-09-27 21:21:50.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:53.970 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:54.681 | vprofile_wx              | n=215 fog=3 cb=3
+2026-09-27 21:21:55.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:56.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:21:59.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:00.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:02.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:05.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:05.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:07.803 | vprofile_wx              | n=215 fog=3 cb=3
+2026-09-27 21:22:08.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:09.982 | divert_runtime           | package_diverts pkg=1273 flights=1 resolved=1 airfields=10 top=5
+2026-09-27 21:22:10.019 | vprofile_wx              | n=215 fog=3 cb=3
+2026-09-27 21:22:10.037 | vprofile_wx              | n=215 fog=3 cb=3
+2026-09-27 21:22:10.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:11.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:14.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:15.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:17.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:20.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:20.970 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:23.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:25.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:26.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:29.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:30.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:31.139 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:22:31.167 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:22:31.169 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:22:31.170 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:22:31.172 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:22:31.172 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:22:31.173 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:22:31.179 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:22:32.975 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:35.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:35.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:38.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:40.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:41.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:44.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:45.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:47.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:50.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:50.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:53.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:55.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:56.978 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:22:57.726 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:22:57.754 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:22:57.757 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:22:57.758 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:22:57.760 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:22:57.762 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:22:57.762 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:22:57.769 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:22:59.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:00.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:02.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:05.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:05.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:08.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:10.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:11.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:14.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:15.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:17.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:20.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:20.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:23.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:25.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:26.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:29.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:30.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:32.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:35.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:35.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:38.976 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:40.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:41.978 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:44.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:45.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:47.970 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:50.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:50.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:53.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:55.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:56.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:23:59.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:00.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:02.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:05.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:05.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:08.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:10.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:11.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:13.876 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:24:13.926 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:24:13.928 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:24:13.929 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:24:13.931 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:24:13.932 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:24:13.932 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:24:13.940 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:24:13.972 | briefing_context         | package_overview flights=1 route_points=9 focus_points=2 unique_points=9
+2026-09-27 21:24:14.137 | roaster.data             | fetch
+2026-09-27 21:24:14.142 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:24:14.144 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:24:14.146 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:24:14.147 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:24:14.149 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:24:14.151 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:24:14.151 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:24:14.151 | roaster.data             | ok — 1 flights, axis=285.9°, noms=session
+2026-09-27 21:24:14.174 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:14.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:15.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:17.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:18.294 | online                   | ba_containers_sync received 14
+2026-09-27 21:24:20.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:20.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:23.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:24.273 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:24:24.309 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:24:24.312 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:24:24.313 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:24:24.314 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:24:24.315 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:24:24.315 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:24:24.322 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:24:25.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:26.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:29.974 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:30.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:32.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:35.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:35.791 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:24:35.819 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:24:35.821 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:24:35.822 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:24:35.823 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:24:35.824 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:24:35.824 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:24:35.830 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:24:35.975 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:38.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:40.717 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:41.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:44.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:45.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:47.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:50.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:50.976 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:53.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:55.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:56.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:24:59.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:00.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:02.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:05.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:05.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:08.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:10.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:11.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:14.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:15.043 | vprofile_wx              | n=215 fog=3 cb=3
+2026-09-27 21:25:15.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:17.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:20.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:20.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:23.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:25.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:26.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:29.963 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:30.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:32.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:35.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:35.980 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:38.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:40.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:41.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:44.970 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:45.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:47.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:50.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:50.970 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:53.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:55.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:56.968 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:25:59.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:00.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:02.164 | vprofile_wx              | n=215 fog=3 cb=3
+2026-09-27 21:26:03.327 | loadout3d                | scene unit_ct=2671 veh_ct=2451 ac_model=1989 (F-16C-25) slots=11 stores=10 seat=2
+2026-09-27 21:26:03.327 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-09-27 21:26:03.327 | loadout3d                |   HP 1 wid=174 model=1691 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-9M Sidewinder
+2026-09-27 21:26:03.327 | loadout3d                |   HP 2 wid=174 model=1691 slot=[-13.25, -3.70681906, 0.164210007] : AIM-9M Sidewinder
+2026-09-27 21:26:03.327 | loadout3d                |   HP 3 wid=148 model=1360 slot=[-10.0, -1.72720599, 0.127838001] : AGM-65D Maverick
+2026-09-27 21:26:03.327 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-09-27 21:26:03.327 | loadout3d                |   HP 5 wid=188 model=921 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-131(v)1
+2026-09-27 21:26:03.327 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-09-27 21:26:03.327 | loadout3d                |   HP 7 wid=148 model=1360 slot=[10.0, -1.72720599, 0.127838001] : AGM-65D Maverick
+2026-09-27 21:26:03.328 | loadout3d                |   HP 8 wid=174 model=1691 slot=[13.25, -3.70681906, 0.164210007] : AIM-9M Sidewinder
+2026-09-27 21:26:03.328 | loadout3d                |   HP 9 wid=174 model=1691 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-9M Sidewinder
+2026-09-27 21:26:03.500 | loadout_limits           | classe indeterminee pour wid=492 ('20mm M61') : aucune limite rendue
+2026-09-27 21:26:03.505 | loadout3d                | crew_art vu=23944 seat=2 pilot=60033 patch=70263
+2026-09-27 21:26:03.508 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:05.648 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:06.175 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:09.142 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:10.088 | loadout3d                | _str_compat: aucun .str pour aircraft='F-16', fallback global
+2026-09-27 21:26:10.088 | loadout3d                | _str_compat: aircraft=F-16 C:\Users\vince\AppData\Local\Temp\fbb_campaign_bundle → 0 WIDs, 0/0 fichiers .str
+2026-09-27 21:26:10.102 | loadout3d                | _bmsrack_stations: C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Terrdata\objects+\BmsRack.dat → 271 WIDs
+2026-09-27 21:26:10.107 | loadout3d                | _ssd_stores: C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Terrdata\objects+\Falcon4_SSD.xml → 111 SSD
+2026-09-27 21:26:10.400 | loadout3d                | weapons endpoint: sq_vu=8450 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=110 stock_max=21 rack_wids=271 seats=[2] hp=11 weapons=22 (21 dispo)
+2026-09-27 21:26:10.402 | loadout_limits           | classe indeterminee pour wid=492 ('20mm M61') : aucune limite rendue
+2026-09-27 21:26:10.421 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:10.430 | loadout_laser            | package=1273 laser_flights=0 my_code=1688
+2026-09-27 21:26:10.430 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-09-27 21:26:10.430 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-09-27 21:26:11.964 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:14.967 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:15.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:17.970 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:20.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:20.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:23.969 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:25.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:26.965 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:27.155 | link16_effective         | 11 champs, 0 en attente d'écriture
+2026-09-27 21:26:27.162 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:26:27.166 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:26:27.167 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:26:27.169 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:26:27.170 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:26:27.170 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:26:27.179 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:26:27.179 | briefing_domestics       | build_domestics ok icao=RKNY rwy=33 comm_rows=8 crew=4
+2026-09-27 21:26:27.195 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:26:27.247 | vprofile_wx              | n=215 fog=3 cb=3
+2026-09-27 21:26:27.255 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:26:27.262 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:26:27.263 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:26:27.265 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:26:27.266 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:26:27.266 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:26:27.274 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:26:27.365 | vprofile_wx              | n=215 fog=3 cb=3
+2026-09-27 21:26:30.337 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:30.364 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:35.265 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:40.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:45.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:50.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:26:55.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:27:00.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:27:03.076 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:27:03.108 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:27:03.114 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:03.115 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:27:03.116 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:27:03.117 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:03.117 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:27:03.124 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:27:03.227 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:27:03.227 | ato_departure            | resolved=1/1
+2026-09-27 21:27:05.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:27:10.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:27:15.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:27:20.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:27:25.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:27:30.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:27:35.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:27:35.823 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:27:35.856 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:27:35.858 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:35.859 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:27:35.861 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:27:35.861 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:35.862 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:27:35.869 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:27:35.954 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:27:35.954 | ato_departure            | resolved=1/1
+2026-09-27 21:27:38.580 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:27:40.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:27:42.142 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:27:42.171 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:27:42.174 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:42.175 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:27:42.176 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:27:42.177 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:42.177 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:27:42.184 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:27:42.278 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:27:42.278 | ato_departure            | resolved=1/1
+2026-09-27 21:27:45.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:27:48.358 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:27:48.373 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:48.375 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:27:48.376 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:27:48.378 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:48.378 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:27:48.448 | takeoff                  | dep='RKNY' rwy='33' stpt=1 ok=True
+2026-09-27 21:27:48.452 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:27:48.456 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:48.458 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:27:48.460 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:27:48.463 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:27:48.465 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:48.465 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:27:48.468 | vrp_app                  | arr='RKNY' rwy='33' side='right' ok=True
+2026-09-27 21:27:48.475 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:27:48.873 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:27:48.875 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:48.876 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:27:48.877 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:27:48.878 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:48.878 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:27:48.885 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:27:50.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:27:52.283 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:27:52.312 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:27:52.314 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:52.315 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:27:52.317 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:27:52.317 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:52.318 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:27:52.324 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:27:52.421 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:27:52.421 | ato_departure            | resolved=1/1
+2026-09-27 21:27:54.146 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:27:54.166 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:54.173 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:27:54.196 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:27:54.197 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:27:54.200 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:54.200 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:27:54.227 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:27:54.231 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:54.304 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:54.451 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:54.452 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:54.453 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:54.454 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:54.456 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:54.482 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:27:54.492 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:27:54.494 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:27:54.500 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:27:54.510 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:27:54.541 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:27:54.542 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:27:54.552 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:27:54.553 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:27:54.561 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:27:54.562 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:27:54.573 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:27:54.574 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:27:54.579 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:54.579 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:27:54.596 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:27:54.596 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:27:54.604 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:54.605 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:27:54.619 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:54.619 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:27:54.639 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:27:54.644 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:54.672 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:54.672 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:27:54.691 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:27:54.693 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:54.725 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:54.725 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:27:54.725 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:27:54.727 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:54.774 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:27:54.776 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:54.807 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:27:54.809 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:54.863 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:54.893 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:54.918 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:54.953 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:54.985 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:55.459 | datacard_pil             | truncate page=FLIGHTPLAN block='FLIGHTPLAN' avail=116 need=130.0 full='Arrowhead'
+2026-09-27 21:27:55.759 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:27:55.790 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:55.792 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:55.817 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:27:55.823 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:27:55.840 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:55.846 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:27:55.847 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:27:55.854 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:27:55.855 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:27:55.861 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:55.861 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:27:55.861 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:55.861 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:27:55.891 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:27:55.903 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:27:55.904 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:55.935 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:27:55.936 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:55.993 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:56.024 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:56.044 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:27:56.045 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:27:56.058 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:27:56.059 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:27:56.112 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:27:56.114 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:56.183 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:27:57.139 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:00.132 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:00.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:03.136 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:05.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:06.133 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:09.134 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:10.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:12.132 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:15.132 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:15.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:18.147 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:20.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:21.142 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:24.132 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:25.265 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:27.140 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:30.140 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:30.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:33.134 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:35.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:36.140 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:39.147 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:40.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:42.133 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:45.139 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:45.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:48.142 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:50.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:51.136 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:54.131 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:55.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:56.652 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:28:56.659 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:28:56.670 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:28:56.671 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:28:56.674 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:28:56.675 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:28:56.693 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:28:56.695 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:28:56.748 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:28:57.141 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:28:59.771 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:28:59.777 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:28:59.789 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:28:59.790 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:28:59.793 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:28:59.793 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:28:59.811 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:28:59.813 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:28:59.866 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:29:00.131 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:00.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:03.133 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:05.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:06.136 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:06.207 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:29:06.214 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:29:06.225 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:29:06.226 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:29:06.229 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:29:06.229 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:29:06.374 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:29:06.376 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:29:06.429 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:29:08.171 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:29:08.177 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:29:08.191 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:29:08.192 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:29:08.195 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:29:08.195 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:29:08.213 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:29:08.214 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:29:08.269 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:29:09.131 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:10.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:12.144 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:15.134 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:15.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:18.131 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:20.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:21.138 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:24.136 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:25.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:27.145 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:30.146 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:30.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:33.132 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:35.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:36.138 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:39.132 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:40.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:42.131 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:45.137 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:45.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:48.131 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:50.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:51.135 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:54.134 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:55.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:29:57.143 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:00.135 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:00.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:03.135 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:05.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:06.132 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:09.133 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:10.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:12.134 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:15.137 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:15.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:18.135 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:20.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:21.140 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:24.146 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:25.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:27.137 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:30.132 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:30.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:33.133 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:35.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:36.139 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:39.146 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:40.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:42.135 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:45.142 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:45.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:48.142 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:50.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:51.138 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:54.142 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:55.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:30:57.138 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:00.140 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:00.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:03.133 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:05.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:06.133 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:09.143 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:10.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:12.135 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:15.144 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:15.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:18.141 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:20.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:21.134 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:24.133 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:25.257 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:27.140 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:30.133 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:30.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:33.132 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:35.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:36.137 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:39.146 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:40.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:42.135 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:45.140 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:45.264 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:48.133 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:50.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:51.141 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:54.136 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:55.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:31:57.145 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:00.136 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:00.259 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:03.142 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:05.265 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:06.147 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:09.133 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:10.262 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:12.139 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:14.438 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:32:14.462 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:32:14.464 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:14.465 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:32:14.466 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:32:14.467 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:14.467 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:32:14.473 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:32:14.586 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:32:14.586 | ato_departure            | resolved=1/1
+2026-09-27 21:32:15.146 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:15.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:17.178 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:17.179 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:32:17.212 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:32:17.214 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:17.215 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:32:17.217 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:32:17.217 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:17.217 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:32:17.224 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:32:18.145 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:18.450 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-09-27 21:32:18.450 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-09-27 21:32:18.451 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-09-27 21:32:18.553 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:32:18.555 | campaign_overview        | system_marks=2
+2026-09-27 21:32:18.669 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:18.704 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:18.752 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:18.753 | friendly_ad_zone         | wps=2 buffer_nm=20.0 hull=26
+2026-09-27 21:32:19.222 | friendly_air_defense     | pkg=1273 ref=aoo sites=11 combat_wp=0 aoo_wp=2 covering=7 nearby=2 shown=2 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=22000
+2026-09-27 21:32:19.394 | briefing_context         | package_overview flights=1 route_points=9 focus_points=2 unique_points=9
+2026-09-27 21:32:19.467 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:19.474 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:32:19.488 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:32:19.489 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:32:19.494 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:19.494 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:32:19.526 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:32:19.528 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:19.600 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:19.717 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:19.721 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:19.725 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:19.728 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:19.730 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:19.737 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:19.761 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:32:19.771 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:32:19.779 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:32:19.788 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:32:19.796 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:32:19.808 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:32:19.833 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:32:19.834 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:32:19.851 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:32:19.852 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:32:19.861 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:32:19.862 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:32:19.870 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:19.871 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:32:19.871 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:32:19.872 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:32:19.897 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:32:19.898 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:32:19.902 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:19.903 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:32:19.924 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:19.925 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:32:19.945 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:19.945 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:32:19.962 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:32:19.969 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:20.001 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:32:20.009 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:32:20.008 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:20.013 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:32:20.046 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:32:20.049 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:20.108 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:32:20.112 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:20.163 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:32:20.166 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:20.203 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:32:20.204 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:20.236 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:20.267 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:32:20.267 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:20.312 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:20.350 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:20.385 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:20.419 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:20.429 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:32:20.431 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:20.524 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:20.538 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:32:20.575 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:20.593 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:20.606 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:20.608 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:20.617 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:32:20.623 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:32:20.670 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:32:20.671 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:32:20.678 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:20.678 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:32:20.679 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:32:20.684 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:32:20.695 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:20.695 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:32:20.720 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:32:20.721 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:20.753 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-09-27 21:32:20.755 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:20.812 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:20.845 | package_relevance        | package_routes pkg=1273 flights=1 routes=1 points=10
+2026-09-27 21:32:21.139 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:23.179 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:24.143 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:25.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:26.182 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:27.140 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:29.185 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:30.132 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:30.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:32.180 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:33.138 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:35.176 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:35.260 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:35.320 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-09-27 21:32:35.350 | fuel_plan                | avail=12194 atTurn=9291 bingo=3400 joker=3900 rtb=1256 margin=5891 GO
+2026-09-27 21:32:35.352 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:35.353 | mission_support          | awacs: cam pkg=1273 vu=20851
+2026-09-27 21:32:35.355 | mission_support          | tanker: bms nearest vu=20843
+2026-09-27 21:32:35.356 | radiomap_service         | radiomap path=C:\M2 Program files\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-09-27 21:32:35.358 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-09-27 21:32:35.364 | dtc_render               | path=Vince.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=3 n_divert=3 n_sections=42 hash=5db0889d
+2026-09-27 21:32:35.453 | ato_target               | resolved id=8445 target=Tank
+2026-09-27 21:32:35.453 | ato_departure            | resolved=1/1
+2026-09-27 21:32:36.136 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:38.180 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:39.142 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:40.258 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:41.175 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:42.135 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:44.178 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:45.144 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:45.263 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:47.176 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:48.139 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:48.966 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:50.178 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:50.261 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
+2026-09-27 21:32:51.133 | online                   | flight_occupancy flights=1 connected=3 pkg=1273
