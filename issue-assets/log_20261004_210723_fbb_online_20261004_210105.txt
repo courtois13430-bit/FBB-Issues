@@ -1,0 +1,37 @@
+2026-10-04 21:01:05.618 | ========================================================================
+2026-10-04 21:01:05.618 | FBB Online  mode=CLIENT    identity=LorikEolmin       port=45380
+2026-10-04 21:01:05.619 | Session : 2026-10-04 21:01:05
+2026-10-04 21:01:05.619 | ========================================================================
+2026-10-04 21:01:05.619 | [STATE] _client none -> NetworkClient#267052d42d0 | cause=connect_client
+2026-10-04 21:01:05.619 | [STATE] _mode idle -> client | cause=connect_client
+2026-10-04 21:01:05.619 | [STATE] _my_callsign (vide) -> LorikEolmin | cause=connect_client
+2026-10-04 21:01:05.620 | [CLIENT] status → connecting
+2026-10-04 21:01:05.621 | [STATE] reset online | cause=connect_client | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-10-04 21:01:05.621 | [CLIENT] Connexion → 82.64.199.133:45380 (callsign=LorikEolmin)
+2026-10-04 21:01:05.814 | [CLIENT] status → connected
+2026-10-04 21:01:06.846 | [CLIENT] status → error:le siege 2 n'est pas libre — il est a Mandrak
+2026-10-04 21:01:06.944 | [CLIENT] Connexion perdue — code=1000 (fermeture normale (bye de part et d'autre)) | last_seq=0 | session tenue 1 s
+2026-10-04 21:01:06.944 | [CLIENT] status → reconnecting:1
+2026-10-04 21:01:06.944 | [STATE] _reconnecting false -> true | cause=client_status:reconnecting#1
+2026-10-04 21:01:09.114 | [CLIENT] status → reconnected
+2026-10-04 21:01:09.114 | [STATE] _reconnecting true -> false | cause=client_status:reconnected
+2026-10-04 21:01:10.152 | [CLIENT] status → error:le siege 2 n'est pas libre — il est a Mandrak
+2026-10-04 21:01:10.248 | [CLIENT] Connexion perdue — code=1000 (fermeture normale (bye de part et d'autre)) | last_seq=0 | session tenue 1 s
+2026-10-04 21:01:10.249 | [CLIENT] status → reconnecting:1
+2026-10-04 21:01:10.249 | [STATE] _reconnecting false -> true | cause=client_status:reconnecting#1
+2026-10-04 21:01:12.426 | [CLIENT] status → reconnected
+2026-10-04 21:01:12.426 | [STATE] _reconnecting true -> false | cause=client_status:reconnected
+2026-10-04 21:01:13.467 | [CLIENT] status → error:le siege 2 n'est pas libre — il est a Mandrak
+2026-10-04 21:01:13.562 | [CLIENT] Connexion perdue — code=1000 (fermeture normale (bye de part et d'autre)) | last_seq=0 | session tenue 1 s
+2026-10-04 21:01:13.563 | [CLIENT] status → reconnecting:1
+2026-10-04 21:01:13.563 | [STATE] _reconnecting false -> true | cause=client_status:reconnecting#1
+2026-10-04 21:01:15.727 | [CLIENT] status → reconnected
+2026-10-04 21:01:15.727 | [STATE] _reconnecting true -> false | cause=client_status:reconnected
+2026-10-04 21:01:15.913 | [STATE] _client NetworkClient#267052d42d0 -> none | cause=disconnect_client
+2026-10-04 21:01:15.913 | [STATE] _mode client -> idle | cause=disconnect_client
+2026-10-04 21:01:15.914 | [CLIENT] Connexion perdue — code=None (aucun code — la socket n'a jamais été fermée proprement) | last_seq=0 | session tenue 0 s
+2026-10-04 21:01:15.914 | [STATE] _my_callsign LorikEolmin -> (vide) | cause=disconnect_client
+2026-10-04 21:01:15.915 | [STATE] reset online | cause=disconnect_client | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt
+2026-10-04 21:01:15.915 | [CLIENT] Déconnecté
+2026-10-04 21:01:15.915 | ========================================================================
+2026-10-04 21:01:15.915 | FBB Online — session terminée | cause=disconnect_client — déconnexion demandée par l'UI
