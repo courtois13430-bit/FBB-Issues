@@ -1,0 +1,335 @@
+2026-10-04 20:58:04.597 | ========================================================================
+2026-10-04 20:58:04.597 | startup                  | FBB 1.94.0 — session 2026-10-04 20:58:04
+2026-10-04 20:58:04.597 | startup                  | Répertoire : C:\Users\gaeri\AppData\Local\Programs\FBB\_internal
+2026-10-04 20:58:04.597 | startup                  | Python 3.14.5
+2026-10-04 20:58:04.597 | ========================================================================
+2026-10-04 20:58:04.597 | system                   | OS : Windows 11 10.0.26300, AMD64, 28 CPU, RAM 32 GB
+2026-10-04 20:58:04.605 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-10-04 20:58:04.605 | registry                 | BMS baseDir : F:\Falcon BMS 4.38
+2026-10-04 20:58:04.606 | registry                 | BMS theater : LKTO 4.38 + Papa  pilot : LorikEolmin
+2026-10-04 20:58:04.966 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-10-04 20:58:07.995 | telemetry                | ping OK v1.94.0 Windows 11 canal=prod → HTTP 200
+2026-10-04 20:58:08.090 | parse_health             | CI04.cam: records 505/505, bytes 232831/232831, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-04 20:58:11.364 | dtc_render               | path=LorikEolmin.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=8 n_divert=0 n_sections=0 hash=8af49237
+2026-10-04 20:58:11.385 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-04 20:58:16.767 | swap_context             | origin=select_cam:latest cam='ci04.cam' loaded=True err=''
+2026-10-04 20:58:17.173 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-04 20:58:17.176 | dtc_render               | path=LorikEolmin.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=8 n_divert=0 n_sections=0 hash=8af49237
+2026-10-04 20:58:40.741 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-04 20:58:40.743 | dtc_render               | path=LorikEolmin.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=8 n_divert=0 n_sections=0 hash=8af49237
+2026-10-04 21:00:33.966 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-04 21:00:33.969 | dtc_render               | path=LorikEolmin.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=8 n_divert=0 n_sections=0 hash=8af49237
+2026-10-04 21:00:44.208 | online                   | peek_roster 82.64.199.133:45380 start (suggested=LorikEolmin)
+2026-10-04 21:00:45.414 | online                   | peek_roster 82.64.199.133:45380 ok: 1 vol(s)
+2026-10-04 21:01:03.346 | online                   | peek_roster 82.64.199.133:45380 start (suggested=LorikEolmin)
+2026-10-04 21:01:04.543 | online                   | peek_roster 82.64.199.133:45380 ok: 1 vol(s)
+2026-10-04 21:01:05.621 | online                   | connect_client 82.64.199.133:45380 as LorikEolmin
+2026-10-04 21:01:06.343 | online                   | flight_occupancy flights=0 connected=1 pkg=None
+2026-10-04 21:01:11.343 | online                   | flight_occupancy flights=0 connected=1 pkg=None
+2026-10-04 21:01:12.502 | online                   | flight_occupancy flights=0 connected=1 pkg=None
+2026-10-04 21:01:15.122 | online                   | flight_occupancy flights=0 connected=1 pkg=None
+2026-10-04 21:01:15.915 | online                   | disconnect_client
+2026-10-04 21:01:16.162 | parse_health             | D-AntiChamber-Backup.cam: records 456/456, bytes 206856/206856, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-04 21:01:16.599 | swap_context             | origin=select_cam:previous cam='d-antichamber-backup.cam' loaded=True err=''
+2026-10-04 21:01:17.091 | online                   | peek_roster 82.64.199.133:45380 start (suggested=LorikEolmin)
+2026-10-04 21:01:17.192 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-04 21:01:17.577 | dtc_render               | path=LorikEolmin.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=8af49237
+2026-10-04 21:01:18.983 | online                   | peek_roster 82.64.199.133:45380 ok: 1 vol(s)
+2026-10-04 21:01:20.016 | online                   | connect_client 82.64.199.133:45380 as LorikEolmin
+2026-10-04 21:01:21.209 | online                   | host_theater=LKTO 4.38 + Papa local=LKTO 4.38 + Papa
+2026-10-04 21:01:21.319 | online                   | seats_import n=3
+2026-10-04 21:01:21.343 | online                   | flight_occupancy flights=1 connected=3 pkg=None
+2026-10-04 21:01:21.428 | online                   | campaign_bundle received 8 files
+2026-10-04 21:01:21.448 | online                   | theater_ok: LKTO 4.38 + Papa
+2026-10-04 21:01:21.493 | online                   | ba_containers_sync received 14
+2026-10-04 21:01:21.493 | online                   | seats_import n=3
+2026-10-04 21:01:21.632 | parse_health             | CI05.cam: records 669/669, bytes 309997/309997, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-04 21:01:21.665 | online                   | loadout_sync_received
+2026-10-04 21:01:21.700 | online                   | campaign_bundle applied: CI05.cam
+2026-10-04 21:01:21.702 | online                   | campaign_stem pending host=CI05 local=-
+2026-10-04 21:01:21.738 | ato_target               | index_built names=6665 memo=True
+2026-10-04 21:01:21.738 | ato_target               | resolved id=2123 target=EW Site Chagun'gogae P-80
+2026-10-04 21:01:21.738 | ato_departure            | resolved=1/1
+2026-10-04 21:01:21.750 | ato_target               | resolved id=2123 target=EW Site Chagun'gogae P-80
+2026-10-04 21:01:21.750 | ato_departure            | resolved=1/1
+2026-10-04 21:01:22.212 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-04 21:01:24.723 | online                   | stem_confirm host=CI05 chosen=CI05
+2026-10-04 21:01:25.257 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:01:25.260 | mission_support          | awacs: bms nearest vu=23780
+2026-10-04 21:01:25.262 | mission_support          | tanker: cam pkg=1235 vu=20843
+2026-10-04 21:01:25.263 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:01:25.263 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-10-04 21:01:25.462 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=49 hash=8af49237
+2026-10-04 21:01:26.344 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-10-04 21:01:31.344 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-10-04 21:01:36.343 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-10-04 21:01:41.341 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-10-04 21:01:46.343 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-10-04 21:01:51.343 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-10-04 21:01:56.340 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-10-04 21:02:01.343 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-10-04 21:02:06.343 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-10-04 21:02:11.345 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-10-04 21:02:16.343 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-10-04 21:02:21.343 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-10-04 21:02:25.693 | online                   | flight_occupancy flights=1 connected=4 pkg=1235
+2026-10-04 21:02:25.753 | online                   | seats_import n=3
+2026-10-04 21:02:25.756 | online                   | flight_occupancy flights=1 connected=4 pkg=1235
+2026-10-04 21:02:25.760 | online                   | flight_occupancy flights=1 connected=4 pkg=1235
+2026-10-04 21:02:26.343 | online                   | flight_occupancy flights=1 connected=4 pkg=1235
+2026-10-04 21:02:31.343 | online                   | flight_occupancy flights=1 connected=4 pkg=1235
+2026-10-04 21:02:36.343 | online                   | flight_occupancy flights=1 connected=4 pkg=1235
+2026-10-04 21:02:41.342 | online                   | flight_occupancy flights=1 connected=4 pkg=1235
+2026-10-04 21:02:46.343 | online                   | flight_occupancy flights=1 connected=4 pkg=1235
+2026-10-04 21:02:51.342 | online                   | flight_occupancy flights=1 connected=4 pkg=1235
+2026-10-04 21:02:56.342 | online                   | flight_occupancy flights=1 connected=4 pkg=1235
+2026-10-04 21:02:59.918 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:02:59.998 | online                   | seats_import n=4
+2026-10-04 21:03:01.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:03:06.343 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:03:11.343 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:03:16.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:03:21.343 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:03:26.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:03:31.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:03:36.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:03:41.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:03:46.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:03:51.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:03:56.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:03:57.773 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-04 21:03:57.789 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:03:57.792 | mission_support          | awacs: bms nearest vu=23780
+2026-10-04 21:03:57.794 | mission_support          | tanker: cam pkg=1235 vu=20843
+2026-10-04 21:03:57.794 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:03:57.794 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-10-04 21:03:57.799 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=49 hash=8af49237
+2026-10-04 21:03:57.924 | ato_target               | resolved id=2123 target=EW Site Chagun'gogae P-80
+2026-10-04 21:03:57.924 | ato_departure            | resolved=1/1
+2026-10-04 21:04:00.684 | mission_support          | tanker: cam pkg=1235 vu=20843
+2026-10-04 21:04:00.685 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:00.688 | mission_support          | tanker: cam pkg=1235 vu=20843
+2026-10-04 21:04:00.691 | mission_support          | awacs: bms nearest vu=23780
+2026-10-04 21:04:00.691 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:00.692 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:00.692 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-10-04 21:04:00.695 | mission_support          | awacs: bms nearest vu=23780
+2026-10-04 21:04:00.730 | package_relevance        | package_routes pkg=1235 flights=1 routes=1 points=15
+2026-10-04 21:04:00.918 | friendly_air_defense     | pkg=1235 ref=stpt sites=11 combat_wp=1 aoo_wp=0 covering=1 nearby=4 shown=4 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=22000
+2026-10-04 21:04:00.920 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok buddies=2
+2026-10-04 21:04:00.920 | package_relevance        | package_routes pkg=1235 flights=1 routes=1 points=15
+2026-10-04 21:04:00.920 | briefing_context         | package_route_sketch flights=1 points=15
+2026-10-04 21:04:00.935 | briefing_context         | ordnance vu=24196 aircraft=4 pending=False
+2026-10-04 21:04:00.964 | campaign_overview        | objective_index loaded=5992
+2026-10-04 21:04:00.974 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-04 21:04:00.979 | mission_support          | awacs: bms nearest vu=23780
+2026-10-04 21:04:00.981 | mission_support          | tanker: cam pkg=1235 vu=20843
+2026-10-04 21:04:01.072 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-04 21:04:01.339 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:01.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:01.505 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-04 21:04:01.527 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:01.530 | mission_support          | awacs: bms nearest vu=23780
+2026-10-04 21:04:01.532 | mission_support          | tanker: cam pkg=1235 vu=20843
+2026-10-04 21:04:01.533 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:01.533 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-10-04 21:04:01.540 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=49 hash=8af49237
+2026-10-04 21:04:01.864 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:01.867 | mission_support          | awacs: bms nearest vu=23780
+2026-10-04 21:04:01.868 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:01.868 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-10-04 21:04:02.341 | airport_surface          | cache schema mismatch (got 2, want 4) -> rebuild
+2026-10-04 21:04:02.478 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-04 21:04:02.479 | campaign_overview        | system_marks=2
+2026-10-04 21:04:02.726 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:02.775 | package_relevance        | package_routes pkg=1235 flights=1 routes=1 points=15
+2026-10-04 21:04:02.778 | friendly_ad_zone         | wps=1 buffer_nm=20.0 hull=24
+2026-10-04 21:04:03.090 | friendly_air_defense     | pkg=1235 ref=aoo sites=11 combat_wp=0 aoo_wp=1 covering=6 nearby=1 shown=1 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=22000
+2026-10-04 21:04:03.187 | mission_support          | tanker: cam pkg=1235 vu=20843
+2026-10-04 21:04:03.209 | mission_support          | awacs: bms nearest vu=23780
+2026-10-04 21:04:03.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:03.361 | mission_support          | tanker: cam pkg=1235 vu=20843
+2026-10-04 21:04:03.366 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:03.369 | mission_support          | tanker: cam pkg=1235 vu=20843
+2026-10-04 21:04:03.384 | mission_support          | awacs: bms nearest vu=23780
+2026-10-04 21:04:03.476 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:03.483 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:03.484 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-10-04 21:04:03.487 | mission_support          | awacs: bms nearest vu=23780
+2026-10-04 21:04:03.524 | package_relevance        | package_routes pkg=1235 flights=1 routes=1 points=15
+2026-10-04 21:04:03.569 | friendly_air_defense     | pkg=1235 ref=stpt sites=11 combat_wp=1 aoo_wp=0 covering=1 nearby=4 shown=4 blocked_cov=None sans_type=0 ppt_types=242 alt_ft=22000
+2026-10-04 21:04:03.573 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok buddies=2
+2026-10-04 21:04:03.574 | package_relevance        | package_routes pkg=1235 flights=1 routes=1 points=15
+2026-10-04 21:04:03.574 | briefing_context         | package_route_sketch flights=1 points=15
+2026-10-04 21:04:03.575 | briefing_context         | ordnance vu=24196 aircraft=4 pending=False
+2026-10-04 21:04:03.631 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-04 21:04:03.636 | mission_support          | awacs: bms nearest vu=23780
+2026-10-04 21:04:03.638 | mission_support          | tanker: cam pkg=1235 vu=20843
+2026-10-04 21:04:04.081 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-04 21:04:04.317 | online                   | mc_assigned Obe1 (vol 24196 siège 1)
+2026-10-04 21:04:04.568 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:04.788 | briefing_context         | package_overview flights=1 route_points=14 focus_points=1 unique_points=14
+2026-10-04 21:04:06.386 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:07.638 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:09.038 | airport_surface          | built theater=LKTO 4.38 + Papa ct30=66 fallback_knn=21 cache=ok
+2026-10-04 21:04:10.576 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:11.294 | airport_diagrams         | taxi surfaces=62 terrains en raster | repli K-NN : 21 sans mesh CT30, 4 sous-couvrants
+2026-10-04 21:04:11.294 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-10-04 21:04:11.294 | airport_diagrams         |   CT30 sous-couvrant : Hwangsuwon Airbase, Orang Airbase, Taechon Airbase, ZKJN
+2026-10-04 21:04:11.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:13.505 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:16.339 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:16.503 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:19.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:21.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:22.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:25.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:26.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:28.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:29.669 | online                   | mc_layer_sync_received v1
+2026-10-04 21:04:29.685 | package_relevance        | package_routes pkg=1235 flights=1 routes=1 points=15
+2026-10-04 21:04:29.735 | package_relevance        | package_routes pkg=1235 flights=1 routes=1 points=15
+2026-10-04 21:04:30.101 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:30.105 | mission_support          | awacs: bms nearest vu=23780
+2026-10-04 21:04:30.106 | mission_support          | tanker: cam pkg=1235 vu=20843
+2026-10-04 21:04:30.107 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:30.107 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-10-04 21:04:30.111 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=22 n_ppt=2 n_dpi=0 n_divert=3 n_sections=49 hash=8af49237
+2026-10-04 21:04:30.135 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:30.138 | mission_support          | awacs: bms nearest vu=23780
+2026-10-04 21:04:30.139 | mission_support          | tanker: cam pkg=1235 vu=20843
+2026-10-04 21:04:30.140 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:30.140 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-10-04 21:04:30.144 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=22 n_ppt=2 n_dpi=0 n_divert=3 n_sections=49 hash=8af49237
+2026-10-04 21:04:31.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:31.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:34.503 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:36.343 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:37.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:40.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:41.338 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:43.505 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:44.537 | package_relevance        | package_routes pkg=1235 flights=1 routes=1 points=15
+2026-10-04 21:04:44.581 | package_relevance        | package_routes pkg=1235 flights=1 routes=1 points=15
+2026-10-04 21:04:44.953 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:44.956 | mission_support          | awacs: bms nearest vu=23780
+2026-10-04 21:04:44.958 | mission_support          | tanker: cam pkg=1235 vu=20843
+2026-10-04 21:04:44.958 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:44.958 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-10-04 21:04:44.963 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=22 n_ppt=2 n_dpi=0 n_divert=3 n_sections=49 hash=8af49237
+2026-10-04 21:04:44.986 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:44.989 | mission_support          | awacs: bms nearest vu=23780
+2026-10-04 21:04:44.991 | mission_support          | tanker: cam pkg=1235 vu=20843
+2026-10-04 21:04:44.991 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:04:44.991 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-10-04 21:04:44.995 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=22 n_ppt=2 n_dpi=0 n_divert=3 n_sections=49 hash=8af49237
+2026-10-04 21:04:46.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:46.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:49.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:51.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:52.503 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:55.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:56.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:04:58.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:01.651 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:01.662 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:04.504 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:06.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:07.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:10.506 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:11.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:13.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:14.925 | recon_flatten            | Sangwon Highwaystrip: ref=375 core=770 nodes=143 cut=-227 fill=24
+2026-10-04 21:05:15.185 | recon_atmosphere         | cam_e=1316171 cam_n=1777129 vis=60.0km fog_z=0ft fmap=CI05.fmap
+2026-10-04 21:05:15.310 | recon                    | cam_units: campaign_dir='F:\\Falcon BMS 4.38\\Data\\Add-On LKTO+\\Campaign+' falcon4.tt=True units_sol=176
+2026-10-04 21:05:16.348 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:16.505 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:16.664 | deagg                    | tactic=22 → formation=1 (FALCON4.TT, OK)
+2026-10-04 21:05:16.666 | deagg                    | tactic=18 → formation=1 (FALCON4.TT, OK)
+2026-10-04 21:05:16.670 | deagg                    | tactic=13 → formation=6 (FALCON4.TT, OK)
+2026-10-04 21:05:16.676 | deagg                    | tactic=23 → formation=3 (FALCON4.TT, OK)
+2026-10-04 21:05:16.720 | deagg                    | tactic=30 → formation=0 (FALCON4.TT, OK)
+2026-10-04 21:05:16.726 | deagg                    | tactic=0 → formation=0 (FALCON4.TT, OK)
+2026-10-04 21:05:16.734 | deagg                    | tactic=25 → formation=4 (FALCON4.TT, OK)
+2026-10-04 21:05:16.739 | deagg                    | tactic=20 → formation=6 (FALCON4.TT, OK)
+2026-10-04 21:05:16.763 | deagg                    | tactic=14 → formation=6 (FALCON4.TT, OK)
+2026-10-04 21:05:19.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:21.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:22.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:24.372 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-04 21:05:24.390 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:05:24.393 | mission_support          | awacs: bms nearest vu=23780
+2026-10-04 21:05:24.395 | mission_support          | tanker: cam pkg=1235 vu=20843
+2026-10-04 21:05:24.397 | radiomap_service         | radiomap path=F:\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-04 21:05:24.397 | package_comms            | tactical ch=6 primary=Plasma 1 uhf=376.225
+2026-10-04 21:05:24.402 | dtc_render               | path=LorikEolmin.ini n_stpt=24 n_lines=22 n_ppt=2 n_dpi=0 n_divert=3 n_sections=49 hash=8af49237
+2026-10-04 21:05:25.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:26.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:28.504 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:31.340 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:31.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:34.505 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:36.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:37.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:39.575 | recon_flatten            | Sangwon Highwaystrip: ref=375 core=770 nodes=143 cut=-227 fill=24
+2026-10-04 21:05:39.815 | recon_atmosphere         | cam_e=1316118 cam_n=1777763 vis=60.0km fog_z=0ft fmap=CI05.fmap
+2026-10-04 21:05:39.827 | recon                    | cam_units: campaign_dir='F:\\Falcon BMS 4.38\\Data\\Add-On LKTO+\\Campaign+' falcon4.tt=True units_sol=176
+2026-10-04 21:05:40.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:41.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:43.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:46.342 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:46.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:49.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:51.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:52.503 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:55.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:56.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:05:58.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:01.339 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:01.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:04.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:06.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:07.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:10.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:11.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:13.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:16.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:16.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:19.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:21.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:22.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:25.503 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:26.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:28.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:31.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:31.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:34.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:36.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:37.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:40.500 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:41.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:43.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:46.339 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:46.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:49.508 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:51.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:52.502 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:55.507 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:56.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:06:58.508 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:07:01.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:07:01.505 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:07:04.507 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:07:06.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:07:07.507 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:07:10.508 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:07:11.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:07:13.504 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:07:16.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:07:16.501 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:07:19.508 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:07:21.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:07:22.507 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:07:22.747 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:07:25.507 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
+2026-10-04 21:07:26.341 | online                   | flight_occupancy flights=1 connected=5 pkg=1235
