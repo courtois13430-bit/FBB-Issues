@@ -1,0 +1,626 @@
+20:03:14.745 INFO     fbb.web.launcher       | Session log : C:\Users\thcab\AppData\Local\Programs\FBB\_internal\Log\fbb_log_20261015_200314.txt
+20:03:14.745 INFO     fbb.web.launcher       | FBB version : 1.95.0
+20:03:14.748 INFO     fbb.web.launcher       | Icône fenêtre : C:\Users\thcab\AppData\Local\Programs\FBB\_internal\Art\FBB.ico
+20:03:14.810 INFO     fbb.web.launcher       | TLS : truststore actif (vérification via magasin Windows)
+20:03:14.833 INFO     fbb.license            | Licence valide — Rouge, expire 2027-09-30
+20:03:14.833 INFO     fbb.license_gate       | Licence OK — Rouge (expire 2027-09-30)
+20:03:14.853 INFO     fbb.web.launcher       | Démarrage uvicorn sur 127.0.0.1:8765
+20:03:15.066 DEBUG    fbb.web.launcher       | Splash : 774x790 @ (893,325) — file:///C:/Users/thcab/AppData/Local/Temp/fbb_splash_uq5ncxdp.html
+20:03:16.154 DEBUG    fbb.web.launcher       | Taille de naissance "splash" : 758x751 → 774x790 (bordure pywebview)
+20:03:17.391 DEBUG    asyncio                | Using proactor: IocpProactor
+20:03:17.446 INFO     uvicorn.error          | Started server process [20632]
+20:03:17.446 INFO     uvicorn.error          | Waiting for application startup.
+20:03:17.447 INFO     fbb.web                | Bootstrap AppContext…
+20:03:17.508 INFO     fbb.web.context        | Session précédente : cam=C:\Falcon BMS 4.38\Data\Campaign\Octobre11.cam html=C:\Falcon BMS 4.38\User\Briefings\briefing.txt
+20:03:18.158 INFO     fbb.web.context        | UCD 609 entries, VCD 449 entries
+20:03:18.724 DEBUG    utils.parse_health     | parse OK — Debut_campagne1.cam: records 1014/1014, bytes 437893/437893, rejects=0, exc=0, constr_err=0, first_desync=None
+20:03:19.632 INFO     fbb.web.context        | theater_objects : 7 objectif(s) reposé(s) sur l'ancre du .obj (≠ CampObjData.XML)
+20:03:19.632 INFO     fbb.web.context        | Theater objects validés (Korea KTO) : 5999 objets, recouvrement noms 49/49 [objectives_Korea_KTO.json]
+20:03:19.635 INFO     fbb.web.context        | INI DTC chargé : 17 sections
+20:03:19.639 INFO     fbb.web.context        | MissionData : surcouche théâtre appliquée — 485 valeurs sur 50 missions (MissionData_04.XML)
+20:03:19.739 INFO     fbb.web.context        | Terrain DB chargée
+20:03:19.741 INFO     fbb.web.context        | HiresTileCache initialise : C:\Falcon BMS 4.38\Data\TerrData\Korea\NewTerrain\Photoreal\16K (calibrated=True, echelle=16K+4K)
+20:03:19.745 INFO     fbb.web.context        | HiresOverlayCache initialise : C:\Falcon BMS 4.38\Data\TerrData\Korea\NewTerrain\Photoreal\Hires\Day (1643 tuiles)
+20:03:19.755 INFO     fbb.web.context        | Airports (Korea KTO) : 87 aérodromes
+20:03:19.761 INFO     fbb.web.context        | Context chargé : 1014 units, 49 objectives depuis Debut_campagne1.cam
+20:03:19.761 INFO     fbb.web.context        | [perf] build_context 1014 unités, 49 objectifs, 5999 theater_objects en 2314 ms — Debut_campagne1.cam
+20:03:19.761 INFO     fbb.web.context        | Palette équipes BMS (Korea KTO) : {1: '#008000', 2: '#00A0FF', 3: '#8C5218', 4: '#FFA800', 5: '#FFFF00', 6: '#FF0000', 7: '#39848C'}
+20:03:19.762 INFO     fbb.web.map            | [bg-tiles] Chargement PNG kto en mémoire…
+20:03:19.763 INFO     fbb.web                | Génération sprites tactiques OTAN (fallback)…
+20:03:19.780 INFO     fbb.web.sprites        | Sprites générés : 0 nouveaux / 280 total dans C:\Users\thcab\AppData\Local\Programs\FBB\_internal\backend_api\static\sprites
+20:03:19.783 INFO     utils.bms_rsc          | init_image_ids: 338 entrées chargées depuis C:\Falcon BMS 4.38\Data\Art\Main\ImageIds.id
+20:03:19.785 INFO     utils.bms_rsc          | init_irc_map: 82 icônes IRC chargées depuis C:\Falcon BMS 4.38\Data\Art\Resource\BluDark.idx
+20:03:19.791 INFO     fbb.web                | [perf] rsc_sprites 3950 + 656 theater (dossier 1e27e845e1f2) en 11 ms
+20:03:19.813 INFO     fbb.web.online         | OnlineManager : boucle asyncio liée
+20:03:19.813 INFO     fbb.dpi                | DPI init depuis DTC : 0 items (target_83..98)
+20:03:19.820 INFO     fbb.web.stall          | [gel] chien de garde armé : seuil 2.0 s
+20:03:19.825 INFO     uvicorn.error          | Application startup complete.
+20:03:19.828 INFO     uvicorn.error          | Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+20:03:20.155 INFO     fbb.recon.cache        | RECON prewarm : Korea KTO déjà chauds
+20:03:20.197 INFO     fbb.web.launcher       | [SPLASH] ── Phase 1 : pré-chargement données mission…
+20:03:20.198 DEBUG    fbb.web.launcher       | Splash update OK : Chargement des données mission… 30%
+20:03:20.214 INFO     uvicorn.access         | 127.0.0.1:51184 - "GET /api/dashboard HTTP/1.1" 200
+20:03:20.215 INFO     fbb.web.launcher       | [SPLASH] ── Phase 1 OK  0.02 s
+20:03:20.215 INFO     fbb.web.launcher       | [SPLASH] ── Phase 2 : pré-chargement fond carte SITAC…
+20:03:20.216 DEBUG    fbb.web.launcher       | Splash update OK : Chargement fond carte SITAC… 65%
+20:03:20.221 INFO     uvicorn.access         | 127.0.0.1:51185 - "GET /api/map/background HTTP/1.1" 200
+20:03:20.222 INFO     fbb.web.launcher       | [SPLASH] Fond carte : pré-génération 13 tuiles (z13+z14)…
+20:03:20.226 INFO     uvicorn.access         | 127.0.0.1:51186 - "GET /api/map/bg/kto_820_3358720_r2/13/4096/4095.jpg HTTP/1.1" 200
+20:03:20.228 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z13/4096/4095  0.01 s
+20:03:20.232 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=13 x=4096 y=4096 (ctx.theater_key=kto)
+20:03:23.024 INFO     fbb.web.map            | [perf] bg_png_decode kto 16384x16384 en 3261 ms, résident ~768 Mo RAM
+20:03:23.024 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=13 x=4096 y=4096
+20:03:23.025 INFO     uvicorn.access         | 127.0.0.1:51187 - "GET /api/map/bg/kto_820_3358720_r2/13/4096/4096.jpg HTTP/1.1" 404
+20:03:23.025 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z13/4096/4096 : HTTP Error 404: Not Found
+20:03:23.029 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=13 x=4097 y=4095 (ctx.theater_key=kto)
+20:03:23.029 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=13 x=4097 y=4095
+20:03:23.029 INFO     uvicorn.access         | 127.0.0.1:51188 - "GET /api/map/bg/kto_820_3358720_r2/13/4097/4095.jpg HTTP/1.1" 404
+20:03:23.030 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z13/4097/4095 : HTTP Error 404: Not Found
+20:03:23.033 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=13 x=4097 y=4096 (ctx.theater_key=kto)
+20:03:23.034 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=13 x=4097 y=4096
+20:03:23.034 INFO     uvicorn.access         | 127.0.0.1:51189 - "GET /api/map/bg/kto_820_3358720_r2/13/4097/4096.jpg HTTP/1.1" 404
+20:03:23.034 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z13/4097/4096 : HTTP Error 404: Not Found
+20:03:23.041 INFO     uvicorn.access         | 127.0.0.1:51190 - "GET /api/map/bg/kto_820_3358720_r2/14/8192/8190.jpg HTTP/1.1" 200
+20:03:23.043 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8192/8190  0.01 s
+20:03:23.047 INFO     uvicorn.access         | 127.0.0.1:51191 - "GET /api/map/bg/kto_820_3358720_r2/14/8192/8191.jpg HTTP/1.1" 200
+20:03:23.049 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8192/8191  0.01 s
+20:03:23.053 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8192 y=8192 (ctx.theater_key=kto)
+20:03:23.053 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8192 y=8192
+20:03:23.053 INFO     uvicorn.access         | 127.0.0.1:51192 - "GET /api/map/bg/kto_820_3358720_r2/14/8192/8192.jpg HTTP/1.1" 404
+20:03:23.053 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8192/8192 : HTTP Error 404: Not Found
+20:03:23.058 INFO     uvicorn.access         | 127.0.0.1:51193 - "GET /api/map/bg/kto_820_3358720_r2/14/8193/8190.jpg HTTP/1.1" 200
+20:03:23.060 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8193/8190  0.01 s
+20:03:23.064 INFO     uvicorn.access         | 127.0.0.1:51194 - "GET /api/map/bg/kto_820_3358720_r2/14/8193/8191.jpg HTTP/1.1" 200
+20:03:23.065 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8193/8191  0.01 s
+20:03:23.069 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8193 y=8192 (ctx.theater_key=kto)
+20:03:23.069 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8193 y=8192
+20:03:23.069 INFO     uvicorn.access         | 127.0.0.1:51195 - "GET /api/map/bg/kto_820_3358720_r2/14/8193/8192.jpg HTTP/1.1" 404
+20:03:23.070 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8193/8192 : HTTP Error 404: Not Found
+20:03:23.073 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8194 y=8190 (ctx.theater_key=kto)
+20:03:23.073 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8194 y=8190
+20:03:23.074 INFO     uvicorn.access         | 127.0.0.1:51196 - "GET /api/map/bg/kto_820_3358720_r2/14/8194/8190.jpg HTTP/1.1" 404
+20:03:23.074 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8194/8190 : HTTP Error 404: Not Found
+20:03:23.077 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8194 y=8191 (ctx.theater_key=kto)
+20:03:23.078 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8194 y=8191
+20:03:23.078 INFO     uvicorn.access         | 127.0.0.1:51197 - "GET /api/map/bg/kto_820_3358720_r2/14/8194/8191.jpg HTTP/1.1" 404
+20:03:23.078 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8194/8191 : HTTP Error 404: Not Found
+20:03:23.081 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : kto z=14 x=8194 y=8192 (ctx.theater_key=kto)
+20:03:23.082 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8194 y=8192
+20:03:23.082 INFO     uvicorn.access         | 127.0.0.1:51198 - "GET /api/map/bg/kto_820_3358720_r2/14/8194/8192.jpg HTTP/1.1" 404
+20:03:23.082 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8194/8192 : HTTP Error 404: Not Found
+20:03:23.083 INFO     fbb.web.launcher       | [SPLASH] Fond carte : 5/13 tuiles cachées — 2.86 s total
+20:03:23.083 INFO     fbb.web.launcher       | [SPLASH] ── Phase 2 OK  2.87 s
+20:03:23.083 INFO     fbb.web.launcher       | [SPLASH] ── Phase 3 : ouverture dashboard…
+20:03:23.084 DEBUG    fbb.web.launcher       | Splash update OK : Ouverture… 90%
+20:03:23.084 INFO     fbb.web.launcher       | Ouverture fenêtre Dashboard → http://127.0.0.1:8765/dashboard.html
+20:03:23.105 DEBUG    fbb.web.launcher       | Taille de naissance "dashboard" : 674x969 → 690x1008 (bordure pywebview)
+20:03:23.218 INFO     uvicorn.access         | 127.0.0.1:24555 - "GET /dashboard.html HTTP/1.1" 200
+20:03:23.260 INFO     uvicorn.access         | 127.0.0.1:24555 - "GET /fbb-tokens.css HTTP/1.1" 200
+20:03:23.276 INFO     uvicorn.access         | 127.0.0.1:24555 - "GET /fbb-buttons.css HTTP/1.1" 200
+20:03:23.276 INFO     uvicorn.access         | 127.0.0.1:29085 - "GET /utils.js HTTP/1.1" 200
+20:03:23.278 INFO     uvicorn.access         | 127.0.0.1:16331 - "GET /js/i18n.js?v=20261010a HTTP/1.1" 200
+20:03:23.279 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /fbb-tooltips.css HTTP/1.1" 200
+20:03:23.279 INFO     uvicorn.access         | 127.0.0.1:41111 - "GET /js/fbb-dialog.js HTTP/1.1" 200
+20:03:23.280 INFO     uvicorn.access         | 127.0.0.1:35095 - "GET /js/mfd-msg.js?v=20261010a HTTP/1.1" 200
+20:03:23.286 INFO     uvicorn.access         | 127.0.0.1:24555 - "GET /js/knb-print-report.js?v=20260924b HTTP/1.1" 200
+20:03:23.290 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /js/knb-mission-map-prep.js?v=20261008a HTTP/1.1" 200
+20:03:23.295 INFO     uvicorn.access         | 127.0.0.1:29085 - "GET /assets/ui/FBB_Debrief_band_v2.png?v=20261009a HTTP/1.1" 200
+20:03:23.296 INFO     uvicorn.access         | 127.0.0.1:35095 - "GET /assets/ui/FBB_Main_UI_web_v5.png?v=20261009a HTTP/1.1" 200
+20:03:23.304 INFO     uvicorn.access         | 127.0.0.1:29085 - "GET /js/win-keys.js HTTP/1.1" 200
+20:03:23.315 INFO     uvicorn.access         | 127.0.0.1:35095 - "GET /js/fbb-tooltips.js?v=20261008a HTTP/1.1" 200
+20:03:23.373 INFO     uvicorn.access         | 127.0.0.1:16331 - "GET /api/health HTTP/1.1" 200
+20:03:23.405 INFO     uvicorn.error          | 127.0.0.1:13200 - "WebSocket /ws" [accepted]
+20:03:23.405 DEBUG    fbb.ws                 | WS connect — 1 clients
+20:03:23.408 INFO     uvicorn.error          | connection open
+20:03:23.409 INFO     uvicorn.access         | 127.0.0.1:29085 - "GET /api/kneeboard/print_state HTTP/1.1" 200
+20:03:23.471 INFO     uvicorn.access         | 127.0.0.1:41111 - "GET /api/dashboard HTTP/1.1" 200
+20:03:23.471 INFO     uvicorn.access         | 127.0.0.1:16331 - "GET /api/dtc/import/sources HTTP/1.1" 200
+20:03:23.472 INFO     uvicorn.access         | 127.0.0.1:35095 - "GET /api/dtc/pending HTTP/1.1" 200
+20:03:23.475 INFO     uvicorn.access         | 127.0.0.1:24555 - "GET /api/setup/prefs HTTP/1.1" 200
+20:03:23.476 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+20:03:23.484 INFO     uvicorn.access         | 127.0.0.1:29085 - "GET /api/online/status HTTP/1.1" 200
+20:03:23.487 INFO     uvicorn.access         | 127.0.0.1:35095 - "GET /api/setup/prefs HTTP/1.1" 200
+20:03:23.487 INFO     uvicorn.access         | 127.0.0.1:41111 - "GET /api/fbb/light HTTP/1.1" 200
+20:03:23.489 INFO     fbb.web.ui             | UI »» prefetch/start         t=0ms
+20:03:23.492 INFO     uvicorn.access         | 127.0.0.1:16331 - "GET /api/telemetry/status HTTP/1.1" 200
+20:03:23.492 INFO     uvicorn.access         | 127.0.0.1:29085 - "POST /api/debug/log HTTP/1.1" 200
+20:03:23.495 INFO     uvicorn.access         | 127.0.0.1:24555 - "GET /favicon.ico HTTP/1.1" 404
+20:03:23.497 INFO     uvicorn.access         | 127.0.0.1:41111 - "GET /api/update/pending HTTP/1.1" 200
+20:03:23.500 INFO     uvicorn.access         | 127.0.0.1:16331 - "GET /api/dashboard/airframe_badge.png?k=Debut_campagne1%7C%E2%80%94 HTTP/1.1" 204
+20:03:23.501 INFO     uvicorn.access         | 127.0.0.1:35095 - "GET /api/map/background HTTP/1.1" 200
+20:03:23.506 INFO     fbb.web.ui             | UI »» prefetch/launched      t=26ms n=1 theater=kto
+20:03:23.506 INFO     uvicorn.access         | 127.0.0.1:16331 - "POST /api/debug/log HTTP/1.1" 200
+20:03:23.508 INFO     uvicorn.access         | 127.0.0.1:41111 - "GET /assets/theater/Korea/KoreaWhite.png HTTP/1.1" 200
+20:03:23.926 INFO     fbb.web.ui             | UI »» prefetch/img_done      t=352ms dt=326ms url=/assets/theater/Korea/KoreaWhite.png
+20:03:23.939 INFO     uvicorn.access         | 127.0.0.1:41111 - "POST /api/debug/log HTTP/1.1" 200
+20:03:23.994 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (15 fenêtres)
+20:03:25.655 INFO     uvicorn.access         | 127.0.0.1:35095 - "GET /api/update/check HTTP/1.1" 200
+20:03:27.477 INFO     uvicorn.access         | 127.0.0.1:35095 - "GET /api/fbb/light HTTP/1.1" 200
+20:03:28.401 DEBUG    utils.bms_rsc          | bms_rsc: loaded 294 icons from Patches
+20:03:28.404 INFO     uvicorn.access         | 127.0.0.1:35095 - "GET /api/online/status HTTP/1.1" 200
+20:03:28.419 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/loadout3d/crew_art/patch/70004 HTTP/1.1" 200
+20:03:31.397 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/fbb/light HTTP/1.1" 200
+20:03:32.179 INFO     uvicorn.access         | 127.0.0.1:50786 - "POST /api/update/download HTTP/1.1" 200
+20:03:32.183 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/update/progress HTTP/1.1" 200
+20:03:32.891 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/update/progress HTTP/1.1" 200
+20:03:33.396 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/online/status HTTP/1.1" 200
+20:03:33.596 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/update/progress HTTP/1.1" 200
+20:03:34.302 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/update/progress HTTP/1.1" 200
+20:03:35.007 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/update/progress HTTP/1.1" 200
+20:03:35.397 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/fbb/light HTTP/1.1" 200
+20:03:35.713 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/update/progress HTTP/1.1" 200
+20:03:36.418 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/update/progress HTTP/1.1" 200
+20:03:37.123 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/update/progress HTTP/1.1" 200
+20:03:37.829 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/update/progress HTTP/1.1" 200
+20:03:38.396 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/online/status HTTP/1.1" 200
+20:03:38.535 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/update/progress HTTP/1.1" 200
+20:03:39.240 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/update/progress HTTP/1.1" 200
+20:03:39.395 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/fbb/light HTTP/1.1" 200
+20:03:39.946 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/update/progress HTTP/1.1" 200
+20:03:40.651 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/update/progress HTTP/1.1" 200
+20:03:41.281 DEBUG    fbb.web.launcher       | native pywebview: read x/y (drag_start) "dashboard" tid=Thread-15 (_call) 
+20:03:41.356 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/update/progress HTTP/1.1" 200
+20:03:41.416 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-16 (_call) dx=-1 dy=1
+20:03:41.422 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-20 (_call) dx=-2 dy=2
+20:03:41.427 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-24 (_call) dx=-6 dy=2
+20:03:41.433 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-28 (_call) dx=-6 dy=2
+20:03:41.439 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-32 (_call) dx=-7 dy=1
+20:03:41.444 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-36 (_call) dx=-8 dy=2
+20:03:41.450 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-40 (_call) dx=-13 dy=4
+20:03:41.455 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-44 (_call) dx=-15 dy=2
+20:03:41.461 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-48 (_call) dx=-18 dy=3
+20:03:41.472 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-52 (_call) dx=-36 dy=3
+20:03:41.480 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-56 (_call) dx=-29 dy=2
+20:03:41.489 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-60 (_call) dx=-38 dy=2
+20:03:41.495 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-64 (_call) dx=-20 dy=2
+20:03:41.506 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-68 (_call) dx=-44 dy=1
+20:03:41.511 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-72 (_call) dx=-23 dy=0
+20:03:41.523 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-76 (_call) dx=-35 dy=2
+20:03:41.528 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-80 (_call) dx=-17 dy=0
+20:03:41.539 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-84 (_call) dx=-37 dy=2
+20:03:41.545 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-88 (_call) dx=-15 dy=0
+20:03:41.558 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-92 (_call) dx=-42 dy=1
+20:03:41.561 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-96 (_call) dx=-8 dy=0
+20:03:41.572 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-100 (_call) dx=-32 dy=0
+20:03:41.580 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-104 (_call) dx=-21 dy=0
+20:03:41.589 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-108 (_call) dx=-23 dy=0
+20:03:41.595 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-112 (_call) dx=-13 dy=-2
+20:03:41.606 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-116 (_call) dx=-25 dy=-2
+20:03:41.611 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-120 (_call) dx=-12 dy=-3
+20:03:41.622 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-124 (_call) dx=-18 dy=-4
+20:03:41.628 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-128 (_call) dx=-6 dy=-2
+20:03:41.639 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-132 (_call) dx=-16 dy=-4
+20:03:41.645 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-136 (_call) dx=-5 dy=-2
+20:03:41.658 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-140 (_call) dx=-10 dy=-5
+20:03:41.661 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-144 (_call) dx=0 dy=-1
+20:03:41.672 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-148 (_call) dx=-4 dy=-1
+20:03:41.680 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-152 (_call) dx=-2 dy=-4
+20:03:41.689 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-156 (_call) dx=-3 dy=-3
+20:03:41.695 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-160 (_call) dx=-2 dy=-3
+20:03:41.707 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-164 (_call) dx=-3 dy=-6
+20:03:41.712 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-168 (_call) dx=-2 dy=-5
+20:03:41.723 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-172 (_call) dx=-5 dy=-7
+20:03:41.728 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-176 (_call) dx=-1 dy=-3
+20:03:41.739 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-180 (_call) dx=-6 dy=-8
+20:03:41.745 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-184 (_call) dx=-3 dy=-5
+20:03:41.758 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-188 (_call) dx=-7 dy=-8
+20:03:41.761 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-192 (_call) dx=-1 dy=-1
+20:03:41.772 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-196 (_call) dx=-6 dy=-6
+20:03:41.780 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-200 (_call) dx=-3 dy=-2
+20:03:41.789 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-204 (_call) dx=-5 dy=-5
+20:03:41.795 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-208 (_call) dx=-3 dy=-1
+20:03:41.807 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-212 (_call) dx=-9 dy=-6
+20:03:41.811 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-216 (_call) dx=-3 dy=-2
+20:03:41.822 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-220 (_call) dx=-10 dy=-4
+20:03:41.828 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-224 (_call) dx=-4 dy=-1
+20:03:41.839 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-228 (_call) dx=-7 dy=-1
+20:03:41.845 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-232 (_call) dx=-2 dy=-1
+20:03:41.858 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-236 (_call) dx=-4 dy=0
+20:03:41.873 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-240 (_call) dx=-1 dy=0
+20:03:41.911 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-244 (_call) dx=-1 dy=0
+20:03:42.063 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/update/progress HTTP/1.1" 200
+20:03:42.714 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (15 fenêtres)
+20:03:42.768 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/update/progress HTTP/1.1" 200
+20:03:43.397 INFO     uvicorn.access         | 127.0.0.1:50786 - "GET /api/online/status HTTP/1.1" 200
+20:03:43.404 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/fbb/light HTTP/1.1" 200
+20:03:43.474 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:44.180 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:44.885 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:45.601 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:46.313 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:47.019 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:47.397 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/fbb/light HTTP/1.1" 200
+20:03:47.724 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:48.396 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/online/status HTTP/1.1" 200
+20:03:48.429 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:49.136 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:49.841 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:50.546 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:51.252 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:51.398 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/fbb/light HTTP/1.1" 200
+20:03:51.963 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:52.669 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:53.374 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:53.396 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/online/status HTTP/1.1" 200
+20:03:54.079 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:54.785 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:55.396 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/fbb/light HTTP/1.1" 200
+20:03:55.490 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:56.196 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:56.902 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:57.607 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:58.313 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:58.396 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/online/status HTTP/1.1" 200
+20:03:59.018 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:03:59.396 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/fbb/light HTTP/1.1" 200
+20:03:59.724 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:04:00.430 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:04:01.135 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:04:01.840 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:04:02.546 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:04:03.252 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/update/progress HTTP/1.1" 200
+20:04:03.396 INFO     uvicorn.access         | 127.0.0.1:30420 - "GET /api/online/status HTTP/1.1" 200
+20:04:03.401 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/fbb/light HTTP/1.1" 200
+20:04:03.958 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:04.664 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:05.369 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:06.074 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:06.780 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:07.397 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/fbb/light HTTP/1.1" 200
+20:04:07.485 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:08.201 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:08.408 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/online/status HTTP/1.1" 200
+20:04:08.917 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:09.625 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:10.330 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:11.035 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:11.397 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/fbb/light HTTP/1.1" 200
+20:04:11.741 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:12.446 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:13.151 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:13.396 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/online/status HTTP/1.1" 200
+20:04:13.867 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:14.579 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:15.285 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:15.410 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/fbb/light HTTP/1.1" 200
+20:04:16.001 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:16.713 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:17.418 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:18.125 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:18.396 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/online/status HTTP/1.1" 200
+20:04:18.829 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:19.397 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/fbb/light HTTP/1.1" 200
+20:04:19.535 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:20.240 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:20.949 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:21.658 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:22.365 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:23.069 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/update/progress HTTP/1.1" 200
+20:04:23.396 INFO     uvicorn.access         | 127.0.0.1:9684 - "GET /api/online/status HTTP/1.1" 200
+20:04:23.400 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/fbb/light HTTP/1.1" 200
+20:04:23.773 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:24.480 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:25.185 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:25.901 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:26.612 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:27.318 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:27.397 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/fbb/light HTTP/1.1" 200
+20:04:28.024 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:28.396 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/online/status HTTP/1.1" 200
+20:04:28.730 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:29.436 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:30.140 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:30.846 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:31.396 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/fbb/light HTTP/1.1" 200
+20:04:31.551 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:32.257 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:32.962 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:33.396 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/online/status HTTP/1.1" 200
+20:04:33.668 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:34.373 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:35.079 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:35.397 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/fbb/light HTTP/1.1" 200
+20:04:35.785 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:36.490 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:37.196 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:37.906 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:38.396 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/online/status HTTP/1.1" 200
+20:04:38.622 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:39.335 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:39.396 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/fbb/light HTTP/1.1" 200
+20:04:40.040 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:40.756 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:41.468 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:42.173 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:42.887 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/update/progress HTTP/1.1" 200
+20:04:43.396 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/online/status HTTP/1.1" 200
+20:04:43.400 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/fbb/light HTTP/1.1" 200
+20:04:43.596 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:44.301 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:45.007 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:45.450 DEBUG    fbb.web.launcher       | native pywebview: read x/y (drag_start) "dashboard" tid=Thread-248 (_call) 
+20:04:45.467 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /api/dtc/pending HTTP/1.1" 200
+20:04:45.470 INFO     uvicorn.access         | 127.0.0.1:9441 - "GET /api/kneeboard/print_state HTTP/1.1" 200
+20:04:45.471 INFO     uvicorn.access         | 127.0.0.1:37077 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+20:04:45.471 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/dtc/import/sources HTTP/1.1" 200
+20:04:45.611 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/dashboard HTTP/1.1" 200
+20:04:45.638 INFO     fbb.web.launcher       | Ouvre fenêtre "setup" → http://127.0.0.1:8765/setup.html (geom={'width': 820, 'height': 560}, focus=True)
+20:04:45.655 DEBUG    fbb.web.launcher       | Taille de naissance "setup" : 804x521 → 820x560 (bordure pywebview)
+20:04:45.697 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /setup.html HTTP/1.1" 200
+20:04:45.713 INFO     uvicorn.access         | 127.0.0.1:37077 - "GET /api/update/progress HTTP/1.1" 200
+20:04:45.744 INFO     uvicorn.access         | 127.0.0.1:37077 - "GET /fbb-buttons.css HTTP/1.1" 200
+20:04:45.745 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /app.css HTTP/1.1" 200
+20:04:45.746 INFO     uvicorn.access         | 127.0.0.1:9441 - "GET /fbb-tooltips.css HTTP/1.1" 200
+20:04:45.747 INFO     uvicorn.access         | 127.0.0.1:58622 - "GET /bundles/fbb-common.min.js?v=20260830a HTTP/1.1" 200
+20:04:45.748 INFO     uvicorn.access         | 127.0.0.1:1928 - "GET /js/i18n.js?v=20260830e HTTP/1.1" 200
+20:04:45.749 INFO     uvicorn.access         | 127.0.0.1:65511 - "GET /js/fbb-dialog.js HTTP/1.1" 200
+20:04:45.758 INFO     uvicorn.access         | 127.0.0.1:37077 - "GET /js/setup-side.js HTTP/1.1" 200
+20:04:45.760 INFO     uvicorn.access         | 127.0.0.1:9441 - "GET /js/win-keys.js HTTP/1.1" 200
+20:04:45.763 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /js/bezel-ver.js HTTP/1.1" 200
+20:04:45.763 INFO     uvicorn.access         | 127.0.0.1:65511 - "GET /fbb-tokens.css HTTP/1.1" 200
+20:04:45.767 INFO     uvicorn.access         | 127.0.0.1:1928 - "GET /fbb-chrome.css HTTP/1.1" 200
+20:04:45.779 INFO     uvicorn.access         | 127.0.0.1:1928 - "GET /api/health HTTP/1.1" 200
+20:04:45.780 INFO     uvicorn.error          | 127.0.0.1:30946 - "WebSocket /ws" [accepted]
+20:04:45.781 DEBUG    fbb.ws                 | WS connect — 2 clients
+20:04:45.781 INFO     uvicorn.error          | connection open
+20:04:45.783 INFO     uvicorn.access         | 127.0.0.1:1928 - "GET /api/setup/prefs HTTP/1.1" 200
+20:04:45.784 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/health HTTP/1.1" 200
+20:04:45.876 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/setup/prefs HTTP/1.1" 200
+20:04:45.877 INFO     uvicorn.access         | 127.0.0.1:1928 - "GET /api/health HTTP/1.1" 200
+20:04:45.885 INFO     uvicorn.access         | 127.0.0.1:1928 - "GET /api/setup/info HTTP/1.1" 200
+20:04:45.886 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/setup/prefs HTTP/1.1" 200
+20:04:46.423 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:46.464 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (16 fenêtres)
+20:04:47.129 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:47.406 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/fbb/light HTTP/1.1" 200
+20:04:47.844 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:48.407 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/online/status HTTP/1.1" 200
+20:04:48.552 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:49.257 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:49.962 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:50.668 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:51.373 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:51.396 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/fbb/light HTTP/1.1" 200
+20:04:52.078 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:52.790 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:53.396 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/online/status HTTP/1.1" 200
+20:04:53.496 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:54.202 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:54.907 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:55.396 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/fbb/light HTTP/1.1" 200
+20:04:55.612 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:56.318 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:57.026 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:57.735 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:58.396 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/online/status HTTP/1.1" 200
+20:04:58.440 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:59.146 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:04:59.397 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/fbb/light HTTP/1.1" 200
+20:04:59.852 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:05:00.557 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:05:01.262 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:05:01.968 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:05:02.673 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:05:03.378 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/update/progress HTTP/1.1" 200
+20:05:03.396 INFO     uvicorn.access         | 127.0.0.1:9485 - "GET /api/online/status HTTP/1.1" 200
+20:05:03.400 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/fbb/light HTTP/1.1" 200
+20:05:04.084 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:04.796 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:05.501 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:06.206 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:06.918 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:07.396 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/fbb/light HTTP/1.1" 200
+20:05:07.624 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:08.329 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:08.396 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/online/status HTTP/1.1" 200
+20:05:09.043 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:09.755 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:10.462 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:11.168 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:11.396 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/fbb/light HTTP/1.1" 200
+20:05:11.873 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:12.034 INFO     fbb.web.routes.setup   | Pilote → Rouge (flight= seat=None)
+20:05:12.035 INFO     uvicorn.access         | 127.0.0.1:43960 - "POST /api/setup/pilot HTTP/1.1" 200
+20:05:12.038 INFO     uvicorn.access         | 127.0.0.1:43960 - "POST /api/dtc/stage/rinse HTTP/1.1" 200
+20:05:12.052 INFO     uvicorn.access         | 127.0.0.1:26702 - "GET /api/dashboard HTTP/1.1" 200
+20:05:12.055 INFO     fbb.web.routes.setup   | Préférences setup sauvegardées : ['my_pilot_name']
+20:05:12.055 INFO     uvicorn.access         | 127.0.0.1:43960 - "POST /api/setup/prefs HTTP/1.1" 200
+20:05:12.448 INFO     uvicorn.access         | 127.0.0.1:14614 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+20:05:12.455 INFO     uvicorn.access         | 127.0.0.1:26702 - "GET /api/dtc/pending HTTP/1.1" 200
+20:05:12.457 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/dtc/import/sources HTTP/1.1" 200
+20:05:12.579 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:13.284 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:13.395 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/online/status HTTP/1.1" 200
+20:05:13.990 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:14.696 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:15.396 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/fbb/light HTTP/1.1" 200
+20:05:15.400 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:16.107 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:16.236 INFO     uvicorn.access         | 127.0.0.1:26702 - "GET /api/setup/airport_db HTTP/1.1" 200
+20:05:16.237 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/setup/theaters_detail HTTP/1.1" 200
+20:05:16.243 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/squadron/side HTTP/1.1" 200
+20:05:16.812 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:17.518 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:18.224 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:18.396 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/online/status HTTP/1.1" 200
+20:05:18.929 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:19.408 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/fbb/light HTTP/1.1" 200
+20:05:19.634 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:20.340 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:21.044 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:21.751 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:22.457 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:23.162 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/update/progress HTTP/1.1" 200
+20:05:23.402 INFO     uvicorn.access         | 127.0.0.1:43960 - "GET /api/online/status HTTP/1.1" 200
+20:05:23.407 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/fbb/light HTTP/1.1" 200
+20:05:23.868 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:24.580 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:25.290 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:25.996 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:26.701 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:27.396 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/fbb/light HTTP/1.1" 200
+20:05:27.407 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:28.112 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:28.395 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/online/status HTTP/1.1" 200
+20:05:28.817 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:29.529 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:30.244 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:30.951 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:31.396 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/fbb/light HTTP/1.1" 200
+20:05:31.657 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:32.362 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:33.067 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:33.395 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/online/status HTTP/1.1" 200
+20:05:33.773 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:34.481 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:35.195 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:35.475 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/fbb/light HTTP/1.1" 200
+20:05:35.901 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:36.606 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:37.312 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:38.016 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:38.395 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/online/status HTTP/1.1" 200
+20:05:38.723 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:39.396 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/fbb/light HTTP/1.1" 200
+20:05:39.429 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:40.134 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:40.840 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:41.550 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:42.258 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:42.962 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/update/progress HTTP/1.1" 200
+20:05:43.395 INFO     uvicorn.access         | 127.0.0.1:15130 - "GET /api/online/status HTTP/1.1" 200
+20:05:43.400 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/fbb/light HTTP/1.1" 200
+20:05:43.668 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:44.376 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:45.095 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:45.807 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:46.517 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:47.226 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:47.396 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/fbb/light HTTP/1.1" 200
+20:05:47.940 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:48.398 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/online/status HTTP/1.1" 200
+20:05:48.651 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:49.356 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:50.069 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:50.773 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:51.403 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/fbb/light HTTP/1.1" 200
+20:05:51.479 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:52.194 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:52.907 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:53.406 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/online/status HTTP/1.1" 200
+20:05:53.614 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:54.329 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:55.034 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:55.396 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/fbb/light HTTP/1.1" 200
+20:05:55.740 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:56.445 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:57.151 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:57.856 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:58.395 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/online/status HTTP/1.1" 200
+20:05:58.572 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:59.279 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:05:59.395 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/fbb/light HTTP/1.1" 200
+20:05:59.984 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:06:00.690 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:06:01.395 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:06:02.101 INFO     uvicorn.access         | 127.0.0.1:23378 - "GET /api/update/progress HTTP/1.1" 200
+20:06:02.808 INFO     uvicorn.access         | 127.0.0.1:44655 - "GET /api/update/progress HTTP/1.1" 200
+20:06:03.395 INFO     uvicorn.access         | 127.0.0.1:44655 - "GET /api/online/status HTTP/1.1" 200
+20:06:03.399 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/fbb/light HTTP/1.1" 200
+20:06:03.512 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:04.218 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:04.923 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:05.628 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:06.341 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:07.051 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:07.396 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/fbb/light HTTP/1.1" 200
+20:06:07.757 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:08.395 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/online/status HTTP/1.1" 200
+20:06:08.462 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:09.167 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:09.874 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:10.588 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:11.295 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:11.396 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/fbb/light HTTP/1.1" 200
+20:06:12.001 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:12.707 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:13.395 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/online/status HTTP/1.1" 200
+20:06:13.411 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:14.117 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:14.823 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:15.396 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/fbb/light HTTP/1.1" 200
+20:06:15.529 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:16.234 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:16.940 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:17.655 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:18.367 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:18.404 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/online/status HTTP/1.1" 200
+20:06:19.073 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:19.396 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/fbb/light HTTP/1.1" 200
+20:06:19.788 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:20.504 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:21.216 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:21.923 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:22.629 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:23.344 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/update/progress HTTP/1.1" 200
+20:06:23.395 INFO     uvicorn.access         | 127.0.0.1:10615 - "GET /api/online/status HTTP/1.1" 200
+20:06:23.399 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/fbb/light HTTP/1.1" 200
+20:06:24.056 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:24.771 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:25.478 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:26.184 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:26.890 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:27.396 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/fbb/light HTTP/1.1" 200
+20:06:27.595 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:28.300 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:28.395 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/online/status HTTP/1.1" 200
+20:06:29.006 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:29.711 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:30.417 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:31.133 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:31.395 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/fbb/light HTTP/1.1" 200
+20:06:31.845 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:32.551 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:33.256 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:33.395 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/online/status HTTP/1.1" 200
+20:06:33.962 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:34.667 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:35.373 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:35.396 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/fbb/light HTTP/1.1" 200
+20:06:36.078 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:36.784 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:37.489 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:38.195 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:38.395 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/online/status HTTP/1.1" 200
+20:06:38.911 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:39.396 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/fbb/light HTTP/1.1" 200
+20:06:39.617 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:40.322 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:41.031 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:41.740 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:41.933 INFO     fbb.web.routes.update  | MAJ téléchargée : C:\Users\thcab\AppData\Local\Temp\FBB_Setup_v1.96.0.exe (113578211 o)
+20:06:42.120 WARNING  pywebview              | SAVE_DIALOG is deprecated and will be removed in a future version. Use 'FileDialog.SAVE' instead.
+20:06:42.120 WARNING  pywebview              | SAVE_DIALOG is deprecated and will be removed in a future version. Use 'FileDialog.SAVE' instead.
+20:06:42.120 WARNING  pywebview              | SAVE_DIALOG is deprecated and will be removed in a future version. Use 'FileDialog.SAVE' instead.
+20:06:42.445 INFO     uvicorn.access         | 127.0.0.1:14608 - "GET /api/update/progress HTTP/1.1" 200
+20:06:43.397 INFO     uvicorn.access         | 127.0.0.1:15100 - "GET /api/online/status HTTP/1.1" 200
+20:06:43.400 INFO     uvicorn.access         | 127.0.0.1:55705 - "GET /api/fbb/light HTTP/1.1" 200
+20:06:46.063 INFO     fbb.web.routes.update  | Veilleur MAJ démarré (trace : C:\Users\thcab\AppData\Local\Temp\fbb_update_watcher.log)
+20:06:46.063 INFO     fbb.web.routes.update  | Installateur MAJ programmé (démarrage après fermeture de FBB) : C:\Users\thcab\AppData\Local\Temp\FBB_Setup_v1.96.0.exe
+20:06:46.064 INFO     uvicorn.access         | 127.0.0.1:14608 - "POST /api/update/install HTTP/1.1" 200
+20:06:47.271 INFO     fbb.web.launcher       | quit_app : fermeture de FBB demandée
+20:06:47.274 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (16 fenêtres)
+20:06:47.275 DEBUG    fbb.web.launcher       | native pywebview: read x/y/w/h (snapshot) "setup" tid=Dummy-5 
+20:06:47.275 DEBUG    fbb.web.launcher       | Snapshot géométrie "setup" : 820x560 @ (182,182)
+20:06:47.278 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (16 fenêtres)
+20:06:47.283 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (16 fenêtres)
+20:06:47.286 DEBUG    fbb.web                | WS keepalive terminé (déconnexion client)
+20:06:47.287 DEBUG    fbb.ws                 | WS disconnect — 1 clients
+20:06:47.287 INFO     uvicorn.error          | connection closed
+20:06:47.299 DEBUG    fbb.web.launcher       | native pywebview: read x/y/w/h (snapshot) "dashboard" tid=Dummy-5 
+20:06:47.299 DEBUG    fbb.web.launcher       | Snapshot géométrie "dashboard" : 690x1008 @ (282,72)
+20:06:47.302 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (16 fenêtres)
+20:06:47.313 DEBUG    fbb.web                | WS keepalive terminé (déconnexion client)
+20:06:47.313 DEBUG    fbb.ws                 | WS disconnect — 0 clients
+20:06:47.313 INFO     uvicorn.error          | connection closed
+20:06:47.649 INFO     fbb.web.launcher       | Dashboard fermé. Bye.
