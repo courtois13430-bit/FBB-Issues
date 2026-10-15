@@ -1,0 +1,539 @@
+2026-10-15 20:09:39.860 | ========================================================================
+2026-10-15 20:09:39.860 | startup                  | FBB 1.96.0 — session 2026-10-15 20:09:39
+2026-10-15 20:09:39.860 | startup                  | Répertoire : C:\Users\thcab\AppData\Local\Programs\FBB\_internal
+2026-10-15 20:09:39.860 | startup                  | Python 3.14.5
+2026-10-15 20:09:39.860 | ========================================================================
+2026-10-15 20:09:39.861 | system                   | OS : Windows 11 10.0.26300, AMD64, 12 CPU, RAM 32 GB
+2026-10-15 20:09:39.873 | system                   | Machine : <masqué> / Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+2026-10-15 20:09:39.873 | registry                 | BMS baseDir : C:\Falcon BMS 4.38
+2026-10-15 20:09:39.873 | registry                 | BMS theater : Korea KTO  pilot : Rouge
+2026-10-15 20:09:40.148 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-10-15 20:09:43.328 | telemetry                | ping OK v1.96.0 Windows 11 canal=prod → HTTP 200
+2026-10-15 20:09:43.744 | parse_health             | Debut_campagne1.cam: records 1014/1014, bytes 437893/437893, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-15 20:09:48.516 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=16 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=5a76120f
+2026-10-15 20:09:48.533 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:12:20.955 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:12:20.958 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=16 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=5a76120f
+2026-10-15 20:12:21.398 | parse_health             | Octobre11.cam: records 658/658, bytes 259895/259895, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-15 20:12:22.303 | swap_context             | origin=select_cam:previous cam='octobre11.cam' loaded=True err=''
+2026-10-15 20:12:22.646 | ato_target               | index_built names=6657 memo=True
+2026-10-15 20:12:22.647 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:12:22.700 | ato_departure            | resolved=4/4
+2026-10-15 20:12:22.717 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:12:22.725 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:12:22.725 | ato_departure            | resolved=4/4
+2026-10-15 20:12:22.972 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:12:22.980 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:12:22.982 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:12:23.429 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:12:23.434 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:12:28.340 | swap_context             | origin=select_cam:previous cam='octobre11.cam' loaded=True err=''
+2026-10-15 20:12:28.350 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:12:28.350 | ato_departure            | resolved=4/4
+2026-10-15 20:12:28.368 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:12:28.370 | ato_departure            | resolved=4/4
+2026-10-15 20:12:28.672 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=68 hash=5a76120f
+2026-10-15 20:12:28.752 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:12:28.777 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:12:28.779 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:12:28.781 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:12:28.782 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:12:28.782 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:12:28.790 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=68 hash=5a76120f
+2026-10-15 20:12:36.343 | ato_departure            | resolved=53/103
+2026-10-15 20:12:36.552 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:12:36.594 | ato_aircraft_details     | vu=21993 aircraft=4 details=4
+2026-10-15 20:12:36.600 | ato_target               | resolved id=8291 target=Armored
+2026-10-15 20:12:36.600 | ato_aircraft_details     | vu=21900 aircraft=1 details=1
+2026-10-15 20:12:36.600 | ato_target               | resolved id=8291 target=Armored
+2026-10-15 20:12:36.600 | ato_aircraft_details     | vu=25013 aircraft=1 details=1
+2026-10-15 20:12:36.601 | ato_aircraft_details     | vu=24552 aircraft=1 details=1
+2026-10-15 20:12:36.602 | ato_aircraft_details     | vu=24750 aircraft=1 details=1
+2026-10-15 20:12:36.602 | ato_aircraft_details     | vu=22067 aircraft=1 details=1
+2026-10-15 20:12:36.603 | ato_aircraft_details     | vu=24293 aircraft=1 details=1
+2026-10-15 20:12:36.603 | ato_aircraft_details     | vu=24080 aircraft=1 details=1
+2026-10-15 20:12:36.604 | ato_target               | resolved id=8339 target=Armored
+2026-10-15 20:12:36.604 | ato_aircraft_details     | vu=24168 aircraft=1 details=1
+2026-10-15 20:12:36.604 | ato_target               | resolved id=8339 target=Armored
+2026-10-15 20:12:36.605 | ato_target               | resolved id=8296 target=Armored
+2026-10-15 20:12:36.605 | ato_aircraft_details     | vu=24170 aircraft=1 details=1
+2026-10-15 20:12:36.605 | ato_target               | resolved id=8296 target=Armored
+2026-10-15 20:12:36.610 | ato_aircraft_details     | vu=21992 aircraft=4 details=4
+2026-10-15 20:12:36.615 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:12:36.616 | ato_aircraft_details     | vu=21955 aircraft=4 details=4
+2026-10-15 20:12:36.616 | ato_target               | resolved id=2069 target=Janggye-myeon Town
+2026-10-15 20:12:36.616 | ato_aircraft_details     | vu=21991 aircraft=4 details=4
+2026-10-15 20:12:36.617 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:12:36.617 | ato_aircraft_details     | vu=21996 aircraft=1 details=1
+2026-10-15 20:12:36.618 | ato_aircraft_details     | vu=22021 aircraft=1 details=1
+2026-10-15 20:12:36.619 | ato_aircraft_details     | vu=25324 aircraft=1 details=1
+2026-10-15 20:12:36.619 | ato_aircraft_details     | vu=24551 aircraft=1 details=1
+2026-10-15 20:12:36.620 | ato_aircraft_details     | vu=24871 aircraft=1 details=1
+2026-10-15 20:12:36.620 | ato_aircraft_details     | vu=24968 aircraft=1 details=1
+2026-10-15 20:12:36.621 | ato_aircraft_details     | vu=22065 aircraft=1 details=1
+2026-10-15 20:12:36.622 | ato_aircraft_details     | vu=22066 aircraft=1 details=1
+2026-10-15 20:12:36.622 | ato_aircraft_details     | vu=22100 aircraft=1 details=1
+2026-10-15 20:12:36.623 | ato_aircraft_details     | vu=24983 aircraft=1 details=1
+2026-10-15 20:12:36.624 | ato_aircraft_details     | vu=24989 aircraft=1 details=1
+2026-10-15 20:12:59.877 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:12:59.896 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:12:59.897 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:12:59.899 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:12:59.900 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:12:59.901 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:12:59.908 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=68 hash=5a76120f
+2026-10-15 20:12:59.999 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:12:59.999 | ato_departure            | resolved=4/4
+2026-10-15 20:13:05.083 | ato_departure            | resolved=53/103
+2026-10-15 20:13:05.085 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:13:05.091 | ato_aircraft_details     | vu=21993 aircraft=4 details=4
+2026-10-15 20:13:05.097 | ato_target               | resolved id=8291 target=Armored
+2026-10-15 20:13:05.097 | ato_aircraft_details     | vu=21900 aircraft=1 details=1
+2026-10-15 20:13:05.097 | ato_target               | resolved id=8291 target=Armored
+2026-10-15 20:13:05.097 | ato_aircraft_details     | vu=25013 aircraft=1 details=1
+2026-10-15 20:13:05.098 | ato_aircraft_details     | vu=24552 aircraft=1 details=1
+2026-10-15 20:13:05.098 | ato_aircraft_details     | vu=24750 aircraft=1 details=1
+2026-10-15 20:13:05.099 | ato_aircraft_details     | vu=22067 aircraft=1 details=1
+2026-10-15 20:13:05.099 | ato_aircraft_details     | vu=24293 aircraft=1 details=1
+2026-10-15 20:13:05.100 | ato_aircraft_details     | vu=24080 aircraft=1 details=1
+2026-10-15 20:13:05.100 | ato_target               | resolved id=8339 target=Armored
+2026-10-15 20:13:05.101 | ato_aircraft_details     | vu=24168 aircraft=1 details=1
+2026-10-15 20:13:05.101 | ato_target               | resolved id=8339 target=Armored
+2026-10-15 20:13:05.101 | ato_target               | resolved id=8296 target=Armored
+2026-10-15 20:13:05.101 | ato_aircraft_details     | vu=24170 aircraft=1 details=1
+2026-10-15 20:13:05.102 | ato_target               | resolved id=8296 target=Armored
+2026-10-15 20:13:05.107 | ato_aircraft_details     | vu=21992 aircraft=4 details=4
+2026-10-15 20:13:05.112 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:13:05.112 | ato_aircraft_details     | vu=21955 aircraft=4 details=4
+2026-10-15 20:13:05.113 | ato_target               | resolved id=2069 target=Janggye-myeon Town
+2026-10-15 20:13:05.113 | ato_aircraft_details     | vu=21991 aircraft=4 details=4
+2026-10-15 20:13:05.114 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:13:05.114 | ato_aircraft_details     | vu=21996 aircraft=1 details=1
+2026-10-15 20:13:05.115 | ato_aircraft_details     | vu=22021 aircraft=1 details=1
+2026-10-15 20:13:05.115 | ato_aircraft_details     | vu=25324 aircraft=1 details=1
+2026-10-15 20:13:05.116 | ato_aircraft_details     | vu=24551 aircraft=1 details=1
+2026-10-15 20:13:05.116 | ato_aircraft_details     | vu=24871 aircraft=1 details=1
+2026-10-15 20:13:05.117 | ato_aircraft_details     | vu=24968 aircraft=1 details=1
+2026-10-15 20:13:05.118 | ato_aircraft_details     | vu=22065 aircraft=1 details=1
+2026-10-15 20:13:05.118 | ato_aircraft_details     | vu=22066 aircraft=1 details=1
+2026-10-15 20:13:05.119 | ato_aircraft_details     | vu=22100 aircraft=1 details=1
+2026-10-15 20:13:05.120 | ato_aircraft_details     | vu=24983 aircraft=1 details=1
+2026-10-15 20:13:05.120 | ato_aircraft_details     | vu=24989 aircraft=1 details=1
+2026-10-15 20:13:19.236 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:13:19.236 | ato_departure            | resolved=4/4
+2026-10-15 20:13:23.080 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:13:24.273 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:13:24.276 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:13:24.277 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:13:24.280 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:13:24.281 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:13:24.288 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:13:27.586 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:13:27.614 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:13:27.615 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:13:27.617 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:13:27.618 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:13:27.619 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:13:27.626 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:13:27.710 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:13:27.710 | ato_departure            | resolved=4/4
+2026-10-15 20:13:30.785 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:13:30.785 | ato_departure            | resolved=4/4
+2026-10-15 20:13:30.799 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:13:30.799 | ato_departure            | resolved=4/4
+2026-10-15 20:13:31.190 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:13:31.216 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:13:31.218 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:13:31.219 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:13:31.221 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:13:31.221 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:13:31.228 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:15:35.184 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:15:35.217 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:15:35.218 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:15:35.220 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:15:35.224 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:15:35.224 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:15:35.233 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:15:35.317 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:15:35.318 | ato_departure            | resolved=4/4
+2026-10-15 20:15:53.952 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:15:53.971 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:15:53.973 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:15:53.974 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:15:53.976 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:15:53.976 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:15:53.983 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:15:54.087 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:15:54.087 | ato_departure            | resolved=4/4
+2026-10-15 20:16:56.615 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:16:56.616 | ato_departure            | resolved=4/4
+2026-10-15 20:16:56.629 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:16:56.629 | ato_departure            | resolved=4/4
+2026-10-15 20:16:57.014 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:16:57.037 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:16:57.038 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:16:57.040 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:16:57.042 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:16:57.042 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:16:57.049 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:16:58.185 | ato_departure            | resolved=53/103
+2026-10-15 20:16:58.186 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:16:58.193 | ato_aircraft_details     | vu=21993 aircraft=4 details=4
+2026-10-15 20:16:58.198 | ato_target               | resolved id=8291 target=Armored
+2026-10-15 20:16:58.199 | ato_aircraft_details     | vu=21900 aircraft=1 details=1
+2026-10-15 20:16:58.199 | ato_target               | resolved id=8291 target=Armored
+2026-10-15 20:16:58.199 | ato_aircraft_details     | vu=25013 aircraft=1 details=1
+2026-10-15 20:16:58.200 | ato_aircraft_details     | vu=24552 aircraft=1 details=1
+2026-10-15 20:16:58.200 | ato_aircraft_details     | vu=24750 aircraft=1 details=1
+2026-10-15 20:16:58.201 | ato_aircraft_details     | vu=22067 aircraft=1 details=1
+2026-10-15 20:16:58.201 | ato_aircraft_details     | vu=24293 aircraft=1 details=1
+2026-10-15 20:16:58.202 | ato_aircraft_details     | vu=24080 aircraft=1 details=1
+2026-10-15 20:16:58.202 | ato_target               | resolved id=8339 target=Armored
+2026-10-15 20:16:58.203 | ato_aircraft_details     | vu=24168 aircraft=1 details=1
+2026-10-15 20:16:58.203 | ato_target               | resolved id=8339 target=Armored
+2026-10-15 20:16:58.203 | ato_target               | resolved id=8296 target=Armored
+2026-10-15 20:16:58.203 | ato_aircraft_details     | vu=24170 aircraft=1 details=1
+2026-10-15 20:16:58.203 | ato_target               | resolved id=8296 target=Armored
+2026-10-15 20:16:58.209 | ato_aircraft_details     | vu=21992 aircraft=4 details=4
+2026-10-15 20:16:58.214 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:16:58.214 | ato_aircraft_details     | vu=21955 aircraft=4 details=4
+2026-10-15 20:16:58.215 | ato_target               | resolved id=2069 target=Janggye-myeon Town
+2026-10-15 20:16:58.215 | ato_aircraft_details     | vu=21991 aircraft=4 details=4
+2026-10-15 20:16:58.215 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:16:58.216 | ato_aircraft_details     | vu=21996 aircraft=1 details=1
+2026-10-15 20:16:58.216 | ato_aircraft_details     | vu=22021 aircraft=1 details=1
+2026-10-15 20:16:58.217 | ato_aircraft_details     | vu=25324 aircraft=1 details=1
+2026-10-15 20:16:58.218 | ato_aircraft_details     | vu=24551 aircraft=1 details=1
+2026-10-15 20:16:58.218 | ato_aircraft_details     | vu=24871 aircraft=1 details=1
+2026-10-15 20:16:58.219 | ato_aircraft_details     | vu=24968 aircraft=1 details=1
+2026-10-15 20:16:58.219 | ato_aircraft_details     | vu=22065 aircraft=1 details=1
+2026-10-15 20:16:58.220 | ato_aircraft_details     | vu=22066 aircraft=1 details=1
+2026-10-15 20:16:58.221 | ato_aircraft_details     | vu=22100 aircraft=1 details=1
+2026-10-15 20:16:58.221 | ato_aircraft_details     | vu=24983 aircraft=1 details=1
+2026-10-15 20:16:58.222 | ato_aircraft_details     | vu=24989 aircraft=1 details=1
+2026-10-15 20:19:00.683 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:19:00.683 | ato_departure            | resolved=4/4
+2026-10-15 20:19:08.589 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:19:08.589 | ato_departure            | resolved=4/4
+2026-10-15 20:20:08.072 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:20:08.371 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:20:08.377 | ato_departure            | resolved=4/4
+2026-10-15 20:20:08.387 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:20:08.389 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:20:08.391 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:20:08.394 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:20:08.394 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:20:08.404 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:20:08.596 | ato_departure            | resolved=53/103
+2026-10-15 20:20:08.598 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:20:08.605 | ato_aircraft_details     | vu=21993 aircraft=4 details=4
+2026-10-15 20:20:08.610 | ato_target               | resolved id=8291 target=Armored
+2026-10-15 20:20:08.610 | ato_aircraft_details     | vu=21900 aircraft=1 details=1
+2026-10-15 20:20:08.611 | ato_target               | resolved id=8291 target=Armored
+2026-10-15 20:20:08.611 | ato_aircraft_details     | vu=25013 aircraft=1 details=1
+2026-10-15 20:20:08.611 | ato_aircraft_details     | vu=24552 aircraft=1 details=1
+2026-10-15 20:20:08.612 | ato_aircraft_details     | vu=24750 aircraft=1 details=1
+2026-10-15 20:20:08.612 | ato_aircraft_details     | vu=22067 aircraft=1 details=1
+2026-10-15 20:20:08.613 | ato_aircraft_details     | vu=24293 aircraft=1 details=1
+2026-10-15 20:20:08.613 | ato_aircraft_details     | vu=24080 aircraft=1 details=1
+2026-10-15 20:20:08.614 | ato_target               | resolved id=8339 target=Armored
+2026-10-15 20:20:08.614 | ato_aircraft_details     | vu=24168 aircraft=1 details=1
+2026-10-15 20:20:08.614 | ato_target               | resolved id=8339 target=Armored
+2026-10-15 20:20:08.615 | ato_target               | resolved id=8296 target=Armored
+2026-10-15 20:20:08.615 | ato_aircraft_details     | vu=24170 aircraft=1 details=1
+2026-10-15 20:20:08.615 | ato_target               | resolved id=8296 target=Armored
+2026-10-15 20:20:08.620 | ato_aircraft_details     | vu=21992 aircraft=4 details=4
+2026-10-15 20:20:08.626 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:20:08.626 | ato_aircraft_details     | vu=21955 aircraft=4 details=4
+2026-10-15 20:20:08.626 | ato_target               | resolved id=2069 target=Janggye-myeon Town
+2026-10-15 20:20:08.627 | ato_aircraft_details     | vu=21991 aircraft=4 details=4
+2026-10-15 20:20:08.627 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:20:08.627 | ato_aircraft_details     | vu=21996 aircraft=1 details=1
+2026-10-15 20:20:08.628 | ato_aircraft_details     | vu=22021 aircraft=1 details=1
+2026-10-15 20:20:08.629 | ato_aircraft_details     | vu=25324 aircraft=1 details=1
+2026-10-15 20:20:08.630 | ato_aircraft_details     | vu=24551 aircraft=1 details=1
+2026-10-15 20:20:08.630 | ato_aircraft_details     | vu=24871 aircraft=1 details=1
+2026-10-15 20:20:08.631 | ato_aircraft_details     | vu=24968 aircraft=1 details=1
+2026-10-15 20:20:08.632 | ato_aircraft_details     | vu=22065 aircraft=1 details=1
+2026-10-15 20:20:08.633 | ato_aircraft_details     | vu=22066 aircraft=1 details=1
+2026-10-15 20:20:08.633 | ato_aircraft_details     | vu=22100 aircraft=1 details=1
+2026-10-15 20:20:08.634 | ato_aircraft_details     | vu=24983 aircraft=1 details=1
+2026-10-15 20:20:08.634 | ato_aircraft_details     | vu=24989 aircraft=1 details=1
+2026-10-15 20:20:11.952 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:20:12.136 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:20:12.141 | ato_departure            | resolved=4/4
+2026-10-15 20:20:12.268 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:20:12.269 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:20:12.271 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:20:12.273 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:20:12.273 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:20:12.282 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:20:20.109 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:20:20.302 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:20:20.310 | ato_departure            | resolved=4/4
+2026-10-15 20:20:20.402 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:20:20.404 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:20:20.405 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:20:20.407 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:20:20.407 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:20:20.415 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:20:25.816 | ato_departure            | resolved=53/103
+2026-10-15 20:20:25.817 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:20:25.825 | ato_aircraft_details     | vu=21993 aircraft=4 details=4
+2026-10-15 20:20:25.830 | ato_target               | resolved id=8291 target=Armored
+2026-10-15 20:20:25.830 | ato_aircraft_details     | vu=21900 aircraft=1 details=1
+2026-10-15 20:20:25.831 | ato_target               | resolved id=8291 target=Armored
+2026-10-15 20:20:25.831 | ato_aircraft_details     | vu=25013 aircraft=1 details=1
+2026-10-15 20:20:25.832 | ato_aircraft_details     | vu=24552 aircraft=1 details=1
+2026-10-15 20:20:25.832 | ato_aircraft_details     | vu=24750 aircraft=1 details=1
+2026-10-15 20:20:25.833 | ato_aircraft_details     | vu=22067 aircraft=1 details=1
+2026-10-15 20:20:25.833 | ato_aircraft_details     | vu=24293 aircraft=1 details=1
+2026-10-15 20:20:25.834 | ato_aircraft_details     | vu=24080 aircraft=1 details=1
+2026-10-15 20:20:25.834 | ato_target               | resolved id=8339 target=Armored
+2026-10-15 20:20:25.835 | ato_aircraft_details     | vu=24168 aircraft=1 details=1
+2026-10-15 20:20:25.835 | ato_target               | resolved id=8339 target=Armored
+2026-10-15 20:20:25.835 | ato_target               | resolved id=8296 target=Armored
+2026-10-15 20:20:25.835 | ato_aircraft_details     | vu=24170 aircraft=1 details=1
+2026-10-15 20:20:25.835 | ato_target               | resolved id=8296 target=Armored
+2026-10-15 20:20:25.841 | ato_aircraft_details     | vu=21992 aircraft=4 details=4
+2026-10-15 20:20:25.846 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:20:25.846 | ato_aircraft_details     | vu=21955 aircraft=4 details=4
+2026-10-15 20:20:25.847 | ato_target               | resolved id=2069 target=Janggye-myeon Town
+2026-10-15 20:20:25.847 | ato_aircraft_details     | vu=21991 aircraft=4 details=4
+2026-10-15 20:20:25.847 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:20:25.848 | ato_aircraft_details     | vu=21996 aircraft=1 details=1
+2026-10-15 20:20:25.849 | ato_aircraft_details     | vu=22021 aircraft=1 details=1
+2026-10-15 20:20:25.849 | ato_aircraft_details     | vu=25324 aircraft=1 details=1
+2026-10-15 20:20:25.850 | ato_aircraft_details     | vu=24551 aircraft=1 details=1
+2026-10-15 20:20:25.850 | ato_aircraft_details     | vu=24871 aircraft=1 details=1
+2026-10-15 20:20:25.851 | ato_aircraft_details     | vu=24968 aircraft=1 details=1
+2026-10-15 20:20:25.852 | ato_aircraft_details     | vu=22065 aircraft=1 details=1
+2026-10-15 20:20:25.852 | ato_aircraft_details     | vu=22066 aircraft=1 details=1
+2026-10-15 20:20:25.853 | ato_aircraft_details     | vu=22100 aircraft=1 details=1
+2026-10-15 20:20:25.853 | ato_aircraft_details     | vu=24983 aircraft=1 details=1
+2026-10-15 20:20:25.854 | ato_aircraft_details     | vu=24989 aircraft=1 details=1
+2026-10-15 20:23:46.430 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:23:46.430 | ato_departure            | resolved=4/4
+2026-10-15 20:33:55.555 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:33:55.767 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:33:55.768 | ato_departure            | resolved=4/4
+2026-10-15 20:33:55.867 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:33:55.868 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:33:55.870 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:33:55.873 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:33:55.873 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:33:55.883 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:33:56.075 | ato_departure            | resolved=53/103
+2026-10-15 20:33:56.077 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:33:56.083 | ato_aircraft_details     | vu=21993 aircraft=4 details=4
+2026-10-15 20:33:56.089 | ato_target               | resolved id=8291 target=Armored
+2026-10-15 20:33:56.089 | ato_aircraft_details     | vu=21900 aircraft=1 details=1
+2026-10-15 20:33:56.089 | ato_target               | resolved id=8291 target=Armored
+2026-10-15 20:33:56.090 | ato_aircraft_details     | vu=25013 aircraft=1 details=1
+2026-10-15 20:33:56.090 | ato_aircraft_details     | vu=24552 aircraft=1 details=1
+2026-10-15 20:33:56.091 | ato_aircraft_details     | vu=24750 aircraft=1 details=1
+2026-10-15 20:33:56.091 | ato_aircraft_details     | vu=22067 aircraft=1 details=1
+2026-10-15 20:33:56.092 | ato_aircraft_details     | vu=24293 aircraft=1 details=1
+2026-10-15 20:33:56.093 | ato_aircraft_details     | vu=24080 aircraft=1 details=1
+2026-10-15 20:33:56.093 | ato_target               | resolved id=8339 target=Armored
+2026-10-15 20:33:56.093 | ato_aircraft_details     | vu=24168 aircraft=1 details=1
+2026-10-15 20:33:56.094 | ato_target               | resolved id=8339 target=Armored
+2026-10-15 20:33:56.094 | ato_target               | resolved id=8296 target=Armored
+2026-10-15 20:33:56.094 | ato_aircraft_details     | vu=24170 aircraft=1 details=1
+2026-10-15 20:33:56.094 | ato_target               | resolved id=8296 target=Armored
+2026-10-15 20:33:56.100 | ato_aircraft_details     | vu=21992 aircraft=4 details=4
+2026-10-15 20:33:56.105 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:33:56.105 | ato_aircraft_details     | vu=21955 aircraft=4 details=4
+2026-10-15 20:33:56.106 | ato_target               | resolved id=2069 target=Janggye-myeon Town
+2026-10-15 20:33:56.106 | ato_aircraft_details     | vu=21991 aircraft=4 details=4
+2026-10-15 20:33:56.106 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:33:56.107 | ato_aircraft_details     | vu=21996 aircraft=1 details=1
+2026-10-15 20:33:56.107 | ato_aircraft_details     | vu=22021 aircraft=1 details=1
+2026-10-15 20:33:56.108 | ato_aircraft_details     | vu=25324 aircraft=1 details=1
+2026-10-15 20:33:56.109 | ato_aircraft_details     | vu=24551 aircraft=1 details=1
+2026-10-15 20:33:56.110 | ato_aircraft_details     | vu=24871 aircraft=1 details=1
+2026-10-15 20:33:56.110 | ato_aircraft_details     | vu=24968 aircraft=1 details=1
+2026-10-15 20:33:56.111 | ato_aircraft_details     | vu=22065 aircraft=1 details=1
+2026-10-15 20:33:56.112 | ato_aircraft_details     | vu=22066 aircraft=1 details=1
+2026-10-15 20:33:56.112 | ato_aircraft_details     | vu=22100 aircraft=1 details=1
+2026-10-15 20:33:56.113 | ato_aircraft_details     | vu=24983 aircraft=1 details=1
+2026-10-15 20:33:56.113 | ato_aircraft_details     | vu=24989 aircraft=1 details=1
+2026-10-15 20:34:03.009 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:34:03.151 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:34:03.161 | ato_departure            | resolved=4/4
+2026-10-15 20:34:03.302 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:34:03.304 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:34:03.306 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:34:03.307 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:34:03.307 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:34:03.316 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:34:06.068 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:34:06.280 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:34:06.280 | ato_departure            | resolved=4/4
+2026-10-15 20:34:06.385 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:34:06.387 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:34:06.389 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:34:06.390 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:34:06.390 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:34:06.399 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:34:28.408 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:34:28.617 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:34:28.617 | ato_departure            | resolved=4/4
+2026-10-15 20:34:28.718 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:34:28.719 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:34:28.721 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:34:28.722 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:34:28.723 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:34:28.730 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:34:33.078 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:34:33.280 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:34:33.281 | ato_departure            | resolved=4/4
+2026-10-15 20:34:33.387 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:34:33.389 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:34:33.391 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:34:33.393 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:34:33.393 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:34:33.401 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:34:37.618 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:34:37.817 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:34:37.817 | ato_departure            | resolved=4/4
+2026-10-15 20:34:37.918 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:34:37.920 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:34:37.921 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:34:37.923 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:34:37.923 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:34:37.930 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:34:40.041 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:34:40.066 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:34:40.067 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:34:40.069 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:34:40.071 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:34:40.071 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:34:40.078 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:34:40.190 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:34:40.190 | ato_departure            | resolved=4/4
+2026-10-15 20:34:44.194 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:34:44.358 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:34:44.364 | ato_departure            | resolved=4/4
+2026-10-15 20:34:44.490 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:34:44.492 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:34:44.494 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:34:44.495 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:34:44.496 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:34:44.504 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:36:25.728 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:36:25.934 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:36:25.935 | ato_departure            | resolved=4/4
+2026-10-15 20:36:26.028 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:36:26.029 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:36:26.031 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:36:26.032 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:36:26.033 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:36:26.040 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:36:28.740 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:36:28.765 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:36:28.767 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:36:28.769 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:36:28.771 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:36:28.771 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:36:28.779 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:36:28.943 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:36:28.943 | ato_departure            | resolved=4/4
+2026-10-15 20:37:31.899 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:37:32.110 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:37:32.112 | ato_departure            | resolved=4/4
+2026-10-15 20:37:32.220 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:37:32.222 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:37:32.224 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:37:32.228 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:37:32.228 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:37:32.237 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:37:32.445 | ato_departure            | resolved=53/103
+2026-10-15 20:37:32.446 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:37:32.453 | ato_aircraft_details     | vu=21993 aircraft=4 details=4
+2026-10-15 20:37:32.459 | ato_target               | resolved id=8291 target=Armored
+2026-10-15 20:37:32.459 | ato_aircraft_details     | vu=21900 aircraft=1 details=1
+2026-10-15 20:37:32.460 | ato_target               | resolved id=8291 target=Armored
+2026-10-15 20:37:32.460 | ato_aircraft_details     | vu=25013 aircraft=1 details=1
+2026-10-15 20:37:32.461 | ato_aircraft_details     | vu=24552 aircraft=1 details=1
+2026-10-15 20:37:32.461 | ato_aircraft_details     | vu=24750 aircraft=1 details=1
+2026-10-15 20:37:32.462 | ato_aircraft_details     | vu=22067 aircraft=1 details=1
+2026-10-15 20:37:32.462 | ato_aircraft_details     | vu=24293 aircraft=1 details=1
+2026-10-15 20:37:32.463 | ato_aircraft_details     | vu=24080 aircraft=1 details=1
+2026-10-15 20:37:32.463 | ato_target               | resolved id=8339 target=Armored
+2026-10-15 20:37:32.463 | ato_aircraft_details     | vu=24168 aircraft=1 details=1
+2026-10-15 20:37:32.464 | ato_target               | resolved id=8339 target=Armored
+2026-10-15 20:37:32.464 | ato_target               | resolved id=8296 target=Armored
+2026-10-15 20:37:32.464 | ato_aircraft_details     | vu=24170 aircraft=1 details=1
+2026-10-15 20:37:32.464 | ato_target               | resolved id=8296 target=Armored
+2026-10-15 20:37:32.470 | ato_aircraft_details     | vu=21992 aircraft=4 details=4
+2026-10-15 20:37:32.475 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:37:32.476 | ato_aircraft_details     | vu=21955 aircraft=4 details=4
+2026-10-15 20:37:32.476 | ato_target               | resolved id=2069 target=Janggye-myeon Town
+2026-10-15 20:37:32.476 | ato_aircraft_details     | vu=21991 aircraft=4 details=4
+2026-10-15 20:37:32.477 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:37:32.477 | ato_aircraft_details     | vu=21996 aircraft=1 details=1
+2026-10-15 20:37:32.478 | ato_aircraft_details     | vu=22021 aircraft=1 details=1
+2026-10-15 20:37:32.478 | ato_aircraft_details     | vu=25324 aircraft=1 details=1
+2026-10-15 20:37:32.479 | ato_aircraft_details     | vu=24551 aircraft=1 details=1
+2026-10-15 20:37:32.480 | ato_aircraft_details     | vu=24871 aircraft=1 details=1
+2026-10-15 20:37:32.480 | ato_aircraft_details     | vu=24968 aircraft=1 details=1
+2026-10-15 20:37:32.481 | ato_aircraft_details     | vu=22065 aircraft=1 details=1
+2026-10-15 20:37:32.482 | ato_aircraft_details     | vu=22066 aircraft=1 details=1
+2026-10-15 20:37:32.482 | ato_aircraft_details     | vu=22100 aircraft=1 details=1
+2026-10-15 20:37:32.483 | ato_aircraft_details     | vu=24983 aircraft=1 details=1
+2026-10-15 20:37:32.484 | ato_aircraft_details     | vu=24989 aircraft=1 details=1
+2026-10-15 20:38:47.062 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:38:47.261 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:38:47.261 | ato_departure            | resolved=4/4
+2026-10-15 20:38:47.380 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:38:47.382 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:38:47.384 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:38:47.388 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:38:47.388 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:38:47.398 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
+2026-10-15 20:38:47.597 | ato_departure            | resolved=53/103
+2026-10-15 20:38:47.598 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:38:47.605 | ato_aircraft_details     | vu=21993 aircraft=4 details=4
+2026-10-15 20:38:47.611 | ato_target               | resolved id=8291 target=Armored
+2026-10-15 20:38:47.611 | ato_aircraft_details     | vu=21900 aircraft=1 details=1
+2026-10-15 20:38:47.612 | ato_target               | resolved id=8291 target=Armored
+2026-10-15 20:38:47.612 | ato_aircraft_details     | vu=25013 aircraft=1 details=1
+2026-10-15 20:38:47.613 | ato_aircraft_details     | vu=24552 aircraft=1 details=1
+2026-10-15 20:38:47.614 | ato_aircraft_details     | vu=24750 aircraft=1 details=1
+2026-10-15 20:38:47.614 | ato_aircraft_details     | vu=22067 aircraft=1 details=1
+2026-10-15 20:38:47.615 | ato_aircraft_details     | vu=24293 aircraft=1 details=1
+2026-10-15 20:38:47.616 | ato_aircraft_details     | vu=24080 aircraft=1 details=1
+2026-10-15 20:38:47.616 | ato_target               | resolved id=8339 target=Armored
+2026-10-15 20:38:47.616 | ato_aircraft_details     | vu=24168 aircraft=1 details=1
+2026-10-15 20:38:47.616 | ato_target               | resolved id=8339 target=Armored
+2026-10-15 20:38:47.617 | ato_target               | resolved id=8296 target=Armored
+2026-10-15 20:38:47.617 | ato_aircraft_details     | vu=24170 aircraft=1 details=1
+2026-10-15 20:38:47.617 | ato_target               | resolved id=8296 target=Armored
+2026-10-15 20:38:47.622 | ato_aircraft_details     | vu=21992 aircraft=4 details=4
+2026-10-15 20:38:47.628 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:38:47.628 | ato_aircraft_details     | vu=21955 aircraft=4 details=4
+2026-10-15 20:38:47.628 | ato_target               | resolved id=2069 target=Janggye-myeon Town
+2026-10-15 20:38:47.629 | ato_aircraft_details     | vu=21991 aircraft=4 details=4
+2026-10-15 20:38:47.629 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:38:47.630 | ato_aircraft_details     | vu=21996 aircraft=1 details=1
+2026-10-15 20:38:47.630 | ato_aircraft_details     | vu=22021 aircraft=1 details=1
+2026-10-15 20:38:47.631 | ato_aircraft_details     | vu=25324 aircraft=1 details=1
+2026-10-15 20:38:47.631 | ato_aircraft_details     | vu=24551 aircraft=1 details=1
+2026-10-15 20:38:47.632 | ato_aircraft_details     | vu=24871 aircraft=1 details=1
+2026-10-15 20:38:47.633 | ato_aircraft_details     | vu=24968 aircraft=1 details=1
+2026-10-15 20:38:47.633 | ato_aircraft_details     | vu=22065 aircraft=1 details=1
+2026-10-15 20:38:47.634 | ato_aircraft_details     | vu=22066 aircraft=1 details=1
+2026-10-15 20:38:47.635 | ato_aircraft_details     | vu=22100 aircraft=1 details=1
+2026-10-15 20:38:47.635 | ato_aircraft_details     | vu=24983 aircraft=1 details=1
+2026-10-15 20:38:47.636 | ato_aircraft_details     | vu=24989 aircraft=1 details=1
+2026-10-15 20:38:50.749 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-15 20:38:50.923 | ato_target               | resolved id=279 target=Sinpyeong-dong Town
+2026-10-15 20:38:50.931 | ato_departure            | resolved=4/4
+2026-10-15 20:38:51.056 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:38:51.058 | mission_support          | awacs: cam pkg=1257 vu=22021
+2026-10-15 20:38:51.060 | mission_support          | tanker: cam pkg=1257 vu=22065
+2026-10-15 20:38:51.061 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-15 20:38:51.061 | package_comms            | tactical ch=6 primary=Cobra 7 uhf=334.775
+2026-10-15 20:38:51.070 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=64 hash=5a76120f
