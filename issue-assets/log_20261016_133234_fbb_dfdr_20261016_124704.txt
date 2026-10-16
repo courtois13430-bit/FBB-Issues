@@ -1,0 +1,1102 @@
+2026-10-16 12:47:04.167 | ========================================================================
+2026-10-16 12:47:04.167 | startup                  | FBB 1.96.0 — session 2026-10-16 12:47:04
+2026-10-16 12:47:04.167 | startup                  | Répertoire : C:\Users\thcab\AppData\Local\Programs\FBB\_internal
+2026-10-16 12:47:04.167 | startup                  | Python 3.14.5
+2026-10-16 12:47:04.167 | ========================================================================
+2026-10-16 12:47:04.168 | system                   | OS : Windows 11 10.0.26300, AMD64, 12 CPU, RAM 32 GB
+2026-10-16 12:47:04.180 | system                   | Machine : <masqué> / Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+2026-10-16 12:47:04.180 | registry                 | BMS baseDir : C:\Falcon BMS 4.38
+2026-10-16 12:47:04.180 | registry                 | BMS theater : Korea KTO  pilot : Rouge
+2026-10-16 12:47:04.447 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-10-16 12:47:07.897 | parse_health             | Debut_campagne1.cam: records 1014/1014, bytes 437893/437893, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-16 12:47:07.992 | telemetry                | ping OK v1.96.0 Windows 11 canal=prod → HTTP 200
+2026-10-16 12:47:12.542 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=16 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=5a76120f
+2026-10-16 12:47:12.562 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 12:47:23.241 | parse_health             | TestOpenFreq.tac: records 42/42, bytes 34857/34857, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-16 12:47:24.276 | swap_context             | origin=set_theater cam='testopenfreq.tac' loaded=True err=''
+2026-10-16 12:47:24.595 | ato_target               | index_built names=42 memo=True
+2026-10-16 12:47:24.656 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-16 12:47:24.697 | ato_departure            | resolved=1/1
+2026-10-16 12:47:24.722 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 12:47:24.728 | ato_departure            | resolved=1/1
+2026-10-16 12:47:26.141 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=221)
+2026-10-16 12:47:26.283 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-16 12:47:26.868 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-16 12:47:26.883 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:26.884 | mission_support          | awacs: cam pkg=6974 vu=20011
+2026-10-16 12:47:27.039 | parse_health             | MSNA2.tac: records 56/56, bytes 40609/40609, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-16 12:47:27.240 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-16 12:47:27.333 | swap_context             | origin=select_cam:previous cam='msna2.tac' loaded=True err=''
+2026-10-16 12:47:27.393 | ato_target               | index_built names=56 memo=True
+2026-10-16 12:47:27.523 | ato_departure            | resolved=5/5
+2026-10-16 12:47:27.612 | ato_departure            | resolved=5/5
+2026-10-16 12:47:28.220 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 12:47:35.619 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:35.625 | package_comms            | tactical ch=6 primary=Jedi 4 uhf=374.425
+2026-10-16 12:47:35.785 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=0 n_divert=3 n_sections=61 hash=5a76120f
+2026-10-16 12:47:36.604 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-16 12:47:36.692 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:47:36.694 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:36.695 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:47:37.705 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:37.705 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:47:37.714 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:47:39.668 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:47:39.669 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:39.670 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:39.670 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:47:39.671 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:47:39.677 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 12:47:39.766 | friendly_air_defense     | pkg=6966 ref=stpt sites=4 combat_wp=11 aoo_wp=0 covering=1 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=171 alt_ft=32000
+2026-10-16 12:47:39.770 | briefing_context         | roster_support flights=5 tanker=False awacs=True friendly_ad=ok buddies=1
+2026-10-16 12:47:39.773 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 12:47:39.773 | briefing_context         | package_route_sketch flights=5 points=56
+2026-10-16 12:47:39.773 | briefing_context         | ordnance vu=20009 aircraft=4 pending=False
+2026-10-16 12:47:39.843 | campaign_overview        | objective_index loaded=6944
+2026-10-16 12:47:39.979 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-10-16 12:47:39.982 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:47:40.379 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-10-16 12:47:40.776 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 12:47:40.905 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:47:40.914 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:40.915 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:47:40.918 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:40.918 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:47:40.928 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:47:42.020 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:42.021 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:47:42.022 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:42.022 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:47:42.842 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-10-16 12:47:42.845 | campaign_overview        | system_marks=0
+2026-10-16 12:47:43.648 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:47:43.825 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:47:43.834 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:43.841 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:43.841 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:47:43.843 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:47:43.849 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 12:47:43.950 | friendly_air_defense     | pkg=6966 ref=stpt sites=4 combat_wp=11 aoo_wp=0 covering=1 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=171 alt_ft=32000
+2026-10-16 12:47:43.955 | briefing_context         | roster_support flights=5 tanker=False awacs=True friendly_ad=ok buddies=1
+2026-10-16 12:47:43.957 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 12:47:43.957 | briefing_context         | package_route_sketch flights=5 points=56
+2026-10-16 12:47:43.958 | briefing_context         | ordnance vu=20009 aircraft=4 pending=False
+2026-10-16 12:47:43.971 | briefing_context         | package_overview flights=5 route_points=47 focus_points=7 unique_points=47
+2026-10-16 12:47:44.009 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-10-16 12:47:44.012 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:47:44.244 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:47:44.246 | link16_fill_apply        | 11 STN posés au stage LINK16
+2026-10-16 12:47:44.486 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 12:47:44.706 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:47:44.709 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:44.710 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:47:44.712 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:44.713 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:47:44.724 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:47:44.775 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:47:44.778 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:44.779 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:47:44.784 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:44.784 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:47:44.795 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:47:44.839 | airport_diagrams         | taxi surfaces=70 terrains en raster | repli K-NN : 2 sans mesh CT30, 0 sous-couvrants
+2026-10-16 12:47:44.839 | airport_diagrams         |   sans CT30 : Cardak Airport, Eleftherios Venizelos Airport
+2026-10-16 12:47:46.169 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:46.170 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:47:46.173 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:46.173 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:47:46.208 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:47:46.220 | takeoff                  | dep='' rwy='18' stpt=1 ok=True
+2026-10-16 12:47:46.225 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:47:46.226 | vrp_app                  | arr='' rwy='15' side='right' ok=True
+2026-10-16 12:47:46.232 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:46.235 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:47:46.259 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:46.260 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:47:46.274 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:47:46.704 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:47:46.706 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:46.706 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:47:46.707 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:46.708 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:47:46.715 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:47:46.751 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:47:46.752 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:46.753 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:47:46.754 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:47:46.755 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:47:46.762 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:48:42.772 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 12:48:42.796 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:48:42.799 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:48:42.800 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:48:42.801 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:48:42.801 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:48:42.809 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:49:02.225 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:49:02.227 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:02.227 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:49:02.229 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:02.229 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:49:02.236 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:49:02.270 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:49:02.272 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:02.272 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:49:02.273 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:02.273 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:49:02.281 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:49:03.691 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:49:03.693 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:03.694 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:49:03.695 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:03.695 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:49:03.702 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:49:03.736 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:49:03.738 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:03.738 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:49:03.739 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:03.740 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:49:03.747 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:49:06.586 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:49:06.588 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:06.588 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:49:06.589 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:06.590 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:49:06.598 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:49:06.632 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:49:06.634 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:06.634 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:49:06.636 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:06.636 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:49:06.643 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:49:09.630 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:49:09.632 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:09.632 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:49:09.633 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:09.633 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:49:09.641 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:49:09.675 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:49:09.677 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:09.678 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:49:09.679 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:09.679 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:49:09.686 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:49:15.131 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:49:15.133 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:15.133 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:49:15.134 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:15.135 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:49:15.141 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:49:15.175 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:49:15.177 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:15.177 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:49:15.179 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:49:15.179 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:49:15.186 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=85 hash=5a76120f
+2026-10-16 12:50:09.293 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:50:09.295 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:09.295 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:50:09.297 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:09.297 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:50:09.304 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=86 hash=5a76120f
+2026-10-16 12:50:09.338 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:50:09.340 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:09.341 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:50:09.342 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:09.342 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:50:09.349 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=86 hash=5a76120f
+2026-10-16 12:50:18.556 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:50:18.558 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:18.558 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:50:18.560 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:18.560 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:50:18.567 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=87 hash=5a76120f
+2026-10-16 12:50:18.601 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:50:18.603 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:18.603 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:50:18.605 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:18.605 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:50:18.612 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=87 hash=5a76120f
+2026-10-16 12:50:23.454 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:50:23.459 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:23.459 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:50:23.461 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:23.461 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:50:23.469 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=88 hash=5a76120f
+2026-10-16 12:50:23.505 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:50:23.507 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:23.508 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:50:23.509 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:23.509 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:50:23.516 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=88 hash=5a76120f
+2026-10-16 12:50:36.962 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:50:36.964 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:36.964 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:50:36.966 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:36.966 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:50:36.973 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=89 hash=5a76120f
+2026-10-16 12:50:37.007 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:50:37.009 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:37.010 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:50:37.011 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:37.011 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:50:37.019 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=89 hash=5a76120f
+2026-10-16 12:50:53.900 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:50:53.902 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:53.903 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:50:53.904 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:53.904 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:50:53.911 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=90 hash=5a76120f
+2026-10-16 12:50:53.946 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:50:53.948 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:53.948 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:50:53.949 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:50:53.950 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:50:53.957 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=90 hash=5a76120f
+2026-10-16 12:51:02.318 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:51:02.320 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:02.321 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:51:02.322 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:02.322 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:51:02.329 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=91 hash=5a76120f
+2026-10-16 12:51:02.363 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:51:02.365 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:02.365 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:51:02.366 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:02.367 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:51:02.374 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=91 hash=5a76120f
+2026-10-16 12:51:08.951 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:51:08.954 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:08.954 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:51:08.956 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:08.956 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:51:08.963 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=92 hash=5a76120f
+2026-10-16 12:51:08.997 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:51:08.999 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:08.999 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:51:09.001 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:09.001 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:51:09.008 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=92 hash=5a76120f
+2026-10-16 12:51:20.577 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:51:20.579 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:20.580 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:51:20.581 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:20.581 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:51:20.588 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=92 hash=5a76120f
+2026-10-16 12:51:20.623 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:51:20.625 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:20.625 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:51:20.627 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:20.627 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:51:20.634 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=92 hash=5a76120f
+2026-10-16 12:51:33.380 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:51:33.383 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:33.383 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:51:33.385 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:33.385 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:51:33.392 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=93 hash=5a76120f
+2026-10-16 12:51:33.426 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:51:33.428 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:33.429 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:51:33.430 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:33.431 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:51:33.438 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=93 hash=5a76120f
+2026-10-16 12:51:57.952 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:51:57.953 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:57.954 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:51:57.955 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:57.955 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:51:57.963 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=94 hash=5a76120f
+2026-10-16 12:51:57.996 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:51:57.998 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:57.999 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:51:58.000 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:51:58.000 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:51:58.007 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=94 hash=5a76120f
+2026-10-16 12:52:01.829 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:52:01.831 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:01.831 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:52:01.832 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:01.832 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:52:01.840 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=95 hash=5a76120f
+2026-10-16 12:52:01.874 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:52:01.876 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:01.876 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:52:01.877 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:01.878 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:52:01.885 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=95 hash=5a76120f
+2026-10-16 12:52:05.989 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:52:05.991 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:05.992 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:52:05.993 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:05.993 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:52:06.000 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=96 hash=5a76120f
+2026-10-16 12:52:06.034 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:52:06.036 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:06.037 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:52:06.038 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:06.038 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:52:06.045 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=96 hash=5a76120f
+2026-10-16 12:52:21.168 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:52:21.170 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:21.170 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:52:21.171 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:21.171 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:52:21.179 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=97 hash=5a76120f
+2026-10-16 12:52:21.213 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:52:21.215 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:21.215 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:52:21.217 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:21.217 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:52:21.224 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=97 hash=5a76120f
+2026-10-16 12:52:27.700 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:52:27.703 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:27.703 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:52:27.705 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:27.705 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:52:27.713 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=98 hash=5a76120f
+2026-10-16 12:52:27.748 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:52:27.749 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:27.750 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:52:27.751 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:27.752 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:52:27.759 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=98 hash=5a76120f
+2026-10-16 12:52:42.244 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:52:42.246 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:42.247 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:52:42.248 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:42.248 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:52:42.255 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=99 hash=5a76120f
+2026-10-16 12:52:42.289 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:52:42.291 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:42.292 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:52:42.293 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:42.293 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:52:42.301 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=99 hash=5a76120f
+2026-10-16 12:52:53.403 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:52:53.408 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:53.409 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:52:53.411 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:53.411 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:52:53.419 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=100 hash=5a76120f
+2026-10-16 12:52:53.453 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:52:53.455 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:53.455 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:52:53.457 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:52:53.457 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:52:53.464 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=100 hash=5a76120f
+2026-10-16 12:53:11.792 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:53:11.794 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:11.795 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:53:11.797 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:11.797 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:53:11.804 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=101 hash=5a76120f
+2026-10-16 12:53:11.839 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:53:11.841 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:11.841 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:53:11.843 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:11.843 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:53:11.850 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=101 hash=5a76120f
+2026-10-16 12:53:16.274 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:53:16.276 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:16.276 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:53:16.277 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:16.277 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:53:16.285 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=102 hash=5a76120f
+2026-10-16 12:53:16.320 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:53:16.321 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:16.322 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:53:16.323 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:16.324 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:53:16.331 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=102 hash=5a76120f
+2026-10-16 12:53:22.748 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:53:22.751 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:22.751 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:53:22.752 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:22.753 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:53:22.760 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=103 hash=5a76120f
+2026-10-16 12:53:22.795 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:53:22.797 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:22.798 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:53:22.799 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:22.799 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:53:22.807 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=103 hash=5a76120f
+2026-10-16 12:53:31.823 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:53:31.825 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:31.825 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:53:31.826 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:31.826 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:53:31.834 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=104 hash=5a76120f
+2026-10-16 12:53:31.869 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:53:31.871 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:31.871 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:53:31.873 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:31.873 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:53:31.880 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=104 hash=5a76120f
+2026-10-16 12:53:39.407 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:53:39.409 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:39.409 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:53:39.410 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:39.410 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:53:39.420 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=105 hash=5a76120f
+2026-10-16 12:53:39.454 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:53:39.456 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:39.457 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:53:39.458 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:53:39.458 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:53:39.466 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=105 hash=5a76120f
+2026-10-16 12:54:18.434 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:54:18.436 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:18.437 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:54:18.438 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:18.438 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:54:18.446 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=105 hash=5a76120f
+2026-10-16 12:54:18.480 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:54:18.482 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:18.482 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:54:18.483 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:18.484 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:54:18.491 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=105 hash=5a76120f
+2026-10-16 12:54:24.666 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:54:24.668 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:24.668 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:54:24.669 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:24.670 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:54:24.677 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=106 hash=5a76120f
+2026-10-16 12:54:24.711 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:54:24.713 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:24.713 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:54:24.714 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:24.714 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:54:24.722 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=106 hash=5a76120f
+2026-10-16 12:54:32.267 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:54:32.269 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:32.269 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:54:32.270 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:32.270 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:54:32.278 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=107 hash=5a76120f
+2026-10-16 12:54:32.312 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:54:32.314 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:32.314 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:54:32.316 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:32.316 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:54:32.323 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=107 hash=5a76120f
+2026-10-16 12:54:37.128 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:54:37.130 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:37.130 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:54:37.131 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:37.131 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:54:37.139 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=108 hash=5a76120f
+2026-10-16 12:54:37.173 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:54:37.175 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:37.176 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:54:37.177 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:37.177 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:54:37.184 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=108 hash=5a76120f
+2026-10-16 12:54:48.985 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:54:48.987 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:48.987 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:54:48.989 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:48.989 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:54:48.996 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=109 hash=5a76120f
+2026-10-16 12:54:49.030 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:54:49.032 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:49.033 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:54:49.034 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:54:49.035 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:54:49.042 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=109 hash=5a76120f
+2026-10-16 12:55:00.076 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:55:00.079 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:00.079 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:55:00.080 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:00.081 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:55:00.088 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=110 hash=5a76120f
+2026-10-16 12:55:00.122 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:55:00.124 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:00.125 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:55:00.126 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:00.126 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:55:00.135 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=110 hash=5a76120f
+2026-10-16 12:55:03.828 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:55:03.830 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:03.831 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:55:03.832 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:03.832 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:55:03.841 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=111 hash=5a76120f
+2026-10-16 12:55:03.876 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:55:03.878 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:03.879 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:55:03.880 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:03.880 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:55:03.888 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=111 hash=5a76120f
+2026-10-16 12:55:12.679 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:55:12.685 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:12.686 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:55:12.687 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:12.687 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:55:12.694 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=112 hash=5a76120f
+2026-10-16 12:55:12.729 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:55:12.731 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:12.731 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:55:12.733 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:12.733 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:55:12.740 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=112 hash=5a76120f
+2026-10-16 12:55:26.489 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:55:26.491 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:26.491 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:55:26.492 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:26.493 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:55:26.500 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=113 hash=5a76120f
+2026-10-16 12:55:26.535 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:55:26.537 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:26.537 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:55:26.539 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:26.539 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:55:26.547 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=113 hash=5a76120f
+2026-10-16 12:55:32.297 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:55:32.298 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:32.299 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:55:32.300 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:32.301 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:55:32.308 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=114 hash=5a76120f
+2026-10-16 12:55:32.342 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:55:32.344 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:32.344 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:55:32.346 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:32.346 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:55:32.353 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=114 hash=5a76120f
+2026-10-16 12:55:37.928 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:55:37.931 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:37.931 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:55:37.933 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:37.933 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:55:37.940 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=115 hash=5a76120f
+2026-10-16 12:55:37.975 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:55:37.977 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:37.978 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:55:37.979 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:37.979 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:55:37.987 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=115 hash=5a76120f
+2026-10-16 12:55:43.942 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:55:43.944 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:43.945 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:55:43.946 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:43.946 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:55:43.953 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=116 hash=5a76120f
+2026-10-16 12:55:43.990 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:55:43.992 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:43.992 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:55:43.994 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:55:43.994 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:55:44.002 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=116 hash=5a76120f
+2026-10-16 12:55:47.985 | mfd_preset_save          | name='Config Rouge de base' keys=48
+2026-10-16 12:55:55.562 | mfd_preset_save          | name='Config Rouge de base' keys=48
+2026-10-16 12:59:10.279 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:59:10.281 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:59:10.281 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:59:10.283 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:59:10.283 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:59:10.290 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=117 hash=5a76120f
+2026-10-16 12:59:10.324 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:59:10.325 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:59:10.326 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:59:10.327 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:59:10.327 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:59:10.335 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=117 hash=5a76120f
+2026-10-16 12:59:13.136 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:59:13.139 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:59:13.139 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:59:13.140 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:59:13.141 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:59:13.148 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=118 hash=5a76120f
+2026-10-16 12:59:13.183 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 12:59:13.185 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:59:13.186 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 12:59:13.187 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 12:59:13.188 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 12:59:13.195 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=118 hash=5a76120f
+2026-10-16 13:03:14.348 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:03:14.350 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:03:14.351 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:03:14.352 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:03:14.353 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:03:14.360 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=119 hash=5a76120f
+2026-10-16 13:03:14.394 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:03:14.396 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:03:14.397 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:03:14.398 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:03:14.398 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:03:14.405 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=119 hash=5a76120f
+2026-10-16 13:03:19.494 | ato_departure            | resolved=5/5
+2026-10-16 13:05:41.770 | ato_departure            | resolved=5/5
+2026-10-16 13:05:56.632 | ato_departure            | resolved=5/5
+2026-10-16 13:07:26.240 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:07:26.242 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:07:26.242 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:07:26.244 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:07:26.244 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:07:26.252 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=120 hash=5a76120f
+2026-10-16 13:07:26.289 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:07:26.291 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:07:26.291 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:07:26.292 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:07:26.292 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:07:26.300 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=120 hash=5a76120f
+2026-10-16 13:07:31.418 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:07:31.420 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:07:31.420 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:07:31.422 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:07:31.422 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:07:31.429 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=121 hash=5a76120f
+2026-10-16 13:07:32.078 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:07:32.080 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:07:32.081 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:07:32.082 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:07:32.082 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:07:32.091 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=121 hash=5a76120f
+2026-10-16 13:08:07.048 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:08:07.050 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:08:07.050 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:08:07.052 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:08:07.052 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:08:07.059 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=122 hash=5a76120f
+2026-10-16 13:08:07.093 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:08:07.095 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:08:07.095 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:08:07.096 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:08:07.096 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:08:07.103 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=122 hash=5a76120f
+2026-10-16 13:08:20.607 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:08:20.609 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:08:20.610 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:08:20.611 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:08:20.611 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:08:20.619 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=123 hash=5a76120f
+2026-10-16 13:08:20.653 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:08:20.655 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:08:20.656 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:08:20.657 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:08:20.657 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:08:20.664 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=123 hash=5a76120f
+2026-10-16 13:08:35.041 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 13:08:35.494 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:08:35.496 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:08:35.497 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:08:35.498 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:08:35.499 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:08:35.506 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=123 hash=5a76120f
+2026-10-16 13:10:11.734 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:10:11.736 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:10:11.736 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:10:11.738 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:10:11.738 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:10:11.746 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=122 hash=5a76120f
+2026-10-16 13:10:12.164 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:10:12.166 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:10:12.166 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:10:12.168 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:10:12.168 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:10:12.175 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=122 hash=5a76120f
+2026-10-16 13:10:25.565 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:10:25.567 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:10:25.567 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:10:25.569 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:10:25.569 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:10:25.577 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=123 hash=5a76120f
+2026-10-16 13:10:25.610 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:10:25.612 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:10:25.612 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:10:25.613 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:10:25.613 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:10:25.621 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=123 hash=5a76120f
+2026-10-16 13:10:34.178 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:10:34.180 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:10:34.181 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:10:34.182 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:10:34.182 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:10:34.190 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=124 hash=5a76120f
+2026-10-16 13:10:34.223 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:10:34.225 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:10:34.225 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:10:34.227 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:10:34.227 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:10:34.234 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=124 hash=5a76120f
+2026-10-16 13:18:05.806 | targets_table            | occupied=6/19 unclaimed=0
+2026-10-16 13:18:21.293 | ppt_table                | occupied=0/15 orphans=0 blocked=no_side_or_catalog
+2026-10-16 13:19:16.528 | ato_departure            | resolved=5/5
+2026-10-16 13:19:29.870 | ato_departure            | resolved=5/5
+2026-10-16 13:21:36.412 | ato_departure            | resolved=5/5
+2026-10-16 13:23:28.967 | link16_effective         | 11 champs, 11 en attente d'écriture
+2026-10-16 13:23:28.968 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:23:28.974 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:23:28.975 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:23:28.977 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:23:28.978 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:23:28.987 | briefing_domestics       | build_domestics ok icao= rwy=36/18 comm_rows=8 crew=4
+2026-10-16 13:24:43.002 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 13:24:43.187 | ato_departure            | resolved=5/5
+2026-10-16 13:24:43.431 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:24:43.433 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:24:43.434 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:24:43.435 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:24:43.435 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:24:43.443 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=124 hash=5a76120f
+2026-10-16 13:25:27.159 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 13:25:27.342 | ato_departure            | resolved=5/5
+2026-10-16 13:25:27.763 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:25:27.768 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:25:27.769 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:25:27.770 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:25:27.770 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:25:27.780 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=124 hash=5a76120f
+2026-10-16 13:25:33.636 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:25:33.636 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:25:33.638 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:25:33.639 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:25:33.656 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:25:33.742 | takeoff                  | dep='' rwy='18' stpt=1 ok=True
+2026-10-16 13:25:33.782 | vrp_app                  | arr='' rwy='15' side='right' ok=True
+2026-10-16 13:25:34.139 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:25:34.141 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:25:34.142 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:25:34.143 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:25:34.143 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:25:34.150 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=124 hash=5a76120f
+2026-10-16 13:25:34.442 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:25:34.444 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:25:34.444 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:25:34.446 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:25:34.446 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:25:34.454 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=124 hash=5a76120f
+2026-10-16 13:25:35.270 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:25:35.274 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:25:35.275 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:25:35.277 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:25:35.277 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:25:35.289 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=124 hash=5a76120f
+2026-10-16 13:26:12.081 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 13:26:12.364 | ato_departure            | resolved=5/5
+2026-10-16 13:26:12.545 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-10-16 13:26:12.547 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:12.548 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:26:12.553 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:12.553 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:26:12.564 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=124 hash=5a76120f
+2026-10-16 13:26:12.740 | ato_departure            | resolved=13/16
+2026-10-16 13:26:12.741 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:12.763 | ato_aircraft_details     | vu=20008 aircraft=4 details=4
+2026-10-16 13:26:12.805 | ato_aircraft_details     | vu=20022 aircraft=4 details=4
+2026-10-16 13:26:12.827 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-16 13:26:12.828 | ato_aircraft_details     | vu=20023 aircraft=4 details=4
+2026-10-16 13:26:12.829 | ato_aircraft_details     | vu=20006 aircraft=4 details=4
+2026-10-16 13:26:12.830 | ato_aircraft_details     | vu=20011 aircraft=1 details=1
+2026-10-16 13:26:12.830 | ato_aircraft_details     | vu=20025 aircraft=1 details=1
+2026-10-16 13:26:12.851 | ato_aircraft_details     | vu=20009 aircraft=4 details=4
+2026-10-16 13:26:33.329 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:26:33.332 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:33.338 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:33.338 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:26:33.339 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:26:33.347 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 13:26:33.353 | dtc_stage_rinse          | 16 saisies du vol Gator 6 abandonnées
+2026-10-16 13:26:33.357 | ato_departure            | resolved=5/5
+2026-10-16 13:26:33.459 | friendly_air_defense     | pkg=6966 ref=stpt sites=4 combat_wp=11 aoo_wp=0 covering=1 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=171 alt_ft=32000
+2026-10-16 13:26:33.463 | briefing_context         | roster_support flights=5 tanker=False awacs=True friendly_ad=ok buddies=1
+2026-10-16 13:26:33.465 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 13:26:33.465 | briefing_context         | package_route_sketch flights=5 points=56
+2026-10-16 13:26:33.465 | briefing_context         | ordnance vu=20007 aircraft=4 pending=True
+2026-10-16 13:26:33.942 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 13:26:33.960 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-10-16 13:26:33.964 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:26:34.048 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:26:34.049 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:26:34.059 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:34.059 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:26:34.070 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:34.070 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:26:34.085 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=120 hash=5a76120f
+2026-10-16 13:26:34.138 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:26:34.141 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:34.142 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:34.142 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:26:34.143 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:26:34.149 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 13:26:34.252 | friendly_air_defense     | pkg=6966 ref=stpt sites=4 combat_wp=11 aoo_wp=0 covering=1 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=171 alt_ft=32000
+2026-10-16 13:26:34.415 | briefing_context         | roster_support flights=5 tanker=False awacs=True friendly_ad=ok buddies=1
+2026-10-16 13:26:34.418 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 13:26:34.418 | briefing_context         | package_route_sketch flights=5 points=56
+2026-10-16 13:26:34.419 | briefing_context         | ordnance vu=20007 aircraft=4 pending=True
+2026-10-16 13:26:34.536 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:34.537 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:26:34.637 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:34.638 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:26:34.859 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:26:34.962 | vrp_app                  | arr='' rwy='10' side='left' ok=True
+2026-10-16 13:26:34.965 | takeoff                  | dep='' rwy='10' stpt=1 ok=True
+2026-10-16 13:26:35.015 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:26:35.018 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:26:35.024 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-10-16 13:26:35.028 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:26:35.034 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:26:35.037 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:35.038 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:26:35.039 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:35.040 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:26:35.048 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=120 hash=5a76120f
+2026-10-16 13:26:35.213 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 13:26:35.244 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:26:35.246 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:26:35.247 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:35.248 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:26:35.249 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:35.249 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:26:35.256 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=122 hash=5a76120f
+2026-10-16 13:26:35.495 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:26:35.497 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:26:35.498 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:35.499 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:26:35.500 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:35.500 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:26:35.507 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=122 hash=5a76120f
+2026-10-16 13:26:52.185 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:26:53.571 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:26:53.572 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:26:53.574 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:53.575 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:26:53.576 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:26:53.576 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:26:53.583 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=122 hash=5a76120f
+2026-10-16 13:27:18.489 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:27:18.491 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:27:18.492 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:27:18.493 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:27:18.494 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:27:18.495 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:27:18.502 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=123 hash=5a76120f
+2026-10-16 13:27:19.132 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:27:19.133 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:27:19.135 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:27:19.135 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:27:19.137 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:27:19.137 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:27:19.144 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=124 hash=5a76120f
+2026-10-16 13:28:06.317 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:28:06.319 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:28:06.320 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:28:06.321 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:28:06.322 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:28:06.323 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:28:06.330 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=124 hash=5a76120f
+2026-10-16 13:28:08.020 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:28:08.021 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:28:08.023 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:28:08.024 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:28:08.025 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:28:08.025 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:28:08.032 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=124 hash=5a76120f
+2026-10-16 13:28:26.607 | stpt_oa                  | stpt=1 enabled=True revert=False
+2026-10-16 13:28:26.620 | takeoff                  | dep='' rwy='10' stpt=1 ok=True
+2026-10-16 13:28:26.629 | takeoff                  | dep='' rwy='10' stpt=1 ok=True
+2026-10-16 13:28:26.631 | vrp_app                  | arr='' rwy='10' side='left' ok=True
+2026-10-16 13:28:27.099 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:28:27.102 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:28:27.104 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:28:27.105 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:28:27.110 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:28:27.111 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:28:27.112 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:28:27.114 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:28:27.119 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:28:27.121 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:28:27.122 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=126 hash=5a76120f
+2026-10-16 13:28:27.129 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:28:27.129 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:28:27.137 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=126 hash=5a76120f
+2026-10-16 13:28:39.508 | targets_table            | occupied=6/19 unclaimed=0
+2026-10-16 13:28:42.520 | ppt_table                | occupied=0/15 orphans=0 blocked=no_side_or_catalog
+2026-10-16 13:28:58.216 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 13:28:58.444 | ato_departure            | resolved=5/5
+2026-10-16 13:28:58.691 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:28:58.693 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:28:58.701 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:28:58.701 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:28:58.705 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:28:58.705 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:28:58.715 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=126 hash=5a76120f
+2026-10-16 13:28:58.902 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:28:58.909 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:28:58.981 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:28:58.984 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:28:58.984 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:28:59.018 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-10-16 13:28:59.022 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 13:28:59.143 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 13:28:59.201 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:28:59.208 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:28:59.228 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:28:59.231 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:28:59.232 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:28:59.252 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-10-16 13:28:59.256 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 13:28:59.373 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 13:28:59.824 | datacard_pil             | truncate page=ROE - BVR block='TGT / DMPI' avail=330 need=473.5 full='6585th Air Defense Battalion ALP 310-G'
+2026-10-16 13:28:59.825 | datacard_pil             | truncate page=ROE - BVR block='TGT / DMPI' avail=330 need=522.0 full='6585th Air Defense Battalion AKREP 1000-G'
+2026-10-16 13:28:59.827 | datacard_pil             | truncate page=ROE - BVR block='TGT / DMPI' avail=330 need=463.0 full='6585th Air Defense Battalion SIPER-B1'
+2026-10-16 13:28:59.828 | datacard_pil             | truncate page=ROE - BVR block='TGT / DMPI' avail=330 need=463.0 full='6585th Air Defense Battalion SIPER-B1'
+2026-10-16 13:28:59.830 | datacard_pil             | truncate page=ROE - BVR block='TGT / DMPI' avail=330 need=421.0 full='6957th Air Defense Battalion Zipkin'
+2026-10-16 13:28:59.830 | datacard_pil             | truncate page=ROE - BVR block='ROE - BVR' avail=138 need=180.5 full='F-16C-32 AGRS'
+2026-10-16 13:28:59.831 | datacard_pil             | truncate page=ROE - BVR block='ROE - BVR' avail=138 need=140.5 full='F-15C AGRS'
+2026-10-16 13:28:59.881 | datacard_pil             | truncate page=FLIGHTPLAN block='PKG' avail=148 need=150.5 full='4 F-16CM-52'
+2026-10-16 13:28:59.882 | datacard_pil             | truncate page=FLIGHTPLAN block='PKG' avail=148 need=150.5 full='4 F-16CM-52'
+2026-10-16 13:28:59.894 | datacard_pil             | truncate page=FLIGHTPLAN block='PKG' avail=148 need=150.5 full='4 F-16CM-52'
+2026-10-16 13:28:59.895 | datacard_pil             | truncate page=FLIGHTPLAN block='PKG' avail=148 need=150.5 full='4 F-16CM-52'
+2026-10-16 13:28:59.895 | datacard_pil             | truncate page=FLIGHTPLAN block='FLIGHTPLAN' avail=116 need=130.0 full='Arrowhead'
+2026-10-16 13:28:59.926 | datacard_pil             | truncate page=DIVERT — TERRAINS DE DÉROUTEMENT block='DIVERT — TERRAINS DE DÉROUTEMENT' avail=304 need=337.0 full='Eleftherios Venizelos Airport'
+2026-10-16 13:28:59.963 | datacard_pil             | truncate page=Mission Objective block='MISSION BRIEFING' avail=128 need=128.5 full='F-16CM-52'
+2026-10-16 13:28:59.963 | datacard_pil             | truncate page=Mission Objective block='Intel — SAM on package routes (at route altitude)' avail=78 need=90.0 full='150 NM'
+2026-10-16 13:28:59.963 | datacard_pil             | truncate page=Mission Objective block='Intel — A/A enemy fighters (theater-wide, doctrinal "can carry")' avail=118 need=180.5 full='F-16C-32 AGRS'
+2026-10-16 13:28:59.963 | datacard_pil             | truncate page=Mission Objective block='Intel — A/A enemy fighters (theater-wide, doctrinal "can carry")' avail=118 need=140.5 full='F-15C AGRS'
+2026-10-16 13:29:00.091 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:00.100 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:29:00.120 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:29:00.123 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:00.124 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:29:00.596 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-10-16 13:29:00.599 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 13:29:00.718 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 13:29:04.738 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 13:29:04.926 | ato_departure            | resolved=5/5
+2026-10-16 13:29:05.220 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:29:05.222 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:29:05.224 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:05.224 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:29:05.226 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:05.226 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:29:05.234 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=126 hash=5a76120f
+2026-10-16 13:29:08.932 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 13:29:09.520 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:29:09.523 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:29:09.525 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:09.525 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:29:09.528 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:09.528 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:29:09.539 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=126 hash=5a76120f
+2026-10-16 13:29:10.111 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-10-16 13:29:10.113 | campaign_overview        | system_marks=0
+2026-10-16 13:29:10.863 | briefing_context         | package_overview flights=5 route_points=47 focus_points=7 unique_points=47
+2026-10-16 13:29:10.875 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:29:10.881 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:10.885 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:10.885 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:29:10.886 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:29:10.891 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 13:29:10.989 | friendly_air_defense     | pkg=6966 ref=stpt sites=4 combat_wp=11 aoo_wp=0 covering=1 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=171 alt_ft=32000
+2026-10-16 13:29:10.997 | briefing_context         | roster_support flights=5 tanker=False awacs=True friendly_ad=ok buddies=1
+2026-10-16 13:29:10.999 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 13:29:11.000 | briefing_context         | package_route_sketch flights=5 points=56
+2026-10-16 13:29:11.006 | briefing_context         | ordnance vu=20007 aircraft=4 pending=True
+2026-10-16 13:29:11.041 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-10-16 13:29:11.044 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:29:11.306 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:29:11.309 | link16_fill_apply        | 10 STN posés au stage LINK16
+2026-10-16 13:29:11.416 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:29:11.424 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:29:11.440 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:29:11.443 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:29:11.452 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:11.459 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:29:11.461 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:11.462 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:29:11.468 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:11.470 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:29:11.488 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=126 hash=5a76120f
+2026-10-16 13:29:11.495 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:11.496 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:29:11.502 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 13:29:11.513 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=126 hash=5a76120f
+2026-10-16 13:29:11.721 | airport_diagrams         | taxi surfaces=70 terrains en raster | repli K-NN : 2 sans mesh CT30, 0 sous-couvrants
+2026-10-16 13:29:11.722 | airport_diagrams         |   sans CT30 : Cardak Airport, Eleftherios Venizelos Airport
+2026-10-16 13:29:11.785 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:29:11.787 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:29:11.790 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:11.791 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:29:11.794 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:11.795 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:29:11.819 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=126 hash=5a76120f
+2026-10-16 13:29:11.873 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:29:11.875 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:29:11.879 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:11.879 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:29:11.884 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:11.884 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:29:11.895 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=126 hash=5a76120f
+2026-10-16 13:29:17.262 | charts_ondemand          | AGC rendu a la demande : Tanagra Airbase (1232492 o) -> C:\Users\thcab\AppData\Roaming\FBB\FBB Charts\Hellas\Tanagra Airbase\AGC_Tanagra Airbase.png
+2026-10-16 13:29:19.453 | charts_ondemand          | AGC rendu a la demande : Mikonos Airport (896817 o) -> C:\Users\thcab\AppData\Roaming\FBB\FBB Charts\Hellas\Mikonos Airport\AGC_Mikonos Airport.png
+2026-10-16 13:29:21.884 | charts_ondemand          | AGC rendu a la demande : Diagoras Airport (1283553 o) -> C:\Users\thcab\AppData\Roaming\FBB\FBB Charts\Hellas\Diagoras Airport\AGC_Diagoras Airport.png
+2026-10-16 13:29:23.275 | charts_ondemand          | AGC rendu a la demande : Eleftherios Venizelos Airport (1281015 o) -> C:\Users\thcab\AppData\Roaming\FBB\FBB Charts\Hellas\Eleftherios Venizelos Airport\AGC_Eleftherios Venizelos Airport.png
+2026-10-16 13:29:25.760 | charts_ondemand          | AGC rendu a la demande : Elefsina Airbase (1053425 o) -> C:\Users\thcab\AppData\Roaming\FBB\FBB Charts\Hellas\Elefsina Airbase\AGC_Elefsina Airbase.png
+2026-10-16 13:29:25.786 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:25.793 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:29:25.813 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:29:25.816 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:25.816 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:29:26.275 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-10-16 13:29:26.278 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 13:29:26.404 | package_relevance        | package_routes pkg=6966 flights=5 routes=5 points=56
+2026-10-16 13:29:26.546 | datacard_pil             | truncate page=Mission Objective block='MISSION BRIEFING' avail=128 need=128.5 full='F-16CM-52'
+2026-10-16 13:29:26.546 | datacard_pil             | truncate page=Mission Objective block='Intel — SAM on package routes (at route altitude)' avail=78 need=90.0 full='150 NM'
+2026-10-16 13:29:26.546 | datacard_pil             | truncate page=Mission Objective block='Intel — A/A enemy fighters (theater-wide, doctrinal "can carry")' avail=118 need=180.5 full='F-16C-32 AGRS'
+2026-10-16 13:29:26.546 | datacard_pil             | truncate page=Mission Objective block='Intel — A/A enemy fighters (theater-wide, doctrinal "can carry")' avail=118 need=140.5 full='F-15C AGRS'
+2026-10-16 13:29:27.050 | datacard_pil             | truncate page=ROE - BVR block='TGT / DMPI' avail=330 need=473.5 full='6585th Air Defense Battalion ALP 310-G'
+2026-10-16 13:29:27.050 | datacard_pil             | truncate page=ROE - BVR block='TGT / DMPI' avail=330 need=522.0 full='6585th Air Defense Battalion AKREP 1000-G'
+2026-10-16 13:29:27.050 | datacard_pil             | truncate page=ROE - BVR block='TGT / DMPI' avail=330 need=463.0 full='6585th Air Defense Battalion SIPER-B1'
+2026-10-16 13:29:27.050 | datacard_pil             | truncate page=ROE - BVR block='TGT / DMPI' avail=330 need=463.0 full='6585th Air Defense Battalion SIPER-B1'
+2026-10-16 13:29:27.050 | datacard_pil             | truncate page=ROE - BVR block='TGT / DMPI' avail=330 need=421.0 full='6957th Air Defense Battalion Zipkin'
+2026-10-16 13:29:27.050 | datacard_pil             | truncate page=ROE - BVR block='ROE - BVR' avail=138 need=180.5 full='F-16C-32 AGRS'
+2026-10-16 13:29:27.050 | datacard_pil             | truncate page=ROE - BVR block='ROE - BVR' avail=138 need=140.5 full='F-15C AGRS'
+2026-10-16 13:29:27.292 | datacard_pil             | truncate page=FLIGHTPLAN block='PKG' avail=148 need=150.5 full='4 F-16CM-52'
+2026-10-16 13:29:27.292 | datacard_pil             | truncate page=FLIGHTPLAN block='PKG' avail=148 need=150.5 full='4 F-16CM-52'
+2026-10-16 13:29:27.292 | datacard_pil             | truncate page=FLIGHTPLAN block='PKG' avail=148 need=150.5 full='4 F-16CM-52'
+2026-10-16 13:29:27.292 | datacard_pil             | truncate page=FLIGHTPLAN block='PKG' avail=148 need=150.5 full='4 F-16CM-52'
+2026-10-16 13:29:27.292 | datacard_pil             | truncate page=FLIGHTPLAN block='FLIGHTPLAN' avail=116 need=130.0 full='Arrowhead'
+2026-10-16 13:29:33.572 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 13:29:34.057 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:29:34.059 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:29:34.061 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:34.062 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:29:34.063 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:34.063 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:29:34.072 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=126 hash=5a76120f
+2026-10-16 13:29:34.193 | knb_print_state          | print grave cam=c:\falcon bms 4.38\data\add-on hellas\campaign\msna2.tac dirs=2
+2026-10-16 13:29:34.248 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 13:29:34.274 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:29:34.277 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:29:34.279 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:34.280 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:29:34.281 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:34.281 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:29:34.290 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=126 hash=5a76120f
+2026-10-16 13:29:34.358 | ato_departure            | resolved=5/5
+2026-10-16 13:29:58.988 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:29:58.990 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:29:58.992 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:58.992 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:29:58.993 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:29:58.994 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:29:59.001 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=126 hash=5a76120f
+2026-10-16 13:30:30.730 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-16 13:30:30.920 | ato_departure            | resolved=5/5
+2026-10-16 13:30:31.207 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:30:31.209 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:30:31.211 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:30:31.212 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:30:31.213 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:30:31.213 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:30:31.222 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=126 hash=5a76120f
+2026-10-16 13:30:40.524 | fuel_plan                | avail=17124 atTurn=10699 bingo=6800 joker=7300 rtb=3310 margin=3899 GO
+2026-10-16 13:30:40.526 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-16 13:30:40.528 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:30:40.528 | mission_support          | awacs: cam pkg=6966 vu=20011
+2026-10-16 13:30:40.529 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-16 13:30:40.530 | package_comms            | tactical ch=6 primary=Mudhen 1 uhf=310.275
+2026-10-16 13:30:40.537 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=16 n_ppt=0 n_dpi=6 n_divert=3 n_sections=126 hash=5a76120f
