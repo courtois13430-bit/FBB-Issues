@@ -1,0 +1,48 @@
+2026-10-17 21:09:13.691 | ========================================================================
+2026-10-17 21:09:13.691 | FBB Online  mode=CLIENT    identity=Obe3              port=45380
+2026-10-17 21:09:13.691 | Session : 2026-10-17 21:09:13
+2026-10-17 21:09:13.691 | ========================================================================
+2026-10-17 21:09:13.691 | [STATE] _client none -> NetworkClient#1fa1cabba80 | cause=connect_client
+2026-10-17 21:09:13.691 | [STATE] _mode idle -> client | cause=connect_client
+2026-10-17 21:09:13.691 | [STATE] _my_callsign (vide) -> Obe3 | cause=connect_client
+2026-10-17 21:09:13.692 | [STATE] reset online | cause=connect_client | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt, debrief_presenter
+2026-10-17 21:09:13.692 | [CLIENT] status → connecting
+2026-10-17 21:09:13.697 | [CLIENT] Connexion → 192.168.1.21:45380 (callsign=Obe3)
+2026-10-17 21:09:13.704 | [CLIENT] status → connected
+2026-10-17 21:09:14.707 | [SESSION] rejointe — hôte Obe1, aucun autre pilote connecté
+2026-10-17 21:09:14.708 | [THEATER] Théâtre de session → « LKTO 4.38 + Papa »
+2026-10-17 21:09:14.770 | [CAM] Bundle campagne reçu — 8 fichier(s)
+2026-10-17 21:09:14.840 | [THEATER] ✓ Théâtre vérifié — 6 fichier(s) OK
+2026-10-17 21:09:14.844 | [DPI] 4 DPI(s) partagé(s) reçu(s) du host
+2026-10-17 21:09:14.867 | [BA] Conteneurs BA reçus du host — 14 entrée(s)
+2026-10-17 21:09:14.868 | [BOXES] 1 box(es) partagée(s) reçue(s)
+2026-10-17 21:09:14.869 | [FRAGG] état reçu et appliqué
+2026-10-17 21:09:14.901 | [LOADOUT] état reçu (pending + final)
+2026-10-17 21:09:15.619 | [CAM] Contexte rechargé → CI06a.cam
+2026-10-17 21:09:15.620 | [CAM] Campagne « CI06a » — ton BMS la connaît sous ce nom, ta DTC tombera au bon endroit.
+2026-10-17 21:09:15.620 | [CAM] Rappel — ne change pas le nom de la campagne dans BMS pendant la session : ta DTC serait écrite à côté, et tu décollerais sans tes cibles.
+2026-10-17 21:09:24.128 | [FPLN] fpln_tle reçu — 0 vol(s)
+2026-10-17 21:09:24.141 | [FPLN] fpln_secondary reçu — 1 vol(s)
+2026-10-17 21:09:27.888 | [FPLN] discard_mine envoyé au host
+2026-10-17 21:09:27.889 | [FPLN] fpln_secondary envoyé au host — 1 vol(s)
+2026-10-17 21:09:27.908 | [FPLN] fpln_tle reçu — 0 vol(s)
+2026-10-17 21:09:27.917 | [FPLN] fpln_secondary reçu — 0 vol(s)
+2026-10-17 21:09:30.881 | [FPLN] fpln_secondary reçu — 1 vol(s)
+2026-10-17 21:09:32.960 | [FPLN] fpln_secondary reçu — 0 vol(s)
+2026-10-17 21:09:32.964 | [FPLN] fpln_final reçu du host
+2026-10-17 21:09:37.939 | [FPLN] fpln_secondary reçu — 1 vol(s)
+2026-10-17 21:09:39.273 | [FPLN] fpln_secondary reçu — 0 vol(s)
+2026-10-17 21:09:39.277 | [FPLN] fpln_final reçu du host
+2026-10-17 21:10:50.611 | [DPI] 5 DPI(s) partagé(s) reçu(s) du host
+2026-10-17 21:11:24.670 | [DPI] 6 DPI(s) partagé(s) reçu(s) du host
+2026-10-17 21:14:17.947 | [DPI] 5 DPI(s) partagé(s) reçu(s) du host
+2026-10-17 21:14:19.207 | [DPI] 4 DPI(s) partagé(s) reçu(s) du host
+2026-10-17 21:14:20.137 | [DPI] 3 DPI(s) partagé(s) reçu(s) du host
+2026-10-17 21:14:23.456 | [DPI] 2 DPI(s) partagé(s) reçu(s) du host
+2026-10-17 21:14:53.928 | [MC] Mission Commander → Obe1 (vol 26384 siège 1)
+2026-10-17 21:14:56.530 | [MC-LAYER] v1 reçu — publié par Obe1
+2026-10-17 21:21:52.630 | [MARKS] 1 mark(s) partagée(s) reçue(s)
+2026-10-17 21:22:58.058 | [FPLN] fpln_secondary envoyé au host — 1 vol(s)
+2026-10-17 21:22:58.104 | [FPLN] fpln_secondary reçu — 1 vol(s)
+2026-10-17 21:24:10.401 | [FPLN] fpln_secondary envoyé au host — 1 vol(s)
+2026-10-17 21:24:10.451 | [FPLN] fpln_secondary reçu — 0 vol(s)
