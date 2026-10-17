@@ -1,0 +1,73 @@
+2026-10-17 21:01:03.793 | ========================================================================
+2026-10-17 21:01:03.794 | FBB Online  mode=CLIENT    identity=Obe3              port=45380
+2026-10-17 21:01:03.794 | Session : 2026-10-17 21:01:03
+2026-10-17 21:01:03.794 | ========================================================================
+2026-10-17 21:01:03.794 | [STATE] _client none -> NetworkClient#1fa560e9950 | cause=connect_client
+2026-10-17 21:01:03.794 | [STATE] _mode idle -> client | cause=connect_client
+2026-10-17 21:01:03.794 | [STATE] _my_callsign (vide) -> Obe3 | cause=connect_client
+2026-10-17 21:01:03.795 | [CLIENT] status → connecting
+2026-10-17 21:01:03.802 | [CLIENT] status → connected
+2026-10-17 21:01:03.822 | [STATE] reset online | cause=connect_client | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt, debrief_presenter
+2026-10-17 21:01:03.822 | [CLIENT] Connexion → 192.168.1.21:45380 (callsign=Obe3)
+2026-10-17 21:01:04.807 | [SESSION] rejointe — hôte Obe1, aucun autre pilote connecté
+2026-10-17 21:01:04.807 | [THEATER] Théâtre de session → « LKTO 4.38 + Papa »
+2026-10-17 21:01:04.934 | [CAM] Bundle campagne reçu — 8 fichier(s)
+2026-10-17 21:01:04.992 | [THEATER] ✓ Théâtre vérifié — 6 fichier(s) OK
+2026-10-17 21:01:04.992 | [DPI] 4 DPI(s) partagé(s) reçu(s) du host
+2026-10-17 21:01:05.004 | [BA] Conteneurs BA reçus du host — 14 entrée(s)
+2026-10-17 21:01:05.012 | [BOXES] 1 box(es) partagée(s) reçue(s)
+2026-10-17 21:01:05.059 | [CAM] Contexte rechargé → CI06a.cam
+2026-10-17 21:01:05.059 | [CAM] Campagne « CI06a » — ton BMS la connaît sous ce nom, ta DTC tombera au bon endroit.
+2026-10-17 21:01:05.059 | [CAM] Rappel — ne change pas le nom de la campagne dans BMS pendant la session : ta DTC serait écrite à côté, et tu décollerais sans tes cibles.
+2026-10-17 21:01:05.169 | [LOADOUT] état reçu (pending + final)
+2026-10-17 21:01:37.626 | [FRAGG] état reçu et appliqué
+2026-10-17 21:01:37.712 | [FRAGG] état reçu et appliqué
+2026-10-17 21:01:39.598 | [FRAGG] état reçu et appliqué
+2026-10-17 21:01:39.601 | [FRAGG] état reçu et appliqué
+2026-10-17 21:01:53.164 | [FRAGG] état reçu et appliqué
+2026-10-17 21:01:53.165 | [FRAGG] état reçu et appliqué
+2026-10-17 21:01:57.464 | [FRAGG] état reçu et appliqué
+2026-10-17 21:01:57.566 | [FRAGG] état reçu et appliqué
+2026-10-17 21:01:57.567 | [FRAGG] état reçu et appliqué
+2026-10-17 21:02:04.945 | [SEAT] L’hôte est passé sur le package de Gamble 1 — choisis ta place
+2026-10-17 21:02:41.550 | [FRAGG] état reçu et appliqué
+2026-10-17 21:02:42.194 | [CAM] Bundle campagne reçu — 8 fichier(s)
+2026-10-17 21:02:43.148 | [FPLN] fpln_secondary reçu — 0 vol(s)
+2026-10-17 21:02:43.150 | [FPLN] fpln_final reçu du host (plan invalidé)
+2026-10-17 21:02:43.151 | [FPLN] fpln_tle reçu — 0 vol(s)
+2026-10-17 21:02:43.152 | [CAM] Campagne republiee par l hote — nouvelle place proposee
+2026-10-17 21:02:43.202 | [CAM] Contexte rechargé → CI06a.cam
+2026-10-17 21:02:43.204 | [CAM] Campagne « CI06a » — ton BMS la connaît sous ce nom, ta DTC tombera au bon endroit.
+2026-10-17 21:02:43.204 | [CAM] Rappel — ne change pas le nom de la campagne dans BMS pendant la session : ta DTC serait écrite à côté, et tu décollerais sans tes cibles.
+2026-10-17 21:02:58.366 | [FPLN] fpln_secondary envoyé au host — 1 vol(s)
+2026-10-17 21:02:58.422 | [FPLN] fpln_secondary reçu — 1 vol(s)
+2026-10-17 21:03:00.514 | [FPLN] fpln_secondary envoyé au host — 1 vol(s)
+2026-10-17 21:03:00.554 | [FPLN] fpln_secondary reçu — 1 vol(s)
+2026-10-17 21:03:04.552 | [FPLN] fpln_secondary envoyé au host — 1 vol(s)
+2026-10-17 21:03:04.552 | [FPLN] fpln_final envoyé au host
+2026-10-17 21:03:04.572 | [FPLN] fpln_secondary reçu — 0 vol(s)
+2026-10-17 21:03:04.576 | [FPLN] fpln_final reçu du host
+2026-10-17 21:03:08.477 | [FPLN] fpln_tle reçu — 0 vol(s)
+2026-10-17 21:03:08.489 | [FPLN] fpln_secondary reçu — 1 vol(s)
+2026-10-17 21:03:10.465 | [FPLN] fpln_secondary envoyé au host — 1 vol(s)
+2026-10-17 21:03:10.465 | [FPLN] fpln_final envoyé au host
+2026-10-17 21:03:10.519 | [FPLN] fpln_secondary reçu — 0 vol(s)
+2026-10-17 21:03:10.525 | [FPLN] fpln_final reçu du host
+2026-10-17 21:03:22.734 | [FPLN] fpln_secondary reçu — 1 vol(s)
+2026-10-17 21:03:25.376 | [FPLN] fpln_secondary envoyé au host — 1 vol(s)
+2026-10-17 21:03:25.427 | [FPLN] fpln_secondary reçu — 1 vol(s)
+2026-10-17 21:03:27.976 | [FPLN] fpln_secondary reçu — 1 vol(s)
+2026-10-17 21:03:31.284 | [FPLN] fpln_secondary reçu — 0 vol(s)
+2026-10-17 21:03:31.287 | [FPLN] fpln_final reçu du host
+2026-10-17 21:04:10.415 | [SEAT] L’hôte est passé sur le package de Falcon 1 — choisis ta place
+2026-10-17 21:04:20.421 | [SEAT] L’hôte est passé sur le package de Gamble 1 — choisis ta place
+2026-10-17 21:05:20.454 | [SEAT] L’hôte est passé sur le package de Falcon 1 — choisis ta place
+2026-10-17 21:07:16.100 | [CLIENT] status → error:l'hôte a arrêté la session FBB Online
+2026-10-17 21:07:16.102 | [CLIENT] Connexion perdue — code=1000 (fermeture normale (bye de part et d'autre)) | last_seq=13 | session tenue 372 s
+2026-10-17 21:07:16.103 | [CLIENT] status → disconnected
+2026-10-17 21:07:16.103 | [STATE] _client NetworkClient#1fa560e9950 -> none | cause=resync_client_thread_dead
+2026-10-17 21:07:16.103 | [STATE] _mode client -> idle | cause=resync_client_thread_dead
+2026-10-17 21:07:16.103 | [STATE] _my_callsign Obe3 -> (vide) | cause=resync_client_thread_dead
+2026-10-17 21:07:16.103 | [STATE] reset online | cause=resync_client_thread_dead | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt, debrief_presenter
+2026-10-17 21:07:16.104 | ========================================================================
+2026-10-17 21:07:16.104 | FBB Online — session terminée | cause=resync client — thread réseau du client de session arrêté hors disconnect_client
