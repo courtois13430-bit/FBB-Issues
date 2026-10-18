@@ -1,0 +1,779 @@
+{
+  "fbb_sidecar_version": 1,
+  "app_version": "1.97.0",
+  "saved_utc": "2026-10-18T17:17:52Z",
+  "cam": {
+    "stem": "CI08a",
+    "theater_key": "kto",
+    "campaign_name": "CI08a",
+    "saved": "day 3 01:07:58"
+  },
+  "identity": {
+    "flight_override": {
+      "vu_num": 26519,
+      "camp_id": 1273,
+      "callsign": "Falcon 1"
+    },
+    "seat_override": 0
+  },
+  "dpi": {
+    "v": 1,
+    "items": [
+      {
+        "id": "DPI-01",
+        "created_by": "",
+        "name": "2A65 (M1987) #14",
+        "ct_type": 72,
+        "ct_name": "15th Towed Gun Battalion",
+        "lat": 39.120272101507,
+        "lon": 126.40581068137374,
+        "z_msl": 1315,
+        "height_ft": 14,
+        "airport": "",
+        "model": 989,
+        "bear_bull": 81,
+        "dist_bull": 33.1,
+        "cam_e": 1369460.8160736237,
+        "cam_n": 1907377.5360736237,
+        "visibility": "package",
+        "owner_vu": 0,
+        "target_role": "primary",
+        "assigned": [],
+        "assigned_by_flight": {},
+        "tgt_slots": []
+      },
+      {
+        "id": "DPI-02",
+        "created_by": "",
+        "name": "1905 Munam Bridge",
+        "ct_type": 16,
+        "ct_name": "Bridge Metal Red Cl",
+        "lat": 38.29674033154651,
+        "lon": 128.54294604085172,
+        "z_msl": 0.0,
+        "height_ft": 50.4,
+        "airport": "",
+        "model": 1211,
+        "bear_bull": 108,
+        "dist_bull": 140.3,
+        "cam_e": 1978998.8634586036,
+        "cam_n": 1607380.4749128073,
+        "visibility": "package",
+        "owner_vu": 0,
+        "target_role": "primary",
+        "assigned": [],
+        "assigned_by_flight": {},
+        "tgt_slots": []
+      }
+    ]
+  },
+  "boxes": {
+    "v": 1,
+    "items": [
+      {
+        "uid": "acbd1be1db61",
+        "id": "CORR01",
+        "kind": "corridor",
+        "owner_name": "",
+        "label": "",
+        "color": "#1e1b4b",
+        "cam_e": 1474557.456586865,
+        "cam_n": 1917075.7508507564,
+        "half_len_ft": 4373.822163813748,
+        "half_w_ft": 3038.0575,
+        "heading_deg": 270.0,
+        "visibility": "package",
+        "owner_vu": 0,
+        "author": ""
+      },
+      {
+        "uid": "9295fc1ebb79",
+        "id": "CAP01",
+        "kind": "racetrack",
+        "owner_name": "",
+        "label": "",
+        "color": "#1e1b4b",
+        "cam_e": 1455089.1946113324,
+        "cam_n": 1924201.8861815778,
+        "half_len_ft": 15724.293555307415,
+        "half_w_ft": 5728.425223274267,
+        "heading_deg": 260.0,
+        "turn": "R",
+        "visibility": "package",
+        "owner_vu": 0,
+        "author": ""
+      }
+    ]
+  },
+  "briefing": {
+    "v": 1,
+    "schema_version": 5,
+    "containers": [
+      {
+        "id": "dd0a52a3-54fc-4b83-adc3-4ac86077bf58",
+        "ctype": "mission_step",
+        "title": "Campaign Overview",
+        "visible": true,
+        "section_key": "campaign_overview",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "campaign_objectives",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "bdf3ce7c-0282-40f1-bbcc-5b2d36c93df9",
+        "ctype": "mission_step",
+        "title": "Mission / Friendly OOB",
+        "visible": true,
+        "section_key": "package_overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "roaster",
+          "context_lifecycle": "while_active"
+        },
+        "mission_name": "CI08",
+        "intent": "Small SAM ...SA8 or other",
+        "alr": 1
+      },
+      {
+        "id": "8ff0856d-a306-4590-8fa3-7d54d392d1a7",
+        "ctype": "mission_step",
+        "title": "Package + Timeline",
+        "visible": true,
+        "section_key": "pkg_timing",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "007ebd18-30e4-4525-bfca-f46b903a40fd",
+        "ctype": "mission_step",
+        "title": "FPLN / Routes",
+        "visible": true,
+        "section_key": "steerpoints",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "fpln-asst",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "cfe857df-1381-4c20-a34c-22a37cdbd5a4",
+        "ctype": "mission_step",
+        "title": "Weather / Forecast",
+        "visible": true,
+        "section_key": "weather",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "weather_overview"
+        }
+      },
+      {
+        "id": "46e8fb79-eb47-4b33-9bd6-a8597b556821",
+        "ctype": "mission_step",
+        "title": "Threat Estimate",
+        "visible": true,
+        "section_key": "threat_analysis",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "107b9e75-d0d9-422b-8e0e-7f7b7ce35ef4",
+        "ctype": "mission_step",
+        "title": "Package Comm Plan",
+        "visible": true,
+        "section_key": "comm_plan",
+        "source": "effective",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "87130f98-4b89-48ea-b4d6-6d6a714800a9",
+        "ctype": "mission_step",
+        "title": "Contracts",
+        "visible": true,
+        "section_key": "contracts",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "19f79379-0dff-4f69-9217-c85a6177f0ab",
+        "ctype": "mission_step",
+        "title": "ROE (Rules of Engagement)",
+        "visible": true,
+        "section_key": "roe",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "df52d5d3-ff79-41b5-a684-46b22e7c500b",
+        "ctype": "mission_step",
+        "title": "Recovery & Emergency",
+        "visible": true,
+        "section_key": "emerg",
+        "source": "cam",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "b31e17bb-5538-4c1e-bfaa-da193363bba0",
+        "ctype": "mission_step",
+        "title": "Flight Task & Targeting",
+        "visible": true,
+        "section_key": "overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_flight",
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "8d739b66-98bf-4ba7-a40c-2888873e7e9d",
+        "ctype": "mission_step",
+        "title": "Ordnance",
+        "visible": true,
+        "section_key": "ordnance",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "loadout",
+          "context_tab": "session-aircraft",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "acc3353a-3f2f-427d-9733-1b5c420b038f",
+        "ctype": "mission_step",
+        "title": "Domestics",
+        "visible": true,
+        "section_key": "domestics",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "dep_airfield",
+          "range_nm": 2,
+          "map_auto_open": true
+        }
+      },
+      {
+        "id": "8edb24c9-1bf8-4049-8214-c548caeee486",
+        "ctype": "mission_step",
+        "title": "Plan Synch & deconflict",
+        "visible": true,
+        "section_key": "plan_synch",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      }
+    ]
+  },
+  "fpln": {
+    "v": 2,
+    "secondary": {},
+    "final": {
+      "ts": 1792343772293,
+      "ts_vu": {
+        "c:1273": 1792343772293
+      },
+      "sec": {
+        "c:1273": {
+          "coords": [
+            [
+              0.024579850121951217,
+              0.018579886707317073
+            ],
+            [
+              0.02413232439073454,
+              0.01960161857223852
+            ],
+            [
+              0.022339863780487804,
+              0.021899866463414637
+            ],
+            [
+              0.02013987719512195,
+              0.022619862073170734
+            ],
+            [
+              0.019579880609756097,
+              0.022819860853658537
+            ],
+            [
+              0.018259888658536585,
+              0.02337985743902439
+            ],
+            [
+              0.01765989231707317,
+              0.02337985743902439
+            ],
+            [
+              0.016939896707317072,
+              0.023259858170731708
+            ],
+            [
+              0.01645989963414634,
+              0.023139858902439022
+            ],
+            [
+              0.018259888658536585,
+              0.023139858902439022
+            ],
+            [
+              0.019779879390243903,
+              0.022139864999999998
+            ],
+            [
+              0.022819860853658537,
+              0.019939878414634144
+            ],
+            [
+              0.024579850121951217,
+              0.018579886707317073
+            ],
+            [
+              0.01601990231707317,
+              0.01145993012195122
+            ],
+            [
+              0.025579844024390244,
+              0.017219894999999995
+            ]
+          ],
+          "wps": [
+            {
+              "action": 1,
+              "_new": false,
+              "wp_key": "oi:0"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:1",
+              "_posOverride": true
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:2"
+            },
+            {
+              "action": 8,
+              "_new": false,
+              "wp_key": "oi:3"
+            },
+            {
+              "action": 2,
+              "_new": false,
+              "wp_key": "oi:4"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:5"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:6"
+            },
+            {
+              "action": 16,
+              "_new": false,
+              "wp_key": "oi:7"
+            },
+            {
+              "action": 16,
+              "_new": false,
+              "wp_key": "oi:8"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:9"
+            },
+            {
+              "action": 3,
+              "_new": false,
+              "wp_key": "oi:10"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:11"
+            },
+            {
+              "action": 7,
+              "_new": false,
+              "wp_key": "oi:12"
+            },
+            {
+              "action": 4,
+              "_new": false,
+              "wp_key": "oi:13"
+            },
+            {
+              "action": 7,
+              "_new": false,
+              "wp_key": "oi:14"
+            }
+          ]
+        }
+      },
+      "orig": {},
+      "tle": {
+        "c:1273": {
+          "oi:0": {
+            "tos_ms": 178200000,
+            "tos_auto": true,
+            "tos_calc": 178200000
+          },
+          "oi:1": {
+            "tos_ms": 178344751,
+            "tos_auto": true,
+            "tos_calc": 178344751
+          },
+          "oi:2": {
+            "tos_ms": 178717110,
+            "tos_auto": true,
+            "tos_calc": 178717110
+          },
+          "oi:3": {
+            "tos_ms": 178943114,
+            "tos_auto": true,
+            "tos_calc": 178943114
+          },
+          "oi:4": {
+            "tos_ms": 179373183,
+            "tos_auto": true,
+            "tos_calc": 179373183
+          },
+          "oi:5": {
+            "tos_ms": 179558035,
+            "tos_auto": true,
+            "tos_calc": 179558035
+          },
+          "oi:6": {
+            "tos_ms": 179635386,
+            "tos_auto": true,
+            "tos_calc": 179635386
+          },
+          "oi:7": {
+            "tos_ms": 179729487,
+            "tos_auto": true,
+            "tos_calc": 179729487
+          },
+          "oi:8": {
+            "tos_ms": 179793272,
+            "tos_auto": true,
+            "tos_calc": 179793272
+          },
+          "oi:9": {
+            "tos_ms": 181175499,
+            "tos_auto": true,
+            "tos_calc": 181175499
+          },
+          "oi:10": {
+            "tos_ms": 181359695,
+            "tos_auto": true,
+            "tos_calc": 181359695
+          },
+          "oi:11": {
+            "tos_ms": 181739592,
+            "tos_auto": true,
+            "tos_calc": 181739592
+          },
+          "oi:12": {
+            "tos_ms": 181964767,
+            "tos_auto": true,
+            "tos_calc": 181964767
+          },
+          "oi:13": {
+            "tos_ms": 182114585,
+            "tos_auto": true,
+            "tos_calc": 182114585
+          },
+          "oi:14": {
+            "tos_ms": 182264767,
+            "tos_auto": true,
+            "tos_calc": 182264767
+          }
+        }
+      }
+    },
+    "edits": {},
+    "slots": {},
+    "cam_gen": "d96ba931dab1269b"
+  },
+  "loadout": {
+    "final": {
+      "c:1273": {
+        "2": {
+          "3": [
+            148,
+            2
+          ],
+          "7": [
+            148,
+            2
+          ],
+          "11": [
+            181,
+            1
+          ]
+        },
+        "3": {
+          "3": [
+            148,
+            2
+          ],
+          "7": [
+            148,
+            2
+          ],
+          "11": [
+            181,
+            1
+          ]
+        },
+        "0": {
+          "3": [
+            148,
+            2
+          ],
+          "7": [
+            148,
+            2
+          ],
+          "11": [
+            181,
+            1
+          ]
+        },
+        "1": {
+          "3": [
+            148,
+            2
+          ],
+          "7": [
+            148,
+            2
+          ],
+          "11": [
+            181,
+            1
+          ]
+        }
+      }
+    },
+    "dtc_final": {
+      "c:1273": {
+        "0": {
+          "FCC_AGM\u001fMaverick_AutoPwrWpt": "5",
+          "FCC_AGM\u001fMaverick_AutoPwrDir": "3"
+        }
+      }
+    }
+  },
+  "ppt": {
+    "entries": [
+      {
+        "label": "11",
+        "x_n": 1825308.875,
+        "y_e": 1310352.0,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "10",
+        "x_n": 1772829.25,
+        "y_e": 1146353.0,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "17",
+        "x_n": 1884348.5,
+        "y_e": 1215232.625,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "10",
+        "x_n": 1779389.125,
+        "y_e": 1208672.625,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "SA8",
+        "x_n": 1778866.0,
+        "y_e": 1352982.875,
+        "origin": "manual",
+        "author": ""
+      }
+    ]
+  },
+  "lines": {
+    "entries": [
+      {
+        "pts": [
+          [
+            2089741.4330418454,
+            1134941.1730418457
+          ],
+          [
+            2124113.13,
+            1169312.87
+          ],
+          [
+            1759546.23,
+            1169312.87
+          ],
+          [
+            1881068.53,
+            1169312.87
+          ],
+          [
+            1881068.53,
+            1047790.5700000001
+          ],
+          [
+            1881068.53,
+            1290835.1700000002
+          ]
+        ],
+        "origin": "auto",
+        "author": "",
+        "label": "Bullseye"
+      },
+      {
+        "pts": [
+          [
+            2316947.03919325,
+            1782101.5860857985
+          ],
+          [
+            2114514.6539142015,
+            2182467.85919325
+          ],
+          [
+            2006066.6008067504,
+            2127634.5739142015
+          ],
+          [
+            2208498.986085799,
+            1727268.3008067503
+          ],
+          [
+            2316947.03919325,
+            1782101.5860857985
+          ]
+        ],
+        "origin": "auto",
+        "author": "",
+        "label": "Tanker Copper 1"
+      },
+      {
+        "pts": [
+          [
+            2145106.92,
+            1338231.84
+          ],
+          [
+            1830228.8400000003,
+            1535030.6400000001
+          ],
+          [
+            1790869.08,
+            1416951.3600000003
+          ],
+          [
+            1594070.28,
+            1436631.2400000002
+          ],
+          [
+            1436631.2400000005,
+            1239832.4400000002
+          ]
+        ],
+        "origin": "auto",
+        "author": "",
+        "label": "FLOT"
+      }
+    ]
+  },
+  "cartridge": {
+    "ppt": {
+      "ppt_0": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_1": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_2": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_3": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_4": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_5": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_6": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_7": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_8": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_9": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_10": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_11": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_12": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_13": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_14": "0.000000, 0.000000, 0.000000, 0.000000, "
+    },
+    "lines": {
+      "lineSTPT_0": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_1": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_2": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_3": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_4": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_5": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_6": "2145106.920000, 1338231.840000, 0.000000",
+      "lineSTPT_7": "1830228.840000, 1535030.640000, 0.000000",
+      "lineSTPT_8": "1790869.080000, 1416951.360000, 0.000000",
+      "lineSTPT_9": "1594070.280000, 1436631.240000, 0.000000",
+      "lineSTPT_10": "1436631.240000, 1239832.440000, 0.000000",
+      "lineSTPT_11": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_12": "2316947.039193, 1782101.586086, 0.000000",
+      "lineSTPT_13": "2114514.653914, 2182467.859193, 0.000000",
+      "lineSTPT_14": "2006066.600807, 2127634.573914, 0.000000",
+      "lineSTPT_15": "2208498.986086, 1727268.300807, 0.000000",
+      "lineSTPT_16": "2316947.039193, 1782101.586086, 0.000000",
+      "lineSTPT_17": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_18": "2089741.433042, 1134941.173042, 0.000000",
+      "lineSTPT_19": "2124113.130000, 1169312.870000, 0.000000",
+      "lineSTPT_20": "1759546.230000, 1169312.870000, 0.000000",
+      "lineSTPT_21": "1881068.530000, 1169312.870000, 0.000000",
+      "lineSTPT_22": "1881068.530000, 1047790.570000, 0.000000",
+      "lineSTPT_23": "1881068.530000, 1290835.170000, 0.000000"
+    },
+    "seen": {
+      "stem": "73548a2cf6d1db25"
+    }
+  }
+}
