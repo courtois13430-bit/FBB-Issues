@@ -1,0 +1,157 @@
+2026-10-21 14:30:23.818 | ========================================================================
+2026-10-21 14:30:23.818 | startup                  | FBB 1.98.0 — session 2026-10-21 14:30:23
+2026-10-21 14:30:23.818 | startup                  | Répertoire : C:\Falcon\Admin\Logiciels annexes\FBB\_internal
+2026-10-21 14:30:23.818 | startup                  | Python 3.14.5
+2026-10-21 14:30:23.818 | ========================================================================
+2026-10-21 14:30:23.819 | system                   | OS : Windows 11 10.0.26300, AMD64, 32 CPU, RAM 32 GB
+2026-10-21 14:30:23.827 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-10-21 14:30:23.827 | registry                 | BMS baseDir : C:\Falcon\Falcon BMS 4.38
+2026-10-21 14:30:23.827 | registry                 | BMS theater : Korea KTO  pilot : Obe1
+2026-10-21 14:30:24.198 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-10-21 14:30:26.129 | parse_health             | Frag5e.cam: records 1258/1258, bytes 579637/579637, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-21 14:30:26.488 | dtc_mfd                  | event=read path=Obe1.ini mtime=2026-10-20 08:28:40 mfd=42/96
+2026-10-21 14:30:27.086 | telemetry                | ping OK v1.98.0 Windows 11 canal=prod → HTTP 200
+2026-10-21 14:30:27.258 | ato_departure            | resolved=1/1
+2026-10-21 14:30:30.084 | ato_departure            | resolved=1/1
+2026-10-21 14:30:30.257 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-21 14:30:30.661 | fuel_plan                | avail=12194 atTurn=8014 bingo=4900 joker=5400 rtb=2349 margin=3114 GO
+2026-10-21 14:30:30.681 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:30:30.682 | mission_support          | awacs: cam pkg=2773 vu=22177
+2026-10-21 14:30:30.683 | mission_support          | tanker: cam pkg=2773 vu=22182
+2026-10-21 14:30:30.685 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:30:30.685 | package_comms            | tactical ch=6 primary=Cajun 1 uhf=297.275
+2026-10-21 14:30:30.891 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=12 n_ppt=2 n_dpi=0 n_divert=3 n_sections=46 hash=2f0eb7c8
+2026-10-21 14:36:53.090 | parse_health             | CI08a.cam: records 464/464, bytes 222856/222856, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-21 14:36:53.473 | dtc_mfd                  | event=read path=Obe1.ini mtime=2026-10-20 08:28:40 mfd=42/96
+2026-10-21 14:36:53.754 | swap_context             | origin=set_theater cam='ci08a.cam' loaded=True err=''
+2026-10-21 14:36:53.833 | ato_departure            | resolved=1/1
+2026-10-21 14:36:53.863 | ato_departure            | resolved=1/1
+2026-10-21 14:36:54.362 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-21 14:36:57.554 | fuel_plan                | avail=12194 atTurn=8923 bingo=3900 joker=4400 rtb=1711 margin=5023 GO
+2026-10-21 14:36:57.569 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:36:57.571 | mission_support          | awacs: cam pkg=1235 vu=26182
+2026-10-21 14:36:57.572 | mission_support          | tanker: cam pkg=1235 vu=20014
+2026-10-21 14:36:57.574 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:36:57.574 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-10-21 14:36:58.330 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=23 n_ppt=6 n_dpi=2 n_divert=3 n_sections=43 hash=2f0eb7c8
+2026-10-21 14:37:09.536 | parse_health             | CI06a.cam: records 497/497, bytes 233515/233515, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-21 14:37:09.587 | dtc_mfd                  | event=read path=Obe1.ini mtime=2026-10-20 08:28:40 mfd=42/96
+2026-10-21 14:37:09.634 | swap_context             | origin=load_cam cam='ci06a.cam' loaded=True err=''
+2026-10-21 14:37:09.691 | ato_departure            | resolved=1/1
+2026-10-21 14:37:09.734 | ato_departure            | resolved=1/1
+2026-10-21 14:37:10.049 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-21 14:37:10.107 | fuel_plan                | avail=12194 atTurn=9060 bingo=3700 joker=4200 rtb=1545 margin=5360 GO
+2026-10-21 14:37:10.112 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:37:10.113 | mission_support          | awacs: cam pkg=1387 vu=25572
+2026-10-21 14:37:10.115 | mission_support          | tanker: cam pkg=1387 vu=25497
+2026-10-21 14:37:10.120 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:37:10.120 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-10-21 14:37:10.161 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=22 n_ppt=5 n_dpi=4 n_divert=3 n_sections=69 hash=2f0eb7c8
+2026-10-21 14:37:19.254 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-21 14:37:19.284 | fuel_plan                | avail=12194 atTurn=9060 bingo=3700 joker=4200 rtb=1545 margin=5360 GO
+2026-10-21 14:37:19.286 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:37:19.287 | mission_support          | awacs: cam pkg=1387 vu=25572
+2026-10-21 14:37:19.288 | mission_support          | tanker: cam pkg=1387 vu=25497
+2026-10-21 14:37:19.289 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:37:19.289 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-10-21 14:37:19.294 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=22 n_ppt=5 n_dpi=4 n_divert=3 n_sections=69 hash=2f0eb7c8
+2026-10-21 14:37:19.396 | ato_departure            | resolved=1/1
+2026-10-21 14:38:26.515 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-21 14:38:26.546 | fuel_plan                | avail=12194 atTurn=9060 bingo=3700 joker=4200 rtb=1545 margin=5360 GO
+2026-10-21 14:38:26.548 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:38:26.549 | mission_support          | awacs: cam pkg=1387 vu=25572
+2026-10-21 14:38:26.550 | mission_support          | tanker: cam pkg=1387 vu=25497
+2026-10-21 14:38:26.551 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:38:26.551 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-10-21 14:38:26.556 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=22 n_ppt=5 n_dpi=4 n_divert=3 n_sections=69 hash=2f0eb7c8
+2026-10-21 14:38:26.660 | ato_departure            | resolved=1/1
+2026-10-21 14:39:03.126 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-21 14:39:03.155 | fuel_plan                | avail=12194 atTurn=9060 bingo=3700 joker=4200 rtb=1545 margin=5360 GO
+2026-10-21 14:39:03.157 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:39:03.158 | mission_support          | awacs: cam pkg=1387 vu=25572
+2026-10-21 14:39:03.160 | mission_support          | tanker: cam pkg=1387 vu=25497
+2026-10-21 14:39:03.160 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:39:03.161 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-10-21 14:39:03.165 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=22 n_ppt=5 n_dpi=4 n_divert=3 n_sections=69 hash=2f0eb7c8
+2026-10-21 14:39:03.261 | ato_departure            | resolved=1/1
+2026-10-21 14:39:12.286 | briefing_context         | package_overview flights=1 route_points=13 focus_points=2 unique_points=13
+2026-10-21 14:41:07.201 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-21 14:41:07.346 | ato_departure            | resolved=1/1
+2026-10-21 14:41:07.355 | fuel_plan                | avail=12194 atTurn=9060 bingo=3700 joker=4200 rtb=1545 margin=5360 GO
+2026-10-21 14:41:07.358 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:41:07.359 | mission_support          | awacs: cam pkg=1387 vu=25572
+2026-10-21 14:41:07.360 | mission_support          | tanker: cam pkg=1387 vu=25497
+2026-10-21 14:41:07.361 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:41:07.361 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-10-21 14:41:07.366 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=22 n_ppt=5 n_dpi=4 n_divert=3 n_sections=69 hash=2f0eb7c8
+2026-10-21 14:41:09.012 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-21 14:41:09.015 | fuel_plan                | avail=12194 atTurn=9060 bingo=3700 joker=4200 rtb=1545 margin=5360 GO
+2026-10-21 14:41:09.017 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:41:09.019 | mission_support          | awacs: cam pkg=1387 vu=25572
+2026-10-21 14:41:09.020 | mission_support          | tanker: cam pkg=1387 vu=25497
+2026-10-21 14:41:09.021 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:41:09.021 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-10-21 14:41:09.025 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=22 n_ppt=5 n_dpi=4 n_divert=3 n_sections=69 hash=2f0eb7c8
+2026-10-21 14:41:09.304 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:41:09.306 | mission_support          | awacs: cam pkg=1387 vu=25572
+2026-10-21 14:41:09.314 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:41:09.314 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-10-21 14:41:10.147 | campaign_overview        | objective_index loaded=5992
+2026-10-21 14:41:10.227 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-21 14:41:10.228 | campaign_overview        | system_marks=2
+2026-10-21 14:41:10.704 | mission_support          | tanker: cam pkg=1387 vu=25497
+2026-10-21 14:41:10.751 | mission_support          | awacs: cam pkg=1387 vu=25572
+2026-10-21 14:41:11.243 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-21 14:41:11.517 | briefing_context         | package_overview flights=1 route_points=13 focus_points=2 unique_points=13
+2026-10-21 14:41:12.124 | airport_diagrams         | taxi surfaces=66 terrains en raster | repli K-NN : 21 sans mesh CT30, 0 sous-couvrants
+2026-10-21 14:41:12.124 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-10-21 14:54:29.424 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-21 14:54:29.635 | fuel_plan                | avail=12194 atTurn=9060 bingo=3700 joker=4200 rtb=1545 margin=5360 GO
+2026-10-21 14:54:29.639 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:54:29.641 | mission_support          | awacs: cam pkg=1387 vu=25572
+2026-10-21 14:54:29.642 | mission_support          | tanker: cam pkg=1387 vu=25497
+2026-10-21 14:54:29.643 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:54:29.644 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-10-21 14:54:29.653 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=22 n_ppt=5 n_dpi=4 n_divert=3 n_sections=69 hash=2f0eb7c8
+2026-10-21 14:55:11.371 | wx_brief                 | pos=(2411457,1584244) src=save key=69.13 files=385 fc=1
+2026-10-21 14:56:18.271 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-21 14:56:18.448 | fuel_plan                | avail=12194 atTurn=9060 bingo=3700 joker=4200 rtb=1545 margin=5360 GO
+2026-10-21 14:56:18.451 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:56:18.452 | mission_support          | awacs: cam pkg=1387 vu=25572
+2026-10-21 14:56:18.453 | mission_support          | tanker: cam pkg=1387 vu=25497
+2026-10-21 14:56:18.454 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:56:18.454 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-10-21 14:56:18.460 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=22 n_ppt=5 n_dpi=4 n_divert=3 n_sections=69 hash=2f0eb7c8
+2026-10-21 14:57:58.055 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-21 14:57:58.083 | fuel_plan                | avail=12194 atTurn=9060 bingo=3700 joker=4200 rtb=1545 margin=5360 GO
+2026-10-21 14:57:58.085 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:57:58.086 | mission_support          | awacs: cam pkg=1387 vu=25572
+2026-10-21 14:57:58.088 | mission_support          | tanker: cam pkg=1387 vu=25497
+2026-10-21 14:57:58.088 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:57:58.088 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-10-21 14:57:58.094 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=22 n_ppt=5 n_dpi=4 n_divert=3 n_sections=69 hash=2f0eb7c8
+2026-10-21 14:58:38.344 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-21 14:58:38.371 | fuel_plan                | avail=12194 atTurn=9060 bingo=3700 joker=4200 rtb=1545 margin=5360 GO
+2026-10-21 14:58:38.373 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:58:38.374 | mission_support          | awacs: cam pkg=1387 vu=25572
+2026-10-21 14:58:38.376 | mission_support          | tanker: cam pkg=1387 vu=25497
+2026-10-21 14:58:38.376 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 14:58:38.376 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-10-21 14:58:38.381 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=22 n_ppt=5 n_dpi=4 n_divert=3 n_sections=69 hash=2f0eb7c8
+2026-10-21 15:22:58.153 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-21 15:22:58.386 | fuel_plan                | avail=12194 atTurn=9060 bingo=3700 joker=4200 rtb=1545 margin=5360 GO
+2026-10-21 15:22:58.388 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 15:22:58.390 | mission_support          | awacs: cam pkg=1387 vu=25572
+2026-10-21 15:22:58.391 | mission_support          | tanker: cam pkg=1387 vu=25497
+2026-10-21 15:22:58.392 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 15:22:58.392 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-10-21 15:22:58.401 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=22 n_ppt=5 n_dpi=4 n_divert=3 n_sections=69 hash=2f0eb7c8
+2026-10-21 15:23:00.096 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-21 15:23:00.249 | ato_departure            | resolved=1/1
+2026-10-21 15:23:00.254 | fuel_plan                | avail=12194 atTurn=9060 bingo=3700 joker=4200 rtb=1545 margin=5360 GO
+2026-10-21 15:23:00.257 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 15:23:00.258 | mission_support          | awacs: cam pkg=1387 vu=25572
+2026-10-21 15:23:00.259 | mission_support          | tanker: cam pkg=1387 vu=25497
+2026-10-21 15:23:00.260 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-10-21 15:23:00.260 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-10-21 15:23:00.266 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=22 n_ppt=5 n_dpi=4 n_divert=3 n_sections=69 hash=2f0eb7c8
