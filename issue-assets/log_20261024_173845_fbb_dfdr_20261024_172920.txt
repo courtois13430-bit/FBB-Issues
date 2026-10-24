@@ -1,0 +1,73 @@
+2026-10-24 17:29:20.452 | ========================================================================
+2026-10-24 17:29:20.453 | startup                  | FBB 1.98.0 — session 2026-10-24 17:29:20
+2026-10-24 17:29:20.453 | startup                  | Répertoire : C:\Users\tparv\AppData\Local\Programs\FBB\_internal
+2026-10-24 17:29:20.453 | startup                  | Python 3.14.5
+2026-10-24 17:29:20.453 | ========================================================================
+2026-10-24 17:29:20.454 | system                   | OS : Windows 11 10.0.26200, AMD64, 8 CPU, RAM 31 GB
+2026-10-24 17:29:20.471 | system                   | Machine : <masqué> / AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD
+2026-10-24 17:29:20.472 | registry                 | BMS baseDir : C:\Falcon BMS 4.38
+2026-10-24 17:29:20.472 | registry                 | BMS theater : Hellas  pilot : Arkane08
+2026-10-24 17:29:21.592 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-10-24 17:29:24.270 | telemetry                | ping OK v1.98.0 Windows 11 canal=prod → HTTP 200
+2026-10-24 17:29:31.204 | parse_health             | DÉGRADÉ hto sa20 pp strike update_edited.tac: records 28/29, bytes 20759/20759, rejects=23, exc=3, constr_err=0, first_desync=9443
+2026-10-24 17:29:32.369 | dtc_mfd                  | event=read path=Arkane08.ini mtime=2026-10-24 17:19:24 mfd=46/96
+2026-10-24 17:29:33.300 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-24 17:29:38.079 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=9998a4b9
+2026-10-24 17:29:38.118 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:30:44.557 | dtc_mfd                  | event=read path=Arkane08.ini mtime=2026-10-24 17:30:34 mfd=46/96
+2026-10-24 17:30:44.577 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-24 17:30:44.620 | swap_context             | origin=load_cam cam='hto sa20 pp strike update_edited.tac' loaded=True err=''
+2026-10-24 17:30:45.036 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:30:45.046 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=d3aff781
+2026-10-24 17:30:48.500 | ato_departure            | resolved=6/7
+2026-10-24 17:30:48.513 | ato_target               | index_built names=28 memo=True
+2026-10-24 17:30:49.027 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-24 17:30:54.460 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:30:54.471 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=d3aff781
+2026-10-24 17:31:07.638 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=d3aff781
+2026-10-24 17:31:07.711 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:31:08.119 | ato_departure            | resolved=6/7
+2026-10-24 17:31:08.121 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-24 17:31:11.779 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:31:11.791 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=d3aff781
+2026-10-24 17:31:16.456 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:31:16.501 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=d3aff781
+2026-10-24 17:31:16.586 | ato_departure            | resolved=6/7
+2026-10-24 17:31:16.587 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-24 17:31:19.975 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:31:19.986 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=d3aff781
+2026-10-24 17:31:50.196 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:31:50.209 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=d3aff781
+2026-10-24 17:31:50.354 | ato_departure            | resolved=6/7
+2026-10-24 17:31:50.356 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-24 17:32:10.222 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:32:10.231 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=d3aff781
+2026-10-24 17:32:23.701 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:32:23.709 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=d3aff781
+2026-10-24 17:32:29.821 | dtc_mfd                  | event=read path=Arkane08.ini mtime=2026-10-24 17:30:34 mfd=46/96
+2026-10-24 17:32:29.839 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-24 17:32:29.859 | swap_context             | origin=select_cam:browse cam='hto sa20 pp strike update_edited.tac' loaded=True err=''
+2026-10-24 17:32:30.270 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:32:30.280 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=d3aff781
+2026-10-24 17:32:35.541 | parse_health             | DÉGRADÉ hto sa20 pp strike update.tac: records 28/29, bytes 20759/20759, rejects=23, exc=3, constr_err=0, first_desync=9443
+2026-10-24 17:32:35.862 | dtc_mfd                  | event=read path=Arkane08.ini mtime=2026-10-24 17:30:34 mfd=46/96
+2026-10-24 17:32:35.879 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-24 17:32:35.902 | swap_context             | origin=load_cam cam='hto sa20 pp strike update.tac' loaded=True err=''
+2026-10-24 17:32:36.314 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:32:36.322 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=d3aff781
+2026-10-24 17:32:57.288 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:32:57.306 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=d3aff781
+2026-10-24 17:33:18.048 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:33:18.055 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=d3aff781
+2026-10-24 17:33:25.736 | dtc_mfd                  | event=read path=Arkane08.ini mtime=2026-10-24 17:30:34 mfd=46/96
+2026-10-24 17:33:25.966 | swap_context             | origin=select_cam:browse cam='hto sa20 pp strike update.tac' loaded=True err=''
+2026-10-24 17:33:26.341 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-24 17:33:26.410 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:33:26.429 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=d3aff781
+2026-10-24 17:33:29.344 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:33:29.353 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=d3aff781
+2026-10-24 17:33:29.458 | ato_departure            | resolved=6/7
+2026-10-24 17:33:29.472 | ato_target               | index_built names=28 memo=True
+2026-10-24 17:33:29.599 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-24 17:33:33.009 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-24 17:33:33.019 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=0 hash=d3aff781
