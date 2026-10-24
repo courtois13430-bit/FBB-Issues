@@ -1,0 +1,410 @@
+17:35:20.753 INFO     fbb.web.launcher       | Session log : C:\Users\tparv\AppData\Local\Programs\FBB\_internal\Log\fbb_log_20261024_173520.txt
+17:35:20.754 INFO     fbb.web.launcher       | FBB version : 1.98.0
+17:35:20.757 INFO     fbb.web.launcher       | Icône fenêtre : C:\Users\tparv\AppData\Local\Programs\FBB\_internal\Art\FBB.ico
+17:35:20.838 INFO     fbb.web.launcher       | TLS : truststore actif (vérification via magasin Windows)
+17:35:20.869 INFO     fbb.license            | Licence valide — Arkane, expire 2027-10-15
+17:35:20.870 INFO     fbb.license_gate       | Licence OK — Arkane (expire 2027-10-15)
+17:35:20.876 INFO     fbb.web.launcher       | Log : 2 ancien(s) fichier(s) purgé(s) (rétention 30 par famille, FBB_LOG_RETENTION pour ajuster)
+17:35:20.898 INFO     fbb.web.launcher       | Démarrage uvicorn sur 127.0.0.1:8765
+17:35:20.986 DEBUG    fbb.web.launcher       | Splash : 774x790 @ (573,145) — file:///C:/Users/tparv/AppData/Local/Temp/fbb_splash_r0wje_oi.html
+17:35:21.920 DEBUG    fbb.web.launcher       | Taille de naissance "splash" : 758x751 → 774x790 (bordure pywebview)
+17:35:24.276 DEBUG    asyncio                | Using proactor: IocpProactor
+17:35:24.315 INFO     uvicorn.error          | Started server process [23124]
+17:35:24.315 INFO     uvicorn.error          | Waiting for application startup.
+17:35:24.317 INFO     fbb.web                | Bootstrap AppContext…
+17:35:24.356 INFO     fbb.web.context        | Session précédente : cam=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\hto sa20 pp strike update.tac html=C:\Falcon BMS 4.38\User\Briefings\briefing.txt
+17:35:25.624 INFO     fbb.web.context        | UCD 745 entries, VCD 542 entries
+17:35:26.415 ERROR    utils.parse_health     | PARSE DÉGRADÉ — des records ont été perdus SILENCIEUSEMENT. hto sa20 pp strike update_edited.tac: records 26/27, bytes 17367/17367, rejects=23, exc=3, constr_err=0, first_desync=9443
+17:35:27.662 INFO     fbb.web.context        | Theater objects validés (Hellas) : 6944 objets, recouvrement noms 50/50 [objectives_Hellas.json]
+17:35:27.667 INFO     fbb.web.context        | INI DTC chargé : 17 sections
+17:35:27.671 INFO     fbb.web.context        | MissionData : surcouche théâtre appliquée — 485 valeurs sur 50 missions (MissionData_XX.XML)
+17:35:27.768 INFO     fbb.web.context        | Terrain DB chargée
+17:35:27.770 INFO     fbb.web.context        | HiresTileCache initialise : C:\Falcon BMS 4.38\Data\Add-On Hellas\TerrData\Hellas\NewTerrain\Photoreal\4K (calibrated=False, echelle=4K)
+17:35:27.772 INFO     fbb.web.context        | HiresOverlayCache initialise : C:\Falcon BMS 4.38\Data\Add-On Hellas\TerrData\Hellas\NewTerrain\Photoreal\Hires\Day (0 tuiles)
+17:35:27.776 INFO     fbb.web.context        | Airports (Hellas) : 77 aérodromes
+17:35:27.791 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=1
+17:35:27.792 INFO     fbb.web.context        | Context chargé : 26 units, 50 objectives depuis hto sa20 pp strike update_edited.tac
+17:35:27.792 INFO     fbb.web.context        | [perf] build_context 26 unités, 50 objectifs, 6944 theater_objects en 3474 ms — hto sa20 pp strike update_edited.tac
+17:35:27.792 INFO     fbb.web.context        | Palette équipes BMS (Hellas) : {1: '#008000', 2: '#00A0FF', 3: '#8C5218', 4: '#FFA800', 5: '#FFFF00', 6: '#FF0000', 7: '#39848C'}
+17:35:27.793 INFO     fbb.web.map            | [bg-tiles] Chargement PNG hellas en mémoire…
+17:35:27.794 INFO     fbb.web                | Génération sprites tactiques OTAN (fallback)…
+17:35:28.369 INFO     fbb.recon              | recon/info : 5 objectif(s) sans piste ni surface écarté(s) du sélecteur : Kotroni Navy Airbase, Megalopolis AB Power Plant, Megisti Airstrip, Polichnitos Airstrip, Stefanovikion Army Airbase
+17:35:28.382 INFO     fbb.web.sprites        | Sprites générés : 0 nouveaux / 280 total dans C:\Users\tparv\AppData\Local\Programs\FBB\_internal\backend_api\static\sprites
+17:35:28.383 INFO     utils.bms_rsc          | init_image_ids: 338 entrées chargées depuis C:\Falcon BMS 4.38\Data\Art\Main\ImageIds.id
+17:35:28.384 INFO     utils.bms_rsc          | init_irc_map: 82 icônes IRC chargées depuis C:\Falcon BMS 4.38\Data\Art\Resource\BluDark.idx
+17:35:28.390 INFO     fbb.web                | [perf] rsc_sprites 3950 + 656 theater (dossier fe21e08e3ffa) en 7 ms
+17:35:28.422 INFO     fbb.web.online         | OnlineManager : boucle asyncio liée
+17:35:28.423 INFO     fbb.dpi                | DPI init depuis DTC : 0 items (target_83..98)
+17:35:28.446 INFO     fbb.web.briefing       | BA sidecar restauré : 14 container(s)
+17:35:28.446 INFO     fbb.mission_sidecar    | Sidecar restauré : C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\hto sa20 pp strike update_edited.fbbmiss
+17:35:28.451 INFO     fbb.web.stall          | [gel] chien de garde armé : seuil 2.0 s
+17:35:28.457 INFO     uvicorn.error          | Application startup complete.
+17:35:28.459 INFO     uvicorn.error          | Uvicorn running on http://127.0.0.1:8765 (Press CTRL+C to quit)
+17:35:28.564 INFO     fbb.recon.cache        | RECON prewarm : Hellas déjà chauds
+17:35:28.778 INFO     fbb.web.launcher       | [SPLASH] ── Phase 1 : pré-chargement données mission…
+17:35:28.781 DEBUG    fbb.web.launcher       | Splash update OK : Chargement des données mission… 30%
+17:35:28.787 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=1
+17:35:28.799 INFO     uvicorn.access         | 127.0.0.1:49516 - "GET /api/dashboard HTTP/1.1" 200
+17:35:28.800 INFO     fbb.web.launcher       | [SPLASH] ── Phase 1 OK  0.02 s
+17:35:28.801 INFO     fbb.web.launcher       | [SPLASH] ── Phase 2 : pré-chargement fond carte SITAC…
+17:35:28.802 DEBUG    fbb.web.launcher       | Splash update OK : Chargement fond carte SITAC… 65%
+17:35:28.807 INFO     uvicorn.access         | 127.0.0.1:49517 - "GET /api/map/background HTTP/1.1" 200
+17:35:28.808 INFO     fbb.web.launcher       | [SPLASH] Fond carte : pré-génération 13 tuiles (z13+z14)…
+17:35:28.813 INFO     uvicorn.access         | 127.0.0.1:49518 - "GET /api/map/bg/hellas_820_3358720_r2/13/4096/4095.jpg HTTP/1.1" 200
+17:35:28.815 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z13/4096/4095  0.01 s
+17:35:28.818 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : hellas z=13 x=4096 y=4096 (ctx.theater_key=hellas)
+17:35:31.990 INFO     fbb.web.map            | [perf] bg_png_decode hellas 16384x16384 en 4197 ms, résident ~768 Mo RAM
+17:35:31.991 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=13 x=4096 y=4096
+17:35:31.992 INFO     uvicorn.access         | 127.0.0.1:49519 - "GET /api/map/bg/hellas_820_3358720_r2/13/4096/4096.jpg HTTP/1.1" 404
+17:35:31.992 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z13/4096/4096 : HTTP Error 404: Not Found
+17:35:31.996 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : hellas z=13 x=4097 y=4095 (ctx.theater_key=hellas)
+17:35:31.996 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=13 x=4097 y=4095
+17:35:31.997 INFO     uvicorn.access         | 127.0.0.1:49520 - "GET /api/map/bg/hellas_820_3358720_r2/13/4097/4095.jpg HTTP/1.1" 404
+17:35:31.997 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z13/4097/4095 : HTTP Error 404: Not Found
+17:35:32.000 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : hellas z=13 x=4097 y=4096 (ctx.theater_key=hellas)
+17:35:32.001 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=13 x=4097 y=4096
+17:35:32.001 INFO     uvicorn.access         | 127.0.0.1:49521 - "GET /api/map/bg/hellas_820_3358720_r2/13/4097/4096.jpg HTTP/1.1" 404
+17:35:32.002 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z13/4097/4096 : HTTP Error 404: Not Found
+17:35:32.005 INFO     uvicorn.access         | 127.0.0.1:49522 - "GET /api/map/bg/hellas_820_3358720_r2/14/8192/8190.jpg HTTP/1.1" 200
+17:35:32.006 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8192/8190  0.00 s
+17:35:32.010 INFO     uvicorn.access         | 127.0.0.1:49523 - "GET /api/map/bg/hellas_820_3358720_r2/14/8192/8191.jpg HTTP/1.1" 200
+17:35:32.012 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8192/8191  0.00 s
+17:35:32.015 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : hellas z=14 x=8192 y=8192 (ctx.theater_key=hellas)
+17:35:32.015 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8192 y=8192
+17:35:32.016 INFO     uvicorn.access         | 127.0.0.1:49524 - "GET /api/map/bg/hellas_820_3358720_r2/14/8192/8192.jpg HTTP/1.1" 404
+17:35:32.016 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8192/8192 : HTTP Error 404: Not Found
+17:35:32.020 INFO     uvicorn.access         | 127.0.0.1:49525 - "GET /api/map/bg/hellas_820_3358720_r2/14/8193/8190.jpg HTTP/1.1" 200
+17:35:32.021 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8193/8190  0.00 s
+17:35:32.025 INFO     uvicorn.access         | 127.0.0.1:49526 - "GET /api/map/bg/hellas_820_3358720_r2/14/8193/8191.jpg HTTP/1.1" 200
+17:35:32.026 DEBUG    fbb.web.launcher       | [SPLASH] Tuile ok z14/8193/8191  0.00 s
+17:35:32.029 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : hellas z=14 x=8193 y=8192 (ctx.theater_key=hellas)
+17:35:32.029 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8193 y=8192
+17:35:32.030 INFO     uvicorn.access         | 127.0.0.1:49527 - "GET /api/map/bg/hellas_820_3358720_r2/14/8193/8192.jpg HTTP/1.1" 404
+17:35:32.030 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8193/8192 : HTTP Error 404: Not Found
+17:35:32.033 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : hellas z=14 x=8194 y=8190 (ctx.theater_key=hellas)
+17:35:32.034 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8194 y=8190
+17:35:32.034 INFO     uvicorn.access         | 127.0.0.1:49528 - "GET /api/map/bg/hellas_820_3358720_r2/14/8194/8190.jpg HTTP/1.1" 404
+17:35:32.035 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8194/8190 : HTTP Error 404: Not Found
+17:35:32.037 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : hellas z=14 x=8194 y=8191 (ctx.theater_key=hellas)
+17:35:32.038 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8194 y=8191
+17:35:32.038 INFO     uvicorn.access         | 127.0.0.1:49529 - "GET /api/map/bg/hellas_820_3358720_r2/14/8194/8191.jpg HTTP/1.1" 404
+17:35:32.039 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8194/8191 : HTTP Error 404: Not Found
+17:35:32.042 INFO     fbb.web.map            | [bg-tiles] Tuile demandée : hellas z=14 x=8194 y=8192 (ctx.theater_key=hellas)
+17:35:32.042 DEBUG    fbb.web.map            | [bg-tiles] Tuile hors emprise : z=14 x=8194 y=8192
+17:35:32.043 INFO     uvicorn.access         | 127.0.0.1:49530 - "GET /api/map/bg/hellas_820_3358720_r2/14/8194/8192.jpg HTTP/1.1" 404
+17:35:32.043 DEBUG    fbb.web.launcher       | [SPLASH] Tuile hors champ z14/8194/8192 : HTTP Error 404: Not Found
+17:35:32.044 INFO     fbb.web.launcher       | [SPLASH] Fond carte : 5/13 tuiles cachées — 3.24 s total
+17:35:32.044 INFO     fbb.web.launcher       | [SPLASH] ── Phase 2 OK  3.24 s
+17:35:32.044 INFO     fbb.web.launcher       | [SPLASH] ── Phase 3 : ouverture dashboard…
+17:35:32.046 DEBUG    fbb.web.launcher       | Splash update OK : Ouverture… 90%
+17:35:32.046 INFO     fbb.web.launcher       | Ouverture fenêtre Dashboard → http://127.0.0.1:8765/dashboard.html
+17:35:32.079 DEBUG    fbb.web.launcher       | Taille de naissance "dashboard" : 674x969 → 690x1008 (bordure pywebview)
+17:35:32.195 INFO     uvicorn.access         | 127.0.0.1:56071 - "GET /dashboard.html HTTP/1.1" 200
+17:35:32.242 INFO     uvicorn.access         | 127.0.0.1:56071 - "GET /fbb-tokens.css HTTP/1.1" 200
+17:35:32.245 INFO     uvicorn.access         | 127.0.0.1:50290 - "GET /fbb-buttons.css HTTP/1.1" 200
+17:35:32.247 INFO     uvicorn.access         | 127.0.0.1:63919 - "GET /utils.js HTTP/1.1" 200
+17:35:32.248 INFO     uvicorn.access         | 127.0.0.1:61010 - "GET /js/debrief-prefstore.js HTTP/1.1" 200
+17:35:32.250 INFO     uvicorn.access         | 127.0.0.1:62313 - "GET /fbb-tooltips.css HTTP/1.1" 200
+17:35:32.252 INFO     uvicorn.access         | 127.0.0.1:61249 - "GET /fbb-tuto.css HTTP/1.1" 200
+17:35:32.272 INFO     uvicorn.access         | 127.0.0.1:56071 - "GET /js/i18n.js?v=20261012b HTTP/1.1" 200
+17:35:32.275 INFO     uvicorn.access         | 127.0.0.1:61010 - "GET /js/fbb-dialog.js HTTP/1.1" 200
+17:35:32.277 INFO     uvicorn.access         | 127.0.0.1:63919 - "GET /js/fbb-poll.js HTTP/1.1" 200
+17:35:32.278 INFO     uvicorn.access         | 127.0.0.1:50290 - "GET /js/fbb-plan-sync.js?v=20261014a HTTP/1.1" 200
+17:35:32.282 INFO     uvicorn.access         | 127.0.0.1:61249 - "GET /js/dashboard-presence.js HTTP/1.1" 200
+17:35:32.283 INFO     uvicorn.access         | 127.0.0.1:62313 - "GET /js/mfd-msg.js?v=20261013a HTTP/1.1" 200
+17:35:32.286 INFO     uvicorn.access         | 127.0.0.1:54988 - "GET /api/debrief/prefs HTTP/1.1" 200
+17:35:32.305 INFO     uvicorn.access         | 127.0.0.1:61010 - "GET /js/knb-print-report.js?v=20261013a HTTP/1.1" 200
+17:35:32.307 INFO     uvicorn.access         | 127.0.0.1:63919 - "GET /js/knb-mission-map-prep.js?v=20261008a HTTP/1.1" 200
+17:35:32.308 INFO     uvicorn.access         | 127.0.0.1:61249 - "GET /assets/ui/FBB_Debrief_band_v2.png?v=20261009a HTTP/1.1" 304
+17:35:32.309 INFO     uvicorn.access         | 127.0.0.1:54988 - "GET /assets/ui/FBB_Main_UI_web_v5.png?v=20261009a HTTP/1.1" 304
+17:35:32.321 INFO     uvicorn.access         | 127.0.0.1:63919 - "GET /js/win-keys.js HTTP/1.1" 200
+17:35:32.336 INFO     uvicorn.access         | 127.0.0.1:61010 - "POST /api/fbb/light/dashboard_visible HTTP/1.1" 200
+17:35:32.341 INFO     uvicorn.access         | 127.0.0.1:54988 - "GET /js/fbb-pointer.js?v=20261013a HTTP/1.1" 200
+17:35:32.342 INFO     uvicorn.access         | 127.0.0.1:56071 - "GET /js/fbb-tuto.js?v=20261013a HTTP/1.1" 200
+17:35:32.343 INFO     uvicorn.access         | 127.0.0.1:61249 - "GET /js/fbb-tooltips.js?v=20261008a HTTP/1.1" 200
+17:35:32.346 INFO     uvicorn.access         | 127.0.0.1:61010 - "GET /api/health HTTP/1.1" 200
+17:35:32.379 INFO     uvicorn.error          | 127.0.0.1:51524 - "WebSocket /ws" [accepted]
+17:35:32.380 DEBUG    fbb.ws                 | WS connect — 1 clients
+17:35:32.381 INFO     uvicorn.error          | connection open
+17:35:32.416 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=1
+17:35:32.477 INFO     uvicorn.error          | 127.0.0.1:56114 - "WebSocket /ws" [accepted]
+17:35:32.478 DEBUG    fbb.ws                 | WS connect — 2 clients
+17:35:32.479 INFO     uvicorn.access         | 127.0.0.1:62313 - "GET /api/dashboard HTTP/1.1" 200
+17:35:32.480 INFO     uvicorn.error          | connection open
+17:35:32.481 INFO     uvicorn.access         | 127.0.0.1:61010 - "GET /api/kneeboard/print_state HTTP/1.1" 200
+17:35:32.482 INFO     uvicorn.access         | 127.0.0.1:54988 - "GET /api/dtc/pending HTTP/1.1" 200
+17:35:32.487 INFO     uvicorn.access         | 127.0.0.1:50290 - "GET /api/fbb/light HTTP/1.1" 200
+17:35:32.488 INFO     uvicorn.access         | 127.0.0.1:61249 - "GET /api/dtc/import/sources HTTP/1.1" 200
+17:35:32.489 INFO     uvicorn.access         | 127.0.0.1:56071 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+17:35:32.490 INFO     uvicorn.access         | 127.0.0.1:63919 - "GET /api/setup/prefs HTTP/1.1" 200
+17:35:32.518 INFO     uvicorn.access         | 127.0.0.1:62313 - "GET /fbb-pointer.css HTTP/1.1" 200
+17:35:32.520 INFO     fbb.web.ui             | UI »» prefetch/start         t=0ms
+17:35:32.521 INFO     uvicorn.access         | 127.0.0.1:61249 - "GET /api/online/pointer/state HTTP/1.1" 200
+17:35:32.522 INFO     uvicorn.access         | 127.0.0.1:61010 - "GET /api/online/status HTTP/1.1" 200
+17:35:32.524 INFO     uvicorn.access         | 127.0.0.1:50290 - "GET /api/setup/prefs HTTP/1.1" 200
+17:35:32.525 INFO     uvicorn.access         | 127.0.0.1:63919 - "POST /api/debug/log HTTP/1.1" 200
+17:35:32.526 INFO     uvicorn.access         | 127.0.0.1:56071 - "GET /api/pilot_logo?v=<empreinte masquée> HTTP/1.1" 200
+17:35:32.535 INFO     uvicorn.access         | 127.0.0.1:54988 - "GET /api/telemetry/status HTTP/1.1" 200
+17:35:32.549 INFO     uvicorn.access         | 127.0.0.1:62313 - "GET /api/dashboard/airframe_badge.png?k=hto%20sa20%20pp%20strike%20update_edited%7C%E2%80%94 HTTP/1.1" 204
+17:35:32.551 INFO     uvicorn.access         | 127.0.0.1:61010 - "GET /api/update/pending HTTP/1.1" 200
+17:35:32.554 INFO     uvicorn.access         | 127.0.0.1:61249 - "GET /api/map/background HTTP/1.1" 200
+17:35:32.574 INFO     fbb.web.ui             | UI »» prefetch/launched      t=60ms n=0 theater=hellas
+17:35:32.574 INFO     uvicorn.access         | 127.0.0.1:62313 - "POST /api/debug/log HTTP/1.1" 200
+17:35:32.579 INFO     uvicorn.access         | 127.0.0.1:61010 - "GET /favicon.ico HTTP/1.1" 404
+17:35:32.893 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (20 fenêtres)
+17:35:34.351 INFO     uvicorn.access         | 127.0.0.1:61249 - "GET /api/update/check HTTP/1.1" 200
+17:35:35.506 INFO     uvicorn.access         | 127.0.0.1:61249 - "GET /api/mission/cam_files HTTP/1.1" 200
+17:35:36.563 INFO     uvicorn.access         | 127.0.0.1:61249 - "GET /api/fbb/light HTTP/1.1" 200
+17:35:37.563 INFO     uvicorn.access         | 127.0.0.1:61249 - "GET /api/online/status HTTP/1.1" 200
+17:35:37.813 DEBUG    fbb.web.launcher       | native pywebview: read x/y (drag_start) "dashboard" tid=Thread-14 (_call) 
+17:35:37.935 INFO     fbb.web.context        | Theater objects validés (Hellas) : 6944 objets, recouvrement noms 50/50 [objectives_Hellas.json]
+17:35:37.938 INFO     fbb.web.context        | INI DTC chargé : 17 sections
+17:35:37.943 INFO     fbb.web.context        | MissionData : surcouche théâtre appliquée — 485 valeurs sur 50 missions (MissionData_XX.XML)
+17:35:37.947 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=1
+17:35:37.948 INFO     fbb.web.context        | Context chargé : 26 units, 50 objectives depuis hto sa20 pp strike update_edited.tac
+17:35:37.948 INFO     fbb.web.context        | [perf] build_context 26 unités, 50 objectifs, 6944 theater_objects en 79 ms — hto sa20 pp strike update_edited.tac
+17:35:37.948 INFO     fbb.web.context        | Palette équipes BMS (Hellas) : {1: '#008000', 2: '#00A0FF', 3: '#8C5218', 4: '#FFA800', 5: '#FFFF00', 6: '#FF0000', 7: '#39848C'}
+17:35:37.950 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=1
+17:35:37.954 INFO     fbb.recon              | recon/info : 5 objectif(s) sans piste ni surface écarté(s) du sélecteur : Kotroni Navy Airbase, Megalopolis AB Power Plant, Megisti Airstrip, Polichnitos Airstrip, Stefanovikion Army Airbase
+17:35:37.975 INFO     fbb.web.briefing       | BA sidecar restauré : 14 container(s)
+17:35:37.976 INFO     fbb.mission_sidecar    | Sidecar restauré : C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\hto sa20 pp strike update_edited.fbbmiss
+17:35:37.978 INFO     uvicorn.access         | 127.0.0.1:61249 - "POST /api/mission/load_cam HTTP/1.1" 200
+17:35:37.990 INFO     fbb.web.ui             | UI »» prefetch/start         t=0ms
+17:35:37.991 INFO     uvicorn.access         | 127.0.0.1:61249 - "POST /api/debug/log HTTP/1.1" 200
+17:35:37.996 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=1
+17:35:38.017 INFO     uvicorn.access         | 127.0.0.1:65503 - "GET /api/dashboard HTTP/1.1" 200
+17:35:38.025 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=1
+17:35:38.046 INFO     uvicorn.access         | 127.0.0.1:65503 - "GET /api/dashboard HTTP/1.1" 200
+17:35:38.048 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/map/background HTTP/1.1" 200
+17:35:38.058 INFO     fbb.web.ui             | UI »» prefetch/launched      t=75ms n=0 theater=hellas
+17:35:38.058 INFO     uvicorn.access         | 127.0.0.1:62144 - "POST /api/debug/log HTTP/1.1" 200
+17:35:38.146 INFO     fbb.recon.cache        | RECON prewarm : Hellas déjà chauds
+17:35:38.402 INFO     uvicorn.access         | 127.0.0.1:61249 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+17:35:38.415 INFO     uvicorn.access         | 127.0.0.1:65503 - "GET /api/dtc/pending HTTP/1.1" 200
+17:35:38.421 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/dtc/import/sources HTTP/1.1" 200
+17:35:38.736 DEBUG    fbb.web.launcher       | native pywebview: read x/y (drag_start) "dashboard" tid=Thread-15 (_call) 
+17:35:39.841 DEBUG    fbb.web.launcher       | native pywebview: read x/y (drag_start) "dashboard" tid=Thread-16 (_call) 
+17:35:39.994 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/squadron HTTP/1.1" 200
+17:35:40.577 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/fbb/light HTTP/1.1" 200
+17:35:41.927 DEBUG    fbb.web.launcher       | native pywebview: read x/y (drag_start) "dashboard" tid=Thread-17 (_call) 
+17:35:42.577 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/online/status HTTP/1.1" 200
+17:35:44.595 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/fbb/light HTTP/1.1" 200
+17:35:45.458 DEBUG    fbb.web.launcher       | native pywebview: read x/y (drag_start) "dashboard" tid=Thread-18 (_call) 
+17:35:45.462 DEBUG    fbb.web.launcher       | native pywebview: move(by-delta) "dashboard" tid=Thread-19 (_call) dx=0 dy=-1
+17:35:45.505 INFO     …b.web.routes.squadron | My Squadron → {'vu': 8015, 'label': '6955th', 'source': 'choice', 'cam_vu': None, 'patch': '/api/loadout3d/crew_art/patch/70001'}
+17:35:45.509 INFO     fbb.identity_refresh   | My Squadron → vu=None callsign= seat=None pkg=None source=
+17:35:45.511 INFO     uvicorn.access         | 127.0.0.1:62144 - "POST /api/squadron HTTP/1.1" 200
+17:35:45.518 INFO     fbb.web.launcher       | Ouvre fenêtre "ato" → http://127.0.0.1:8765/ato.html (geom={'width': 1280, 'height': 820, 'x': 428, 'y': 42}, focus=True)
+17:35:45.520 INFO     uvicorn.access         | 127.0.0.1:62144 - "POST /api/dtc/stage/rinse HTTP/1.1" 200
+17:35:45.533 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=1
+17:35:45.549 DEBUG    fbb.web.launcher       | Taille de naissance "ato" : 1264x781 → 1280x820 (bordure pywebview)
+17:35:45.550 INFO     uvicorn.access         | 127.0.0.1:58191 - "GET /api/dashboard HTTP/1.1" 200
+17:35:45.557 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=1
+17:35:45.572 INFO     uvicorn.access         | 127.0.0.1:58191 - "GET /api/dashboard HTTP/1.1" 200
+17:35:45.581 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=1
+17:35:45.598 INFO     uvicorn.access         | 127.0.0.1:58191 - "GET /api/dashboard HTTP/1.1" 200
+17:35:45.603 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /ato.html HTTP/1.1" 200
+17:35:45.680 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /fbb-tooltips.css HTTP/1.1" 200
+17:35:45.686 INFO     uvicorn.access         | 127.0.0.1:58191 - "GET /js/fbb-tooltips.js?v=20260826a HTTP/1.1" 200
+17:35:45.686 INFO     uvicorn.access         | 127.0.0.1:58077 - "GET /fbb-tuto.css HTTP/1.1" 200
+17:35:45.687 INFO     uvicorn.access         | 127.0.0.1:52270 - "GET /app.css HTTP/1.1" 200
+17:35:45.688 INFO     uvicorn.access         | 127.0.0.1:49752 - "GET /fbb-pointer.css HTTP/1.1" 200
+17:35:45.691 INFO     uvicorn.access         | 127.0.0.1:53115 - "GET /js/fbb-pointer.js?v=20261013a HTTP/1.1" 200
+17:35:45.713 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /fbb-buttons.css HTTP/1.1" 200
+17:35:45.717 INFO     uvicorn.access         | 127.0.0.1:58077 - "GET /js/fbb-list.js HTTP/1.1" 200
+17:35:45.721 INFO     uvicorn.access         | 127.0.0.1:49752 - "GET /fbb-list.css HTTP/1.1" 200
+17:35:45.723 INFO     uvicorn.access         | 127.0.0.1:53115 - "GET /js/fbb-dialog.js HTTP/1.1" 200
+17:35:45.724 INFO     uvicorn.access         | 127.0.0.1:58191 - "GET /bundles/fbb-common.min.js?v=20261014a HTTP/1.1" 200
+17:35:45.728 INFO     uvicorn.access         | 127.0.0.1:52270 - "GET /js/i18n.js?v=20260926p HTTP/1.1" 200
+17:35:45.740 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /fbb-tokens.css HTTP/1.1" 200
+17:35:45.743 INFO     uvicorn.access         | 127.0.0.1:58077 - "GET /fbb-chrome.css HTTP/1.1" 200
+17:35:45.747 INFO     uvicorn.access         | 127.0.0.1:49752 - "GET /js/fbb-crew-sheet.js?v=20261002a HTTP/1.1" 200
+17:35:45.751 INFO     uvicorn.access         | 127.0.0.1:53115 - "GET /js/ato-server-chips.js?v=20261012a HTTP/1.1" 200
+17:35:45.752 INFO     uvicorn.access         | 127.0.0.1:58191 - "GET /js/ato-join.js?v=20261004a HTTP/1.1" 200
+17:35:45.764 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /js/ato-chips.js?v=20261019a HTTP/1.1" 200
+17:35:45.773 INFO     uvicorn.access         | 127.0.0.1:58077 - "GET /js/ato-checked-identity.js?v=20261019a HTTP/1.1" 200
+17:35:45.774 INFO     uvicorn.access         | 127.0.0.1:49752 - "GET /js/win-keys.js HTTP/1.1" 200
+17:35:45.779 INFO     uvicorn.access         | 127.0.0.1:52270 - "GET /js/fbb-poll.js HTTP/1.1" 200
+17:35:45.781 INFO     uvicorn.access         | 127.0.0.1:53115 - "GET /js/online-indicator.js HTTP/1.1" 200
+17:35:45.783 INFO     uvicorn.access         | 127.0.0.1:58191 - "GET /js/bezel-ver.js HTTP/1.1" 200
+17:35:45.790 INFO     uvicorn.access         | 127.0.0.1:49752 - "GET /js/fbb-tuto.js?v=20261013a HTTP/1.1" 200
+17:35:45.897 INFO     uvicorn.error          | 127.0.0.1:55060 - "WebSocket /ws" [accepted]
+17:35:45.897 DEBUG    fbb.ws                 | WS connect — 3 clients
+17:35:45.899 INFO     uvicorn.error          | connection open
+17:35:45.909 INFO     uvicorn.access         | 127.0.0.1:49752 - "GET /api/health HTTP/1.1" 200
+17:35:45.928 INFO     uvicorn.access         | 127.0.0.1:52270 - "GET /api/online/pointer/state HTTP/1.1" 200
+17:35:45.931 INFO     uvicorn.access         | 127.0.0.1:58191 - "GET /api/setup/prefs HTTP/1.1" 200
+17:35:45.936 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/online/status HTTP/1.1" 200
+17:35:45.938 INFO     uvicorn.access         | 127.0.0.1:53115 - "GET /api/setup/prefs HTTP/1.1" 200
+17:35:45.941 INFO     uvicorn.access         | 127.0.0.1:49752 - "GET /api/fbb/light HTTP/1.1" 200
+17:35:45.948 INFO     uvicorn.access         | 127.0.0.1:58077 - "GET /api/health HTTP/1.1" 200
+17:35:45.950 INFO     uvicorn.access         | 127.0.0.1:53115 - "GET /api/setup/prefs HTTP/1.1" 200
+17:35:45.974 INFO     uvicorn.access         | 127.0.0.1:53115 - "GET /api/health HTTP/1.1" 200
+17:35:45.981 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+17:35:46.003 INFO     uvicorn.access         | 127.0.0.1:49752 - "GET /api/dtc/pending HTTP/1.1" 200
+17:35:46.012 INFO     uvicorn.access         | 127.0.0.1:58077 - "GET /api/dtc/import/sources HTTP/1.1" 200
+17:35:46.387 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (20 fenêtres)
+17:35:46.396 INFO     fbb.web.station        | build_city_index: SOList BMS non reconstituable — repli sur les localités 'City' du théâtre
+17:35:47.164 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/ato HTTP/1.1" 200
+17:35:47.591 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/online/status HTTP/1.1" 200
+17:35:48.615 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/fbb/light HTTP/1.1" 200
+17:35:48.963 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/online/status HTTP/1.1" 200
+17:35:51.982 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/online/status HTTP/1.1" 200
+17:35:52.069 DEBUG    fbb.web.launcher       | native pywebview: read x/y/w/h (snapshot) "ato" tid=Dummy-5 
+17:35:52.070 DEBUG    fbb.web.launcher       | Snapshot géométrie "ato" : 1280x820 @ (428,42)
+17:35:52.074 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (20 fenêtres)
+17:35:52.081 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (20 fenêtres)
+17:35:52.098 DEBUG    fbb.web                | WS keepalive terminé (déconnexion client)
+17:35:52.098 DEBUG    fbb.ws                 | WS disconnect — 2 clients
+17:35:52.099 INFO     uvicorn.error          | connection closed
+17:35:52.109 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (20 fenêtres)
+17:35:52.125 INFO     uvicorn.access         | 127.0.0.1:49754 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+17:35:52.134 INFO     uvicorn.access         | 127.0.0.1:58829 - "GET /api/kneeboard/print_state HTTP/1.1" 200
+17:35:52.153 INFO     uvicorn.access         | 127.0.0.1:53152 - "GET /api/dtc/pending HTTP/1.1" 200
+17:35:52.154 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/dtc/import/sources HTTP/1.1" 200
+17:35:52.250 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=1
+17:35:52.261 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/dashboard HTTP/1.1" 200
+17:35:52.612 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/online/status HTTP/1.1" 200
+17:35:52.623 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /api/fbb/light HTTP/1.1" 200
+17:35:53.691 INFO     uvicorn.access         | 127.0.0.1:62144 - "POST /api/report/snapshot HTTP/1.1" 200
+17:35:53.730 DEBUG    fbb.web.launcher       | Taille de naissance "report" : 524x602 → 540x641 (bordure pywebview)
+17:35:53.773 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /report.html?reporter=Arkane08&origin_page=FBB%20%E2%80%94%20Dashboard&origin_area=dashboard HTTP/1.1" 200
+17:35:53.877 INFO     uvicorn.access         | 127.0.0.1:62144 - "GET /fbb-tokens.css HTTP/1.1" 200
+17:35:53.881 INFO     uvicorn.access         | 127.0.0.1:60801 - "GET /js/fbb-pointer.js?v=20261013a HTTP/1.1" 200
+17:35:53.881 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /js/i18n.js?v=20260830e HTTP/1.1" 200
+17:35:53.882 INFO     uvicorn.access         | 127.0.0.1:49754 - "GET /utils.js HTTP/1.1" 200
+17:35:53.883 INFO     uvicorn.access         | 127.0.0.1:58829 - "GET /fbb-buttons.css HTTP/1.1" 200
+17:35:53.884 INFO     uvicorn.access         | 127.0.0.1:53152 - "GET /theme.js?v=20261014a HTTP/1.1" 200
+17:35:53.920 INFO     uvicorn.access         | 127.0.0.1:53152 - "GET /fbb-pointer.css HTTP/1.1" 200
+17:35:53.949 INFO     uvicorn.error          | 127.0.0.1:65009 - "WebSocket /ws" [accepted]
+17:35:53.949 DEBUG    fbb.ws                 | WS connect — 3 clients
+17:35:53.950 INFO     uvicorn.error          | connection open
+17:35:53.952 INFO     uvicorn.access         | 127.0.0.1:60801 - "GET /api/online/pointer/state HTTP/1.1" 200
+17:35:53.953 INFO     uvicorn.access         | 127.0.0.1:53152 - "GET /api/setup/prefs HTTP/1.1" 200
+17:35:53.954 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/setup/prefs HTTP/1.1" 200
+17:35:53.963 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/report/config HTTP/1.1" 200
+17:35:54.036 INFO     uvicorn.access         | 127.0.0.1:54776 - "POST /api/report/snapshot?reuse=1 HTTP/1.1" 200
+17:35:54.093 DEBUG    fbb.web.launcher       | native pywebview: resize "report" tid=Thread-38 (_call) w=540 h=641
+17:35:54.909 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (20 fenêtres)
+17:35:56.643 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/fbb/light HTTP/1.1" 200
+17:35:57.622 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/online/status HTTP/1.1" 200
+17:36:00.653 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/fbb/light HTTP/1.1" 200
+17:36:02.330 INFO     uvicorn.access         | 127.0.0.1:54776 - "POST /api/fbb/light/dashboard_visible HTTP/1.1" 200
+17:36:02.383 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (20 fenêtres)
+17:36:02.646 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/online/status HTTP/1.1" 200
+17:36:04.664 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/fbb/light HTTP/1.1" 200
+17:36:07.654 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/online/status HTTP/1.1" 200
+17:36:08.687 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/fbb/light HTTP/1.1" 200
+17:36:10.534 DEBUG    fbb.web.launcher       | native pywebview: read x/y (drag_start) "dashboard" tid=Thread-75 (_call) 
+17:36:10.546 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/dtc/import/sources HTTP/1.1" 200
+17:36:10.570 INFO     uvicorn.access         | 127.0.0.1:57531 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+17:36:10.571 INFO     uvicorn.access         | 127.0.0.1:58706 - "GET /api/kneeboard/print_state HTTP/1.1" 200
+17:36:10.584 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/dtc/pending HTTP/1.1" 200
+17:36:10.603 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/squadron HTTP/1.1" 200
+17:36:10.695 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=1
+17:36:10.704 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/dashboard HTTP/1.1" 200
+17:36:11.993 DEBUG    fbb.web.launcher       | native pywebview: read x/y (drag_start) "dashboard" tid=Thread-76 (_call) 
+17:36:12.677 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/online/status HTTP/1.1" 200
+17:36:12.699 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/fbb/light HTTP/1.1" 200
+17:36:16.717 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/fbb/light HTTP/1.1" 200
+17:36:17.700 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/online/status HTTP/1.1" 200
+17:36:20.731 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/fbb/light HTTP/1.1" 200
+17:36:22.715 INFO     uvicorn.access         | 127.0.0.1:63075 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+17:36:22.722 INFO     uvicorn.access         | 127.0.0.1:50453 - "GET /api/kneeboard/print_state HTTP/1.1" 200
+17:36:22.734 INFO     uvicorn.access         | 127.0.0.1:59471 - "GET /api/dtc/pending HTTP/1.1" 200
+17:36:22.739 INFO     uvicorn.access         | 127.0.0.1:51958 - "GET /api/online/status HTTP/1.1" 200
+17:36:22.741 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/dtc/import/sources HTTP/1.1" 200
+17:36:22.850 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=1
+17:36:22.861 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/dashboard HTTP/1.1" 200
+17:36:24.327 INFO     uvicorn.access         | 127.0.0.1:54776 - "POST /api/report/clipboard-image HTTP/1.1" 200
+17:36:24.333 DEBUG    fbb.web.launcher       | native pywebview: resize "report" tid=Thread-77 (_call) w=540 h=641
+17:36:24.335 DEBUG    fbb.web.launcher       | native pywebview: resize "report" tid=Thread-79 (_call) w=540 h=681
+17:36:24.742 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/fbb/light HTTP/1.1" 200
+17:36:25.153 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (20 fenêtres)
+17:36:27.764 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/online/status HTTP/1.1" 200
+17:36:28.766 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/fbb/light HTTP/1.1" 200
+17:36:30.640 DEBUG    fbb.web.launcher       | native pywebview: read x/y (drag_start) "dashboard" tid=Thread-83 (_call) 
+17:36:30.658 INFO     uvicorn.access         | 127.0.0.1:49434 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+17:36:30.660 INFO     uvicorn.access         | 127.0.0.1:59601 - "GET /api/kneeboard/print_state HTTP/1.1" 200
+17:36:30.672 INFO     uvicorn.access         | 127.0.0.1:64018 - "GET /api/dtc/pending HTTP/1.1" 200
+17:36:30.678 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/dtc/import/sources HTTP/1.1" 200
+17:36:30.795 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=1
+17:36:30.805 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/dashboard HTTP/1.1" 200
+17:36:32.332 INFO     uvicorn.access         | 127.0.0.1:54776 - "POST /api/fbb/light/dashboard_visible HTTP/1.1" 200
+17:36:32.780 INFO     uvicorn.access         | 127.0.0.1:54776 - "GET /api/online/status HTTP/1.1" 200
+17:36:32.782 INFO     uvicorn.access         | 127.0.0.1:64018 - "GET /api/fbb/light HTTP/1.1" 200
+17:36:36.797 INFO     uvicorn.access         | 127.0.0.1:64018 - "GET /api/fbb/light HTTP/1.1" 200
+17:36:37.795 INFO     uvicorn.access         | 127.0.0.1:64018 - "GET /api/online/status HTTP/1.1" 200
+17:36:38.606 INFO     uvicorn.access         | 127.0.0.1:64018 - "GET /api/dtc/import/sources HTTP/1.1" 200
+17:36:38.607 INFO     uvicorn.access         | 127.0.0.1:51384 - "GET /api/mission/save_campaign_state HTTP/1.1" 200
+17:36:38.610 INFO     uvicorn.access         | 127.0.0.1:53250 - "GET /api/kneeboard/print_state HTTP/1.1" 200
+17:36:38.637 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/dtc/pending HTTP/1.1" 200
+17:36:38.725 INFO     fbb.web.briefing_match | brief_match: AUCUN n=0 scanned=1
+17:36:38.741 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/dashboard HTTP/1.1" 200
+17:36:40.813 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:36:42.815 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:36:44.830 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:36:47.829 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:36:48.848 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:36:52.846 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:36:52.863 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:36:56.887 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:36:57.855 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:37:00.501 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (20 fenêtres)
+17:37:00.908 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:37:02.340 INFO     uvicorn.access         | 127.0.0.1:52290 - "POST /api/fbb/light/dashboard_visible HTTP/1.1" 200
+17:37:02.875 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:37:02.938 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (20 fenêtres)
+17:37:04.926 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:37:07.885 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:37:08.953 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:37:12.895 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:37:12.976 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:37:16.987 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:37:17.908 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:37:18.514 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (20 fenêtres)
+17:37:21.002 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:37:22.921 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:37:25.020 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:37:26.660 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (20 fenêtres)
+17:37:27.941 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:37:29.035 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:37:32.336 INFO     uvicorn.access         | 127.0.0.1:52290 - "POST /api/fbb/light/dashboard_visible HTTP/1.1" 200
+17:37:32.957 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:37:33.053 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:37:36.147 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (20 fenêtres)
+17:37:37.069 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:37:37.979 INFO     uvicorn.access         | 127.0.0.1:57600 - "GET /api/online/status HTTP/1.1" 200
+17:37:38.184 INFO     uvicorn.access         | 127.0.0.1:52290 - "POST /api/report/clipboard-image HTTP/1.1" 200
+17:37:38.189 DEBUG    fbb.web.launcher       | native pywebview: resize "report" tid=Thread-388 (_call) w=540 h=681
+17:37:38.191 DEBUG    fbb.web.launcher       | native pywebview: resize "report" tid=Thread-390 (_call) w=540 h=676
+17:37:39.019 DEBUG    fbb.web.launcher       | window_layout.json sauvegardé (20 fenêtres)
+17:37:41.089 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:37:43.003 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:37:45.114 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:37:48.021 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:37:49.133 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:37:53.037 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:37:53.148 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:37:57.170 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:37:58.058 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:38:01.188 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:38:02.326 INFO     uvicorn.access         | 127.0.0.1:52290 - "POST /api/fbb/light/dashboard_visible HTTP/1.1" 200
+17:38:03.073 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:38:05.206 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:38:08.087 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:38:09.230 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:38:13.098 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:38:13.239 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:38:17.260 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:38:18.114 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:38:21.279 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:38:23.134 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:38:25.293 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:38:28.158 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:38:29.313 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:38:32.340 INFO     uvicorn.access         | 127.0.0.1:52290 - "POST /api/fbb/light/dashboard_visible HTTP/1.1" 200
+17:38:33.168 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/online/status HTTP/1.1" 200
+17:38:33.325 INFO     uvicorn.access         | 127.0.0.1:52290 - "GET /api/fbb/light HTTP/1.1" 200
+17:38:37.338 INFO     uvicorn.access         | 127.0.0.1:56088 - "GET /api/fbb/light HTTP/1.1" 200
+17:38:38.191 INFO     uvicorn.access         | 127.0.0.1:56088 - "GET /api/online/status HTTP/1.1" 200
