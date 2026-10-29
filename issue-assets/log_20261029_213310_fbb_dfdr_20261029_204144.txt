@@ -1,0 +1,772 @@
+2026-10-29 20:41:44.742 | ========================================================================
+2026-10-29 20:41:44.742 | startup                  | FBB 1.99.0 — session 2026-10-29 20:41:44
+2026-10-29 20:41:44.742 | startup                  | Répertoire : C:\Users\thcab\AppData\Local\Programs\FBB\_internal
+2026-10-29 20:41:44.742 | startup                  | Python 3.14.5
+2026-10-29 20:41:44.742 | ========================================================================
+2026-10-29 20:41:44.743 | system                   | OS : Windows 11 10.0.26300, AMD64, 12 CPU, RAM 32 GB
+2026-10-29 20:41:44.757 | system                   | Machine : <masqué> / Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+2026-10-29 20:41:44.757 | registry                 | BMS baseDir : C:\Falcon BMS 4.38
+2026-10-29 20:41:44.757 | registry                 | BMS theater : Hellas  pilot : Rouge
+2026-10-29 20:41:45.080 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-10-29 20:41:48.745 | telemetry                | ping OK v1.99.0 Windows 11 canal=prod → HTTP 200
+2026-10-29 20:41:49.292 | parse_health             | SilverThunder1.tac: records 9/9, bytes 3286/3286, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-29 20:41:50.477 | dtc_mfd                  | event=read path=Rouge.ini mtime=2026-10-27 22:41:04 mfd=45/96
+2026-10-29 20:41:50.995 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-29 20:41:51.308 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-29 20:41:51.466 | ato_departure            | resolved=1/1
+2026-10-29 20:41:55.632 | ato_departure            | resolved=1/1
+2026-10-29 20:41:55.988 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:41:57.135 | fuel_plan                | avail=14234 atTurn=8495 bingo=7600 joker=8100 rtb=3319 margin=895 GO
+2026-10-29 20:41:58.141 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 20:41:58.165 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:42:00.330 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:42:00.330 | package_comms            | tactical ch=6 primary=Plasma 2 uhf=368.550
+2026-10-29 20:42:00.344 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=12 n_ppt=15 n_dpi=0 n_divert=2 n_sections=2 hash=be22937a
+2026-10-29 20:54:12.364 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:54:12.518 | ato_departure            | resolved=1/1
+2026-10-29 20:54:12.918 | fuel_plan                | avail=14234 atTurn=8495 bingo=7600 joker=8100 rtb=3319 margin=895 GO
+2026-10-29 20:54:12.921 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 20:54:12.924 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:54:14.054 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:54:14.054 | package_comms            | tactical ch=6 primary=Plasma 2 uhf=368.550
+2026-10-29 20:54:14.062 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=2 n_sections=2 hash=b402fbc4
+2026-10-29 20:54:16.127 | parse_health             | SilverThunder1.tac: records 10/10, bytes 5180/5180, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-29 20:54:16.238 | dtc_mfd                  | event=read path=Rouge.ini mtime=2026-10-29 20:54:07 mfd=45/96
+2026-10-29 20:54:16.446 | swap_context             | origin=select_cam:latest cam='silverthunder1.tac' loaded=True err=''
+2026-10-29 20:54:16.687 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-29 20:54:16.851 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:54:16.857 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=5 n_ppt=15 n_dpi=0 n_divert=0 n_sections=0 hash=b402fbc4
+2026-10-29 20:54:28.789 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:54:28.792 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=5 n_ppt=15 n_dpi=0 n_divert=0 n_sections=0 hash=b402fbc4
+2026-10-29 20:54:29.620 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:54:29.620 | package_comms            | tactical ch=6 primary=? uhf=?
+2026-10-29 20:54:30.245 | campaign_overview        | system_marks=0
+2026-10-29 20:54:31.383 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:54:31.743 | airport_diagrams         | taxi surfaces=70 terrains en raster | repli K-NN : 2 sans mesh CT30, 0 sous-couvrants
+2026-10-29 20:54:31.743 | airport_diagrams         |   sans CT30 : Cardak Airport, Eleftherios Venizelos Airport
+2026-10-29 20:54:32.706 | timeline_data            | pkgs=1 flights=1 my_pkg=None my_vu=None buddies=0
+2026-10-29 20:54:32.710 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 20:54:32.710 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 20:54:45.029 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:54:45.036 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=5 n_ppt=15 n_dpi=0 n_divert=0 n_sections=0 hash=b402fbc4
+2026-10-29 20:55:01.014 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:55:01.020 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=5 n_ppt=15 n_dpi=0 n_divert=0 n_sections=0 hash=b402fbc4
+2026-10-29 20:55:19.823 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=5 n_ppt=15 n_dpi=0 n_divert=0 n_sections=0 hash=b402fbc4
+2026-10-29 20:55:19.831 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:55:21.282 | dtc_mfd                  | event=read path=Rouge.ini mtime=2026-10-29 20:54:07 mfd=45/96
+2026-10-29 20:55:21.289 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-29 20:55:21.309 | swap_context             | origin=select_cam:latest cam='silverthunder1.tac' loaded=True err=''
+2026-10-29 20:55:21.715 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:55:21.720 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=5 n_ppt=15 n_dpi=0 n_divert=0 n_sections=0 hash=b402fbc4
+2026-10-29 20:55:22.983 | dtc_mfd                  | event=read path=Rouge.ini mtime=2026-10-29 20:54:07 mfd=45/96
+2026-10-29 20:55:22.992 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-29 20:55:23.010 | swap_context             | origin=select_cam:latest cam='silverthunder1.tac' loaded=True err=''
+2026-10-29 20:55:23.403 | dtc_mfd                  | event=read path=Rouge.ini mtime=2026-10-29 20:54:07 mfd=45/96
+2026-10-29 20:55:23.411 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-29 20:55:23.429 | swap_context             | origin=select_cam:latest cam='silverthunder1.tac' loaded=True err=''
+2026-10-29 20:55:23.437 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:55:23.445 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=5 n_ppt=15 n_dpi=0 n_divert=0 n_sections=0 hash=b402fbc4
+2026-10-29 20:55:23.834 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:55:23.839 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=5 n_ppt=15 n_dpi=0 n_divert=0 n_sections=0 hash=b402fbc4
+2026-10-29 20:55:26.371 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:55:26.377 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=5 n_ppt=15 n_dpi=0 n_divert=0 n_sections=0 hash=b402fbc4
+2026-10-29 20:55:37.599 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:55:37.606 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=5 n_ppt=15 n_dpi=0 n_divert=0 n_sections=0 hash=b402fbc4
+2026-10-29 20:55:42.561 | ato_departure            | resolved=1/1
+2026-10-29 20:55:42.567 | ato_target               | index_built names=10 memo=True
+2026-10-29 20:55:42.963 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:55:49.208 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:55:49.213 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=5 n_ppt=15 n_dpi=0 n_divert=0 n_sections=0 hash=b402fbc4
+2026-10-29 20:55:53.563 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:55:53.571 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=5 n_ppt=15 n_dpi=0 n_divert=0 n_sections=0 hash=b402fbc4
+2026-10-29 20:55:58.420 | dtc_mfd                  | event=read path=Rouge.ini mtime=2026-10-29 20:54:07 mfd=45/96
+2026-10-29 20:55:58.427 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-29 20:55:58.447 | swap_context             | origin=select_cam:latest cam='silverthunder1.tac' loaded=True err=''
+2026-10-29 20:55:58.679 | ato_departure            | resolved=1/1
+2026-10-29 20:55:58.769 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:55:58.855 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:55:58.860 | dtc_render               | path=Rouge.ini n_stpt=0 n_lines=5 n_ppt=15 n_dpi=0 n_divert=0 n_sections=0 hash=b402fbc4
+2026-10-29 20:56:26.970 | ato_departure            | resolved=1/1
+2026-10-29 20:56:27.359 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:56:27.417 | fuel_plan                | avail=12194 atTurn=4419 bingo=5100 joker=5600 rtb=2132 margin=-681 NO-GO
+2026-10-29 20:56:27.418 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 20:56:27.422 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:56:27.424 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:56:27.424 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 20:56:27.431 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 20:56:34.340 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:56:34.395 | fuel_plan                | avail=12194 atTurn=4419 bingo=5100 joker=5600 rtb=2132 margin=-681 NO-GO
+2026-10-29 20:56:34.397 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 20:56:34.400 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:56:34.402 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:56:34.402 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 20:56:34.410 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 20:56:34.480 | ato_departure            | resolved=1/1
+2026-10-29 20:56:34.830 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:56:35.148 | fuel_plan                | avail=12194 atTurn=4419 bingo=5100 joker=5600 rtb=2132 margin=-681 NO-GO
+2026-10-29 20:56:35.150 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 20:56:35.150 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:56:35.156 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:56:35.156 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 20:56:35.159 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:56:35.164 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:56:35.165 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 20:56:35.173 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 20:56:35.513 | airport_diagrams         | taxi surfaces=70 terrains en raster | repli K-NN : 2 sans mesh CT30, 0 sous-couvrants
+2026-10-29 20:56:35.513 | airport_diagrams         |   sans CT30 : Cardak Airport, Eleftherios Venizelos Airport
+2026-10-29 20:56:35.870 | campaign_overview        | objective_index loaded=6944
+2026-10-29 20:56:36.144 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-10-29 20:56:36.148 | campaign_overview        | system_marks=0
+2026-10-29 20:56:37.529 | package_relevance        | package_routes pkg=3240 flights=1 routes=1 points=21
+2026-10-29 20:56:37.747 | friendly_ad_zone         | wps=1 buffer_nm=20.0 hull=24
+2026-10-29 20:56:38.018 | friendly_air_defense     | pkg=3240 ref=aoo sites=0 combat_wp=0 aoo_wp=1 covering=0 nearby=0 shown=0 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=171 alt_ft=22000
+2026-10-29 20:56:38.335 | briefing_context         | package_overview flights=1 route_points=21 focus_points=1 unique_points=21
+2026-10-29 20:56:38.629 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 20:56:38.699 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:56:40.799 | package_relevance        | package_routes pkg=3240 flights=1 routes=1 points=21
+2026-10-29 20:56:40.799 | friendly_ad_zone         | wps=1 buffer_nm=20.0 hull=24
+2026-10-29 20:56:40.804 | friendly_air_defense     | pkg=3240 ref=aoo sites=0 combat_wp=0 aoo_wp=1 covering=0 nearby=0 shown=0 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=171 alt_ft=22000
+2026-10-29 20:56:41.238 | package_relevance        | package_routes pkg=3240 flights=1 routes=1 points=21
+2026-10-29 20:56:41.239 | friendly_ad_zone         | wps=1 buffer_nm=20.0 hull=24
+2026-10-29 20:56:41.245 | friendly_air_defense     | pkg=3240 ref=aoo sites=0 combat_wp=0 aoo_wp=1 covering=0 nearby=0 shown=0 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=171 alt_ft=22000
+2026-10-29 20:56:58.239 | boxes_remove             | CALL01
+2026-10-29 20:57:24.264 | loadout3d                | scene unit_ct=294 veh_ct=2464 ac_model=1909 (F-16CM-52) slots=11 stores=12 seat=0
+2026-10-29 20:57:24.264 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-10-29 20:57:24.264 | loadout3d                |   HP 1 wid=158 model=1690 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120B
+2026-10-29 20:57:24.264 | loadout3d                |   HP 2 wid=176 model=1369 slot=[-13.25, -3.70681906, 0.164210007] : AIM-9X
+2026-10-29 20:57:24.264 | loadout3d                |   HP 3 wid=296 model=1448 slot=[-10.0, -1.72720599, 0.127838001] : GBU-31(v)1/B /HE
+2026-10-29 20:57:24.264 | loadout3d                |   HP 4 wid=93 model=1380 slot=[-6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-10-29 20:57:24.264 | loadout3d                |   HP 5 wid=189 model=1546 slot=[0.0, 1.08500099, -2.62065101] : AN/ALQ-184
+2026-10-29 20:57:24.264 | loadout3d                |   HP 6 wid=93 model=1380 slot=[6.0, 1.10453105, 0.0865229964] : Tank 370gal
+2026-10-29 20:57:24.265 | loadout3d                |   HP 7 wid=296 model=1448 slot=[10.0, -1.72720599, 0.127838001] : GBU-31(v)1/B /HE
+2026-10-29 20:57:24.265 | loadout3d                |   HP 8 wid=176 model=1369 slot=[13.25, -3.70681906, 0.164210007] : AIM-9X
+2026-10-29 20:57:24.265 | loadout3d                |   HP 9 wid=158 model=1690 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120B
+2026-10-29 20:57:24.265 | loadout3d                |   HP10 wid=179 model=971 slot=[-1.53898299, 10.133934, -2.44163299] : AN/AAQ-13 NAVPOD
+2026-10-29 20:57:24.265 | loadout3d                |   HP11 wid=180 model=972 slot=[1.53898299, 10.133934, -2.44163299] : AN/AAQ-14 LANTIRN
+2026-10-29 20:57:24.617 | loadout_limits           | classe indeterminee pour wid=492 ('20mm M61') : aucune limite rendue
+2026-10-29 20:57:24.626 | loadout3d                | crew_art vu=20007 seat=0 pilot=None patch=70001
+2026-10-29 20:57:26.413 | loadout3d                | _str_compat: aucun .str pour aircraft='F-16', fallback global
+2026-10-29 20:57:26.414 | loadout3d                | _str_compat: aircraft=F-16 C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign → 0 WIDs, 0/0 fichiers .str
+2026-10-29 20:57:26.424 | loadout3d                | _bmsrack_stations: C:\Falcon BMS 4.38\Data\Add-On Hellas\Terrdata\objects\bmsrack.dat → 229 WIDs
+2026-10-29 20:57:26.453 | loadout3d                | _ssd_stores: C:\Falcon BMS 4.38\Data\Add-On Hellas\Terrdata\objects\FALCON4_SSD.XML → 120 SSD
+2026-10-29 20:57:26.986 | loadout3d                | weapons endpoint: sq_vu=8008 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=63 stock_max=49 rack_wids=229 seats=[0] hp=11 weapons=50 (49 dispo)
+2026-10-29 20:57:26.989 | loadout_limits           | classe indeterminee pour wid=492 ('20mm M61') : aucune limite rendue
+2026-10-29 20:57:27.013 | loadout_laser            | package=3240 laser_flights=1 my_code=1688
+2026-10-29 20:57:27.015 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-10-29 20:57:27.015 | loadout_laser_dtc        | LaserST=40 staged=1
+2026-10-29 20:57:31.521 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:57:31.586 | fuel_plan                | avail=12194 atTurn=4419 bingo=5100 joker=5600 rtb=2132 margin=-681 NO-GO
+2026-10-29 20:57:31.588 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 20:57:31.591 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:57:31.594 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:57:31.594 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 20:57:31.602 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 20:58:06.549 | fpln_op                  | vus=1 wps=1 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 20:58:07.024 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:58:07.025 | ato_departure            | resolved=1/1
+2026-10-29 20:58:07.028 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:58:07.029 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 20:58:07.306 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:58:23.246 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:58:23.302 | fuel_plan                | avail=12194 atTurn=4419 bingo=5100 joker=5600 rtb=2132 margin=-681 NO-GO
+2026-10-29 20:58:23.303 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 20:58:23.307 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:58:23.309 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:58:23.309 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 20:58:23.318 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 20:58:24.494 | fpln_wp                  | pending vu=c:6954 ARRIVE 22 wp  src=op  POST /op put_plan
+2026-10-29 20:58:24.500 | fpln_op                  | vus=1 wps=1 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 20:58:24.962 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:58:24.964 | ato_departure            | resolved=1/1
+2026-10-29 20:58:24.967 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:58:24.968 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 20:58:24.975 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:58:29.685 | fpln_op                  | vus=1 wps=1 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 20:58:30.157 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:58:30.172 | ato_departure            | resolved=1/1
+2026-10-29 20:58:30.174 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:58:30.174 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:58:30.176 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 20:58:32.076 | fpln_wp                  | pending vu=c:6954 wp=oi:3 #3 MOVE 0.0298,0.0154 -> 0.0280,0.0152 (0.11 NM W) src=op  POST /op put_plan
+2026-10-29 20:58:32.083 | fpln_op                  | vus=1 wps=1 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 20:58:32.547 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:58:32.550 | ato_departure            | resolved=1/1
+2026-10-29 20:58:32.552 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:58:32.553 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 20:58:32.557 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:58:36.911 | fpln_wp                  | pending vu=c:6954 wp=oi:2 #2 MOVE 0.0271,0.0161 -> 0.0271,0.0161 (0.00 NM NW) src=op  POST /op put_plan
+2026-10-29 20:58:36.918 | fpln_op                  | vus=1 wps=1 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 20:58:37.378 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:58:37.385 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:58:37.388 | ato_departure            | resolved=1/1
+2026-10-29 20:58:37.389 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:58:37.390 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 20:58:43.912 | fpln_wp                  | pending vu=c:6954 wp=oi:2 #2 MOVE 0.0271,0.0161 -> 0.0269,0.0159 (0.02 NM SW) src=op  POST /op put_plan
+2026-10-29 20:58:43.919 | fpln_op                  | vus=1 wps=1 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 20:58:44.384 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:58:44.386 | ato_departure            | resolved=1/1
+2026-10-29 20:58:44.388 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:58:44.389 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 20:58:44.404 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 20:58:52.810 | fpln_wp                  | pending vu=c:6954 wp=oi:2 #2 MOVE 0.0269,0.0159 -> 0.0271,0.0159 (0.01 NM E) src=op  POST /op put_plan
+2026-10-29 20:58:52.810 | fpln_wp                  | final vu=c:6954 ARRIVE 22 wp  src=op  POST /op activate
+2026-10-29 20:58:52.810 | fpln_wp                  | pending vu=c:6954 RETIRE 22 wp  src=op  POST /op activate
+2026-10-29 20:58:52.816 | fpln_op                  | vus=0 wps=0 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 20:58:53.289 | campaign_mods            | {'fpln': 23, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 20:58:53.290 | ato_departure            | resolved=1/1
+2026-10-29 20:58:53.292 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 20:58:53.294 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 20:58:53.301 | campaign_mods            | {'fpln': 23, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:00:31.275 | ato_departure            | resolved=1/1
+2026-10-29 21:00:49.202 | campaign_mods            | {'fpln': 23, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:00:49.249 | fuel_plan                | avail=12194 atTurn=4396 bingo=5100 joker=5600 rtb=2131 margin=-704 NO-GO
+2026-10-29 21:00:49.250 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:00:49.253 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:00:49.255 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:00:49.255 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:00:49.262 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:00:49.821 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:00:49.822 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:00:49.823 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:00:58.596 | fpln_op                  | vus=1 wps=21 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:00:58.911 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:00:58.920 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:00:58.921 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:00:59.361 | campaign_mods            | {'fpln': 23, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:00:59.364 | ato_departure            | resolved=1/1
+2026-10-29 21:00:59.372 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:00:59.373 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:00:59.374 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:00:59.376 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:00:59.379 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:00:59.383 | campaign_mods            | {'fpln': 23, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:00:59.924 | campaign_mods            | {'fpln': 23, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:00:59.930 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:00:59.932 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:00:59.932 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:01:01.663 | campaign_mods            | {'fpln': 23, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:01:01.716 | fuel_plan                | avail=12194 atTurn=4396 bingo=5100 joker=5600 rtb=2131 margin=-704 NO-GO
+2026-10-29 21:01:01.717 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:01:01.720 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:01:01.722 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:01:01.722 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:01:01.730 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:01:04.133 | fpln_op                  | vus=0 wps=0 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:01:04.626 | ato_departure            | resolved=1/1
+2026-10-29 21:01:04.629 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:01:04.634 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:01:04.636 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:01:04.637 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:01:04.641 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:01:04.647 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:01:04.648 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:01:44.226 | ato_departure            | resolved=1/1
+2026-10-29 21:02:50.599 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:02:50.650 | fuel_plan                | avail=12194 atTurn=4396 bingo=5100 joker=5600 rtb=2131 margin=-704 NO-GO
+2026-10-29 21:02:50.651 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:02:50.654 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:02:50.656 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:02:50.656 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:02:50.664 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:04:42.674 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:04:42.744 | fuel_plan                | avail=12194 atTurn=4396 bingo=5100 joker=5600 rtb=2131 margin=-704 NO-GO
+2026-10-29 21:04:42.746 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:04:42.753 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:04:42.756 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:04:42.756 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:04:42.767 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:05:53.891 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:05:53.948 | fuel_plan                | avail=12194 atTurn=4396 bingo=5100 joker=5600 rtb=2131 margin=-704 NO-GO
+2026-10-29 21:05:53.949 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:05:53.953 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:05:53.954 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:05:53.955 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:05:53.963 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:05:59.490 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:05:59.539 | fuel_plan                | avail=12194 atTurn=4396 bingo=5100 joker=5600 rtb=2131 margin=-704 NO-GO
+2026-10-29 21:05:59.541 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:05:59.544 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:05:59.546 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:05:59.546 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:05:59.553 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:06:31.279 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:06:31.352 | fuel_plan                | avail=12194 atTurn=4396 bingo=5100 joker=5600 rtb=2131 margin=-704 NO-GO
+2026-10-29 21:06:31.353 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:06:31.357 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:06:31.359 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:06:31.359 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:06:31.369 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:07:13.657 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:07:13.710 | fuel_plan                | avail=12194 atTurn=4396 bingo=5100 joker=5600 rtb=2131 margin=-704 NO-GO
+2026-10-29 21:07:13.712 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:07:13.715 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:07:13.717 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:07:13.717 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:07:13.725 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:08:03.203 | ato_departure            | resolved=1/1
+2026-10-29 21:10:53.996 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:10:54.513 | fuel_plan                | avail=12194 atTurn=4396 bingo=5100 joker=5600 rtb=2131 margin=-704 NO-GO
+2026-10-29 21:10:54.515 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:10:54.518 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:10:54.520 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:10:54.521 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:10:54.528 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:11:07.485 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:11:07.487 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:11:07.488 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:11:20.815 | fpln_op                  | vus=1 wps=1 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:11:21.125 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:11:21.128 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:11:21.129 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:11:21.622 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:11:21.630 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:11:21.636 | ato_departure            | resolved=1/1
+2026-10-29 21:11:21.663 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:11:21.667 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:11:21.801 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:11:21.809 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:11:21.812 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:11:22.537 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:11:22.550 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:11:22.551 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:11:23.103 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:11:23.111 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:11:23.115 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:11:23.116 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:11:23.553 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:11:23.630 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:11:23.649 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:11:23.650 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:11:24.386 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:11:24.412 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:11:24.424 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:11:28.068 | fpln_op                  | vus=1 wps=2 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:11:28.385 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:11:28.414 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:11:28.415 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:11:28.999 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:11:29.037 | ato_departure            | resolved=1/1
+2026-10-29 21:11:29.056 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:11:29.080 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:11:29.083 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:11:29.379 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:11:29.382 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:11:29.386 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:11:29.848 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:11:29.852 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:11:29.853 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:11:30.093 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:11:30.173 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:11:30.175 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:11:30.175 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:11:45.847 | fpln_op                  | vus=1 wps=3 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:11:46.158 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:11:46.166 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:11:46.168 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:11:46.628 | ato_departure            | resolved=1/1
+2026-10-29 21:11:46.686 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:11:46.736 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:11:46.761 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:11:46.763 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:11:46.805 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:11:46.811 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:11:46.852 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:11:47.638 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:11:47.790 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:11:47.805 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:11:47.806 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:11:48.322 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:11:48.355 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:11:48.359 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:11:58.975 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:11:59.519 | fuel_plan                | avail=12194 atTurn=4396 bingo=5100 joker=5600 rtb=2131 margin=-704 NO-GO
+2026-10-29 21:11:59.521 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:11:59.525 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:11:59.527 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:11:59.527 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:11:59.536 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:12:15.449 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:12:15.450 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:12:15.451 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:12:19.868 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:12:20.428 | fuel_plan                | avail=12194 atTurn=4396 bingo=5100 joker=5600 rtb=2131 margin=-704 NO-GO
+2026-10-29 21:12:20.429 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:12:20.433 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:12:20.435 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:12:20.435 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:12:20.443 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:12:46.644 | ato_departure            | resolved=1/1
+2026-10-29 21:17:00.036 | fpln_op                  | vus=1 wps=4 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:17:00.533 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:00.567 | ato_departure            | resolved=1/1
+2026-10-29 21:17:00.623 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:17:00.629 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:17:00.797 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:03.962 | fpln_op                  | vus=1 wps=5 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:17:04.484 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:04.487 | ato_departure            | resolved=1/1
+2026-10-29 21:17:04.564 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:17:04.570 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:17:04.775 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:07.827 | fpln_op                  | vus=1 wps=6 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:17:08.355 | ato_departure            | resolved=1/1
+2026-10-29 21:17:08.359 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:08.420 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:17:08.427 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:17:08.612 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:11.622 | fpln_op                  | vus=1 wps=7 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:17:12.157 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:12.165 | ato_departure            | resolved=1/1
+2026-10-29 21:17:12.216 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:17:12.222 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:17:12.456 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:15.282 | fpln_op                  | vus=1 wps=8 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:17:15.802 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:15.813 | ato_departure            | resolved=1/1
+2026-10-29 21:17:15.861 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:17:15.866 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:17:16.054 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:19.106 | fpln_op                  | vus=1 wps=9 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:17:19.623 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:19.652 | ato_departure            | resolved=1/1
+2026-10-29 21:17:19.707 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:17:19.714 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:17:19.958 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:22.226 | fpln_op                  | vus=1 wps=9 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:17:22.861 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:22.862 | ato_departure            | resolved=1/1
+2026-10-29 21:17:22.869 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:17:22.872 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:17:22.964 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:26.578 | fpln_op                  | vus=1 wps=9 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:17:27.125 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:27.146 | ato_departure            | resolved=1/1
+2026-10-29 21:17:27.188 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:17:27.192 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:17:27.390 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:30.494 | fpln_op                  | vus=1 wps=10 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:17:31.003 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:31.017 | ato_departure            | resolved=1/1
+2026-10-29 21:17:31.082 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:17:31.088 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:17:31.256 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:39.523 | fpln_op                  | vus=1 wps=11 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:17:40.060 | ato_departure            | resolved=1/1
+2026-10-29 21:17:40.082 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:40.139 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:17:40.145 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:17:40.290 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:50.146 | fpln_op                  | vus=1 wps=12 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:17:50.660 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:50.663 | ato_departure            | resolved=1/1
+2026-10-29 21:17:50.717 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:17:50.722 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:17:50.945 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:54.545 | fpln_op                  | vus=1 wps=13 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:17:55.088 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:55.091 | ato_departure            | resolved=1/1
+2026-10-29 21:17:55.182 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:17:55.186 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:17:55.310 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:58.803 | fpln_op                  | vus=1 wps=14 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:17:59.327 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:17:59.340 | ato_departure            | resolved=1/1
+2026-10-29 21:17:59.394 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:17:59.409 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:17:59.583 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:02.165 | fpln_op                  | vus=1 wps=15 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:18:02.694 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:02.697 | ato_departure            | resolved=1/1
+2026-10-29 21:18:02.753 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:18:02.759 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:18:02.996 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:17.327 | fpln_op                  | vus=1 wps=16 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:18:17.846 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:17.874 | ato_departure            | resolved=1/1
+2026-10-29 21:18:17.933 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:18:17.939 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:18:18.133 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:27.834 | fpln_op                  | vus=1 wps=16 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:18:28.351 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:28.409 | ato_departure            | resolved=1/1
+2026-10-29 21:18:28.433 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:18:28.439 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:18:28.663 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:31.645 | fpln_op                  | vus=1 wps=16 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:18:32.167 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:32.200 | ato_departure            | resolved=1/1
+2026-10-29 21:18:32.243 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:18:32.250 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:18:32.439 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:35.439 | fpln_op                  | vus=1 wps=17 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:18:35.949 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:35.982 | ato_departure            | resolved=1/1
+2026-10-29 21:18:36.016 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:18:36.022 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:18:36.251 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:42.229 | fpln_op                  | vus=1 wps=18 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:18:42.766 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:42.782 | ato_departure            | resolved=1/1
+2026-10-29 21:18:42.862 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:18:42.863 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:18:43.011 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:46.389 | fpln_op                  | vus=1 wps=18 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:18:46.904 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:46.928 | ato_departure            | resolved=1/1
+2026-10-29 21:18:46.967 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:18:46.971 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:18:47.155 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:48.934 | fpln_op                  | vus=1 wps=18 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:18:49.403 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:49.406 | ato_departure            | resolved=1/1
+2026-10-29 21:18:49.408 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:18:49.409 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:18:49.679 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:52.256 | fpln_op                  | vus=1 wps=18 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:18:52.810 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:52.832 | ato_departure            | resolved=1/1
+2026-10-29 21:18:52.899 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:18:52.906 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:18:53.067 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:56.147 | fpln_op                  | vus=1 wps=18 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:18:56.671 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:18:56.684 | ato_departure            | resolved=1/1
+2026-10-29 21:18:56.734 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:18:56.740 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:18:56.944 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:19:05.461 | ato_departure            | resolved=1/1
+2026-10-29 21:19:41.770 | fpln_op                  | vus=1 wps=18 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:19:42.303 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:19:42.309 | ato_departure            | resolved=1/1
+2026-10-29 21:19:42.350 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:19:42.356 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:19:42.555 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:19:48.750 | fpln_op                  | vus=1 wps=18 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:19:49.281 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:19:49.285 | ato_departure            | resolved=1/1
+2026-10-29 21:19:49.338 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:19:49.344 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:19:49.538 | campaign_mods            | {'fpln': 25, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:20:02.553 | fpln_op                  | vus=0 wps=0 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:20:03.097 | campaign_mods            | {'fpln': 50, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:20:03.100 | ato_departure            | resolved=1/1
+2026-10-29 21:20:03.160 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:20:03.166 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:20:03.346 | campaign_mods            | {'fpln': 50, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:20:23.426 | fpln_op                  | vus=1 wps=1 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:20:23.947 | campaign_mods            | {'fpln': 50, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:20:23.982 | ato_departure            | resolved=1/1
+2026-10-29 21:20:24.016 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:20:24.022 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:20:24.242 | campaign_mods            | {'fpln': 50, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:20:30.385 | fpln_op                  | vus=1 wps=2 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:20:30.917 | ato_departure            | resolved=1/1
+2026-10-29 21:20:30.919 | campaign_mods            | {'fpln': 50, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:20:30.983 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:20:30.989 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:20:31.165 | campaign_mods            | {'fpln': 50, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:20:34.404 | fpln_op                  | vus=1 wps=3 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:20:34.904 | campaign_mods            | {'fpln': 50, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:20:34.948 | ato_departure            | resolved=1/1
+2026-10-29 21:20:34.993 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:20:34.999 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:20:35.177 | campaign_mods            | {'fpln': 50, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-29 21:20:43.284 | fpln_op                  | vus=0 wps=0 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:20:43.839 | ato_departure            | resolved=1/1
+2026-10-29 21:20:43.899 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:20:43.905 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:20:49.578 | fuel_plan                | avail=12194 atTurn=2948 bingo=5200 joker=5700 rtb=2317 margin=-2252 NO-GO
+2026-10-29 21:20:49.580 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:20:49.583 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:20:49.586 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:20:49.586 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:20:49.594 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:21:18.854 | fpln_wp                  | pending vu=c:6954 ARRIVE 22 wp  src=op  POST /op put_plan
+2026-10-29 21:21:18.862 | fpln_op                  | vus=0 wps=0 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:21:19.335 | ato_departure            | resolved=1/1
+2026-10-29 21:21:19.341 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:21:19.342 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:21:23.215 | fpln_op                  | vus=0 wps=0 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:21:23.676 | ato_departure            | resolved=1/1
+2026-10-29 21:21:23.676 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:21:23.677 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:21:32.826 | fpln_wp                  | pending vu=c:6954 wp=oi:21 #21 MOVE 0.0269,0.0169 -> 0.0279,0.0152 (0.12 NM SE) src=op  POST /op put_plan
+2026-10-29 21:21:32.826 | fpln_wp                  | pending vu=c:6954 RETIRE 22 wp  src=op  POST /op activate
+2026-10-29 21:21:32.835 | fpln_op                  | vus=0 wps=0 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:21:33.298 | ato_departure            | resolved=1/1
+2026-10-29 21:21:33.299 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:21:33.299 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:22:00.754 | fuel_plan                | avail=12194 atTurn=2948 bingo=5500 joker=6000 rtb=2317 margin=-2552 NO-GO
+2026-10-29 21:22:00.756 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:22:00.759 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:22:00.761 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:22:00.761 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:22:00.768 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=27 hash=b402fbc4
+2026-10-29 21:22:04.073 | fuel_plan                | avail=12194 atTurn=2948 bingo=5500 joker=6000 rtb=2317 margin=-2552 NO-GO
+2026-10-29 21:22:04.074 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:22:04.077 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:22:04.079 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:22:04.079 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:22:04.087 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=27 hash=b402fbc4
+2026-10-29 21:22:04.154 | ato_departure            | resolved=1/1
+2026-10-29 21:22:08.789 | fuel_plan                | avail=12194 atTurn=2948 bingo=5500 joker=6000 rtb=2317 margin=-2552 NO-GO
+2026-10-29 21:22:08.790 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:22:08.793 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:22:08.795 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:22:08.795 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:22:08.803 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=27 hash=b402fbc4
+2026-10-29 21:22:08.858 | ato_departure            | resolved=1/1
+2026-10-29 21:22:27.159 | fuel_plan                | avail=12194 atTurn=2948 bingo=5500 joker=6000 rtb=2317 margin=-2552 NO-GO
+2026-10-29 21:22:27.161 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:22:27.165 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:22:27.168 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:22:27.169 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:22:27.178 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=27 hash=b402fbc4
+2026-10-29 21:22:31.269 | fuel_plan                | avail=12194 atTurn=2948 bingo=5500 joker=6000 rtb=2317 margin=-2552 NO-GO
+2026-10-29 21:22:31.271 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:22:31.274 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:22:31.276 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:22:31.276 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:22:31.285 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=27 hash=b402fbc4
+2026-10-29 21:22:31.333 | ato_departure            | resolved=1/1
+2026-10-29 21:23:00.461 | fuel_plan                | avail=12194 atTurn=2948 bingo=5500 joker=6000 rtb=2317 margin=-2552 NO-GO
+2026-10-29 21:23:00.463 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:23:00.466 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:23:00.468 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:23:00.468 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:23:00.475 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=27 hash=b402fbc4
+2026-10-29 21:23:00.583 | ato_departure            | resolved=1/1
+2026-10-29 21:23:04.160 | fuel_plan                | avail=12194 atTurn=2948 bingo=5500 joker=6000 rtb=2317 margin=-2552 NO-GO
+2026-10-29 21:23:04.162 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:23:04.165 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:23:04.167 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:23:04.167 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:23:04.176 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=27 hash=b402fbc4
+2026-10-29 21:23:04.232 | ato_departure            | resolved=1/1
+2026-10-29 21:23:08.970 | fuel_plan                | avail=12194 atTurn=2948 bingo=5500 joker=6000 rtb=2317 margin=-2552 NO-GO
+2026-10-29 21:23:08.972 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:23:08.975 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:23:08.978 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:23:08.978 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:23:08.990 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=27 hash=b402fbc4
+2026-10-29 21:23:09.063 | ato_departure            | resolved=1/1
+2026-10-29 21:23:09.067 | fuel_plan                | avail=12194 atTurn=2948 bingo=5500 joker=6000 rtb=2317 margin=-2552 NO-GO
+2026-10-29 21:23:09.068 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:23:09.072 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:23:09.075 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:23:09.075 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:23:09.084 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=27 hash=b402fbc4
+2026-10-29 21:23:12.005 | fuel_plan                | avail=12194 atTurn=2948 bingo=5500 joker=6000 rtb=2317 margin=-2552 NO-GO
+2026-10-29 21:23:12.006 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:23:12.009 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:23:12.011 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:23:12.011 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:23:12.019 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=27 hash=b402fbc4
+2026-10-29 21:23:12.087 | ato_departure            | resolved=1/1
+2026-10-29 21:23:16.384 | fuel_plan                | avail=12194 atTurn=2948 bingo=5500 joker=6000 rtb=2317 margin=-2552 NO-GO
+2026-10-29 21:23:16.386 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:23:16.389 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:23:16.390 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:23:16.391 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:23:16.398 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=27 hash=b402fbc4
+2026-10-29 21:23:16.500 | ato_departure            | resolved=1/1
+2026-10-29 21:25:45.173 | fuel_plan                | avail=12194 atTurn=2948 bingo=5500 joker=6000 rtb=2317 margin=-2552 NO-GO
+2026-10-29 21:25:45.174 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:25:45.178 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:25:45.179 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:25:45.180 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:25:45.188 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=27 hash=b402fbc4
+2026-10-29 21:25:59.037 | fpln_wp                  | final vu=c:6954 wp=oi:21 #21 MOVE 0.0269,0.0169 -> 0.0279,0.0152 (0.12 NM SE) src=op  POST /op activate
+2026-10-29 21:25:59.037 | fpln_wp                  | final vu=c:6954 RETIRE 22 wp  src=op  POST /op origin
+2026-10-29 21:25:59.041 | fpln_op                  | vus=0 wps=0 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:25:59.506 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 21:25:59.513 | ato_departure            | resolved=1/1
+2026-10-29 21:25:59.513 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:25:59.514 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:25:59.781 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 21:28:11.611 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 21:28:11.665 | fuel_plan                | avail=12194 atTurn=4419 bingo=5100 joker=5600 rtb=2132 margin=-681 NO-GO
+2026-10-29 21:28:11.667 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:28:11.670 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:28:11.672 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:28:11.672 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:28:11.679 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:28:52.229 | ato_departure            | resolved=1/1
+2026-10-29 21:29:13.463 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 21:29:13.511 | fuel_plan                | avail=12194 atTurn=4419 bingo=5100 joker=5600 rtb=2132 margin=-681 NO-GO
+2026-10-29 21:29:13.512 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:29:13.516 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:29:13.518 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:29:13.518 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:29:13.526 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:29:13.598 | ato_departure            | resolved=1/1
+2026-10-29 21:29:13.826 | ato_departure            | resolved=1/1
+2026-10-29 21:29:13.835 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:29:13.836 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:29:15.552 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 21:29:15.618 | fuel_plan                | avail=12194 atTurn=4419 bingo=5100 joker=5600 rtb=2132 margin=-681 NO-GO
+2026-10-29 21:29:15.620 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:29:15.623 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:29:15.625 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:29:15.625 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:29:15.633 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:29:15.684 | ato_departure            | resolved=1/1
+2026-10-29 21:30:57.100 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 21:30:57.145 | fuel_plan                | avail=12194 atTurn=4419 bingo=5100 joker=5600 rtb=2132 margin=-681 NO-GO
+2026-10-29 21:30:57.147 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:30:57.150 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:30:57.152 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:30:57.152 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:30:57.159 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:30:58.872 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:30:58.873 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:30:58.874 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:31:04.259 | fpln_op                  | vus=1 wps=21 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:31:04.588 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:31:04.590 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:31:04.590 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:31:05.028 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 21:31:05.030 | ato_departure            | resolved=1/1
+2026-10-29 21:31:05.039 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:31:05.040 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:31:05.043 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 21:31:05.046 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:31:05.051 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:31:05.052 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:31:05.453 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:31:05.454 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:31:05.454 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:31:05.470 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 21:31:06.759 | fpln_op                  | vus=1 wps=21 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-29 21:31:07.089 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:31:07.096 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:31:07.100 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:31:07.506 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 21:31:07.507 | ato_departure            | resolved=1/1
+2026-10-29 21:31:07.517 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:31:07.519 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:31:07.520 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 21:31:07.522 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:31:07.523 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:31:07.521 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-29 21:31:07.973 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 21:31:07.981 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:31:07.983 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:31:07.984 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:31:10.639 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 21:31:10.712 | fuel_plan                | avail=12194 atTurn=4419 bingo=5100 joker=5600 rtb=2132 margin=-681 NO-GO
+2026-10-29 21:31:10.715 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:31:10.720 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:31:10.721 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:31:10.722 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:31:10.730 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
+2026-10-29 21:31:15.785 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-29 21:31:15.787 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-29 21:31:15.788 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-29 21:31:21.940 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-29 21:31:21.998 | fuel_plan                | avail=12194 atTurn=4419 bingo=5100 joker=5600 rtb=2132 margin=-681 NO-GO
+2026-10-29 21:31:22.000 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-29 21:31:22.004 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:31:22.006 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-29 21:31:22.007 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-29 21:31:22.015 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=5 n_ppt=15 n_dpi=0 n_divert=3 n_sections=29 hash=b402fbc4
