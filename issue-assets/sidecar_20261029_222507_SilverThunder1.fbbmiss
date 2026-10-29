@@ -1,0 +1,543 @@
+{
+  "fbb_sidecar_version": 1,
+  "app_version": "1.99.0",
+  "saved_utc": "2026-10-29T21:24:36Z",
+  "cam": {
+    "stem": "SilverThunder1",
+    "theater_key": "hellas",
+    "campaign_name": "SilverThunder1",
+    "saved": "day 1 08:43:00"
+  },
+  "identity": {
+    "flight_override": {
+      "vu_num": 20007,
+      "camp_id": 6954,
+      "callsign": "Hammer 5",
+      "pkg_camp_id": 3240
+    },
+    "seat_override": 0,
+    "squadron_override": 8008
+  },
+  "briefing": {
+    "v": 1,
+    "schema_version": 5,
+    "containers": [
+      {
+        "id": "e99871fd-cf5c-4847-b9d3-0fcc3c103148",
+        "ctype": "mission_step",
+        "title": "Campaign Overview",
+        "visible": true,
+        "section_key": "campaign_overview",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "campaign_objectives",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "2022e422-a380-43f9-849d-8b12ac87db11",
+        "ctype": "mission_step",
+        "title": "Mission / Friendly OOB",
+        "visible": true,
+        "section_key": "package_overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "roaster",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "c18afb53-ca25-4382-bb77-8952919895f9",
+        "ctype": "mission_step",
+        "title": "Package + Timeline",
+        "visible": true,
+        "section_key": "pkg_timing",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "60f21fee-8037-48eb-9af0-006e04ad3205",
+        "ctype": "mission_step",
+        "title": "FPLN / Routes",
+        "visible": true,
+        "section_key": "steerpoints",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "fpln-asst",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "3d195bda-8282-44bf-980a-99015810fafe",
+        "ctype": "mission_step",
+        "title": "Weather / Forecast",
+        "visible": true,
+        "section_key": "weather",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "weather_overview"
+        }
+      },
+      {
+        "id": "e085de61-5481-4dc2-b2d7-f9bd646f0d75",
+        "ctype": "mission_step",
+        "title": "Threat Estimate",
+        "visible": true,
+        "section_key": "threat_analysis",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "00fd7bd2-659a-4144-947d-f2085f0d178d",
+        "ctype": "mission_step",
+        "title": "Package Comm Plan",
+        "visible": true,
+        "section_key": "comm_plan",
+        "source": "effective",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "d7e5ae80-3742-43b0-b735-39e4e3942e19",
+        "ctype": "mission_step",
+        "title": "Contracts",
+        "visible": true,
+        "section_key": "contracts",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "34789304-7dcb-4c30-8cc8-01996cd5e67a",
+        "ctype": "mission_step",
+        "title": "ROE (Rules of Engagement)",
+        "visible": true,
+        "section_key": "roe",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "272b52e1-d35c-444d-a929-bfeb42451e37",
+        "ctype": "mission_step",
+        "title": "Recovery & Emergency",
+        "visible": true,
+        "section_key": "emerg",
+        "source": "cam",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "0ca91959-cbeb-484b-a090-6f5a6293a361",
+        "ctype": "mission_step",
+        "title": "Flight Task & Targeting",
+        "visible": true,
+        "section_key": "overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_flight",
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "b3905033-24de-4757-8c5a-3812a2f8deb7",
+        "ctype": "mission_step",
+        "title": "Ordnance",
+        "visible": true,
+        "section_key": "ordnance",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "loadout",
+          "context_tab": "session-aircraft",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "ee4d94d2-8712-4496-b0e4-8c008946051e",
+        "ctype": "mission_step",
+        "title": "Domestics",
+        "visible": true,
+        "section_key": "domestics",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "dep_airfield",
+          "range_nm": 2,
+          "map_auto_open": true
+        }
+      },
+      {
+        "id": "0a89771f-aafc-4409-a585-c970e1591986",
+        "ctype": "mission_step",
+        "title": "Plan Synch & deconflict",
+        "visible": true,
+        "section_key": "plan_synch",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      }
+    ]
+  },
+  "fpln": {
+    "v": 2,
+    "secondary": {},
+    "final": {
+      "ts": 1793309076595,
+      "ts_vu": {
+        "c:6954": 1793309076595
+      },
+      "sec": {
+        "c:6954": {
+          "coords": [
+            [
+              0.017379894024390243,
+              0.009539941829268291
+            ],
+            [
+              0.02065987402439024,
+              0.01197992695121951
+            ],
+            [
+              0.027139834512195125,
+              0.016059902073170734
+            ],
+            [
+              0.029859817926829273,
+              0.015419905975609759
+            ],
+            [
+              0.030019816951219514,
+              0.0162999006097561
+            ],
+            [
+              0.03041981451219512,
+              0.017459893536585364
+            ],
+            [
+              0.030699812804878053,
+              0.017819891341463417
+            ],
+            [
+              0.030619813292682933,
+              0.018699885975609756
+            ],
+            [
+              0.030939811341463418,
+              0.019099883536585368
+            ],
+            [
+              0.031459808170731705,
+              0.01997987817073171
+            ],
+            [
+              0.034459789878048784,
+              0.02065987402439024
+            ],
+            [
+              0.03393979304878049,
+              0.021419869390243904
+            ],
+            [
+              0.03285979963414634,
+              0.02249986280487805
+            ],
+            [
+              0.031139810121951224,
+              0.023179858658536587
+            ],
+            [
+              0.029739818658536588,
+              0.023779855000000003
+            ],
+            [
+              0.03041981451219512,
+              0.025179846463414632
+            ],
+            [
+              0.029619819390243905,
+              0.025939841829268298
+            ],
+            [
+              0.028659825243902443,
+              0.02585984231707317
+            ],
+            [
+              0.025139846707317073,
+              0.02381985475609756
+            ],
+            [
+              0.021659867926829265,
+              0.02053987475609756
+            ],
+            [
+              0.021699867682926827,
+              0.017979890365853658
+            ],
+            [
+              0.026899835975609757,
+              0.01689989695121951
+            ]
+          ],
+          "wps": [
+            {
+              "action": 1,
+              "_new": false,
+              "wp_key": "oi:0"
+            },
+            {
+              "action": 8,
+              "_new": false,
+              "wp_key": "oi:1"
+            },
+            {
+              "action": 2,
+              "_new": false,
+              "wp_key": "oi:2"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:3",
+              "_posLocked": true
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:4"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:5"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:6"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:7"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:8"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:9"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:10"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:11"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:12"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:13"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:14"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:15"
+            },
+            {
+              "action": 17,
+              "_new": false,
+              "wp_key": "oi:16"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:17"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:18"
+            },
+            {
+              "action": 3,
+              "_new": false,
+              "wp_key": "oi:19"
+            },
+            {
+              "action": 7,
+              "_new": false,
+              "wp_key": "oi:20"
+            },
+            {
+              "action": 7,
+              "_new": false,
+              "wp_key": "oi:21"
+            }
+          ]
+        }
+      },
+      "orig": {},
+      "tle": {
+        "c:6954": {
+          "oi:3": {
+            "flags": 1073156,
+            "tos_ms": 34250000,
+            "tos_auto": true,
+            "tos_calc": 34250000
+          },
+          "oi:0": {
+            "flags": 1048704,
+            "tos_ms": 32580000,
+            "tos_auto": true,
+            "tos_calc": 32580000
+          },
+          "oi:1": {
+            "tos_ms": 33049540,
+            "tos_auto": true,
+            "tos_calc": 33049540
+          },
+          "oi:2": {
+            "tos_ms": 33929056,
+            "tos_auto": true,
+            "tos_calc": 33929056
+          },
+          "oi:4": {
+            "tos_ms": 34341000,
+            "tos_auto": true,
+            "tos_calc": 34341000
+          },
+          "oi:5": {
+            "tos_ms": 34465000,
+            "tos_auto": true,
+            "tos_calc": 34465000
+          },
+          "oi:6": {
+            "tos_ms": 34511000,
+            "tos_auto": true,
+            "tos_calc": 34511000
+          },
+          "oi:7": {
+            "tos_ms": 34600000,
+            "tos_auto": true,
+            "tos_calc": 34600000
+          },
+          "oi:8": {
+            "tos_ms": 34652000,
+            "tos_auto": true,
+            "tos_calc": 34652000
+          },
+          "oi:9": {
+            "tos_ms": 34755000,
+            "tos_auto": true,
+            "tos_calc": 34755000
+          },
+          "oi:10": {
+            "tos_ms": 35066000,
+            "tos_auto": true,
+            "tos_calc": 35066000
+          },
+          "oi:11": {
+            "tos_ms": 35159000,
+            "tos_auto": true,
+            "tos_calc": 35159000
+          },
+          "oi:12": {
+            "tos_ms": 35314000,
+            "tos_auto": true,
+            "tos_calc": 35314000
+          },
+          "oi:13": {
+            "tos_ms": 35501000,
+            "tos_auto": true,
+            "tos_calc": 35501000
+          },
+          "oi:14": {
+            "tos_ms": 35655000,
+            "tos_auto": true,
+            "tos_calc": 35655000
+          },
+          "oi:15": {
+            "tos_ms": 35813000,
+            "tos_auto": true,
+            "tos_calc": 35813000
+          },
+          "oi:16": {
+            "tos_ms": 35925000,
+            "tos_auto": true,
+            "tos_calc": 35925000
+          },
+          "oi:17": {
+            "tos_ms": 36023000,
+            "tos_auto": true,
+            "tos_calc": 36023000
+          },
+          "oi:18": {
+            "tos_ms": 36435000,
+            "tos_auto": true,
+            "tos_calc": 36435000
+          },
+          "oi:19": {
+            "tos_ms": 36919000,
+            "tos_auto": true,
+            "tos_calc": 36919000
+          },
+          "oi:20": {
+            "tos_ms": 37345000,
+            "tos_auto": true,
+            "tos_calc": 37345000
+          },
+          "oi:21": {
+            "tos_ms": 38234000,
+            "tos_auto": true,
+            "tos_calc": 38234000
+          }
+        }
+      }
+    },
+    "edits": {},
+    "slots": {},
+    "cam_gen": "ca5b7cba5ea89c5f"
+  }
+}
