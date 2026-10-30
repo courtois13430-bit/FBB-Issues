@@ -1,0 +1,257 @@
+2026-10-30 11:26:02.061 | ========================================================================
+2026-10-30 11:26:02.061 | startup                  | FBB 1.99.0 — session 2026-10-30 11:26:02
+2026-10-30 11:26:02.061 | startup                  | Répertoire : C:\Users\thcab\AppData\Local\Programs\FBB\_internal
+2026-10-30 11:26:02.062 | startup                  | Python 3.14.5
+2026-10-30 11:26:02.062 | ========================================================================
+2026-10-30 11:26:02.063 | system                   | OS : Windows 11 10.0.26300, AMD64, 12 CPU, RAM 32 GB
+2026-10-30 11:26:02.077 | system                   | Machine : <masqué> / Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+2026-10-30 11:26:02.077 | registry                 | BMS baseDir : C:\Falcon BMS 4.38
+2026-10-30 11:26:02.077 | registry                 | BMS theater : Hellas  pilot : Rouge
+2026-10-30 11:26:02.391 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-10-30 11:26:05.719 | telemetry                | ping OK v1.99.0 Windows 11 canal=prod → HTTP 200
+2026-10-30 11:26:06.074 | parse_health             | SilverThunder1.tac: records 15/15, bytes 5841/5841, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-30 11:26:06.923 | dtc_mfd                  | event=read path=Rouge.ini mtime=2026-10-30 07:04:03 mfd=45/96
+2026-10-30 11:26:07.387 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-30 11:26:07.622 | ato_departure            | resolved=1/1
+2026-10-30 11:26:08.062 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-30 11:26:11.874 | ato_departure            | resolved=1/1
+2026-10-30 11:26:12.084 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:26:15.762 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:26:20.731 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:26:20.750 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:26:21.400 | dtc_mfd                  | event=read path=Rouge.ini mtime=2026-10-30 07:04:03 mfd=45/96
+2026-10-30 11:26:21.483 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-30 11:26:21.535 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-30 11:26:21.837 | swap_context             | origin=select_cam:latest cam='silverthunder1.tac' loaded=True err=''
+2026-10-30 11:26:22.132 | ato_departure            | resolved=1/1
+2026-10-30 11:26:23.180 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:26:23.187 | ato_departure            | resolved=1/1
+2026-10-30 11:26:23.196 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:26:23.196 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:26:23.214 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=10 hash=68f208df
+2026-10-30 11:26:23.292 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:26:23.294 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:26:23.299 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:26:23.302 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:26:23.302 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:26:23.312 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=10 hash=68f208df
+2026-10-30 11:26:24.908 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:26:25.522 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:26:25.531 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:26:25.636 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:26:25.639 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:26:25.640 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:26:25.640 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:26:25.646 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:26:25.646 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:26:25.652 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=10 hash=68f208df
+2026-10-30 11:26:26.240 | campaign_overview        | objective_index loaded=6944
+2026-10-30 11:26:26.350 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-10-30 11:26:26.353 | campaign_overview        | system_marks=0
+2026-10-30 11:26:27.827 | package_relevance        | package_routes pkg=3240 flights=1 routes=1 points=21
+2026-10-30 11:26:27.922 | friendly_ad_zone         | wps=1 buffer_nm=20.0 hull=24
+2026-10-30 11:26:28.545 | friendly_air_defense     | pkg=3240 ref=aoo sites=0 combat_wp=0 aoo_wp=1 covering=0 nearby=0 shown=0 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=171 alt_ft=490
+2026-10-30 11:26:28.709 | briefing_context         | package_overview flights=1 route_points=21 focus_points=1 unique_points=21
+2026-10-30 11:26:28.869 | airport_diagrams         | taxi surfaces=70 terrains en raster | repli K-NN : 2 sans mesh CT30, 0 sous-couvrants
+2026-10-30 11:26:28.869 | airport_diagrams         |   sans CT30 : Cardak Airport, Eleftherios Venizelos Airport
+2026-10-30 11:26:29.000 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:26:29.063 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:26:32.915 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-30 11:26:32.917 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-30 11:26:32.918 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-30 11:26:39.766 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:26:39.805 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:26:39.806 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:26:39.809 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:26:39.811 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:26:39.811 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:26:39.818 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=10 hash=68f208df
+2026-10-30 11:26:39.898 | ato_departure            | resolved=1/1
+2026-10-30 11:28:02.325 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:28:02.380 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:28:02.381 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:28:02.385 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:28:02.386 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:28:02.387 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:28:02.395 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=10 hash=68f208df
+2026-10-30 11:28:06.827 | roaster.data             | fetch
+2026-10-30 11:28:06.829 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:28:06.831 | roaster.data             | ok — 1 flights, axis=14.1°, noms=session
+2026-10-30 11:28:10.428 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:28:10.480 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:28:10.481 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:28:10.484 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:28:10.486 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:28:10.486 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:28:10.493 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=10 hash=68f208df
+2026-10-30 11:28:10.778 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:28:10.780 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:28:10.780 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:28:10.902 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:28:10.944 | takeoff                  | dep='' rwy='11' stpt=1 ok=True
+2026-10-30 11:28:10.960 | vrp_app                  | arr='' rwy='34' side='left' ok=True
+2026-10-30 11:28:11.023 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:28:11.029 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:28:11.035 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:28:11.041 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:28:11.044 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:28:11.045 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:28:11.055 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:28:11.451 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:28:11.453 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:28:11.456 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:28:11.458 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:28:11.458 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:28:11.465 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:28:11.517 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:28:11.518 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:28:11.521 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:28:11.523 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:28:11.523 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:28:11.530 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:28:17.961 | ppt_table                | occupied=0/15 orphans=0 blocked=None
+2026-10-30 11:28:18.879 | targets_table            | occupied=3/19 unclaimed=0
+2026-10-30 11:29:06.810 | roaster.data             | fetch
+2026-10-30 11:29:06.813 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:06.814 | roaster.data             | ok — 1 flights, axis=14.1°, noms=session
+2026-10-30 11:29:07.921 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:29:07.968 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:29:07.970 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:29:07.973 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:07.975 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:07.975 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:29:07.982 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:29:32.579 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:29:32.628 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:29:32.630 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:29:32.633 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:32.634 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:32.634 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:29:32.642 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:29:34.137 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:34.146 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:34.146 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:29:34.170 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:29:34.222 | takeoff                  | dep='' rwy='11' stpt=1 ok=True
+2026-10-30 11:29:34.234 | vrp_app                  | arr='' rwy='34' side='left' ok=True
+2026-10-30 11:29:34.284 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:29:34.285 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:29:34.287 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:29:34.299 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:34.301 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:34.301 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:29:34.310 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:29:34.693 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:29:34.694 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:29:34.698 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:34.699 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:34.700 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:29:34.707 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:29:34.761 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:29:34.762 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:29:34.766 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:34.768 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:34.768 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:29:34.776 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:29:45.795 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:29:45.843 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:29:45.845 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:29:45.848 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:45.850 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:45.850 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:29:45.858 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:29:59.676 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:29:59.721 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:29:59.722 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:29:59.726 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:59.727 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:29:59.728 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:29:59.735 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:30:57.466 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:30:57.521 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:30:57.523 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:30:57.527 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:30:57.528 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:30:57.528 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:30:57.536 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:31:06.388 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:31:06.439 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:31:06.441 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:31:06.444 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:31:06.446 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:31:06.446 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:31:06.454 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:31:08.935 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:31:08.987 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:31:08.988 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:31:08.991 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:31:08.993 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:31:08.993 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:31:09.000 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:33:59.998 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:34:00.056 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:34:00.058 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:34:00.061 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:34:00.063 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:34:00.063 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:34:00.072 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:34:47.781 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:34:47.837 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:34:47.838 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:34:47.842 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:34:47.844 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:34:47.844 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:34:47.853 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:34:51.569 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-30 11:34:51.572 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-30 11:34:51.573 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-30 11:34:51.580 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:34:51.649 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:34:51.651 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:34:51.661 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:34:51.666 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:34:51.667 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:34:51.676 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:34:52.883 | timeline_data            | pkgs=1 flights=1 my_pkg=3240 my_vu=20007 buddies=0
+2026-10-30 11:34:52.884 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-30 11:34:52.885 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-30 11:36:40.804 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:36:41.353 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:36:41.354 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:36:41.358 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:36:41.360 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:36:41.360 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:36:41.368 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:36:43.641 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 11:36:43.689 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:36:43.690 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 11:36:43.693 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:36:43.695 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 11:36:43.696 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 11:36:43.703 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 11:36:43.777 | ato_departure            | resolved=1/1
+2026-10-30 11:37:20.425 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 11:47:30.885 | ato_departure            | resolved=1/1
+2026-10-30 12:55:51.463 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 12:55:51.840 | ato_departure            | resolved=1/1
+2026-10-30 12:55:52.133 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 12:55:52.135 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 12:55:52.140 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 12:55:52.147 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 12:55:52.147 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 12:55:52.156 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 13:10:30.812 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 13:10:31.274 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 13:10:31.275 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 13:10:31.279 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 13:10:31.281 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 13:10:31.281 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 13:10:31.289 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 13:10:31.654 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-30 13:10:31.706 | fuel_plan                | avail=12194 atTurn=3080 bingo=5700 joker=6200 rtb=2523 margin=-2620 NO-GO
+2026-10-30 13:10:31.707 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-30 13:10:31.710 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 13:10:31.712 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-30 13:10:31.712 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-30 13:10:31.720 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=3 n_sections=14 hash=68f208df
+2026-10-30 13:10:31.776 | ato_departure            | resolved=1/1
