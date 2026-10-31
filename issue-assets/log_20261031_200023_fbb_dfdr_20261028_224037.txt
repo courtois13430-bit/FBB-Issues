@@ -1,0 +1,279 @@
+2026-10-28 22:40:38.105 | ========================================================================
+2026-10-28 22:40:38.105 | startup                  | FBB 1.99.0 — session 2026-10-28 22:40:38
+2026-10-28 22:40:38.105 | startup                  | Répertoire : C:\Users\tparv\AppData\Local\Programs\FBB\_internal
+2026-10-28 22:40:38.105 | startup                  | Python 3.14.5
+2026-10-28 22:40:38.105 | ========================================================================
+2026-10-28 22:40:38.107 | system                   | OS : Windows 11 10.0.26200, AMD64, 8 CPU, RAM 31 GB
+2026-10-28 22:40:38.125 | system                   | Machine : <masqué> / AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD
+2026-10-28 22:40:38.126 | registry                 | BMS baseDir : C:\Falcon BMS 4.38
+2026-10-28 22:40:38.126 | registry                 | BMS theater : Israel  pilot : Arkane08
+2026-10-28 22:40:39.173 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-10-28 22:40:41.596 | telemetry                | ping OK v1.99.0 Windows 11 canal=prod → HTTP 200
+2026-10-28 22:40:44.420 | parse_health             | f15 training 1v4.tac: records 6/6, bytes 4823/4823, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-28 22:40:45.000 | dtc_mfd                  | event=read path=Arkane08.ini mtime=2026-10-28 21:05:03 mfd=46/96
+2026-10-28 22:40:47.772 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=2 hash=54613b25
+2026-10-28 22:40:47.806 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 22:40:58.377 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 22:40:58.399 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=2 hash=54613b25
+2026-10-28 22:41:00.382 | parse_health             | test ito.cam: records 490/490, bytes 204313/204313, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-28 22:41:00.909 | dtc_mfd                  | event=read path=Arkane08.ini mtime=2026-10-28 21:05:03 mfd=46/96
+2026-10-28 22:41:00.998 | swap_context             | origin=select_cam:previous cam='test ito.cam' loaded=True err=''
+2026-10-28 22:41:01.086 | ato_departure            | resolved=1/1
+2026-10-28 22:41:01.130 | ato_departure            | resolved=1/1
+2026-10-28 22:41:01.532 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 22:41:08.465 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 22:41:08.914 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:41:14.815 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:41:14.816 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 22:41:18.350 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 22:41:19.607 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 22:41:38.219 | ato_departure            | resolved=1/1
+2026-10-28 22:42:42.885 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 22:42:42.921 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 22:42:42.926 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:42:42.931 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:42:42.932 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 22:42:42.946 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 22:42:42.993 | ato_departure            | resolved=1/1
+2026-10-28 22:42:53.627 | loadout3d                | scene unit_ct=2170 veh_ct=2400 ac_model=696 (F-16I-52+) slots=11 stores=8 seat=0
+2026-10-28 22:42:53.627 | loadout3d                |   HP 0 wid=492 model=None slot=None : 20mm M61
+2026-10-28 22:42:53.627 | loadout3d                |   HP 1 wid=159 model=2016 slot=[-15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-10-28 22:42:53.627 | loadout3d                |   HP 2 wid=159 model=2016 slot=[-13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-10-28 22:42:53.627 | loadout3d                |   HP 3 wid=159 model=2016 slot=[-10.0, -1.72720599, 0.127838001] : AIM-120C AMRAAM
+2026-10-28 22:42:53.627 | loadout3d                |   HP 5 wid=782 model=4077 slot=[0.0, 1.08500099, -2.62065101] : Tank 300gal \IAF
+2026-10-28 22:42:53.627 | loadout3d                |   HP 7 wid=159 model=2016 slot=[10.0, -1.72720599, 0.127838001] : AIM-120C AMRAAM
+2026-10-28 22:42:53.627 | loadout3d                |   HP 8 wid=159 model=2016 slot=[13.25, -3.70681906, 0.164210007] : AIM-120C AMRAAM
+2026-10-28 22:42:53.627 | loadout3d                |   HP 9 wid=159 model=2016 slot=[15.5211611, -2.89403009, 0.210897997] : AIM-120C AMRAAM
+2026-10-28 22:42:54.336 | loadout_limits           | classe indeterminee pour wid=492 ('20mm M61') : aucune limite rendue
+2026-10-28 22:42:54.346 | loadout3d                | crew_art vu=20045 seat=0 pilot=None patch=70004
+2026-10-28 22:42:56.042 | loadout3d                | _str_compat: aircraft=F-16 C:\Falcon BMS 4.38\Data\Add-On Israel\campaign → 24 WIDs, 24/24 fichiers .str
+2026-10-28 22:42:56.058 | loadout3d                | _bmsrack_stations: C:\Falcon BMS 4.38\Data\Add-On Israel\Terrdata\objects\BmsRack.dat → 281 WIDs
+2026-10-28 22:42:56.102 | loadout3d                | _ssd_stores: C:\Falcon BMS 4.38\Data\Add-On Israel\Terrdata\objects\Falcon4_SSD.xml → 110 SSD
+2026-10-28 22:42:57.094 | loadout3d                | weapons endpoint: sq_vu=4121 → squadron=trouvé aircraft=F-16 sq_stores_len=1000 stock=1000 ssd_idx=91 stock_max=66 rack_wids=281 seats=[0] hp=11 weapons=70 (64 dispo)
+2026-10-28 22:42:57.098 | loadout_limits           | classe indeterminee pour wid=492 ('20mm M61') : aucune limite rendue
+2026-10-28 22:42:57.132 | loadout_laser            | package=2916 laser_flights=0 my_code=1688
+2026-10-28 22:42:57.134 | loadout_laser_dtc        | LaserTGP=1688 staged=1
+2026-10-28 22:42:57.134 | loadout_laser_dtc        | LaserST=8 staged=1
+2026-10-28 22:43:06.436 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 22:43:06.484 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 22:43:06.491 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:43:06.497 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:43:06.498 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 22:43:06.513 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 22:43:06.535 | ato_departure            | resolved=1/1
+2026-10-28 22:43:09.173 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 22:43:09.199 | ato_departure            | resolved=1/1
+2026-10-28 22:43:09.220 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 22:43:09.226 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:43:09.234 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:43:09.235 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 22:43:09.249 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 22:43:14.612 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 22:43:24.642 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 22:43:24.688 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 22:43:24.694 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:43:24.703 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:43:24.704 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 22:43:24.719 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 22:43:24.746 | ato_departure            | resolved=1/1
+2026-10-28 22:45:06.526 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 22:45:06.568 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 22:45:06.572 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:45:06.580 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:45:06.580 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 22:45:06.598 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 22:45:06.663 | ato_departure            | resolved=1/1
+2026-10-28 22:45:09.167 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:45:09.190 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:45:09.191 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 22:45:09.368 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-10-28 22:45:09.408 | takeoff                  | dep='' rwy='08' stpt=1 ok=True
+2026-10-28 22:45:09.432 | vrp_app                  | arr='' rwy='08' side='right' ok=True
+2026-10-28 22:45:09.766 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 22:45:09.820 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 22:45:09.982 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:45:10.025 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:45:10.025 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 22:45:10.047 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 22:45:10.083 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 22:45:10.089 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:45:10.096 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:45:10.097 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 22:45:10.110 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 22:45:23.759 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 22:45:23.795 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 22:45:23.800 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:45:23.806 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:45:23.807 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 22:45:23.822 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 22:45:23.890 | ato_departure            | resolved=1/1
+2026-10-28 22:45:40.320 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 22:45:40.363 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 22:45:40.369 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:45:40.375 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 22:45:40.375 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 22:45:40.387 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 22:45:40.455 | ato_departure            | resolved=1/1
+2026-10-28 23:00:52.770 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 23:00:52.821 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 23:00:52.826 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:00:52.834 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:00:52.835 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 23:00:52.856 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 23:00:52.878 | ato_departure            | resolved=1/1
+2026-10-28 23:00:56.379 | ato_target               | index_built names=3279 memo=True
+2026-10-28 23:00:56.932 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:00:57.134 | friendly_air_defense     | pkg=2916 ref=stpt sites=6 combat_wp=2 aoo_wp=0 covering=0 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=120 alt_ft=30000
+2026-10-28 23:00:57.136 | briefing_context         | roster_support flights=1 tanker=False awacs=False friendly_ad=ok buddies=0
+2026-10-28 23:00:57.138 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:00:57.139 | briefing_context         | package_route_sketch flights=1 points=6
+2026-10-28 23:00:57.139 | briefing_context         | ordnance vu=20045 aircraft=2 pending=False
+2026-10-28 23:00:57.174 | campaign_overview        | objective_index loaded=2826
+2026-10-28 23:00:57.798 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-28 23:00:58.051 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-28 23:00:58.839 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 23:00:58.878 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 23:00:58.883 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:00:58.890 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:00:58.891 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 23:00:58.907 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 23:00:59.490 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:00:59.495 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:00:59.495 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 23:01:01.985 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-28 23:01:01.989 | campaign_overview        | system_marks=4
+2026-10-28 23:01:03.030 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:01:03.369 | friendly_air_defense     | pkg=2916 ref=stpt sites=6 combat_wp=2 aoo_wp=0 covering=0 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=120 alt_ft=30000
+2026-10-28 23:01:03.375 | briefing_context         | roster_support flights=1 tanker=False awacs=False friendly_ad=ok buddies=0
+2026-10-28 23:01:03.426 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:01:03.427 | briefing_context         | package_route_sketch flights=1 points=6
+2026-10-28 23:01:03.439 | briefing_context         | ordnance vu=20045 aircraft=2 pending=False
+2026-10-28 23:01:03.657 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 23:01:03.784 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-28 23:01:03.884 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-10-28 23:01:03.918 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 23:01:06.314 | airport_diagrams         | taxi surfaces=21 terrains en raster | repli K-NN : 69 sans mesh CT30, 0 sous-couvrants
+2026-10-28 23:01:06.315 | airport_diagrams         |   sans CT30 : Abu Rudies Airport, Abu Suwayr Airbase, Al Bir Highway Strip, Al Jouf Airforce Base, Al Mansurha Airbase, Al Nouza Airfield, Al Qusayr Airbase, Al Rhamaniya Airbase, Al-Muzabin Airstrip, Alismaylia Airbase, Amman Civil Airport, Aqaba INT Airport, As Salihiya Airbase, Ben Gurion INT Airport, Bilbays 2 Airbase, Bilbays Airbase, Borg El Arab Airbase, Cairo Almaza Airbase, Cairo INT Airfield, Cairo West Airbase, Eilat old Airport, Ein Shemer Airstrip, El Arish Airbase, El Gora Airbase, El Tor Airfield, Faid Airbase, Gebeil El Seikh Airbase, Gurayat Domestic Airport, H4 Airbase, Haifa Airport, Hamah Airbase, Herzeliya Airstrip, Hulwan Airbase, Inshas Airbase, Jinkalis New Airbase, King Abdullah II Airbase, King Faisal Bin Abdulaziz Airbase, King Hussein Airbase, Kirban Airbase, Kiryat Shmona Airstrip, Lattakia AirBase, Mediddo Airfield, Negev Airbase, Neom Bay INTL Airport, Palmachim Airbase, Palmyra Airbase, Port Said Airport, Prince Hassan Airbase, Quaswyina Airfield, Queen Alia INT Airport, Rafic Hariri Intl Airport, Ramon-Eilat Airport, Rene Mouawad Airport, Riyaq Airbase, Rosh Pina Airstrip, Sde Teiman Airstrip, Shaheed Mwaffaq Airbase, Sharm El Sheikh INTL Airfield, Shayrat Airbase, Sphinx INTL Airport, Tabe INT Airport, Tanta Airbase, Tiran Airstrip, Tiyas T4 Airbase, Turaif Airport, Wadi Al Asalah Airstrip, Wujah Al Hajar Airstrip, Zamlat Alsaeada Highstrip, Zarqa Airport
+2026-10-28 23:01:28.007 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-10-28 23:01:28.086 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-28 23:01:28.088 | campaign_overview        | system_marks=4
+2026-10-28 23:01:28.129 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:01:28.145 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:01:28.205 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:01:28.402 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-28 23:01:28.405 | campaign_overview        | system_marks=4
+2026-10-28 23:01:28.442 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:01:28.553 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:01:28.644 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:01:28.753 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 23:01:28.779 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 23:01:28.784 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:01:28.790 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:01:28.791 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 23:01:28.819 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 23:01:30.946 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-28 23:01:30.947 | campaign_overview        | system_marks=4
+2026-10-28 23:01:32.589 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:01:32.666 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-10-28 23:01:32.720 | friendly_air_defense     | pkg=2916 ref=stpt sites=6 combat_wp=2 aoo_wp=0 covering=0 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=120 alt_ft=30000
+2026-10-28 23:01:32.725 | briefing_context         | roster_support flights=1 tanker=False awacs=False friendly_ad=ok buddies=0
+2026-10-28 23:01:32.752 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:01:32.754 | briefing_context         | package_route_sketch flights=1 points=6
+2026-10-28 23:01:32.755 | briefing_context         | ordnance vu=20045 aircraft=2 pending=False
+2026-10-28 23:01:33.160 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 23:01:33.820 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-28 23:01:34.001 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 23:01:36.670 | airport_diagrams         | taxi surfaces=21 terrains en raster | repli K-NN : 69 sans mesh CT30, 0 sous-couvrants
+2026-10-28 23:01:36.670 | airport_diagrams         |   sans CT30 : Abu Rudies Airport, Abu Suwayr Airbase, Al Bir Highway Strip, Al Jouf Airforce Base, Al Mansurha Airbase, Al Nouza Airfield, Al Qusayr Airbase, Al Rhamaniya Airbase, Al-Muzabin Airstrip, Alismaylia Airbase, Amman Civil Airport, Aqaba INT Airport, As Salihiya Airbase, Ben Gurion INT Airport, Bilbays 2 Airbase, Bilbays Airbase, Borg El Arab Airbase, Cairo Almaza Airbase, Cairo INT Airfield, Cairo West Airbase, Eilat old Airport, Ein Shemer Airstrip, El Arish Airbase, El Gora Airbase, El Tor Airfield, Faid Airbase, Gebeil El Seikh Airbase, Gurayat Domestic Airport, H4 Airbase, Haifa Airport, Hamah Airbase, Herzeliya Airstrip, Hulwan Airbase, Inshas Airbase, Jinkalis New Airbase, King Abdullah II Airbase, King Faisal Bin Abdulaziz Airbase, King Hussein Airbase, Kirban Airbase, Kiryat Shmona Airstrip, Lattakia AirBase, Mediddo Airfield, Negev Airbase, Neom Bay INTL Airport, Palmachim Airbase, Palmyra Airbase, Port Said Airport, Prince Hassan Airbase, Quaswyina Airfield, Queen Alia INT Airport, Rafic Hariri Intl Airport, Ramon-Eilat Airport, Rene Mouawad Airport, Riyaq Airbase, Rosh Pina Airstrip, Sde Teiman Airstrip, Shaheed Mwaffaq Airbase, Sharm El Sheikh INTL Airfield, Shayrat Airbase, Sphinx INTL Airport, Tabe INT Airport, Tanta Airbase, Tiran Airstrip, Tiyas T4 Airbase, Turaif Airport, Wadi Al Asalah Airstrip, Wujah Al Hajar Airstrip, Zamlat Alsaeada Highstrip, Zarqa Airport
+2026-10-28 23:01:39.136 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-10-28 23:01:44.488 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-10-28 23:01:44.601 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-28 23:01:44.603 | campaign_overview        | system_marks=4
+2026-10-28 23:01:46.248 | timeline_data            | pkgs=75 flights=82 my_pkg=2916 my_vu=20045 buddies=0
+2026-10-28 23:01:46.251 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-28 23:01:46.254 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-28 23:01:46.618 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 23:01:46.664 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 23:01:46.675 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:01:46.975 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:01:46.976 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 23:01:47.017 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 23:01:47.210 | ato_departure            | resolved=1/1
+2026-10-28 23:03:16.168 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 23:03:16.212 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 23:03:16.217 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:03:16.222 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:03:16.223 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 23:03:16.237 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 23:03:16.259 | ato_departure            | resolved=1/1
+2026-10-28 23:03:20.182 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 23:03:20.234 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 23:03:20.242 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:03:20.249 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:03:20.249 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 23:03:20.262 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 23:03:31.630 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 23:03:31.670 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 23:03:31.677 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:03:31.682 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:03:31.682 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 23:03:31.695 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 23:03:31.765 | ato_departure            | resolved=1/1
+2026-10-28 23:03:32.800 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:03:32.868 | friendly_air_defense     | pkg=2916 ref=stpt sites=6 combat_wp=2 aoo_wp=0 covering=0 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=120 alt_ft=30000
+2026-10-28 23:03:32.870 | briefing_context         | roster_support flights=1 tanker=False awacs=False friendly_ad=ok buddies=0
+2026-10-28 23:03:32.872 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:03:32.873 | briefing_context         | package_route_sketch flights=1 points=6
+2026-10-28 23:03:32.874 | briefing_context         | ordnance vu=20045 aircraft=2 pending=False
+2026-10-28 23:03:33.574 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-28 23:03:33.841 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-28 23:03:34.246 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 23:03:34.283 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 23:03:34.287 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:03:34.294 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:03:34.294 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 23:03:34.319 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 23:03:35.841 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-28 23:03:35.846 | campaign_overview        | system_marks=4
+2026-10-28 23:03:37.428 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:03:37.518 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-10-28 23:03:37.673 | friendly_air_defense     | pkg=2916 ref=stpt sites=6 combat_wp=2 aoo_wp=0 covering=0 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=120 alt_ft=30000
+2026-10-28 23:03:37.680 | briefing_context         | roster_support flights=1 tanker=False awacs=False friendly_ad=ok buddies=0
+2026-10-28 23:03:37.751 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:03:37.756 | briefing_context         | package_route_sketch flights=1 points=6
+2026-10-28 23:03:37.757 | briefing_context         | ordnance vu=20045 aircraft=2 pending=False
+2026-10-28 23:03:38.379 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-28 23:03:38.383 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 23:03:38.529 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 23:03:38.566 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 23:03:38.659 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 23:03:38.676 | ato_departure            | resolved=1/1
+2026-10-28 23:03:38.702 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:03:38.731 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:03:38.731 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 23:03:38.749 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 23:03:41.113 | airport_diagrams         | taxi surfaces=21 terrains en raster | repli K-NN : 69 sans mesh CT30, 0 sous-couvrants
+2026-10-28 23:03:41.113 | airport_diagrams         |   sans CT30 : Abu Rudies Airport, Abu Suwayr Airbase, Al Bir Highway Strip, Al Jouf Airforce Base, Al Mansurha Airbase, Al Nouza Airfield, Al Qusayr Airbase, Al Rhamaniya Airbase, Al-Muzabin Airstrip, Alismaylia Airbase, Amman Civil Airport, Aqaba INT Airport, As Salihiya Airbase, Ben Gurion INT Airport, Bilbays 2 Airbase, Bilbays Airbase, Borg El Arab Airbase, Cairo Almaza Airbase, Cairo INT Airfield, Cairo West Airbase, Eilat old Airport, Ein Shemer Airstrip, El Arish Airbase, El Gora Airbase, El Tor Airfield, Faid Airbase, Gebeil El Seikh Airbase, Gurayat Domestic Airport, H4 Airbase, Haifa Airport, Hamah Airbase, Herzeliya Airstrip, Hulwan Airbase, Inshas Airbase, Jinkalis New Airbase, King Abdullah II Airbase, King Faisal Bin Abdulaziz Airbase, King Hussein Airbase, Kirban Airbase, Kiryat Shmona Airstrip, Lattakia AirBase, Mediddo Airfield, Negev Airbase, Neom Bay INTL Airport, Palmachim Airbase, Palmyra Airbase, Port Said Airport, Prince Hassan Airbase, Quaswyina Airfield, Queen Alia INT Airport, Rafic Hariri Intl Airport, Ramon-Eilat Airport, Rene Mouawad Airport, Riyaq Airbase, Rosh Pina Airstrip, Sde Teiman Airstrip, Shaheed Mwaffaq Airbase, Sharm El Sheikh INTL Airfield, Shayrat Airbase, Sphinx INTL Airport, Tabe INT Airport, Tanta Airbase, Tiran Airstrip, Tiyas T4 Airbase, Turaif Airport, Wadi Al Asalah Airstrip, Wujah Al Hajar Airstrip, Zamlat Alsaeada Highstrip, Zarqa Airport
+2026-10-28 23:44:08.278 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-28 23:44:08.344 | fuel_plan                | avail=7960 atTurn=5944 bingo=2800 joker=3300 rtb=629 margin=3144 GO
+2026-10-28 23:44:08.365 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:44:08.375 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Israel\campaign\radiomap.dat entries=1530 (campaigndir)
+2026-10-28 23:44:08.376 | package_comms            | tactical ch=6 primary=Jaguar 3 uhf=369.850
+2026-10-28 23:44:08.395 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=60 hash=54613b25
+2026-10-28 23:44:16.015 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-10-28 23:44:17.215 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-28 23:44:17.217 | campaign_overview        | system_marks=4
+2026-10-28 23:44:17.540 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-28 23:44:17.542 | campaign_overview        | system_marks=4
+2026-10-28 23:44:17.550 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:44:17.612 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:44:17.707 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-10-28 23:44:17.714 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-10-28 23:44:17.716 | campaign_overview        | system_marks=4
+2026-10-28 23:44:17.826 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:44:17.994 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:44:18.017 | package_relevance        | package_routes pkg=2916 flights=1 routes=1 points=6
+2026-10-28 23:44:19.197 | timeline_data            | pkgs=75 flights=82 my_pkg=2916 my_vu=20045 buddies=0
+2026-10-28 23:44:19.201 | timeline_support         | tanker: aucun désigné (source=none)
+2026-10-28 23:44:19.204 | timeline_support         | awacs: aucun désigné (source=none)
+2026-10-28 23:44:21.902 | ato_departure            | resolved=1/1
