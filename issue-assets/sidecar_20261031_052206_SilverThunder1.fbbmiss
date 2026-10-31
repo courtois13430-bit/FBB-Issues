@@ -1,0 +1,1169 @@
+{
+  "fbb_sidecar_version": 1,
+  "app_version": "1.99.0",
+  "saved_utc": "2026-10-30T21:08:08Z",
+  "cam": {
+    "stem": "SilverThunder1",
+    "theater_key": "hellas",
+    "campaign_name": "SilverThunder1",
+    "saved": "day 1 08:43:00"
+  },
+  "identity": {
+    "flight_override": {
+      "vu_num": 20007,
+      "camp_id": 6954,
+      "callsign": "Hammer 5",
+      "pkg_camp_id": 3240
+    },
+    "seat_override": 0,
+    "squadron_override": 8008
+  },
+  "dpi": {
+    "v": 1,
+    "items": [],
+    "cam_seen": {
+      "cam": "silverthunder1.tac",
+      "slots": [],
+      "gen": "35c3faf0b9f84efa"
+    }
+  },
+  "boxes": {
+    "v": 1,
+    "items": [
+      {
+        "uid": "fb8acc7841c1",
+        "id": "GRID",
+        "kind": "grid",
+        "owner_name": "",
+        "label": "",
+        "color": "#1e1b4b",
+        "cam_e": 2406810.186488443,
+        "cam_n": 1720170.2467855762,
+        "half_ft": 520172.7608266548,
+        "heading_deg": 350.0,
+        "visibility": "package",
+        "owner_vu": 0,
+        "author": ""
+      }
+    ]
+  },
+  "briefing": {
+    "v": 1,
+    "schema_version": 5,
+    "containers": [
+      {
+        "id": "9ed082aa-42d5-4b02-88cd-368c8ae03c90",
+        "ctype": "mission_step",
+        "title": "Campaign Overview",
+        "visible": true,
+        "section_key": "campaign_overview",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "campaign_objectives",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "cf1f7d84-7a8a-476f-a442-0384d31a00fe",
+        "ctype": "mission_step",
+        "title": "Mission / Friendly OOB",
+        "visible": true,
+        "section_key": "package_overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "roaster",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "bd07f400-d77b-4e0f-853a-4547a99489d7",
+        "ctype": "mission_step",
+        "title": "Package + Timeline",
+        "visible": true,
+        "section_key": "pkg_timing",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "a8791f2a-01a1-4c52-8936-79733a0a2849",
+        "ctype": "mission_step",
+        "title": "FPLN / Routes",
+        "visible": true,
+        "section_key": "steerpoints",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "fpln-asst",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "a04411c1-3f28-46bd-8956-90981903e1f7",
+        "ctype": "mission_step",
+        "title": "Weather / Forecast",
+        "visible": true,
+        "section_key": "weather",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "weather_overview"
+        }
+      },
+      {
+        "id": "96cd1fc3-e34c-4c7b-bbd2-3da22a0eb527",
+        "ctype": "mission_step",
+        "title": "Threat Estimate",
+        "visible": true,
+        "section_key": "threat_analysis",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "e27754b8-1390-46c5-8073-529d964fd95e",
+        "ctype": "mission_step",
+        "title": "Package Comm Plan",
+        "visible": true,
+        "section_key": "comm_plan",
+        "source": "effective",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "2b9ca3a2-b5b2-4517-a355-bc42d6fc51eb",
+        "ctype": "mission_step",
+        "title": "Contracts",
+        "visible": true,
+        "section_key": "contracts",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "74e1fa14-0aea-4ca5-93c9-5712fcd3ee4c",
+        "ctype": "mission_step",
+        "title": "ROE (Rules of Engagement)",
+        "visible": true,
+        "section_key": "roe",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "c2d31dab-5082-4a14-be55-9a9ace28d91c",
+        "ctype": "mission_step",
+        "title": "Recovery & Emergency",
+        "visible": true,
+        "section_key": "emerg",
+        "source": "cam",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "50170368-4381-4e5b-a92e-832c5273a823",
+        "ctype": "mission_step",
+        "title": "Flight Task & Targeting",
+        "visible": true,
+        "section_key": "overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_flight",
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "eb3be648-9812-4abe-8100-577330e0df90",
+        "ctype": "mission_step",
+        "title": "Ordnance",
+        "visible": true,
+        "section_key": "ordnance",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "loadout",
+          "context_tab": "session-aircraft",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "1848e313-59a7-45f5-9659-124b7bf189f1",
+        "ctype": "mission_step",
+        "title": "Domestics",
+        "visible": true,
+        "section_key": "domestics",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "dep_airfield",
+          "range_nm": 2,
+          "map_auto_open": true
+        }
+      },
+      {
+        "id": "34a865d4-3714-42bf-bdf9-b82ad30f7354",
+        "ctype": "mission_step",
+        "title": "Plan Synch & deconflict",
+        "visible": true,
+        "section_key": "plan_synch",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      }
+    ]
+  },
+  "fpln": {
+    "v": 2,
+    "secondary": {},
+    "final": {
+      "ts": 1793394488201,
+      "ts_vu": {
+        "c:6954": 1793394488201,
+        "c:6960": 1793394488201
+      },
+      "sec": {
+        "c:6954": {
+          "coords": [
+            [
+              0.017379894024390243,
+              0.009539941829268291
+            ],
+            [
+              0.02065987402439024,
+              0.01197992695121951
+            ],
+            [
+              0.027139834512195125,
+              0.016059902073170734
+            ],
+            [
+              0.027939829634146346,
+              0.015179907439024391
+            ],
+            [
+              0.029979817195121956,
+              0.015779903780487808
+            ],
+            [
+              0.03041981451219512,
+              0.017459893536585364
+            ],
+            [
+              0.030699812804878053,
+              0.017819891341463417
+            ],
+            [
+              0.030619813292682933,
+              0.018699885975609756
+            ],
+            [
+              0.030939811341463418,
+              0.019099883536585368
+            ],
+            [
+              0.031459808170731705,
+              0.01997987817073171
+            ],
+            [
+              0.034459789878048784,
+              0.02065987402439024
+            ],
+            [
+              0.03393979304878049,
+              0.021419869390243904
+            ],
+            [
+              0.03285979963414634,
+              0.02249986280487805
+            ],
+            [
+              0.031139810121951224,
+              0.023179858658536587
+            ],
+            [
+              0.02977981841463415,
+              0.023939854024390243
+            ],
+            [
+              0.03041981451219512,
+              0.025179846463414632
+            ],
+            [
+              0.02959999151025272,
+              0.02592721615418725
+            ],
+            [
+              0.028659825243902443,
+              0.02585984231707317
+            ],
+            [
+              0.025139846707317073,
+              0.02381985475609756
+            ],
+            [
+              0.021659867926829265,
+              0.02053987475609756
+            ],
+            [
+              0.021699867682926827,
+              0.017979890365853658
+            ],
+            [
+              0.027939829634146346,
+              0.015219907195121946
+            ]
+          ],
+          "wps": [
+            {
+              "action": 1,
+              "_new": false,
+              "wp_key": "oi:0"
+            },
+            {
+              "action": 8,
+              "_new": false,
+              "wp_key": "oi:1"
+            },
+            {
+              "action": 2,
+              "_new": false,
+              "wp_key": "oi:2"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:3"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:4"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:5"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:6"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:7"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:8"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:9"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:10"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:11"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:12"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:13"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:14"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:15"
+            },
+            {
+              "action": 17,
+              "_new": false,
+              "wp_key": "oi:16",
+              "_posOverride": true
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:17"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:18"
+            },
+            {
+              "action": 3,
+              "_new": false,
+              "wp_key": "oi:19"
+            },
+            {
+              "action": 7,
+              "_new": false,
+              "wp_key": "oi:20"
+            },
+            {
+              "action": 7,
+              "_new": false,
+              "wp_key": "oi:21"
+            }
+          ]
+        },
+        "c:6960": {
+          "coords": [
+            [
+              0.017379894024390243,
+              0.009539941829268291
+            ],
+            [
+              0.02065987402439024,
+              0.01197992695121951
+            ],
+            [
+              0.027139834512195125,
+              0.016059902073170734
+            ],
+            [
+              0.027939829634146346,
+              0.015259906951219513
+            ],
+            [
+              0.029899817682926832,
+              0.015659904512195122
+            ],
+            [
+              0.03041981451219512,
+              0.017459893536585364
+            ],
+            [
+              0.030699812804878053,
+              0.017819891341463417
+            ],
+            [
+              0.030619813292682933,
+              0.018699885975609756
+            ],
+            [
+              0.030899811585365856,
+              0.019099883536585368
+            ],
+            [
+              0.031459808170731705,
+              0.01997987817073171
+            ],
+            [
+              0.034459789878048784,
+              0.02065987402439024
+            ],
+            [
+              0.03393979304878049,
+              0.021419869390243904
+            ],
+            [
+              0.03285979963414634,
+              0.02249986280487805
+            ],
+            [
+              0.03109981036585366,
+              0.023179858658536587
+            ],
+            [
+              0.02977981841463415,
+              0.023939854024390243
+            ],
+            [
+              0.02728690571851189,
+              0.023871666659928792
+            ],
+            [
+              0.02697983548780488,
+              0.02493984792682927
+            ],
+            [
+              0.026019841341463415,
+              0.024419851097560976
+            ],
+            [
+              0.025139846707317073,
+              0.02381985475609756
+            ],
+            [
+              0.021659867926829265,
+              0.02053987475609756
+            ],
+            [
+              0.021659867926829265,
+              0.01801989012195122
+            ],
+            [
+              0.027939829634146346,
+              0.015259906951219513
+            ]
+          ],
+          "wps": [
+            {
+              "action": 1,
+              "_new": false,
+              "wp_key": "oi:0"
+            },
+            {
+              "action": 8,
+              "_new": false,
+              "wp_key": "oi:1"
+            },
+            {
+              "action": 2,
+              "_new": false,
+              "wp_key": "oi:2"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:3"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:4"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:5"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:6"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:7"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:8"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:9"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:10"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:11"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:12"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:13"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:14"
+            },
+            {
+              "action": 17,
+              "_new": false,
+              "wp_key": "oi:15",
+              "_posOverride": true
+            },
+            {
+              "action": 3,
+              "_new": false,
+              "wp_key": "oi:16"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:17"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:18"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:19"
+            },
+            {
+              "action": 7,
+              "_new": false,
+              "wp_key": "oi:20"
+            },
+            {
+              "action": 7,
+              "_new": false,
+              "wp_key": "oi:21"
+            }
+          ]
+        }
+      },
+      "orig": {},
+      "tle": {
+        "c:6954": {
+          "oi:0": {
+            "tos_ms": 32579826,
+            "tos_auto": true,
+            "tos_calc": 32579826
+          },
+          "oi:1": {
+            "tos_ms": 33062573,
+            "tos_auto": true,
+            "tos_calc": 33062573
+          },
+          "oi:2": {
+            "tos_ms": 33966826,
+            "tos_auto": true,
+            "tos_calc": 33966826
+          },
+          "oi:3": {
+            "tos_ms": 34087274,
+            "tos_auto": true,
+            "tos_calc": 34087274
+          },
+          "oi:4": {
+            "tos_ms": 34303616,
+            "tos_auto": true,
+            "tos_calc": 34303616
+          },
+          "oi:5": {
+            "tos_ms": 34479118,
+            "tos_auto": true,
+            "tos_calc": 34479118
+          },
+          "oi:6": {
+            "tos_ms": 34525118,
+            "tos_auto": true,
+            "tos_calc": 34525118
+          },
+          "oi:7": {
+            "tos_ms": 34614118,
+            "tos_auto": true,
+            "tos_calc": 34614118
+          },
+          "oi:8": {
+            "tos_ms": 34666118,
+            "tos_auto": true,
+            "tos_calc": 34666118
+          },
+          "oi:9": {
+            "tos_ms": 34769118,
+            "tos_auto": true,
+            "tos_calc": 34769118
+          },
+          "oi:10": {
+            "tos_ms": 35080118,
+            "tos_auto": true,
+            "tos_calc": 35080118
+          },
+          "oi:11": {
+            "tos_ms": 35173118,
+            "tos_auto": true,
+            "tos_calc": 35173118
+          },
+          "oi:12": {
+            "tos_ms": 35328118,
+            "tos_auto": true,
+            "tos_calc": 35328118
+          },
+          "oi:13": {
+            "tos_ms": 35515118,
+            "tos_auto": true,
+            "tos_calc": 35515118
+          },
+          "oi:14": {
+            "tos_ms": 35672635,
+            "tos_auto": true,
+            "tos_calc": 35672635
+          },
+          "oi:15": {
+            "tos_ms": 35814292,
+            "tos_auto": true,
+            "tos_calc": 35814292
+          },
+          "oi:16": {
+            "tos_ms": 35926292,
+            "tos_auto": true,
+            "tos_calc": 35926292
+          },
+          "oi:17": {
+            "tos_ms": 36024292,
+            "tos_auto": true,
+            "tos_calc": 36024292
+          },
+          "oi:18": {
+            "tos_ms": 36436292,
+            "tos_auto": true,
+            "tos_calc": 36436292
+          },
+          "oi:19": {
+            "tos_ms": 36920292,
+            "tos_auto": true,
+            "tos_calc": 36920292
+          },
+          "oi:20": {
+            "tos_ms": 37346292,
+            "tos_auto": true,
+            "tos_calc": 37346292
+          },
+          "oi:21": {
+            "tos_ms": 2184829940,
+            "tos_auto": true,
+            "tos_calc": 2184829940
+          }
+        },
+        "c:6960": {
+          "oi:0": {
+            "tos_ms": 32609025,
+            "tos_auto": true,
+            "tos_calc": 32609025
+          },
+          "oi:1": {
+            "tos_ms": 33048020,
+            "tos_auto": true,
+            "tos_calc": 33048020
+          },
+          "oi:2": {
+            "tos_ms": 33870321,
+            "tos_auto": true,
+            "tos_calc": 33870321
+          },
+          "oi:3": {
+            "tos_ms": 33991814,
+            "tos_auto": true,
+            "tos_calc": 33991814
+          },
+          "oi:4": {
+            "tos_ms": 34206628,
+            "tos_auto": true,
+            "tos_calc": 34206628
+          },
+          "oi:5": {
+            "tos_ms": 34407826,
+            "tos_auto": true,
+            "tos_calc": 34407826
+          },
+          "oi:6": {
+            "tos_ms": 34456801,
+            "tos_auto": true,
+            "tos_calc": 34456801
+          },
+          "oi:7": {
+            "tos_ms": 34551690,
+            "tos_auto": true,
+            "tos_calc": 34551690
+          },
+          "oi:8": {
+            "tos_ms": 34604122,
+            "tos_auto": true,
+            "tos_calc": 34604122
+          },
+          "oi:9": {
+            "tos_ms": 34716133,
+            "tos_auto": true,
+            "tos_calc": 34716133
+          },
+          "oi:10": {
+            "tos_ms": 35046462,
+            "tos_auto": true,
+            "tos_calc": 35046462
+          },
+          "oi:11": {
+            "tos_ms": 35145350,
+            "tos_auto": true,
+            "tos_calc": 35145350
+          },
+          "oi:12": {
+            "tos_ms": 35309365,
+            "tos_auto": true,
+            "tos_calc": 35309365
+          },
+          "oi:13": {
+            "tos_ms": 35511980,
+            "tos_auto": true,
+            "tos_calc": 35511980
+          },
+          "oi:14": {
+            "tos_ms": 35675545,
+            "tos_auto": true,
+            "tos_calc": 35675545
+          },
+          "oi:15": {
+            "tos_ms": 35942000,
+            "tos_auto": true,
+            "tos_calc": 35942000
+          },
+          "oi:16": {
+            "tos_ms": 36056034,
+            "tos_auto": true,
+            "tos_calc": 36056034
+          },
+          "oi:17": {
+            "tos_ms": 36166563,
+            "tos_auto": true,
+            "tos_calc": 36166563
+          },
+          "oi:18": {
+            "tos_ms": 36274389,
+            "tos_auto": true,
+            "tos_calc": 36274389
+          },
+          "oi:19": {
+            "tos_ms": 36758519,
+            "tos_auto": true,
+            "tos_calc": 36758519
+          },
+          "oi:20": {
+            "tos_ms": 37013636,
+            "tos_auto": true,
+            "tos_calc": 37013636
+          }
+        }
+      }
+    },
+    "edits": {},
+    "slots": {},
+    "cam_gen": "35c3faf0b9f84efa"
+  },
+  "lines": {
+    "entries": [
+      {
+        "pts": [
+          [
+            1903596.0109126577,
+            1884250.3535463559
+          ],
+          [
+            2036143.840297863,
+            2635966.4485684605
+          ],
+          [
+            1284427.7452757582,
+            2768514.2779536657
+          ],
+          [
+            1151879.915890553,
+            2016798.182931561
+          ],
+          [
+            1903596.0109126577,
+            1884250.3535463559
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": "Grid"
+      },
+      {
+        "pts": [
+          [
+            1196062.5256856212,
+            2267370.2146055964
+          ],
+          [
+            1947778.6207077259,
+            2134822.3852203903
+          ],
+          [
+            1991961.2305027947,
+            2385394.416894425
+          ],
+          [
+            1240245.13548069,
+            2517942.2462796313
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": "Grid"
+      },
+      {
+        "pts": [
+          [
+            1402451.9475645875,
+            1972615.5731364929
+          ],
+          [
+            1534999.7769497936,
+            2724331.6681585973
+          ],
+          [
+            1785571.8086238285,
+            2680149.058363529
+          ],
+          [
+            1653023.9792386224,
+            1928432.963341424
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": "Grid"
+      },
+      {
+        "pts": [
+          [
+            1903596.010913,
+            1884250.353546
+          ],
+          [
+            2036143.840298,
+            2635966.448568
+          ],
+          [
+            1284427.745276,
+            2768514.277954
+          ],
+          [
+            1151879.915891,
+            2016798.182932
+          ],
+          [
+            2180801.7268430004,
+            1600072.1566599999
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": ""
+      },
+      {
+        "pts": [
+          [
+            2143497.688092525,
+            1801444.332887491
+          ],
+          [
+            2324151.7920715744,
+            2825984.6684232
+          ],
+          [
+            1299611.456535865,
+            3006638.7724022493
+          ],
+          [
+            1118957.3525568158,
+            1982098.4368665402
+          ],
+          [
+            2143497.688092525,
+            1801444.332887491
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": "▦ Grid — 57 NM"
+      },
+      {
+        "pts": [
+          [
+            2142113.3625639062,
+            1804212.9667310638
+          ],
+          [
+            2322767.4665429555,
+            2828753.302266773
+          ],
+          [
+            1298227.1310072462,
+            3009407.406245822
+          ],
+          [
+            1117573.027028197,
+            1984867.070710113
+          ],
+          [
+            2142113.3625639062,
+            1804212.9667310638
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": "Grid"
+      },
+      {
+        "pts": [
+          [
+            1177791.0616878802,
+            2326380.5158886835
+          ],
+          [
+            2202331.397223589,
+            2145726.4119096333
+          ],
+          [
+            2262549.4318832722,
+            2487239.8570882026
+          ],
+          [
+            1238009.0963475634,
+            2667893.961067253
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": "Grid"
+      },
+      {
+        "pts": [
+          [
+            1459086.4722067663,
+            1924649.0360504303
+          ],
+          [
+            1639740.5761858164,
+            2949189.3715861393
+          ],
+          [
+            1981254.0213643862,
+            2888971.3369264556
+          ],
+          [
+            1800599.917385336,
+            1864431.001390747
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": "Grid"
+      },
+      {
+        "pts": [
+          [
+            1942142.3330418454,
+            2423973.313041846
+          ],
+          [
+            1976514.0299999998,
+            2458345.0100000002
+          ],
+          [
+            1611947.13,
+            2458345.0100000002
+          ],
+          [
+            1733469.43,
+            2458345.0100000002
+          ],
+          [
+            1733469.43,
+            2336822.7100000004
+          ],
+          [
+            1733469.43,
+            2579867.31
+          ]
+        ],
+        "origin": "auto",
+        "author": "",
+        "label": "Bullseye"
+      }
+    ]
+  },
+  "cartridge": {
+    "ppt": {
+      "ppt_0": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_1": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_2": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_3": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_4": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_5": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_6": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_7": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_8": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_9": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_10": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_11": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_12": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_13": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_14": "0.000000, 0.000000, 0.000000, 0.000000, "
+    },
+    "lines": {
+      "lineSTPT_0": "2142113.362564, 1804212.966731, 0.000000",
+      "lineSTPT_1": "2322767.466543, 2828753.302267, 0.000000",
+      "lineSTPT_2": "1298227.131007, 3009407.406246, 0.000000",
+      "lineSTPT_3": "1117573.027028, 1984867.070710, 0.000000",
+      "lineSTPT_4": "2142113.362564, 1804212.966731, 0.000000",
+      "lineSTPT_5": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_6": "1177791.061688, 2326380.515889, 0.000000",
+      "lineSTPT_7": "2202331.397224, 2145726.411910, 0.000000",
+      "lineSTPT_8": "2262549.431883, 2487239.857088, 0.000000",
+      "lineSTPT_9": "1238009.096348, 2667893.961067, 0.000000",
+      "lineSTPT_10": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_11": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_12": "1459086.472207, 1924649.036050, 0.000000",
+      "lineSTPT_13": "1639740.576186, 2949189.371586, 0.000000",
+      "lineSTPT_14": "1981254.021364, 2888971.336926, 0.000000",
+      "lineSTPT_15": "1800599.917385, 1864431.001391, 0.000000",
+      "lineSTPT_16": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_17": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_18": "1942142.333042, 2423973.313042, 0.000000",
+      "lineSTPT_19": "1976514.030000, 2458345.010000, 0.000000",
+      "lineSTPT_20": "1611947.130000, 2458345.010000, 0.000000",
+      "lineSTPT_21": "1733469.430000, 2458345.010000, 0.000000",
+      "lineSTPT_22": "1733469.430000, 2336822.710000, 0.000000",
+      "lineSTPT_23": "1733469.430000, 2579867.310000, 0.000000"
+    },
+    "oa": [
+      "OA1-62",
+      "OA1-99",
+      "OA2-62",
+      "OA2-99"
+    ]
+  }
+}
