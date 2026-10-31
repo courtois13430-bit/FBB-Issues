@@ -1,0 +1,54 @@
+2026-10-31 20:25:18.612 | ========================================================================
+2026-10-31 20:25:18.612 | startup                  | FBB 1.99.0 — session 2026-10-31 20:25:18
+2026-10-31 20:25:18.612 | startup                  | Répertoire : C:\Users\thcab\AppData\Local\Programs\FBB\_internal
+2026-10-31 20:25:18.612 | startup                  | Python 3.14.5
+2026-10-31 20:25:18.612 | ========================================================================
+2026-10-31 20:25:18.613 | system                   | OS : Windows 11 10.0.26300, AMD64, 12 CPU, RAM 32 GB
+2026-10-31 20:25:18.625 | system                   | Machine : <masqué> / Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+2026-10-31 20:25:18.625 | registry                 | BMS baseDir : C:\Falcon BMS 4.38
+2026-10-31 20:25:18.626 | registry                 | BMS theater : Hellas  pilot : Rouge
+2026-10-31 20:25:18.880 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-10-31 20:25:22.121 | telemetry                | ping OK v1.99.0 Windows 11 canal=prod → HTTP 200
+2026-10-31 20:25:22.163 | parse_health             | SilverThunder1.tac: records 25/25, bytes 14548/14548, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-31 20:25:23.062 | dtc_mfd                  | event=read path=Rouge.ini mtime=2026-10-31 13:52:52 mfd=45/96
+2026-10-31 20:25:23.513 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-31 20:25:23.554 | fpln_wp                  | pending vu=c:6954 ARRIVE 23 wp  src=restore  restauration disque (boot)
+2026-10-31 20:25:23.862 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-31 20:25:24.013 | ato_departure            | resolved=5/5
+2026-10-31 20:25:27.591 | ato_departure            | resolved=5/5
+2026-10-31 20:25:27.997 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 20:25:29.104 | fuel_plan                | avail=17124 atTurn=8283 bingo=6300 joker=6800 rtb=2242 margin=1983 GO
+2026-10-31 20:25:29.526 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-31 20:25:29.544 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 20:25:29.545 | mission_support          | awacs: bms nearest vu=20013
+2026-10-31 20:25:31.804 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 20:25:31.806 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-31 20:25:31.824 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=13 n_ppt=10 n_dpi=0 n_divert=3 n_sections=29 hash=924da6fb
+2026-10-31 20:25:31.937 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 20:25:32.611 | fuel_plan                | avail=17124 atTurn=8283 bingo=6300 joker=6800 rtb=2242 margin=1983 GO
+2026-10-31 20:25:32.620 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-31 20:25:32.673 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 20:25:32.674 | mission_support          | awacs: bms nearest vu=20013
+2026-10-31 20:25:32.676 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 20:25:32.678 | mission_support          | awacs: bms nearest vu=20013
+2026-10-31 20:25:32.680 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 20:25:32.680 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-31 20:25:32.686 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 20:25:32.687 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-31 20:25:32.692 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=13 n_ppt=10 n_dpi=0 n_divert=3 n_sections=29 hash=924da6fb
+2026-10-31 20:25:33.271 | campaign_overview        | objective_index loaded=6944
+2026-10-31 20:25:33.386 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-10-31 20:25:33.389 | campaign_overview        | system_marks=0
+2026-10-31 20:25:33.468 | package_relevance        | package_routes pkg=3240 flights=5 routes=5 points=106
+2026-10-31 20:25:33.480 | friendly_ad_zone         | wps=1 buffer_nm=20.0 hull=24
+2026-10-31 20:25:33.971 | mission_support          | awacs: bms nearest vu=20013
+2026-10-31 20:25:34.136 | friendly_air_defense     | pkg=3240 ref=aoo sites=0 combat_wp=0 aoo_wp=1 covering=0 nearby=0 shown=0 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=171 alt_ft=1171
+2026-10-31 20:25:34.698 | briefing_context         | package_overview flights=5 route_points=73 focus_points=5 unique_points=73
+2026-10-31 20:25:34.732 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 20:25:35.272 | airport_diagrams         | taxi surfaces=70 terrains en raster | repli K-NN : 2 sans mesh CT30, 0 sous-couvrants
+2026-10-31 20:25:35.272 | airport_diagrams         |   sans CT30 : Cardak Airport, Eleftherios Venizelos Airport
+2026-10-31 20:25:40.218 | fpln_wp                  | pending vu=c:6954 RETIRE 23 wp  src=op  POST /op discard_vu
+2026-10-31 20:25:40.222 | fpln_op                  | vus=0 wps=0 key='C:\\Falcon BMS 4.38\\Data\\Add-On Hellas\\Campaign\\SilverThunder1.tac'
+2026-10-31 20:25:40.680 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 20:25:40.700 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 20:26:04.048 | ato_departure            | resolved=5/5
