@@ -1,0 +1,1801 @@
+2026-10-31 09:09:44.277 | ========================================================================
+2026-10-31 09:09:44.277 | startup                  | FBB 1.99.0 — session 2026-10-31 09:09:44
+2026-10-31 09:09:44.278 | startup                  | Répertoire : C:\Users\tparv\AppData\Local\Programs\FBB\_internal
+2026-10-31 09:09:44.278 | startup                  | Python 3.14.5
+2026-10-31 09:09:44.278 | ========================================================================
+2026-10-31 09:09:44.279 | system                   | OS : Windows 11 10.0.26200, AMD64, 8 CPU, RAM 31 GB
+2026-10-31 09:09:44.302 | system                   | Machine : <masqué> / AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD
+2026-10-31 09:09:44.302 | registry                 | BMS baseDir : C:\Falcon BMS 4.38
+2026-10-31 09:09:44.302 | registry                 | BMS theater : Israel  pilot : Arkane08
+2026-10-31 09:09:45.668 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-10-31 09:09:47.691 | telemetry                | ping OK v1.99.0 Windows 11 canal=prod → HTTP 200
+2026-10-31 09:09:56.019 | parse_health             | f15 training 1v4.tac: records 6/6, bytes 4823/4823, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-31 09:09:56.614 | dtc_mfd                  | event=read path=Arkane08.ini mtime=2026-10-28 21:05:03 mfd=46/96
+2026-10-31 09:09:59.822 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=2 hash=54613b25
+2026-10-31 09:09:59.871 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 09:18:45.990 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 09:18:46.002 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=2 hash=54613b25
+2026-10-31 19:37:37.507 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:37:37.507 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=2 hash=54613b25
+2026-10-31 19:40:47.456 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:40:47.468 | dtc_render               | path=Arkane08.ini n_stpt=0 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=2 hash=54613b25
+2026-10-31 19:40:53.948 | parse_health             | campagne serieuse.cam: records 785/785, bytes 353756/353756, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-31 19:40:55.175 | dtc_mfd                  | event=read path=Arkane08.ini mtime=2026-10-31 19:39:53 mfd=46/96
+2026-10-31 19:40:56.150 | swap_context             | origin=set_theater cam='campagne serieuse.cam' loaded=True err=''
+2026-10-31 19:40:56.654 | ato_departure            | resolved=1/1
+2026-10-31 19:40:56.795 | ato_departure            | resolved=1/1
+2026-10-31 19:40:58.377 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:40:58.568 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:40:58.595 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:41:11.187 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:41:12.597 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:41:12.620 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:41:12.717 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:41:12.717 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:41:13.261 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:41:13.287 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:41:13.315 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:41:13.316 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:41:13.400 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:41:13.404 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:41:13.408 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:41:13.411 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:41:13.411 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:41:13.427 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:41:15.685 | campaign_overview        | objective_index loaded=5992
+2026-10-31 19:41:16.326 | campaign_overview        | built team=1 conditions=3 force_rows=7
+2026-10-31 19:41:16.333 | campaign_overview        | system_marks=8
+2026-10-31 19:41:19.647 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:41:20.210 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:41:21.118 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:41:21.673 | briefing_context         | package_overview flights=1 route_points=9 focus_points=3 unique_points=9
+2026-10-31 19:41:31.251 | airport_diagrams         | taxi surfaces=66 terrains en raster | repli K-NN : 21 sans mesh CT30, 0 sous-couvrants
+2026-10-31 19:41:31.252 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-10-31 19:41:33.456 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:41:33.464 | ato_departure            | resolved=99/115
+2026-10-31 19:41:33.650 | ato_target               | index_built names=6784 memo=True
+2026-10-31 19:41:34.485 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:41:34.488 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:41:34.493 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:41:34.506 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:41:34.509 | ato_target               | resolved id=20046 target=Attack
+2026-10-31 19:41:34.510 | ato_aircraft_details     | vu=20047 aircraft=2 details=2
+2026-10-31 19:41:34.525 | ato_target               | resolved id=20046 target=Attack
+2026-10-31 19:41:34.526 | ato_aircraft_details     | vu=20100 aircraft=2 details=2
+2026-10-31 19:41:34.529 | ato_aircraft_details     | vu=20151 aircraft=2 details=2
+2026-10-31 19:41:34.543 | ato_aircraft_details     | vu=20152 aircraft=2 details=2
+2026-10-31 19:41:34.558 | ato_aircraft_details     | vu=20153 aircraft=2 details=2
+2026-10-31 19:41:34.569 | ato_aircraft_details     | vu=20154 aircraft=2 details=2
+2026-10-31 19:41:34.574 | ato_target               | resolved id=6332 target=Air Defense
+2026-10-31 19:41:34.576 | ato_aircraft_details     | vu=20018 aircraft=2 details=2
+2026-10-31 19:41:34.583 | ato_target               | resolved id=6332 target=Air Defense
+2026-10-31 19:41:34.585 | ato_aircraft_details     | vu=20033 aircraft=4 details=4
+2026-10-31 19:41:34.596 | ato_target               | resolved id=847 target=Kwaksan
+2026-10-31 19:41:34.597 | ato_aircraft_details     | vu=20027 aircraft=2 details=2
+2026-10-31 19:41:34.604 | ato_target               | resolved id=847 target=Kwaksan
+2026-10-31 19:41:34.606 | ato_aircraft_details     | vu=20046 aircraft=2 details=2
+2026-10-31 19:41:34.626 | ato_aircraft_details     | vu=20052 aircraft=2 details=2
+2026-10-31 19:41:34.636 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:41:34.639 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:41:34.638 | ato_target               | resolved id=6303 target=SAG
+2026-10-31 19:41:34.644 | ato_aircraft_details     | vu=20180 aircraft=2 details=2
+2026-10-31 19:41:34.669 | ato_target               | resolved id=6303 target=SAG
+2026-10-31 19:41:34.670 | ato_target               | resolved id=6299 target=SAG
+2026-10-31 19:41:34.671 | ato_aircraft_details     | vu=20187 aircraft=2 details=2
+2026-10-31 19:41:34.671 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:41:34.691 | ato_target               | resolved id=6299 target=SAG
+2026-10-31 19:41:34.693 | ato_target               | resolved id=20017 target=Fighter
+2026-10-31 19:41:34.694 | ato_aircraft_details     | vu=20019 aircraft=1 details=1
+2026-10-31 19:41:34.702 | ato_target               | resolved id=20017 target=Fighter
+2026-10-31 19:41:34.702 | ato_aircraft_details     | vu=20170 aircraft=1 details=1
+2026-10-31 19:41:34.704 | ato_aircraft_details     | vu=20175 aircraft=1 details=1
+2026-10-31 19:41:34.706 | ato_aircraft_details     | vu=20182 aircraft=1 details=1
+2026-10-31 19:41:34.711 | ato_aircraft_details     | vu=20190 aircraft=1 details=1
+2026-10-31 19:41:34.713 | ato_aircraft_details     | vu=20198 aircraft=1 details=1
+2026-10-31 19:41:34.743 | ato_aircraft_details     | vu=20158 aircraft=1 details=1
+2026-10-31 19:41:34.745 | ato_aircraft_details     | vu=20163 aircraft=1 details=1
+2026-10-31 19:41:34.755 | ato_aircraft_details     | vu=20006 aircraft=4 details=4
+2026-10-31 19:41:34.790 | ato_aircraft_details     | vu=20007 aircraft=4 details=4
+2026-10-31 19:41:34.811 | ato_aircraft_details     | vu=20029 aircraft=2 details=2
+2026-10-31 19:41:34.828 | ato_target               | resolved id=965 target=Iwon Airbase
+2026-10-31 19:41:34.829 | ato_aircraft_details     | vu=20031 aircraft=4 details=4
+2026-10-31 19:41:34.852 | ato_aircraft_details     | vu=20034 aircraft=4 details=4
+2026-10-31 19:41:34.868 | ato_target               | resolved id=965 target=Iwon Airbase
+2026-10-31 19:41:34.870 | ato_target               | resolved id=2102 target=Samjiyon Airport (ZKSE)
+2026-10-31 19:41:34.871 | ato_aircraft_details     | vu=20035 aircraft=4 details=4
+2026-10-31 19:41:34.879 | ato_aircraft_details     | vu=20037 aircraft=4 details=4
+2026-10-31 19:41:34.888 | ato_target               | resolved id=2102 target=Samjiyon Airport (ZKSE)
+2026-10-31 19:41:34.894 | ato_aircraft_details     | vu=20036 aircraft=4 details=4
+2026-10-31 19:41:34.909 | ato_target               | resolved id=2102 target=Samjiyon Airport (ZKSE)
+2026-10-31 19:41:34.911 | ato_aircraft_details     | vu=20061 aircraft=4 details=4
+2026-10-31 19:41:34.917 | ato_target               | resolved id=1202 target=Sunan Intl Airport (ZKPY)
+2026-10-31 19:41:34.919 | ato_aircraft_details     | vu=20058 aircraft=4 details=4
+2026-10-31 19:41:34.942 | ato_target               | resolved id=1202 target=Sunan Intl Airport (ZKPY)
+2026-10-31 19:41:34.944 | ato_aircraft_details     | vu=20181 aircraft=2 details=2
+2026-10-31 19:41:34.959 | ato_aircraft_details     | vu=20142 aircraft=2 details=2
+2026-10-31 19:41:34.968 | ato_aircraft_details     | vu=20146 aircraft=2 details=2
+2026-10-31 19:41:34.982 | ato_aircraft_details     | vu=20150 aircraft=2 details=2
+2026-10-31 19:41:35.006 | ato_aircraft_details     | vu=20156 aircraft=2 details=2
+2026-10-31 19:41:35.026 | ato_target               | resolved id=20163 target=Tanker
+2026-10-31 19:41:35.026 | ato_aircraft_details     | vu=20164 aircraft=2 details=2
+2026-10-31 19:41:35.042 | ato_target               | resolved id=20163 target=Tanker
+2026-10-31 19:41:35.043 | ato_aircraft_details     | vu=20165 aircraft=2 details=2
+2026-10-31 19:41:35.062 | ato_target               | resolved id=20163 target=Tanker
+2026-10-31 19:41:35.078 | ato_aircraft_details     | vu=20166 aircraft=2 details=2
+2026-10-31 19:41:35.086 | ato_target               | resolved id=20163 target=Tanker
+2026-10-31 19:41:35.089 | ato_aircraft_details     | vu=20167 aircraft=2 details=2
+2026-10-31 19:41:35.115 | ato_target               | resolved id=20163 target=Tanker
+2026-10-31 19:41:35.117 | ato_target               | resolved id=6369 target=Air Defense
+2026-10-31 19:41:35.118 | ato_aircraft_details     | vu=20011 aircraft=2 details=2
+2026-10-31 19:41:35.126 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:41:35.144 | ato_target               | resolved id=6369 target=Air Defense
+2026-10-31 19:41:35.144 | ato_aircraft_details     | vu=20012 aircraft=2 details=2
+2026-10-31 19:41:35.158 | ato_target               | resolved id=6369 target=Air Defense
+2026-10-31 19:41:35.159 | ato_target               | resolved id=6366 target=Air Defense
+2026-10-31 19:41:35.162 | ato_aircraft_details     | vu=20016 aircraft=2 details=2
+2026-10-31 19:41:35.177 | ato_target               | resolved id=6366 target=Air Defense
+2026-10-31 19:41:35.178 | ato_aircraft_details     | vu=20015 aircraft=2 details=2
+2026-10-31 19:41:35.188 | ato_target               | resolved id=6366 target=Air Defense
+2026-10-31 19:41:35.188 | ato_target               | resolved id=6332 target=Air Defense
+2026-10-31 19:41:35.189 | ato_aircraft_details     | vu=20017 aircraft=2 details=2
+2026-10-31 19:41:35.204 | ato_target               | resolved id=6332 target=Air Defense
+2026-10-31 19:41:35.211 | ato_aircraft_details     | vu=20022 aircraft=4 details=4
+2026-10-31 19:41:35.215 | ato_target               | resolved id=6331 target=Air Defense
+2026-10-31 19:41:35.216 | ato_aircraft_details     | vu=20025 aircraft=2 details=2
+2026-10-31 19:41:35.230 | ato_target               | resolved id=6331 target=Air Defense
+2026-10-31 19:41:35.231 | ato_aircraft_details     | vu=20026 aircraft=2 details=2
+2026-10-31 19:41:35.236 | ato_target               | resolved id=6331 target=Air Defense
+2026-10-31 19:41:35.237 | ato_aircraft_details     | vu=20028 aircraft=2 details=2
+2026-10-31 19:41:35.250 | ato_aircraft_details     | vu=20060 aircraft=4 details=4
+2026-10-31 19:41:35.266 | ato_aircraft_details     | vu=20066 aircraft=4 details=4
+2026-10-31 19:41:35.272 | ato_aircraft_details     | vu=20072 aircraft=2 details=2
+2026-10-31 19:41:35.283 | ato_aircraft_details     | vu=20083 aircraft=4 details=4
+2026-10-31 19:41:35.289 | ato_aircraft_details     | vu=20040 aircraft=2 details=2
+2026-10-31 19:41:35.301 | ato_aircraft_details     | vu=20051 aircraft=2 details=2
+2026-10-31 19:41:35.308 | ato_aircraft_details     | vu=20062 aircraft=2 details=2
+2026-10-31 19:41:35.313 | ato_aircraft_details     | vu=20063 aircraft=2 details=2
+2026-10-31 19:41:35.321 | ato_aircraft_details     | vu=20069 aircraft=2 details=2
+2026-10-31 19:41:35.325 | ato_aircraft_details     | vu=20070 aircraft=2 details=2
+2026-10-31 19:41:35.337 | ato_target               | resolved id=234 target=Samsa-ri
+2026-10-31 19:41:35.337 | ato_aircraft_details     | vu=20148 aircraft=2 details=2
+2026-10-31 19:41:35.342 | ato_target               | resolved id=234 target=Samsa-ri
+2026-10-31 19:41:35.342 | ato_target               | resolved id=6708 target=Armored
+2026-10-31 19:41:35.343 | ato_aircraft_details     | vu=20155 aircraft=1 details=1
+2026-10-31 19:41:35.351 | ato_target               | resolved id=6708 target=Armored
+2026-10-31 19:41:35.352 | ato_target               | resolved id=6751 target=Armored
+2026-10-31 19:41:35.353 | ato_aircraft_details     | vu=20157 aircraft=1 details=1
+2026-10-31 19:41:35.363 | ato_target               | resolved id=6751 target=Armored
+2026-10-31 19:41:35.364 | ato_target               | resolved id=6551 target=Infantry
+2026-10-31 19:41:35.365 | ato_aircraft_details     | vu=20169 aircraft=1 details=1
+2026-10-31 19:41:35.369 | ato_target               | resolved id=6551 target=Infantry
+2026-10-31 19:41:35.370 | ato_aircraft_details     | vu=20189 aircraft=1 details=1
+2026-10-31 19:41:35.374 | ato_aircraft_details     | vu=20195 aircraft=1 details=1
+2026-10-31 19:41:35.380 | ato_aircraft_details     | vu=20196 aircraft=1 details=1
+2026-10-31 19:41:35.384 | ato_target               | resolved id=967 target=Kalma Airport (ZKWS)
+2026-10-31 19:41:35.385 | ato_aircraft_details     | vu=20020 aircraft=4 details=4
+2026-10-31 19:41:35.385 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:41:35.388 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:41:35.395 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:41:35.396 | ato_target               | resolved id=967 target=Kalma Airport (ZKWS)
+2026-10-31 19:41:35.397 | ato_aircraft_details     | vu=20021 aircraft=4 details=4
+2026-10-31 19:41:35.400 | ato_target               | resolved id=967 target=Kalma Airport (ZKWS)
+2026-10-31 19:41:35.401 | ato_target               | resolved id=964 target=Tanchon Airstrip
+2026-10-31 19:41:35.402 | ato_aircraft_details     | vu=20032 aircraft=4 details=4
+2026-10-31 19:41:35.409 | ato_target               | resolved id=965 target=Iwon Airbase
+2026-10-31 19:41:35.410 | ato_aircraft_details     | vu=20030 aircraft=4 details=4
+2026-10-31 19:41:35.415 | ato_target               | resolved id=965 target=Iwon Airbase
+2026-10-31 19:41:35.419 | ato_target               | resolved id=2569 target=SA-3 Nasong-ni
+2026-10-31 19:41:35.420 | ato_aircraft_details     | vu=20059 aircraft=2 details=2
+2026-10-31 19:41:35.426 | ato_target               | resolved id=2569 target=SA-3 Nasong-ni
+2026-10-31 19:41:35.427 | ato_target               | resolved id=2100 target=Pukchang-up Airbase
+2026-10-31 19:41:35.427 | ato_aircraft_details     | vu=20064 aircraft=4 details=4
+2026-10-31 19:41:35.435 | ato_aircraft_details     | vu=20067 aircraft=4 details=4
+2026-10-31 19:41:35.441 | ato_target               | resolved id=2100 target=Pukchang-up Airbase
+2026-10-31 19:41:35.441 | ato_aircraft_details     | vu=20065 aircraft=4 details=4
+2026-10-31 19:41:35.447 | ato_target               | resolved id=2100 target=Pukchang-up Airbase
+2026-10-31 19:41:35.448 | ato_aircraft_details     | vu=20073 aircraft=2 details=2
+2026-10-31 19:41:35.457 | ato_target               | resolved id=2122 target=EW Site Chungsan P-35
+2026-10-31 19:41:35.458 | ato_aircraft_details     | vu=20071 aircraft=4 details=4
+2026-10-31 19:41:35.465 | ato_target               | resolved id=2122 target=EW Site Chungsan P-35
+2026-10-31 19:41:35.467 | ato_target               | resolved id=2483 target=EW Site Kanch'am 2 P-35
+2026-10-31 19:41:35.467 | ato_aircraft_details     | vu=20082 aircraft=2 details=2
+2026-10-31 19:41:35.471 | ato_target               | resolved id=2471 target=EW Site Kanch'am 1 P-14
+2026-10-31 19:41:35.471 | ato_aircraft_details     | vu=20081 aircraft=4 details=4
+2026-10-31 19:41:35.475 | ato_target               | resolved id=2471 target=EW Site Kanch'am 1 P-14
+2026-10-31 19:41:35.486 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:41:35.487 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:41:35.503 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:43:34.912 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:43:34.955 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:43:34.957 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:43:34.960 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:43:34.962 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:43:34.963 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:43:34.975 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:43:35.039 | ato_departure            | resolved=1/1
+2026-10-31 19:43:39.330 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:43:39.373 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:43:39.379 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:43:39.383 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:43:39.387 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:43:39.390 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:43:39.390 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:43:39.393 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:43:39.644 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:43:40.075 | friendly_air_defense     | pkg=1427 ref=stpt sites=29 combat_wp=6 aoo_wp=0 covering=3 nearby=7 shown=5 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=242 alt_ft=32000
+2026-10-31 19:43:40.153 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok buddies=25
+2026-10-31 19:43:40.155 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:43:40.156 | briefing_context         | package_route_sketch flights=1 points=10
+2026-10-31 19:43:40.156 | briefing_context         | ordnance vu=20007 aircraft=4 pending=False
+2026-10-31 19:43:40.254 | campaign_overview        | built team=1 conditions=3 force_rows=7
+2026-10-31 19:43:40.270 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:43:40.272 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:43:40.402 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:43:40.810 | campaign_overview        | built team=1 conditions=3 force_rows=7
+2026-10-31 19:43:40.843 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:43:40.845 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:43:40.847 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:43:40.850 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:43:40.850 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:43:40.869 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:43:50.968 | campaign_overview        | built team=1 conditions=3 force_rows=7
+2026-10-31 19:43:50.972 | campaign_overview        | system_marks=8
+2026-10-31 19:43:51.014 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:43:51.031 | briefing_context         | package_overview flights=1 route_points=9 focus_points=3 unique_points=9
+2026-10-31 19:43:51.037 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:43:51.162 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:43:51.343 | campaign_overview        | built team=1 conditions=3 force_rows=7
+2026-10-31 19:43:51.347 | campaign_overview        | system_marks=8
+2026-10-31 19:43:51.491 | campaign_overview        | built team=1 conditions=3 force_rows=7
+2026-10-31 19:43:51.496 | campaign_overview        | system_marks=8
+2026-10-31 19:43:51.640 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:43:51.643 | campaign_overview        | built team=1 conditions=3 force_rows=7
+2026-10-31 19:43:51.647 | campaign_overview        | system_marks=8
+2026-10-31 19:43:51.927 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:43:52.199 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:44:04.272 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:44:04.322 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:44:04.324 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:44:04.327 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:44:04.329 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:44:04.330 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:44:04.343 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:44:10.700 | ppt_on_threat            | vu=6341 label='SA2' known=True r=50.0km
+2026-10-31 19:44:10.700 | ppt_create               | slot=0 label='SA2' r=50.0km
+2026-10-31 19:44:10.712 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:44:10.940 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:44:10.949 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:44:11.408 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:44:11.644 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:44:11.646 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:44:11.651 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:44:11.654 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:44:11.654 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:44:11.668 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:44:11.714 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:44:11.715 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:44:11.722 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:44:11.725 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:44:11.725 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:44:11.739 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:44:15.375 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:44:15.421 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:44:15.423 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:44:15.425 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:44:15.428 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:44:15.428 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:44:15.440 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:44:21.362 | ppt_create               | slot=1 label='SA2' r=50.0km
+2026-10-31 19:44:21.376 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:44:21.652 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:44:21.951 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:44:21.953 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:44:21.955 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:44:21.958 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:44:21.958 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:44:21.980 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=2 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:44:22.028 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:44:22.030 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:44:22.033 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:44:22.035 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:44:22.036 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:44:22.048 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=2 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:44:28.837 | ppt_delete               | slot=1
+2026-10-31 19:44:28.853 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:44:29.121 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:44:29.435 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:44:29.437 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:44:29.441 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:44:29.444 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:44:29.444 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:44:29.457 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:44:29.514 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:44:29.515 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:44:29.520 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:44:29.530 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:44:29.531 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:44:29.547 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:45:19.099 | campaign_overview        | built team=1 conditions=3 force_rows=7
+2026-10-31 19:45:19.104 | campaign_overview        | system_marks=8
+2026-10-31 19:45:20.151 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:45:20.193 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:45:20.195 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:45:20.204 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:45:20.207 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:45:20.207 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:45:20.221 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:45:21.890 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:45:21.893 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:45:21.900 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:45:21.904 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:45:21.904 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:45:22.346 | link16_fill              | package=0 (-0) buddies=8 (-7)
+2026-10-31 19:45:22.391 | vrp_app                  | arr='RKSO' rwy='09L' side='right' ok=True
+2026-10-31 19:45:22.399 | takeoff                  | dep='RKSO' rwy='09L' stpt=1 ok=True
+2026-10-31 19:45:22.551 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:45:22.554 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:45:22.557 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:45:22.564 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:45:22.565 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:45:22.583 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:45:22.971 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:45:22.973 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:45:22.975 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:45:22.977 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:45:22.977 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:45:22.995 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:45:23.045 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:45:23.047 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:45:23.049 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:45:23.051 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:45:23.051 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:45:23.065 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:45:25.500 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:45:25.537 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:45:25.539 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:45:25.541 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:45:25.543 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:45:25.543 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:45:25.556 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:45:58.591 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:45:58.634 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:45:58.636 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:45:58.639 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:45:58.642 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:45:58.642 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:45:58.654 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:06.721 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:46:06.773 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:06.777 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:06.783 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:06.796 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:06.796 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:06.814 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=1 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:12.328 | ppt_create               | slot=1 label='SA2' r=50.0km
+2026-10-31 19:46:12.350 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:46:12.615 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:46:12.988 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:12.990 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:12.993 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:12.997 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:12.997 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:13.012 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=2 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:13.062 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:13.064 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:13.066 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:13.069 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:13.069 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:13.082 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=2 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:18.366 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:46:18.414 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:18.417 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:18.420 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:18.424 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:18.425 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:18.439 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=2 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:22.653 | ppt_create               | slot=2 label='SA2' r=50.0km
+2026-10-31 19:46:22.674 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:46:22.986 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:46:23.398 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:23.400 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:23.405 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:23.411 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:23.411 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:23.432 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=3 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:23.489 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:23.491 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:23.495 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:23.499 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:23.500 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:23.517 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=3 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:25.414 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:46:25.448 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:25.450 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:25.453 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:25.455 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:25.455 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:25.469 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=3 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:29.879 | ppt_create               | slot=3 label='SA2' r=50.0km
+2026-10-31 19:46:29.892 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:46:30.175 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:46:30.532 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:30.534 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:30.536 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:30.538 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:30.539 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:30.551 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=4 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:30.597 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:30.599 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:30.601 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:30.604 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:30.604 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:30.618 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=4 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:32.152 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:46:32.202 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:32.205 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:32.209 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:32.212 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:32.212 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:32.228 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=4 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:35.680 | ppt_create               | slot=4 label='SA2' r=50.0km
+2026-10-31 19:46:35.699 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:46:35.996 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:46:36.359 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:36.362 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:36.364 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:36.367 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:36.367 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:36.382 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=5 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:36.430 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:36.434 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:36.438 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:36.443 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:36.443 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:36.457 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=5 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:38.396 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:46:38.444 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:38.448 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:38.451 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:38.453 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:38.454 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:38.468 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=5 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:41.618 | ppt_create               | slot=5 label='SA2' r=50.0km
+2026-10-31 19:46:41.633 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:46:42.102 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:46:42.398 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:42.401 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:42.404 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:42.409 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:42.410 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:42.424 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:42.470 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:42.472 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:42.474 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:42.481 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:42.481 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:42.499 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:43.930 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:46:43.991 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:43.993 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:43.996 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:43.999 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:43.999 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:44.015 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=6 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:47.005 | ppt_create               | slot=6 label='SA2' r=50.0km
+2026-10-31 19:46:47.021 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:46:47.345 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:46:47.723 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:47.725 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:47.728 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:47.732 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:47.732 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:47.749 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=7 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:47.802 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:47.804 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:47.807 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:47.811 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:47.811 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:47.833 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=7 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:57.909 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:57.913 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:57.918 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:57.921 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:57.921 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:57.933 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=7 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:46:57.975 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:57.976 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:46:57.979 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:46:57.982 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:46:57.983 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:46:57.997 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=7 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:47:13.028 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:47:13.034 | friendly_ad_zone         | wps=6 buffer_nm=20.0 hull=29
+2026-10-31 19:47:13.278 | friendly_air_defense     | pkg=1427 ref=aoo sites=29 combat_wp=0 aoo_wp=6 covering=10 nearby=3 shown=3 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=242 alt_ft=32000
+2026-10-31 19:47:27.301 | briefing_context         | package_overview flights=1 route_points=9 focus_points=3 unique_points=9
+2026-10-31 19:47:27.766 | roaster.data             | fetch
+2026-10-31 19:47:27.776 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:47:27.781 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:47:27.788 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:47:27.791 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:47:27.797 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:47:27.801 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:47:27.802 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:47:27.802 | roaster.data             | ok — 1 flights, axis=347.5°, noms=session
+2026-10-31 19:47:33.627 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:47:33.683 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:47:33.685 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:47:33.688 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:47:33.691 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:47:33.691 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:47:33.710 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=7 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:47:35.284 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:47:35.329 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:47:35.331 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:47:35.333 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:47:35.335 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:47:35.335 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:47:35.350 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=7 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:48:10.381 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:48:10.419 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:48:10.422 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:48:10.425 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:48:10.427 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:48:10.428 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:48:10.446 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=7 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:48:19.861 | briefing_context         | package_overview flights=1 route_points=9 focus_points=3 unique_points=9
+2026-10-31 19:48:22.246 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:48:22.304 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:48:22.306 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:48:22.309 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:48:22.311 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:48:22.312 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:48:22.328 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=7 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:49:09.812 | ppt_create               | slot=7 label='DIV' r=0.0km
+2026-10-31 19:49:09.839 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:49:10.133 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:49:10.459 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:49:10.462 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:49:10.464 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:49:10.468 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:49:10.468 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:49:10.489 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=8 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:49:10.545 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:49:10.547 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:49:10.550 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:49:10.552 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:49:10.553 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:49:10.568 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=8 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:49:19.113 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:49:19.404 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:49:19.782 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:49:19.784 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:49:19.789 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:49:19.804 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:49:19.805 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:49:19.828 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=8 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:49:19.936 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:49:19.939 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:49:19.942 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:49:19.944 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:49:19.945 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:49:19.963 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=8 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:49:36.692 | ppt_create               | slot=8 label='DIV' r=0.0km
+2026-10-31 19:49:36.712 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:49:37.028 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:49:37.375 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:49:37.377 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:49:37.380 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:49:37.383 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:49:37.383 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:49:37.397 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:49:37.439 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:49:37.442 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:49:37.444 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:49:37.447 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:49:37.447 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:49:37.460 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:50:03.362 | briefing_context         | package_overview flights=1 route_points=9 focus_points=3 unique_points=9
+2026-10-31 19:50:07.010 | campaign_overview        | built team=1 conditions=3 force_rows=7
+2026-10-31 19:50:07.029 | campaign_overview        | system_marks=8
+2026-10-31 19:50:07.504 | briefing_context         | package_overview flights=1 route_points=9 focus_points=3 unique_points=9
+2026-10-31 19:50:09.066 | timeline_data            | pkgs=74 flights=115 my_pkg=1427 my_vu=20007 buddies=17
+2026-10-31 19:50:09.071 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:50:09.072 | timeline_support         | tanker: vu=20158 source=bms in_payload=True
+2026-10-31 19:50:09.073 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:50:09.074 | timeline_support         | awacs: vu=20170 source=cam in_payload=True
+2026-10-31 19:50:19.259 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:50:19.300 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:50:19.302 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:50:19.305 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:50:19.308 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:50:19.308 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:50:19.324 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:50:19.363 | ato_departure            | resolved=1/1
+2026-10-31 19:50:32.458 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:50:32.504 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:50:32.506 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:50:32.510 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:50:32.513 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:50:32.513 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:50:32.525 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:50:32.593 | ato_departure            | resolved=1/1
+2026-10-31 19:50:35.916 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:50:35.924 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:50:35.927 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:50:35.934 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:50:35.935 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:50:35.983 | link16_fill              | package=0 (-0) buddies=8 (-7)
+2026-10-31 19:50:36.024 | takeoff                  | dep='RKSO' rwy='09L' stpt=1 ok=True
+2026-10-31 19:50:36.055 | vrp_app                  | arr='RKSO' rwy='09L' side='right' ok=True
+2026-10-31 19:50:36.166 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:50:36.168 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:50:36.171 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:50:36.174 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:50:36.175 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:50:36.192 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:50:36.519 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:50:36.521 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:50:36.526 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:50:36.529 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:50:36.529 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:50:36.549 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:50:48.476 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:50:48.478 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:50:48.480 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:50:48.482 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:50:48.483 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:50:48.495 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=75 hash=54613b25
+2026-10-31 19:50:58.943 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:50:58.945 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:50:58.948 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:50:58.950 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:50:58.951 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:50:58.968 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=77 hash=54613b25
+2026-10-31 19:51:01.517 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:51:01.518 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:51:01.520 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:51:01.522 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:51:01.523 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:51:01.535 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=77 hash=54613b25
+2026-10-31 19:51:04.265 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:51:04.267 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:51:04.270 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:51:04.272 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:51:04.272 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:51:04.285 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=77 hash=54613b25
+2026-10-31 19:51:13.489 | vrp_app                  | arr='RKSO' rwy='09L' side='right' ok=True
+2026-10-31 19:51:16.804 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:51:16.806 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:51:16.808 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:51:16.810 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:51:16.811 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:51:16.823 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=77 hash=54613b25
+2026-10-31 19:53:16.074 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:53:16.128 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:53:16.132 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:53:16.135 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:53:16.137 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:53:16.137 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:53:16.157 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=77 hash=54613b25
+2026-10-31 19:53:16.226 | ato_departure            | resolved=1/1
+2026-10-31 19:53:16.760 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:53:16.812 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:53:16.819 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:53:16.823 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:53:16.826 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:53:16.826 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:53:16.842 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=77 hash=54613b25
+2026-10-31 19:53:17.746 | airport_diagrams         | taxi surfaces=66 terrains en raster | repli K-NN : 21 sans mesh CT30, 0 sous-couvrants
+2026-10-31 19:53:17.747 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-10-31 19:53:18.290 | campaign_overview        | built team=1 conditions=3 force_rows=7
+2026-10-31 19:53:18.297 | campaign_overview        | system_marks=8
+2026-10-31 19:53:19.702 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:53:19.736 | friendly_ad_zone         | wps=6 buffer_nm=20.0 hull=29
+2026-10-31 19:53:20.612 | friendly_air_defense     | pkg=1427 ref=aoo sites=29 combat_wp=0 aoo_wp=6 covering=10 nearby=3 shown=3 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=242 alt_ft=32000
+2026-10-31 19:53:21.506 | briefing_context         | package_overview flights=1 route_points=9 focus_points=3 unique_points=9
+2026-10-31 19:53:21.566 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:54:05.230 | vrp_app                  | arr='RKSO' rwy='09L' side='right' ok=True
+2026-10-31 19:54:10.353 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:10.355 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:54:10.359 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:54:10.362 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:10.362 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:54:10.374 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=77 hash=54613b25
+2026-10-31 19:54:10.424 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:10.425 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:54:10.427 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:54:10.430 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:10.430 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:54:10.442 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=77 hash=54613b25
+2026-10-31 19:54:11.904 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:54:11.936 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:11.938 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:54:11.941 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:54:11.947 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:11.947 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:54:11.959 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=77 hash=54613b25
+2026-10-31 19:54:28.044 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:54:28.111 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:28.113 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:54:28.118 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:54:28.122 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:28.122 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:54:28.139 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=77 hash=54613b25
+2026-10-31 19:54:30.011 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:54:30.064 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:30.066 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:54:30.069 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:54:30.072 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:30.072 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:54:30.086 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=77 hash=54613b25
+2026-10-31 19:54:30.108 | ato_departure            | resolved=1/1
+2026-10-31 19:54:34.273 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:34.276 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:54:34.279 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:54:34.287 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:34.287 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:54:34.356 | link16_fill              | package=0 (-0) buddies=8 (-7)
+2026-10-31 19:54:34.411 | takeoff                  | dep='RKSO' rwy='09L' stpt=1 ok=True
+2026-10-31 19:54:34.460 | vrp_app                  | arr='RKSO' rwy='09L' side='right' ok=True
+2026-10-31 19:54:34.538 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:34.540 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:54:34.543 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:54:34.545 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:34.545 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:54:34.561 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=77 hash=54613b25
+2026-10-31 19:54:34.911 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:34.913 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:54:34.915 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:54:34.918 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:34.918 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:54:34.933 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=77 hash=54613b25
+2026-10-31 19:54:53.901 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:54:53.964 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:53.969 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:54:53.972 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:54:53.974 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:53.975 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:54:53.992 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=77 hash=54613b25
+2026-10-31 19:54:54.018 | ato_departure            | resolved=1/1
+2026-10-31 19:54:55.416 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:55.418 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:54:55.420 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:54:55.422 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:55.423 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:54:55.436 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=77 hash=54613b25
+2026-10-31 19:54:55.480 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:55.482 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:54:55.484 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:54:55.486 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:55.487 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:54:55.544 | dtc_backup_rotate        | ini=Arkane08.ini pruned=1 keep=5
+2026-10-31 19:54:55.547 | dtc_save_verbatim        | Arkane08.ini | debut 686 lignes
+2026-10-31 19:54:55.548 | dtc_save_verbatim        | Arkane08.ini | [EWS]
+2026-10-31 19:54:55.548 | dtc_save_verbatim        | Arkane08.ini | Reqctr=1
+2026-10-31 19:54:55.548 | dtc_save_verbatim        | Arkane08.ini | Bingo=1
+2026-10-31 19:54:55.548 | dtc_save_verbatim        | Arkane08.ini | Fdbk=1
+2026-10-31 19:54:55.548 | dtc_save_verbatim        | Arkane08.ini | Flare Bingo=5
+2026-10-31 19:54:55.548 | dtc_save_verbatim        | Arkane08.ini | Chaff Bingo=5
+2026-10-31 19:54:55.548 | dtc_save_verbatim        | Arkane08.ini | PGM 0 Chaff BQ=3
+2026-10-31 19:54:55.548 | dtc_save_verbatim        | Arkane08.ini | PGM 0 Chaff BI=750
+2026-10-31 19:54:55.548 | dtc_save_verbatim        | Arkane08.ini | PGM 0 Chaff SQ=3
+2026-10-31 19:54:55.548 | dtc_save_verbatim        | Arkane08.ini | PGM 0 Chaff SI=2000
+2026-10-31 19:54:55.548 | dtc_save_verbatim        | Arkane08.ini | PGM 0 Flare BQ=1
+2026-10-31 19:54:55.548 | dtc_save_verbatim        | Arkane08.ini | PGM 0 Flare BI=0
+2026-10-31 19:54:55.548 | dtc_save_verbatim        | Arkane08.ini | PGM 0 Flare SQ=1
+2026-10-31 19:54:55.548 | dtc_save_verbatim        | Arkane08.ini | PGM 0 Flare SI=0
+2026-10-31 19:54:55.548 | dtc_save_verbatim        | Arkane08.ini | PGM 1 Chaff BQ=1
+2026-10-31 19:54:55.548 | dtc_save_verbatim        | Arkane08.ini | PGM 1 Chaff BI=750
+2026-10-31 19:54:55.549 | dtc_save_verbatim        | Arkane08.ini | PGM 1 Chaff SQ=3
+2026-10-31 19:54:55.549 | dtc_save_verbatim        | Arkane08.ini | PGM 1 Chaff SI=3000
+2026-10-31 19:54:55.549 | dtc_save_verbatim        | Arkane08.ini | PGM 1 Flare BQ=4
+2026-10-31 19:54:55.549 | dtc_save_verbatim        | Arkane08.ini | PGM 1 Flare BI=500
+2026-10-31 19:54:55.549 | dtc_save_verbatim        | Arkane08.ini | PGM 1 Flare SQ=2
+2026-10-31 19:54:55.549 | dtc_save_verbatim        | Arkane08.ini | PGM 1 Flare SI=1000
+2026-10-31 19:54:55.549 | dtc_save_verbatim        | Arkane08.ini | PGM 2 Chaff BQ=2
+2026-10-31 19:54:55.549 | dtc_save_verbatim        | Arkane08.ini | PGM 2 Chaff BI=750
+2026-10-31 19:54:55.549 | dtc_save_verbatim        | Arkane08.ini | PGM 2 Chaff SQ=4
+2026-10-31 19:54:55.549 | dtc_save_verbatim        | Arkane08.ini | PGM 2 Chaff SI=3000
+2026-10-31 19:54:55.549 | dtc_save_verbatim        | Arkane08.ini | PGM 2 Flare BQ=1
+2026-10-31 19:54:55.549 | dtc_save_verbatim        | Arkane08.ini | PGM 2 Flare BI=0
+2026-10-31 19:54:55.549 | dtc_save_verbatim        | Arkane08.ini | PGM 2 Flare SQ=1
+2026-10-31 19:54:55.549 | dtc_save_verbatim        | Arkane08.ini | PGM 2 Flare SI=0
+2026-10-31 19:54:55.549 | dtc_save_verbatim        | Arkane08.ini | PGM 3 Chaff BQ=2
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 3 Chaff BI=750
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 3 Chaff SQ=4
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 3 Chaff SI=3000
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 3 Flare BQ=2
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 3 Flare BI=750
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 3 Flare SQ=3
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 3 Flare SI=3000
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 4 Chaff BQ=1
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 4 Chaff BI=0
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 4 Chaff SQ=1
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 4 Chaff SI=0
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 4 Flare BQ=1
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 4 Flare BI=0
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 4 Flare SQ=1
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 4 Flare SI=0
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 5 Chaff BQ=1
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 5 Chaff BI=0
+2026-10-31 19:54:55.550 | dtc_save_verbatim        | Arkane08.ini | PGM 5 Chaff SQ=1
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | PGM 5 Chaff SI=0
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | PGM 5 Flare BQ=1
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | PGM 5 Flare BI=0
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | PGM 5 Flare SQ=1
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | PGM 5 Flare SI=0
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | Reqjam=0
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | PGM 0 Comment=
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | PGM 1 Comment=
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | PGM 2 Comment=
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | PGM 3 Comment=
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | PGM 4 Comment=
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | PGM 5 Comment=
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | [MFD]
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | Display0-5-0=0
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | Display0-5-1=0
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | Display0-5-2=11
+2026-10-31 19:54:55.551 | dtc_save_verbatim        | Arkane08.ini | Display0-5-csel=2
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display1-5-0=0
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display1-5-1=0
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display1-5-2=12
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display1-5-csel=2
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display2-5-0=0
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display2-5-1=0
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display2-5-2=0
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display2-5-csel=2
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display3-5-0=0
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display3-5-1=0
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display3-5-2=0
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display3-5-csel=2
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display0-0-0=4
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display0-0-1=6
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display0-0-2=11
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display0-0-csel=2
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display0-1-0=4
+2026-10-31 19:54:55.552 | dtc_save_verbatim        | Arkane08.ini | Display0-1-1=6
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display0-1-2=11
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display0-1-csel=2
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display0-2-0=5
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display0-2-1=4
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display0-2-2=11
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display0-2-csel=2
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display0-3-0=4
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display0-3-1=6
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display0-3-2=11
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display0-3-csel=2
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display0-4-0=4
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display0-4-1=6
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display0-4-2=11
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display0-4-csel=2
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display1-0-0=8
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display1-0-1=10
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display1-0-2=12
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display1-0-csel=2
+2026-10-31 19:54:55.553 | dtc_save_verbatim        | Arkane08.ini | Display1-1-0=8
+2026-10-31 19:54:55.554 | dtc_save_verbatim        | Arkane08.ini | Display1-1-1=10
+2026-10-31 19:54:55.554 | dtc_save_verbatim        | Arkane08.ini | Display1-1-2=12
+2026-10-31 19:54:55.554 | dtc_save_verbatim        | Arkane08.ini | Display1-1-csel=2
+2026-10-31 19:54:55.554 | dtc_save_verbatim        | Arkane08.ini | Display1-2-0=8
+2026-10-31 19:54:55.554 | dtc_save_verbatim        | Arkane08.ini | Display1-2-1=10
+2026-10-31 19:54:55.554 | dtc_save_verbatim        | Arkane08.ini | Display1-2-2=12
+2026-10-31 19:54:55.554 | dtc_save_verbatim        | Arkane08.ini | Display1-2-csel=1
+2026-10-31 19:54:55.554 | dtc_save_verbatim        | Arkane08.ini | Display1-3-0=8
+2026-10-31 19:54:55.554 | dtc_save_verbatim        | Arkane08.ini | Display1-3-1=10
+2026-10-31 19:54:55.554 | dtc_save_verbatim        | Arkane08.ini | Display1-3-2=12
+2026-10-31 19:54:55.554 | dtc_save_verbatim        | Arkane08.ini | Display1-3-csel=2
+2026-10-31 19:54:55.554 | dtc_save_verbatim        | Arkane08.ini | Display1-4-0=8
+2026-10-31 19:54:55.554 | dtc_save_verbatim        | Arkane08.ini | Display1-4-1=10
+2026-10-31 19:54:55.554 | dtc_save_verbatim        | Arkane08.ini | Display1-4-2=12
+2026-10-31 19:54:55.554 | dtc_save_verbatim        | Arkane08.ini | Display1-4-csel=2
+2026-10-31 19:54:55.554 | dtc_save_verbatim        | Arkane08.ini | Display2-0-0=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-0-1=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-0-2=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-0-csel=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-1-0=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-1-1=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-1-2=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-1-csel=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-2-0=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-2-1=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-2-2=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-2-csel=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-3-0=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-3-1=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-3-2=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-3-csel=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-4-0=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-4-1=0
+2026-10-31 19:54:55.555 | dtc_save_verbatim        | Arkane08.ini | Display2-4-2=0
+2026-10-31 19:54:55.556 | dtc_save_verbatim        | Arkane08.ini | Display2-4-csel=0
+2026-10-31 19:54:55.556 | dtc_save_verbatim        | Arkane08.ini | Display3-0-0=0
+2026-10-31 19:54:55.556 | dtc_save_verbatim        | Arkane08.ini | Display3-0-1=0
+2026-10-31 19:54:55.556 | dtc_save_verbatim        | Arkane08.ini | Display3-0-2=0
+2026-10-31 19:54:55.556 | dtc_save_verbatim        | Arkane08.ini | Display3-0-csel=0
+2026-10-31 19:54:55.556 | dtc_save_verbatim        | Arkane08.ini | Display3-1-0=0
+2026-10-31 19:54:55.556 | dtc_save_verbatim        | Arkane08.ini | Display3-1-1=0
+2026-10-31 19:54:55.556 | dtc_save_verbatim        | Arkane08.ini | Display3-1-2=0
+2026-10-31 19:54:55.556 | dtc_save_verbatim        | Arkane08.ini | Display3-1-csel=0
+2026-10-31 19:54:55.556 | dtc_save_verbatim        | Arkane08.ini | Display3-2-0=0
+2026-10-31 19:54:55.556 | dtc_save_verbatim        | Arkane08.ini | Display3-2-1=0
+2026-10-31 19:54:55.556 | dtc_save_verbatim        | Arkane08.ini | Display3-2-2=0
+2026-10-31 19:54:55.556 | dtc_save_verbatim        | Arkane08.ini | Display3-2-csel=0
+2026-10-31 19:54:55.556 | dtc_save_verbatim        | Arkane08.ini | Display3-3-0=0
+2026-10-31 19:54:55.556 | dtc_save_verbatim        | Arkane08.ini | Display3-3-1=0
+2026-10-31 19:54:55.556 | dtc_save_verbatim        | Arkane08.ini | Display3-3-2=0
+2026-10-31 19:54:55.557 | dtc_save_verbatim        | Arkane08.ini | Display3-3-csel=0
+2026-10-31 19:54:55.557 | dtc_save_verbatim        | Arkane08.ini | Display3-4-0=0
+2026-10-31 19:54:55.557 | dtc_save_verbatim        | Arkane08.ini | Display3-4-1=0
+2026-10-31 19:54:55.557 | dtc_save_verbatim        | Arkane08.ini | Display3-4-2=0
+2026-10-31 19:54:55.557 | dtc_save_verbatim        | Arkane08.ini | Display3-4-csel=0
+2026-10-31 19:54:55.557 | dtc_save_verbatim        | Arkane08.ini | [Bullseye]
+2026-10-31 19:54:55.557 | dtc_save_verbatim        | Arkane08.ini | BullseyeInfoOnMFD=1
+2026-10-31 19:54:55.557 | dtc_save_verbatim        | Arkane08.ini | [IFF]
+2026-10-31 19:54:55.557 | dtc_save_verbatim        | Arkane08.ini | Mode1 On=1
+2026-10-31 19:54:55.557 | dtc_save_verbatim        | Arkane08.ini | Mode2 On=1
+2026-10-31 19:54:55.557 | dtc_save_verbatim        | Arkane08.ini | Mode3A On=0
+2026-10-31 19:54:55.557 | dtc_save_verbatim        | Arkane08.ini | Mode4 On=1
+2026-10-31 19:54:55.558 | dtc_save_verbatim        | Arkane08.ini | ModeC On=0
+2026-10-31 19:54:55.558 | dtc_save_verbatim        | Arkane08.ini | ModeS On=0
+2026-10-31 19:54:55.558 | dtc_save_verbatim        | Arkane08.ini | Mode1 Code=60
+2026-10-31 19:54:55.558 | dtc_save_verbatim        | Arkane08.ini | Mode2 Code=0230
+2026-10-31 19:54:55.558 | dtc_save_verbatim        | Arkane08.ini | Mode3A Code=0530
+2026-10-31 19:54:55.558 | dtc_save_verbatim        | Arkane08.ini | Mode4 Key=1
+2026-10-31 19:54:55.558 | dtc_save_verbatim        | Arkane08.ini | AutoChange=3
+2026-10-31 19:54:55.558 | dtc_save_verbatim        | Arkane08.ini | TIME 0 Mode1 Code=43
+2026-10-31 19:54:55.558 | dtc_save_verbatim        | Arkane08.ini | TIME 0 Mode3A Code=5130
+2026-10-31 19:54:55.558 | dtc_save_verbatim        | Arkane08.ini | TIME 0 Mode4 Key=1
+2026-10-31 19:54:55.558 | dtc_save_verbatim        | Arkane08.ini | TIME 0 Criteria=0400
+2026-10-31 19:54:55.558 | dtc_save_verbatim        | Arkane08.ini | TIME 1 Mode1 Code=33
+2026-10-31 19:54:55.558 | dtc_save_verbatim        | Arkane08.ini | TIME 1 Mode3A Code=1130
+2026-10-31 19:54:55.558 | dtc_save_verbatim        | Arkane08.ini | TIME 1 Mode4 Key=1
+2026-10-31 19:54:55.558 | dtc_save_verbatim        | Arkane08.ini | TIME 1 Criteria=0500
+2026-10-31 19:54:55.558 | dtc_save_verbatim        | Arkane08.ini | TIME 2 Mode1 Code=21
+2026-10-31 19:54:55.559 | dtc_save_verbatim        | Arkane08.ini | TIME 2 Mode3A Code=1204
+2026-10-31 19:54:55.559 | dtc_save_verbatim        | Arkane08.ini | TIME 2 Mode4 Key=1
+2026-10-31 19:54:55.559 | dtc_save_verbatim        | Arkane08.ini | TIME 2 Criteria=0600
+2026-10-31 19:54:55.559 | dtc_save_verbatim        | Arkane08.ini | TIME 3 Mode1 Code=22
+2026-10-31 19:54:55.559 | dtc_save_verbatim        | Arkane08.ini | TIME 3 Mode3A Code=1704
+2026-10-31 19:54:55.560 | dtc_save_verbatim        | Arkane08.ini | TIME 3 Mode4 Key=1
+2026-10-31 19:54:55.560 | dtc_save_verbatim        | Arkane08.ini | TIME 3 Criteria=0700
+2026-10-31 19:54:55.560 | dtc_save_verbatim        | Arkane08.ini | TIME 4 Mode1 Code=13
+2026-10-31 19:54:55.560 | dtc_save_verbatim        | Arkane08.ini | TIME 4 Mode3A Code=6204
+2026-10-31 19:54:55.560 | dtc_save_verbatim        | Arkane08.ini | TIME 4 Mode4 Key=1
+2026-10-31 19:54:55.560 | dtc_save_verbatim        | Arkane08.ini | TIME 4 Criteria=0800
+2026-10-31 19:54:55.560 | dtc_save_verbatim        | Arkane08.ini | TIME 5 Mode1 Code=61
+2026-10-31 19:54:55.560 | dtc_save_verbatim        | Arkane08.ini | TIME 5 Mode3A Code=7104
+2026-10-31 19:54:55.560 | dtc_save_verbatim        | Arkane08.ini | TIME 5 Mode4 Key=1
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 5 Criteria=0900
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 6 Mode1 Code=72
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 6 Mode3A Code=3230
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 6 Mode4 Key=1
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 6 Criteria=1000
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 7 Mode1 Code=22
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 7 Mode3A Code=2030
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 7 Mode4 Key=1
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 7 Criteria=1100
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 8 Mode1 Code=51
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 8 Mode3A Code=2254
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 8 Mode4 Key=1
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 8 Criteria=1200
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 9 Mode1 Code=63
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 9 Mode3A Code=2204
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 9 Mode4 Key=1
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 9 Criteria=1300
+2026-10-31 19:54:55.561 | dtc_save_verbatim        | Arkane08.ini | TIME 10 Mode1 Code=30
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | TIME 10 Mode3A Code=7504
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | TIME 10 Mode4 Key=1
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | TIME 10 Criteria=1400
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | TIME 11 Mode1 Code=13
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | TIME 11 Mode3A Code=3554
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | TIME 11 Mode4 Key=1
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | TIME 11 Criteria=1500
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | POS 0 Mode1=0
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | POS 0 Mode2=0
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | POS 0 Mode3A=0
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | POS 0 Mode4=1
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | POS 0 ModeC=0
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | POS 0 ModeS=0
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | POS 0 WayPoint=3
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | POS 0 Direction=2
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | POS 1 Mode1=1
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | POS 1 Mode2=1
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | POS 1 Mode3A=0
+2026-10-31 19:54:55.562 | dtc_save_verbatim        | Arkane08.ini | POS 1 Mode4=1
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | POS 1 ModeC=0
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | POS 1 ModeS=0
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | POS 1 WayPoint=9
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | POS 1 Direction=8
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | [HARM]
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | THREAT 0 0=0202
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | THREAT 0 1=0203
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | THREAT 0 2=0204
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | THREAT 0 3=0205
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | THREAT 0 4=0210
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | THREAT 1 0=0402
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | THREAT 1 1=0403
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | THREAT 1 2=0404
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | THREAT 1 3=0405
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | THREAT 1 4=0410
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | THREAT 2 0=0106
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | THREAT 2 1=0608
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | THREAT 2 2=0111
+2026-10-31 19:54:55.563 | dtc_save_verbatim        | Arkane08.ini | THREAT 2 3=0615
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | THREAT 2 4=0117
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | MODE=1
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | SUBMODE=1
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | TER=0
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | [LINK16]
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | FILE_A_VOICE_GROUP_A_CHANNEL=000
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | FILE_A_VOICE_GROUP_B_CHANNEL=000
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | FILE_A_MISSION_CHANNEL=054
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | FILE_A_FIGHTER_CHANNEL=101
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | FILE_A_SPECIAL_CHANNEL=-01
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | FILE_A_CALLSIGN=LR
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | FILE_A_CALLSIGN_NUMBER=11
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | FILE_A_FLIGHT_LEAD=1
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | FILE_A_EXT_TIME_REFERENCE=0
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | FILE_A_TACAN_CHANNEL=00
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | FILE_A_TACAN_BAND=X
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | FILE_A_FLIGHT_1_STN=54151
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | FILE_A_FLIGHT_2_STN=54152
+2026-10-31 19:54:55.564 | dtc_save_verbatim        | Arkane08.ini | FILE_A_FLIGHT_3_STN=54153
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_A_FLIGHT_4_STN=54154
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_A_TEAM_1_STN=00000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_A_TEAM_2_STN=00000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_A_TEAM_3_STN=00000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_A_TEAM_4_STN=00000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_A_DONOR_1_STN=00000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_A_DONOR_2_STN=00000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_A_DONOR_3_STN=00000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_A_DONOR_4_STN=00000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_A_DONOR_5_STN=00000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_A_DONOR_6_STN=00000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_A_DONOR_7_STN=00000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_A_DONOR_8_STN=00000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_B_VOICE_GROUP_A_CHANNEL=000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_B_VOICE_GROUP_B_CHANNEL=000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_B_MISSION_CHANNEL=000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_B_FIGHTER_CHANNEL=000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_B_SPECIAL_CHANNEL=000
+2026-10-31 19:54:55.565 | dtc_save_verbatim        | Arkane08.ini | FILE_B_CALLSIGN=
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_CALLSIGN_NUMBER=00
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_FLIGHT_LEAD=0
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_EXT_TIME_REFERENCE=0
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_TACAN_CHANNEL=00
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_TACAN_BAND=X
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_FLIGHT_1_STN=00000
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_FLIGHT_2_STN=00000
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_FLIGHT_3_STN=00000
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_FLIGHT_4_STN=00000
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_TEAM_1_STN=00000
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_TEAM_2_STN=00000
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_TEAM_3_STN=00000
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_TEAM_4_STN=00000
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_DONOR_1_STN=00000
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_DONOR_2_STN=00000
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_DONOR_3_STN=00000
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_DONOR_4_STN=00000
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_DONOR_5_STN=00000
+2026-10-31 19:54:55.566 | dtc_save_verbatim        | Arkane08.ini | FILE_B_DONOR_6_STN=00000
+2026-10-31 19:54:55.567 | dtc_save_verbatim        | Arkane08.ini | FILE_B_DONOR_7_STN=00000
+2026-10-31 19:54:55.567 | dtc_save_verbatim        | Arkane08.ini | FILE_B_DONOR_8_STN=00000
+2026-10-31 19:54:55.567 | dtc_save_verbatim        | Arkane08.ini | [STPT]
+2026-10-31 19:54:55.567 | dtc_save_verbatim        | Arkane08.ini | target_0=1162752.910000, 1539950.610000, -42.000000, 1, Not set
+2026-10-31 19:54:55.567 | dtc_save_verbatim        | Arkane08.ini | target_1=1238192.450000, 1408751.410000, -36.979427, 0, Not set
+2026-10-31 19:54:55.567 | dtc_save_verbatim        | Arkane08.ini | target_2=1323471.930000, 1444831.190000, -176.842194, 8, Not set
+2026-10-31 19:54:55.567 | dtc_save_verbatim        | Arkane08.ini | target_3=1379231.590000, 1467791.050000, -64.574211, 0, Not set
+2026-10-31 19:54:55.567 | dtc_save_verbatim        | Arkane08.ini | target_4=1923708.270000, 1277552.210000, -268.846527, 0, Not set
+2026-10-31 19:54:55.567 | dtc_save_verbatim        | Arkane08.ini | target_5=1953228.090000, 1169312.870000, -149.961945, 0, Not set
+2026-10-31 19:54:55.567 | dtc_save_verbatim        | Arkane08.ini | target_6=2120507.070000, 1238192.450000, -240.136414, 0, Not set
+2026-10-31 19:54:55.567 | dtc_save_verbatim        | Arkane08.ini | target_7=1953228.090000, 1307072.030000, -341.517395, 0, Not set
+2026-10-31 19:54:55.567 | dtc_save_verbatim        | Arkane08.ini | target_8=1382511.570000, 1477630.990000, -92.323608, 0, Not set
+2026-10-31 19:54:55.567 | dtc_save_verbatim        | Arkane08.ini | target_9=1162752.910000, 1539950.610000, -42.000000, 7, Not set
+2026-10-31 19:54:55.567 | dtc_save_verbatim        | Arkane08.ini | target_10=1120113.170000, 1543230.590000, -48.000000, 7, Not set
+2026-10-31 19:54:55.567 | dtc_save_verbatim        | Arkane08.ini | target_11=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.567 | dtc_save_verbatim        | Arkane08.ini | target_12=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_13=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_14=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_15=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_16=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_17=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_18=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_19=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_20=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_21=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_22=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_23=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_80=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_81=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_82=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_83=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_84=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_85=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.568 | dtc_save_verbatim        | Arkane08.ini | target_86=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | target_87=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | target_88=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | target_89=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | target_90=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | target_91=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | target_92=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | target_93=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | target_94=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | target_95=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | target_96=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | target_97=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | target_98=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | ppt_0=2077867.375000, 1356271.750000, -694.936890, 164042.000000, SA2
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | ppt_1=1991796.500000, 1113650.500000, 0.000000, 164042.000000, SA2
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | ppt_2=2106489.500000, 1191078.750000, 0.000000, 164042.000000, SA2
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | ppt_3=2178350.500000, 1168815.500000, 0.000000, 164042.000000, SA2
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | ppt_4=1961481.125000, 1287293.125000, 0.000000, 164042.000000, SA2
+2026-10-31 19:54:55.569 | dtc_save_verbatim        | Arkane08.ini | ppt_5=2248325.000000, 1303693.125000, 0.000000, 164042.000000, SA2
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | ppt_6=2134915.250000, 1344841.125000, 0.000000, 164042.000000, SA2
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | ppt_7=1587141.875000, 1283539.500000, 0.000000, 0.000000, DIV
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | ppt_8=1721064.375000, 1665900.500000, 0.000000, 0.000000, DIV
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | ppt_9=0.000000, 0.000000, 0.000000, 0.000000, 
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | ppt_10=0.000000, 0.000000, 0.000000, 0.000000, 
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | ppt_11=0.000000, 0.000000, 0.000000, 0.000000, 
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | ppt_12=0.000000, 0.000000, 0.000000, 0.000000, 
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | ppt_13=0.000000, 0.000000, 0.000000, 0.000000, 
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | ppt_14=0.000000, 0.000000, 0.000000, 0.000000, 
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_0=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_1=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_2=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_3=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_4=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_5=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_6=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.570 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_7=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_8=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_9=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_10=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_11=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_12=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_13=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_14=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_15=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_16=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_17=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_18=1869588.600000, 1023353.760000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_19=1948308.120000, 1239832.440000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_20=1849908.720000, 1416951.360000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_21=1849908.720000, 1613750.160000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_22=1908948.360000, 1594070.280000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | lineSTPT_23=1928628.240000, 1692469.680000, 0.000000
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | wpntarget_0=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | wpntarget_1=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.571 | dtc_save_verbatim        | Arkane08.ini | wpntarget_2=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_3=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_4=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_5=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_6=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_7=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_8=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_9=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_10=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_11=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_12=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_13=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_14=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_15=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_16=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_17=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_18=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.572 | dtc_save_verbatim        | Arkane08.ini | wpntarget_19=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_20=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_21=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_22=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_23=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_24=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_25=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_26=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_27=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_28=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_29=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_30=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_31=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_32=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_33=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_34=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_35=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_36=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.573 | dtc_save_verbatim        | Arkane08.ini | wpntarget_37=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.574 | dtc_save_verbatim        | Arkane08.ini | wpntarget_38=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.574 | dtc_save_verbatim        | Arkane08.ini | wpntarget_39=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.574 | dtc_save_verbatim        | Arkane08.ini | wpntarget_40=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.574 | dtc_save_verbatim        | Arkane08.ini | wpntarget_41=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.574 | dtc_save_verbatim        | Arkane08.ini | wpntarget_42=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.574 | dtc_save_verbatim        | Arkane08.ini | wpntarget_43=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.574 | dtc_save_verbatim        | Arkane08.ini | wpntarget_44=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.574 | dtc_save_verbatim        | Arkane08.ini | wpntarget_45=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.574 | dtc_save_verbatim        | Arkane08.ini | wpntarget_46=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.574 | dtc_save_verbatim        | Arkane08.ini | wpntarget_47=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.574 | dtc_save_verbatim        | Arkane08.ini | wpntarget_48=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.574 | dtc_save_verbatim        | Arkane08.ini | wpntarget_49=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.574 | dtc_save_verbatim        | Arkane08.ini | wpntarget_50=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.574 | dtc_save_verbatim        | Arkane08.ini | wpntarget_51=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.574 | dtc_save_verbatim        | Arkane08.ini | wpntarget_52=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_53=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_54=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_55=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_56=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_57=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_58=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_59=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_60=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_61=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_62=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_63=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_64=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_65=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_66=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_67=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_68=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_69=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_70=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.575 | dtc_save_verbatim        | Arkane08.ini | wpntarget_71=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.576 | dtc_save_verbatim        | Arkane08.ini | wpntarget_72=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.576 | dtc_save_verbatim        | Arkane08.ini | wpntarget_73=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.576 | dtc_save_verbatim        | Arkane08.ini | wpntarget_74=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.576 | dtc_save_verbatim        | Arkane08.ini | wpntarget_75=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.576 | dtc_save_verbatim        | Arkane08.ini | wpntarget_76=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.576 | dtc_save_verbatim        | Arkane08.ini | wpntarget_77=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.576 | dtc_save_verbatim        | Arkane08.ini | wpntarget_78=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.576 | dtc_save_verbatim        | Arkane08.ini | wpntarget_79=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.576 | dtc_save_verbatim        | Arkane08.ini | wpntarget_80=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.576 | dtc_save_verbatim        | Arkane08.ini | wpntarget_81=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.576 | dtc_save_verbatim        | Arkane08.ini | wpntarget_82=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.576 | dtc_save_verbatim        | Arkane08.ini | wpntarget_83=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.576 | dtc_save_verbatim        | Arkane08.ini | wpntarget_84=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.576 | dtc_save_verbatim        | Arkane08.ini | wpntarget_85=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.576 | dtc_save_verbatim        | Arkane08.ini | wpntarget_86=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.576 | dtc_save_verbatim        | Arkane08.ini | wpntarget_87=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.577 | dtc_save_verbatim        | Arkane08.ini | wpntarget_88=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.577 | dtc_save_verbatim        | Arkane08.ini | wpntarget_89=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.577 | dtc_save_verbatim        | Arkane08.ini | wpntarget_90=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.577 | dtc_save_verbatim        | Arkane08.ini | wpntarget_91=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.577 | dtc_save_verbatim        | Arkane08.ini | wpntarget_92=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.577 | dtc_save_verbatim        | Arkane08.ini | wpntarget_93=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.577 | dtc_save_verbatim        | Arkane08.ini | wpntarget_94=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.577 | dtc_save_verbatim        | Arkane08.ini | wpntarget_95=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.577 | dtc_save_verbatim        | Arkane08.ini | wpntarget_96=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.577 | dtc_save_verbatim        | Arkane08.ini | wpntarget_97=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.577 | dtc_save_verbatim        | Arkane08.ini | wpntarget_98=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.577 | dtc_save_verbatim        | Arkane08.ini | wpntarget_99=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.577 | dtc_save_verbatim        | Arkane08.ini | [Radio]
+2026-10-31 19:54:55.577 | dtc_save_verbatim        | Arkane08.ini | UHF_1=304800
+2026-10-31 19:54:55.577 | dtc_save_verbatim        | Arkane08.ini | UHF_2=253700
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_3=308800
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_4=306300
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_5=370450
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_6=259850
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_7=306300
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_8=308800
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_9=253700
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_10=363100
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_11=257800
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_12=229700
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_13=253675
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_14=339750
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_15=304750
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_16=244225
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_17=271850
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_18=275025
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_19=274350
+2026-10-31 19:54:55.578 | dtc_save_verbatim        | Arkane08.ini | UHF_20=280500
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_1=(open)
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_2=DEP Ground
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_3=DEP Tower
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_4=DEP Approach
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_5=(open)
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_6=Tactical
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_7=ARR Approach
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_8=ARR Tower
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_9=ARR Ground
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_10=(open)
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_11=(open)
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_12=(open)
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_13=(open)
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_14=Advisory
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_15=Intra Flight 1
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_16=(open)
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_17=(open)
+2026-10-31 19:54:55.579 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_18=(open)
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_19=(open)
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | UHF_COMMENT_20=(open)
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | VHF_1=138050
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | VHF_2=132125
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | VHF_3=122100
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | VHF_4=126200
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | VHF_5=134250
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | VHF_6=133150
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | VHF_7=132125
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | VHF_8=122100
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | VHF_9=132875
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | VHF_10=128250
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | VHF_11=122500
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | VHF_12=121200
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | VHF_13=119500
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | VHF_14=119500
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | VHF_15=32725
+2026-10-31 19:54:55.580 | dtc_save_verbatim        | Arkane08.ini | VHF_16=31150
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_17=143700
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_18=143950
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_19=141100
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_20=121700
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_1=(open)
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_2=DEP ATIS
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_3=DEP Tower
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_4=(open)
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_5=(open)
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_6=(open)
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_7=ARR ATIS
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_8=ARR Tower
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_9=(open)
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_10=(open)
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_11=(open)
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_12=(open)
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_13=(open)
+2026-10-31 19:54:55.581 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_14=UNICOM
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_15=Flight-1
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_16=(open)
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_17=(open)
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_18=(open)
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_19=(open)
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | VHF_COMMENT_20=(open)
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | ILS_1=0
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | ILS_COMMENT_1=ILS_1
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | ILS_2=11110
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | ILS_COMMENT_2=ILS_2
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | ILS_3=0
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | ILS_COMMENT_3=ILS_3
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | ILS_4=0
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | ILS_COMMENT_4=ILS_4
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | [COMMS]
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | Comm1=2
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | Comm1_Comment=(open)
+2026-10-31 19:54:55.582 | dtc_save_verbatim        | Arkane08.ini | Comm2=16
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | Comm2_Comment=(open)
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | TACAN Channel=12
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | TACAN Band=1
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | TACAN Domain=1
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | ILS Frequency=10900
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | ILS CRS=0
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | [MAP_POP]
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | MapOpt_0=1
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | MapOpt_1=0
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | MapOpt_2=1
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | MapOpt_3=1
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | MapOpt_4=0
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | MapOpt_5=0
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | MapOpt_6=0
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | MapOpt_7=0
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | MapOpt_8=0
+2026-10-31 19:54:55.583 | dtc_save_verbatim        | Arkane08.ini | MapOpt_9=0
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_10=0
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_11=0
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_12=0
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_13=0
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_14=0
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_15=0
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_16=1
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_17=1
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_18=1
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_19=0
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_20=1
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_21=0
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_22=1
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_23=0
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_24=0
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_25=1
+2026-10-31 19:54:55.584 | dtc_save_verbatim        | Arkane08.ini | MapOpt_26=0
+2026-10-31 19:54:55.585 | dtc_save_verbatim        | Arkane08.ini | MapOpt_27=1
+2026-10-31 19:54:55.585 | dtc_save_verbatim        | Arkane08.ini | MapOpt_28=0
+2026-10-31 19:54:55.585 | dtc_save_verbatim        | Arkane08.ini | MapOpt_29=0
+2026-10-31 19:54:55.585 | dtc_save_verbatim        | Arkane08.ini | MapOpt_30=0
+2026-10-31 19:54:55.585 | dtc_save_verbatim        | Arkane08.ini | MapOpt_31=1
+2026-10-31 19:54:55.585 | dtc_save_verbatim        | Arkane08.ini | MapOpt_32=0
+2026-10-31 19:54:55.585 | dtc_save_verbatim        | Arkane08.ini | MapOpt_33=0
+2026-10-31 19:54:55.585 | dtc_save_verbatim        | Arkane08.ini | [NAV OFFSETS]
+2026-10-31 19:54:55.585 | dtc_save_verbatim        | Arkane08.ini | Modesel=vrp
+2026-10-31 19:54:55.585 | dtc_save_verbatim        | Arkane08.ini | VIP=0,0,0,0
+2026-10-31 19:54:55.585 | dtc_save_verbatim        | Arkane08.ini | VIPPUP=0,0,0,0
+2026-10-31 19:54:55.585 | dtc_save_verbatim        | Arkane08.ini | VRP=9,183.4,65053,3072
+2026-10-31 19:54:55.585 | dtc_save_verbatim        | Arkane08.ini | VRPPUP=9,148.3,64597,3072
+2026-10-31 19:54:55.585 | dtc_save_verbatim        | Arkane08.ini | OA1-1=0.0,0,0
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | OA2-1=0.0,0,0
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | OA1-3=0,0,0
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | OA2-3=0,0,0
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | OA1-4=0,0,0
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | OA2-4=0,0,0
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | [ICP]
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | MasterMode=2
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | Alow AGL=300.000000
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | Alow MSL=23000
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | Alow TFAdv=400
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | Manual Wingspan=35.000000
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | Bingo_Fuel=3500.000000
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | [Laser]
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | LaserST=8
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | LaserTGP=1688
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | LaserLST=1688
+2026-10-31 19:54:55.586 | dtc_save_verbatim        | Arkane08.ini | [FCC_AIM]
+2026-10-31 19:54:55.587 | dtc_save_verbatim        | Arkane08.ini | AIM-9_Spot/Scan=0
+2026-10-31 19:54:55.587 | dtc_save_verbatim        | Arkane08.ini | AIM-9_TD/BP=0
+2026-10-31 19:54:55.587 | dtc_save_verbatim        | Arkane08.ini | AIM120_TargetSize=1
+2026-10-31 19:54:55.587 | dtc_save_verbatim        | Arkane08.ini | [FCC_AGM]
+2026-10-31 19:54:55.587 | dtc_save_verbatim        | Arkane08.ini | Maverick_AutoPwr=0
+2026-10-31 19:54:55.587 | dtc_save_verbatim        | Arkane08.ini | Maverick_AutoPwrDir=1
+2026-10-31 19:54:55.587 | dtc_save_verbatim        | Arkane08.ini | Maverick_AutoPwrWpt=1
+2026-10-31 19:54:55.587 | dtc_save_verbatim        | Arkane08.ini | [FCC_AGB]
+2026-10-31 19:54:55.587 | dtc_save_verbatim        | Arkane08.ini | Profile1_Submode=8
+2026-10-31 19:54:55.587 | dtc_save_verbatim        | Arkane08.ini | Profile1_Fuze=1
+2026-10-31 19:54:55.587 | dtc_save_verbatim        | Arkane08.ini | Profile1_SGL/PAIR=0
+2026-10-31 19:54:55.587 | dtc_save_verbatim        | Arkane08.ini | Profile1_Release_Spacing=175
+2026-10-31 19:54:55.587 | dtc_save_verbatim        | Arkane08.ini | Profile1_Release_Pulse=-1
+2026-10-31 19:54:55.587 | dtc_save_verbatim        | Arkane08.ini | Profile1_Release_Angle=45
+2026-10-31 19:54:55.587 | dtc_save_verbatim        | Arkane08.ini | Profile1_C1_AD1=400.000000
+2026-10-31 19:54:55.587 | dtc_save_verbatim        | Arkane08.ini | Profile1_C1_AD2=600.000000
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | Profile1_C2_AD=150.000000
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | Profile1_C2_BA=500
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | Profile2_Submode=7
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | Profile2_Fuze=1
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | Profile2_SGL/PAIR=0
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | Profile2_Release_Spacing=175
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | Profile2_Release_Pulse=-1
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | Profile2_Release_Angle=45
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | Profile2_C1_AD1=400.000000
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | Profile2_C1_AD2=600.000000
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | Profile2_C2_AD=150.000000
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | Profile2_C2_BA=500
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | [Hud]
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | Scales=1
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | Brightness=1
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | FPM=1
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | Velocity=1
+2026-10-31 19:54:55.588 | dtc_save_verbatim        | Arkane08.ini | Alt=1
+2026-10-31 19:54:55.589 | dtc_save_verbatim        | Arkane08.ini | SymWheelPos=1000
+2026-10-31 19:54:55.589 | dtc_save_verbatim        | Arkane08.ini | fin
+2026-10-31 19:54:55.590 | dtc_mfd                  | event=save path=Arkane08.ini mtime=2026-10-31 19:54:55 mfd_avant=46/96 mfd_apres=46/96
+2026-10-31 19:54:55.618 | dtc_save_verbatim        | campagne serieuse.ini | debut 185 lignes
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | [MISSION]
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | title=TIGER SPIRIT
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | [STPT]
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | target_0=1162752.910000, 1539950.610000, -42.000000, 1, Not set
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | target_1=1238192.450000, 1408751.410000, -36.979427, 0, Not set
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | target_2=1323471.930000, 1444831.190000, -176.842194, 8, Not set
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | target_3=1379231.590000, 1467791.050000, -64.574211, 0, Not set
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | target_4=1923708.270000, 1277552.210000, -268.846527, 0, Not set
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | target_5=1953228.090000, 1169312.870000, -149.961945, 0, Not set
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | target_6=2120507.070000, 1238192.450000, -240.136414, 0, Not set
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | target_7=1953228.090000, 1307072.030000, -341.517395, 0, Not set
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | target_8=1382511.570000, 1477630.990000, -92.323608, 0, Not set
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | target_9=1162752.910000, 1539950.610000, -42.000000, 7, Not set
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | target_10=1120113.170000, 1543230.590000, -48.000000, 7, Not set
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | target_11=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | target_12=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.619 | dtc_save_verbatim        | campagne serieuse.ini | target_13=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_14=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_15=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_16=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_17=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_18=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_19=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_20=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_21=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_22=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_23=0.000000, 0.000000, 0.000000, 0, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_80=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_81=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_82=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_83=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_84=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_85=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_86=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_87=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_88=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.620 | dtc_save_verbatim        | campagne serieuse.ini | target_89=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.621 | dtc_save_verbatim        | campagne serieuse.ini | target_90=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.621 | dtc_save_verbatim        | campagne serieuse.ini | target_91=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.621 | dtc_save_verbatim        | campagne serieuse.ini | target_92=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.621 | dtc_save_verbatim        | campagne serieuse.ini | target_93=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.621 | dtc_save_verbatim        | campagne serieuse.ini | target_94=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.621 | dtc_save_verbatim        | campagne serieuse.ini | target_95=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.621 | dtc_save_verbatim        | campagne serieuse.ini | target_96=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.621 | dtc_save_verbatim        | campagne serieuse.ini | target_97=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.621 | dtc_save_verbatim        | campagne serieuse.ini | target_98=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.621 | dtc_save_verbatim        | campagne serieuse.ini | ppt_0=2077867.375000, 1356271.750000, -694.936890, 164042.000000, SA2
+2026-10-31 19:54:55.621 | dtc_save_verbatim        | campagne serieuse.ini | ppt_1=1991796.500000, 1113650.500000, 0.000000, 164042.000000, SA2
+2026-10-31 19:54:55.621 | dtc_save_verbatim        | campagne serieuse.ini | ppt_2=2106489.500000, 1191078.750000, 0.000000, 164042.000000, SA2
+2026-10-31 19:54:55.621 | dtc_save_verbatim        | campagne serieuse.ini | ppt_3=2178350.500000, 1168815.500000, 0.000000, 164042.000000, SA2
+2026-10-31 19:54:55.621 | dtc_save_verbatim        | campagne serieuse.ini | ppt_4=1961481.125000, 1287293.125000, 0.000000, 164042.000000, SA2
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | ppt_5=2248325.000000, 1303693.125000, 0.000000, 164042.000000, SA2
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | ppt_6=2134915.250000, 1344841.125000, 0.000000, 164042.000000, SA2
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | ppt_7=1587141.875000, 1283539.500000, 0.000000, 0.000000, DIV
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | ppt_8=1721064.375000, 1665900.500000, 0.000000, 0.000000, DIV
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | ppt_9=0.000000, 0.000000, 0.000000, 0.000000, 
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | ppt_10=0.000000, 0.000000, 0.000000, 0.000000, 
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | ppt_11=0.000000, 0.000000, 0.000000, 0.000000, 
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | ppt_12=0.000000, 0.000000, 0.000000, 0.000000, 
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | ppt_13=0.000000, 0.000000, 0.000000, 0.000000, 
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | ppt_14=0.000000, 0.000000, 0.000000, 0.000000, 
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_0=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_1=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_2=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_3=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_4=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_5=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_6=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_7=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.622 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_8=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_9=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_10=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_11=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_12=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_13=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_14=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_15=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_16=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_17=0.000000, 0.000000, 0.000000
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_18=1869588.600000, 1023353.760000, 0.000000
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_19=1948308.120000, 1239832.440000, 0.000000
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_20=1849908.720000, 1416951.360000, 0.000000
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_21=1849908.720000, 1613750.160000, 0.000000
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_22=1908948.360000, 1594070.280000, 0.000000
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | lineSTPT_23=1928628.240000, 1692469.680000, 0.000000
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_0=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_1=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.623 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_2=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.624 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_3=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.624 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_4=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.624 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_5=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.624 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_6=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.624 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_7=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.624 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_8=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.624 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_9=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.624 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_10=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.624 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_11=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.624 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_12=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.624 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_13=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.624 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_14=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.624 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_15=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.624 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_16=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.624 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_17=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.624 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_18=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.625 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_19=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.625 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_20=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.625 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_21=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.625 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_22=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.625 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_23=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.625 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_24=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.625 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_25=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.625 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_26=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.625 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_27=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.625 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_28=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.625 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_29=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.625 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_30=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.625 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_31=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.625 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_32=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.625 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_33=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.625 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_34=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.626 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_35=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.626 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_36=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.626 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_37=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.626 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_38=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.626 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_39=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.626 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_40=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.626 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_41=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.626 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_42=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.626 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_43=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.626 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_44=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.626 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_45=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.626 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_46=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.626 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_47=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.626 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_48=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.627 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_49=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.627 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_50=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.627 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_51=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.627 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_52=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.627 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_53=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.627 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_54=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.627 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_55=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.627 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_56=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.627 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_57=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.627 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_58=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.627 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_59=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.627 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_60=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.627 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_61=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.627 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_62=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_63=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_64=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_65=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_66=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_67=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_68=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_69=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_70=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_71=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_72=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_73=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_74=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_75=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_76=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_77=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_78=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.628 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_79=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.629 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_80=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.629 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_81=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.629 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_82=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.629 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_83=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.629 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_84=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.629 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_85=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.629 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_86=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.629 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_87=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.629 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_88=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.629 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_89=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.629 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_90=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.629 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_91=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.629 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_92=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.630 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_93=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.630 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_94=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.630 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_95=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.630 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_96=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.630 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_97=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.630 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_98=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.630 | dtc_save_verbatim        | campagne serieuse.ini | wpntarget_99=0.000000, 0.000000, 0.000000, -1, Not set
+2026-10-31 19:54:55.630 | dtc_save_verbatim        | campagne serieuse.ini | fin
+2026-10-31 19:54:55.630 | dtc_save_sibling         | path=campagne serieuse.ini n_stpt=24 n_ppt=15 n_lines=24 n_dpi=0 n_divert=0
+2026-10-31 19:54:55.639 | dtc_autosave_ini         | copied source=campagne serieuse.ini
+2026-10-31 19:54:55.639 | dtc_save_ok              | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=9 n_dpi=0 n_divert=0 n_sections=77 n_seeded=0 seeded=[] n_keys=669 n_differ=116 sink=ok backup=_FBB_Backups/Arkane08_bkup_fbb_311026_195455.ini migrated=0 pruned=1
+2026-10-31 19:54:55.640 | dtc_save_radio           | vu=20007 flight=Lancer 1 written=20 keys=UHF_2:360750>253700,UHF_3:341400>308800,UHF_4:292425>306300,UHF_5:290125>370450,UHF_6:271725>259850,UHF_7:292425>306300,UHF_8:341400>308800,UHF_9:360750>253700,UHF_10:337025>363100,UHF_11:247050>257800,UHF_12:302175>229700,UHF_13:275175>253675,UHF_15:315275>304750,VHF_2:127450>132125,VHF_3:118600>122100,VHF_7:127450>132125,VHF_8:118600>122100,VHF_10:132550>128250,VHF_11:136000>122500,VHF_15:30025>32725 dep=UHF_2=253700(commentaire:DEP Ground),UHF_3=308800(commentaire:DEP Tower),UHF_4=306300(commentaire:DEP Approach),VHF_2=132125(commentaire:DEP ATIS),VHF_3=122100(commentaire:DEP Tower)
+2026-10-31 19:54:55.657 | ato_departure            | resolved=1/1
+2026-10-31 19:54:56.098 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:56.100 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:54:56.102 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:54:56.105 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:54:56.105 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:54:56.118 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=d6ab7b61
+2026-10-31 19:55:01.416 | charts_ondemand          | AGC rendu a la demande : RKSO (1388643 o) -> C:\Users\tparv\AppData\Roaming\FBB\FBB Charts\Korea KTO\RKSO - Osan AB\AGC_RKSO.png
+2026-10-31 19:55:03.083 | charts_ondemand          | AGC rendu a la demande : RKSG (920105 o) -> C:\Users\tparv\AppData\Roaming\FBB\FBB Charts\Korea KTO\RKSG - Pyeongtaek AAF\AGC_RKSG.png
+2026-10-31 19:55:05.688 | charts_ondemand          | AGC rendu a la demande : Nuchon-ni Airbase (1299452 o) -> C:\Users\tparv\AppData\Roaming\FBB\FBB Charts\Korea KTO\Nuchon-ni Airbase\AGC_Nuchon-ni Airbase.png
+2026-10-31 19:55:08.806 | charts_ondemand          | AGC rendu a la demande : Hyon-Ni Airbase (1283837 o) -> C:\Users\tparv\AppData\Roaming\FBB\FBB Charts\Korea KTO\Hyon-Ni Airbase\AGC_Hyon-Ni Airbase.png
+2026-10-31 19:55:10.764 | charts_ondemand          | AGC rendu a la demande : RKSS (1078702 o) -> C:\Users\tparv\AppData\Roaming\FBB\FBB Charts\Korea KTO\RKSS - Gimpo Intl Airport\AGC_RKSS.png
+2026-10-31 19:55:10.814 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:55:10.873 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:55:10.875 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:55:10.883 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:55:10.884 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:55:10.978 | campaign_overview        | built team=1 conditions=3 force_rows=7
+2026-10-31 19:55:10.984 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:55:11.182 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:55:11.506 | datacard_pil             | truncate page=Mission Objective block='Intel — SAM on package routes (at route altitude)' avail=328 need=474.6 full='282° / 5.5 NM of Seongcheon-eup Town'
+2026-10-31 19:55:11.506 | datacard_pil             | truncate page=Mission Objective block='Intel — SAM on package routes (at route altitude)' avail=328 need=346.2 full='092° / 2.9 NM of Aesab-dong'
+2026-10-31 19:55:11.507 | datacard_pil             | truncate page=Mission Objective block='Intel — SAM on package routes (at route altitude)' avail=328 need=432.5 full='068° / 2.5 NM of Pukchang-up Town'
+2026-10-31 19:55:11.507 | datacard_pil             | truncate page=Mission Objective block='Intel — SAM on package routes (at route altitude)' avail=328 need=334.9 full="313° / 4.5 NM of P'arwon-ni"
+2026-10-31 19:55:11.507 | datacard_pil             | truncate page=Mission Objective block='Intel — SAM on package routes (at route altitude)' avail=328 need=358.2 full='174° / 1.1 NM of Tokchon City'
+2026-10-31 19:55:11.507 | datacard_pil             | truncate page=Mission Objective block='Intel — SAM on package routes (at route altitude)' avail=328 need=393.7 full='290° / 1.4 NM of Hyangsan Town'
+2026-10-31 19:55:11.507 | datacard_pil             | truncate page=Mission Objective block='Intel — Enemy fighter bases within 150 NM of package routes' avail=188 need=195.5 full='117°M / 113 NM'
+2026-10-31 19:55:11.507 | datacard_pil             | truncate page=Mission Objective block='Intel — Enemy fighter bases within 150 NM of package routes' avail=188 need=195.5 full='078°M / 105 NM'
+2026-10-31 19:55:11.507 | datacard_pil             | truncate page=Mission Objective block='Intel — Enemy fighter bases within 150 NM of package routes' avail=188 need=195.5 full='077°M / 149 NM'
+2026-10-31 19:55:12.914 | datacard_pil             | truncate page=ROE - BVR block='SUPPORT' avail=112 need=121.4 full='157°M/74'
+2026-10-31 19:55:12.914 | datacard_pil             | truncate page=ROE - BVR block='SUPPORT' avail=112 need=136.3 full='219°M/207'
+2026-10-31 19:55:12.915 | datacard_pil             | truncate page=ROE - BVR block='SUPPORT' avail=112 need=136.3 full='211°M/257'
+2026-10-31 19:55:12.915 | datacard_pil             | truncate page=ROE - BVR block='SUPPORT' avail=108 need=110.2 full='RC-135W'
+2026-10-31 19:55:12.915 | datacard_pil             | truncate page=ROE - BVR block='SUPPORT' avail=112 need=136.3 full='211°M/257'
+2026-10-31 19:55:13.348 | datacard_pil             | truncate page=FLIGHTPLAN block='AIRBASE' avail=174 need=222.5 full='09R/09L/27L/27R'
+2026-10-31 19:55:13.348 | datacard_pil             | truncate page=FLIGHTPLAN block='AIRBASE' avail=174 need=222.5 full='09R/09L/27L/27R'
+2026-10-31 19:55:13.348 | datacard_pil             | truncate page=FLIGHTPLAN block='FLIGHTPLAN' avail=116 need=129.8 full='Arrowhead'
+2026-10-31 19:55:17.809 | dtc_mfd                  | event=read path=Arkane08.ini mtime=2026-10-31 19:54:55 mfd=46/96
+2026-10-31 19:55:17.994 | swap_context             | origin=select_cam:latest cam='campagne serieuse.cam' loaded=True err=''
+2026-10-31 19:55:18.070 | ato_departure            | resolved=1/1
+2026-10-31 19:55:18.352 | ato_departure            | resolved=1/1
+2026-10-31 19:55:18.770 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:55:18.896 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:55:18.902 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:55:18.914 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:55:18.925 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:55:18.928 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:55:18.943 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=d6ab7b61
+2026-10-31 19:55:20.462 | dtc_mfd                  | event=read path=Arkane08.ini mtime=2026-10-31 19:54:55 mfd=46/96
+2026-10-31 19:55:20.545 | swap_context             | origin=load_cam cam='campagne serieuse.cam' loaded=True err=''
+2026-10-31 19:55:20.580 | ato_departure            | resolved=1/1
+2026-10-31 19:55:20.724 | ato_departure            | resolved=1/1
+2026-10-31 19:55:21.066 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:55:21.125 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:55:21.127 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:55:21.131 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:55:21.134 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:55:21.135 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:55:21.159 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=d6ab7b61
+2026-10-31 19:55:25.508 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:55:25.564 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:55:25.567 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:55:25.571 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:55:25.573 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:55:25.574 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:55:25.587 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=d6ab7b61
+2026-10-31 19:55:25.608 | knb_print_state          | print grave cam=c:\falcon bms 4.38\data\campaign\campagne serieuse.cam dirs=1
+2026-10-31 19:55:25.646 | ato_departure            | resolved=1/1
+2026-10-31 19:55:30.230 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:55:31.476 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:55:31.718 | dtc_autosave_ini         | copied source=campagne serieuse.ini
+2026-10-31 19:55:31.732 | campaign_save            | mark_saved sig=- ecrit=C:\Falcon BMS 4.38\Data\Campaign\campagne serieuse.cam
+2026-10-31 19:55:32.208 | parse_health             | campagne serieuse.cam: records 785/785, bytes 353756/353756, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-31 19:55:32.400 | dtc_mfd                  | event=read path=Arkane08.ini mtime=2026-10-31 19:54:55 mfd=46/96
+2026-10-31 19:55:32.525 | swap_context             | origin=save_campaign cam='campagne serieuse.cam' loaded=True err=''
+2026-10-31 19:55:32.892 | ato_departure            | resolved=1/1
+2026-10-31 19:55:33.183 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:55:33.249 | ato_departure            | resolved=1/1
+2026-10-31 19:55:33.633 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:55:33.634 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:55:35.627 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:55:35.642 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:55:35.642 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:55:35.660 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=d6ab7b61
+2026-10-31 19:56:16.131 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:56:16.166 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:56:16.169 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:56:16.171 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:56:16.174 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:56:16.175 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:56:16.187 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b52125a0
+2026-10-31 19:56:16.259 | ato_departure            | resolved=1/1
+2026-10-31 19:56:19.344 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:56:19.397 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:56:19.399 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:56:19.402 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:56:19.404 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:56:19.405 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:56:19.417 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b52125a0
+2026-10-31 19:56:19.501 | ato_departure            | resolved=1/1
+2026-10-31 19:59:37.271 | ato_departure            | resolved=1/1
+2026-10-31 19:59:37.347 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:59:37.350 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:59:37.356 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:59:37.359 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:59:37.361 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:59:37.382 | dtc_render               | path=Arkane08.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=b52125a0
+2026-10-31 19:59:37.443 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-10-31 19:59:41.319 | roaster.data             | fetch
+2026-10-31 19:59:41.808 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:59:41.848 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:59:42.035 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:59:42.037 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:59:42.046 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:59:42.048 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:59:42.056 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:59:42.056 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:59:42.058 | roaster.data             | ok — 1 flights, axis=347.5°, noms=session
+2026-10-31 19:59:42.347 | ato_target               | index_built names=6784 memo=True
+2026-10-31 19:59:42.396 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:59:42.400 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:59:42.421 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:59:42.421 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:59:42.622 | campaign_overview        | objective_index loaded=5992
+2026-10-31 19:59:42.845 | campaign_overview        | built team=1 conditions=3 force_rows=7
+2026-10-31 19:59:42.859 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:59:43.193 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:59:44.197 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:59:44.297 | mission_support          | tanker: bms nearest vu=20158
+2026-10-31 19:59:44.299 | mission_support          | awacs: cam pkg=1427 vu=20170
+2026-10-31 19:59:44.313 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 19:59:44.313 | package_comms            | tactical ch=6 primary=Lancer 1 uhf=259.850
+2026-10-31 19:59:44.427 | campaign_overview        | built team=1 conditions=3 force_rows=7
+2026-10-31 19:59:44.436 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:59:44.659 | package_relevance        | package_routes pkg=1427 flights=1 routes=1 points=10
+2026-10-31 19:59:45.547 | datacard_pil             | truncate page=ROE - BVR block='SUPPORT' avail=112 need=121.4 full='157°M/74'
+2026-10-31 19:59:45.552 | datacard_pil             | truncate page=ROE - BVR block='SUPPORT' avail=112 need=136.3 full='219°M/207'
+2026-10-31 19:59:45.555 | datacard_pil             | truncate page=ROE - BVR block='SUPPORT' avail=112 need=136.3 full='211°M/257'
+2026-10-31 19:59:45.558 | datacard_pil             | truncate page=ROE - BVR block='SUPPORT' avail=108 need=110.2 full='RC-135W'
+2026-10-31 19:59:45.560 | datacard_pil             | truncate page=ROE - BVR block='SUPPORT' avail=112 need=136.3 full='211°M/257'
+2026-10-31 19:59:45.634 | datacard_pil             | truncate page=FLIGHTPLAN block='FLIGHTPLAN' avail=116 need=129.8 full='Arrowhead'
+2026-10-31 19:59:45.944 | datacard_pil             | truncate page=Mission Objective block='Intel — SAM on package routes (at route altitude)' avail=328 need=474.6 full='282° / 5.5 NM of Seongcheon-eup Town'
+2026-10-31 19:59:45.945 | datacard_pil             | truncate page=Mission Objective block='Intel — SAM on package routes (at route altitude)' avail=328 need=346.2 full='092° / 2.9 NM of Aesab-dong'
+2026-10-31 19:59:45.946 | datacard_pil             | truncate page=Mission Objective block='Intel — SAM on package routes (at route altitude)' avail=328 need=432.5 full='068° / 2.5 NM of Pukchang-up Town'
+2026-10-31 19:59:45.946 | datacard_pil             | truncate page=Mission Objective block='Intel — SAM on package routes (at route altitude)' avail=328 need=334.9 full="313° / 4.5 NM of P'arwon-ni"
+2026-10-31 19:59:45.947 | datacard_pil             | truncate page=Mission Objective block='Intel — SAM on package routes (at route altitude)' avail=328 need=358.2 full='174° / 1.1 NM of Tokchon City'
+2026-10-31 19:59:45.947 | datacard_pil             | truncate page=Mission Objective block='Intel — SAM on package routes (at route altitude)' avail=328 need=393.7 full='290° / 1.4 NM of Hyangsan Town'
+2026-10-31 19:59:45.947 | datacard_pil             | truncate page=Mission Objective block='Intel — Enemy fighter bases within 150 NM of package routes' avail=188 need=195.5 full='117°M / 113 NM'
+2026-10-31 19:59:45.947 | datacard_pil             | truncate page=Mission Objective block='Intel — Enemy fighter bases within 150 NM of package routes' avail=188 need=195.5 full='078°M / 105 NM'
+2026-10-31 19:59:45.947 | datacard_pil             | truncate page=Mission Objective block='Intel — Enemy fighter bases within 150 NM of package routes' avail=188 need=195.5 full='077°M / 149 NM'
