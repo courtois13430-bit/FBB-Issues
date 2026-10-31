@@ -1,0 +1,357 @@
+{
+  "fbb_sidecar_version": 1,
+  "app_version": "1.99.0",
+  "saved_utc": "2026-10-31T18:55:32Z",
+  "cam": {
+    "stem": "campagne serieuse",
+    "theater_key": "kto",
+    "campaign_name": "campagne serieuse",
+    "saved": "day 1 01:00:09"
+  },
+  "briefing": {
+    "v": 1,
+    "schema_version": 5,
+    "containers": [
+      {
+        "id": "11d32a38-5fac-4895-bfcd-8b8720d54b84",
+        "ctype": "mission_step",
+        "title": "Campaign Overview",
+        "visible": true,
+        "section_key": "campaign_overview",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "campaign_objectives",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "dbd37797-45c0-4032-b019-8871bc476944",
+        "ctype": "mission_step",
+        "title": "Mission / Friendly OOB",
+        "visible": true,
+        "section_key": "package_overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "roaster",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "69298779-f87e-42f2-9e95-540b3024028f",
+        "ctype": "mission_step",
+        "title": "Package + Timeline",
+        "visible": true,
+        "section_key": "pkg_timing",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "94679ae5-d90e-495b-93bd-7b6d41590ee9",
+        "ctype": "mission_step",
+        "title": "FPLN / Routes",
+        "visible": true,
+        "section_key": "steerpoints",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "fpln-asst",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "4ccc0f98-e802-4c2e-8669-52a7337883dd",
+        "ctype": "mission_step",
+        "title": "Weather / Forecast",
+        "visible": true,
+        "section_key": "weather",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "weather_overview"
+        }
+      },
+      {
+        "id": "19ec4f8e-530f-4027-b4d9-e0a8abed8ba2",
+        "ctype": "mission_step",
+        "title": "Threat Estimate",
+        "visible": true,
+        "section_key": "threat_analysis",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "c793628a-d007-478c-825f-c66764201e7d",
+        "ctype": "mission_step",
+        "title": "Package Comm Plan",
+        "visible": true,
+        "section_key": "comm_plan",
+        "source": "effective",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "ff3c8383-1712-40cb-8ab5-c1829a72525a",
+        "ctype": "mission_step",
+        "title": "Contracts",
+        "visible": true,
+        "section_key": "contracts",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "65553131-7c23-403e-bbc7-74875ac88512",
+        "ctype": "mission_step",
+        "title": "ROE (Rules of Engagement)",
+        "visible": true,
+        "section_key": "roe",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "6752ad20-b7ab-45e2-a6e2-2027a91605ef",
+        "ctype": "mission_step",
+        "title": "Recovery & Emergency",
+        "visible": true,
+        "section_key": "emerg",
+        "source": "cam",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "6a6bbf32-1f44-49e2-8b7a-19689ce2d870",
+        "ctype": "mission_step",
+        "title": "Flight Task & Targeting",
+        "visible": true,
+        "section_key": "overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_flight",
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "6db7ade3-6c0c-4162-a2c3-ccd1539e388d",
+        "ctype": "mission_step",
+        "title": "Ordnance",
+        "visible": true,
+        "section_key": "ordnance",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "loadout",
+          "context_tab": "session-aircraft",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "a82be100-4bb2-4275-98de-32d71492b8a1",
+        "ctype": "mission_step",
+        "title": "Domestics",
+        "visible": true,
+        "section_key": "domestics",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "dep_airfield",
+          "range_nm": 2,
+          "map_auto_open": true
+        }
+      },
+      {
+        "id": "615a7077-655a-4cf5-9fc1-d39d741f803d",
+        "ctype": "mission_step",
+        "title": "Plan Synch & deconflict",
+        "visible": true,
+        "section_key": "plan_synch",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      }
+    ]
+  },
+  "ppt": {
+    "entries": [
+      {
+        "label": "SA2",
+        "x_n": 2077867.33,
+        "y_e": 1356271.73,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "SA2",
+        "x_n": 2074297.1274820263,
+        "y_e": 1360312.4107378335,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "SA2",
+        "x_n": 1991796.469847145,
+        "y_e": 1113650.4787545505,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "SA2",
+        "x_n": 2106489.5905477386,
+        "y_e": 1191078.8044320953,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "SA2",
+        "x_n": 2178350.60469352,
+        "y_e": 1168815.455933725,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "SA2",
+        "x_n": 1961481.1397161703,
+        "y_e": 1287293.1209993793,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "SA2",
+        "x_n": 2248324.920866764,
+        "y_e": 1303693.1210139073,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "SA2",
+        "x_n": 2134915.274586348,
+        "y_e": 1344841.1392733988,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "DIV",
+        "x_n": 1578847.9652929085,
+        "y_e": 1300127.3601411185,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "DIV",
+        "x_n": 1587141.9300535256,
+        "y_e": 1283539.5140516085,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "DIV",
+        "x_n": 1721064.4351451662,
+        "y_e": 1665900.5205602285,
+        "origin": "manual",
+        "author": ""
+      }
+    ]
+  },
+  "lines": {
+    "entries": [
+      {
+        "pts": [
+          [
+            1869588.5999999999,
+            1023353.76
+          ],
+          [
+            1948308.1200000003,
+            1239832.4400000002
+          ],
+          [
+            1849908.72,
+            1416951.3600000003
+          ],
+          [
+            1849908.72,
+            1613750.1600000001
+          ],
+          [
+            1908948.36,
+            1594070.28
+          ],
+          [
+            1928628.2399999998,
+            1692469.6800000004
+          ]
+        ],
+        "origin": "auto",
+        "author": "",
+        "label": "FLOT"
+      }
+    ]
+  },
+  "cartridge": {
+    "ppt": {
+      "ppt_0": "2077867.375000, 1356271.750000, -694.936890, 164042.000000, SA2",
+      "ppt_1": "1991796.500000, 1113650.500000, 0.000000, 164042.000000, SA2",
+      "ppt_2": "2106489.500000, 1191078.750000, 0.000000, 164042.000000, SA2",
+      "ppt_3": "2178350.500000, 1168815.500000, 0.000000, 164042.000000, SA2",
+      "ppt_4": "1961481.125000, 1287293.125000, 0.000000, 164042.000000, SA2",
+      "ppt_5": "2248325.000000, 1303693.125000, 0.000000, 164042.000000, SA2",
+      "ppt_6": "2134915.250000, 1344841.125000, 0.000000, 164042.000000, SA2",
+      "ppt_7": "1587141.875000, 1283539.500000, 0.000000, 0.000000, DIV",
+      "ppt_8": "1721064.375000, 1665900.500000, 0.000000, 0.000000, DIV",
+      "ppt_9": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_10": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_11": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_12": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_13": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_14": "0.000000, 0.000000, 0.000000, 0.000000, "
+    },
+    "lines": {
+      "lineSTPT_0": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_1": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_2": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_3": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_4": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_5": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_6": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_7": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_8": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_9": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_10": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_11": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_12": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_13": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_14": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_15": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_16": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_17": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_18": "1869588.600000, 1023353.760000, 0.000000",
+      "lineSTPT_19": "1948308.120000, 1239832.440000, 0.000000",
+      "lineSTPT_20": "1849908.720000, 1416951.360000, 0.000000",
+      "lineSTPT_21": "1849908.720000, 1613750.160000, 0.000000",
+      "lineSTPT_22": "1908948.360000, 1594070.280000, 0.000000",
+      "lineSTPT_23": "1928628.240000, 1692469.680000, 0.000000"
+    }
+  }
+}
