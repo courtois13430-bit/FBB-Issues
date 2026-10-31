@@ -1,0 +1,47 @@
+2026-10-31 05:14:25.332 | ========================================================================
+2026-10-31 05:14:25.333 | startup                  | FBB 1.99.0 — session 2026-10-31 05:14:25
+2026-10-31 05:14:25.333 | startup                  | Répertoire : C:\Users\thcab\AppData\Local\Programs\FBB\_internal
+2026-10-31 05:14:25.333 | startup                  | Python 3.14.5
+2026-10-31 05:14:25.333 | ========================================================================
+2026-10-31 05:14:25.334 | system                   | OS : Windows 11 10.0.26300, AMD64, 12 CPU, RAM 32 GB
+2026-10-31 05:14:25.350 | system                   | Machine : <masqué> / Intel64 Family 6 Model 165 Stepping 5, GenuineIntel
+2026-10-31 05:14:25.350 | registry                 | BMS baseDir : C:\Falcon BMS 4.38
+2026-10-31 05:14:25.350 | registry                 | BMS theater : Hellas  pilot : Rouge
+2026-10-31 05:14:25.795 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-10-31 05:14:29.157 | telemetry                | ping OK v1.99.0 Windows 11 canal=prod → HTTP 200
+2026-10-31 05:14:31.827 | parse_health             | SilverThunder1.tac: records 19/19, bytes 9597/9597, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-10-31 05:14:33.279 | dtc_mfd                  | event=read path=Rouge.ini mtime=2026-10-30 21:50:11 mfd=45/96
+2026-10-31 05:14:34.055 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-31 05:14:34.097 | fpln_wp                  | final vu=c:6954 ARRIVE 22 wp  src=restore  restauration disque (boot)
+2026-10-31 05:14:34.097 | fpln_wp                  | final vu=c:6960 ARRIVE 22 wp  src=restore  restauration disque (boot)
+2026-10-31 05:14:34.863 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-10-31 05:14:34.990 | ato_departure            | resolved=5/5
+2026-10-31 05:14:39.049 | ato_departure            | resolved=5/5
+2026-10-31 05:14:39.114 | campaign_mods            | {'fpln': 20, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-31 05:14:43.892 | fuel_plan                | avail=12194 atTurn=3043 bingo=5700 joker=6200 rtb=2517 margin=-2657 NO-GO
+2026-10-31 05:14:48.335 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-31 05:14:48.354 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 05:14:50.786 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 05:14:50.786 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-31 05:14:50.801 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=18 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=4f2d3a90
+2026-10-31 05:14:59.990 | campaign_mods            | {'fpln': 20, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-31 05:15:00.689 | fuel_plan                | avail=12194 atTurn=3043 bingo=5700 joker=6200 rtb=2517 margin=-2657 NO-GO
+2026-10-31 05:15:00.698 | link16_fill              | package=10 (-0) buddies=0 (-0)
+2026-10-31 05:15:00.780 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 05:15:00.782 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 05:15:00.783 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 05:15:00.784 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-31 05:15:00.793 | dtc_render               | path=Rouge.ini n_stpt=24 n_lines=18 n_ppt=0 n_dpi=0 n_divert=3 n_sections=0 hash=4f2d3a90
+2026-10-31 05:15:00.802 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-10-31 05:15:00.803 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-10-31 05:15:01.517 | campaign_overview        | objective_index loaded=6944
+2026-10-31 05:15:01.635 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-10-31 05:15:01.637 | campaign_overview        | system_marks=0
+2026-10-31 05:15:03.153 | package_relevance        | package_routes pkg=3240 flights=5 routes=5 points=103
+2026-10-31 05:15:03.208 | friendly_ad_zone         | wps=1 buffer_nm=20.0 hull=24
+2026-10-31 05:15:04.037 | friendly_air_defense     | pkg=3240 ref=aoo sites=0 combat_wp=0 aoo_wp=1 covering=0 nearby=0 shown=0 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=171 alt_ft=22000
+2026-10-31 05:15:04.227 | briefing_context         | package_overview flights=5 route_points=65 focus_points=5 unique_points=65
+2026-10-31 05:15:04.312 | airport_diagrams         | taxi surfaces=70 terrains en raster | repli K-NN : 2 sans mesh CT30, 0 sous-couvrants
+2026-10-31 05:15:04.312 | airport_diagrams         |   sans CT30 : Cardak Airport, Eleftherios Venizelos Airport
+2026-10-31 05:15:04.531 | campaign_mods            | {'fpln': 20, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-10-31 05:18:53.595 | ato_departure            | resolved=5/5
