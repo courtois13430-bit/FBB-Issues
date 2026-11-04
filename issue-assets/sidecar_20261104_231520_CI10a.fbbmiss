@@ -1,0 +1,1497 @@
+{
+  "fbb_sidecar_version": 1,
+  "app_version": "1.99.252",
+  "saved_utc": "2026-11-04T22:05:50Z",
+  "cam": {
+    "stem": "CI10a",
+    "theater_key": "kto",
+    "campaign_name": "CI10a",
+    "saved": "day 3 05:13:50"
+  },
+  "identity": {
+    "flight_override": {
+      "vu_num": 26721,
+      "camp_id": 1251,
+      "callsign": "Falcon 1"
+    },
+    "seat_override": 0,
+    "forged_pkg_camp_id": 1235
+  },
+  "dpi": {
+    "v": 1,
+    "items": [
+      {
+        "id": "DPI-01",
+        "created_by": "",
+        "name": "1905 Munam Bridge",
+        "ct_type": 1880,
+        "ct_name": "Bridge Metal Red Cl",
+        "lat": 38.29674039931709,
+        "lon": 128.54294616919023,
+        "z_msl": -7.0,
+        "height_ft": null,
+        "airport": "",
+        "model": null,
+        "bear_bull": 109,
+        "dist_bull": 140.3,
+        "cam_e": 1978998.9,
+        "cam_n": 1607380.5,
+        "origin": "manual",
+        "bms_ref": {
+          "kind": "objective",
+          "num": 5507,
+          "creator": 0,
+          "building": 0
+        },
+        "visibility": "package",
+        "owner_vu": 0,
+        "target_role": "primary",
+        "assigned": [
+          0
+        ],
+        "assigned_by_flight": {
+          "26721": {
+            "callsign": "Falcon 1",
+            "ships": [
+              0
+            ],
+            "stpt": {
+              "0": 2
+            },
+            "wp": {
+              "0": "oi:1"
+            }
+          }
+        },
+        "dtc_by_seat": {
+          "26721": {
+            "0": {
+              "stpt": 99,
+              "wpn": null,
+              "state": "pending",
+              "ts": 1793829893.0815244
+            }
+          }
+        },
+        "tgt_slots": [
+          98
+        ]
+      }
+    ],
+    "cam_seen": {
+      "cam": "ci10a.cam",
+      "slots": [
+        [
+          "26721",
+          0,
+          3,
+          5507,
+          0,
+          0
+        ]
+      ],
+      "gen": "c93979f0056a37f7"
+    }
+  },
+  "briefing": {
+    "v": 1,
+    "schema_version": 5,
+    "containers": [
+      {
+        "id": "e93a7a6b-2d79-4ad4-80d4-e67a74cc16d9",
+        "ctype": "mission_step",
+        "title": "Campaign Overview",
+        "visible": true,
+        "section_key": "campaign_overview",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "campaign_objectives",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "c8ec74cd-d025-47cf-876d-d7311bc774eb",
+        "ctype": "mission_step",
+        "title": "Mission / Friendly OOB",
+        "visible": true,
+        "section_key": "package_overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "roaster",
+          "context_lifecycle": "while_active"
+        },
+        "mission_name": "CI10",
+        "intent": "Tank and Mobile SAM attrition",
+        "alr": 1
+      },
+      {
+        "id": "c5b8c823-f332-464e-8b69-261630a1d8a5",
+        "ctype": "mission_step",
+        "title": "Package + Timeline",
+        "visible": true,
+        "section_key": "pkg_timing",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "7ebbbf8e-5e4e-424b-a8d1-7ffb0ca67bbc",
+        "ctype": "mission_step",
+        "title": "FPLN / Routes",
+        "visible": true,
+        "section_key": "steerpoints",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview",
+          "context_window": "fpln-asst",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "d59aba6c-92d6-406c-88c5-b2478e515b4d",
+        "ctype": "mission_step",
+        "title": "Weather / Forecast",
+        "visible": true,
+        "section_key": "weather",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "weather_overview"
+        }
+      },
+      {
+        "id": "138ab8a1-668d-4320-864a-855b63e1ca90",
+        "ctype": "mission_step",
+        "title": "Threat Estimate",
+        "visible": true,
+        "section_key": "threat_analysis",
+        "source": "cam",
+        "text": "",
+        "rule": {
+          "center": "my_package",
+          "map_auto_open": true,
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "e17a7d61-7b73-4576-8cea-ef166bc90c9e",
+        "ctype": "mission_step",
+        "title": "Package Comm Plan",
+        "visible": true,
+        "section_key": "comm_plan",
+        "source": "effective",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "a6bd9bc5-ce1d-458a-b35d-48a1bb082fe5",
+        "ctype": "mission_step",
+        "title": "Contracts",
+        "visible": true,
+        "section_key": "contracts",
+        "source": "static",
+        "text": "",
+        "rule": {},
+        "rows": [
+          {
+            "trigger": "All  objectives complete",
+            "authority": "MC",
+            "comm": "\"MILLER TIME\"",
+            "action": "Retrograde 10, climb 10, RTB as a package — CAPs come off station last."
+          },
+          {
+            "trigger": "Overwhelmed — heavily defensive",
+            "authority": "MC",
+            "comm": "\"ALAMO\"",
+            "action": "Drag East"
+          }
+        ]
+      },
+      {
+        "id": "384ff0ba-40f6-4610-b509-27457bb55d90",
+        "ctype": "mission_step",
+        "title": "ROE (Rules of Engagement)",
+        "visible": true,
+        "section_key": "roe",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "3788246d-7ab1-4365-bb92-6a8c19865923",
+        "ctype": "mission_step",
+        "title": "Recovery & Emergency",
+        "visible": true,
+        "section_key": "emerg",
+        "source": "cam",
+        "text": "",
+        "rule": {}
+      },
+      {
+        "id": "42719aae-2d02-43e9-a328-14f32213721e",
+        "ctype": "mission_step",
+        "title": "Flight Task & Targeting",
+        "visible": true,
+        "section_key": "overview",
+        "source": "hybrid",
+        "text": "",
+        "rule": {
+          "center": "my_flight",
+          "system_preset": "mission_overview"
+        }
+      },
+      {
+        "id": "23592599-5ca6-4b2a-b9d8-6fa2acb0ff09",
+        "ctype": "mission_step",
+        "title": "Ordnance",
+        "visible": true,
+        "section_key": "ordnance",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "context_window": "loadout",
+          "context_tab": "session-aircraft",
+          "context_lifecycle": "while_active"
+        }
+      },
+      {
+        "id": "c356fe21-a0a6-4ac3-a366-0d04775e1599",
+        "ctype": "mission_step",
+        "title": "Domestics",
+        "visible": true,
+        "section_key": "domestics",
+        "source": "effective",
+        "text": "",
+        "rule": {
+          "center": "dep_airfield",
+          "range_nm": 2,
+          "map_auto_open": true
+        }
+      },
+      {
+        "id": "0b6665db-b7c3-48ef-a772-4945d9edfd61",
+        "ctype": "mission_step",
+        "title": "Plan Synch & deconflict",
+        "visible": true,
+        "section_key": "plan_synch",
+        "source": "static",
+        "text": "",
+        "rule": {}
+      }
+    ]
+  },
+  "fpln": {
+    "v": 2,
+    "secondary": {},
+    "final": {
+      "ts": 1793822393037,
+      "ts_vu": {
+        "c:1251": 1793822393037
+      },
+      "sec": {
+        "c:1251": {
+          "coords": [
+            [
+              0.024579850121951217,
+              0.018579886707317073
+            ],
+            [
+              0.024139852804878046,
+              0.01961988036585366
+            ],
+            [
+              0.021139871097560978,
+              0.018739885731707318
+            ],
+            [
+              0.01973987963414634,
+              0.01881988524390244
+            ],
+            [
+              0.019019884024390244,
+              0.018859885
+            ],
+            [
+              0.01725989475609756,
+              0.018979884268292686
+            ],
+            [
+              0.016099901829268293,
+              0.01937988182926829
+            ],
+            [
+              0.01589990304878049,
+              0.018699885975609756
+            ],
+            [
+              0.016659898414634146,
+              0.01849988719512195
+            ],
+            [
+              0.018619886463414635,
+              0.01841988768292683
+            ],
+            [
+              0.022379863536585366,
+              0.018539886951219515
+            ],
+            [
+              0.024579850121951217,
+              0.018579886707317073
+            ],
+            [
+              0.01601990231707317,
+              0.01145993012195122
+            ],
+            [
+              0.025579844024390244,
+              0.017219894999999995
+            ]
+          ],
+          "wps": [
+            {
+              "action": 1,
+              "_new": false,
+              "wp_key": "oi:0"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:1"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:2"
+            },
+            {
+              "action": 8,
+              "_new": false,
+              "wp_key": "oi:3"
+            },
+            {
+              "action": 2,
+              "_new": false,
+              "wp_key": "oi:4"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:5"
+            },
+            {
+              "action": 16,
+              "_new": false,
+              "wp_key": "oi:6"
+            },
+            {
+              "action": 16,
+              "_new": false,
+              "wp_key": "oi:7"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:8"
+            },
+            {
+              "action": 3,
+              "_new": false,
+              "wp_key": "oi:9"
+            },
+            {
+              "action": 0,
+              "_new": false,
+              "wp_key": "oi:10"
+            },
+            {
+              "action": 7,
+              "_new": false,
+              "wp_key": "oi:11"
+            },
+            {
+              "action": 4,
+              "_new": false,
+              "wp_key": "oi:12"
+            },
+            {
+              "action": 7,
+              "_new": false,
+              "wp_key": "oi:13"
+            }
+          ]
+        }
+      },
+      "orig": {},
+      "tle": {
+        "c:1251": {
+          "oi:7": {
+            "hold_min": 10,
+            "tos_ms": 194197053,
+            "tos_auto": true,
+            "tos_calc": 194197053
+          },
+          "oi:8": {
+            "tos_ms": 194876613,
+            "tos_auto": true
+          },
+          "oi:9": {
+            "tos_ms": 195075203,
+            "tos_auto": true
+          },
+          "oi:10": {
+            "tos_ms": 195456049,
+            "tos_auto": true
+          },
+          "oi:11": {
+            "tos_ms": 195678807,
+            "tos_auto": true
+          },
+          "oi:12": {
+            "tos_ms": 195678807,
+            "tos_auto": true
+          },
+          "oi:13": {
+            "tos_ms": 195678807,
+            "tos_auto": true
+          },
+          "oi:0": {
+            "tos_ms": 192600000,
+            "tos_auto": true,
+            "tos_calc": 192600000
+          },
+          "oi:1": {
+            "tos_ms": 192744751,
+            "tos_auto": true,
+            "tos_calc": 192744751
+          },
+          "oi:2": {
+            "tos_ms": 193145504,
+            "tos_auto": true,
+            "tos_calc": 193145504
+          },
+          "oi:3": {
+            "tos_ms": 193275097,
+            "tos_auto": true,
+            "tos_calc": 193275097
+          },
+          "oi:4": {
+            "tos_ms": 193720068,
+            "tos_auto": true,
+            "tos_calc": 193720068
+          },
+          "oi:5": {
+            "tos_ms": 193947490,
+            "tos_auto": true,
+            "tos_calc": 193947490
+          },
+          "oi:6": {
+            "tos_ms": 194105676,
+            "tos_auto": true,
+            "tos_calc": 194105676
+          }
+        }
+      }
+    },
+    "edits": {},
+    "slots": {},
+    "cam_gen": "c93979f0056a37f7"
+  },
+  "loadout": {
+    "final": {
+      "c:1251": {
+        "0": {
+          "3": [
+            148,
+            2
+          ],
+          "7": [
+            148,
+            2
+          ],
+          "11": [
+            181,
+            1
+          ]
+        },
+        "1": {
+          "3": [
+            148,
+            2
+          ],
+          "7": [
+            148,
+            2
+          ],
+          "11": [
+            181,
+            1
+          ]
+        },
+        "2": {
+          "3": [
+            148,
+            2
+          ],
+          "7": [
+            148,
+            2
+          ],
+          "11": [
+            181,
+            1
+          ]
+        },
+        "3": {
+          "3": [
+            148,
+            2
+          ],
+          "7": [
+            148,
+            2
+          ],
+          "11": [
+            181,
+            1
+          ]
+        }
+      }
+    }
+  },
+  "ppt": {
+    "entries": [
+      {
+        "label": "11",
+        "x_n": 1775777.375,
+        "y_e": 1317202.125,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "10",
+        "x_n": 1772844.0,
+        "y_e": 1149669.375,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "17",
+        "x_n": 1884348.5,
+        "y_e": 1215232.625,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "10",
+        "x_n": 1779389.125,
+        "y_e": 1208672.625,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "AAA",
+        "x_n": 1776109.125,
+        "y_e": 1316912.0,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "17",
+        "x_n": 1917148.25,
+        "y_e": 1188992.75,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "ZSU",
+        "x_n": 1822028.875,
+        "y_e": 1293952.125,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "ZSU",
+        "x_n": 1805629.0,
+        "y_e": 1280832.25,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "ZSU",
+        "x_n": 1795789.0,
+        "y_e": 1270992.25,
+        "origin": "manual",
+        "author": ""
+      },
+      {
+        "label": "11",
+        "x_n": 1776135.125,
+        "y_e": 1316527.875,
+        "origin": "manual",
+        "author": ""
+      }
+    ]
+  },
+  "lines": {
+    "entries": [
+      {
+        "pts": [
+          [
+            1577094.1686295455,
+            1649076.430548182
+          ],
+          [
+            1401304.9694518181,
+            2059251.228629545
+          ],
+          [
+            1289608.3513704548,
+            2011381.249451818
+          ],
+          [
+            1465397.550548182,
+            1601206.4513704546
+          ],
+          [
+            1577094.1686295455,
+            1649076.430548182
+          ]
+        ],
+        "origin": "manual",
+        "author": "",
+        "label": "Tanker Texaco 2"
+      }
+    ]
+  },
+  "cartridge": {
+    "ppt": {
+      "ppt_0": "1776135.125000, 1316527.875000, 0.000000, 121522.312500, 11",
+      "ppt_1": "1772844.000000, 1149669.375000, 0.000000, 303805.781250, 10",
+      "ppt_2": "1884348.500000, 1215232.625000, 0.000000, 145826.781250, 17",
+      "ppt_3": "1779389.125000, 1208672.625000, 0.000000, 303805.781250, 10",
+      "ppt_4": "1776109.125000, 1316912.000000, 0.000000, 48608.925781, AAA",
+      "ppt_5": "1917148.250000, 1188992.750000, 0.000000, 145826.781250, 17",
+      "ppt_6": "1822028.875000, 1293952.125000, 0.000000, 24304.462891, ZSU",
+      "ppt_7": "1805629.000000, 1280832.250000, 0.000000, 24304.462891, ZSU",
+      "ppt_8": "1795789.000000, 1270992.250000, 0.000000, 24304.462891, ZSU",
+      "ppt_9": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_10": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_11": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_12": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_13": "0.000000, 0.000000, 0.000000, 0.000000, ",
+      "ppt_14": "0.000000, 0.000000, 0.000000, 0.000000, "
+    },
+    "lines": {
+      "lineSTPT_0": "2341905.720000, 1495670.880000, 0.000000",
+      "lineSTPT_1": "2125427.040000, 1318551.960000, 0.000000",
+      "lineSTPT_2": "1830228.840000, 1535030.640000, 0.000000",
+      "lineSTPT_3": "1790869.080000, 1416951.360000, 0.000000",
+      "lineSTPT_4": "1594070.280000, 1436631.240000, 0.000000",
+      "lineSTPT_5": "1436631.240000, 1239832.440000, 0.000000",
+      "lineSTPT_6": "2145106.920000, 1338231.840000, 0.000000",
+      "lineSTPT_7": "1830228.840000, 1535030.640000, 0.000000",
+      "lineSTPT_8": "1790869.080000, 1416951.360000, 0.000000",
+      "lineSTPT_9": "1594070.280000, 1436631.240000, 0.000000",
+      "lineSTPT_10": "1436631.240000, 1239832.440000, 0.000000",
+      "lineSTPT_11": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_12": "1577094.168630, 1649076.430548, 0.000000",
+      "lineSTPT_13": "1401304.969452, 2059251.228630, 0.000000",
+      "lineSTPT_14": "1289608.351370, 2011381.249452, 0.000000",
+      "lineSTPT_15": "1465397.550548, 1601206.451370, 0.000000",
+      "lineSTPT_16": "1577094.168630, 1649076.430548, 0.000000",
+      "lineSTPT_17": "0.000000, 0.000000, 0.000000",
+      "lineSTPT_18": "2089741.433042, 1134941.173042, 0.000000",
+      "lineSTPT_19": "2124113.130000, 1169312.870000, 0.000000",
+      "lineSTPT_20": "1759546.230000, 1169312.870000, 0.000000",
+      "lineSTPT_21": "1881068.530000, 1169312.870000, 0.000000",
+      "lineSTPT_22": "1881068.530000, 1047790.570000, 0.000000",
+      "lineSTPT_23": "1881068.530000, 1290835.170000, 0.000000"
+    },
+    "seen": {
+      "callsign": "dbb95a22aec17ee4",
+      "stem": "db91a6b5cbf84454"
+    }
+  },
+  "debrief": {
+    "cam": "c:\\falcon\\falcon bms 4.38\\data\\add-on lkto+\\campaign+\\ci10a.cam",
+    "verdict": "auto",
+    "mode": "auto",
+    "choice": {
+      "path": "C:\\Falcon\\Admin\\ACMI_files\\2026-11-04_20-31-34.zip.acmi",
+      "bytes": 116019146,
+      "mtime_ns": 1793828967351810200,
+      "open": "C:\\Falcon\\Admin\\ACMI_files\\2026-11-04_20-31-34_compact.zip.acmi"
+    },
+    "rows": [
+      {
+        "name": "2026-11-04_20-31-34.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\2026-11-04_20-31-34_compact.zip.acmi",
+        "bytes": 116019146,
+        "mtime": 1793828967.3518102,
+        "compact": true,
+        "compact_name": "2026-11-04_20-31-34_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\2026-11-04_20-31-34.zip.acmi",
+        "theater": "kto",
+        "t0": 191663.754,
+        "theater_ok": true,
+        "dclock": -34,
+        "clock_ok": true,
+        "flight_ok": true,
+        "dtko": -54,
+        "tko_ok": true,
+        "verdict": "ok"
+      },
+      {
+        "name": "2026-11-01_20-38-19.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\CI09a_compact.zip.acmi",
+        "bytes": 61711270,
+        "mtime": 1793569617.9533198,
+        "compact": true,
+        "compact_name": "CI09a_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\2026-11-01_20-38-19.zip.acmi",
+        "theater": "kto",
+        "t0": 187462.251,
+        "theater_ok": true,
+        "dclock": 4168,
+        "clock_ok": true,
+        "flight_ok": true,
+        "dtko": -4335,
+        "tko_ok": false,
+        "verdict": "partial"
+      },
+      {
+        "name": "2026-10-21_19-42-09.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\CI08b_compact.zip.acmi",
+        "bytes": 122009227,
+        "mtime": 1792616741.3850467,
+        "compact": true,
+        "compact_name": "CI08b_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\2026-10-21_19-42-09.zip.acmi",
+        "theater": "kto",
+        "t0": 179055.644,
+        "theater_ok": true,
+        "dclock": 12575,
+        "clock_ok": false,
+        "flight_ok": true,
+        "dtko": -12598,
+        "tko_ok": false,
+        "verdict": "out"
+      },
+      {
+        "name": "2026-07-15_19-47-53_compact.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\2026-07-15_19-47-53_compact.zip.acmi",
+        "bytes": 19169015,
+        "mtime": 1792415188.2713687,
+        "compact": true,
+        "compact_name": "2026-07-15_19-47-53_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\2026-07-15_19-47-53_compact.zip.acmi",
+        "theater": "kto",
+        "t0": 690540.008,
+        "theater_ok": true,
+        "dclock": -498910,
+        "clock_ok": false,
+        "flight_ok": null,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TS01_2_compact.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TS01_2_compact.zip.acmi",
+        "bytes": 67705858,
+        "mtime": 1792415151.019436,
+        "compact": true,
+        "compact_name": "TS01_2_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TS01_2_compact.zip.acmi",
+        "theater": "kto",
+        "t0": 18109.629,
+        "theater_ok": true,
+        "dclock": 173521,
+        "clock_ok": false,
+        "flight_ok": true,
+        "dtko": -171617,
+        "tko_ok": false,
+        "verdict": "out"
+      },
+      {
+        "name": "2026-06-21_06-15-48_compact.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\2026-06-21_06-15-48_compact.zip.acmi",
+        "bytes": 85397,
+        "mtime": 1792414985.5327237,
+        "compact": true,
+        "compact_name": "2026-06-21_06-15-48_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\2026-06-21_06-15-48_compact.zip.acmi",
+        "theater": "kto",
+        "t0": 10898.153,
+        "theater_ok": true,
+        "dclock": 180732,
+        "clock_ok": false,
+        "flight_ok": null,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "2026-10-18_19-25-28.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\CI08a_compact.zip.acmi",
+        "bytes": 4627781,
+        "mtime": 1792353558.5103447,
+        "compact": true,
+        "compact_name": "CI08a_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\2026-10-18_19-25-28.zip.acmi",
+        "theater": "kto",
+        "t0": 177025.666,
+        "theater_ok": true,
+        "dclock": 14605,
+        "clock_ok": false,
+        "flight_ok": true,
+        "dtko": -14705,
+        "tko_ok": false,
+        "verdict": "out"
+      },
+      {
+        "name": "CI06a_compact.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\CI06a_compact.zip.acmi",
+        "bytes": 10510146,
+        "mtime": 1792010308.9264767,
+        "compact": true,
+        "compact_name": "CI06a_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\CI06a_compact.zip.acmi",
+        "theater": "kto",
+        "t0": 163500.153,
+        "theater_ok": true,
+        "dclock": 28130,
+        "clock_ok": false,
+        "flight_ok": true,
+        "dtko": -29075,
+        "tko_ok": false,
+        "verdict": "out"
+      },
+      {
+        "name": "BS05bis_compact.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\BS05bis_compact.zip.acmi",
+        "bytes": 13016642,
+        "mtime": 1791950782.777713,
+        "compact": true,
+        "compact_name": "BS05bis_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\BS05bis_compact.zip.acmi",
+        "theater": "kto",
+        "t0": 265755.84,
+        "theater_ok": true,
+        "dclock": -74126,
+        "clock_ok": false,
+        "flight_ok": null,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "BS11_compact.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\BS11_compact.zip.acmi",
+        "bytes": 12807965,
+        "mtime": 1791923676.7324798,
+        "compact": true,
+        "compact_name": "BS11_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\BS11_compact.zip.acmi",
+        "theater": "kto",
+        "t0": 773359.54,
+        "theater_ok": true,
+        "dclock": -581729,
+        "clock_ok": false,
+        "flight_ok": null,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "BS07_compact.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\BS07_compact.zip.acmi",
+        "bytes": 13092697,
+        "mtime": 1791923646.4321816,
+        "compact": true,
+        "compact_name": "BS07_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\BS07_compact.zip.acmi",
+        "theater": "kto",
+        "t0": 446653.506,
+        "theater_ok": true,
+        "dclock": -255023,
+        "clock_ok": false,
+        "flight_ok": null,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "BS05_compact.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\BS05_compact.zip.acmi",
+        "bytes": 13016642,
+        "mtime": 1791923633.3461194,
+        "compact": true,
+        "compact_name": "BS05_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\BS05_compact.zip.acmi",
+        "theater": "kto",
+        "t0": 265755.84,
+        "theater_ok": true,
+        "dclock": -74126,
+        "clock_ok": false,
+        "flight_ok": null,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "BS04_compact.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\BS04_compact.zip.acmi",
+        "bytes": 15196971,
+        "mtime": 1791923600.2133796,
+        "compact": true,
+        "compact_name": "BS04_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\BS04_compact.zip.acmi",
+        "theater": "kto",
+        "t0": 178112.12,
+        "theater_ok": true,
+        "dclock": 13518,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "BS09 bis_compact.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\BS09 bis_compact.zip.acmi",
+        "bytes": 7761312,
+        "mtime": 1791923569.7641387,
+        "compact": true,
+        "compact_name": "BS09 bis_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\BS09 bis_compact.zip.acmi",
+        "theater": "kto",
+        "t0": 601478.022,
+        "theater_ok": true,
+        "dclock": -409848,
+        "clock_ok": false,
+        "flight_ok": null,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "2026-10-07_20-04-57_compact.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\2026-10-07_20-04-57_compact.zip.acmi",
+        "bytes": 35102159,
+        "mtime": 1791699282.9392235,
+        "compact": true,
+        "compact_name": "2026-10-07_20-04-57_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\2026-10-07_20-04-57_compact.zip.acmi",
+        "theater": "balkans",
+        "t0": 16954.94,
+        "theater_ok": false,
+        "dclock": 174675,
+        "clock_ok": true,
+        "flight_ok": null,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "Balkans COMAO 4_paused_compact.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\Balkans COMAO 4_paused_compact.zip.acmi",
+        "bytes": 35102159,
+        "mtime": 1791615855.7185533,
+        "compact": true,
+        "compact_name": "Balkans COMAO 4_paused_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\Balkans COMAO 4_paused_compact.zip.acmi",
+        "theater": "balkans",
+        "t0": 16954.94,
+        "theater_ok": false,
+        "dclock": 174675,
+        "clock_ok": true,
+        "flight_ok": null,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "Balkans COMAO 4.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\Balkans COMAO 4.zip.acmi",
+        "bytes": 148743302,
+        "mtime": 1791408303.029922,
+        "compact": false,
+        "compact_name": "",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\Balkans COMAO 4.zip.acmi",
+        "theater": "balkans",
+        "t0": 16954.824,
+        "theater_ok": false,
+        "dclock": 174675,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "CI05.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\CI05.zip.acmi",
+        "bytes": 17032016,
+        "mtime": 1791147400.571939,
+        "compact": false,
+        "compact_name": "",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\CI05.zip.acmi",
+        "theater": "kto",
+        "t0": 103548.931,
+        "theater_ok": true,
+        "dclock": 88081,
+        "clock_ok": false,
+        "flight_ok": true,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "CI04.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\CI04.zip.acmi",
+        "bytes": 27638771,
+        "mtime": 1790543216.5203464,
+        "compact": false,
+        "compact_name": "",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\CI04.zip.acmi",
+        "theater": "kto",
+        "t0": 97839.449,
+        "theater_ok": true,
+        "dclock": 93791,
+        "clock_ok": false,
+        "flight_ok": true,
+        "dtko": -91555,
+        "tko_ok": false,
+        "verdict": "out"
+      },
+      {
+        "name": "CI03.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\CI03.zip.acmi",
+        "bytes": 21101763,
+        "mtime": 1790199146.0911243,
+        "compact": false,
+        "compact_name": "",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\CI03.zip.acmi",
+        "theater": "kto",
+        "t0": 92115.959,
+        "theater_ok": true,
+        "dclock": 99514,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "CI01b.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\CI01b.zip.acmi",
+        "bytes": 10813608,
+        "mtime": 1788729875.9125032,
+        "compact": false,
+        "compact_name": "",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\CI01b.zip.acmi",
+        "theater": "kto",
+        "t0": 12334.96,
+        "theater_ok": true,
+        "dclock": 179295,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "CI01.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\CI01_compact.zip.acmi",
+        "bytes": 99516387,
+        "mtime": 1788126118.397269,
+        "compact": true,
+        "compact_name": "CI01_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\CI01.zip.acmi",
+        "theater": "kto",
+        "t0": 5992.694,
+        "theater_ok": true,
+        "dclock": 185638,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "2026-08-26_20-28-20.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\2026-08-26_20-28-20_compact.zip.acmi",
+        "bytes": 281977575,
+        "mtime": 1787779995.0500343,
+        "compact": true,
+        "compact_name": "2026-08-26_20-28-20_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\2026-08-26_20-28-20.zip.acmi",
+        "theater": "kto",
+        "t0": 37851.177,
+        "theater_ok": true,
+        "dclock": 153779,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TC08_FBB_223353.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TC08_FBB_223353_compact.zip.acmi",
+        "bytes": 41792124,
+        "mtime": 1784735707.5478642,
+        "compact": true,
+        "compact_name": "TC08_FBB_223353_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TC08_FBB_223353.zip.acmi",
+        "theater": "kto",
+        "t0": 510321.408,
+        "theater_ok": true,
+        "dclock": -318691,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TC09_FBB_003451.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TC09_FBB_003451_compact.zip.acmi",
+        "bytes": 19479705,
+        "mtime": 1784735691.902849,
+        "compact": true,
+        "compact_name": "TC09_FBB_003451_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TC09_FBB_003451.zip.acmi",
+        "theater": "kto",
+        "t0": 604030.225,
+        "theater_ok": true,
+        "dclock": -412400,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TC09_FBB_001819.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TC09_FBB_001819_compact.zip.acmi",
+        "bytes": 19488513,
+        "mtime": 1784735684.006837,
+        "compact": true,
+        "compact_name": "TC09_FBB_001819_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TC09_FBB_001819.zip.acmi",
+        "theater": "kto",
+        "t0": 604030.225,
+        "theater_ok": true,
+        "dclock": -412400,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TC10_FBB_004306.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TC10_FBB_004306_compact.zip.acmi",
+        "bytes": 19196155,
+        "mtime": 1784735676.1892788,
+        "compact": true,
+        "compact_name": "TC10_FBB_004306_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TC10_FBB_004306.zip.acmi",
+        "theater": "kto",
+        "t0": 690540.008,
+        "theater_ok": true,
+        "dclock": -498910,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TC10_FBB_002902.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TC10_FBB_002902_compact.zip.acmi",
+        "bytes": 19185247,
+        "mtime": 1784735668.384764,
+        "compact": true,
+        "compact_name": "TC10_FBB_002902_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TC10_FBB_002902.zip.acmi",
+        "theater": "kto",
+        "t0": 690540.008,
+        "theater_ok": true,
+        "dclock": -498910,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TC10_FBB_693786.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TC10_FBB_693786_compact.zip.acmi",
+        "bytes": 19198255,
+        "mtime": 1784709665.0513732,
+        "compact": true,
+        "compact_name": "TC10_FBB_693786_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TC10_FBB_693786.zip.acmi",
+        "theater": "kto",
+        "t0": 690540.008,
+        "theater_ok": true,
+        "dclock": -498910,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TC10_FBB_692942.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TC10_FBB_692942_compact.zip.acmi",
+        "bytes": 19185823,
+        "mtime": 1784709656.562023,
+        "compact": true,
+        "compact_name": "TC10_FBB_692942_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TC10_FBB_692942.zip.acmi",
+        "theater": "kto",
+        "t0": 690540.008,
+        "theater_ok": true,
+        "dclock": -498910,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TC10.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TC10.zip.acmi",
+        "bytes": 18678383,
+        "mtime": 1784150186.670015,
+        "compact": false,
+        "compact_name": "",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TC10.zip.acmi",
+        "theater": "kto",
+        "t0": 690540.008,
+        "theater_ok": true,
+        "dclock": -498910,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TC10 brut.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TC10 brut.acmi",
+        "bytes": 137453486,
+        "mtime": 1784150061.107795,
+        "compact": false,
+        "compact_name": "",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TC10 brut.acmi",
+        "theater": "kto",
+        "t0": 690539.908,
+        "theater_ok": true,
+        "dclock": -498910,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "2026-07-07_20-54-55.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\2026-07-07_20-54-55_compact.zip.acmi",
+        "bytes": 3339856,
+        "mtime": 1783457793.1965635,
+        "compact": true,
+        "compact_name": "2026-07-07_20-54-55_compact.zip.acmi",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\2026-07-07_20-54-55.zip.acmi",
+        "theater": "kto",
+        "t0": 511180.943,
+        "theater_ok": true,
+        "dclock": -319551,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TS01 Gamble5-filtered.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TS01 Gamble5-filtered.zip.acmi",
+        "bytes": 66369895,
+        "mtime": 1782335884.9853847,
+        "compact": false,
+        "compact_name": "",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TS01 Gamble5-filtered.zip.acmi",
+        "theater": "kto",
+        "t0": 18109.629,
+        "theater_ok": true,
+        "dclock": 173521,
+        "clock_ok": false,
+        "flight_ok": true,
+        "dtko": -171617,
+        "tko_ok": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TS01 Gamble5.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TS01 Gamble5.acmi",
+        "bytes": 384047784,
+        "mtime": 1782335704.1198664,
+        "compact": false,
+        "compact_name": "",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TS01 Gamble5.acmi",
+        "theater": "kto",
+        "t0": 18109.514,
+        "theater_ok": true,
+        "dclock": 173521,
+        "clock_ok": false,
+        "flight_ok": true,
+        "dtko": -171617,
+        "tko_ok": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TC09.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TC09.zip.acmi",
+        "bytes": 18961749,
+        "mtime": 1781471691.6768715,
+        "compact": false,
+        "compact_name": "",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TC09.zip.acmi",
+        "theater": "kto",
+        "t0": 604030.225,
+        "theater_ok": true,
+        "dclock": -412400,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TC08.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TC08.zip.acmi",
+        "bytes": 40872651,
+        "mtime": 1781125131.0469959,
+        "compact": false,
+        "compact_name": "",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TC08.zip.acmi",
+        "theater": "kto",
+        "t0": 510321.408,
+        "theater_ok": true,
+        "dclock": -318691,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TC07.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TC07.zip.acmi",
+        "bytes": 45088747,
+        "mtime": 1780864267.4723117,
+        "compact": false,
+        "compact_name": "",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TC07.zip.acmi",
+        "theater": "kto",
+        "t0": 422678.089,
+        "theater_ok": true,
+        "dclock": -231048,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TC06.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TC06.zip.acmi",
+        "bytes": 14048471,
+        "mtime": 1780260581.8321254,
+        "compact": false,
+        "compact_name": "",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TC06.zip.acmi",
+        "theater": "kto",
+        "t0": 338054.881,
+        "theater_ok": true,
+        "dclock": -146425,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      },
+      {
+        "name": "TC05.zip.acmi",
+        "open": "C:\\Falcon\\Admin\\ACMI_files\\TC05.zip.acmi",
+        "bytes": 41056079,
+        "mtime": 1779658210.4997723,
+        "compact": false,
+        "compact_name": "",
+        "path": "C:\\Falcon\\Admin\\ACMI_files\\TC05.zip.acmi",
+        "theater": "kto",
+        "t0": 261557.592,
+        "theater_ok": true,
+        "dclock": -69927,
+        "clock_ok": false,
+        "flight_ok": false,
+        "dtko": null,
+        "tko_ok": null,
+        "airborne": false,
+        "verdict": "out"
+      }
+    ],
+    "dir": "C:\\Falcon\\Admin\\ACMI_files",
+    "dir_sig": "e483da8ff547b5f7"
+  }
+}
