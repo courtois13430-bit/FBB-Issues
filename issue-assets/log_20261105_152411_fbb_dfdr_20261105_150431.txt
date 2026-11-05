@@ -1,0 +1,188 @@
+2026-11-05 15:04:32.354 | ========================================================================
+2026-11-05 15:04:32.354 | startup                  | FBB 1.99.252 — session 2026-11-05 15:04:32
+2026-11-05 15:04:32.354 | startup                  | Répertoire : S:\FBB\_internal
+2026-11-05 15:04:32.354 | startup                  | Python 3.14.5
+2026-11-05 15:04:32.354 | ========================================================================
+2026-11-05 15:04:32.356 | system                   | OS : Windows 10 10.0.19045, AMD64, 8 CPU, RAM 32 GB
+2026-11-05 15:04:32.373 | system                   | Machine : <masqué> / Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+2026-11-05 15:04:32.373 | registry                 | BMS baseDir : R:\Falcon BMS 4.38
+2026-11-05 15:04:32.375 | registry                 | BMS theater : Hellas  pilot : Skywalker
+2026-11-05 15:04:32.855 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-11-05 15:04:36.387 | telemetry                | ping OK v1.99.252 Windows 10 canal=prod → HTTP 200
+2026-11-05 15:04:37.505 | parse_health             | SilverThunder1.tac: records 25/25, bytes 14548/14548, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-11-05 15:04:38.782 | dtc_mfd                  | event=read path=Skywalker.ini mtime=2026-11-04 23:33:46 mfd=48/96
+2026-11-05 15:04:39.388 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-11-05 15:04:39.471 | fpln_wp                  | final vu=c:6954 ARRIVE 23 wp  src=restore  restauration disque (boot)
+2026-11-05 15:04:39.963 | ato_departure            | resolved=5/5
+2026-11-05 15:04:40.362 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-11-05 15:04:45.044 | ato_departure            | resolved=5/5
+2026-11-05 15:04:46.410 | campaign_mods            | {'fpln': 20, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-11-05 15:04:47.143 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:04:47.161 | mission_support          | awacs: bms nearest vu=20013
+2026-11-05 15:04:56.928 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:04:56.929 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-11-05 15:04:57.181 | dtc_render               | path=Skywalker.ini n_stpt=24 n_lines=0 n_ppt=3 n_dpi=0 n_divert=0 n_sections=41 hash=c5853c3d
+2026-11-05 15:05:01.883 | campaign_mods            | {'fpln': 20, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-11-05 15:05:01.907 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:05:01.908 | mission_support          | awacs: bms nearest vu=20013
+2026-11-05 15:05:01.909 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:05:01.909 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-11-05 15:05:01.921 | dtc_render               | path=Skywalker.ini n_stpt=24 n_lines=0 n_ppt=3 n_dpi=0 n_divert=0 n_sections=41 hash=c5853c3d
+2026-11-05 15:05:01.992 | ato_departure            | resolved=5/5
+2026-11-05 15:06:07.724 | campaign_mods            | {'fpln': 20, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-11-05 15:06:07.729 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:06:07.730 | mission_support          | awacs: bms nearest vu=20013
+2026-11-05 15:06:07.734 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:06:07.734 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-11-05 15:06:07.744 | dtc_render               | path=Skywalker.ini n_stpt=24 n_lines=0 n_ppt=3 n_dpi=0 n_divert=0 n_sections=41 hash=c5853c3d
+2026-11-05 15:06:07.856 | ato_departure            | resolved=5/5
+2026-11-05 15:06:16.194 | campaign_mods            | {'fpln': 20, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-11-05 15:06:16.201 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:06:16.202 | mission_support          | awacs: bms nearest vu=20013
+2026-11-05 15:06:16.204 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:06:16.205 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-11-05 15:06:16.212 | dtc_render               | path=Skywalker.ini n_stpt=24 n_lines=0 n_ppt=3 n_dpi=0 n_divert=0 n_sections=41 hash=c5853c3d
+2026-11-05 15:06:16.295 | ato_departure            | resolved=5/5
+2026-11-05 15:06:17.687 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-11-05 15:06:17.719 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-11-05 15:06:17.948 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-11-05 15:06:18.183 | briefing_context         | package_overview flights=5 route_points=73 focus_points=5 unique_points=73
+2026-11-05 15:06:19.169 | campaign_overview        | objective_index loaded=6944
+2026-11-05 15:06:19.852 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-05 15:06:19.855 | campaign_overview        | system_marks=0
+2026-11-05 15:06:19.886 | package_relevance        | package_routes pkg=3240 flights=5 routes=5 points=106
+2026-11-05 15:06:19.891 | friendly_ad_zone         | wps=1 buffer_nm=20.0 hull=24
+2026-11-05 15:06:20.322 | friendly_air_defense     | pkg=3240 ref=aoo sites=0 combat_wp=0 aoo_wp=1 covering=0 nearby=0 shown=0 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=171 alt_ft=1171
+2026-11-05 15:06:26.097 | briefing_context         | package_overview flights=5 route_points=73 focus_points=5 unique_points=73
+2026-11-05 15:06:27.363 | msl_data                 | AA-1 : .dat lu, table range 6x2x3, loft non
+2026-11-05 15:06:27.365 | msl_data                 | AA-10A : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.369 | msl_data                 | AA-10B : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.376 | msl_data                 | AA-10C : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.381 | msl_data                 | AA-10D : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.384 | msl_data                 | AA-11 : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.387 | msl_data                 | AA-12 : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.389 | msl_data                 | AA-2B : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.391 | msl_data                 | AA-2C : .dat lu, table range 6x2x3, loft non
+2026-11-05 15:06:27.393 | msl_data                 | AA-6A : .dat lu, table range 7x3x6, loft non
+2026-11-05 15:06:27.397 | msl_data                 | AA-6B : .dat lu, table range 7x3x6, loft non
+2026-11-05 15:06:27.399 | msl_data                 | AA-7A : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.403 | msl_data                 | AA-7B : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.405 | msl_data                 | AA-8 : .dat lu, table range 6x2x3, loft non
+2026-11-05 15:06:27.407 | msl_data                 | AA-9 : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.408 | msl_data                 | AAM-3 : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.413 | msl_data                 | AAM-4 : .dat lu, table range 6x3x6, loft oui
+2026-11-05 15:06:27.418 | msl_data                 | AIM-120B : .dat lu, table range 6x3x6, loft oui
+2026-11-05 15:06:27.421 | msl_data                 | AIM-120C : .dat lu, table range 6x3x6, loft oui
+2026-11-05 15:06:27.423 | msl_data                 | AIM-132 : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.432 | msl_data                 | AIM-54A : .dat lu, table range 6x3x6, loft oui
+2026-11-05 15:06:27.438 | msl_data                 | AIM-54C : .dat lu, table range 6x3x6, loft oui
+2026-11-05 15:06:27.442 | msl_data                 | AIM-7 : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.446 | msl_data                 | AIM-7D : .dat lu, table range 6x2x3, loft non
+2026-11-05 15:06:27.448 | msl_data                 | AIM-7E : .dat lu, table range 6x2x3, loft non
+2026-11-05 15:06:27.452 | msl_data                 | AIM-7E2 : .dat lu, table range 6x2x3, loft non
+2026-11-05 15:06:27.458 | msl_data                 | AIM-7F : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.460 | msl_data                 | AIM-9B : .dat lu, table range 6x2x3, loft non
+2026-11-05 15:06:27.463 | msl_data                 | AIM-9D : .dat lu, table range 6x2x3, loft non
+2026-11-05 15:06:27.465 | msl_data                 | AIM-9E : .dat lu, table range 6x2x3, loft non
+2026-11-05 15:06:27.469 | msl_data                 | AIM-9G : .dat lu, table range 6x2x3, loft non
+2026-11-05 15:06:27.471 | msl_data                 | AIM-9H : .dat lu, table range 6x2x3, loft non
+2026-11-05 15:06:27.473 | msl_data                 | AIM-9J : .dat lu, table range 6x2x3, loft non
+2026-11-05 15:06:27.474 | msl_data                 | AIM-9M : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.477 | msl_data                 | AIM-9P : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.479 | msl_data                 | AIM-9X : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.482 | msl_data                 | CATM-120B : .dat lu, table range 6x3x6, loft oui
+2026-11-05 15:06:27.486 | msl_data                 | CATM-120C : .dat lu, table range 6x3x6, loft oui
+2026-11-05 15:06:27.489 | msl_data                 | CATM-9M : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.491 | msl_data                 | CATM-IRIS-T : .dat lu, table range 6x2x3, loft non
+2026-11-05 15:06:27.493 | msl_data                 | FIM-92 : .dat lu, table range 4x1x11, loft non
+2026-11-05 15:06:27.494 | msl_data                 | IRIS-T : .dat lu, table range 6x2x3, loft non
+2026-11-05 15:06:27.497 | msl_data                 | MICA_EM : .dat lu, table range 6x3x6, loft oui
+2026-11-05 15:06:27.501 | msl_data                 | MICA_IR : .dat lu, table range 6x3x6, loft oui
+2026-11-05 15:06:27.504 | msl_data                 | Meteor : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.507 | msl_data                 | PL-10E : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.510 | msl_data                 | PL-12 : .dat lu, table range 6x3x6, loft oui
+2026-11-05 15:06:27.511 | msl_data                 | PL-7 : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.513 | msl_data                 | PL-8 : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.522 | msl_data                 | Python3 : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.524 | msl_data                 | Python4 : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.526 | msl_data                 | Python5 : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.530 | msl_data                 | R550 : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.535 | msl_data                 | R550M2 : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.537 | msl_data                 | Skyflash : .dat lu, table range 6x2x3, loft non
+2026-11-05 15:06:27.539 | msl_data                 | Super_530D : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.542 | msl_data                 | TC-1 : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:06:27.544 | msl_data                 | TC-2 : .dat lu, table range 6x3x6, loft oui
+2026-11-05 15:06:27.570 | msl_data                 | AIM-120B : .dat lu, table range 6x3x6, loft oui
+2026-11-05 15:06:27.576 | msl_data                 | AIM-120C : .dat lu, table range 6x3x6, loft oui
+2026-11-05 15:06:28.310 | briefing_context         | package_overview flights=5 route_points=73 focus_points=5 unique_points=73
+2026-11-05 15:06:35.554 | msl_data                 | AIM-9M : .dat lu, table range 6x3x6, loft non
+2026-11-05 15:07:21.551 | campaign_mods            | {'fpln': 20, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-11-05 15:07:21.581 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:07:21.582 | mission_support          | awacs: bms nearest vu=20013
+2026-11-05 15:07:21.584 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:07:21.584 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-11-05 15:07:21.601 | dtc_render               | path=Skywalker.ini n_stpt=24 n_lines=0 n_ppt=3 n_dpi=0 n_divert=0 n_sections=41 hash=c5853c3d
+2026-11-05 15:07:21.672 | ato_departure            | resolved=5/5
+2026-11-05 15:07:25.784 | campaign_mods            | {'fpln': 20, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-11-05 15:07:25.804 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:07:25.805 | mission_support          | awacs: bms nearest vu=20013
+2026-11-05 15:07:25.806 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:07:25.806 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-11-05 15:07:25.821 | dtc_render               | path=Skywalker.ini n_stpt=24 n_lines=0 n_ppt=3 n_dpi=0 n_divert=0 n_sections=41 hash=c5853c3d
+2026-11-05 15:07:26.346 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:07:26.348 | mission_support          | awacs: bms nearest vu=20013
+2026-11-05 15:07:26.349 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:07:26.350 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-11-05 15:07:27.109 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-05 15:07:27.114 | campaign_overview        | system_marks=0
+2026-11-05 15:07:29.382 | mission_support          | awacs: bms nearest vu=20013
+2026-11-05 15:07:30.190 | briefing_context         | package_overview flights=5 route_points=73 focus_points=5 unique_points=73
+2026-11-05 15:07:30.241 | campaign_mods            | {'fpln': 20, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-11-05 15:07:30.489 | airport_diagrams         | taxi surfaces=70 terrains en raster | repli K-NN : 2 sans mesh CT30, 0 sous-couvrants
+2026-11-05 15:07:30.490 | airport_diagrams         |   sans CT30 : Cardak Airport, Eleftherios Venizelos Airport
+2026-11-05 15:07:41.050 | campaign_mods            | {'fpln': 20, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-11-05 15:07:41.072 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:07:41.073 | mission_support          | awacs: bms nearest vu=20013
+2026-11-05 15:07:41.074 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:07:41.074 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-11-05 15:07:41.082 | dtc_render               | path=Skywalker.ini n_stpt=24 n_lines=0 n_ppt=3 n_dpi=0 n_divert=0 n_sections=41 hash=c5853c3d
+2026-11-05 15:07:41.162 | ato_departure            | resolved=5/5
+2026-11-05 15:12:03.423 | briefing_context         | package_overview flights=5 route_points=73 focus_points=5 unique_points=73
+2026-11-05 15:12:17.002 | briefing_context         | package_overview flights=5 route_points=73 focus_points=5 unique_points=73
+2026-11-05 15:13:03.356 | briefing_context         | package_overview flights=5 route_points=73 focus_points=5 unique_points=73
+2026-11-05 15:13:09.808 | briefing_context         | package_overview flights=5 route_points=73 focus_points=5 unique_points=73
+2026-11-05 15:20:22.864 | ato_departure            | resolved=5/5
+2026-11-05 15:21:23.168 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:21:23.169 | mission_support          | awacs: bms nearest vu=20013
+2026-11-05 15:21:23.174 | campaign_mods            | {'fpln': 20, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-11-05 15:21:23.176 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:21:23.177 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-11-05 15:21:23.187 | dtc_render               | path=Skywalker.ini n_stpt=24 n_lines=0 n_ppt=3 n_dpi=0 n_divert=0 n_sections=41 hash=c5853c3d
+2026-11-05 15:21:23.301 | ato_departure            | resolved=5/5
+2026-11-05 15:21:28.769 | campaign_mods            | {'fpln': 20, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-11-05 15:21:28.774 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:21:28.775 | mission_support          | awacs: bms nearest vu=20013
+2026-11-05 15:21:28.777 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:21:28.778 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-11-05 15:21:28.786 | dtc_render               | path=Skywalker.ini n_stpt=24 n_lines=0 n_ppt=3 n_dpi=0 n_divert=0 n_sections=41 hash=c5853c3d
+2026-11-05 15:21:28.868 | ato_departure            | resolved=5/5
+2026-11-05 15:21:42.054 | ato_departure            | resolved=5/5
+2026-11-05 15:21:50.871 | campaign_mods            | {'fpln': 20, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=<empreinte masquée>
+2026-11-05 15:21:50.889 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:21:50.889 | mission_support          | awacs: bms nearest vu=20013
+2026-11-05 15:21:50.891 | radiomap_service         | radiomap path=R:\Falcon BMS 4.38\Data\Add-On Hellas\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-05 15:21:50.891 | package_comms            | tactical ch=6 primary=Hammer 5 uhf=333.350
+2026-11-05 15:21:50.900 | dtc_render               | path=Skywalker.ini n_stpt=24 n_lines=0 n_ppt=3 n_dpi=0 n_divert=0 n_sections=41 hash=c5853c3d
+2026-11-05 15:21:51.000 | ato_departure            | resolved=5/5
+2026-11-05 15:21:53.380 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-11-05 15:21:53.387 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-11-05 15:21:53.415 | recon_info               | 5 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Kotroni Navy Airbase', 'Megalopolis AB Power Plant', 'Megisti Airstrip', 'Polichnitos Airstrip', 'Stefanovikion Army Airbase']
+2026-11-05 15:21:53.551 | briefing_context         | package_overview flights=5 route_points=73 focus_points=5 unique_points=73
+2026-11-05 15:21:54.411 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-05 15:21:54.414 | campaign_overview        | system_marks=0
+2026-11-05 15:21:54.472 | package_relevance        | package_routes pkg=3240 flights=5 routes=5 points=106
+2026-11-05 15:21:54.473 | friendly_ad_zone         | wps=1 buffer_nm=20.0 hull=24
+2026-11-05 15:21:54.481 | friendly_air_defense     | pkg=3240 ref=aoo sites=0 combat_wp=0 aoo_wp=1 covering=0 nearby=0 shown=0 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=171 alt_ft=1171
+2026-11-05 15:21:54.624 | briefing_context         | package_overview flights=5 route_points=73 focus_points=5 unique_points=73
+2026-11-05 15:21:55.292 | briefing_context         | package_overview flights=5 route_points=73 focus_points=5 unique_points=73
+2026-11-05 15:21:57.131 | ato_departure            | resolved=5/5
