@@ -1,0 +1,341 @@
+2026-11-08 21:00:14.552 | ========================================================================
+2026-11-08 21:00:14.552 | startup                  | FBB 1.100.0 — session 2026-11-08 21:00:14
+2026-11-08 21:00:14.552 | startup                  | Répertoire : C:\Falcon\Admin\Logiciels annexes\FBB\_internal
+2026-11-08 21:00:14.552 | startup                  | Python 3.14.5
+2026-11-08 21:00:14.552 | ========================================================================
+2026-11-08 21:00:14.553 | system                   | OS : Windows 11 10.0.26300, AMD64, 32 CPU, RAM 32 GB
+2026-11-08 21:00:14.563 | system                   | Machine : <masqué> / Intel64 Family 6 Model 183 Stepping 1, GenuineIntel
+2026-11-08 21:00:14.563 | registry                 | BMS baseDir : C:\Falcon\Falcon BMS 4.38
+2026-11-08 21:00:14.563 | registry                 | BMS theater : LKTO 4.38 + Papa  pilot : Obe1
+2026-11-08 21:00:15.022 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-11-08 21:00:17.053 | parse_health             | CI11a.cam: records 344/344, bytes 180969/180969, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-11-08 21:00:17.534 | dtc_mfd                  | event=read path=Obe1.ini mtime=2026-11-08 19:42:32 mfd=40/96
+2026-11-08 21:00:18.032 | telemetry                | ping OK v1.100.0 Windows 11 canal=prod → HTTP 200
+2026-11-08 21:00:18.146 | ato_departure            | resolved=1/1
+2026-11-08 21:00:20.919 | ato_departure            | resolved=1/1
+2026-11-08 21:00:22.547 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:00:24.834 | fuel_plan                | avail=12194 atTurn=8510 bingo=4200 joker=4700 rtb=2006 margin=4310 GO
+2026-11-08 21:00:24.847 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:00:24.848 | mission_support          | awacs: cam pkg=1235 vu=20179
+2026-11-08 21:00:26.284 | mission_support          | tanker: cam pkg=1235 vu=20122
+2026-11-08 21:00:26.285 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:00:26.285 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-08 21:00:26.389 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=ebf21f14
+2026-11-08 21:00:32.652 | online                   | seat Obe1=vu26721/s0
+2026-11-08 21:00:32.652 | online                   | seat_the_host Obe1 vu=26721 seat=0
+2026-11-08 21:00:32.656 | ato_departure            | resolved=1/1
+2026-11-08 21:00:32.715 | session_base             | freeze CI11a.cam -> C:\Users\Administrateur\AppData\Roaming\FBB\session_base\CI11a.cam
+2026-11-08 21:00:32.715 | online                   | start_server port=45380
+2026-11-08 21:00:32.719 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:00:35.883 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:00:35.940 | fuel_plan                | avail=12194 atTurn=8510 bingo=4200 joker=4700 rtb=2006 margin=4310 GO
+2026-11-08 21:00:35.942 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:00:35.943 | mission_support          | awacs: cam pkg=1235 vu=20179
+2026-11-08 21:00:35.944 | mission_support          | tanker: cam pkg=1235 vu=20122
+2026-11-08 21:00:35.944 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:00:35.944 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-08 21:00:35.949 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=ebf21f14
+2026-11-08 21:00:36.011 | ato_departure            | resolved=1/1
+2026-11-08 21:00:36.065 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:00:37.717 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:00:37.718 | export_copy              | version -> v1
+2026-11-08 21:00:41.079 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:00:42.720 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:00:46.084 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:00:47.722 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:00:51.094 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:00:52.724 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:00:56.112 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:00:57.727 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:01:01.124 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:01:02.730 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:01:06.129 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:01:07.732 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:01:11.145 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:01:12.735 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:01:13.199 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:01:13.262 | fuel_plan                | avail=12194 atTurn=8510 bingo=4200 joker=4700 rtb=2006 margin=4310 GO
+2026-11-08 21:01:13.265 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:01:13.265 | mission_support          | awacs: cam pkg=1235 vu=20179
+2026-11-08 21:01:13.266 | mission_support          | tanker: cam pkg=1235 vu=20122
+2026-11-08 21:01:13.267 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:01:13.267 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-08 21:01:13.272 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=ebf21f14
+2026-11-08 21:01:13.363 | ato_departure            | resolved=1/1
+2026-11-08 21:01:14.749 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:01:14.754 | ato_departure            | resolved=1/1
+2026-11-08 21:01:14.807 | fuel_plan                | avail=12194 atTurn=8510 bingo=4200 joker=4700 rtb=2006 margin=4310 GO
+2026-11-08 21:01:14.810 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:01:14.811 | mission_support          | awacs: cam pkg=1235 vu=20179
+2026-11-08 21:01:14.811 | mission_support          | tanker: cam pkg=1235 vu=20122
+2026-11-08 21:01:14.812 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:01:14.812 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-08 21:01:14.817 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=ebf21f14
+2026-11-08 21:01:16.172 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:01:17.737 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:01:21.189 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:01:22.740 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:01:26.196 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:01:27.742 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:01:31.212 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:01:32.745 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:01:36.229 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:01:37.748 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:01:41.236 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:01:42.751 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:01:46.244 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:01:47.754 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:01:51.253 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:01:52.757 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:01:56.266 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:01:57.760 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:02:01.277 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:02:02.717 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:02:02.772 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:02:02.777 | fuel_plan                | avail=12194 atTurn=8510 bingo=4200 joker=4700 rtb=2006 margin=4310 GO
+2026-11-08 21:02:02.779 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:02:02.779 | mission_support          | awacs: cam pkg=1235 vu=20179
+2026-11-08 21:02:02.780 | mission_support          | tanker: cam pkg=1235 vu=20122
+2026-11-08 21:02:02.781 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:02:02.781 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-08 21:02:02.785 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=ebf21f14
+2026-11-08 21:02:02.821 | ato_departure            | resolved=1/1
+2026-11-08 21:02:06.291 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:02:06.321 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:02:06.324 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:02:06.639 | fuel_plan                | avail=12194 atTurn=8510 bingo=4200 joker=4700 rtb=2006 margin=4310 GO
+2026-11-08 21:02:06.672 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:02:06.673 | mission_support          | awacs: cam pkg=1235 vu=20179
+2026-11-08 21:02:06.673 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:02:06.673 | mission_support          | tanker: cam pkg=1235 vu=20122
+2026-11-08 21:02:06.674 | mission_support          | awacs: cam pkg=1235 vu=20179
+2026-11-08 21:02:06.676 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:02:06.677 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-08 21:02:06.683 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:02:06.683 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-08 21:02:06.690 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=0 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=ebf21f14
+2026-11-08 21:02:07.370 | campaign_overview        | objective_index loaded=5992
+2026-11-08 21:02:07.445 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:02:07.469 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:02:07.635 | campaign_overview        | built team=2 conditions=1 force_rows=7
+2026-11-08 21:02:07.645 | campaign_overview        | system_marks=2
+2026-11-08 21:02:07.777 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:02:08.537 | package_relevance        | package_routes pkg=1235 flights=1 routes=1 points=15
+2026-11-08 21:02:08.628 | friendly_ad_zone         | wps=1 buffer_nm=20.0 hull=24
+2026-11-08 21:02:09.030 | mission_support          | tanker: cam pkg=1235 vu=20122
+2026-11-08 21:02:09.134 | mission_support          | awacs: cam pkg=1235 vu=20179
+2026-11-08 21:02:09.306 | briefing_context         | package_overview flights=1 route_points=14 focus_points=1 unique_points=14
+2026-11-08 21:02:09.381 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:02:09.594 | friendly_air_defense     | pkg=1235 ref=aoo sites=11 combat_wp=0 aoo_wp=1 covering=3 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=242 alt_ft=22000
+2026-11-08 21:02:09.620 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:02:09.719 | airport_diagrams         | taxi surfaces=66 terrains en raster | repli K-NN : 21 sans mesh CT30, 0 sous-couvrants
+2026-11-08 21:02:09.719 | airport_diagrams         |   sans CT30 : Gumi Highway Strip, Haeju Airstrip, Hyangsan Airstrip, Kangdong Airstrip, Kilchu Airstrip, Kuktong Airbase, Kwaksan Airbase, Manpo Airbase, Mirim Airport, Okpyongni Highwaystrip, Panghyon Highwaystrip South, Pyongyang Elite Airstrip, Sangwon Highwaystrip, Singal Highway Strip, Songwhan Highway Strip, Sugamni Airbase, Tanchon Airstrip, Yeongju Highway Strip, Yonghung Highwaystrip, Yonpo Airbase, ZYSQ
+2026-11-08 21:02:11.332 | online                   | flight_occupancy flights=1 connected=1 pkg=1235
+2026-11-08 21:02:11.873 | online                   | seat Mandrak=vu26721/s1
+2026-11-08 21:02:12.392 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:12.731 | online                   | broadcast_dpi_list 7
+2026-11-08 21:02:12.735 | online                   | broadcast_dpi_list 7
+2026-11-08 21:02:12.737 | online                   | broadcast_dpi_list 7
+2026-11-08 21:02:12.739 | online                   | broadcast_dpi_list 7
+2026-11-08 21:02:12.741 | online                   | broadcast_dpi_list 7
+2026-11-08 21:02:12.744 | online                   | broadcast_dpi_list 7
+2026-11-08 21:02:12.746 | online                   | broadcast_dpi_list 7
+2026-11-08 21:02:12.781 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:02:12.995 | online                   | broadcast_dpi_list 7
+2026-11-08 21:02:15.404 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:16.340 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:17.529 | fuel_plan                | avail=12194 atTurn=8510 bingo=4200 joker=4700 rtb=2006 margin=4310 GO
+2026-11-08 21:02:17.531 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:02:17.532 | mission_support          | awacs: cam pkg=1235 vu=20179
+2026-11-08 21:02:17.533 | mission_support          | tanker: cam pkg=1235 vu=20122
+2026-11-08 21:02:17.535 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:02:17.535 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-08 21:02:17.539 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=ebf21f14
+2026-11-08 21:02:17.595 | fuel_plan                | avail=12194 atTurn=8510 bingo=4200 joker=4700 rtb=2006 margin=4310 GO
+2026-11-08 21:02:17.597 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:02:17.598 | mission_support          | awacs: cam pkg=1235 vu=20179
+2026-11-08 21:02:17.598 | mission_support          | tanker: cam pkg=1235 vu=20122
+2026-11-08 21:02:17.599 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:02:17.599 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-08 21:02:17.604 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=6 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=ebf21f14
+2026-11-08 21:02:17.785 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:02:18.409 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:21.345 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:21.425 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:22.788 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:02:23.615 | fuel_plan                | avail=12194 atTurn=8510 bingo=4200 joker=4700 rtb=2006 margin=4310 GO
+2026-11-08 21:02:23.617 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:02:23.617 | mission_support          | awacs: cam pkg=1235 vu=20179
+2026-11-08 21:02:23.618 | mission_support          | tanker: cam pkg=1235 vu=20122
+2026-11-08 21:02:23.619 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:02:23.619 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-08 21:02:23.623 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=11 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=ebf21f14
+2026-11-08 21:02:23.680 | fuel_plan                | avail=12194 atTurn=8510 bingo=4200 joker=4700 rtb=2006 margin=4310 GO
+2026-11-08 21:02:23.683 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:02:23.683 | mission_support          | awacs: cam pkg=1235 vu=20179
+2026-11-08 21:02:23.684 | mission_support          | tanker: cam pkg=1235 vu=20122
+2026-11-08 21:02:23.685 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:02:23.685 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-08 21:02:23.689 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=11 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=ebf21f14
+2026-11-08 21:02:24.431 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:26.355 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:27.443 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:27.790 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:02:30.461 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:31.361 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:32.793 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:02:33.469 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:36.365 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:36.474 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:37.796 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:02:39.480 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:41.370 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:42.485 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:42.799 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:02:45.495 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:46.452 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:47.801 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:02:48.505 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:51.461 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:51.513 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:52.804 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:02:54.528 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:56.473 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:57.545 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:02:57.806 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:03:00.556 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:01.064 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:03:01.116 | fuel_plan                | avail=12194 atTurn=8510 bingo=4200 joker=4700 rtb=2006 margin=4310 GO
+2026-11-08 21:03:01.118 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:03:01.119 | mission_support          | awacs: cam pkg=1235 vu=20179
+2026-11-08 21:03:01.119 | mission_support          | tanker: cam pkg=1235 vu=20122
+2026-11-08 21:03:01.120 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:03:01.120 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-08 21:03:01.125 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=11 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=ebf21f14
+2026-11-08 21:03:01.480 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:02.809 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:03:03.561 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:06.492 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:06.570 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:07.812 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:03:09.577 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:11.510 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:12.594 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:12.814 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:03:15.606 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:16.516 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:17.817 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:03:18.611 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:21.527 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:21.622 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:22.820 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:03:24.640 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:25.629 | ato_departure            | resolved=1/1
+2026-11-08 21:03:26.848 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:27.656 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:27.822 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:03:30.665 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:31.860 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:32.825 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:03:33.671 | online                   | flight_occupancy flights=1 connected=2 pkg=1235
+2026-11-08 21:03:35.631 | online                   | seat Benco=vu26721/s2
+2026-11-08 21:03:36.300 | online                   | broadcast_dpi_list 7
+2026-11-08 21:03:36.305 | online                   | broadcast_dpi_list 7
+2026-11-08 21:03:36.307 | online                   | broadcast_dpi_list 7
+2026-11-08 21:03:36.309 | online                   | broadcast_dpi_list 7
+2026-11-08 21:03:36.311 | online                   | broadcast_dpi_list 7
+2026-11-08 21:03:36.313 | online                   | broadcast_dpi_list 7
+2026-11-08 21:03:36.315 | online                   | broadcast_dpi_list 7
+2026-11-08 21:03:36.600 | online                   | broadcast_dpi_list 7
+2026-11-08 21:03:36.603 | online                   | broadcast_dpi_list 7
+2026-11-08 21:03:36.605 | online                   | broadcast_dpi_list 7
+2026-11-08 21:03:36.608 | online                   | broadcast_dpi_list 7
+2026-11-08 21:03:36.610 | online                   | broadcast_dpi_list 7
+2026-11-08 21:03:36.612 | online                   | broadcast_dpi_list 7
+2026-11-08 21:03:36.614 | online                   | broadcast_dpi_list 7
+2026-11-08 21:03:36.617 | online                   | broadcast_dpi_list 8
+2026-11-08 21:03:36.679 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:03:36.863 | online                   | broadcast_dpi_list 8
+2026-11-08 21:03:36.865 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:03:36.930 | online                   | broadcast_dpi_list 8
+2026-11-08 21:03:37.098 | online                   | broadcast_dpi_list 8
+2026-11-08 21:03:37.164 | online                   | broadcast_dpi_list 8
+2026-11-08 21:03:37.827 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:03:39.686 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:03:41.877 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:03:42.694 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:03:42.830 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:03:45.703 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:03:46.886 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:03:47.832 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:03:48.710 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:03:51.727 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:03:51.894 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:03:52.835 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:03:53.543 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:03:54.744 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:03:56.909 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:03:57.748 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:03:57.837 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:04:00.755 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:01.924 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:02.840 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:04:03.760 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:06.777 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:06.933 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:07.843 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:04:09.785 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:11.944 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:12.793 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:12.845 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:04:15.810 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:16.958 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:17.848 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:04:18.823 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:20.753 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:04:20.810 | fuel_plan                | avail=12194 atTurn=8510 bingo=4200 joker=4700 rtb=2006 margin=4310 GO
+2026-11-08 21:04:20.812 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:04:20.813 | mission_support          | awacs: cam pkg=1235 vu=20179
+2026-11-08 21:04:20.814 | mission_support          | tanker: cam pkg=1235 vu=20122
+2026-11-08 21:04:20.815 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:04:20.815 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-08 21:04:20.819 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=11 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=ebf21f14
+2026-11-08 21:04:21.242 | ato_departure            | resolved=1/1
+2026-11-08 21:04:21.818 | roaster.data             | fetch
+2026-11-08 21:04:21.820 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:04:21.821 | mission_support          | tanker: cam pkg=1235 vu=20122
+2026-11-08 21:04:21.821 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:04:21.822 | mission_support          | awacs: cam pkg=1235 vu=20179
+2026-11-08 21:04:21.823 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:04:21.823 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:04:21.823 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-08 21:04:21.823 | roaster.data             | ok — 1 flights, axis=288.4°, noms=session
+2026-11-08 21:04:21.848 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:21.860 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:21.977 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:22.850 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:04:23.075 | online                   | set_mc Obe1 (vol 26721 siège 1)
+2026-11-08 21:04:25.060 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:25.063 | ato_departure            | resolved=1/1
+2026-11-08 21:04:25.073 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:04:25.128 | fuel_plan                | avail=12194 atTurn=8510 bingo=4200 joker=4700 rtb=2006 margin=4310 GO
+2026-11-08 21:04:25.130 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:04:25.130 | mission_support          | awacs: cam pkg=1235 vu=20179
+2026-11-08 21:04:25.131 | mission_support          | tanker: cam pkg=1235 vu=20122
+2026-11-08 21:04:25.132 | radiomap_service         | radiomap path=C:\Falcon\Falcon BMS 4.38\Data\Add-On LKTO+\Campaign+\RadioMap.dat entries=1530 (campaigndir)
+2026-11-08 21:04:25.132 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-08 21:04:25.136 | dtc_render               | path=Obe1.ini n_stpt=24 n_lines=11 n_ppt=0 n_dpi=0 n_divert=0 n_sections=0 hash=ebf21f14
+2026-11-08 21:04:26.994 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:27.853 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:04:28.130 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:31.144 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:32.010 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:32.855 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:04:34.157 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:37.017 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:37.173 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:37.857 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-08 21:04:39.727 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:40.031 | online                   | mc_submit_from_Benco
+2026-11-08 21:04:40.177 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
+2026-11-08 21:04:42.026 | online                   | flight_occupancy flights=1 connected=3 pkg=1235
