@@ -1,0 +1,23 @@
+2026-11-09 21:29:07.836 | ========================================================================
+2026-11-09 21:29:07.836 | FBB Online  mode=CLIENT    identity=Mav29             port=45380
+2026-11-09 21:29:07.836 | Session : 2026-11-09 21:29:07
+2026-11-09 21:29:07.836 | ========================================================================
+2026-11-09 21:29:07.836 | [STATE] _client none -> NetworkClient#2252cf1c550 | cause=connect_client
+2026-11-09 21:29:07.837 | [STATE] _mode idle -> client | cause=connect_client
+2026-11-09 21:29:07.837 | [STATE] _my_callsign (vide) -> Mav29 | cause=connect_client
+2026-11-09 21:29:07.839 | [CLIENT] status → connecting
+2026-11-09 21:29:07.840 | [STATE] reset online | cause=connect_client | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt, debrief_presenter
+2026-11-09 21:29:07.841 | [CLIENT] Connexion → 82.64.63.33:45380 (callsign=Mav29)
+2026-11-09 21:29:17.845 | [CLIENT] status → error:host injoignable (82.64.63.33:45380) — aucune reponse en 10 s. Port ferme ou filtre par un pare-feu, ou host eteint.
+2026-11-09 21:29:17.845 | [CLIENT] status → reconnecting:1
+2026-11-09 21:29:17.846 | [STATE] _reconnecting false -> true | cause=client_status:reconnecting#1
+2026-11-09 21:29:29.853 | [CLIENT] status → reconnecting:2
+2026-11-09 21:29:43.882 | [CLIENT] status → reconnecting:3
+2026-11-09 21:29:47.274 | [STATE] _client NetworkClient#2252cf1c550 -> none | cause=disconnect_client
+2026-11-09 21:29:47.274 | [STATE] _mode client -> idle | cause=disconnect_client
+2026-11-09 21:29:47.275 | [STATE] _my_callsign Mav29 -> (vide) | cause=disconnect_client
+2026-11-09 21:29:47.275 | [STATE] _reconnecting true -> false | cause=disconnect_client
+2026-11-09 21:29:47.275 | [STATE] reset online | cause=disconnect_client | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt, debrief_presenter
+2026-11-09 21:29:47.276 | [CLIENT] Déconnecté
+2026-11-09 21:29:47.276 | ========================================================================
+2026-11-09 21:29:47.276 | FBB Online — session terminée | cause=disconnect_client — déconnexion demandée par l'UI
