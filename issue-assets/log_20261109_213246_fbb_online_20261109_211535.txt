@@ -1,0 +1,22 @@
+2026-11-09 21:15:35.633 | ========================================================================
+2026-11-09 21:15:35.633 | FBB Online  mode=SERVER    identity=HOST              port=45380
+2026-11-09 21:15:35.633 | Session : 2026-11-09 21:15:35
+2026-11-09 21:15:35.633 | ========================================================================
+2026-11-09 21:15:35.759 | [TLS] Cert <empreinte masquée>... — host-pass=ok (machine=<masqué>) — epinglage Route B pret
+2026-11-09 21:15:35.817 | [SERVER] status → running
+2026-11-09 21:15:35.817 | [STATE] _mode idle -> server | cause=start_server
+2026-11-09 21:15:35.818 | [STATE] _my_callsign (vide) -> Mav29 | cause=start_server
+2026-11-09 21:15:35.819 | [STATE] reset online | cause=start_server | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt, debrief_presenter
+2026-11-09 21:15:35.821 | [SERVER] Mav29 tient Copper 1 — Flight Lead
+2026-11-09 21:15:35.899 | [SERVER] Démarré sur port 45380
+2026-11-09 21:20:12.550 | [SERVER] Mav29 tient Bulldog 2 — Flight Lead
+2026-11-09 21:20:12.555 | [SEAT] Place du host ré-inscrite (désignation ★ Mon Vol) — Bulldog 2
+2026-11-09 21:20:17.270 | [SERVER] Mav29 tient Bulldog 2 — Flight Lead
+2026-11-09 21:20:17.271 | [SEAT] Package de session changé (Bulldog 2) — places reproposées
+2026-11-09 21:20:34.713 | [SERVER] status → stopped
+2026-11-09 21:20:34.716 | [STATE] _mode server -> idle | cause=stop_server
+2026-11-09 21:20:34.717 | [STATE] _my_callsign Mav29 -> (vide) | cause=stop_server
+2026-11-09 21:20:34.723 | [STATE] reset online | cause=stop_server | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt, debrief_presenter
+2026-11-09 21:20:34.723 | [SERVER] Arrêté
+2026-11-09 21:20:34.723 | ========================================================================
+2026-11-09 21:20:34.724 | FBB Online — session terminée | cause=stop_server — arrêt du serveur demandé par l'UI
