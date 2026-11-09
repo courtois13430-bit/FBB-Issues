@@ -1,0 +1,709 @@
+2026-11-09 21:03:55.686 | ========================================================================
+2026-11-09 21:03:55.686 | startup                  | FBB 1.100.0 — session 2026-11-09 21:03:55
+2026-11-09 21:03:55.686 | startup                  | Répertoire : D:\FBB\_internal
+2026-11-09 21:03:55.686 | startup                  | Python 3.14.5
+2026-11-09 21:03:55.686 | ========================================================================
+2026-11-09 21:03:55.687 | system                   | OS : Windows 11 10.0.26300, AMD64, 12 CPU, RAM 32 GB
+2026-11-09 21:03:55.700 | system                   | Machine : <masqué> / Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+2026-11-09 21:03:55.700 | registry                 | BMS baseDir : C:\Falcon BMS 4.38
+2026-11-09 21:03:55.700 | registry                 | BMS theater : Korea KTO  pilot : Mav29
+2026-11-09 21:03:56.474 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-11-09 21:03:59.087 | telemetry                | ping OK v1.100.0 Windows 11 canal=prod → HTTP 200
+2026-11-09 21:04:01.216 | parse_health             | Debut_campagne1.cam: records 1016/1016, bytes 438674/438674, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-11-09 21:04:02.188 | dtc_mfd                  | event=read path=Mav29.ini mtime=2026-11-08 17:15:52 mfd=47/96
+2026-11-09 21:04:02.949 | ato_departure            | resolved=1/1
+2026-11-09 21:04:07.564 | ato_departure            | resolved=1/1
+2026-11-09 21:04:08.053 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:04:09.724 | fuel_plan                | avail=12194 atTurn=9363 bingo=3400 joker=3900 rtb=1076 margin=5963 GO
+2026-11-09 21:04:10.122 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-11-09 21:04:10.140 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-09 21:04:10.143 | mission_support          | awacs: bms nearest vu=20161
+2026-11-09 21:04:12.233 | mission_support          | tanker: bms nearest vu=20150
+2026-11-09 21:04:12.235 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-09 21:04:12.235 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-09 21:04:12.248 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=1 n_dpi=8 n_divert=3 n_sections=4 hash=a7754200
+2026-11-09 21:04:28.307 | parse_health             | Campagne Serbian Annex 27.cam: records 1733/1733, bytes 684434/684434, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-11-09 21:04:28.834 | dtc_mfd                  | event=read path=Mav29.ini mtime=2026-11-08 17:15:52 mfd=47/96
+2026-11-09 21:04:29.177 | swap_context             | origin=set_theater cam='campagne serbian annex 27.cam' loaded=True err=''
+2026-11-09 21:04:29.305 | ato_departure            | resolved=1/1
+2026-11-09 21:04:29.405 | ato_departure            | resolved=1/1
+2026-11-09 21:04:29.618 | recon_info               | 13 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Amendola Airbase Scenery', 'Aviano Airbase Scenery', 'Cerklje Ob Krki AB Scenery', 'Cervia Airbase Scenery', 'Galatina Airbase Scenery', 'Gioia Del Colle Airbase Scenery', 'Istrana Airbase Scenery', 'Miramare Airbase Scenery', 'Pescara Airbase Scenery', 'Pleso Airbase Scenary', 'Rivolto Airbase Scenery', 'Sigonella Airbase Scenery', 'Zadar Airbase Scenery']
+2026-11-09 21:04:29.631 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:04:30.042 | recon_info               | 13 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Amendola Airbase Scenery', 'Aviano Airbase Scenery', 'Cerklje Ob Krki AB Scenery', 'Cervia Airbase Scenery', 'Galatina Airbase Scenery', 'Gioia Del Colle Airbase Scenery', 'Istrana Airbase Scenery', 'Miramare Airbase Scenery', 'Pescara Airbase Scenery', 'Pleso Airbase Scenary', 'Rivolto Airbase Scenery', 'Sigonella Airbase Scenery', 'Zadar Airbase Scenery']
+2026-11-09 21:04:32.303 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:04:32.310 | mission_support          | awacs: bms nearest vu=24141
+2026-11-09 21:04:34.693 | mission_support          | tanker: bms nearest vu=20107
+2026-11-09 21:04:34.698 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:04:34.698 | package_comms            | tactical ch=6 primary=Amber 3 uhf=239.200
+2026-11-09 21:04:34.723 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=20 n_ppt=11 n_dpi=8 n_divert=3 n_sections=65 hash=a7754200
+2026-11-09 21:05:05.952 | online                   | peek_roster 82.64.63.33:45380 start (suggested=Mav29)
+2026-11-09 21:05:18.144 | online                   | peek_roster 82.64.63.33:45380 timeout: Timeout — pas de réponse du host
+2026-11-09 21:05:53.549 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:05:53.609 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:05:53.619 | mission_support          | awacs: bms nearest vu=24141
+2026-11-09 21:05:53.626 | mission_support          | tanker: bms nearest vu=20107
+2026-11-09 21:05:53.629 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:05:53.630 | package_comms            | tactical ch=6 primary=Amber 3 uhf=239.200
+2026-11-09 21:05:53.641 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=20 n_ppt=11 n_dpi=8 n_divert=3 n_sections=65 hash=a7754200
+2026-11-09 21:05:53.656 | ato_departure            | resolved=1/1
+2026-11-09 21:05:54.239 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:05:54.283 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:05:54.290 | mission_support          | awacs: bms nearest vu=24141
+2026-11-09 21:05:54.293 | mission_support          | tanker: bms nearest vu=20107
+2026-11-09 21:05:54.295 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:05:54.296 | package_comms            | tactical ch=6 primary=Amber 3 uhf=239.200
+2026-11-09 21:05:54.308 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=20 n_ppt=11 n_dpi=8 n_divert=3 n_sections=65 hash=a7754200
+2026-11-09 21:05:54.742 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:05:54.749 | mission_support          | awacs: bms nearest vu=24141
+2026-11-09 21:05:54.751 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:05:54.751 | package_comms            | tactical ch=6 primary=Amber 3 uhf=239.200
+2026-11-09 21:05:56.519 | campaign_overview        | objective_index loaded=3097
+2026-11-09 21:05:57.082 | campaign_overview        | built team=4 conditions=1 force_rows=7
+2026-11-09 21:05:57.110 | campaign_overview        | system_marks=7
+2026-11-09 21:05:59.750 | mission_support          | tanker: bms nearest vu=20107
+2026-11-09 21:05:59.764 | mission_support          | awacs: bms nearest vu=24141
+2026-11-09 21:06:00.555 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:06:01.416 | briefing_context         | package_overview flights=1 route_points=1 focus_points=0 unique_points=1
+2026-11-09 21:06:03.964 | airport_diagrams         | taxi surfaces=105 terrains en raster | repli K-NN : 0 sans mesh CT30, 2 sous-couvrants
+2026-11-09 21:06:03.964 | airport_diagrams         |   CT30 sous-couvrant : LYSJ, Mattarello Airport
+2026-11-09 21:06:39.131 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:06:39.184 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:06:39.192 | mission_support          | awacs: bms nearest vu=24141
+2026-11-09 21:06:39.198 | mission_support          | tanker: bms nearest vu=20107
+2026-11-09 21:06:39.199 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:06:39.199 | package_comms            | tactical ch=6 primary=Amber 3 uhf=239.200
+2026-11-09 21:06:39.210 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=20 n_ppt=11 n_dpi=8 n_divert=3 n_sections=65 hash=a7754200
+2026-11-09 21:06:39.251 | ato_departure            | resolved=1/1
+2026-11-09 21:07:07.039 | ato_target               | index_built names=4699 memo=True
+2026-11-09 21:07:07.053 | mission_support          | tanker: bms nearest vu=20107
+2026-11-09 21:07:07.054 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:07:07.059 | mission_support          | tanker: bms nearest vu=20107
+2026-11-09 21:07:07.066 | mission_support          | awacs: bms nearest vu=24141
+2026-11-09 21:07:07.067 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:07:07.068 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:07:07.068 | package_comms            | tactical ch=6 primary=Amber 3 uhf=239.200
+2026-11-09 21:07:07.073 | mission_support          | awacs: bms nearest vu=24141
+2026-11-09 21:07:07.552 | package_relevance        | package_routes pkg=3103 flights=1 routes=1 points=2
+2026-11-09 21:07:08.067 | friendly_air_defense     | pkg=3103 ref=stpt sites=64 combat_wp=0 aoo_wp=0 covering=0 nearby=3 shown=3 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=234 alt_ft=2682
+2026-11-09 21:07:08.068 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok buddies=0 (Amber 3: no hot WPT detected (no AOO action on the reference flight — escort/tanker/AWACS/ferry have none))
+2026-11-09 21:07:08.070 | package_relevance        | package_routes pkg=3103 flights=1 routes=1 points=2
+2026-11-09 21:07:08.070 | briefing_context         | package_route_sketch flights=1 points=2
+2026-11-09 21:07:08.071 | briefing_context         | ordnance vu=27991 aircraft=2 pending=False
+2026-11-09 21:07:08.115 | campaign_overview        | built team=4 conditions=1 force_rows=7
+2026-11-09 21:07:08.132 | mission_support          | awacs: bms nearest vu=24141
+2026-11-09 21:07:08.136 | mission_support          | tanker: bms nearest vu=20107
+2026-11-09 21:07:08.311 | campaign_overview        | built team=4 conditions=1 force_rows=7
+2026-11-09 21:07:08.690 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:07:08.732 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:07:08.743 | mission_support          | awacs: bms nearest vu=24141
+2026-11-09 21:07:08.750 | mission_support          | tanker: bms nearest vu=20107
+2026-11-09 21:07:08.777 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:07:08.777 | package_comms            | tactical ch=6 primary=Amber 3 uhf=239.200
+2026-11-09 21:07:08.792 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=20 n_ppt=11 n_dpi=8 n_divert=3 n_sections=65 hash=a7754200
+2026-11-09 21:07:09.560 | airport_diagrams         | taxi surfaces=105 terrains en raster | repli K-NN : 0 sans mesh CT30, 2 sous-couvrants
+2026-11-09 21:07:09.561 | airport_diagrams         |   CT30 sous-couvrant : LYSJ, Mattarello Airport
+2026-11-09 21:07:10.040 | campaign_overview        | built team=4 conditions=1 force_rows=7
+2026-11-09 21:07:10.042 | campaign_overview        | system_marks=7
+2026-11-09 21:07:10.544 | mission_support          | tanker: bms nearest vu=20107
+2026-11-09 21:07:10.622 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:07:10.626 | mission_support          | tanker: bms nearest vu=20107
+2026-11-09 21:07:10.634 | mission_support          | awacs: bms nearest vu=24141
+2026-11-09 21:07:10.668 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:07:10.792 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:07:10.793 | package_comms            | tactical ch=6 primary=Amber 3 uhf=239.200
+2026-11-09 21:07:10.802 | mission_support          | awacs: bms nearest vu=24141
+2026-11-09 21:07:11.323 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:07:11.330 | package_relevance        | package_routes pkg=3103 flights=1 routes=1 points=2
+2026-11-09 21:07:11.530 | friendly_air_defense     | pkg=3103 ref=stpt sites=64 combat_wp=0 aoo_wp=0 covering=0 nearby=3 shown=3 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=234 alt_ft=2682
+2026-11-09 21:07:11.531 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok buddies=0 (Amber 3: no hot WPT detected (no AOO action on the reference flight — escort/tanker/AWACS/ferry have none))
+2026-11-09 21:07:11.538 | package_relevance        | package_routes pkg=3103 flights=1 routes=1 points=2
+2026-11-09 21:07:11.538 | briefing_context         | package_route_sketch flights=1 points=2
+2026-11-09 21:07:11.540 | briefing_context         | ordnance vu=27991 aircraft=2 pending=False
+2026-11-09 21:07:11.607 | campaign_overview        | built team=4 conditions=1 force_rows=7
+2026-11-09 21:07:11.655 | mission_support          | awacs: bms nearest vu=24141
+2026-11-09 21:07:11.659 | mission_support          | tanker: bms nearest vu=20107
+2026-11-09 21:07:11.682 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:07:12.095 | briefing_context         | package_overview flights=1 route_points=1 focus_points=0 unique_points=1
+2026-11-09 21:07:36.446 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:07:36.486 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:07:36.491 | mission_support          | awacs: bms nearest vu=24141
+2026-11-09 21:07:36.496 | mission_support          | tanker: bms nearest vu=20107
+2026-11-09 21:07:36.497 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:07:36.497 | package_comms            | tactical ch=6 primary=Amber 3 uhf=239.200
+2026-11-09 21:07:36.508 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=20 n_ppt=11 n_dpi=8 n_divert=3 n_sections=65 hash=a7754200
+2026-11-09 21:07:46.251 | online                   | peek_roster 82.64.63.33:45380 start (suggested=Mav29)
+2026-11-09 21:07:58.447 | online                   | peek_roster 82.64.63.33:45380 timeout: Timeout — pas de réponse du host
+2026-11-09 21:08:12.593 | online                   | connect_client 82.64.63.33:45380 as Mav29
+2026-11-09 21:08:12.606 | ato_departure            | resolved=1/1
+2026-11-09 21:08:15.679 | online                   | flight_occupancy flights=1 connected=1 pkg=3103
+2026-11-09 21:08:20.687 | online                   | flight_occupancy flights=1 connected=1 pkg=3103
+2026-11-09 21:08:25.695 | online                   | flight_occupancy flights=1 connected=1 pkg=3103
+2026-11-09 21:08:30.712 | online                   | flight_occupancy flights=1 connected=1 pkg=3103
+2026-11-09 21:08:35.728 | online                   | flight_occupancy flights=1 connected=1 pkg=3103
+2026-11-09 21:08:40.742 | online                   | flight_occupancy flights=1 connected=1 pkg=3103
+2026-11-09 21:08:45.757 | online                   | flight_occupancy flights=1 connected=1 pkg=3103
+2026-11-09 21:08:48.184 | online                   | flight_occupancy flights=1 connected=1 pkg=3103
+2026-11-09 21:08:49.951 | online                   | flight_occupancy flights=1 connected=1 pkg=3103
+2026-11-09 21:08:50.773 | online                   | flight_occupancy flights=1 connected=1 pkg=3103
+2026-11-09 21:08:54.530 | online                   | disconnect_client
+2026-11-09 21:08:54.730 | ato_departure            | resolved=1/1
+2026-11-09 21:08:54.814 | parse_health             | Balkans COMAO 4.tac: records 109/109, bytes 48188/48188, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-11-09 21:08:55.436 | dtc_mfd                  | event=read path=Mav29.ini mtime=2026-11-08 17:15:52 mfd=47/96
+2026-11-09 21:08:55.454 | recon_info               | 13 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Amendola Airbase Scenery', 'Aviano Airbase Scenery', 'Cerklje Ob Krki AB Scenery', 'Cervia Airbase Scenery', 'Galatina Airbase Scenery', 'Gioia Del Colle Airbase Scenery', 'Istrana Airbase Scenery', 'Miramare Airbase Scenery', 'Pescara Airbase Scenery', 'Pleso Airbase Scenary', 'Rivolto Airbase Scenery', 'Sigonella Airbase Scenery', 'Zadar Airbase Scenery']
+2026-11-09 21:08:55.483 | swap_context             | origin=select_cam:previous cam='balkans comao 4.tac' loaded=True err=''
+2026-11-09 21:08:55.916 | ato_target               | index_built names=3206 memo=True
+2026-11-09 21:08:55.965 | ato_departure            | resolved=1/1
+2026-11-09 21:08:57.164 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:08:57.168 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:08:57.169 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:08:57.169 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:08:57.186 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:08:57.203 | ato_departure            | resolved=1/1
+2026-11-09 21:08:57.204 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:08:57.204 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:08:57.204 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:08:57.228 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:08:57.264 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=24)
+2026-11-09 21:08:57.326 | friendly_air_defense     | pkg=3183 ref=stpt sites=5 combat_wp=0 aoo_wp=0 covering=0 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=234 alt_ft=22000
+2026-11-09 21:08:57.326 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok buddies=0 (Copper 1: no hot WPT detected (no AOO action on the reference flight — escort/tanker/AWACS/ferry have none))
+2026-11-09 21:08:57.329 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:08:57.329 | briefing_context         | package_route_sketch flights=1 points=6
+2026-11-09 21:08:57.330 | briefing_context         | ordnance vu=20010 aircraft=1 pending=False
+2026-11-09 21:08:57.363 | campaign_overview        | objective_index loaded=3097
+2026-11-09 21:08:57.403 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:08:57.582 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:08:57.601 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:08:57.602 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:08:57.627 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:09:00.228 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:09:00.228 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:09:00.229 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:09:00.230 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:09:00.230 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:09:00.241 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=52 hash=a7754200
+2026-11-09 21:09:00.366 | recon_info               | 13 objectif(s) sans piste ni surface ecarte(s) du selecteur : ['Amendola Airbase Scenery', 'Aviano Airbase Scenery', 'Cerklje Ob Krki AB Scenery', 'Cervia Airbase Scenery', 'Galatina Airbase Scenery', 'Gioia Del Colle Airbase Scenery', 'Istrana Airbase Scenery', 'Miramare Airbase Scenery', 'Pescara Airbase Scenery', 'Pleso Airbase Scenary', 'Rivolto Airbase Scenery', 'Sigonella Airbase Scenery', 'Zadar Airbase Scenery']
+2026-11-09 21:11:38.356 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:11:38.402 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=24)
+2026-11-09 21:11:38.510 | ato_departure            | resolved=1/1
+2026-11-09 21:11:41.150 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:11:41.151 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:11:41.156 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:11:41.184 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:11:41.187 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:11:41.199 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=52 hash=a7754200
+2026-11-09 21:11:41.332 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:11:41.476 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:11:41.477 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:11:41.478 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:11:41.480 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:11:41.481 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:11:41.481 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:11:41.481 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:11:41.504 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:11:41.509 | friendly_air_defense     | pkg=3183 ref=stpt sites=5 combat_wp=0 aoo_wp=0 covering=0 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=234 alt_ft=22000
+2026-11-09 21:11:41.509 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok buddies=0 (Copper 1: no hot WPT detected (no AOO action on the reference flight — escort/tanker/AWACS/ferry have none))
+2026-11-09 21:11:41.510 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:11:41.510 | briefing_context         | package_route_sketch flights=1 points=6
+2026-11-09 21:11:41.510 | briefing_context         | ordnance vu=20010 aircraft=1 pending=False
+2026-11-09 21:11:41.712 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:11:41.728 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:11:41.729 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:11:41.888 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:11:42.218 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:11:42.265 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=24)
+2026-11-09 21:11:42.341 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:11:42.342 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:11:42.345 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:11:42.345 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:11:45.177 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:11:45.178 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:11:45.181 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:11:45.198 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:11:45.198 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:11:45.212 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=52 hash=a7754200
+2026-11-09 21:11:45.456 | airport_diagrams         | taxi surfaces=105 terrains en raster | repli K-NN : 0 sans mesh CT30, 2 sous-couvrants
+2026-11-09 21:11:45.457 | airport_diagrams         |   CT30 sous-couvrant : LYSJ, Mattarello Airport
+2026-11-09 21:11:45.807 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:11:45.808 | campaign_overview        | system_marks=0
+2026-11-09 21:11:46.454 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:11:46.456 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:11:47.029 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:11:47.056 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:11:47.059 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:11:47.060 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:11:47.071 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:11:47.088 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:11:47.088 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:11:47.089 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:11:47.118 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:11:47.142 | friendly_air_defense     | pkg=3183 ref=stpt sites=5 combat_wp=0 aoo_wp=0 covering=0 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=234 alt_ft=22000
+2026-11-09 21:11:47.142 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok buddies=0 (Copper 1: no hot WPT detected (no AOO action on the reference flight — escort/tanker/AWACS/ferry have none))
+2026-11-09 21:11:47.144 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:11:47.144 | briefing_context         | package_route_sketch flights=1 points=6
+2026-11-09 21:11:47.145 | briefing_context         | ordnance vu=20010 aircraft=1 pending=False
+2026-11-09 21:11:47.225 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:11:47.246 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:11:47.248 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:11:47.264 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-11-09 21:11:47.326 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:11:47.578 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:13:25.103 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:13:25.155 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=24)
+2026-11-09 21:13:25.255 | ato_departure            | resolved=1/1
+2026-11-09 21:13:28.407 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:13:28.408 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:13:28.409 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:13:28.410 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:13:28.410 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:13:28.418 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=52 hash=a7754200
+2026-11-09 21:13:43.237 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:13:43.286 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=24)
+2026-11-09 21:13:43.410 | ato_departure            | resolved=1/1
+2026-11-09 21:13:46.348 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:13:46.348 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:13:46.350 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:13:46.374 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:13:46.375 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:13:46.392 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=52 hash=a7754200
+2026-11-09 21:13:46.541 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:13:46.564 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:13:46.566 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:13:46.568 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:13:46.569 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:13:46.570 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:13:46.571 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:13:46.572 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:13:46.598 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:13:46.604 | friendly_air_defense     | pkg=3183 ref=stpt sites=5 combat_wp=0 aoo_wp=0 covering=0 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=234 alt_ft=22000
+2026-11-09 21:13:46.605 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok buddies=0 (Copper 1: no hot WPT detected (no AOO action on the reference flight — escort/tanker/AWACS/ferry have none))
+2026-11-09 21:13:46.606 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:13:46.607 | briefing_context         | package_route_sketch flights=1 points=6
+2026-11-09 21:13:46.607 | briefing_context         | ordnance vu=20010 aircraft=1 pending=False
+2026-11-09 21:13:46.650 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:13:46.668 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:13:46.669 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:13:46.895 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:13:47.274 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:13:47.322 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=24)
+2026-11-09 21:13:51.051 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:13:51.053 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:13:51.057 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:13:51.073 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:13:51.073 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:13:51.089 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=52 hash=a7754200
+2026-11-09 21:13:51.343 | airport_diagrams         | taxi surfaces=105 terrains en raster | repli K-NN : 0 sans mesh CT30, 2 sous-couvrants
+2026-11-09 21:13:51.343 | airport_diagrams         |   CT30 sous-couvrant : LYSJ, Mattarello Airport
+2026-11-09 21:13:51.734 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:13:51.736 | campaign_overview        | system_marks=0
+2026-11-09 21:13:52.075 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:13:52.107 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:13:52.108 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:13:52.109 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:13:52.110 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:13:52.111 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:13:52.112 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:13:52.112 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:13:52.142 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:13:52.156 | friendly_air_defense     | pkg=3183 ref=stpt sites=5 combat_wp=0 aoo_wp=0 covering=0 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=234 alt_ft=22000
+2026-11-09 21:13:52.157 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok buddies=0 (Copper 1: no hot WPT detected (no AOO action on the reference flight — escort/tanker/AWACS/ferry have none))
+2026-11-09 21:13:52.158 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:13:52.159 | briefing_context         | package_route_sketch flights=1 points=6
+2026-11-09 21:13:52.159 | briefing_context         | ordnance vu=20010 aircraft=1 pending=False
+2026-11-09 21:13:52.228 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:13:52.257 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:13:52.259 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:13:52.281 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:13:52.359 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-11-09 21:13:52.792 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:14:21.162 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:14:21.203 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=24)
+2026-11-09 21:14:23.981 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:14:23.981 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:14:23.982 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:14:23.983 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:14:23.983 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:14:23.992 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=52 hash=a7754200
+2026-11-09 21:15:31.107 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:15:31.508 | ato_departure            | resolved=1/1
+2026-11-09 21:15:31.531 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=24)
+2026-11-09 21:15:34.636 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:15:34.637 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:15:34.638 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:15:34.639 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:15:34.639 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:15:34.647 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=52 hash=a7754200
+2026-11-09 21:15:35.821 | online                   | seat Mav29=vu20010/s0
+2026-11-09 21:15:35.822 | online                   | seat_the_host Mav29 vu=20010 seat=0
+2026-11-09 21:15:35.833 | ato_departure            | resolved=1/1
+2026-11-09 21:15:35.899 | session_base             | freeze Balkans COMAO 4.tac -> C:\Users\Utilisateur\AppData\Roaming\FBB\session_base\Balkans COMAO 4.tac
+2026-11-09 21:15:35.899 | online                   | start_server port=45380
+2026-11-09 21:15:35.908 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:15:39.161 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:15:40.903 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:15:40.904 | export_copy              | version -> v1
+2026-11-09 21:15:44.172 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:15:45.906 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:15:46.286 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:15:46.600 | ato_departure            | resolved=1/1
+2026-11-09 21:15:46.721 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=24)
+2026-11-09 21:15:50.136 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:15:50.149 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:15:50.150 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:15:50.161 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:15:50.162 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:15:50.185 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:15:50.187 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:15:50.189 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:15:50.191 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:15:50.191 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:15:50.195 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:15:50.203 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=52 hash=a7754200
+2026-11-09 21:15:50.211 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:15:50.212 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:15:50.212 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:15:50.234 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:15:50.241 | friendly_air_defense     | pkg=3183 ref=stpt sites=5 combat_wp=0 aoo_wp=0 covering=0 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=234 alt_ft=22000
+2026-11-09 21:15:50.242 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok buddies=0 (Copper 1: no hot WPT detected (no AOO action on the reference flight — escort/tanker/AWACS/ferry have none))
+2026-11-09 21:15:50.244 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:15:50.244 | briefing_context         | package_route_sketch flights=1 points=6
+2026-11-09 21:15:50.244 | briefing_context         | ordnance vu=20010 aircraft=1 pending=False
+2026-11-09 21:15:50.623 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:15:50.642 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:15:50.642 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:15:50.819 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:15:50.914 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:15:51.192 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:15:51.211 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:15:51.298 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=24)
+2026-11-09 21:15:54.712 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:15:54.720 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:15:54.721 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:15:54.723 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:15:54.743 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:15:54.743 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:15:54.760 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=52 hash=a7754200
+2026-11-09 21:15:55.359 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:15:55.501 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:15:55.516 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:15:55.517 | campaign_overview        | system_marks=0
+2026-11-09 21:15:55.528 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:15:56.046 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:15:56.159 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:15:56.173 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-11-09 21:15:56.195 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:15:56.197 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:15:56.199 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:15:56.223 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:15:56.225 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:15:56.225 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:15:56.226 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:15:56.245 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:15:56.258 | friendly_air_defense     | pkg=3183 ref=stpt sites=5 combat_wp=0 aoo_wp=0 covering=0 nearby=1 shown=1 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=234 alt_ft=22000
+2026-11-09 21:15:56.259 | briefing_context         | roster_support flights=1 tanker=True awacs=True friendly_ad=ok buddies=0 (Copper 1: no hot WPT detected (no AOO action on the reference flight — escort/tanker/AWACS/ferry have none))
+2026-11-09 21:15:56.260 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:15:56.261 | briefing_context         | package_route_sketch flights=1 points=6
+2026-11-09 21:15:56.261 | briefing_context         | ordnance vu=20010 aircraft=1 pending=False
+2026-11-09 21:15:56.681 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:15:56.704 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:15:56.705 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:15:56.729 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:15:56.933 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:15:57.732 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:15:58.003 | airport_diagrams         | taxi surfaces=105 terrains en raster | repli K-NN : 0 sans mesh CT30, 2 sous-couvrants
+2026-11-09 21:15:58.004 | airport_diagrams         |   CT30 sous-couvrant : LYSJ, Mattarello Airport
+2026-11-09 21:16:00.373 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:16:00.754 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:16:01.064 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:16:03.789 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:16:05.385 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:16:06.067 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:16:10.402 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:16:11.070 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:16:15.418 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:16:16.073 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:16:20.438 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:16:21.076 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:16:25.444 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:16:26.078 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:16:27.500 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-11-09 21:16:27.716 | roaster.data             | fetch
+2026-11-09 21:16:27.735 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:16:27.738 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:16:27.739 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:16:27.740 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:16:27.741 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:16:27.741 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:16:27.742 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:16:27.742 | roaster.data             | ok — 1 flights, axis=None°, noms=session
+2026-11-09 21:16:27.765 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:16:30.454 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:16:31.081 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:16:35.466 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:16:36.083 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:16:40.471 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:16:41.086 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:16:45.477 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:16:46.088 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:16:50.487 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:16:51.091 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:16:55.504 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:16:56.093 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:16:57.890 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-11-09 21:17:00.521 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:17:01.095 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:17:05.639 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:17:06.127 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:17:06.141 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-11-09 21:17:06.240 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:17:06.242 | campaign_overview        | system_marks=0
+2026-11-09 21:17:06.439 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=24)
+2026-11-09 21:17:06.467 | timeline_data            | pkgs=11 flights=19 my_pkg=3183 my_vu=20010 buddies=0
+2026-11-09 21:17:06.474 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:17:06.474 | timeline_support         | tanker: vu=20010 source=bms in_payload=True
+2026-11-09 21:17:06.474 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:17:06.474 | timeline_support         | awacs: vu=20006 source=cam in_payload=True
+2026-11-09 21:17:07.687 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-11-09 21:17:09.288 | briefing_context         | package_overview flights=1 route_points=5 focus_points=2 unique_points=5
+2026-11-09 21:17:09.535 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:17:09.537 | campaign_overview        | system_marks=0
+2026-11-09 21:17:09.549 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:17:09.561 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:17:09.574 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:17:09.620 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:17:09.621 | campaign_overview        | system_marks=0
+2026-11-09 21:17:09.628 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:17:09.669 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:17:09.738 | package_relevance        | package_routes pkg=3183 flights=1 routes=1 points=6
+2026-11-09 21:17:10.954 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:17:11.146 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:17:15.972 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:17:16.149 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:17:20.987 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:17:21.152 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:17:21.971 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:17:21.971 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:17:21.973 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:17:21.976 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:17:21.976 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:17:21.977 | package_comm_plan        | build_package_comm_plan: nets=5 intras=1
+2026-11-09 21:17:26.000 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:17:26.154 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:17:31.007 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:17:31.156 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:17:36.020 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:17:36.159 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:17:37.694 | divert_runtime           | package_diverts pkg=3183 flights=1 resolved=1 airfields=8 top=None
+2026-11-09 21:17:41.041 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:17:41.162 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:17:46.053 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:17:46.165 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:17:51.059 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:17:51.167 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:17:56.070 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:17:56.170 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:17:57.277 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:17:57.538 | ato_departure            | resolved=1/1
+2026-11-09 21:17:57.654 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=24)
+2026-11-09 21:18:00.420 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:18:00.420 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:18:00.421 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:18:00.422 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:18:00.422 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:18:00.429 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=52 hash=a7754200
+2026-11-09 21:18:01.087 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:18:01.173 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:18:06.101 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:18:06.175 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:18:11.118 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:18:11.178 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:18:16.132 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:18:16.180 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:18:21.145 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:18:21.182 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:18:26.153 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:18:26.185 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:18:31.163 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:18:31.187 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:18:36.169 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:18:36.189 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:18:41.186 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:18:41.192 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:18:46.195 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:18:46.200 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:18:51.197 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:18:51.220 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:18:53.338 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:18:54.228 | ato_departure            | resolved=1/1
+2026-11-09 21:18:54.450 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=24)
+2026-11-09 21:18:56.366 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:18:56.369 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:18:57.771 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:18:57.771 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:18:57.772 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:18:57.773 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:18:57.774 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:18:57.790 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=52 hash=a7754200
+2026-11-09 21:19:01.569 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:19:01.597 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:19:06.574 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:19:06.600 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:19:11.582 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:19:11.603 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:19:16.598 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:19:16.606 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:19:21.608 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:19:21.615 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:19:26.611 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:19:26.623 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:19:31.613 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:19:31.635 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:19:36.616 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:19:36.646 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:19:41.619 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:19:41.652 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:19:46.622 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:19:46.667 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:19:51.625 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:19:51.676 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:19:55.377 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:19:56.033 | ato_departure            | resolved=1/1
+2026-11-09 21:19:56.036 | loadout_pylons           | non resolu : aucune option de pylone (veh_ct=24)
+2026-11-09 21:19:56.826 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:19:56.827 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:19:57.986 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:19:58.816 | ato_departure            | resolved=17/19
+2026-11-09 21:19:58.823 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:19:58.825 | ato_aircraft_details     | vu=20007 aircraft=2 details=2
+2026-11-09 21:19:58.827 | ato_target               | resolved id=20009 target=Fighter
+2026-11-09 21:19:58.827 | ato_aircraft_details     | vu=20013 aircraft=4 details=4
+2026-11-09 21:19:58.829 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:19:58.829 | mission_support          | awacs: cam pkg=3183 vu=20006
+2026-11-09 21:19:58.830 | mission_support          | tanker: bms nearest vu=20010
+2026-11-09 21:19:58.830 | ato_target               | resolved id=20009 target=Fighter
+2026-11-09 21:19:58.831 | ato_aircraft_details     | vu=20015 aircraft=4 details=4
+2026-11-09 21:19:58.832 | ato_target               | resolved id=20009 target=Fighter
+2026-11-09 21:19:58.833 | ato_aircraft_details     | vu=20019 aircraft=2 details=2
+2026-11-09 21:19:58.834 | ato_target               | resolved id=8013 target=Air Defense
+2026-11-09 21:19:58.835 | ato_aircraft_details     | vu=20012 aircraft=4 details=4
+2026-11-09 21:19:58.836 | ato_target               | resolved id=8013 target=Air Defense
+2026-11-09 21:19:58.836 | ato_target               | resolved id=2625 target=Brindisi Port
+2026-11-09 21:19:58.836 | ato_aircraft_details     | vu=20017 aircraft=4 details=4
+2026-11-09 21:19:58.838 | ato_target               | resolved id=310 target=Locorotondo Chemical Plant
+2026-11-09 21:19:58.838 | ato_aircraft_details     | vu=20016 aircraft=4 details=4
+2026-11-09 21:19:58.839 | ato_target               | resolved id=2625 target=Brindisi Port
+2026-11-09 21:19:58.840 | ato_aircraft_details     | vu=20006 aircraft=1 details=1
+2026-11-09 21:19:58.839 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:19:58.840 | package_comms            | tactical ch=6 primary=Copper 1 uhf=275.175
+2026-11-09 21:19:58.843 | ato_aircraft_details     | vu=20010 aircraft=1 details=1
+2026-11-09 21:19:58.850 | ato_aircraft_details     | vu=20025 aircraft=1 details=1
+2026-11-09 21:19:58.850 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=52 hash=a7754200
+2026-11-09 21:19:58.858 | ato_target               | resolved id=53 target=Galatina Airbase (LIBN)
+2026-11-09 21:19:58.859 | ato_aircraft_details     | vu=20011 aircraft=4 details=4
+2026-11-09 21:19:58.861 | ato_target               | resolved id=17 target=Casale Airbase (LIBR)
+2026-11-09 21:19:58.861 | ato_aircraft_details     | vu=20014 aircraft=4 details=4
+2026-11-09 21:19:58.863 | ato_target               | resolved id=53 target=Galatina Airbase (LIBN)
+2026-11-09 21:19:58.863 | ato_aircraft_details     | vu=20018 aircraft=4 details=4
+2026-11-09 21:20:01.169 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:20:02.010 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:20:02.280 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:20:04.182 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:20:07.012 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:20:07.195 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:20:07.291 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:20:10.201 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:20:12.014 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:20:12.302 | online                   | flight_occupancy flights=1 connected=1 pkg=3183
+2026-11-09 21:20:12.550 | online                   | seat Mav29=vu20015/s0
+2026-11-09 21:20:12.551 | online                   | seat_the_host Mav29 vu=20015 seat=0
+2026-11-09 21:20:12.555 | online                   | reseat_host désignation ★ Mon Vol {'vu': 20010, 'seat': 0, 'flight': 'Copper 1', 'key': 'c:3184'} -> {'vu': 20015, 'seat': 0, 'flight': 'Bulldog 2', 'key': 'c:3109'}
+2026-11-09 21:20:12.570 | ato_departure            | resolved=5/5
+2026-11-09 21:20:12.585 | ato_target               | resolved id=53 target=Galatina Airbase (LIBN)
+2026-11-09 21:20:12.592 | ato_target               | resolved id=20009 target=Fighter
+2026-11-09 21:20:12.594 | mission_support          | tanker: cam pkg=3185 vu=20010
+2026-11-09 21:20:12.610 | online                   | flight_occupancy flights=5 connected=1 pkg=3185
+2026-11-09 21:20:12.615 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:20:12.617 | mission_support          | tanker: cam pkg=3185 vu=20010
+2026-11-09 21:20:12.618 | mission_support          | awacs: cam pkg=3185 vu=20006
+2026-11-09 21:20:12.621 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:20:12.622 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:20:12.622 | package_comms            | tactical ch=6 primary=Viper 1 uhf=227.225
+2026-11-09 21:20:12.623 | mission_support          | awacs: cam pkg=3185 vu=20006
+2026-11-09 21:20:12.647 | package_relevance        | package_routes pkg=3185 flights=5 routes=5 points=50
+2026-11-09 21:20:12.660 | friendly_air_defense     | pkg=3185 ref=stpt sites=5 combat_wp=10 aoo_wp=0 covering=0 nearby=2 shown=2 blocked_cov=None sans_type=0 sans_portee=0 ppt_types=234 alt_ft=28000
+2026-11-09 21:20:12.726 | briefing_context         | roster_support flights=5 tanker=True awacs=True friendly_ad=ok buddies=3
+2026-11-09 21:20:13.194 | package_relevance        | package_routes pkg=3185 flights=5 routes=5 points=50
+2026-11-09 21:20:13.194 | briefing_context         | package_route_sketch flights=5 points=50
+2026-11-09 21:20:13.195 | briefing_context         | ordnance vu=20015 aircraft=4 pending=False
+2026-11-09 21:20:13.226 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:20:13.320 | online                   | flight_occupancy flights=5 connected=1 pkg=3185
+2026-11-09 21:20:16.483 | campaign_overview        | built team=2 conditions=0 force_rows=7
+2026-11-09 21:20:16.497 | online                   | flight_occupancy flights=5 connected=1 pkg=3185
+2026-11-09 21:20:17.194 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:20:17.270 | online                   | seat Mav29=vu20015/s0
+2026-11-09 21:20:17.271 | online                   | seat_the_host Mav29 vu=20015 seat=0
+2026-11-09 21:20:17.274 | online                   | perimetre 3183 -> 3185
+2026-11-09 21:20:17.289 | mission_support          | awacs: cam pkg=3185 vu=20006
+2026-11-09 21:20:17.291 | mission_support          | tanker: cam pkg=3185 vu=20010
+2026-11-09 21:20:17.303 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:20:17.313 | online                   | flight_occupancy flights=5 connected=1 pkg=3185
+2026-11-09 21:20:17.325 | ato_departure            | resolved=5/5
+2026-11-09 21:20:17.368 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:20:17.446 | fuel_plan                | avail=12194 atTurn=9045 bingo=3700 joker=4200 rtb=1546 margin=5345 GO
+2026-11-09 21:20:17.448 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-11-09 21:20:17.452 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:20:17.452 | mission_support          | awacs: cam pkg=3185 vu=20006
+2026-11-09 21:20:17.453 | mission_support          | tanker: cam pkg=3185 vu=20010
+2026-11-09 21:20:17.454 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:20:17.454 | package_comms            | tactical ch=6 primary=Viper 1 uhf=227.225
+2026-11-09 21:20:17.462 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=83 hash=a7754200
+2026-11-09 21:20:17.776 | fuel_plan                | avail=12194 atTurn=9045 bingo=3700 joker=4200 rtb=1546 margin=5345 GO
+2026-11-09 21:20:17.779 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-11-09 21:20:17.783 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:20:17.784 | mission_support          | awacs: cam pkg=3185 vu=20006
+2026-11-09 21:20:17.785 | mission_support          | tanker: cam pkg=3185 vu=20010
+2026-11-09 21:20:17.785 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:20:17.786 | package_comms            | tactical ch=6 primary=Viper 1 uhf=227.225
+2026-11-09 21:20:17.795 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=83 hash=a7754200
+2026-11-09 21:20:19.702 | online                   | flight_occupancy flights=5 connected=1 pkg=3185
+2026-11-09 21:20:22.276 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:20:22.385 | online                   | flight_occupancy flights=5 connected=1 pkg=3185
+2026-11-09 21:20:22.713 | online                   | flight_occupancy flights=5 connected=1 pkg=3185
+2026-11-09 21:20:25.735 | online                   | flight_occupancy flights=5 connected=1 pkg=3185
+2026-11-09 21:20:27.278 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:20:27.400 | online                   | flight_occupancy flights=5 connected=1 pkg=3185
+2026-11-09 21:20:28.742 | online                   | flight_occupancy flights=5 connected=1 pkg=3185
+2026-11-09 21:20:31.752 | online                   | flight_occupancy flights=5 connected=1 pkg=3185
+2026-11-09 21:20:31.962 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:20:32.240 | ato_departure            | resolved=5/5
+2026-11-09 21:20:32.337 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:20:32.468 | online                   | flight_occupancy flights=5 connected=1 pkg=3185
+2026-11-09 21:20:32.473 | fuel_plan                | avail=12194 atTurn=9045 bingo=3700 joker=4200 rtb=1546 margin=5345 GO
+2026-11-09 21:20:32.475 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-11-09 21:20:32.480 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:20:32.480 | mission_support          | awacs: cam pkg=3185 vu=20006
+2026-11-09 21:20:32.481 | mission_support          | tanker: cam pkg=3185 vu=20010
+2026-11-09 21:20:32.481 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:20:32.482 | package_comms            | tactical ch=6 primary=Viper 1 uhf=227.225
+2026-11-09 21:20:32.492 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=83 hash=a7754200
+2026-11-09 21:20:34.723 | online                   | stop_server
+2026-11-09 21:20:37.492 | ato_departure            | resolved=5/5
+2026-11-09 21:20:38.128 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:20:38.381 | ato_departure            | resolved=5/5
+2026-11-09 21:20:38.666 | fuel_plan                | avail=12194 atTurn=9045 bingo=3700 joker=4200 rtb=1546 margin=5345 GO
+2026-11-09 21:20:38.668 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-11-09 21:20:38.671 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:20:38.671 | mission_support          | awacs: cam pkg=3185 vu=20006
+2026-11-09 21:20:38.672 | mission_support          | tanker: cam pkg=3185 vu=20010
+2026-11-09 21:20:38.673 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:20:38.673 | package_comms            | tactical ch=6 primary=Viper 1 uhf=227.225
+2026-11-09 21:20:38.680 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=83 hash=a7754200
+2026-11-09 21:20:42.734 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:20:43.025 | ato_departure            | resolved=5/5
+2026-11-09 21:20:43.293 | fuel_plan                | avail=12194 atTurn=9045 bingo=3700 joker=4200 rtb=1546 margin=5345 GO
+2026-11-09 21:20:43.295 | link16_fill              | package=10 (-0) buddies=1 (-0)
+2026-11-09 21:20:43.298 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:20:43.299 | mission_support          | awacs: cam pkg=3185 vu=20006
+2026-11-09 21:20:43.300 | mission_support          | tanker: cam pkg=3185 vu=20010
+2026-11-09 21:20:43.301 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Add-On Balkans\Campaign\radiomap.dat entries=1530 (campaigndir)
+2026-11-09 21:20:43.301 | package_comms            | tactical ch=6 primary=Viper 1 uhf=227.225
+2026-11-09 21:20:43.309 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=11 n_dpi=8 n_divert=3 n_sections=83 hash=a7754200
