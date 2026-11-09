@@ -1,0 +1,54 @@
+2026-11-09 21:25:31.268 | ========================================================================
+2026-11-09 21:25:31.268 | startup                  | FBB 1.100.0 — session 2026-11-09 21:25:31
+2026-11-09 21:25:31.268 | startup                  | Répertoire : D:\FBB\_internal
+2026-11-09 21:25:31.268 | startup                  | Python 3.14.5
+2026-11-09 21:25:31.268 | ========================================================================
+2026-11-09 21:25:31.269 | system                   | OS : Windows 11 10.0.26300, AMD64, 12 CPU, RAM 32 GB
+2026-11-09 21:25:31.283 | system                   | Machine : <masqué> / Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+2026-11-09 21:25:31.283 | registry                 | BMS baseDir : C:\Falcon BMS 4.38
+2026-11-09 21:25:31.284 | registry                 | BMS theater : Korea KTO  pilot : Mav29
+2026-11-09 21:25:31.583 | mc_state                 | module chargé — prédicat MC unique (#222)
+2026-11-09 21:25:35.091 | telemetry                | ping OK v1.100.0 Windows 11 canal=prod → HTTP 200
+2026-11-09 21:25:36.752 | parse_health             | Debut_campagne1.cam: records 1016/1016, bytes 438674/438674, rejects=0, exc=0, constr_err=0, first_desync=None
+2026-11-09 21:25:37.656 | dtc_mfd                  | event=read path=Mav29.ini mtime=2026-11-08 17:15:52 mfd=47/96
+2026-11-09 21:25:38.722 | ato_departure            | resolved=1/1
+2026-11-09 21:25:43.109 | ato_departure            | resolved=1/1
+2026-11-09 21:25:43.631 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:25:45.634 | fuel_plan                | avail=12194 atTurn=9363 bingo=3400 joker=3900 rtb=1076 margin=5963 GO
+2026-11-09 21:25:46.236 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-11-09 21:25:46.261 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-09 21:25:46.264 | mission_support          | awacs: bms nearest vu=20161
+2026-11-09 21:25:48.830 | mission_support          | tanker: bms nearest vu=20150
+2026-11-09 21:25:48.833 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-09 21:25:48.833 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-09 21:25:48.860 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=1 n_dpi=8 n_divert=3 n_sections=4 hash=a7754200
+2026-11-09 21:27:01.992 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:27:02.509 | fuel_plan                | avail=12194 atTurn=9363 bingo=3400 joker=3900 rtb=1076 margin=5963 GO
+2026-11-09 21:27:02.513 | link16_fill              | package=0 (-0) buddies=0 (-0)
+2026-11-09 21:27:02.518 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-09 21:27:02.521 | mission_support          | awacs: bms nearest vu=20161
+2026-11-09 21:27:02.524 | mission_support          | tanker: bms nearest vu=20150
+2026-11-09 21:27:02.526 | radiomap_service         | radiomap path=C:\Falcon BMS 4.38\Data\Campaign\RadioMap.dat entries=1530 (campaigndir)
+2026-11-09 21:27:02.526 | package_comms            | tactical ch=6 primary=Falcon 1 uhf=358.700
+2026-11-09 21:27:02.535 | dtc_render               | path=Mav29.ini n_stpt=24 n_lines=17 n_ppt=1 n_dpi=8 n_divert=3 n_sections=4 hash=a7754200
+2026-11-09 21:27:02.551 | ato_departure            | resolved=1/1
+2026-11-09 21:28:00.941 | online                   | peek_roster 82.64.63.33:45380 start (suggested=Mav29)
+2026-11-09 21:28:13.139 | online                   | peek_roster 82.64.63.33:45380 timeout: Timeout — pas de réponse du host
+2026-11-09 21:28:48.189 | online                   | peek_roster 82.64.63.33:45380 start (suggested=Mav29)
+2026-11-09 21:29:00.215 | online                   | peek_roster 82.64.63.33:45380 timeout: Timeout — pas de réponse du host
+2026-11-09 21:29:07.841 | online                   | connect_client 82.64.63.33:45380 as Mav29
+2026-11-09 21:29:07.854 | ato_departure            | resolved=1/1
+2026-11-09 21:29:09.278 | online                   | flight_occupancy flights=1 connected=1 pkg=7014
+2026-11-09 21:29:14.286 | online                   | flight_occupancy flights=1 connected=1 pkg=7014
+2026-11-09 21:29:19.294 | online                   | flight_occupancy flights=1 connected=1 pkg=7014
+2026-11-09 21:29:24.311 | online                   | flight_occupancy flights=1 connected=1 pkg=7014
+2026-11-09 21:29:29.326 | online                   | flight_occupancy flights=1 connected=1 pkg=7014
+2026-11-09 21:29:34.340 | online                   | flight_occupancy flights=1 connected=1 pkg=7014
+2026-11-09 21:29:39.354 | online                   | flight_occupancy flights=1 connected=1 pkg=7014
+2026-11-09 21:29:44.361 | online                   | flight_occupancy flights=1 connected=1 pkg=7014
+2026-11-09 21:29:47.276 | online                   | disconnect_client
+2026-11-09 21:29:47.471 | ato_departure            | resolved=1/1
+2026-11-09 21:29:47.521 | swap_context             | origin=select_cam:previous cam='opération dragon céleste.tac' loaded=True err="Erreur de chargement : 'ascii' codec can't decode byte 0xe9 "
+2026-11-09 21:29:47.930 | campaign_mods            | {'fpln': 0, 'loadout': 0, 'laser': 0, 'bullseye': 0, 'deletes': 0, 'packages': 0} sig=-
+2026-11-09 21:29:50.773 | online                   | peek_roster 82.64.63.33:45380 start (suggested=Mav29)
+2026-11-09 21:30:02.964 | online                   | peek_roster 82.64.63.33:45380 timeout: Timeout — pas de réponse du host
