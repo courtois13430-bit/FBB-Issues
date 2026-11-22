@@ -1,0 +1,22 @@
+2026-11-22 21:10:12.277 | ========================================================================
+2026-11-22 21:10:12.277 | FBB Online  mode=CLIENT    identity=Vince             port=45380
+2026-11-22 21:10:12.277 | Session : 2026-11-22 21:10:12
+2026-11-22 21:10:12.277 | ========================================================================
+2026-11-22 21:10:12.277 | [STATE] _client none -> NetworkClient#25ee26b3750 | cause=connect_client
+2026-11-22 21:10:12.278 | [STATE] _mode idle -> client | cause=connect_client
+2026-11-22 21:10:12.278 | [STATE] _my_callsign (vide) -> Vince | cause=connect_client
+2026-11-22 21:10:12.280 | [CLIENT] status → connecting
+2026-11-22 21:10:12.281 | [STATE] reset online | cause=connect_client | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt, debrief_presenter
+2026-11-22 21:10:12.282 | [CLIENT] Connexion → 82.64.199.133:45380 (callsign=Vince)
+2026-11-22 21:10:12.368 | [CLIENT] status → connected
+2026-11-22 21:10:13.391 | [SESSION] rejointe — hôte Obe1, déjà présent(s) : Mandrak, Benco
+2026-11-22 21:10:13.391 | [THEATER] ✖ Connexion refusée — le host diffuse « LKTO 4.38 - Mike », absent de cette installation BMS
+2026-11-22 21:10:13.391 | [CLIENT] status → error:théâtre requis absent — LKTO 4.38 - Mike
+2026-11-22 21:10:13.420 | [CLIENT] Connexion perdue — code=None (aucun code — la socket n'a jamais été fermée proprement) | last_seq=0 | session tenue 1 s
+2026-11-22 21:10:13.519 | [CLIENT] status → disconnected
+2026-11-22 21:10:13.519 | [STATE] _client NetworkClient#25ee26b3750 -> none | cause=resync_client_thread_dead
+2026-11-22 21:10:13.519 | [STATE] _mode client -> idle | cause=resync_client_thread_dead
+2026-11-22 21:10:13.519 | [STATE] _my_callsign Vince -> (vide) | cause=resync_client_thread_dead
+2026-11-22 21:10:13.520 | [STATE] reset online | cause=resync_client_thread_dead | efface=bms_host(+auto), session_roles, session_seats, theater_ok, host_theater, divert_by_flight, comm_overrides, mc_layer, mc_submissions, briefing_session, reconnecting, online_cam_path, online_brief_path, online_seat, mc, ba_state(phases/sessions/ready), session_host_callsign, pending_send, pending_recv, rtt, debrief_presenter
+2026-11-22 21:10:13.520 | ========================================================================
+2026-11-22 21:10:13.520 | FBB Online — session terminée | cause=resync client — thread réseau du client de session arrêté hors disconnect_client
